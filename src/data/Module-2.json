@@ -1,0 +1,1037 @@
+{
+  "Module-2": {
+    "title": "Using Windows Operating System",
+    "submodules": {
+      "hardware_basics": {
+        "title": "Hardware Basics",
+        "questions": [
+          {
+            "question": "What are the physical units of a computer called?",
+            "options": ["Software", "Hardware", "Firmware", "Shareware"],
+            "answer": "Hardware"
+          },
+          {
+            "question": "Which of the following is an internal hardware component?",
+            "options": ["Keyboard", "Monitor", "RAM", "Printer"],
+            "answer": "RAM"
+          },
+          {
+            "question": "Which component is considered the heart of the computer?",
+            "options": ["Motherboard", "RAM", "CPU", "Hard Drive"],
+            "answer": "CPU"
+          },
+          {
+            "question": "What does CPU stand for?",
+            "options": ["Central Peripheral Unit", "Central Processing Unit", "Computer Processing Unit", "Central Performance Unit"],
+            "answer": "Central Processing Unit"
+          },
+          {
+            "question": "Which of the following is NOT an internal hardware component?",
+            "options": ["Hard drive", "Sound card", "Printer", "Video card"],
+            "answer": "Printer"
+          },
+          {
+            "question": "Which of the following is an external hardware example?",
+            "options": ["RAM", "CPU", "Mouse", "Motherboard"],
+            "answer": "Mouse"
+          },
+          {
+            "question": "Which port is used for connecting a keyboard or mouse in older systems?",
+            "options": ["USB", "VGA", "PS/2", "LAN"],
+            "answer": "PS/2"
+          },
+          {
+            "question": "What color is the PS/2 connector for the keyboard?",
+            "options": ["Green", "Blue", "Purple", "Black"],
+            "answer": "Purple"
+          },
+          {
+            "question": "What color is the PS/2 connector for the mouse?",
+            "options": ["Green", "Red", "Yellow", "Purple"],
+            "answer": "Green"
+          },
+          {
+            "question": "Which connector type is rectangular and widely used for connecting devices like cameras and scanners?",
+            "options": ["VGA", "LAN", "USB", "Serial"],
+            "answer": "USB"
+          },
+          {
+            "question": "Which port allows data transfer bit by bit?",
+            "options": ["USB", "VGA", "Serial", "Parallel"],
+            "answer": "Serial"
+          },
+          {
+            "question": "Which port allows simultaneous transfer of all eight bits?",
+            "options": ["USB", "Parallel", "Serial", "Audio"],
+            "answer": "Parallel"
+          },
+          {
+            "question": "Which of these is a D-type connector?",
+            "options": ["USB-A", "DB-25M", "PS/2", "RJ-45"],
+            "answer": "DB-25M"
+          },
+          {
+            "question": "Which port is commonly used to connect monitors?",
+            "options": ["Audio", "VGA", "PS/2", "USB"],
+            "answer": "VGA"
+          },
+          {
+            "question": "Which port is used for network connections?",
+            "options": ["Serial", "VGA", "LAN", "Audio"],
+            "answer": "LAN"
+          },
+          {
+            "question": "Which port is used to connect speakers or headphones?",
+            "options": ["VGA", "USB", "Audio", "Serial"],
+            "answer": "Audio"
+          },
+          {
+            "question": "What is the full form of SMPS?",
+            "options": ["Standard Motherboard Power Supply", "Switch Mode Power Supply", "System Management Power Supply", "Small Motherboard Power System"],
+            "answer": "Switch Mode Power Supply"
+          },
+          {
+            "question": "Which port is labeled as DB-15F?",
+            "options": ["Audio", "Video", "VGA", "USB"],
+            "answer": "VGA"
+          },
+          {
+            "question": "Which port is specifically mentioned as color-coded?",
+            "options": ["USB", "Serial", "PS/2", "VGA"],
+            "answer": "PS/2"
+          },
+          {
+            "question": "What is one key feature of USB ports?",
+            "options": ["Only one device can be connected", "Devices must be restarted to reconnect", "Hot-swappable", "Data transfers bit-by-bit"],
+            "answer": "Hot-swappable"
+          },
+          {
+            "question": "Which of these is not a feature of USB?",
+            "options": ["Hot-swappable", "Easy recognition", "Requires system restart", "Used for cameras"],
+            "answer": "Requires system restart"
+          },
+          {
+            "question": "Which connector is described as easily recognizable due to its shape?",
+            "options": ["PS/2", "USB", "VGA", "Serial"],
+            "answer": "USB"
+          },
+          {
+            "question": "Which component is responsible for arithmetic and logic operations?",
+            "options": ["RAM", "Motherboard", "CPU", "SMPS"],
+            "answer": "CPU"
+          },
+          {
+            "question": "How should connectors be plugged in?",
+            "options": ["Forcefully", "Quickly", "Gently and correctly aligned", "Using tools"],
+            "answer": "Gently and correctly aligned"
+          },
+          {
+            "question": "What may happen if the connector is forced into the port?",
+            "options": ["It will work faster", "It will break the system", "It may bend the pins", "It will shut down"],
+            "answer": "It may bend the pins"
+          },
+          {
+            "question": "Which port is described as DB-9M?",
+            "options": ["VGA", "Serial", "Audio", "USB"],
+            "answer": "Serial"
+          },
+          {
+            "question": "Which port uses DB-25M connectors?",
+            "options": ["Parallel", "Serial", "LAN", "USB"],
+            "answer": "Parallel"
+          },
+          {
+            "question": "Which hardware part stores data permanently?",
+            "options": ["RAM", "CPU", "Hard drive", "Motherboard"],
+            "answer": "Hard drive"
+          },
+          {
+            "question": "Which device is considered input hardware?",
+            "options": ["Monitor", "Printer", "Mouse", "RAM"],
+            "answer": "Mouse"
+          },
+          {
+            "question": "Which external hardware helps display the output visually?",
+            "options": ["Scanner", "Monitor", "Mouse", "Keyboard"],
+            "answer": "Monitor"
+          },
+          {
+            "question": "Which type of port is used to connect old printers?",
+            "options": ["USB", "Serial", "Parallel", "Audio"],
+            "answer": "Parallel"
+          },
+          {
+            "question": "What does the abbreviation 'ALU' in CPU & ALU stand for?",
+            "options": ["Advanced Logic Unit", "Arithmetic Logic Unit", "Analog Logic Unit", "Arithmetic Logical Unit"],
+            "answer": "Arithmetic Logic Unit"
+          },
+          {
+            "question": "What is the function of a port on a computer?",
+            "options": ["Storing data", "Processing instructions", "Connecting external devices", "Displaying output"],
+            "answer": "Connecting external devices"
+          },
+          {
+            "question": "Which component connects the processor to other hardware?",
+            "options": ["Sound card", "Hard disk", "Motherboard", "RAM"],
+            "answer": "Motherboard"
+          },
+          {
+            "question": "Which of the following is used for temporary memory?",
+            "options": ["RAM", "ROM", "CPU", "Monitor"],
+            "answer": "RAM"
+          },
+          {
+            "question": "What kind of devices connect using the LAN port?",
+            "options": ["Audio devices", "Printers", "Network cables", "Monitors"],
+            "answer": "Network cables"
+          },
+          {
+            "question": "What type of connector is DB-15F?",
+            "options": ["PS/2", "VGA", "USB", "Audio"],
+            "answer": "VGA"
+          },
+          {
+            "question": "Which type of connector is used for PS/2 ports?",
+            "options": ["Rectangular", "Round", "Square", "Flat"],
+            "answer": "Round"
+          },
+          {
+            "question": "What does 'DB' in DB-25M stand for?",
+            "options": ["Dual Block", "Data Block", "D-subminiature", "Drive Bay"],
+            "answer": "D-subminiature"
+          },
+          {
+            "question": "Which port in Fig 1 is used to attach audio devices?",
+            "options": ["LAN port", "Serial port", "Audio port", "USB port"],
+            "answer": "Audio port"
+          },
+          {
+            "question": "Which component powers the motherboard and devices?",
+            "options": ["RAM", "SMPS", "CPU", "Scanner"],
+            "answer": "SMPS"
+          },
+          {
+            "question": "Which component interprets and executes instructions?",
+            "options": ["RAM", "CPU", "Hard Disk", "Monitor"],
+            "answer": "CPU"
+          },
+          {
+            "question": "Which of the following hardware is NOT directly involved in computation?",
+            "options": ["CPU", "RAM", "Hard Drive", "Monitor"],
+            "answer": "Monitor"
+          },
+          {
+            "question": "What is the function of the motherboard?",
+            "options": ["Stores data", "Connects components", "Generates sound", "Displays output"],
+            "answer": "Connects components"
+          },
+          {
+            "question": "Which component is used to produce audio output?",
+            "options": ["Sound card", "Hard drive", "SMPS", "Scanner"],
+            "answer": "Sound card"
+          },
+          {
+            "question": "Which port must not be forced while inserting a cable to avoid pin damage?",
+            "options": ["USB", "PS/2", "Serial", "All of the above"],
+            "answer": "All of the above"
+          },
+          {
+            "question": "What is the primary function of the LAN port?",
+            "options": ["Connect speakers", "Connect mouse", "Connect to local or high-speed internet", "Connect external storage"],
+            "answer": "Connect to local or high-speed internet"
+          },
+          {
+            "question": "What does VGA stand for?",
+            "options": ["Virtual Graphics Adapter", "Video Graphics Array", "Visual Graphics Adapter", "Video General Adapter"],
+            "answer": "Video Graphics Array"
+          },
+          {
+            "question": "Which port provides access to integrated audio?",
+            "options": ["USB", "VGA", "Audio", "Serial"],
+            "answer": "Audio"
+          },
+          {
+            "question": "What is the role of the audio jacks?",
+            "options": ["Power supply", "Graphics display", "Data storage", "Connect audio devices"],
+            "answer": "Connect audio devices"
+          },
+          {
+            "question": "What is usually found on the CPU front panel?",
+            "options": ["Printer", "Speaker", "USB ports", "SMPS"],
+            "answer": "USB ports"
+          },
+          {
+            "question": "Which part allows the system to be turned on or off?",
+            "options": ["Drive Indicator", "USB port", "Power On/Off Switch", "Audio Jack"],
+            "answer": "Power On/Off Switch"
+          },
+          {
+            "question": "What is the name of the unit that supplies power to components?",
+            "options": ["UPS", "Motherboard", "SMPS", "Hard Disk"],
+            "answer": "SMPS"
+          },
+          {
+            "question": "What does SMPS stand for?",
+            "options": ["Single Mode Power Supply", "Standard Motherboard Power Supply", "Switch Mode Power Supply", "Small Modular Power Supply"],
+            "answer": "Switch Mode Power Supply"
+          },
+          {
+            "question": "Which internal component acts as a switch to distribute power?",
+            "options": ["CPU", "SMPS", "Motherboard", "Fan"],
+            "answer": "SMPS"
+          },
+          {
+            "question": "What is the function of the ON/OFF switch inside the SMPS?",
+            "options": ["Turn on motherboard", "Turn off sound", "Switch between power states", "Control RAM"],
+            "answer": "Switch between power states"
+          },
+          {
+            "question": "Which component helps remove hot air from inside the cabinet?",
+            "options": ["RAM", "SMPS", "Cooling Fan", "Motherboard"],
+            "answer": "Cooling Fan"
+          },
+          {
+            "question": "What is the exhaust fan in the SMPS called?",
+            "options": ["CPU Fan", "Cabinet Fan", "SMPS Fan", "System Fan"],
+            "answer": "SMPS Fan"
+          },
+          {
+            "question": "What connects the power supply to all devices?",
+            "options": ["Data Cable", "Power Cord", "Motherboard", "PSU Connectors"],
+            "answer": "PSU Connectors"
+          },
+          {
+            "question": "What does the SMPS convert?",
+            "options": ["Data to sound", "Software to hardware", "AC to DC", "Heat to electricity"],
+            "answer": "AC to DC"
+          },
+          {
+            "question": "What ensures the cabinet doesn't overheat?",
+            "options": ["Hard Disk", "VGA Port", "Cooling Fan", "LAN Port"],
+            "answer": "Cooling Fan"
+          },
+          {
+            "question": "What is connected to the cabinet fan?",
+            "options": ["Mouse", "Speaker", "SMPS", "Motherboard"],
+            "answer": "SMPS"
+          },
+          {
+            "question": "What is the primary power control inside a PC?",
+            "options": ["Motherboard", "Switch", "SMPS", "Processor"],
+            "answer": "SMPS"
+          },
+          {
+            "question": "Which internal component can be seen in Fig 3?",
+            "options": ["Router", "Floppy Drive", "Power Supply", "Speaker"],
+            "answer": "Power Supply"
+          },
+          {
+            "question": "Which image shows the CPU cooling fan?",
+            "options": ["Fig 1", "Fig 2", "Fig 3", "Fig 4"],
+            "answer": "Fig 4"
+          },
+          {
+            "question": "What ensures cooling of the processor?",
+            "options": ["SMPS Fan", "Cabinet Fan", "CPU Fan", "USB Fan"],
+            "answer": "CPU Fan"
+          },
+          {
+            "question": "The fan in the SMPS is attached to which part?",
+            "options": ["Motherboard", "RAM", "SMPS", "Cabinet"],
+            "answer": "SMPS"
+          },
+          {
+            "question": "Where is the power cord connected externally?",
+            "options": ["Front panel", "SMPS", "LAN port", "CD drive"],
+            "answer": "SMPS"
+          },
+          {
+            "question": "What component is shown in Fig 2?",
+            "options": ["Motherboard", "Power Supply", "CPU Front Panel", "Floppy Drive"],
+            "answer": "CPU Front Panel"
+          },
+          {
+            "question": "What type of button is on the front panel?",
+            "options": ["Restart", "Fan", "Power On/Off", "USB Reset"],
+            "answer": "Power On/Off"
+          },
+          {
+            "question": "Which connector helps input voice?",
+            "options": ["USB", "Audio and Mic", "LAN", "SMPS"],
+            "answer": "Audio and Mic"
+          },
+          {
+            "question": "Which power supply technology is used in modern computers?",
+            "options": ["Linear", "Magnetic", "Switch Mode", "Analog"],
+            "answer": "Switch Mode"
+          },
+          {
+            "question": "What ensures consistent airflow in a computer case?",
+            "options": ["SMPS", "Fan", "RAM", "VGA"],
+            "answer": "Fan"
+          },
+          {
+            "question": "Which part powers all internal components indirectly?",
+            "options": ["UPS", "CD Drive", "SMPS", "Motherboard"],
+            "answer": "SMPS"
+          },
+          {
+            "question": "Which internal port is typically used for audio connection?",
+            "options": ["LAN", "USB", "Audio jack", "VGA"],
+            "answer": "Audio jack"
+          },
+          {
+            "question": "What allows multiple components to get power?",
+            "options": ["Switch", "Power supply", "Audio jack", "VGA cable"],
+            "answer": "Power supply"
+          },
+          {
+            "question": "What does RAM stand for?",
+            "options": ["Read Access Memory", "Random Access Memory", "Rapid Access Memory", "Remote Access Memory"],
+            "answer": "Random Access Memory"
+          }
+        ]
+      },
+      "storage_and_peripherals": {
+        "title": "Storage and Peripherals",
+        "questions": [
+          {
+            "question": "Which device is considered a storage device?",
+            "options": ["CPU", "Scanner", "Blu-Ray", "Sound card"],
+            "answer": "Blu-Ray"
+          },
+          {
+            "question": "Which type of port is used to connect old printers?",
+            "options": ["USB", "Serial", "Parallel", "Audio"],
+            "answer": "Parallel"
+          },
+          {
+            "question": "What type of ports are mentioned in Fig 1?",
+            "options": ["Input", "Output", "Input/Output", "None"],
+            "answer": "Input/Output"
+          },
+          {
+            "question": "Which sizes are used for hard drive bays?",
+            "options": ["1.5\" & 2.5\"", "2.5\" & 3.5\"", "3.5\" & 5.25\"", "5.25\" & 6.5\""],
+            "answer": "5.25\" & 3.5\""
+          },
+          {
+            "question": "What are drive bays used for?",
+            "options": ["CPU cooling", "Placing RAM", "Mounting drives", "Holding fans"],
+            "answer": "Mounting drives"
+          },
+          {
+            "question": "What is an expansion slot used for?",
+            "options": ["Install software", "Connect printer", "Add peripherals", "Format hard drive"],
+            "answer": "Add peripherals"
+          },
+          {
+            "question": "Where is the power supply located in most cabinets?",
+            "options": ["Front", "Side", "Rear", "Bottom"],
+            "answer": "Rear"
+          },
+          {
+            "question": "What component is shown in Fig 7?",
+            "options": ["RAM module", "Motherboard", "Peripheral card", "Hard drive"],
+            "answer": "Peripheral card"
+          },
+          {
+            "question": "Which port does the floppy drive use?",
+            "options": ["IDE", "SATA", "34-pin ribbon cable", "Power port"],
+            "answer": "34-pin ribbon cable"
+          },
+          {
+            "question": "The motherboard is the foundation of a computer and connects which components?",
+            "options": ["CPU, RAM, and peripherals", "Hard drive only", "Floppy drive and fan", "SMPS and speakers"],
+            "answer": "CPU, RAM, and peripherals"
+          },
+          {
+            "question": "What is shown in Fig 8?",
+            "options": ["Peripheral card", "CPU", "Motherboard", "Hard disk"],
+            "answer": "Motherboard"
+          },
+          {
+            "question": "Which port connects a keyboard or mouse on a motherboard?",
+            "options": ["USB port", "Keyboard/mouse port", "IDE port", "Floppy port"],
+            "answer": "Keyboard/mouse port"
+          },
+          {
+            "question": "Which slot is specifically used for video cards?",
+            "options": ["PCI slot", "AGP slot", "ISA slot", "CMOS slot"],
+            "answer": "AGP slot"
+          },
+          {
+            "question": "What does PCI stand for?",
+            "options": ["Peripheral Component Interconnect", "Processor Core Interface", "Primary Computer Input", "Peripheral Cable Input"],
+            "answer": "Peripheral Component Interconnect"
+          },
+          {
+            "question": "Which port is used for connecting external drives via cables?",
+            "options": ["VGA", "Power port", "IDE/SATA", "PS/2"],
+            "answer": "IDE/SATA"
+          },
+          {
+            "question": "What type of card is used to connect to wireless networks?",
+            "options": ["Sound card", "Video card", "Wireless network card", "Data card"],
+            "answer": "Wireless network card"
+          },
+          {
+            "question": "What slot is used to install old expansion cards?",
+            "options": ["AGP", "PCI", "ISA", "SATA"],
+            "answer": "ISA"
+          },
+          {
+            "question": "What type of drive uses a ribbon cable for data transfer?",
+            "options": ["USB", "SSD", "Floppy Drive", "NVMe"],
+            "answer": "Floppy Drive"
+          },
+          {
+            "question": "What is the function of a data card connector?",
+            "options": ["Connects CPU", "Connects RAM", "Connects storage cards", "Connects printers"],
+            "answer": "Connects storage cards"
+          },
+          {
+            "question": "The fan header on the motherboard is used for:",
+            "options": ["Connecting USB", "Connecting fans", "Connecting SSD", "Power button"],
+            "answer": "Connecting fans"
+          },
+          {
+            "question": "Which of the following is not a type of peripheral card?",
+            "options": ["Sound card", "CPU", "Video card", "Modem"],
+            "answer": "CPU"
+          },
+          {
+            "question": "What is the role of the processor socket?",
+            "options": ["Mount hard drive", "Connect USB", "Install CPU", "Install RAM"],
+            "answer": "Install CPU"
+          },
+          {
+            "question": "Which component is NOT typically connected directly to the motherboard?",
+            "options": ["RAM", "CPU", "Monitor", "Sound card"],
+            "answer": "Monitor"
+          },
+          {
+            "question": "Which port allows connection of modems?",
+            "options": ["AGP slot", "PCI slot", "USB port", "Modem slot"],
+            "answer": "PCI slot"
+          },
+          {
+            "question": "Which motherboard port connects printers and older devices?",
+            "options": ["VGA", "USB", "Parallel port", "AGP port"],
+            "answer": "Parallel port"
+          },
+          {
+            "question": "What is required to install a peripheral card on a motherboard?",
+            "options": ["CMOS", "Fan", "Expansion slot", "Floppy cable"],
+            "answer": "Expansion slot"
+          },
+          {
+            "question": "What is the primary role of the motherboard?",
+            "options": ["Store data", "Transfer heat", "Connect all components", "Provide graphics"],
+            "answer": "Connect all components"
+          },
+          {
+            "question": "Which connector allows installation of storage drives?",
+            "options": ["Audio jack", "AGP slot", "IDE/SATA", "Fan header"],
+            "answer": "IDE/SATA"
+          },
+          {
+            "question": "A sound card is an example of a:",
+            "options": ["Hard drive", "Storage device", "Peripheral card", "Power source"],
+            "answer": "Peripheral card"
+          },
+          {
+            "question": "What is the purpose of a memory slot?",
+            "options": ["To connect hard drives", "To connect a power supply", "To insert RAM", "To connect the CPU"],
+            "answer": "To insert RAM"
+          },
+          {
+            "question": "What type of memory is inserted into the memory slot?",
+            "options": ["ROM", "Flash", "RAM", "Cache"],
+            "answer": "RAM"
+          },
+          {
+            "question": "What does DIMM stand for?",
+            "options": ["Dual Integrated Memory Module", "Direct Insertion Memory Module", "Dual Inline Memory Module", "Digital Internal Memory Module"],
+            "answer": "Dual Inline Memory Module"
+          },
+          {
+            "question": "Which cables connect storage drives to the motherboard?",
+            "options": ["Power cables", "IDE & SATA cables", "Audio cables", "VGA cables"],
+            "answer": "IDE & SATA cables"
+          },
+          {
+            "question": "Which cable provides faster data access: IDE or SATA?",
+            "options": ["IDE", "SATA", "Both are equal", "None"],
+            "answer": "SATA"
+          },
+          {
+            "question": "What does SATA stand for?",
+            "options": ["Serial Access Technology Adapter", "Serial Advanced Technology Attachment", "System Attachment Transmission Access", "Secure Array Technology Adapter"],
+            "answer": "Serial Advanced Technology Attachment"
+          },
+          {
+            "question": "Which component supplies power to storage drives?",
+            "options": ["SMPS", "Power Port", "Motherboard", "Battery"],
+            "answer": "Power Port"
+          },
+          {
+            "question": "Which slot is used to insert peripheral cards?",
+            "options": ["USB slot", "AGP slot", "Expansion slot", "PCI slot"],
+            "answer": "PCI slot"
+          },
+          {
+            "question": "Which device uses a 3.5\" bay?",
+            "options": ["CD Drive", "Hard Drive", "Speaker", "Fan"],
+            "answer": "Hard Drive"
+          },
+          {
+            "question": "The floppy disk drive was used for:",
+            "options": ["Audio playback", "Internet access", "Data storage", "Cooling"],
+            "answer": "Data storage"
+          },
+          {
+            "question": "What is the function of the CD/DVD Indicator?",
+            "options": ["Show data size", "Show active status", "Show internet signal", "Play media"],
+            "answer": "Show active status"
+          },
+          {
+            "question": "Which device may be plugged into USB ports?",
+            "options": ["Monitor", "Fan", "Mouse", "CD Drive"],
+            "answer": "Mouse"
+          },
+          {
+            "question": "Which drive may have an open/close button?",
+            "options": ["Hard Disk", "USB", "CD/DVD Drive", "Fan"],
+            "answer": "CD/DVD Drive"
+          },
+          {
+            "question": "Which component expands a computer’s functionality?",
+            "options": ["Expansion Slot", "VGA Port", "Power Button", "Audio Jack"],
+            "answer": "Expansion Slot"
+          },
+          {
+            "question": "What is the main power connector on the motherboard used for?",
+            "options": ["Floppy drive", "Printer", "Supplying power", "USB port"],
+            "answer": "Supplying power"
+          },
+          {
+            "question": "Which cable is shown in Fig 6?",
+            "options": ["VGA Cable", "USB Cable", "IDE & SATA Cable", "Power Cable"],
+            "answer": "IDE & SATA Cable"
+          },
+          {
+            "question": "Which slot is closest to the CPU on a typical motherboard?",
+            "options": ["USB", "PCI", "Processor socket", "AGP"],
+            "answer": "Processor socket"
+          },
+          {
+            "question": "What is the primary use of a floppy disk?",
+            "options": ["Audio playback", "Data storage", "Video recording", "Graphics display"],
+            "answer": "Data storage"
+          },
+          {
+            "question": "Which connector connects the motherboard to a power source?",
+            "options": ["IDE", "SATA", "Main Power Connector", "ISA Slot"],
+            "answer": "Main Power Connector"
+          },
+          {
+            "question": "Which type of card allows sound output?",
+            "options": ["PCI card", "RAM", "Sound card", "Network card"],
+            "answer": "Sound card"
+          },
+          {
+            "question": "Which motherboard slot is specifically for older peripherals?",
+            "options": ["AGP", "PCI", "ISA", "DIMM"],
+            "answer": "ISA"
+          },
+          {
+            "question": "Which cable is used to connect old hard drives?",
+            "options": ["SATA", "IDE", "USB", "HDMI"],
+            "answer": "IDE"
+          },
+          {
+            "question": "What is partitioning?",
+            "options": ["Installing software", "Booting PC", "Dividing hard disk into logical parts", "Running the CPU"],
+            "answer": "Dividing hard disk into logical parts"
+          },
+          {
+            "question": "What must a partition be designated as to install an OS?",
+            "options": ["Backup partition", "Bootable partition", "SATA partition", "Unallocated space"],
+            "answer": "Bootable partition"
+          },
+          {
+            "question": "How many primary partitions can an MBR hard disk have?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "4"
+          },
+          {
+            "question": "What is an Extended Partition?",
+            "options": ["Used for backups", "Non-bootable container for logical drives", "Boot sector", "RAM storage"],
+            "answer": "Non-bootable container for logical drives"
+          },
+          {
+            "question": "What is the maximum number of partitions on MBR disk?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "4"
+          },
+          {
+            "question": "Which partition type is generally used for installing an OS?",
+            "options": ["Logical", "Backup", "Primary", "Extended"],
+            "answer": "Primary"
+          },
+          {
+            "question": "What is a logical partition?",
+            "options": ["A part of extended partition", "Primary bootable section", "Non-storage partition", "ROM section"],
+            "answer": "A part of extended partition"
+          },
+          {
+            "question": "Which kind of partition is required for logical drives?",
+            "options": ["Primary", "Active", "Extended", "Master"],
+            "answer": "Extended"
+          },
+          {
+            "question": "How many total partitions can you have on an MBR disk?",
+            "options": ["4 Primary", "3 Primary + 1 Extended", "Both A and B", "Unlimited"],
+            "answer": "Both A and B"
+          }
+        ]
+      },
+      "boot_process": {
+        "title": "Boot Process",
+        "questions": [
+          {
+            "question": "What does ROM BIOS stand for?",
+            "options": ["Random Output Module", "Read-Only Memory Basic Input-Output System", "Readable Output Machine", "ROM Built-in System"],
+            "answer": "Read-Only Memory Basic Input-Output System"
+          },
+          {
+            "question": "Which memory module is used in most PCs today?",
+            "options": ["SIMM", "DIMM", "DDR", "EPROM"],
+            "answer": "DIMM"
+          },
+          {
+            "question": "What is the function of BIOS?",
+            "options": ["Runs applications", "Connects to internet", "Handles booting and hardware control", "Saves user data"],
+            "answer": "Handles booting and hardware control"
+          },
+          {
+            "question": "Where is the BIOS usually stored?",
+            "options": ["RAM", "Hard Disk", "ROM chip", "CPU"],
+            "answer": "ROM chip"
+          },
+          {
+            "question": "Why is BIOS copied to RAM during booting?",
+            "options": ["To delete BIOS", "RAM is faster", "To disable ROM", "To save power"],
+            "answer": "RAM is faster"
+          },
+          {
+            "question": "What is the term used for copying BIOS to RAM?",
+            "options": ["Flashing", "Caching", "Shadowing", "Mirroring"],
+            "answer": "Shadowing"
+          },
+          {
+            "question": "What does CMOS stand for?",
+            "options": ["Central Memory Output System", "Common Memory Output Storage", "Complementary Metal-Oxide Semiconductor", "Computer Memory Onboard System"],
+            "answer": "Complementary Metal-Oxide Semiconductor"
+          },
+          {
+            "question": "What does the CMOS battery store?",
+            "options": ["RAM data", "BIOS settings", "Hard disk info", "Power supply voltage"],
+            "answer": "BIOS settings"
+          },
+          {
+            "question": "Which battery keeps BIOS settings when the PC is turned off?",
+            "options": ["Lithium-ion", "CMOS battery", "AA battery", "NiMH battery"],
+            "answer": "CMOS battery"
+          },
+          {
+            "question": "What can happen if the CMOS battery fails?",
+            "options": ["Computer heats up", "Loss of BIOS settings", "Computer won’t boot", "Hard disk failure"],
+            "answer": "Loss of BIOS settings"
+          },
+          {
+            "question": "What happens when a CMOS battery dies?",
+            "options": ["Computer speeds up", "Data is erased", "System date/time reset", "Hard disk fails"],
+            "answer": "System date/time reset"
+          },
+          {
+            "question": "Which BIOS type supports Plug-and-Play devices?",
+            "options": ["SIMM BIOS", "PnP BIOS", "Dynamic BIOS", "AGP BIOS"],
+            "answer": "PnP BIOS"
+          },
+          {
+            "question": "What is the capacity unit used to measure RAM?",
+            "options": ["Inches", "KB", "Units", "Bits"],
+            "answer": "Bits"
+          },
+          {
+            "question": "Which of the following is a module type of RAM?",
+            "options": ["SATA", "IDE", "DIMM", "ROM"],
+            "answer": "DIMM"
+          },
+          {
+            "question": "What is the function of BIOS aside from booting?",
+            "options": ["Gaming", "Graphics rendering", "Peripheral communication", "Power saving"],
+            "answer": "Peripheral communication"
+          },
+          {
+            "question": "The BIOS chip is usually a type of:",
+            "options": ["EEPROM", "Hard disk", "CMOS battery", "RAM module"],
+            "answer": "EEPROM"
+          },
+          {
+            "question": "Which component is processor-independent?",
+            "options": ["AGP", "PCI", "RAM", "BIOS"],
+            "answer": "PCI"
+          },
+          {
+            "question": "Which is not a type of BIOS chip packaging?",
+            "options": ["Flash", "ROM", "RAM", "EEPROM"],
+            "answer": "RAM"
+          },
+          {
+            "question": "What does POST stand for?",
+            "options": ["Power On Software Test", "Program On Start Test", "Power On Self Test", "Process On Start Test"],
+            "answer": "Power On Self Test"
+          },
+          {
+            "question": "What is the function of POST?",
+            "options": ["Load OS", "Test hardware", "Format disk", "Create boot partition"],
+            "answer": "Test hardware"
+          },
+          {
+            "question": "What does MBR stand for?",
+            "options": ["Master Boot Record", "Main BIOS Reader", "Memory Boot Record", "Motherboard BIOS ROM"],
+            "answer": "Master Boot Record"
+          },
+          {
+            "question": "Where is the MBR located?",
+            "options": ["RAM", "ROM", "First sector of hard disk", "Last sector of disk"],
+            "answer": "First sector of hard disk"
+          },
+          {
+            "question": "Which function is performed after POST?",
+            "options": ["Loading OS", "Reading MBR", "Formatting Disk", "Starting applications"],
+            "answer": "Reading MBR"
+          },
+          {
+            "question": "What is the purpose of a bootloader?",
+            "options": ["Starts applications", "Loads kernel into memory", "Detects hardware", "Formats partitions"],
+            "answer": "Loads kernel into memory"
+          },
+          {
+            "question": "How many stages of boot loader are there in Windows?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "2"
+          },
+          {
+            "question": "Which file acts as the stage 2 boot loader in Windows?",
+            "options": ["Boot.ini", "NTDETECT.COM", "NTLDR", "COMMAND.COM"],
+            "answer": "NTLDR"
+          },
+          {
+            "question": "What does NTLDR stand for?",
+            "options": ["NT Loader", "Network Transport Loader", "New Terminal Loader", "Native Terminal Loader"],
+            "answer": "NT Loader"
+          },
+          {
+            "question": "Where is NTLDR typically located?",
+            "options": ["C:\\", "D:\\", "C:\\Windows\\386\\NTLDR", "BIOS"],
+            "answer": "C:\\Windows\\386\\NTLDR"
+          },
+          {
+            "question": "Which file contains configuration for NTLDR?",
+            "options": ["BOOT.INI", "COMMAND.COM", "AUTOEXEC.BAT", "MSDOS.SYS"],
+            "answer": "BOOT.INI"
+          },
+          {
+            "question": "What can be edited in Boot.ini?",
+            "options": ["BIOS settings", "Registry keys", "Kernel arguments", "Hardware drivers"],
+            "answer": "Kernel arguments"
+          },
+          {
+            "question": "Which file detects hardware information in Windows?",
+            "options": ["NTLDR", "BOOT.INI", "NTDETECT.COM", "BIOS"],
+            "answer": "NTDETECT.COM"
+          },
+          {
+            "question": "Where is hardware data collected by NTDETECT stored?",
+            "options": ["MBR", "C:\\Boot.ini", "HKEY_LOCAL_MACHINE\\HARDWARE", "Windows Temp Folder"],
+            "answer": "HKEY_LOCAL_MACHINE\\HARDWARE"
+          },
+          {
+            "question": "What is stored in the Partition Boot Sector (PBR)?",
+            "options": ["Registry info", "Hardware config", "Boot programs", "Drivers"],
+            "answer": "Boot programs"
+          },
+          {
+            "question": "Which type of partition has an Extended Boot Sector (EBR)?",
+            "options": ["Primary", "Extended", "Logical", "MBR"],
+            "answer": "Extended"
+          },
+          {
+            "question": "What is LEBR?",
+            "options": ["Logical Extended Boot RAM", "Logical Extended BIOS ROM", "Logical Extended Boot Record", "Linked Extended Boot Registry"],
+            "answer": "Logical Extended Boot Record"
+          },
+          {
+            "question": "What is the first process performed by BIOS on system start?",
+            "options": ["POST", "Read OS", "Load drivers", "Start GUI"],
+            "answer": "POST"
+          },
+          {
+            "question": "The boot priority can be set for which devices?",
+            "options": ["CD drive", "Hard disk", "Floppy", "All of the above"],
+            "answer": "All of the above"
+          },
+          {
+            "question": "Which file links stage 1 and stage 2 boot loaders?",
+            "options": ["NTLDR", "MBR", "BOOT.INI", "CMOS"],
+            "answer": "BOOT.INI"
+          },
+          {
+            "question": "The boot.ini file can be opened using:",
+            "options": ["BIOS", "MSDOS", "Notepad", "CMD only"],
+            "answer": "Notepad"
+          },
+          {
+            "question": "What role does NTDETECT.COM play?",
+            "options": ["Loads OS", "Boots MBR", "Detects hardware", "Executes Boot.ini"],
+            "answer": "Detects hardware"
+          },
+          {
+            "question": "The logical sector of the Primary partition is called:",
+            "options": ["MBR", "PBR", "EBR", "LEBR"],
+            "answer": "PBR"
+          },
+          {
+            "question": "The logical sector at the start of Extended partition is:",
+            "options": ["MBR", "PBR", "EBR", "BOOT.INI"],
+            "answer": "EBR"
+          },
+          {
+            "question": "The logical sector of each Logical partition is called:",
+            "options": ["PBR", "EBR", "LEBR", "CMOS"],
+            "answer": "LEBR"
+          },
+          {
+            "question": "Which file loads the kernel into memory?",
+            "options": ["MBR", "NTLDR", "BOOT.INI", "NTDETECT.COM"],
+            "answer": "NTLDR"
+          },
+          {
+            "question": "Which file is read after the POST is completed?",
+            "options": ["BOOT.INI", "NTLDR", "MBR", "NTDETECT"],
+            "answer": "MBR"
+          },
+          {
+            "question": "The purpose of BIOS is to:",
+            "options": ["Start OS", "Run drivers", "Control hardware and booting", "Manage network"],
+            "answer": "Control hardware and booting"
+          },
+          {
+            "question": "Which sector is the first to run programs?",
+            "options": ["PBR", "EBR", "LEBR", "CMOS"],
+            "answer": "PBR"
+          },
+          {
+            "question": "The BIOS is responsible for transferring control to:",
+            "options": ["OS", "NTLDR", "Boot loader", "POST"],
+            "answer": "Boot loader"
+          },
+          {
+            "question": "What does the stage 1 boot loader do?",
+            "options": ["Loads MBR", "Runs BIOS", "Links to stage 2 loader", "Formats disk"],
+            "answer": "Links to stage 2 loader"
+          },
+          {
+            "question": "Where does the stage 2 boot loader reside?",
+            "options": ["BIOS", "NTDETECT.COM", "Boot partition", "CD ROM"],
+            "answer": "Boot partition"
+          },
+          {
+            "question": "Which of these happens first during boot?",
+            "options": ["Read BOOT.INI", "Check hard drive", "Run POST", "Load OS"],
+            "answer": "Run POST"
+          },
+          {
+            "question": "Boot.ini can be found in which location?",
+            "options": ["C:\\boot.ini", "D:\\boot.ini", "BIOS", "HKEY_BOOT"],
+            "answer": "C:\\boot.ini"
+          },
+          {
+            "question": "The BIOS is responsible for performing which tasks?",
+            "options": ["Formatting disk", "Reading OS files", "POST and MBR reading", "Creating boot files"],
+            "answer": "POST and MBR reading"
+          },
+          {
+            "question": "Which boot file allows kernel arguments?",
+            "options": ["MBR", "NTDETECT.COM", "BOOT.INI", "BIOS"],
+            "answer": "BOOT.INI"
+          },
+          {
+            "question": "The output of NTDETECT is passed to:",
+            "options": ["BIOS", "BOOT.INI", "NTLDR", "CMOS"],
+            "answer": "NTLDR"
+          },
+          {
+            "question": "Which of these is not a boot file in Windows OS?",
+            "options": ["NTLDR", "BOOT.INI", "NTDETECT.COM", "CONFIG.SYS"],
+            "answer": "CONFIG.SYS"
+          },
+          {
+            "question": "When does BIOS hand over control to the bootloader?",
+            "options": ["After POST", "Before MBR", "After reading MBR", "At OS boot"],
+            "answer": "After reading MBR"
+          },
+          {
+            "question": "The logical sector at the start of each logical partition is:",
+            "options": ["PBR", "EBR", "LEBR", "BOOT SEC"],
+            "answer": "LEBR"
+          },
+          {
+            "question": "Which tool checks system memory during boot?",
+            "options": ["NTLDR", "NTDETECT.COM", "BIOS POST", "BOOT.INI"],
+            "answer": "BIOS POST"
+          },
+          {
+            "question": "What is the output of POST when an error occurs?",
+            "options": ["System reboot", "Beep sound", "Blue screen", "No display"],
+            "answer": "Beep sound"
+          },
+          {
+            "question": "What command opens boot.ini in notepad?",
+            "options": ["open boot.ini", "edit boot.ini", "notepad boot.ini", "boot /ini"],
+            "answer": "notepad boot.ini"
+          },
+          {
+            "question": "How many bytes is a PBR?",
+            "options": ["256", "1024", "512", "128"],
+            "answer": "512"
+          },
+          {
+            "question": "MBR contains which of the following?",
+            "options": ["Partition table and boot loader", "Kernel only", "Drivers", "POST data"],
+            "answer": "Partition table and boot loader"
+          },
+          {
+            "question": "What must a BIOS do before loading OS?",
+            "options": ["Update drivers", "Run POST and read MBR", "Show GUI", "Write boot.ini"],
+            "answer": "Run POST and read MBR"
+          },
+          {
+            "question": "Which of these contains all hardware information in registry?",
+            "options": ["MBR", "BOOT.INI", "NTDETECT.COM", "HKEY_LOCAL_MACHINE\\HARDWARE"],
+            "answer": "HKEY_LOCAL_MACHINE\\HARDWARE"
+          },
+          {
+            "question": "Which stage loads the kernel into memory?",
+            "options": ["POST", "BOOT.INI", "Stage 2 boot loader", "BIOS"],
+            "answer": "Stage 2 boot loader"
+          }
+        ]
+      }
+    }
+  }
+}

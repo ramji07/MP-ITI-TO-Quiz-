@@ -1,0 +1,382 @@
+{
+  "Module-9": {
+    "title": "MS Word 2010",
+    "submodules": {
+      "interface": {
+        "title": "MS Word 2010 Interface",
+        "questions": [
+          {
+            "question": "Where is the Quick Access Toolbar located in Word 2010?",
+            "options": [
+              "Bottom left corner",
+              "Top right corner",
+              "Top left corner",
+              "Bottom right corner"
+            ],
+            "answer": "Top left corner"
+          },
+          {
+            "question": "Which options are available by default in the Quick Access Toolbar?",
+            "options": [
+              "Cut, Copy, Paste",
+              "Save, Undo, Redo",
+              "Bold, Italic, Underline",
+              "Print, Save As, Close"
+            ],
+            "answer": "Save, Undo, Redo"
+          },
+          {
+            "question": "Which tab is used for inserting a table in Word 2010?",
+            "options": [
+              "Home",
+              "Insert",
+              "Layout",
+              "View"
+            ],
+            "answer": "Insert"
+          },
+          {
+            "question": "What does the 'Draw Table' option allow?",
+            "options": [
+              "Insert predefined tables",
+              "Create a table using drawing tool",
+              "Auto format a table",
+              "Remove table borders"
+            ],
+            "answer": "Create a table using drawing tool"
+          },
+          {
+            "question": "Which figure shows the Insert Table wizard?",
+            "options": [
+              "Fig 1",
+              "Fig 2",
+              "Fig 3",
+              "Fig 4"
+            ],
+            "answer": "Fig 4"
+          },
+          {
+            "question": "Which option is customizable in Word 2010?",
+            "options": [
+              "Ribbon color",
+              "Quick Access Toolbar",
+              "Start screen",
+              "Zoom level"
+            ],
+            "answer": "Quick Access Toolbar"
+          },
+          {
+            "question": "Which formatting block includes Indentation and Text Alignment?",
+            "options": [
+              "Page Layout",
+              "References",
+              "Home Tab",
+              "View Tab"
+            ],
+            "answer": "Home Tab"
+          },
+          {
+            "question": "Which formatting styles are mentioned?",
+            "options": [
+              "Bold and Italics only",
+              "Underlined text only",
+              "Ordered and unordered lists, sub-section lists",
+              "Charts and tables"
+            ],
+            "answer": "Ordered and unordered lists, sub-section lists"
+          },
+          {
+            "question": "Which tab is used for adjusting font size and color?",
+            "options": [
+              "Home Tab",
+              "Insert Tab",
+              "Design Tab",
+              "Layout Tab"
+            ],
+            "answer": "Home Tab"
+          },
+          {
+            "question": "What are examples of paragraph alignment?",
+            "options": [
+              "Left, Right, Center, Justified",
+              "Top, Middle, Bottom",
+              "Horizontal, Vertical",
+              "Top-Left, Top-Right, Bottom-Left"
+            ],
+            "answer": "Left, Right, Center, Justified"
+          },
+          {
+            "question": "What does the Paste Preview feature in Word 2010 help with?",
+            "options": [
+              "Undoing formatting",
+              "Changing font styles",
+              "Previewing paste options before applying",
+              "Saving documents"
+            ],
+            "answer": "Previewing paste options before applying"
+          },
+          {
+            "question": "Which figure shows the Paste Preview feature?",
+            "options": ["Fig 6", "Fig 7", "Fig 8", "Fig 9"],
+            "answer": "Fig 6"
+          },
+          {
+            "question": "What shortcut opens the Navigation Pane in Word 2010?",
+            "options": ["Ctrl+N", "Ctrl+F", "Ctrl+H", "Ctrl+P"],
+            "answer": "Ctrl+F"
+          },
+          {
+            "question": "What does the Navigation Pane allow you to view?",
+            "options": [
+              "Only the document header",
+              "All system files",
+              "Headings, Thumbnails, and Search Results",
+              "Only page layout"
+            ],
+            "answer": "Headings, Thumbnails, and Search Results"
+          },
+          {
+            "question": "Which figure represents the Navigation Pane feature?",
+            "options": ["Fig 6", "Fig 7", "Fig 8", "Fig 10"],
+            "answer": "Fig 7"
+          },
+          {
+            "question": "Which version does Word 2010's Ribbon resemble?",
+            "options": ["Word 2003", "Word 2007", "Word XP", "Word 2013"],
+            "answer": "Word 2007"
+          },
+          {
+            "question": "How can the Ribbon button in Word 2010 be customized?",
+            "options": [
+              "Right-click anywhere",
+              "File > Print > Customize",
+              "File > Options > Customize Ribbon",
+              "Insert > Tools > Customize"
+            ],
+            "answer": "File > Options > Customize Ribbon"
+          },
+          {
+            "question": "What is the purpose of the Co-authoring feature in Word 2010?",
+            "options": [
+              "To create new documents",
+              "To allow multiple users to edit a document simultaneously",
+              "To print documents",
+              "To save documents in different formats"
+            ],
+            "answer": "To allow multiple users to edit a document simultaneously"
+          },
+          {
+            "question": "What new collaboration feature was added in Word 2010?",
+            "options": ["Screen Sharing", "Track Changes", "Co-authoring", "Live Chat"],
+            "answer": "Co-authoring"
+          },
+          {
+            "question": "How does Word 2010 display co-authors?",
+            "options": [
+              "In a floating popup",
+              "Through a chat window",
+              "By listing users editing the document",
+              "As a comment on the page"
+            ],
+            "answer": "By listing users editing the document"
+          },
+          {
+            "question": "Which tool is used to take screenshots in Word 2010?",
+            "options": ["Snipping Tool", "Screenshot Tool", "Clip Tool", "Paste Tool"],
+            "answer": "Screenshot Tool"
+          },
+          {
+            "question": "Where is the screenshot option found in Word 2010?",
+            "options": [
+              "Insert > Picture",
+              "Insert > Screenshot",
+              "File > Options",
+              "View > Tools"
+            ],
+            "answer": "Insert > Screenshot"
+          },
+          {
+            "question": "What does the Paste Option in Word 2010 allow?",
+            "options": [
+              "Only pasting images",
+              "Only pasting text",
+              "Pasting with or without formatting",
+              "Pasting passwords"
+            ],
+            "answer": "Pasting with or without formatting"
+          },
+          {
+            "question": "Why is the Navigation Pane useful?",
+            "options": [
+              "To edit images",
+              "To print documents",
+              "To quickly move through headings and search results",
+              "To check grammar"
+            ],
+            "answer": "To quickly move through headings and search results"
+          },
+          {
+            "question": "What is the benefit of the Co-authoring feature?",
+            "options": [
+              "Faster document printing",
+              "Multiple users can edit simultaneously",
+              "More fonts available",
+              "No need for internet"
+            ],
+            "answer": "Multiple users can edit simultaneously"
+          },
+          {
+            "question": "What must you navigate to in order to customize the Ribbon?",
+            "options": [
+              "Insert tab",
+              "View tab",
+              "File > Options > Customize Ribbon",
+              "Home > Edit"
+            ],
+            "answer": "File > Options > Customize Ribbon"
+          },
+          {
+            "question": "What feature helps avoid reformatting pasted content?",
+            "options": [
+              "Paste Preview",
+              "Format Painter",
+              "Auto Save",
+              "Track Changes"
+            ],
+            "answer": "Paste Preview"
+          },
+          {
+            "question": "Can Screenshot be taken directly in Word 2010?",
+            "options": [
+              "No",
+              "Yes, through Insert > Screenshot",
+              "Only using external tools",
+              "Only in print preview"
+            ],
+            "answer": "Yes, through Insert > Screenshot"
+          },
+          {
+            "question": "Which option allows users to apply visual effects to pictures in Word 2010?",
+            "options": [
+              "Picture Filter",
+              "Picture Format",
+              "Artistic Effects",
+              "Design Effects"
+            ],
+            "answer": "Artistic Effects"
+          },
+          {
+            "question": "What tab appears after inserting a picture in Word 2010?",
+            "options": [
+              "Insert Tab",
+              "Design Tab",
+              "Picture Tools Tab",
+              "Effects Tab"
+            ],
+            "answer": "Picture Tools Tab"
+          },
+          {
+            "question": "Where can you find the Artistic Effects dropdown?",
+            "options": [
+              "Under Picture Tools",
+              "On the Home tab",
+              "Under File > Options",
+              "In the Footer menu"
+            ],
+            "answer": "Under Picture Tools"
+          },
+          {
+            "question": "Which figure shows Artistic Effects being applied to an image?",
+            "options": ["Fig 11", "Fig 12", "Fig 13", "Fig 15"],
+            "answer": "Fig 11"
+          },
+          {
+            "question": "What feature allows users to remove image backgrounds?",
+            "options": [
+              "Crop Tool",
+              "Image Cleaner",
+              "Background Removal",
+              "Eraser Tool"
+            ],
+            "answer": "Background Removal"
+          },
+          {
+            "question": "Is Photoshop required for background removal in Word 2010?",
+            "options": ["Yes", "No", "Only for PNG", "Only for JPEG"],
+            "answer": "No"
+          },
+          {
+            "question": "What is the correct path to use Background Removal?",
+            "options": [
+              "Insert > Picture > Background Removal",
+              "Design > Tools > Remove Background",
+              "Home > Insert > Edit",
+              "View > Background > Remove"
+            ],
+            "answer": "Insert > Picture > Background Removal"
+          },
+          {
+            "question": "Which figure displays the Background Removal tool?",
+            "options": ["Fig 12", "Fig 14", "Fig 15", "Fig 13"],
+            "answer": "Fig 12"
+          },
+          {
+            "question": "What is the Office Backstage view?",
+            "options": [
+              "A preview pane for backgrounds",
+              "A new menu for managing documents",
+              "An animation tab",
+              "A shortcut ribbon"
+            ],
+            "answer": "A new menu for managing documents"
+          },
+          {
+            "question": "What tab gives access to the Backstage view?",
+            "options": ["Home", "Insert", "File", "Review"],
+            "answer": "File"
+          },
+          {
+            "question": "Which figure shows the Office Backstage view?",
+            "options": ["Fig 13", "Fig 12", "Fig 15", "Fig 14"],
+            "answer": "Fig 13"
+          },
+          {
+            "question": "What has been updated in WordArt in Word 2010?",
+            "options": [
+              "New colors only",
+              "Text-to-speech",
+              "A list of new effects",
+              "Animation effects"
+            ],
+            "answer": "A list of new effects"
+          },
+          {
+            "question": "Which figure shows the new WordArt styles?",
+            "options": ["Fig 14", "Fig 12", "Fig 11", "Fig 15"],
+            "answer": "Fig 14"
+          },
+          {
+            "question": "What are ligatures used for?",
+            "options": [
+              "Separating letters",
+              "Joining letters for better visual flow",
+              "Creating uppercase fonts",
+              "Adding symbols"
+            ],
+            "answer": "Joining letters for better visual flow"
+          },
+          {
+            "question": "Where can ligatures be enabled?",
+            "options": [
+              "Insert > Font",
+              "Font Preferences > Advanced",
+              "Design > Effects",
+              "View > Text Tools"
+            ],
+            "answer": "Font Preferences > Advanced"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Module-10": {
+    "title": "Using MS Excels Software",
+    "submodules": {
+      "basics_1": {
+        "title": "Excel Basics - Set 1",
+        "questions": []
+      },
+      "basics_2": {
+        "title": "Excel Basics - Set 2",
+        "questions": []
+      },
+      "functions": {
+        "title": "Excel Functions",
+        "questions": []
+      },
+      "charts": {
+        "title": "Excel Charts",
+        "questions": []
+      },
+      "shortcuts": {
+        "title": "Excel Shortcuts",
+        "questions": []
+      }
+    }
+  }
+}

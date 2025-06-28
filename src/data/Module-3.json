@@ -1,0 +1,1467 @@
+{
+  "Module-3": {
+    "title": "Computer Basics And Software Installation",
+    "submodules": {
+      "windows_evolution": {
+        "title": "Windows Evolution",
+        "questions": [
+          {
+            "question": "When was Windows 1 released?",
+            "options": ["November 1983", "November 1985", "August 1995", "June 1998"],
+            "answer": "November 1985"
+          },
+          {
+            "question": "What was Windows 1 mainly based on?",
+            "options": ["Linux", "MS-DOS", "UNIX", "Mac OS"],
+            "answer": "MS-DOS"
+          },
+          {
+            "question": "Which game was included in Windows 1 to teach mouse use?",
+            "options": ["Solitaire", "Reversi", "Minesweeper", "Chess"],
+            "answer": "Reversi"
+          },
+          {
+            "question": "What was a notable feature of Windows 2?",
+            "options": ["3D interface", "Overlapping windows", "Internet support", "Cloud sync"],
+            "answer": "Overlapping windows"
+          },
+          {
+            "question": "Which two Microsoft apps made their first appearance in Windows 2?",
+            "options": ["Paint and Word", "Word and Excel", "PowerPoint and Excel", "Access and Outlook"],
+            "answer": "Word and Excel"
+          },
+          {
+            "question": "What did Windows 3.0 introduce?",
+            "options": ["64-bit support", "Colourful UI", "Voice assistant", "Command prompt"],
+            "answer": "Colourful UI"
+          },
+          {
+            "question": "Windows 3.0 came pre-installed in which type of computers?",
+            "options": ["MacBooks", "IBM PCs", "Commodore", "PCs from Zenith Data Systems"],
+            "answer": "PCs from Zenith Data Systems"
+          },
+          {
+            "question": "Which Windows version introduced Minesweeper?",
+            "options": ["Windows 1", "Windows 2", "Windows 3.1", "Windows 95"],
+            "answer": "Windows 3.1"
+          },
+          {
+            "question": "Windows 3.1 required how much RAM?",
+            "options": ["256 KB", "512 KB", "1 MB", "4 MB"],
+            "answer": "1 MB"
+          },
+          {
+            "question": "Which Windows was the first to support TrueType fonts?",
+            "options": ["Windows 2", "Windows 3.0", "Windows 3.1", "Windows 95"],
+            "answer": "Windows 3.1"
+          },
+          {
+            "question": "Windows 3.1 was also the first Windows to be distributed on:",
+            "options": ["USB", "CD-ROM", "Floppy only", "DVD"],
+            "answer": "CD-ROM"
+          },
+          {
+            "question": "What was the storage size of Windows 3.1 when installed?",
+            "options": ["10MB to 15MB", "50MB to 100MB", "256KB", "512KB"],
+            "answer": "10MB to 15MB"
+          },
+          {
+            "question": "When was Windows 95 released?",
+            "options": ["June 1998", "August 1995", "December 1993", "March 1990"],
+            "answer": "August 1995"
+          },
+          {
+            "question": "Which Windows version introduced the Start button?",
+            "options": ["Windows 1", "Windows 2", "Windows 3.1", "Windows 95"],
+            "answer": "Windows 95"
+          },
+          {
+            "question": "What concept was introduced in Windows 95?",
+            "options": ["App Store", "Virtual Desktop", "Plug and Play", "Cortana"],
+            "answer": "Plug and Play"
+          },
+          {
+            "question": "Which environment did Windows 95 use?",
+            "options": ["16-bit", "64-bit", "DOS", "32-bit"],
+            "answer": "32-bit"
+          },
+          {
+            "question": "What browser was NOT installed by default in Windows 95?",
+            "options": ["Internet Explorer", "Netscape", "Mosaic", "Opera"],
+            "answer": "Internet Explorer"
+          },
+          {
+            "question": "Which version followed Windows 95?",
+            "options": ["Windows XP", "Windows 98", "Windows ME", "Windows 2000"],
+            "answer": "Windows 98"
+          },
+          {
+            "question": "When was Windows 98 released?",
+            "options": ["1995", "1997", "1998", "2000"],
+            "answer": "1998"
+          },
+          {
+            "question": "What feature was introduced in Windows 98?",
+            "options": ["Outlook Express", "Start Menu", "Plug and Play", "Cortana"],
+            "answer": "Outlook Express"
+          },
+          {
+            "question": "Windows 98 was succeeded by?",
+            "options": ["Windows XP", "Windows ME", "Windows 95", "Windows NT"],
+            "answer": "Windows ME"
+          },
+          {
+            "question": "What media player was added to Windows 98 Second Edition?",
+            "options": ["Winamp", "RealPlayer", "Windows Media Player 6.2", "iTunes"],
+            "answer": "Windows Media Player 6.2"
+          },
+          {
+            "question": "Who was the Microsoft CEO during the early Windows releases?",
+            "options": ["Steve Ballmer", "Bill Gates", "Satya Nadella", "Sundar Pichai"],
+            "answer": "Bill Gates"
+          },
+          {
+            "question": "Who is the current Microsoft CEO mentioned in the document?",
+            "options": ["Bill Gates", "Steve Jobs", "Satya Nadella", "Tim Cook"],
+            "answer": "Satya Nadella"
+          },
+          {
+            "question": "Windows versions have evolved mostly in terms of:",
+            "options": ["Security", "Touchscreen and GUI", "File System", "Compiler"],
+            "answer": "Touchscreen and GUI"
+          },
+          {
+            "question": "Windows 1 was built on top of which operating system?",
+            "options": ["Linux", "Windows NT", "MS-DOS", "Unix"],
+            "answer": "MS-DOS"
+          },
+          {
+            "question": "Which Windows version first introduced 32-bit support?",
+            "options": ["Windows 3.1", "Windows 3.0", "Windows 95", "Windows 98"],
+            "answer": "Windows 95"
+          },
+          {
+            "question": "Which Windows version supported overlapping windows for the first time?",
+            "options": ["Windows 1", "Windows 2", "Windows 3", "Windows 3.1"],
+            "answer": "Windows 2"
+          },
+          {
+            "question": "Which Windows introduced the Start Menu?",
+            "options": ["Windows 3.1", "Windows 95", "Windows 98", "Windows XP"],
+            "answer": "Windows 95"
+          },
+          {
+            "question": "The ability to run MS-DOS programs was added in which Windows version?",
+            "options": ["Windows 1", "Windows 2", "Windows 3", "Windows 3.1"],
+            "answer": "Windows 3"
+          },
+          {
+            "question": "Windows 3 supported multitasking and:",
+            "options": ["Monochrome UI", "High resolution monitors", "256 colours", "Touch input"],
+            "answer": "256 colours"
+          },
+          {
+            "question": "Which version of Windows was the first to be sold on CD-ROM?",
+            "options": ["Windows 2", "Windows 3.0", "Windows 3.1", "Windows 95"],
+            "answer": "Windows 3.1"
+          },
+          {
+            "question": "Which software did Windows 98 replace for email?",
+            "options": ["Thunderbird", "Outlook Express", "Live Mail", "Netscape Mail"],
+            "answer": "Outlook Express"
+          },
+          {
+            "question": "Windows 98 was the last version to be based on:",
+            "options": ["DOS", "NT", "Linux Kernel", "Win32"],
+            "answer": "DOS"
+          },
+          {
+            "question": "Which Windows version focused on improving the mouse interface?",
+            "options": ["Windows 1", "Windows 2", "Windows 3", "Windows 95"],
+            "answer": "Windows 1"
+          },
+          {
+            "question": "The ‘Reversi’ game was used to:",
+            "options": ["Test logic", "Play online", "Teach mouse usage", "Develop AI"],
+            "answer": "Teach mouse usage"
+          },
+          {
+            "question": "What UI theme did Windows 3.0 bring?",
+            "options": ["Classic theme", "Colourful UI", "Aero UI", "Metro UI"],
+            "answer": "Colourful UI"
+          },
+          {
+            "question": "Which Windows included Address Book?",
+            "options": ["Windows 3.1", "Windows 95", "Windows 98", "Windows ME"],
+            "answer": "Windows 98"
+          },
+          {
+            "question": "Windows 98 Second Edition was released in:",
+            "options": ["1998", "1999", "2000", "2001"],
+            "answer": "1999"
+          },
+          {
+            "question": "Which feature made Windows 3.1 a popular publishing platform?",
+            "options": ["Multitasking", "256 colours", "TrueType fonts", "CD-ROM support"],
+            "answer": "TrueType fonts"
+          },
+          {
+            "question": "Which two browsers were commonly used before Internet Explorer in Windows 95?",
+            "options": ["Firefox and Chrome", "Opera and Edge", "Netscape and Mosaic", "Safari and UC Browser"],
+            "answer": "Netscape and Mosaic"
+          },
+          {
+            "question": "Windows 3.0 was the first Windows to see widespread usage due to:",
+            "options": ["DOS", "Better games", "Pre-installed version", "Free upgrade"],
+            "answer": "Pre-installed version"
+          },
+          {
+            "question": "Windows 2 added functions like:",
+            "options": ["Zoom", "Virtual Desktop", "Minimize and Maximize", "Voice Input"],
+            "answer": "Minimize and Maximize"
+          },
+          {
+            "question": "Windows 95 was the first to support which plug-in functionality?",
+            "options": ["Internet Browsing", "Email Clients", "Plug and Play", "Voice Control"],
+            "answer": "Plug and Play"
+          },
+          {
+            "question": "Which was the first Windows with Start Button?",
+            "options": ["Windows 3.0", "Windows 3.1", "Windows 95", "Windows XP"],
+            "answer": "Windows 95"
+          },
+          {
+            "question": "Windows 98 introduced a new media experience using:",
+            "options": ["Winamp", "Windows Media Player 6.2", "Groove Music", "iTunes"],
+            "answer": "Windows Media Player 6.2"
+          },
+          {
+            "question": "Which Windows versions had no support for networking?",
+            "options": ["Windows 1 and 2", "Windows 3.0", "Windows 3.1", "Windows 98"],
+            "answer": "Windows 1 and 2"
+          },
+          {
+            "question": "Windows 3.1 supported what screen resolution features?",
+            "options": ["Monochrome", "TrueColor", "256 colors", "4-bit grayscale"],
+            "answer": "256 colors"
+          },
+          {
+            "question": "Which Windows version was considered a low point and often skipped by users?",
+            "options": ["Windows 98", "Windows ME", "Windows XP", "Windows 7"],
+            "answer": "Windows ME"
+          },
+          {
+            "question": "Windows ME was the last version based on which system?",
+            "options": ["Windows NT", "MS-DOS", "Linux", "Windows XP"],
+            "answer": "MS-DOS"
+          },
+          {
+            "question": "When was Windows ME released?",
+            "options": ["2001", "2000", "1998", "2002"],
+            "answer": "2000"
+          },
+          {
+            "question": "Which version introduced automated system recovery tools?",
+            "options": ["Windows ME", "Windows XP", "Windows 98", "Windows 2000"],
+            "answer": "Windows ME"
+          },
+          {
+            "question": "What major issues plagued Windows ME?",
+            "options": ["Poor security", "No taskbar", "No plug and play", "Buggy operation"],
+            "answer": "Buggy operation"
+          },
+          {
+            "question": "Windows 2000 was based on which Microsoft OS?",
+            "options": ["Windows 9x", "MS-DOS", "Windows NT", "Windows ME"],
+            "answer": "Windows NT"
+          },
+          {
+            "question": "When was Windows 2000 released?",
+            "options": ["1999", "2000", "2001", "2002"],
+            "answer": "2000"
+          },
+          {
+            "question": "What key update feature was introduced in Windows 2000?",
+            "options": ["Internet browsing", "Hibernation", "Start menu", "Media Player"],
+            "answer": "Hibernation"
+          },
+          {
+            "question": "Which Windows version combined home and enterprise features?",
+            "options": ["Windows ME", "Windows 98", "Windows XP", "Windows Vista"],
+            "answer": "Windows XP"
+          },
+          {
+            "question": "Windows XP was released in which year?",
+            "options": ["2000", "2001", "2002", "2003"],
+            "answer": "2001"
+          },
+          {
+            "question": "Which version of Windows had the longest support life?",
+            "options": ["Windows 7", "Windows Vista", "Windows XP", "Windows 2000"],
+            "answer": "Windows XP"
+          },
+          {
+            "question": "How many years of support did Windows XP receive?",
+            "options": ["10 years", "13 years", "8 years", "15 years"],
+            "answer": "13 years"
+          },
+          {
+            "question": "Which firewall feature was enabled by default in Windows XP?",
+            "options": ["UAC", "Windows Defender", "Firewall", "BitLocker"],
+            "answer": "Firewall"
+          },
+          {
+            "question": "Which initiative did Windows XP launch to increase security?",
+            "options": ["CyberSecure", "Safe Mode", "Trustworthy Computing", "System Guard"],
+            "answer": "Trustworthy Computing"
+          },
+          {
+            "question": "What update improved XP security post-initial release?",
+            "options": ["Service Pack 1", "Hotfix", "Defender Pack", "Security Pack"],
+            "answer": "Service Pack updates"
+          },
+          {
+            "question": "Windows Vista was released in which year?",
+            "options": ["2005", "2007", "2006", "2008"],
+            "answer": "2007"
+          },
+          {
+            "question": "Which Windows version was criticized as 'arguably worse than ME'?",
+            "options": ["Windows 7", "Windows Vista", "Windows 98", "Windows XP"],
+            "answer": "Windows Vista"
+          },
+          {
+            "question": "Windows Vista focused on what visual theme?",
+            "options": ["Classic", "Modern UI", "Aero (transparent)", "Flat UI"],
+            "answer": "Aero (transparent)"
+          },
+          {
+            "question": "What controversial security feature was introduced in Vista?",
+            "options": ["Windows Firewall", "UAC", "NTFS", "Antivirus"],
+            "answer": "UAC"
+          },
+          {
+            "question": "What was the issue with Vista's UAC?",
+            "options": ["Didn’t work", "Too many popups", "Too technical", "No control"],
+            "answer": "Too many popups"
+          },
+          {
+            "question": "What new media tech did Vista support?",
+            "options": ["QuickTime", "DirectX 10", "Flash Player", "RealPlayer"],
+            "answer": "DirectX 10"
+          },
+          {
+            "question": "Which Vista component was created to bypass anti-trust?",
+            "options": ["Media Player Classic", "Windows DVD Maker", "Vista Lite", "Version without Media Player"],
+            "answer": "Version without Media Player"
+          },
+          {
+            "question": "Windows Defender first appeared in which Windows version?",
+            "options": ["Windows 7", "Windows XP", "Windows Vista", "Windows 2000"],
+            "answer": "Windows Vista"
+          },
+          {
+            "question": "What visual improvements were introduced in Windows XP?",
+            "options": ["Transparent windows", "Green start button and blue taskbar", "Flat UI", "Dark mode"],
+            "answer": "Green start button and blue taskbar"
+          },
+          {
+            "question": "Which Windows version came with DVD support out of the box?",
+            "options": ["Vista", "XP", "2000", "Windows 7"],
+            "answer": "Windows Vista"
+          },
+          {
+            "question": "What program was used to burn CDs in Vista?",
+            "options": ["Windows Media Player", "ClearType", "Windows DVD Maker", "Roxio"],
+            "answer": "Windows DVD Maker"
+          },
+          {
+            "question": "Windows 7 was released in which year?",
+            "options": ["2007", "2009", "2008", "2010"],
+            "answer": "2009"
+          },
+          {
+            "question": "Windows 7 aimed to fix the problems of which version?",
+            "options": ["XP", "Vista", "ME", "2000"],
+            "answer": "Vista"
+          },
+          {
+            "question": "What user feedback did Windows 7 prioritize?",
+            "options": ["Dark mode", "Metro UI", "User-friendly features", "Linux kernel integration"],
+            "answer": "User-friendly features"
+          },
+          {
+            "question": "Which Windows version was praised for its visual stability and reduced popups?",
+            "options": ["Vista", "7", "XP", "ME"],
+            "answer": "Windows 7"
+          },
+          {
+            "question": "What was the 'Start' button color in Windows XP?",
+            "options": ["Blue", "Red", "Green", "Gray"],
+            "answer": "Green"
+          },
+          {
+            "question": "Which version of Windows included ClearType technology?",
+            "options": ["Windows XP", "Windows Vista", "Windows 7", "Windows ME"],
+            "answer": "Windows XP"
+          },
+          {
+            "question": "What was the major criticism of Windows Vista?",
+            "options": ["Too fast", "Too secure", "Too many security popups", "No support"],
+            "answer": "Too many security popups"
+          },
+          {
+            "question": "Windows 7 had fewer instances of what issue?",
+            "options": ["Security", "User dialogue box overload", "File corruption", "Hibernation errors"],
+            "answer": "User dialogue box overload"
+          },
+          {
+            "question": "Which Windows introduced the DVD format for distribution?",
+            "options": ["XP", "2000", "Vista", "ME"],
+            "answer": "Vista"
+          },
+          {
+            "question": "Which Windows included Windows Media Player 11?",
+            "options": ["XP", "Vista", "2000", "ME"],
+            "answer": "Vista"
+          },
+          {
+            "question": "Windows XP ran on how many PCs by 2014?",
+            "options": ["200 million", "300 million", "430 million", "500 million"],
+            "answer": "430 million"
+          },
+          {
+            "question": "What was the name of Vista’s interface that introduced Aero?",
+            "options": ["Metro", "Clear UI", "Longhorn", "Direct UI"],
+            "answer": "Longhorn"
+          },
+          {
+            "question": "Which Windows version was the first to support hibernation?",
+            "options": ["Windows ME", "Windows 2000", "Windows XP", "Windows Vista"],
+            "answer": "Windows 2000"
+          },
+          {
+            "question": "What did Microsoft use in Vista to approve program changes?",
+            "options": ["User Account Control", "Firewall", "Group Policy", "Safe Mode"],
+            "answer": "User Account Control"
+          },
+          {
+            "question": "Windows XP Service Packs improved what?",
+            "options": ["Sound", "Startup time", "Security", "Mouse performance"],
+            "answer": "Security"
+          },
+          {
+            "question": "Which of these was a big change introduced in Windows 98?",
+            "options": ["USB Support", "NTFS Support", "Virtual Desktops", "Aero Interface"],
+            "answer": "USB Support"
+          },
+          {
+            "question": "Which version was based on MS-DOS and failed due to bugs?",
+            "options": ["Vista", "XP", "Windows ME", "Windows 7"],
+            "answer": "Windows ME"
+          },
+          {
+            "question": "What software came built-in with Windows XP?",
+            "options": ["Photo Editor", "Movie Maker", "Antivirus", "Visual Studio"],
+            "answer": "Movie Maker"
+          },
+          {
+            "question": "Windows 7 included which versions of Internet Explorer and Media Player?",
+            "options": ["IE 6 and MP9", "IE 7 and MP10", "IE 8 and MP11", "IE 9 and MP12"],
+            "answer": "IE 8 and MP11"
+          },
+          {
+            "question": "Windows 7 was intended to fix the issues of which previous OS?",
+            "options": ["XP", "Vista", "ME", "Windows 8"],
+            "answer": "Vista"
+          },
+          {
+            "question": "The “green start button” is iconic in which Windows version?",
+            "options": ["Vista", "XP", "2000", "98"],
+            "answer": "XP"
+          },
+          {
+            "question": "Which OS used 'longhorn' as a development codename?",
+            "options": ["XP", "Vista", "7", "ME"],
+            "answer": "Vista"
+          },
+          {
+            "question": "Which Windows had a version created without Media Player?",
+            "options": ["XP", "Vista", "ME", "7"],
+            "answer": "Vista"
+          },
+          {
+            "question": "What was a key improvement of Windows 8 over previous versions?",
+            "options": ["Faster and more stable performance", "Removal of the Start menu", "Limited support for USB 3.0", "No support for touchscreens"],
+            "answer": "Faster and more stable performance"
+          },
+          {
+            "question": "Which feature was reintroduced in Windows 8.1?",
+            "options": ["Start button", "Command prompt", "Taskbar", "File explorer"],
+            "answer": "Start button"
+          },
+          {
+            "question": "What was the primary focus of Windows 8 on touch and keyboard?",
+            "options": ["Released in October 2012", "Radical overhaul of the interface", "Support for third-party apps", "Enhanced security features"],
+            "answer": "Radical overhaul of the interface"
+          },
+          {
+            "question": "Which version of Windows introduced the Metro-style interface?",
+            "options": ["Windows 7", "Windows 8", "Windows 10", "Windows XP"],
+            "answer": "Windows 8"
+          },
+          {
+            "question": "What did Windows Store offer for universal Windows apps?",
+            "options": ["Limited installation options", "Full-screen mode only", "Installation from third-parties", "Apps could be installed from any source"],
+            "answer": "Installation from third-parties"
+          },
+          {
+            "question": "How did Windows 8 handle touchscreen support?",
+            "options": ["No touchscreen support", "Limited to desktop mode", "Optimized for touch and gesture", "Required external hardware"],
+            "answer": "Optimized for touch and gesture"
+          },
+          {
+            "question": "What was a new feature added in Windows 8 for boot?",
+            "options": ["Browser ballot screen", "Automatic updates", "Enhanced firewall", "Remote desktop"],
+            "answer": "Browser ballot screen"
+          },
+          {
+            "question": "Which Windows version was based on ARM processors?",
+            "options": ["Windows 7", "Windows 8 RT", "Windows 10", "Windows Vista"],
+            "answer": "Windows 8 RT"
+          },
+          {
+            "question": "What was introduced with Windows 8 Surface tablet?",
+            "options": ["Traditional desktop interface", "Microsoft Surface tablet", "Enhanced gaming features", "New file system"],
+            "answer": "Microsoft Surface tablet"
+          },
+          {
+            "question": "When was Windows 8.1 released?",
+            "options": ["October 2013", "June 2012", "March 2014", "September 2011"],
+            "answer": "October 2013"
+          },
+          {
+            "question": "What did Windows 8.1 add to the Start screen?",
+            "options": ["More tiles and a search option", "Larger desktop icons", "Removed the Start button", "Only taskbar options"],
+            "answer": "More tiles and a search option"
+          },
+          {
+            "question": "What was a limitation of Windows 8 desktop mode?",
+            "options": ["No access to traditional desktop interface", "Full touchscreen support", "Enhanced security", "Multiple user accounts"],
+            "answer": "No access to traditional desktop interface"
+          },
+          {
+            "question": "Which company released Windows 8?",
+            "options": ["Apple", "Microsoft", "Google", "IBM"],
+            "answer": "Microsoft"
+          },
+          {
+            "question": "What was the main change in Windows 8 interface?",
+            "options": ["Return to classic Start menu", "Touch-friendly Start screen", "Removal of taskbar", "Black and white theme"],
+            "answer": "Touch-friendly Start screen"
+          },
+          {
+            "question": "What feature was enhanced in Windows 8 with USB 3.0?",
+            "options": ["Faster data transfer", "Larger storage capacity", "Improved graphics", "Better sound quality"],
+            "answer": "Faster data transfer"
+          },
+          {
+            "question": "What was the purpose of the browser ballot screen in Windows 8?",
+            "options": ["To choose a default browser", "To update the operating system", "To install new apps", "To configure network settings"],
+            "answer": "To choose a default browser"
+          },
+          {
+            "question": "Which Windows version supported third-party apps?",
+            "options": ["Windows 8", "Windows XP", "Windows 7", "Windows Vista"],
+            "answer": "Windows 8"
+          },
+          {
+            "question": "What was a key focus of Windows 8 RT?",
+            "options": ["Desktop productivity", "ARM-based processors", "High-end gaming", "Server management"],
+            "answer": "ARM-based processors"
+          },
+          {
+            "question": "What was reintroduced in Windows 10 Start menu?",
+            "options": ["Classic taskbar", "Combination of Start menu and desktop", "Only tiles", "No search option"],
+            "answer": "Combination of Start menu and desktop"
+          },
+          {
+            "question": "What did Windows 8.1 improve over Windows 8?",
+            "options": ["Removed touch support", "Added Start button", "Decreased USB support", "Limited app store"],
+            "answer": "Added Start button"
+          },
+          {
+            "question": "What was a new assistant introduced in Windows 10?",
+            "options": ["Cortana", "Siri", "Google Assistant", "Alexa"],
+            "answer": "Cortana"
+          },
+          {
+            "question": "Which device type did Windows 8 target primarily?",
+            "options": ["Desktops only", "Touch-enabled devices", "Servers", "Laptops only"],
+            "answer": "Touch-enabled devices"
+          },
+          {
+            "question": "What was a significant update in Windows 8.1 Start screen?",
+            "options": ["Larger tile sizes", "Removed search", "Only desktop mode", "No customization"],
+            "answer": "Larger tile sizes"
+          },
+          {
+            "question": "What was a limitation of Windows 8 RT edition?",
+            "options": ["No desktop apps", "Full desktop support", "Enhanced gaming", "Multiple users"],
+            "answer": "No desktop apps"
+          },
+          {
+            "question": "What was the main goal of Windows 8 interface redesign?",
+            "options": ["To improve gaming", "To support touch and keyboard", "To remove all menus", "To focus on servers"],
+            "answer": "To support touch and keyboard"
+          },
+          {
+            "question": "Which Windows version introduced the Surface tablet?",
+            "options": ["Windows 7", "Windows 8", "Windows 10", "Windows XP"],
+            "answer": "Windows 8"
+          },
+          {
+            "question": "What feature was added to Windows 8 for app installation?",
+            "options": ["Windows Store", "Direct download", "CD installation", "USB installation"],
+            "answer": "Windows Store"
+          },
+          {
+            "question": "What was a key benefit of Windows 8 USB 3.0 support?",
+            "options": ["Slower data transfer", "Faster device recognition", "Limited compatibility", "No power management"],
+            "answer": "Faster device recognition"
+          },
+          {
+            "question": "What was a new inclusion in Windows 8 boot process?",
+            "options": ["Browser ballot screen", "Automatic shutdown", "Network setup", "Driver installation"],
+            "answer": "Browser ballot screen"
+          },
+          {
+            "question": "Which Windows version focused on ARM-based tablets?",
+            "options": ["Windows 8 RT", "Windows 7", "Windows 10", "Windows Vista"],
+            "answer": "Windows 8 RT"
+          },
+          {
+            "question": "What was reintroduced in Windows 8.1 over Windows 8?",
+            "options": ["Start button", "Classic desktop", "No tiles", "Limited apps"],
+            "answer": "Start button"
+          },
+          {
+            "question": "What was a major change in Windows 10 interface?",
+            "options": ["Removed Start menu", "Combined Start menu and tiles", "No taskbar", "Only touch support"],
+            "answer": "Combined Start menu and tiles"
+          },
+          {
+            "question": "What did Windows 8 aim to improve with its interface?",
+            "options": ["Touch and gesture support", "Classic menu system", "Server optimization", "Legacy software"],
+            "answer": "Touch and gesture support"
+          },
+          {
+            "question": "What was a new feature in Windows 10 Cortana?",
+            "options": ["Voice commands", "Manual updates", "No search", "Limited integration"],
+            "answer": "Voice commands"
+          },
+          {
+            "question": "Which Windows version supported universal apps?",
+            "options": ["Windows 8", "Windows XP", "Windows 7", "Windows Vista"],
+            "answer": "Windows 8"
+          },
+          {
+            "question": "What was a key update in Windows 8.1 Start menu?",
+            "options": ["Search and tiles", "Removed options", "Only icons", "No customization"],
+            "answer": "Search and tiles"
+          },
+          {
+            "question": "What was a limitation of Windows 8 touch support?",
+            "options": ["Required a touchscreen", "No gesture support", "Limited to desktop", "Full keyboard control"],
+            "answer": "Required a touchscreen"
+          },
+          {
+            "question": "What was introduced with Windows 8 Metro style?",
+            "options": ["Touch-friendly interface", "Classic desktop", "Server tools", "Legacy support"],
+            "answer": "Touch-friendly interface"
+          },
+          {
+            "question": "Which Windows version added a new Start button?",
+            "options": ["Windows 8.1", "Windows 7", "Windows XP", "Windows 10"],
+            "answer": "Windows 8.1"
+          },
+          {
+            "question": "What was a focus of Windows 8 RT edition?",
+            "options": ["Tablet optimization", "Desktop productivity", "Server management", "Gaming"],
+            "answer": "Tablet optimization"
+          },
+          {
+            "question": "What was a significant feature of Windows 10?",
+            "options": ["Cortana assistant", "Removed Start menu", "No updates", "Limited apps"],
+            "answer": "Cortana assistant"
+          },
+          {
+            "question": "What did Windows 8.1 improve for users?",
+            "options": ["Start screen customization", "Removed touch", "Limited storage", "No updates"],
+            "answer": "Start screen customization"
+          },
+          {
+            "question": "What was a key aspect of Windows 8 design?",
+            "options": ["Touch and keyboard support", "Only desktop mode", "No apps", "Legacy focus"],
+            "answer": "Touch and keyboard support"
+          },
+          {
+            "question": "Which Windows version reintroduced the Start button?",
+            "options": ["Windows 8.1", "Windows 7", "Windows XP", "Windows 10"],
+            "answer": "Windows 8.1"
+          },
+          {
+            "question": "What was a new addition in Windows 10 interface?",
+            "options": ["Combined menu and tiles", "Removed taskbar", "No touch support", "Only classic view"],
+            "answer": "Combined menu and tiles"
+          },
+          {
+            "question": "What was a focus of Windows 8 universal apps?",
+            "options": ["Cross-device compatibility", "Desktop only", "Limited features", "No updates"],
+            "answer": "Cross-device compatibility"
+          },
+          {
+            "question": "What was a key update in Windows 8.1 release?",
+            "options": ["Start button return", "Removed tiles", "No touch support", "Limited apps"],
+            "answer": "Start button return"
+          },
+          {
+            "question": "What was a significant change in Windows 10 Start menu?",
+            "options": ["Integration with Cortana", "Removed search", "Only tiles", "No customization"],
+            "answer": "Integration with Cortana"
+          },
+          {
+            "question": "What was a new feature in Windows 8 for devices?",
+            "options": ["USB 3.0 support", "No new hardware", "Limited connectivity", "Only Wi-Fi"],
+            "answer": "USB 3.0 support"
+          },
+          {
+            "question": "Which Windows version focused on touch optimization?",
+            "options": ["Windows 8", "Windows 7", "Windows XP", "Windows Vista"],
+            "answer": "Windows 8"
+          }
+        ]
+      },
+      "user_interface": {
+        "title": "User Interface",
+        "questions": [
+          {
+            "question": "How do you change the background in Windows 10?",
+            "options": ["Right-click the background and choose 'Personalize'", "Left-click the desktop", "Open File Explorer", "Use Task View"],
+            "answer": "Right-click the background and choose 'Personalize'"
+          },
+          {
+            "question": "What happens after selecting a picture for the background in Windows 10?",
+            "options": ["The Background will change automatically", "The screen turns off", "The picture is deleted", "No change occurs"],
+            "answer": "The Background will change automatically"
+          },
+          {
+            "question": "How do you open the Start Menu to find a specific application?",
+            "options": ["Click 'All Applications'", "Right-click the desktop", "Press Ctrl+Alt+Del", "Open File Explorer"],
+            "answer": "Click 'All Applications'"
+          },
+          {
+            "question": "What is the purpose of the alphabetical list in the Start Menu?",
+            "options": ["To list all installed applications", "To show system files", "To display network settings", "To open Task View"],
+            "answer": "To list all installed applications"
+          },
+          {
+            "question": "What is shown in the View menu of File Explorer?",
+            "options": ["Sort by, Refresh, Paste", "Open settings, Personalize", "Delete files, Copy", "Change background"],
+            "answer": "Sort by, Refresh, Paste"
+          },
+          {
+            "question": "What does Cortana help with in Windows 10?",
+            "options": ["Search and control", "File deletion", "Network setup", "Desktop customization"],
+            "answer": "Search and control"
+          },
+          {
+            "question": "How can you activate Cortana with a voice command?",
+            "options": ["Say 'Hey Cortana'", "Click the Start button", "Press F5", "Right-click the desktop"],
+            "answer": "Say 'Hey Cortana'"
+          },
+          {
+            "question": "Where does the Windows Phone assistant show up?",
+            "options": ["Windows 10 as a search pane on the taskbar", "File Explorer", "Task View", "Start Menu only"],
+            "answer": "Windows 10 as a search pane on the taskbar"
+          },
+          {
+            "question": "How do you find a specific document in Windows 10?",
+            "options": ["Use File Explorer by clicking on the Taskbar", "Open Task View", "Right-click the desktop", "Say 'Hey Cortana'"],
+            "answer": "Use File Explorer by clicking on the Taskbar"
+          },
+          {
+            "question": "What does the Start Menu list include?",
+            "options": ["All Applications", "Only system tools", "Network settings", "Virtual desktops"],
+            "answer": "All Applications"
+          },
+          {
+            "question": "What is the first step to change the desktop background?",
+            "options": ["Right-click the background", "Open Start Menu", "Click Task View", "Open File Explorer"],
+            "answer": "Right-click the background"
+          },
+          {
+            "question": "What option appears after right-clicking the desktop?",
+            "options": ["Personalize", "Delete", "Refresh", "Sort by"],
+            "answer": "Personalize"
+          },
+          {
+            "question": "What is the purpose of the Personalization window?",
+            "options": ["Choose from a series of pre-selected pictures or browse for your own", "Delete files", "Open applications", "Change system settings"],
+            "answer": "Choose from a series of pre-selected pictures or browse for your own"
+          },
+          {
+            "question": "What is shown in the Start Menu tiles?",
+            "options": ["Applications and live updates", "Only system files", "Network settings", "Virtual desktops"],
+            "answer": "Applications and live updates"
+          },
+          {
+            "question": "How can you access File Explorer?",
+            "options": ["Clicking on the Taskbar", "Right-click the desktop", "Open Task View", "Press F5"],
+            "answer": "Clicking on the Taskbar"
+          },
+          {
+            "question": "What is a feature of the Windows 10 taskbar?",
+            "options": ["Search pane with Cortana", "Only desktop icons", "No applications", "Limited customization"],
+            "answer": "Search pane with Cortana"
+          },
+          {
+            "question": "How do you open the View menu in File Explorer?",
+            "options": ["Click the View tab", "Right-click the desktop", "Open Task View", "Press F5"],
+            "answer": "Click the View tab"
+          },
+          {
+            "question": "What option is available under the View menu?",
+            "options": ["Display settings", "Personalize", "Delete files", "Change background"],
+            "answer": "Display settings"
+          },
+          {
+            "question": "What is the purpose of the Sort by option in File Explorer?",
+            "options": ["Organize files and folders", "Delete files", "Open applications", "Change desktop"],
+            "answer": "Organize files and folders"
+          },
+          {
+            "question": "What does the Refresh option do in File Explorer?",
+            "options": ["Updates the file list", "Deletes files", "Opens a new window", "Changes background"],
+            "answer": "Updates the file list"
+          },
+          {
+            "question": "What is the Paste shortcut in File Explorer?",
+            "options": ["Ctrl+V", "Ctrl+C", "Ctrl+X", "Ctrl+Z"],
+            "answer": "Ctrl+V"
+          },
+          {
+            "question": "What does the Undo New command do in File Explorer?",
+            "options": ["Reverts the last action", "Deletes files", "Opens a new window", "Changes background"],
+            "answer": "Reverts the last action"
+          },
+          {
+            "question": "What does File Explorer allow you to browse?",
+            "options": ["All folders and documents", "Only system files", "Network settings", "Virtual desktops"],
+            "answer": "All folders and documents"
+          },
+          {
+            "question": "What does Cortana provide when activated?",
+            "options": ["A search pane on the taskbar", "A new desktop", "File deletion", "Network setup"],
+            "answer": "A search pane on the taskbar"
+          },
+          {
+            "question": "How can you pin an application to the taskbar?",
+            "options": ["Search for the application, right-click, and select 'Pin to taskbar'", "Open File Explorer", "Click Task View", "Press Ctrl+Shift"],
+            "answer": "Search for the application, right-click, and select 'Pin to taskbar'"
+          },
+          {
+            "question": "What is the first step to pin an application to the taskbar?",
+            "options": ["Search for the application you want to pin in the Start Menu", "Right-click the desktop", "Open Task View", "Delete files"],
+            "answer": "Search for the application you want to pin in the Start Menu"
+          },
+          {
+            "question": "What is the second step to pin an application to the taskbar?",
+            "options": ["Right-click on the application", "Open File Explorer", "Change the background", "Press F5"],
+            "answer": "Right-click on the application"
+          },
+          {
+            "question": "What option should you select at the top of the menu to pin an application?",
+            "options": ["More", "Pin to taskbar", "Delete", "Open"],
+            "answer": "More"
+          },
+          {
+            "question": "What is the final step to pin an application to the taskbar?",
+            "options": ["Select the 'Pin to taskbar' option", "Right-click the desktop", "Open Task View", "Change settings"],
+            "answer": "Select the 'Pin to taskbar' option"
+          },
+          {
+            "question": "How can you unpin an application from the taskbar?",
+            "options": ["Right-click the icon in the Taskbar and select 'Unpin from taskbar'", "Open File Explorer", "Click Task View", "Press Ctrl+Alt"],
+            "answer": "Right-click the icon in the Taskbar and select 'Unpin from taskbar'"
+          },
+          {
+            "question": "What happens when you unpin an application?",
+            "options": ["It removes the application from the taskbar", "It deletes the application", "It opens a new window", "It changes the background"],
+            "answer": "It removes the application from the taskbar"
+          },
+          {
+            "question": "Can you pin an application back after unpinning it?",
+            "options": ["Yes, you can 'pin' it back again", "No, it is permanently removed", "Only with administrator rights", "Only with a restart"],
+            "answer": "Yes, you can 'pin' it back again"
+          },
+          {
+            "question": "What does the 'Gear' icon on the left-side of the menu do?",
+            "options": ["Access Cortana settings", "Open File Explorer", "Change the background", "Delete files"],
+            "answer": "Access Cortana settings"
+          },
+          {
+            "question": "What information does Cortana gather after activation?",
+            "options": ["Personalization data to enhance the experience", "Only system files", "Network settings", "Desktop customization"],
+            "answer": "Personalization data to enhance the experience"
+          },
+          {
+            "question": "What is shown in the Cortana search pane?",
+            "options": ["Search results and suggestions", "Only system files", "Network settings", "Virtual desktops"],
+            "answer": "Search results and suggestions"
+          },
+          {
+            "question": "How do you access the Personalization window?",
+            "options": ["Right-click the desktop", "Open Task View", "Click File Explorer", "Press Ctrl+Alt"],
+            "answer": "Right-click the desktop"
+          },
+          {
+            "question": "What can you customize in the Personalization window?",
+            "options": ["Background and colors", "Only system files", "Network settings", "Virtual desktops"],
+            "answer": "Background and colors"
+          },
+          {
+            "question": "What does Cortana integrate with on the taskbar?",
+            "options": ["Search functionality", "File deletion", "Network setup", "Desktop customization"],
+            "answer": "Search functionality"
+          },
+          {
+            "question": "What does Cortana integrate with in Windows 10?",
+            "options": ["Store, search results from the web and other information", "Only system files", "Network settings", "Desktop backgrounds"],
+            "answer": "Store, search results from the web and other information"
+          },
+          {
+            "question": "How can you activate Cortana in Windows 10?",
+            "options": ["By typing 'Cortana' in the Taskbar search or clicking the 'Gear' icon", "Right-clicking the desktop", "Pressing Ctrl+Alt+Del", "Opening File Explorer"],
+            "answer": "By typing 'Cortana' in the Taskbar search or clicking the 'Gear' icon"
+          },
+          {
+            "question": "What appears after activating Cortana?",
+            "options": ["Gathering information about personalizing the experience", "A new desktop", "File deletion options", "Network setup"],
+            "answer": "Gathering information about personalizing the experience"
+          },
+          {
+            "question": "Where is the Notification Area located?",
+            "options": ["At the right side of the Taskbar", "At the top of the screen", "On the left side", "In the Start Menu"],
+            "answer": "At the right side of the Taskbar"
+          },
+          {
+            "question": "What does the Notification Area show?",
+            "options": ["Different types of notifications like Internet connection", "Only system files", "Desktop backgrounds", "Application updates"],
+            "answer": "Different types of notifications like Internet connection"
+          },
+          {
+            "question": "How can you view more icons in the Notification Area?",
+            "options": ["Click the upward arrow on its left-side", "Right-click the desktop", "Open File Explorer", "Press Ctrl+Alt"],
+            "answer": "Click the upward arrow on its left-side"
+          },
+          {
+            "question": "What does the Taskbar feature for the Notification Area show?",
+            "options": ["The state of the Internet connection or the charge of the laptop battery", "File deletion status", "Desktop backgrounds", "Application updates"],
+            "answer": "The state of the Internet connection or the charge of the laptop battery"
+          },
+          {
+            "question": "What do the icons on the taskbar represent?",
+            "options": ["Frequently used applications", "Only system files", "Network settings", "Virtual desktops"],
+            "answer": "Frequently used applications"
+          },
+          {
+            "question": "What is the purpose of the upward arrow in the Notification Area?",
+            "options": ["To see other icons as well", "To delete notifications", "To change settings", "To open Task View"],
+            "answer": "To see other icons as well"
+          },
+          {
+            "question": "What does the Taskbar show at the right side?",
+            "options": ["Notification Area", "Only desktop icons", "Start Menu", "File Explorer"],
+            "answer": "Notification Area"
+          },
+          {
+            "question": "What does File Explorer operate as?",
+            "options": ["The file management application used by Windows", "A web browser", "A game launcher", "A network tool"],
+            "answer": "The file management application used by Windows"
+          },
+          {
+            "question": "What can you do with File Explorer?",
+            "options": ["Browse folders and files", "Only change backgrounds", "Delete system files", "Open Task View"],
+            "answer": "Browse folders and files"
+          },
+          {
+            "question": "How do you access File Explorer?",
+            "options": ["By clicking the folder icon in the Taskbar", "Right-click the desktop", "Open Start Menu", "Press Ctrl+Shift"],
+            "answer": "By clicking the folder icon in the Taskbar"
+          },
+          {
+            "question": "What are the main sections of File Explorer?",
+            "options": ["File Explorer window, Quick Access, Navigation Pane", "Only desktop icons", "Network settings", "Virtual desktops"],
+            "answer": "File Explorer window, Quick Access, Navigation Pane"
+          },
+          {
+            "question": "What does the File Explorer window include?",
+            "options": ["Features resembling the ribbon in Microsoft Office", "Only system files", "Desktop backgrounds", "Application updates"],
+            "answer": "Features resembling the ribbon in Microsoft Office"
+          },
+          {
+            "question": "What is the purpose of the Navigation Pane?",
+            "options": ["Gives access to libraries of documents and pictures", "Only deletes files", "Changes the background", "Opens applications"],
+            "answer": "Gives access to libraries of documents and pictures"
+          },
+          {
+            "question": "What does the Frequent folder section show?",
+            "options": ["Folders you've worked with recently", "Only system files", "Desktop settings", "Network connections"],
+            "answer": "Folders you've worked with recently"
+          },
+          {
+            "question": "What is included in the Recent files section?",
+            "options": ["Files and documents that you've opened recently", "Only new files", "Desktop backgrounds", "Application updates"],
+            "answer": "Files and documents that you've opened recently"
+          },
+          {
+            "question": "What is a feature of the Microsoft Edge browser?",
+            "options": ["Fast-moving browser with basic ripping features", "Only opens PDFs", "Changes desktop settings", "Deletes files"],
+            "answer": "Fast-moving browser with basic ripping features"
+          },
+          {
+            "question": "What did Microsoft Edge aim to do with web standards?",
+            "options": ["Meet web standards and make a lean, fast browser", "Only open old websites", "Change backgrounds", "Delete web pages"],
+            "answer": "Meet web standards and make a lean, fast browser"
+          },
+          {
+            "question": "What was a challenge with Microsoft Edge initially?",
+            "options": ["Blocking extensions until Windows 10 updates", "Only slow performance", "No web access", "Limited files"],
+            "answer": "Blocking extensions until Windows 10 updates"
+          },
+          {
+            "question": "What can you do with Microsoft Edge?",
+            "options": ["Take notes on a web page and send to a friend", "Only delete files", "Change desktop settings", "Open Task View"],
+            "answer": "Take notes on a web page and send to a friend"
+          },
+          {
+            "question": "What does Microsoft Edge provide for web pages?",
+            "options": ["Information output like the phone number of a restaurant", "Only images", "Desktop backgrounds", "Application updates"],
+            "answer": "Information output like the phone number of a restaurant"
+          },
+          {
+            "question": "What was a limitation of Microsoft Edge initially?",
+            "options": ["Didn't work properly with IE should look better", "Only slow loading", "No web access", "Limited files"],
+            "answer": "Didn't work properly with IE should look better"
+          },
+          {
+            "question": "What does Microsoft Edge offer now?",
+            "options": ["More features in Edge", "Only basic browsing", "Desktop settings", "Network tools"],
+            "answer": "More features in Edge"
+          },
+          {
+            "question": "What is a feature of the Microsoft Edge ribbon?",
+            "options": ["Resembles Microsoft Office ribbon", "Only opens PDFs", "Changes settings", "Deletes files"],
+            "answer": "Resembles Microsoft Office ribbon"
+          },
+          {
+            "question": "What can you do with the Recent files section?",
+            "options": ["View recently opened files", "Only delete files", "Change backgrounds", "Open Task View"],
+            "answer": "View recently opened files"
+          },
+          {
+            "question": "What is a limitation of the initial Microsoft Edge?",
+            "options": ["Blocked extensions", "Only slow performance", "No web access", "Limited files"],
+            "answer": "Blocked extensions"
+          },
+          {
+            "question": "What can you do with the File Explorer ribbon?",
+            "options": ["Navigate buttons for common tasks", "Only open files", "Change desktop settings", "Delete windows"],
+            "answer": "Navigate buttons for common tasks"
+          },
+          {
+            "question": "What does Microsoft Edge allow you to do with web pages?",
+            "options": ["Take notes and share", "Only delete files", "Change backgrounds", "Open Task View"],
+            "answer": "Take notes and share"
+          }
+        ]
+      },
+      "system_management": {
+        "title": "System Management",
+        "questions": [
+          {
+            "question": "What is a key feature added in Windows 10?",
+            "options": ["Virtual Desktops", "Single desktop only", "No taskbar", "Limited apps"],
+            "answer": "Virtual Desktops"
+          },
+          {
+            "question": "How do you add a virtual desktop in Windows 10?",
+            "options": ["Click Task View on the Taskbar", "Right-click the desktop", "Open File Explorer", "Press Ctrl+Shift"],
+            "answer": "Click Task View on the Taskbar"
+          },
+          {
+            "question": "What can you do with the new desktop option in Task View?",
+            "options": ["Access or delete the new Desktop by clicking Task View again", "Change the background", "Open applications", "Delete files"],
+            "answer": "Access or delete the new Desktop by clicking Task View again"
+          },
+          {
+            "question": "What is a benefit of using Virtual Desktops?",
+            "options": ["Allows you to have multiple desktop screens", "Increases storage", "Improves gaming", "Changes background"],
+            "answer": "Allows you to have multiple desktop screens"
+          },
+          {
+            "question": "What is the second step to add a virtual desktop?",
+            "options": ["Click the 'New desktop' option on the lower-right corner", "Right-click the background", "Open File Explorer", "Press Ctrl+Alt"],
+            "answer": "Click the 'New desktop' option on the lower-right corner"
+          },
+          {
+            "question": "What can you do after opening Task View?",
+            "options": ["Access or delete desktops", "Change the background", "Open applications", "Delete files"],
+            "answer": "Access or delete desktops"
+          },
+          {
+            "question": "What is the first step to use Task View?",
+            "options": ["Click Task View on the Taskbar", "Right-click the desktop", "Open File Explorer", "Press Ctrl+Shift"],
+            "answer": "Click Task View on the Taskbar"
+          },
+          {
+            "question": "What can you do with multiple desktops in Windows 10?",
+            "options": ["Organize different tasks", "Change background only", "Delete files", "Open network settings"],
+            "answer": "Organize different tasks"
+          },
+          {
+            "question": "How do you open a new desktop in Task View?",
+            "options": ["Click 'New desktop'", "Right-click the background", "Open File Explorer", "Press F5"],
+            "answer": "Click 'New desktop'"
+          },
+          {
+            "question": "What is a benefit of using Cortana?",
+            "options": ["Voice-activated search", "Manual file deletion", "Network setup", "Desktop customization"],
+            "answer": "Voice-activated search"
+          },
+          {
+            "question": "What does the Task View button do?",
+            "options": ["Shows all open desktops", "Changes background", "Opens File Explorer", "Deletes files"],
+            "answer": "Shows all open desktops"
+          },
+          {
+            "question": "What is the purpose of the File Explorer View tab?",
+            "options": ["Manage file display options", "Delete files", "Open applications", "Change desktop"],
+            "answer": "Manage file display options"
+          },
+          {
+            "question": "What is a feature of Virtual Desktops?",
+            "options": ["Multiple work environments", "Single screen only", "No taskbar", "Limited apps"],
+            "answer": "Multiple work environments"
+          },
+          {
+            "question": "What is a feature of the Windows 10 taskbar?",
+            "options": ["Task View and File Explorer", "Only desktop icons", "No applications", "Limited settings"],
+            "answer": "Task View and File Explorer"
+          },
+          {
+            "question": "What is the purpose of the Refresh command?",
+            "options": ["Update the display", "Delete files", "Open a new window", "Change background"],
+            "answer": "Update the display"
+          },
+          {
+            "question": "What can you do with the Sort by option?",
+            "options": ["Arrange files by name or date", "Delete files", "Open applications", "Change desktop"],
+            "answer": "Arrange files by name or date"
+          },
+          {
+            "question": "What is the shortcut for Paste in File Explorer?",
+            "options": ["Ctrl+V", "Ctrl+C", "Ctrl+X", "Ctrl+Z"],
+            "answer": "Ctrl+V"
+          },
+          {
+            "question": "What does the Undo New option revert?",
+            "options": ["The last new desktop", "Deleted files", "Opened applications", "Changed background"],
+            "answer": "The last new desktop"
+          },
+          {
+            "question": "What does the Alt+Tab keyboard combination in Windows?",
+            "options": ["Switch between all running apps and show thumbnails", "Open File Explorer", "Change the background", "Delete files"],
+            "answer": "Switch between all running apps and show thumbnails"
+          },
+          {
+            "question": "What does Windows 10 add to the task switcher?",
+            "options": ["A bigger taskbar to help users find it", "Only desktop icons", "No applications", "Limited settings"],
+            "answer": "A bigger taskbar to help users find it"
+          },
+          {
+            "question": "Where is the Windows 10 taskbar located?",
+            "options": ["At the bottom of the screen giving user access to the Start Menu", "On the right side", "At the top", "On the left side"],
+            "answer": "At the bottom of the screen giving user access to the Start Menu"
+          },
+          {
+            "question": "What is a key feature of the Windows 10 task switcher?",
+            "options": ["Shows thumbnails of all running apps", "Only desktop icons", "No applications", "Limited settings"],
+            "answer": "Shows thumbnails of all running apps"
+          },
+          {
+            "question": "What does the taskbar provide access to?",
+            "options": ["Start Menu and frequently used apps", "Only system files", "Network settings", "Virtual desktops"],
+            "answer": "Start Menu and frequently used apps"
+          },
+          {
+            "question": "What is the purpose of the 'More' option when pinning?",
+            "options": ["Displays additional pinning options", "Deletes the application", "Opens a new window", "Changes background"],
+            "answer": "Displays additional pinning options"
+          },
+          {
+            "question": "What does the Notification Area on the taskbar show?",
+            "options": ["Internet connection and battery status", "Only application icons", "Desktop backgrounds", "File updates"],
+            "answer": "Internet connection and battery status"
+          },
+          {
+            "question": "What is the outcome of selecting 'Pin to taskbar'?",
+            "options": ["The app is pinned to the taskbar", "The app is deleted", "The app opens", "The background changes"],
+            "answer": "The app is pinned to the taskbar"
+          },
+          {
+            "question": "What is the first step to unpin an app?",
+            "options": ["Right-click the icon in the Taskbar", "Open File Explorer", "Click Task View", "Press Ctrl+Shift"],
+            "answer": "Right-click the icon in the Taskbar"
+          },
+          {
+            "question": "What option do you select to unpin an app?",
+            "options": ["Unpin from taskbar", "Delete", "Open", "More"],
+            "answer": "Unpin from taskbar"
+          },
+          {
+            "question": "What can users do with pinned applications?",
+            "options": ["Quickly access them", "Only view them", "Delete them", "Change their settings"],
+            "answer": "Quickly access them"
+          },
+          {
+            "question": "What does Cortana provide after activation?",
+            "options": ["Search and personalization options", "Only desktop icons", "No applications", "Limited settings"],
+            "answer": "Search and personalization options"
+          },
+          {
+            "question": "What is a benefit of using the task switcher?",
+            "options": ["Easily switch between running apps", "Change background", "Delete files", "Open network settings"],
+            "answer": "Easily switch between running apps"
+          },
+          {
+            "question": "What does the taskbar's right-side area show?",
+            "options": ["Notification Area with system status", "Only application icons", "Desktop backgrounds", "File updates"],
+            "answer": "Notification Area with system status"
+          },
+          {
+            "question": "How do you access Cortana settings?",
+            "options": ["Click the 'Gear' icon", "Right-click the desktop", "Open Task View", "Press F5"],
+            "answer": "Click the 'Gear' icon"
+          },
+          {
+            "question": "What is the purpose of the Alt+Tab combination?",
+            "options": ["View all running apps with thumbnails", "Open File Explorer", "Change the background", "Delete files"],
+            "answer": "View all running apps with thumbnails"
+          },
+          {
+            "question": "What does the bigger taskbar in Windows 10 improve?",
+            "options": ["Visibility of the task switcher", "Only desktop icons", "No applications", "Limited settings"],
+            "answer": "Visibility of the task switcher"
+          },
+          {
+            "question": "What is a feature of the Start Menu access?",
+            "options": ["Quick access to applications", "Only system files", "Network settings", "Virtual desktops"],
+            "answer": "Quick access to applications"
+          },
+          {
+            "question": "What does the 'Unpin from taskbar' option do?",
+            "options": ["Removes the app icon from the taskbar", "Opens the app", "Changes the background", "Deletes the app"],
+            "answer": "Removes the app icon from the taskbar"
+          },
+          {
+            "question": "What is the first step to search for an app to pin?",
+            "options": ["Open the Start Menu", "Right-click the desktop", "Open Task View", "Press Ctrl+Alt"],
+            "answer": "Open the Start Menu"
+          },
+          {
+            "question": "What follows selecting 'More' when pinning?",
+            "options": ["Select 'Pin to taskbar'", "Open File Explorer", "Change the background", "Delete files"],
+            "answer": "Select 'Pin to taskbar'"
+          },
+          {
+            "question": "What is a key benefit of pinning apps?",
+            "options": ["Faster access to frequently used apps", "Only view them", "Delete them", "Change settings"],
+            "answer": "Faster access to frequently used apps"
+          },
+          {
+            "question": "What does the taskbar's bottom location provide?",
+            "options": ["Easy access to the Start Menu", "Only desktop icons", "No applications", "Limited settings"],
+            "answer": "Easy access to the Start Menu"
+          },
+          {
+            "question": "What does the Notification Area indicate?",
+            "options": ["System status like battery and internet", "Only application icons", "Desktop backgrounds", "File updates"],
+            "answer": "System status like battery and internet"
+          },
+          {
+            "question": "How do you initiate the pinning process?",
+            "options": ["Search for the app in Start Menu", "Right-click the desktop", "Open Task View", "Press F5"],
+            "answer": "Search for the app in Start Menu"
+          },
+          {
+            "question": "What is the purpose of the 'Gear' icon in Cortana?",
+            "options": ["Access settings", "Open applications", "Change background", "Delete files"],
+            "answer": "Access settings"
+          },
+          {
+            "question": "What does the task switcher enhance?",
+            "options": ["App switching efficiency", "Only desktop icons", "No applications", "Limited settings"],
+            "answer": "App switching efficiency"
+          },
+          {
+            "question": "What can you do with the 'Pin to taskbar' option?",
+            "options": ["Fix an app to the taskbar", "Open a new window", "Change the background", "Delete files"],
+            "answer": "Fix an app to the taskbar"
+          },
+          {
+            "question": "What is a feature of the Windows 10 taskbar?",
+            "options": ["Pinning frequently used apps", "Only system files", "Network settings", "Virtual desktops"],
+            "answer": "Pinning frequently used apps"
+          },
+          {
+            "question": "What is the purpose of the Snap Assist feature?",
+            "options": ["To help arrange apps and programs on the desktop", "To delete files", "To change the background", "To open Task View"],
+            "answer": "To help arrange apps and programs on the desktop"
+          },
+          {
+            "question": "How do you use all four corners of the screen with Snap Assist?",
+            "options": ["Take up a quarter of the screen for each window", "Fill the entire screen", "Open a single app", "Delete windows"],
+            "answer": "Take up a quarter of the screen for each window"
+          },
+          {
+            "question": "What happens when you drag a window to a corner with Snap Assist?",
+            "options": ["It fills that corner and shows thumbnails of other windows", "It closes the window", "It opens File Explorer", "It changes the background"],
+            "answer": "It fills that corner and shows thumbnails of other windows"
+          },
+          {
+            "question": "Where is the Action Center located in Windows 10?",
+            "options": ["On the right of the screen", "At the top", "On the left side", "In the Start Menu"],
+            "answer": "On the right of the screen"
+          },
+          {
+            "question": "What does the Action Center provide?",
+            "options": ["Charms bar with notifications from various apps", "Only system files", "Desktop backgrounds", "Application updates"],
+            "answer": "Charms bar with notifications from various apps"
+          },
+          {
+            "question": "What is a feature of the command prompt in Windows 10?",
+            "options": ["Can resize the command prompt window and use keyboard shortcuts", "Only opens system files", "Changes the background", "Deletes files"],
+            "answer": "Can resize the command prompt window and use keyboard shortcuts"
+          },
+          {
+            "question": "Since when has the command prompt been available?",
+            "options": ["1990s, with Windows 10 fully enhancing it", "Only in Windows 7", "Since Windows XP", "Since 2000"],
+            "answer": "1990s, with Windows 10 fully enhancing it"
+          },
+          {
+            "question": "What is a benefit of the improved command prompt?",
+            "options": ["Copy and paste at the command prompt", "Only opens applications", "Changes desktop settings", "Deletes windows"],
+            "answer": "Copy and paste at the command prompt"
+          },
+          {
+            "question": "What can users do with multiple desktops?",
+            "options": ["Put them on multiple virtual desktops", "Only change backgrounds", "Delete files", "Open Task View"],
+            "answer": "Put them on multiple virtual desktops"
+          },
+          {
+            "question": "What can users do with the Alt+Tab feature?",
+            "options": ["Move between apps as usual and then Windows-Ctrl", "Only open files", "Change desktop settings", "Delete windows"],
+            "answer": "Move between apps as usual and then Windows-Ctrl"
+          },
+          {
+            "question": "What do the left and right arrow keys do with Alt+Tab?",
+            "options": ["Move between desktops", "Only open applications", "Change backgrounds", "Delete files"],
+            "answer": "Move between desktops"
+          },
+          {
+            "question": "What is a key feature of Snap Assist?",
+            "options": ["Arranges windows in corners", "Only opens files", "Changes backgrounds", "Deletes applications"],
+            "answer": "Arranges windows in corners"
+          },
+          {
+            "question": "What does the Action Center include?",
+            "options": ["Notifications from various apps", "Only system files", "Desktop settings", "Network tools"],
+            "answer": "Notifications from various apps"
+          },
+          {
+            "question": "What can you do with the command prompt in Windows 10?",
+            "options": ["Resize and use shortcuts", "Only delete files", "Change backgrounds", "Open Task View"],
+            "answer": "Resize and use shortcuts"
+          },
+          {
+            "question": "What is a benefit of the File Explorer Navigation Pane?",
+            "options": ["Access to document libraries", "Only opens files", "Changes desktop settings", "Deletes windows"],
+            "answer": "Access to document libraries"
+          },
+          {
+            "question": "What does the Quick Access section show?",
+            "options": ["Frequently used folders", "Only new files", "Desktop backgrounds", "Application updates"],
+            "answer": "Frequently used folders"
+          },
+          {
+            "question": "What does the Action Center provide access to?",
+            "options": ["Quick access buttons", "Only desktop icons", "Network settings", "Virtual desktops"],
+            "answer": "Quick access buttons"
+          },
+          {
+            "question": "What is a key improvement in Windows 10 command prompt?",
+            "options": ["Copy and paste functionality", "Only opens files", "Changes backgrounds", "Deletes windows"],
+            "answer": "Copy and paste functionality"
+          },
+          {
+            "question": "What does Snap Assist help with?",
+            "options": ["Managing multiple windows", "Only deleting files", "Changing settings", "Opening applications"],
+            "answer": "Managing multiple windows"
+          },
+          {
+            "question": "What is the purpose of the Notification Area upward arrow?",
+            "options": ["Reveal additional icons", "Delete notifications", "Change backgrounds", "Open Task View"],
+            "answer": "Reveal additional icons"
+          },
+          {
+            "question": "What change has Windows 10 made regarding update announcements?",
+            "options": ["No more announcements that you have fifteen minutes to get everything done before restarts", "Announces updates every hour", "Requires manual restart approval", "Delays updates indefinitely"],
+            "answer": "No more announcements that you have fifteen minutes to get everything done before restarts"
+          },
+          {
+            "question": "When does Windows 10 decide to apply an update?",
+            "options": ["If there’s an update that will need a restart and can have Windows ask when you want to schedule that", "Immediately after download", "Only on weekends", "Never without user input"],
+            "answer": "If there’s an update that will need a restart and can have Windows ask when you want to schedule that"
+          },
+          {
+            "question": "Who can schedule restarts for updates?",
+            "options": ["User can only do that once the update has been downloaded", "System automatically", "Administrator only", "No one can schedule"],
+            "answer": "User can only do that once the update has been downloaded"
+          },
+          {
+            "question": "What are the time-off limits for restarts in Windows 10 Pro and Enterprise?",
+            "options": ["For Business (for Windows 10 Pro and Enterprise) which lets block restarts so they don’t happen in working hours, or on certain dates", "Only during weekends", "Randomly scheduled", "Never blocked"],
+            "answer": "For Business (for Windows 10 Pro and Enterprise) which lets block restarts so they don’t happen in working hours, or on certain dates"
+          },
+          {
+            "question": "What is a new feature introduced with Windows 10?",
+            "options": ["Windows Store where download desktop programs as well as modern Windows apps", "Only desktop apps", "No new features", "Limited app downloads"],
+            "answer": "Windows Store where download desktop programs as well as modern Windows apps"
+          },
+          {
+            "question": "What devices can run universal apps in Windows 10?",
+            "options": ["PCs, Windows phone, an Xbox One and even code on a PC", "Only PCs", "Only mobile devices", "Only Xbox"],
+            "answer": "PCs, Windows phone, an Xbox One and even code on a PC"
+          },
+         {
+          "question": "What does pressing Windows Logo key alone do?",
+          "options": ["Toggle the Start menu", "Open File Explorer", "Change the background", "Open Task View"],
+          "answer": "Toggle the Start menu"
+}
+        ]
+      }
+    }
+  }
+}       

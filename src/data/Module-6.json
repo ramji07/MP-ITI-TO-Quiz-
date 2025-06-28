@@ -1,0 +1,997 @@
+{
+  "Module-6": {
+    "title": "Install Ubuntu Linux Operating System",
+    "submodules": [
+      {
+        "submodule_title": "Introduction to Linux",
+        "questions": [
+          {
+            "question": "What is the primary purpose of Linux according to the document?",
+            "options": [
+              "To serve as a gaming platform",
+              "To be used as a server operating system",
+              "To develop proprietary software",
+              "To manage hardware devices only"
+            ],
+            "answer": "To be used as a server operating system"
+          },
+          {
+            "question": "Who are the developers mentioned for Linux?",
+            "options": [
+              "Microsoft developers",
+              "GNU developers and special tools",
+              "Apple Inc.",
+              "Oracle Corporation"
+            ],
+            "answer": "GNU developers and special tools"
+          },
+          {
+            "question": "What does the document say about the accessibility of Linux source code?",
+            "options": [
+              "It is proprietary and inaccessible",
+              "It is accessible by the layer of the computer's software",
+              "It is only available to paid users",
+              "It is encrypted and unavailable"
+            ],
+            "answer": "It is accessible by the layer of the computer's software"
+          },
+          {
+            "question": "What tools does Linux provide to write the application?",
+            "options": [
+              "Graphical design tools",
+              "Powerful tools with editors and compilers",
+              "Database management tools",
+              "Web development kits"
+            ],
+            "answer": "Powerful tools with editors and compilers"
+          },
+          {
+            "question": "What is one key feature of Linux mentioned in the document?",
+            "options": [
+              "It requires a paid license",
+              "It is open-source and free",
+              "It is limited to single-user systems",
+              "It supports only proprietary software"
+            ],
+            "answer": "It is open-source and free"
+          },
+          {
+            "question": "How many different computers are mentioned as running Linux?",
+            "options": [
+              "One",
+              "Several",
+              "Hundreds",
+              "Thousands"
+            ],
+            "answer": "Several"
+          },
+          {
+            "question": "What is a significant advantage of Linux over other operating systems according to the document?",
+            "options": [
+              "Higher cost",
+              "Greater stability and fewer crashes",
+              "Limited hardware support",
+              "Complex user interface"
+            ],
+            "answer": "Greater stability and fewer crashes"
+          },
+          {
+            "question": "Where was Linux initially developed?",
+            "options": [
+              "United States",
+              "Finland",
+              "Germany",
+              "Japan"
+            ],
+            "answer": "Finland"
+          },
+          {
+            "question": "What university is associated with the initial development of Linux?",
+            "options": [
+              "University of Helsinki",
+              "MIT",
+              "Stanford University",
+              "Oxford University"
+            ],
+            "answer": "University of Helsinki"
+          },
+          {
+            "question": "What does the document say about the evolution of Linux?",
+            "options": [
+              "It has remained unchanged",
+              "It has grown tremendously, adding features and fixing bugs",
+              "It has been replaced by a new OS",
+              "It is no longer supported"
+            ],
+            "answer": "It has grown tremendously, adding features and fixing bugs"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Linux Applications and Benefits",
+        "questions": [
+          {
+            "question": "What is one reason Linux is popular with individual users?",
+            "options": [
+              "It is expensive",
+              "It is free and customizable",
+              "It requires advanced technical skills",
+              "It only supports old hardware"
+            ],
+            "answer": "It is free and customizable"
+          },
+          {
+            "question": "What types of devices are mentioned as running Linux?",
+            "options": [
+              "Only desktops and laptops",
+              "Servers, desktops, laptops, and major systems",
+              "Mobile phones only",
+              "Gaming consoles only"
+            ],
+            "answer": "Servers, desktops, laptops, and major systems"
+          },
+          {
+            "question": "What is a key benefit of Linux for businesses?",
+            "options": [
+              "High licensing fees",
+              "Cost savings and flexibility",
+              "Limited software compatibility",
+              "Proprietary control"
+            ],
+            "answer": "Cost savings and flexibility"
+          },
+          {
+            "question": "What does the document suggest about the future of Linux?",
+            "options": [
+              "It will decline in usage",
+              "It is already successful on many devices and will continue to grow",
+              "It will be replaced by Windows",
+              "It will only support servers"
+            ],
+            "answer": "It is already successful on many devices and will continue to grow"
+          },
+          {
+            "question": "What role does Linux play in the context of cloud computing?",
+            "options": [
+              "It has no role",
+              "It is a natural fit due to its flexibility",
+              "It is limited to local networks",
+              "It requires proprietary software"
+            ],
+            "answer": "It is a natural fit due to its flexibility"
+          },
+          {
+            "question": "What is one advantage of Linux in terms of software development?",
+            "options": [
+              "It supports only closed-source software",
+              "It enables cloud services and Amazon AWS",
+              "It is incompatible with modern tools",
+              "It requires high-end hardware"
+            ],
+            "answer": "It enables cloud services and Amazon AWS"
+          },
+          {
+            "question": "What is a well-known success of Linux mentioned?",
+            "options": [
+              "Dominance in gaming",
+              "Success in supercomputers",
+              "Limited use in education",
+              "Failure in business applications"
+            ],
+            "answer": "Success in supercomputers"
+          },
+          {
+            "question": "What fields benefit from Linux according to the document?",
+            "options": [
+              "Only gaming and entertainment",
+              "Physics and energy, bioinformatics",
+              "Only graphic design",
+              "Only mobile development"
+            ],
+            "answer": "Physics and energy, bioinformatics"
+          },
+          {
+            "question": "What is a characteristic of Linux's growth as mentioned?",
+            "options": [
+              "It has slowed down",
+              "It continues to grow faster than many other operating systems",
+              "It is stagnant",
+              "It is declining"
+            ],
+            "answer": "It continues to grow faster than many other operating systems"
+          },
+          {
+            "question": "What is a key feature of Linux that makes it suitable for servers?",
+            "options": [
+              "High cost",
+              "Stability and reliability",
+              "Limited multi-user support",
+              "Proprietary nature"
+            ],
+            "answer": "Stability and reliability"
+          },
+          {
+            "question": "What does the document say about Linux's compatibility with hardware?",
+            "options": [
+              "It is incompatible with modern hardware",
+              "It works with a wide range of hardware",
+              "It only supports old hardware",
+              "It requires specific brands"
+            ],
+            "answer": "It works with a wide range of hardware"
+          },
+          {
+            "question": "Which services are mentioned as being hosted on Linux as part of Web 2.0?",
+            "options": [
+              "Gaming services",
+              "YouTube, and Google all rely on Linux",
+              "Email services only",
+              "Social media only"
+            ],
+            "answer": "YouTube, and Google all rely on Linux"
+          },
+          {
+            "question": "What is predicted about Linux in the future according to the document?",
+            "options": [
+              "It will decline in usage",
+              "It will increasingly be the platform that drives new technologies",
+              "It will be replaced by Windows",
+              "It will focus only on desktops"
+            ],
+            "answer": "It will increasingly be the platform that drives new technologies"
+          },
+          {
+            "question": "What is a current application of Linux operating systems?",
+            "options": [
+              "Only for gaming consoles",
+              "Desktop market and networked services",
+              "Mobile phones only",
+              "Proprietary software development"
+            ],
+            "answer": "Desktop market and networked services"
+          },
+          {
+            "question": "What is a key reason Linux has become popular among developers?",
+            "options": [
+              "It is expensive",
+              "It allows customization and is open-source",
+              "It requires proprietary tools",
+              "It lacks support for applications"
+            ],
+            "answer": "It allows customization and is open-source"
+          },
+          {
+            "question": "What is a notable feature of Linux for companies like Amazon?",
+            "options": [
+              "High cost",
+              "Online bookstore, US Post Office, and trading services",
+              "Limited scalability",
+              "Closed-source nature"
+            ],
+            "answer": "Online bookstore, US Post Office, and trading services"
+          }
+        ]
+      },
+      {
+        "submodule_title": "File Recovery in Linux",
+        "questions": [
+          {
+            "question": "What is a potential limitation of the UNDELETE command as noted?",
+            "options": [
+              "It can recover files from any disk",
+              "It may not be possible to recover files if the disk is reformatted",
+              "It always recovers files instantly",
+              "It deletes files permanently"
+            ],
+            "answer": "It may not be possible to recover files if the disk is reformatted"
+          },
+          {
+            "question": "What happens if other activities occur on the disk after a file is deleted?",
+            "options": [
+              "Recovery becomes easier",
+              "Recovery may not be possible",
+              "The file is automatically recovered",
+              "The disk is reformatted"
+            ],
+            "answer": "Recovery may not be possible"
+          },
+          {
+            "question": "What should be done immediately after using the UNDELETE command?",
+            "options": [
+              "Reformat the disk",
+              "Stop all other activities on the computer and disk",
+              "Delete more files",
+              "Restart the system"
+            ],
+            "answer": "Stop all other activities on the computer and disk"
+          },
+          {
+            "question": "What is the result of the command 'C:\\COPAIDOS\\PRACT\\3> UNDELETE TEST2.txt'?",
+            "options": [
+              "TEST2.txt is deleted",
+              "TEST2.txt is recovered if available",
+              "TEST2.txt is renamed",
+              "TEST2.txt is copied"
+            ],
+            "answer": "TEST2.txt is recovered if available"
+          },
+          {
+            "question": "What does the /DT switch enable in the UNDELETE command?",
+            "options": [
+              "Delete Tracker protection",
+              "Delete Sentry protection",
+              "Purge files",
+              "Load Undelete into memory"
+            ],
+            "answer": "Delete Tracker protection"
+          },
+          {
+            "question": "What is the purpose of the /STATUS switch in the UNDELETE command?",
+            "options": [
+              "To list deleted files",
+              "To display the protection method in effect",
+              "To recover all files",
+              "To unload Undelete"
+            ],
+            "answer": "To display the protection method in effect"
+          },
+          {
+            "question": "What happens with the command 'C:\\COPAIDOS\\PRACT\\4> UNDELETE /ALL'?",
+            "options": [
+              "Lists all deleted files",
+              "Recovers all deleted files without prompting",
+              "Purges all deleted files",
+              "Loads Undelete into memory"
+            ],
+            "answer": "Recovers all deleted files without prompting"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Linux Kernel and Modularity",
+        "questions": [
+          {
+            "question": "What makes Linux unique compared to other operating systems?",
+            "options": [
+              "It has a single owner",
+              "It has no single owner and is managed by a community",
+              "It is fully proprietary",
+              "It lacks development support"
+            ],
+            "answer": "It has no single owner and is managed by a community"
+          },
+          {
+            "question": "What is the role of the kernel in the Linux operating system?",
+            "options": [
+              "It is the user interface",
+              "It is the central set of instructions",
+              "It manages hardware only",
+              "It is an application layer"
+            ],
+            "answer": "It is the central set of instructions"
+          },
+          {
+            "question": "What is a key characteristic of the Linux kernel's modularity?",
+            "options": [
+              "It is rigid and inflexible",
+              "It is modular and flexible",
+              "It requires proprietary modules",
+              "It lacks updates"
+            ],
+            "answer": "It is modular and flexible"
+          },
+          {
+            "question": "Why don't users typically need to use the entire kernel?",
+            "options": [
+              "It is too complex",
+              "It is not running and only specific parts are used",
+              "It lacks functionality",
+              "It requires a license"
+            ],
+            "answer": "It is not running and only specific parts are used"
+          },
+          {
+            "question": "What can a device developer do with Linux on a mobile device?",
+            "options": [
+              "Only use pre-installed software",
+              "Choose a version of Linux that fits their needs",
+              "Cannot modify the kernel",
+              "Requires proprietary tools"
+            ],
+            "answer": "Choose a version of Linux that fits their needs"
+          },
+          {
+            "question": "What is a benefit of Linux's modularity for its success?",
+            "options": [
+              "It limits functionality",
+              "It allows tailoring to specific needs of operating systems",
+              "It increases costs",
+              "It requires frequent reboots"
+            ],
+            "answer": "It allows tailoring to specific needs of operating systems"
+          },
+          {
+            "question": "What does the document say about the impact of a kernel code failure?",
+            "options": [
+              "It affects the entire system",
+              "It only affects a small part",
+              "It has no impact",
+              "It improves performance"
+            ],
+            "answer": "It only affects a small part"
+          },
+          {
+            "question": "What is the primary purpose of the Linux kernel?",
+            "options": [
+              "To manage the user interface",
+              "To act as the central set of instructions managing hardware and software",
+              "To store user data",
+              "To design graphical applications"
+            ],
+            "answer": "To act as the central set of instructions managing hardware and software"
+          },
+          {
+            "question": "What is a key feature of the Linux kernel's modularity?",
+            "options": [
+              "It is rigid and unchangeable",
+              "It is modular and allows specific parts to be used",
+              "It requires proprietary modules",
+              "It lacks updates"
+            ],
+            "answer": "It is modular and allows specific parts to be used"
+          },
+          {
+            "question": "Why don’t users typically need the entire Linux kernel?",
+            "options": [
+              "It is too complex",
+              "Only specific parts are used based on needs",
+              "It lacks functionality",
+              "It requires a license"
+            ],
+            "answer": "Only specific parts are used based on needs"
+          },
+          {
+            "question": "What can device developers do with the Linux kernel on mobile devices?",
+            "options": [
+              "Only use pre-installed versions",
+              "Choose a version that fits their device needs",
+              "Cannot modify it",
+              "Requires proprietary tools"
+            ],
+            "answer": "Choose a version that fits their device needs"
+          },
+          {
+            "question": "What benefit does the modularity of the Linux kernel provide?",
+            "options": [
+              "Limits functionality",
+              "Allows tailoring to specific operating system needs",
+              "Increases costs",
+              "Requires frequent reboots"
+            ],
+            "answer": "Allows tailoring to specific operating system needs"
+          },
+          {
+            "question": "What is the impact of a kernel code failure?",
+            "options": [
+              "It affects the entire system",
+              "It only affects a small part of the system",
+              "It improves performance",
+              "It has no impact"
+            ],
+            "answer": "It only affects a small part of the system"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Linux Environments and Applications",
+        "questions": [
+          {
+            "question": "What is a key feature of Linux environments and dialogs?",
+            "options": [
+              "They are complex and unusable",
+              "They are separate layers known as the windowing system",
+              "They are part of the kernel",
+              "They require proprietary software"
+            ],
+            "answer": "They are separate layers known as the windowing system"
+          },
+          {
+            "question": "What does the GUI enable for users in Linux?",
+            "options": [
+              "Command-line access only",
+              "Easy work with applications",
+              "Limited third-party support",
+              "Hardware management only"
+            ],
+            "answer": "Easy work with applications"
+          },
+          {
+            "question": "What is a limitation of Linux regarding windowing systems?",
+            "options": [
+              "It supports all windowing systems",
+              "Users cannot choose their windowing system",
+              "It only supports one windowing system",
+              "It requires Windows compatibility"
+            ],
+            "answer": "Users cannot choose their windowing system"
+          },
+          {
+            "question": "What are examples of environments mentioned for Linux?",
+            "options": [
+              "Windows and macOS",
+              "GNOME and KDE",
+              "DOS and Unix",
+              "Android and iOS"
+            ],
+            "answer": "GNOME and KDE"
+          },
+          {
+            "question": "What types of applications are supported by Linux operating systems?",
+            "options": [
+              "Only proprietary applications",
+              "Essential components and third-party operating system applications",
+              "Gaming applications only",
+              "Mobile apps only"
+            ],
+            "answer": "Essential components and third-party operating system applications"
+          },
+          {
+            "question": "What is a key difference between Linux and Windows regarding component applications?",
+            "options": [
+              "Linux requires Windows components",
+              "Windows users can choose essential components, while Linux users cannot",
+              "Linux is fully proprietary",
+              "Windows lacks modularity"
+            ],
+            "answer": "Windows users can choose essential components, while Linux users cannot"
+          },
+          {
+            "question": "What is a benefit of Linux for developers according to the document?",
+            "options": [
+              "It requires high costs",
+              "It provides more readily available application tools",
+              "It lacks support for coding",
+              "It is limited to servers"
+            ],
+            "answer": "It provides more readily available application tools"
+          },
+          {
+            "question": "What is the significance of Linux's modularity in its ecosystem?",
+            "options": [
+              "It limits growth",
+              "It enhances flexibility and adaptability",
+              "It increases hardware requirements",
+              "It reduces functionality"
+            ],
+            "answer": "It enhances flexibility and adaptability"
+          },
+          {
+            "question": "What is the primary benefit for Linux application developers according to the document?",
+            "options": [
+              "A larger set of choices to develop applications",
+              "Limited hardware support",
+              "Restricted software options",
+              "Mandatory use of proprietary tools"
+            ],
+            "answer": "A larger set of choices to develop applications"
+          },
+          {
+            "question": "What does a Linux distribution typically include?",
+            "options": [
+              "Only a kernel",
+              "A collection of software on top of a Linux kernel",
+              "Proprietary software only",
+              "Hardware drivers only"
+            ],
+            "answer": "A collection of software on top of a Linux kernel"
+          },
+          {
+            "question": "What is an example of a component in a Linux distribution?",
+            "options": [
+              "Desktop management tools",
+              "Gaming software",
+              "Mobile applications",
+              "Spreadsheet software only"
+            ],
+            "answer": "Desktop management tools"
+          },
+          {
+            "question": "What is the purpose of a Linux distribution according to the document?",
+            "options": [
+              "To provide a common look and feel",
+              "To secure and ease software management",
+              "To limit operational purposes",
+              "To restrict user access"
+            ],
+            "answer": "To secure and ease software management"
+          },
+          {
+            "question": "What does the GUI enable for Linux users?",
+            "options": [
+              "Command-line access only",
+              "Easy interaction with applications",
+              "Limited third-party support",
+              "Hardware management only"
+            ],
+            "answer": "Easy interaction with applications"
+          },
+          {
+            "question": "What is a limitation of Linux regarding windowing systems?",
+            "options": [
+              "Users can choose any windowing system",
+              "Users cannot choose their windowing system",
+              "It supports all systems equally",
+              "It requires Windows compatibility"
+            ],
+            "answer": "Users cannot choose their windowing system"
+          },
+          {
+            "question": "Which are examples of Linux environments?",
+            "options": [
+              "Windows and macOS",
+              "GNOME and KDE",
+              "DOS and Unix",
+              "Android and iOS"
+            ],
+            "answer": "GNOME and KDE"
+          },
+          {
+            "question": "What types of applications does Linux support?",
+            "options": [
+              "Only proprietary applications",
+              "Essential components and third-party applications",
+              "Gaming applications only",
+              "Mobile apps only"
+            ],
+            "answer": "Essential components and third-party applications"
+          },
+          {
+            "question": "What is a key difference between Linux and Windows regarding component applications?",
+            "options": [
+              "Linux requires Windows components",
+              "Windows allows choice of components, Linux does not",
+              "Linux is fully proprietary",
+              "Windows lacks modularity"
+            ],
+            "answer": "Windows allows choice of components, Linux does not"
+          },
+          {
+            "question": "What benefit does Linux provide for developers?",
+            "options": [
+              "It requires high costs",
+              "It offers more readily available application tools",
+              "It lacks support for coding",
+              "It is limited to servers"
+            ],
+            "answer": "It offers more readily available application tools"
+          },
+          {
+            "question": "What is the significance of Linux's modularity in its ecosystem?",
+            "options": [
+              "It limits growth",
+              "It enhances flexibility and adaptability",
+              "It increases hardware requirements",
+              "It reduces functionality"
+            ],
+            "answer": "It enhances flexibility and adaptability"
+          },
+          {
+            "question": "What is a key advantage of Linux for application development?",
+            "options": [
+              "A larger set of choices for developers",
+              "Limited hardware compatibility",
+              "Restricted software options",
+              "Mandatory use of paid tools"
+            ],
+            "answer": "A larger set of choices for developers"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Linux Distributions and Open Source Software",
+        "questions": [
+          {
+            "question": "What is Red Hat known for in the Linux community?",
+            "options": [
+              "A free open-source distribution",
+              "A billion-dollar commercial Linux company",
+              "A non-profit organization",
+              "A gaming software provider"
+            ],
+            "answer": "A billion-dollar commercial Linux company"
+          },
+          {
+            "question": "What is a key feature of Red Hat Enterprise Linux (RHEL)?",
+            "options": [
+              "Free updates without support",
+              "Support for up to seven years after release",
+              "Limited to one-year support",
+              "No enterprise focus"
+            ],
+            "answer": "Support for up to seven years after release"
+          },
+          {
+            "question": "What is Fedora known for in relation to Red Hat?",
+            "options": [
+              "A slower update cycle",
+              "A distro with faster updates but without support",
+              "A proprietary software suite",
+              "A gaming-focused distribution"
+            ],
+            "answer": "A distro with faster updates but without support"
+          },
+          {
+            "question": "What is the main objective of the lesson on Open Source Software (OSS)?",
+            "options": [
+              "To teach proprietary software development",
+              "To provide history of OSS and examples",
+              "To limit software usage",
+              "To focus on hardware management"
+            ],
+            "answer": "To provide history of OSS and examples"
+          },
+          {
+            "question": "What is the definition of Open Source Software (OSS)?",
+            "options": [
+              "Software with restricted source code",
+              "Software distributed with its source code available for use",
+              "Proprietary software only",
+              "Software without a license"
+            ],
+            "answer": "Software distributed with its source code available for use"
+          },
+          {
+            "question": "Who is credited with initiating the idea of making source code freely available?",
+            "options": [
+              "Bill Gates",
+              "Richard Stallman",
+              "Linus Torvalds",
+              "Steve Jobs"
+            ],
+            "answer": "Richard Stallman"
+          },
+          {
+            "question": "At which institution did Richard Stallman work when he initiated the OSS movement?",
+            "options": [
+              "MIT",
+              "Stanford",
+              "Harvard",
+              "Oxford"
+            ],
+            "answer": "MIT"
+          },
+          {
+            "question": "What was a key action taken by Richard Stallman to promote OSS?",
+            "options": [
+              "Created a proprietary license",
+              "Learned about free code under his own license",
+              "Developed closed-source software",
+              "Restricted code access"
+            ],
+            "answer": "Learned about free code under his own license"
+          },
+          {
+            "question": "What license did Richard Stallman create that led to the Open Source Initiative?",
+            "options": [
+              "Microsoft License",
+              "GNU Public License",
+              "Apache License",
+              "BSD License"
+            ],
+            "answer": "GNU Public License"
+          },
+          {
+            "question": "In what year was the Open Source Initiative formed?",
+            "options": [
+              "1990",
+              "1995",
+              "1998",
+              "2000"
+            ],
+            "answer": "1998"
+          },
+          {
+            "question": "What is the primary goal of the Open Source Initiative (OSI)?",
+            "options": [
+              "To promote proprietary software",
+              "To promote and protect open source software",
+              "To limit software distribution",
+              "To create paid licenses"
+            ],
+            "answer": "To promote and protect open source software"
+          },
+          {
+            "question": "What does OSI provide to support open source software?",
+            "options": [
+              "Proprietary guidelines",
+              "Repository of source code and community guidelines",
+              "Restricted access rules",
+              "Paid support services"
+            ],
+            "answer": "Repository of source code and community guidelines"
+          },
+          {
+            "question": "What is a key benefit of OSS according to the document?",
+            "options": [
+              "High cost for users",
+              "Encourages collaboration and community support",
+              "Limited development",
+              "Proprietary control"
+            ],
+            "answer": "Encourages collaboration and community support"
+          },
+          {
+            "question": "How is OSS work typically stored?",
+            "options": [
+              "In private databases",
+              "In a public repository",
+              "On individual computers",
+              "In proprietary servers"
+            ],
+            "answer": "In a public repository"
+          },
+          {
+            "question": "Who can contribute to the design and functionality of OSS projects?",
+            "options": [
+              "Only paid developers",
+              "Anyone with access to the repository",
+              "Only original authors",
+              "Proprietary license holders"
+            ],
+            "answer": "Anyone with access to the repository"
+          },
+          {
+            "question": "What is a notable feature of Canonical's Ubuntu distribution?",
+            "options": [
+              "Paid software only",
+              "Sending out free compact discs with updates",
+              "Limited to enterprise use",
+              "No community support"
+            ],
+            "answer": "Sending out free compact discs with updates"
+          },
+          {
+            "question": "What is a key difference between Ubuntu and Debian?",
+            "options": [
+              "Ubuntu is proprietary, Debian is open-source",
+              "Debian has no company behind it, Ubuntu does",
+              "Ubuntu is older than Debian",
+              "Debian offers paid support"
+            ],
+            "answer": "Debian has no company behind it, Ubuntu does"
+          },
+          {
+            "question": "How often is Debian released according to the document?",
+            "options": [
+              "Every month",
+              "Every two years",
+              "Every year",
+              "Every six months"
+            ],
+            "answer": "Every two years"
+          },
+          {
+            "question": "What is a characteristic of Debian's release versions?",
+            "options": [
+              "They are unstable and untested",
+              "They are stable, testing, and unstable",
+              "They are proprietary",
+              "They are limited to one version"
+            ],
+            "answer": "They are stable, testing, and unstable"
+          },
+          {
+            "question": "What is a notable feature of other distributions like Cent OS?",
+            "options": [
+              "Based on proprietary software",
+              "Based on Red Hat Enterprise Linux",
+              "Limited to desktop use",
+              "No community support"
+            ],
+            "answer": "Based on Red Hat Enterprise Linux"
+          },
+          {
+            "question": "What is a common trait among many Linux distributions?",
+            "options": [
+              "They are all proprietary",
+              "They are based on the same principles and share many features",
+              "They lack community support",
+              "They require paid licenses"
+            ],
+            "answer": "They are based on the same principles and share many features"
+          },
+          {
+            "question": "What is the main purpose of sending free Ubuntu CDs?",
+            "options": [
+              "To sell hardware",
+              "To promote and distribute the software",
+              "To limit user access",
+              "To provide paid support"
+            ],
+            "answer": "To promote and distribute the software"
+          },
+          {
+            "question": "What happens if a user cannot see a command line interface with Ubuntu?",
+            "options": [
+              "They need to buy a license",
+              "They can use graphical Linux desktop without need",
+              "The software fails",
+              "They must reinstall"
+            ],
+            "answer": "They can use graphical Linux desktop without need"
+          },
+          {
+            "question": "What is a key aspect of Debian's development model?",
+            "options": [
+              "Centralized corporate control",
+              "Project Leader elected every two years",
+              "Proprietary software focus",
+              "Paid developer team"
+            ],
+            "answer": "Project Leader elected every two years"
+          },
+          {
+            "question": "What is a potential limitation of recovering deleted files with UNDELETE?",
+            "options": [
+              "It always succeeds",
+              "It may not be possible if the disk is reformatted",
+              "It requires a paid license",
+              "It deletes files permanently"
+            ],
+            "answer": "It may not be possible if the disk is reformatted"
+          },
+          {
+            "question": "What should be done immediately after using the UNDELETE command?",
+            "options": [
+              "Reformat the disk",
+              "Stop all other activities on the computer and disk",
+              "Delete more files",
+              "Restart the system"
+            ],
+            "answer": "Stop all other activities on the computer and disk"
+          },
+          {
+            "question": "What is a key benefit of the OSS movement initiated by Richard Stallman?",
+            "options": [
+              "Creation of proprietary software",
+              "Encouragement of free software sharing",
+              "Limitation of code access",
+              "High cost for users"
+            ],
+            "answer": "Encouragement of free software sharing"
+          },
+          {
+            "question": "What is the role of the public repository in OSS?",
+            "options": [
+              "To restrict access to code",
+              "To allow anyone to contribute improvements",
+              "To store proprietary software",
+              "To limit developer access"
+            ],
+            "answer": "To allow anyone to contribute improvements"
+          },
+          {
+            "question": "What is a significant outcome of the OSI's efforts?",
+            "options": [
+              "Creation of closed-source software",
+              "Promotion of open source licenses and community collaboration",
+              "Restriction of software use",
+              "Development of paid software"
+            ],
+            "answer": "Promotion of open source licenses and community collaboration"
+          },
+          {
+            "question": "What is a common trait of Linux distributions like Ubuntu and Debian?",
+            "options": [
+              "They are all proprietary",
+              "They are based on open-source principles",
+              "They require paid support",
+              "They lack community involvement"
+            ],
+            "answer": "They are based on open-source principles"
+          }
+        ]
+      }
+    ]
+  }
+}

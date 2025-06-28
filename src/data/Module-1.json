@@ -1,0 +1,1092 @@
+{
+  "Module-1": {
+    "title": "Introduction to Computer",
+    "submodules": {
+      "basics": {
+        "title": "Computer Basics",
+        "questions": [
+          {
+            "question": "Which of the following best describes a computer system?",
+            "options": [
+              "Machine that plays music",
+              "Device to store pictures",
+              "Machine that processes input into output",
+              "Device to print only"
+            ],
+            "answer": "Machine that processes input into output"
+          },
+          {
+            "question": "The input information must be prepared in the form of:",
+            "options": [
+              "Paragraph",
+              "Image",
+              "Program statements",
+              "Graph"
+            ],
+            "answer": "Program statements"
+          },
+          {
+            "question": "What is a key requirement to use a computer efficiently for clerical data?",
+            "options": [
+              "Typing speed",
+              "High cost",
+              "Repetitive large data",
+              "Stylish appearance"
+            ],
+            "answer": "Repetitive large data"
+          },
+          {
+            "question": "Computers cannot correct errors on their own because:",
+            "options": [
+              "They don’t have batteries",
+              "They are machines",
+              "They are wireless",
+              "They are not programmed"
+            ],
+            "answer": "They are machines"
+          },
+          {
+            "question": "Mainframe computers were introduced in the year:",
+            "options": ["1960", "1975", "1985", "1990"],
+            "answer": "1975"
+          },
+          {
+            "question": "Mainframe computers are designed to perform tasks for:",
+            "options": ["One user", "Mobile apps", "Multiple users at the same time", "Gaming purposes"],
+            "answer": "Multiple users at the same time"
+          },
+          {
+            "question": "How many users can a typical mainframe computer serve simultaneously?",
+            "options": ["5,000", "50,000", "500", "5"],
+            "answer": "50,000"
+          },
+          {
+            "question": "Mainframe computers execute how many instructions per second?",
+            "options": ["1 million", "10 million", "16 million", "100 thousand"],
+            "answer": "16 million"
+          },
+          {
+            "question": "Which of the following is a model of a mainframe computer?",
+            "options": ["VAX-8800", "DEC 10", "iPhone", "PalmTop"],
+            "answer": "DEC 10"
+          },
+          {
+            "question": "Users access a mainframe computer through:",
+            "options": ["WiFi only", "Mobile phone", "Terminal or personal computer", "Bluetooth"],
+            "answer": "Terminal or personal computer"
+          },
+          {
+            "question": "Mainframe computers are used primarily by:",
+            "options": ["Schools", "Hospitals", "Corporate and government organizations", "Gamers"],
+            "answer": "Corporate and government organizations"
+          },
+          {
+            "question": "Which of the following is not a use of mainframe computers?",
+            "options": ["Gaming", "Data processing", "Transaction processing", "Consumer statistics"],
+            "answer": "Gaming"
+          },
+          {
+            "question": "Mainframes are used for bulk data processing in industries such as:",
+            "options": ["Textile", "Footwear", "Senses and transaction processing", "Toy manufacturing"],
+            "answer": "Senses and transaction processing"
+          },
+          {
+            "question": "A mainframe computer can be used for all EXCEPT:",
+            "options": ["Personal chatting", "Bulk data analysis", "Government reports", "Scientific data storage"],
+            "answer": "Personal chatting"
+          },
+          {
+            "question": "What is NEC 610?",
+            "options": ["Microprocessor", "Mainframe computer model", "Operating System", "Phone"],
+            "answer": "Mainframe computer model"
+          },
+          {
+            "question": "Mainframe computers can handle multiple tasks and:",
+            "options": ["Send emails", "Use Facebook", "Serve multiple users", "Run on batteries"],
+            "answer": "Serve multiple users"
+          },
+          {
+            "question": "Why are mainframe computers reliable in large organizations?",
+            "options": ["Because they’re cheap", "Because of high multitasking capability", "Because they look good", "Because they work on solar"],
+            "answer": "Because of high multitasking capability"
+          },
+          {
+            "question": "Mainframe computers are ideal for:",
+            "options": ["Video streaming", "Bulk transaction processing", "Typing practice", "Taking selfies"],
+            "answer": "Bulk transaction processing"
+          },
+          {
+            "question": "Mainframe computers are mostly used by:",
+            "options": ["Celebrities", "Startups", "Corporate and Government sectors", "YouTubers"],
+            "answer": "Corporate and Government sectors"
+          },
+          {
+            "question": "Which is the most common type of computer used in offices and homes?",
+            "options": ["Mini computer", "Micro computer", "Super computer", "Mainframe computer"],
+            "answer": "Micro computer"
+          },
+          {
+            "question": "Microcomputers were introduced in:",
+            "options": ["1960s", "1980s", "1970s", "1990s"],
+            "answer": "1970s"
+          },
+          {
+            "question": "Microcomputers are also known as:",
+            "options": ["Terminals", "Mainframes", "Personal computers (PCs)", "Hybrid computers"],
+            "answer": "Personal computers (PCs)"
+          },
+          {
+            "question": "Which of the following is a use of microcomputers?",
+            "options": ["Monitoring weather", "Solving nuclear equations", "Business and engineering applications", "Missile control systems"],
+            "answer": "Business and engineering applications"
+          },
+          {
+            "question": "What makes microcomputers widely used today?",
+            "options": ["Small screen", "High cost", "Accessibility and usability", "Use of analog signals"],
+            "answer": "Accessibility and usability"
+          },
+          {
+            "question": "Microcomputers are used in:",
+            "options": ["Large factories only", "Homes, schools, and offices", "Space missions only", "Military operations only"],
+            "answer": "Homes, schools, and offices"
+          },
+          {
+            "question": "Which of the following is NOT a type of microcomputer?",
+            "options": ["Desktop computer", "Laptop", "Mainframe computer", "Tablet"],
+            "answer": "Mainframe computer"
+          },
+          {
+            "question": "Microcomputers are preferred for tasks like:",
+            "options": ["Heavy data processing", "Simple tasks like word processing", "Running large databases", "Controlling satellites"],
+            "answers": "Simple tasks like word processing"
+          },
+          {
+            "question": "What is the primary reason for the popularity of microcomputers?",
+            "options": ["High cost", "Complexity", "User-friendliness and affordability", "Limited applications"],
+            "answer": "User-friendliness and affordability"
+          },
+          {
+            "question": "Which of the following is an example of a microcomputer?",
+            "options": ["IBM System/360", "Apple iPhone", "NASA Space Shuttle computer", "IBM 1401"],
+            "answer": "Apple iPhone"
+          },
+          {
+            "question": "Mini computers were introduced in the:",
+            "options": ["1950s", "1960s", "1970s", "1980s"],
+            "answer": "1960s"
+          },
+          {
+            "question": "A mini computer is more powerful than a:",
+            "options": ["Supercomputer", "Laptop", "Micro computer", "Server"],
+            "answer": "Micro computer"
+          },
+          {
+            "question": "Mini computers can execute how many instructions per second?",
+            "options": ["5 thousand", "5 million", "5 billion", "500"],
+            "answer": "5 million"
+          },
+          {
+            "question": "A mini computer generally has how many processors?",
+            "options": ["One", "Two or more", "Fourteen", "None"],
+            "answer": "Two or more"
+          },
+          {
+            "question": "What is a terminal in the context of mini computers?",
+            "options": ["A powerful supercomputer", "A storage device", "A monitor and keyboard device", "A hybrid computer"],
+            "answer": "A monitor and keyboard device"
+          },
+          {
+            "question": "Which mini computer models are mentioned?",
+            "options": ["Dell and HP", "IBM 370 and Cray", "VAX-8800 and AS400", "Apple and Asus"],
+            "answer": "VAX-8800 and AS400"
+          },
+          {
+            "question": "A mini computer is accessed using a:",
+            "options": ["Web browser", "Personal computer or terminal", "Mobile phone", "Printer"],
+            "answer": "Personal computer or terminal"
+          },
+          {
+            "question": "Mini computers are typically used in:",
+            "options": ["Aircrafts", "Medium-sized companies", "Home automation", "Smartphone apps"],
+            "answer": "Medium-sized companies"
+          },
+          {
+            "question": "A terminal without a processor is known as a:",
+            "options": ["Digital notebook", "Dumb terminal", "Smart device", "Sensor"],
+            "answer": "Dumb terminal"
+          },
+          {
+            "question": "Mini computers can serve how many users simultaneously?",
+            "options": ["100", "400", "1000", "4000"],
+            "answer": "4000"
+          },
+          {
+            "question": "Supercomputers were introduced in the:",
+            "options": ["1960s", "1970s", "1980s", "1990s"],
+            "answer": "1980s"
+          },
+          {
+            "question": "Which is the fastest and most powerful type of computer?",
+            "options": ["Laptop", "Mainframe", "Microcomputer", "Supercomputer"],
+            "answer": "Supercomputer"
+          },
+          {
+            "question": "Supercomputers can process how many instructions in one second?",
+            "options": ["Thousands", "Millions", "Billions", "Trillions"],
+            "answer": "Trillions"
+          },
+          {
+            "question": "Supercomputers are mostly used for:",
+            "options": ["Playing games", "Storing movies", "High calculation-intensive tasks", "Office documentation"],
+            "answer": "High calculation-intensive tasks"
+          },
+          {
+            "question": "Which of the following is an application of supercomputers?",
+            "options": ["Music editing", "Gaming consoles", "Weather forecasting", "Typing reports"],
+            "answer": "Weather forecasting"
+          },
+          {
+            "question": "Supercomputers are used in Hollywood for:",
+            "options": ["Writing scripts", "Animated graphics", "Casting actors", "Sound engineering"],
+            "answer": "Animated graphics"
+          },
+          {
+            "question": "Which is a scientific use of supercomputers?",
+            "options": ["Scheduling trains", "Checking grammar", "Nuclear energy research", "Social media browsing"],
+            "answer": "Nuclear energy research"
+          },
+          {
+            "question": "Supercomputers are essential for:",
+            "options": ["Small offices", "Budgeting tools", "Space science", "Basic web apps"],
+            "answer": "Space science"
+          },
+          {
+            "question": "Supercomputers are also used in:",
+            "options": ["Food processing", "Missile and weapon design", "Social media", "Online shopping"],
+            "answer": "Missile and weapon design"
+          },
+          {
+            "question": "What does Tianhe-1A refer to?",
+            "options": ["A mini computer", "A hybrid computer", "A Chinese supercomputer", "An operating system"],
+            "answer": "A Chinese supercomputer"
+          },
+          {
+            "question": "Which companies produce supercomputers?",
+            "options": ["Google, Facebook", "Cray, IBM, HP", "Dell, Acer", "Microsoft, Sony"],
+            "answer": "Cray, IBM, HP"
+          },
+          {
+            "question": "Supercomputers differ from mainframes by:",
+            "options": ["Using less energy", "Executing a single large program fast", "Being used in schools", "Displaying better images"],
+            "answer": "Executing a single large program fast"
+          },
+          {
+            "question": "Supercomputers are used in petroleum exploration for:",
+            "options": ["Entertainment", "Designing clothes", "Mapping underground resources", "Blogging"],
+            "answer": "Mapping underground resources"
+          },
+          {
+            "question": "Hybrid computers are a combination of:",
+            "options": ["Micro and mainframe computers", "Analog and digital computers", "Server and supercomputers", "Digital and mainframe computers"],
+            "answer": "Analog and digital computers"
+          },
+          {
+            "question": "Hybrid computers are used in:",
+            "options": ["Home automation", "Video gaming", "Hospitals and industrial applications", "Music systems"],
+            "answer": "Hospitals and industrial applications"
+          },
+          {
+            "question": "Which of the following is monitored using hybrid computers in hospitals?",
+            "options": ["Heart rate", "Blood pressure", "Temperature", "All of the above"],
+            "answer": "All of the above"
+          },
+          {
+            "question": "What does VSM stand for in medical monitoring?",
+            "options": ["Visual Sensing Monitor", "Vital Signs Monitoring", "Voltage Signal Monitor", "Voice Signal Machine"],
+            "answer": "Vital Signs Monitoring"
+          },
+          {
+            "question": "Which of the following is NOT typically monitored by VSM?",
+            "options": ["ECG", "Heart rate", "Internet speed", "Respiratory monitor"],
+            "answer": "Internet speed"
+          },
+          {
+            "question": "Hybrid computers are used in which aerospace fields?",
+            "options": ["Flight booking", "Crew training", "Spaceships and missile systems", "Satellite TV"],
+            "answer": "Spaceships and missile systems"
+          },
+          {
+            "question": "In which domain are hybrid computers not commonly used?",
+            "type": "multiple-choice",
+            "options": ["Scientific research", "Industrial process control", "Accounting software", "Hospitals"],
+            "answer": "Accounting software"
+          },
+          {
+            "question": "Which of these is a valid classification of computers by capacity?",
+            "options": ["Wireless and Wired", "Smart and Dumb", "Micro, Mini, Mainframe, Super", "Internal and External"],
+            "answer": "Micro, Mini, Mainframe, Super"
+          },
+          {
+            "question": "Microcomputers are also called:",
+            "options": ["Hybrid computers", "Server computers", "Personal computers", "Supercomputers"],
+            "answer": "Personal computers"
+          },
+          {
+            "question": "In which year was the microcomputer introduced?",
+            "options": ["1960", "1970", "1980", "1990"],
+            "answer": "1970"
+          },
+          {
+            "question": "Which computer type has the highest computing power?",
+            "options": ["Mini", "Micro", "Super", "Mainframe"],
+            "answer": "Super"
+          },
+          {
+            "question": "Mainframe computers are typically used in:",
+            "options": ["Homes", "Large organizations", "Mobile phones", "Music players"],
+            "answer": "Large organizations"
+          },
+          {
+            "question": "Which computer type is larger than micro but smaller than mainframe?",
+            "options": ["Supercomputer", "Hybrid computer", "Mini computer", "Analog computer"],
+            "answer": "Mini computer"
+          },
+          {
+            "question": "Which of the following is NOT part of the classification by computing power?",
+            "options": ["Super computer", "Mainframe computer", "Pocket calculator", "Mini computer"],
+            "answer": "Pocket calculator"
+          },
+          {
+            "question": "Which of the following is NOT a type of computer?",
+            "options": ["Microcomputer", "Mainframe", "Supercomputer", "Smartphone"],
+            "answer": "Smartphone"
+          },
+          {
+            "question": "Which computer type is best for personal use?",
+            "options": ["Mainframe", "Supercomputer", "Microcomputer", "Mini computer"],
+            "answer": "Microcomputer"
+          },
+          {
+            "question": "What is the primary use of mainframe computers?",
+            "options": ["Gaming", "Personal tasks", "Business and government applications", "Social media"],
+            "answer": "Business and government applications"
+          },
+          {
+            "question": "Which computer type is known for high processing speed?",
+            "options": ["Microcomputer", "Mini computer", "Mainframe", "Supercomputer"],
+            "answer": "Supercomputer"
+          },
+          {
+            "question": "What is a common application of mini computers?",
+            "options": ["Home automation", "Medium-sized business operations", "Gaming consoles", "Mobile apps"],
+            "answer": "Medium-sized business operations"
+          },
+          {
+            "question": "Which computer type is typically used in large organizations?",
+            "options": ["Microcomputer", "Mini computer", "Mainframe", "Supercomputer"],
+            "answer": "Mainframe"
+          },
+          {
+            "question": "A desktop computer is designed to be placed on:",
+            "options": ["Floor", "Table or desk", "Wall", "Lap"],
+            "answer": "Table or desk"
+          },
+          {
+            "question": "In which model is the monitor placed on the system unit?",
+            "options": ["Tablet model", "Tower model", "Laptop model", "Desktop model"],
+            "answer": "Tower model"
+          },
+          {
+            "question": "In the desktop model, the system unit is placed:",
+            "options": ["Below the screen", "On the table separately", "On the desktop or table", "Behind the monitor"],
+            "answer": "On the desktop or table"
+          },
+          {
+            "question": "Portable computers are designed to be:",
+            "options": ["Fixed in one place", "Mounted on a wall", "Carried easily from place to place", "Stored in server rooms only"],
+            "answer": "Carried easily from place to place"
+          },
+          {
+            "question": "Which of the following is an example of a portable computer?",
+            "options": ["Tower model", "Mainframe", "Notebook", "Server"],
+            "answer": "Notebook"
+          },
+          {
+            "question": "Notebook and handheld computers fall under:",
+            "options": ["Desktop computers", "Hybrid computers", "Analog computers", "Portable computers"],
+            "answer": "Portable computers"
+          },
+          {
+            "question": "Laptop computers are:",
+            "options": ["Very large and fixed", "Heavy and slow", "Very small in size and easy to carry", "Analog in design"],
+            "answer": "Very small in size and easy to carry"
+          },
+          {
+            "question": "What is another name for a palmtop?",
+            "options": ["Smart watch", "Notebook", "Digital diary", "Server"],
+            "answer": "Digital diary"
+          },
+          {
+            "question": "Palmtop computers are known for being:",
+            "options": ["Large and powerful", "Bulky and wired", "Small and handheld", "High cost machines"],
+            "answer": "Small and handheld"
+          },
+          {
+            "question": "Palmtops usually lack:",
+            "options": ["Battery", "Keyboard", "Display screen", "Ports"],
+            "answer": "Keyboard"
+          },
+          {
+            "question": "Palmtops are commonly used for:",
+            "options": ["Drawing only", "As both input and output devices", "Network routing", "Cloud servers"],
+            "answer": "As both input and output devices"
+          },
+          {
+            "question": "Which computer fits easily in the hand of a user?",
+            "options": ["Mainframe", "Desktop", "Palmtop", "Tower computer"],
+            "answer": "Palmtop"
+          },
+          {
+            "question": "Which of the following is a feature of palmtop computers?",
+            "options": ["Screen acts as keyboard", "Full-sized mechanical keyboard", "Used only in offices", "Touchpads only"],
+            "answer": "Screen acts as keyboard"
+          },
+          {
+            "question": "Which device is not considered a palmtop?",
+            "options": ["Digital diary", "Smartphone", "Desktop", "PDA"],
+            "answer": "Desktop"
+          },
+          {
+            "question": "Palmtop computers are best for:",
+            "options": ["Handling industrial machines", "Quick note-taking and mobility", "Performing rocket science", "Server management"],
+            "answer": "Quick note-taking and mobility"
+          },
+          {
+            "question": "Palmtops use the screen for:",
+            "options": ["Decoration", "Cooling", "Input and output", "Battery charging"],
+            "answer": "Input and output"
+          },
+          {
+            "question": "A palmtop can also be considered a type of:",
+            "options": ["Mainframe", "Hybrid computer", "Handheld computer", "Tower model"],
+            "answer": "Handheld computer"
+          },
+          {
+            "question": "Which of the following is designed to solve a specific type of problem?",
+            "options": ["General purpose computer", "Hybrid computer", "Special purpose computer", "Personal computer"],
+            "answer": "Special purpose computer"
+          },
+          {
+            "question": "A general purpose computer is capable of:",
+            "options": ["Solving one specific task", "Playing music only", "Storing only one program", "Solving a wide variety of problems"],
+            "answer": "Solving a wide variety of problems"
+          },
+          {
+            "question": "Computers used in aircrafts and ships are typically:",
+            "options": ["Personal computers", "General purpose computers", "Analog computers", "Special purpose computers"],
+            "answer": "Special purpose computers"
+          },
+          {
+            "question": "Which type of computer can store and process different programs?",
+            "options": ["Special purpose computer", "Calculator", "General purpose computer", "Hybrid computer"],
+            "answer": "General purpose computer"
+          },
+          {
+            "question": "Which of the following is not a criterion for classifying computers?",
+            "options": ["Principle of operation", "Physical appearance", "Technological development", "Memory capacity and cost"],
+            "answer": "Physical appearance"
+          },
+          {
+            "question": "Which of the following is a type of computer based on principle of operation?",
+            "options": ["Super computer", "Hybrid computer", "Server computer", "Networked computer"],
+            "answer": "Hybrid computer"
+          },
+          {
+            "question": "Analog computers work on:",
+            "options": ["Discrete values", "Binary system", "Continuous values", "Decimal values only"],
+            "answer": "Continuous values"
+          },
+          {
+            "question": "Digital computers work on:",
+            "options": ["Continuous values", "Real-time systems", "Discrete values", "Quantum signals"],
+            "answer": "Discrete values"
+          },
+          {
+            "question": "An example of an analog computer is:",
+            "options": ["Laptop", "Smartphone", "Thermometer", "Desktop computer"],
+            "answer": "Thermometer"
+          },
+          {
+            "question": "Analog computers are mostly used in:",
+            "options": ["Gaming", "Education", "Scientific and engineering applications", "Word processing"],
+            "answer": "Scientific and engineering applications"
+          },
+          {
+            "question": "Analog computers are generally:",
+            "options": ["Faster", "Less accurate", "High memory", "More reliable"],
+            "answer": "Less accurate"
+          },
+          {
+            "question": "Analog computers use which kind of measurement?",
+            "options": ["Logical", "Continuous", "Discrete", "Binary"],
+            "answer": "Continuous"
+          },
+          {
+            "question": "Analog computers give output:",
+            "options": ["In binary only", "On a display screen", "On a scale or meter", "As printed output"],
+            "answer": "On a scale or meter"
+          },
+          {
+            "question": "Which one is not an example of an analog computer?",
+            "options": ["Analog clock", "Speedometer", "Personal computer", "Thermometer"],
+            "answer": "Personal computer"
+          },
+          {
+            "question": "Digital computers are used in:",
+            "options": ["Weather forecasting", "Gaming", "Word processing", "All of the above"],
+            "answer": "All of the above"
+          },
+          {
+            "question": "Which of the following is a characteristic of digital computers?",
+            "options": ["Use continuous signals", "Use discrete signals", "Use analog signals", "Use quantum signals"],
+            "answer": "Use discrete signals"
+          },
+          {
+            "question": "Digital computers are known for their:",
+            "options": ["High speed and accuracy", "Low cost", "Large size", "Limited applications"],
+            "answer": "High speed and accuracy"
+          },
+          {
+            "question": "Which of the following is an example of a digital computer?",
+            "options": ["Analog clock", "Thermometer", "Desktop computer", "Speedometer"],
+            "answer": "Desktop computer"
+          },
+          {
+            "question": "Digital computers can perform operations on:",
+            "options": ["Analog signals only", "Discrete values only", "Both analog and digital signals", "Quantum signals only"],
+            "answer": "Discrete values only"
+          },
+          {
+            "question": "Which of the following is NOT a type of digital computer?",
+            "options": ["Microcomputer", "Mainframe computer", "Supercomputer", "Analog computer"],
+            "answer": "Analog computer"
+          },
+          {
+            "question": "Digital computers are widely used in:",
+            "options": ["Scientific research only", "Business applications only", "Home automation only", "Various fields including business, education, and entertainment"],
+            "answer": "Various fields including business, education, and entertainment"
+          },
+          {
+            "question": "'Hybrid' in hybrid computers refers to:",
+            "options": ["Combination of hardware types", "'Hybrid' as a brand name", "'Hybrid' as a software type", "'Hybrid' as a network type"],
+            "answer": "'Hybrid' as a brand name"
+          },
+          {
+            "question": "Digital computers use which number system?",
+            "options": ["Octal", "Decimal", "Hexadecimal", "Binary"],
+            "answer": "Binary"
+          },
+          {
+            "question": "Digital computers are generally:",
+            "options": ["Slow", "More reliable", "Inaccurate", "Only used in labs"],
+            "answer": "More reliable"
+          },
+          {
+            "question": "Digital computers represent '1' as:",
+            "options": ["ON", "OFF", "0", "Idle"],
+            "answer": "ON"
+          },
+          {
+            "question": "Which of the following is a digital device?",
+            "options": ["Speedometer", "Analog clock", "Laptop", "Thermometer"],
+            "answer": "Laptop"
+          },
+          {
+            "question": "Which of the following is not a function of digital computers?",
+            "options": ["Addition", "Playing music with magnetic tape", "Division", "Logical comparison"],
+            "answer": "Playing music with magnetic tape"
+          },
+          {
+            "question": "Which computer type provides faster speed?",
+            "options": ["Analog", "Digital", "Mechanical", "Manual"],
+            "answer": "Digital"
+          },
+          {
+            "question": "Which computer type is more reliable?",
+            "options": ["Analog", "Digital", "Both", "None"],
+            "answer": "Digital"
+          },
+          {
+            "question": "Which computers are used in personal devices like smartphones?",
+            "options": ["Analog", "Hybrid", "Digital", "None"],
+            "answer": "Digital"
+          },
+          {
+            "question": "Which computer provides only approximate results?",
+            "options": ["Digital", "Analog", "Hybrid", "Micro"],
+            "answer": "Analog"
+          },
+          {
+            "question": "Digital computers are used in fields like:",
+            "options": ["Music mixing only", "Driving only", "All fields including science and medicine", "None of the above"],
+            "answer": "All fields including science and medicine"
+          },
+          {
+            "question": "UNIVAC stands for:",
+            "options": ["United Nation Integrated Vacuum and Computer", "Universal Automatic Computer", "United Advanced Computing", "Universal Algorithmic Calculator"],
+            "answer": "Universal Automatic Computer"
+          },
+          {
+            "question": "In which year was UNIVAC-I developed?",
+            "options": ["1945", "1951", "1956", "1960"],
+            "answer": "1951"
+          },
+          {
+            "question": "UNIVAC was developed by:",
+            "options": ["Charles Babbage", "IBM", "United States", "Apple Inc."],
+            "answer": "United States"
+          },
+          {
+            "question": "What was the size of UNIVAC-I?",
+            "options": ["10x20 ft", "15x30 ft", "25x50 ft", "40x60 ft"],
+            "answer": "25x50 ft"
+          },
+          {
+            "question": "UNIVAC-I could handle large amounts of:",
+            "options": ["Sound", "Image processing", "Input and Output", "Touchscreen operations"],
+            "answer": "Input and Output"
+          },
+          {
+            "question": "UNIVAC was mainly used for:",
+            "options": ["Games", "Email", "General-purpose computing", "Graphics"],
+            "answer": "General-purpose computing"
+          },
+          {
+            "question": "Which technology is used in fifth generation computers?",
+            "options": ["LSI", "IC", "ULSI", "Transistor"],
+            "answer": "ULSI"
+          },
+          {
+            "question": "Fifth generation computers are also known as:",
+            "options": ["Mainframes", "Personal Assistants", "Microcomputers or Personal Computers", "Hybrid Computers"],
+            "answer": "Microcomputers or Personal Computers"
+          },
+          {
+            "question": "Which of the following is not a feature of fifth generation computers?",
+            "options": ["Uses microprocessors", "High speed and large storage", "High power consumption", "Artificial intelligence usage"],
+            "answer": "High power consumption"
+          },
+          {
+            "question": "Who coined the term \"Artificial Intelligence\"?",
+            "options": ["Charles Babbage", "Alan Turing", "John McCarthy", "John Von Neumann"],
+            "answer": "John McCarthy"
+          },
+          {
+            "question": "In which year was the term 'Artificial Intelligence' coined?",
+            "options": ["1946", "1956", "1966", "1976"],
+            "answer": "1956"
+          },
+          {
+            "question": "Artificial Intelligence is the branch of computer science that:",
+            "options": ["Focuses on hardware manufacturing", "Automates basic math", "Makes machines behave like humans", "Deals with networking"],
+            "answer": "Makes machines behave like humans"
+          },
+          {
+            "question": "Which of these is not an application of AI mentioned in the theory?",
+            "options": ["Games Playing", "Weather Prediction", "Expert Systems", "Robotics"],
+            "answer": "Weather Prediction"
+          },
+          {
+            "question": "Programming computers to play games like chess is called:",
+            "options": ["Neural Network", "Expert System", "Games Playing", "Natural Language"],
+            "answer": "Games Playing"
+          },
+          {
+            "question": "Expert Systems are used to:",
+            "options": ["Play games", "Solve math problems", "Make decisions based on symptoms", "Control physical devices"],
+            "answer": "Make decisions based on symptoms"
+          },
+          {
+            "question": "Natural Language Processing helps computers to:",
+            "options": ["Understand HTML", "Interpret binary code", "Understand human languages", "Store large files"],
+            "answer": "Understand human languages"
+          },
+          {
+            "question": "Which system attempts to replicate the brain’s physical connections?",
+            "options": ["Robotics", "Neural Networks", "Expert Systems", "Supercomputers"],
+            "answer": "Neural Networks"
+          },
+          {
+            "question": "Robotics focuses on programming computers to:",
+            "options": ["Connect networks", "Access the internet", "See, hear, and respond to sensory input", "Run software"],
+            "answer": "See, hear, and respond to sensory input"
+          },
+          {
+            "question": "Which generation used Integrated Circuits (IC)?",
+            "options": ["First", "Second", "Third", "Fourth"],
+            "answer": "Third"
+          },
+          {
+            "question": "One major disadvantage of third generation computers was:",
+            "options": ["High power usage", "Need for air conditioning", "Initial problem with manufacturers", "No memory support"],
+            "answer": "Initial problem with manufacturers"
+          },
+          {
+            "question": "Second generation computers were better than first generation because they:",
+            "options": ["Used bigger memory", "Used transistors which were smaller and faster", "Supported touchscreen", "Had color displays"],
+            "answer": "Used transistors which were smaller and faster"
+          },
+          {
+            "question": "Which of the following is a disadvantage of the first generation computers?",
+            "options": ["Used BASIC language", "No operating systems", "Used machine-level language", "Used hard disks"],
+            "answer": "Used machine-level language"
+          },
+          {
+            "question": "Which generation introduced the concept of CPU and programming languages?",
+            "options": ["First", "Second", "Third", "Fourth"],
+            "answer": "Second"
+          },
+          {
+            "question": "Which generation introduced the use of high-level languages?",
+            "options": ["First", "Second", "Third", "Fourth"],
+            "answer": "Second"
+          }
+        ]
+      },
+      "hardware": {
+        "title": "Hardware Concepts",
+        "questions": [
+          {
+            "question": "Which of the following is NOT a basic unit of a computer system?",
+            "options": ["Input Unit", "Control Unit", "Keyboard Unit", "Output Unit"],
+            "answer": "Keyboard Unit"
+          },
+          {
+            "question": "Which unit is responsible for receiving data and instructions from the outside world?",
+            "options": ["ALU", "Control Unit", "Output Unit", "Input Unit"],
+            "answer": "Input Unit"
+          },
+          {
+            "question": "Which of the following is an example of an input device?",
+            "options": ["Printer", "Monitor", "Keyboard", "Speaker"],
+            "answer": "Keyboard"
+          },
+          {
+            "question": "The full form of ALU is:",
+            "options": ["Arithmetic Local Unit", "Automated Logic Unit", "Arithmetic Logic Unit", "Algorithm Logic Unit"],
+            "answer": "Arithmetic Logic Unit"
+          },
+          {
+            "question": "The CPU is made up of the Control Unit and:",
+            "options": ["Monitor", "Printer", "ALU", "RAM"],
+            "answer": "ALU"
+          },
+          {
+            "question": "The component that stores instructions and data temporarily is:",
+            "options": ["Input Unit", "Output Unit", "Memory", "Control Unit"],
+            "answer": "Memory"
+          },
+          {
+            "question": "Which unit converts input into a form the computer can understand?",
+            "options": ["ALU", "Control Unit", "Input Unit", "Output Unit"],
+            "answer": "Input Unit"
+          },
+          {
+            "question": "The Control Unit is part of the:",
+            "options": ["Input Unit", "Memory", "CPU", "Output Unit"],
+            "answer": "CPU"
+          },
+          {
+            "question": "Which unit sends the final results to the user?",
+            "options": ["Memory", "Output Unit", "Input Unit", "ALU"],
+            "answer": "Output Unit"
+          },
+          {
+            "question": "Which of these is NOT a function of the Input Unit?",
+            "options": ["Accept data", "Convert data", "Store final result", "Supply data to system"],
+            "answer": "Store final result"
+          },
+          {
+            "question": "Which unit carries out comparisons in a computer?",
+            "options": ["Memory", "ALU", "Output Unit", "Control Unit"],
+            "answer": "ALU"
+          },
+        
+          {
+            "question": "The CPU includes all of the following EXCEPT:",
+            "options": ["ALU", "Memory", "Control Unit", "Registers"],
+            "answer": "Memory"
+          },
+          {
+            "question": "Which part of the CPU performs arithmetic operations?",
+            "options": ["CU", "ALU", "Output Unit", "RAM"],
+            "answer": "ALU"
+          },
+          {
+            "question": "What is the purpose of the Control Unit?",
+            "options": ["Perform calculations", "Display results", "Manage operations of CPU", "Print output"],
+            "answer": "Manage operations of CPU"
+          },
+          {
+            "question": "Which unit is necessary for temporary data storage while processing?",
+            "options": ["Control Unit", "ALU", "Output Unit", "Memory"],
+            "answer": "Memory"
+          },
+          {
+            "question": "Modern supercomputers use:",
+            "options": ["A single processor", "Thousands of microprocessors", "Dumb terminals", "Hybrid AI chips only"],
+            "answer": "Thousands of microprocessors"
+          },
+          {
+            "question": "The term ULSI stands for:",
+            "options": ["Ultra-Large Scale Integration", "Ultra-Low Scale Integration", "Universal Logic System Integration", "Unified Logic Signal Integration"],
+            "answer": "Ultra-Large Scale Integration"
+          },
+          {
+            "question": "The storage capacity of fifth-generation hard disks can be up to:",
+            "options": ["1 GB", "100 GB", "600 GB", "1 TB"],
+            "answer": "600 GB"
+          },
+          {
+            "question": "Memory chips in fifth-generation computers have sizes up to:",
+            "options": ["512 MB", "1 GB", "2 GB", "8 GB"],
+            "answer": "1 GB"
+          },
+          {
+            "question": "What is the main electronic component used in fourth generation computers?",
+            "options": ["Vacuum tubes", "Transistors", "Integrated Circuits", "VLSI or Microprocessors"],
+            "answer": "VLSI or Microprocessors"
+          },
+          {
+            "question": "Which was the first computer to use buffer memory?",
+            "options": ["ENIAC", "EDSAC", "EDVAC", "UNIVAC-I"],
+            "answer": "UNIVAC-I"
+          },
+          {
+            "question": "What type of valves were used in first generation computers?",
+            "options": ["Diodes", "Transistors", "Vacuum Tubes", "ICs"],
+            "answer": "Vacuum Tubes"
+          },
+          {
+            "question": "Which key component replaced vacuum tubes in the second generation?",
+            "options": ["Resistors", "Diodes", "Transistors", "ICs"],
+            "answer": "Transistors"
+          },
+          {
+            "question": "What type of memory was used in second generation computers?",
+            "options": ["RAM", "Magnetic Tape", "Ferrite Cores", "SSD"],
+            "answer": "Ferrite Cores"
+          },
+          {
+            "question": "Which component controlled I/O operations in second gen computers?",
+            "options": ["ALU", "CPU", "Input/Output Processor", "Printer"],
+            "answer": "Input/Output Processor"
+          },
+          {
+            "question": "Which component was introduced in third generation computers?",
+            "options": ["Vacuum Tubes", "Transistors", "ICs (Integrated Circuits)", "Fiber Chips"],
+            "answer": "ICs (Integrated Circuits)"
+          },
+          {
+            "question": "What is the capacity of a single IC in third generation computers?",
+            "options": ["10 transistors", "100 transistors", "300 transistors", "1000 transistors"],
+            "answer": "300 transistors"
+          },
+          {
+            "question": "ICs combine which components in a single chip?",
+            "options": ["Capacitors and switches", "Memory and display", "Transistors, capacitors, and registers", "Ports and cables"],
+            "answer": "Transistors, capacitors, and registers"
+          },
+          {
+            "question": "What is LSI?",
+            "options": ["Large Silicon Integration", "Large Scale Integration", "Logical Storage Interface", "Low Speed Interface"],
+            "answer": "Large Scale Integration"
+          },
+          {
+            "question": "What is the full form of VLSI?",
+            "options": ["Very Logical Small Integration", "Very Large Scale Integration", "Virtual Large System Interface", "Variable Logic Signal Interface"],
+            "answer": "Very Large Scale Integration"
+          },
+          {
+            "question": "Semi-conductor memory devices started appearing in:",
+            "options": ["First generation", "Third generation", "Fourth generation", "Fifth generation"],
+            "answer": "Third generation"
+          },
+          {
+            "question": "VLSI technology contains how many components per chip?",
+            "options": ["10", "100", "1000+", "50"],
+            "answer": "1000+"
+          },
+          {
+            "question": "Which integration was used before VLSI?",
+            "options": ["ELSI", "Nano Scale", "LSI", "DSI"],
+            "answer": "LSI"
+          },
+          {
+            "question": "Main storage in fourth generation computers shifted to:",
+            "options": ["Tape", "CD-ROM", "RAM & Hard Disk", "USB"],
+            "answer": "RAM & Hard Disk"
+          },
+          {
+            "question": "Microprocessors were introduced in:",
+            "options": ["Second Generation", "Third Generation", "Fourth Generation", "Fifth Generation"],
+            "answer": "Fourth Generation"
+          },
+          {
+            "question": "LSIC stands for:",
+            "options": ["Large Scale Integrated Circuit", "Logical System Internal Chip", "Large Software Integration Code", "Large Speed Internal Computing"],
+            "answer": "Large Scale Integrated Circuit"
+          },
+          {
+            "question": "What replaced magnetic tape as primary memory in fourth generation?",
+            "options": ["Floppy disks", "ICs", "RAM and Hard Drives", "Punch cards"],
+            "answer": "RAM and Hard Drives"
+          },
+          {
+            "question": "What was used for secondary memory in second generation?",
+            "options": ["Ferrite Cores", "Punch cards", "RAM", "SSD"],
+            "answer": "Ferrite Cores"
+          }
+        ]
+      },
+      "advantages": {
+        "title": "Advantages & Limitations",
+        "questions": [
+          {
+            "question": "What is a major advantage of computers?",
+            "options": ["High cost", "High weight", "High processing speed", "No multitasking"],
+            "answer": "High processing speed"
+          },
+          {
+            "question": "Which advantage helps reduce clerical workload?",
+            "options": ["Keyboard shortcut", "Data storage", "Processing large volume of data", "Multilingual options"],
+            "answer": "Processing large volume of data"
+          },
+          {
+            "question": "Computers are used in dangerous environments because:",
+            "options": ["They are waterproof", "They are colorful", "They operate efficiently where humans cannot work", "They can fly"],
+            "answer": "They operate efficiently where humans cannot work"
+          },
+          {
+            "question": "One advantage of storing a large volume of data is:",
+            "options": ["You don't need a mouse", "Faster printing", "Quick retrieval of information", "No internet is needed"],
+            "answer": "Quick retrieval of information"
+          },
+          {
+            "question": "Computers provide solutions to:",
+            "options": ["Music playlists", "Complicated problems", "Cooking instructions", "Yoga exercises"],
+            "answer": "Complicated problems"
+          },
+          {
+            "question": "Computers work efficiently in areas such as:",
+            "options": ["Cafes", "Theatres", "Poisonous atmospheres", "Classrooms only"],
+            "answer": "Poisonous atmospheres"
+          },
+          {
+            "question": "Which of these is an industrial environment where computers are preferred over humans?",
+            "options": ["Beaches", "Museums", "Unmanned satellite areas", "Shopping malls"],
+            "answer": "Unmanned satellite areas"
+          },
+          {
+            "question": "Computers save processing cost by:",
+            "options": ["Being slow", "Replacing internet", "Reducing clerical work", "Ignoring user input"],
+            "answer": "Reducing clerical work"
+          },
+          {
+            "question": "One advantage of high speed in computers is:",
+            "options": ["Loud sound", "Bright screen", "Fast problem solving", "Slow response"],
+            "answer": "Fast problem solving"
+          },
+          {
+            "question": "The ability to operate in vacuum or satellite space shows computers are:",
+            "options": ["Remote-controlled", "Smart gadgets", "Highly efficient", "Toys"],
+            "answer": "Highly efficient"
+          },
+          {
+            "question": "What is one major limitation of computers?",
+            "options": ["No noise", "High initial cost", "Too much battery life", "Can't turn off"],
+            "answer": "High initial cost"
+          },
+          {
+            "question": "Despite advantages, the use of computers is limited due to:",
+            "options": ["Portability", "Performance", "Cost", "Keyboard size"],
+            "answer": "Cost"
+          },
+          {
+            "question": "Computers are expensive initially because of their:",
+            "options": ["Size", "Speed", "Technology", "Cables"],
+            "answer": "Technology"
+          },
+          {
+            "question": "Which of the following is NOT a limitation of a computer?",
+            "options": ["High initial cost", "Bulkiness", "Low speed", "Complexity"],
+            "answer": "Low speed"
+          },
+          {
+            "question": "One limitation of computers in small businesses is:",
+            "options": ["Limited software", "High cost of purchase", "Easy installation", "Speed"],
+            "answer": "High cost of purchase"
+          },
+          {
+            "question": "What is one major disadvantage of supercomputers?",
+            "options": ["They are slow", "They are cheap", "They are small in size", "They are very expensive"],
+            "answer": "They are very expensive"
+          },
+          {
+            "question": "One main advantage of hybrid computers is:",
+            "options": ["Portable size", "Touch screen interface", "Speed and accuracy combination", "Large storage capacity only"],
+            "answer": "Speed and accuracy combination"
+          },
+          {
+            "question": "Which of the following is a characteristic of microcomputers?",
+            "options": ["Large size", "High cost", "Personal use capability", "Limited applications"],
+            "answer": "Personal use capability"
+          },
+          {
+            "question": "The primary advantage of portable computers is:",
+            "options": ["High voltage usage", "Large screen", "Mobility", "Expensive software"],
+            "answer": "Mobility"
+          },
+          {
+            "question": "What is the key feature of laptop computers?",
+            "options": ["Cannot be moved", "Designed to be portable", "Used only for programming", "Has no display"],
+            "answer": "Designed to be portable"
+          },
+          {
+            "question": "One major advantage of a laptop over desktop is:",
+            "options": ["Slower processor", "Portability", "Requires more space", "Higher electricity usage"],
+            "answer": "Portability"
+          },
+          {
+            "question": "What is the main advantage of supercomputers?",
+            "options": ["Low cost", "High processing power", "Portability", "User-friendliness"],
+            "answer": "High processing power"
+          },
+          {
+            "question": "Which of the following was a major drawback of the first generation computers?",
+            "options": ["Used transistors", "Used LSI chips", "Consumed less power", "Consumed lots of electricity and produced heat"],
+            "answer": "Consumed lots of electricity and produced heat"
+          },
+          {
+            "question": "First generation computers were:",
+            "options": ["Portable", "Compact", "Very expensive", "Touch enabled"],
+            "answer": "Very expensive"
+          },
+          {
+            "question": "The cost of manufacturing computers in the second generation was:",
+            "options": ["Higher", "Slightly higher", "Very low", "Free"],
+            "answer": "Very low"
+          },
+          {
+            "question": "Third generation computers were:",
+            "options": ["Expensive and large", "Small, reliable, and low-cost", "Same as second generation", "Limited to labs"],
+            "answer": "Small, reliable, and low-cost"
+          }
+        ]
+      }
+    }
+    
+  }
+  
+}
+

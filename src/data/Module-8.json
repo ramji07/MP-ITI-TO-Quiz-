@@ -1,0 +1,1059 @@
+{
+  "Module-8": {
+    "title": "Using Word Processing Software",
+    "submodules": [
+        
+      {
+        "submodule_title": "Introduction to Microsoft Office",
+        "questions": [
+          {
+            "question": "What is Microsoft Office?",
+            "options": [
+              "A programming language",
+              "An application software package",
+              "A hardware device",
+              "A web browser"
+            ],
+            "answer": "An application software package"
+          },
+          {
+            "question": "Which company introduced MS Office?",
+            "options": [
+              "Apple",
+              "Microsoft Corporation",
+              "Google",
+              "IBM"
+            ],
+            "answer": "Microsoft Corporation"
+          },
+          {
+            "question": "Which of the following is a popular package in MS Office?",
+            "options": [
+              "Microsoft Word",
+              "Adobe Photoshop",
+              "AutoCAD",
+              "CorelDRAW"
+            ],
+            "answer": "Microsoft Word"
+          },
+          {
+            "question": "Which application is used for creating spreadsheets?",
+            "options": [
+              "Microsoft Word",
+              "Microsoft Excel",
+              "Microsoft PowerPoint",
+              "Microsoft Access"
+            ],
+            "answer": "Microsoft Excel"
+          },
+          {
+            "question": "Which application is used for creating presentations?",
+            "options": [
+              "Microsoft Word",
+              "Microsoft Excel",
+              "Microsoft PowerPoint",
+              "Microsoft Outlook"
+            ],
+            "answer": "Microsoft PowerPoint"
+          },
+          {
+            "question": "Which application is used for managing databases?",
+            "options": [
+              "Microsoft Access",
+              "Microsoft Word",
+              "Microsoft Excel",
+              "Microsoft Outlook"
+            ],
+            "answer": "Microsoft Access"
+          },
+          {
+            "question": "Which application is used for email management?",
+            "options": [
+              "Microsoft Word",
+              "Microsoft Excel",
+              "Microsoft Outlook",
+              "Microsoft PowerPoint"
+            ],
+            "answer": "Microsoft Outlook"
+          }
+        ]
+      },
+    
+      {
+        "title": "Microsoft Word Basics",
+        "questions": [
+          {
+            "question": "What is Word 2010 primarily used for?",
+            "options": [
+              "Creating spreadsheets",
+              "Creating and editing documents",
+              "Managing emails",
+              "Creating databases"
+            ],
+            "answer": "Creating and editing documents"
+          },
+          {
+            "question": "Which is the most known word processor of nowadays?",
+            "options": [
+              "Notepad",
+              "Word 2010",
+              "Google Docs",
+              "Microsoft Paint"
+            ],
+            "answer": "Word 2010"
+          },
+          {
+            "question": "How can you start Word?",
+            "options": [
+              "Click on Start > (Windows Logo) All programs > Microsoft Office > Microsoft Word",
+              "Double-click the desktop icon",
+              "Open Control Panel",
+              "Restart the computer"
+            ],
+            "answer": "Click on Start > (Windows Logo) All programs > Microsoft Office > Microsoft Word"
+          },
+          {
+            "question": "What opens along with a default blank document in Word?",
+            "options": [
+              "Default page layout",
+              "Task Manager",
+              "Control Panel",
+              "System Settings"
+            ],
+            "answer": "Default page layout"
+          },
+          {
+            "question": "What is a common feature of MS Office 2010?",
+            "options": [
+              "Unified interface",
+              "Separate interfaces for each component",
+              "No updates",
+              "Limited compatibility"
+            ],
+            "answer": "Unified interface"
+          },
+          {
+            "question": "What is a key feature of the unified interface in MS Office 2010?",
+            "options": [
+              "Easy understanding for all components",
+              "Complex navigation",
+              "Limited tools",
+              "No updates"
+            ],
+            "answer": "Easy understanding for all components"
+          }
+        ]
+      },
+      {
+        "title": "Word Interface and Navigation",
+        "questions": [
+          {
+            "question": "Which tab in Word has eight major parts?",
+            "options": [
+              "Home",
+              "File",
+              "View",
+              "Insert"
+            ],
+            "answer": "Ribbon tab of Word"
+          },
+          {
+            "question": "What can be created using a blank or template page in Word?",
+            "options": [
+              "New document",
+              "New email",
+              "New database",
+              "New spreadsheet"
+            ],
+            "answer": "New document"
+          },
+          {
+            "question": "Which shortcut creates a new blank document in Word?",
+            "options": [
+              "Ctrl + N",
+              "Ctrl + S",
+              "Ctrl + P",
+              "Ctrl + Z"
+            ],
+            "answer": "Ctrl + N"
+          },
+          {
+            "question": "Where can recently opened files be viewed in Word?",
+            "options": [
+              "Same tab",
+              "Help tab",
+              "File tab",
+              "View tab"
+            ],
+            "answer": "File tab"
+          },
+          {
+            "question": "What is the purpose of the Help feature in Word?",
+            "options": [
+              "To provide assistance on word usage",
+              "To format documents",
+              "To create templates",
+              "To manage users"
+            ],
+            "answer": "To provide assistance on word usage"
+          }
+        ]
+      },
+      {
+        "title": "Formatting in Word",
+        "questions": [
+          {
+            "question": "What does the Home tab include?",
+            "options": [
+              "Clipboard options",
+              "Graph options",
+              "Image editing tools",
+              "Video tools"
+            ],
+            "answer": "Clipboard options"
+          },
+          {
+            "question": "Which option is available under the Font block in the Home tab?",
+            "options": [
+              "Bold",
+              "Insert Table",
+              "Add Image",
+              "Create Chart"
+            ],
+            "answer": "Bold"
+          },
+          {
+            "question": "What does the Paragraph Group in Word allow?",
+            "options": [
+              "Formatting paragraphs",
+              "Creating animations",
+              "Managing databases",
+              "Editing videos"
+            ],
+            "answer": "Formatting paragraphs"
+          },
+          {
+            "question": "Which alignment option is available in the Paragraph Group?",
+            "options": [
+              "Left, Center, Justify",
+              "Top, Bottom, Middle",
+              "Left, Right, Diagonal",
+              "Up, Down, Side"
+            ],
+            "answer": "Left, Center, Justify"
+          },
+          {
+            "question": "What can be adjusted using the Paragraph Group?",
+            "options": [
+              "Line spacing and indentation",
+              "Screen resolution",
+              "Network settings",
+              "Printer settings"
+            ],
+            "answer": "Line spacing and indentation"
+          },
+          {
+            "question": "Which group allows setting font styles in Word?",
+            "options": [
+              "Font block",
+              "Paragraph Group",
+              "Clipboard",
+              "Review"
+            ],
+            "answer": "Font block"
+          },
+          {
+            "question": "What does the Styles group in Word allow?",
+            "options": [
+              "Preformatted text styles",
+              "Image editing",
+              "Video insertion",
+              "Database management"
+            ],
+            "answer": "Preformatted text styles"
+          },
+          {
+            "question": "How can styles be stored in Word?",
+            "options": [
+              "With altered specifications",
+              "In a separate file",
+              "Only in templates",
+              "Manually typed"
+            ],
+            "answer": "With altered specifications"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Inserting Elements in Word",
+        "questions": [
+          {
+            "question": "Which group in Word allows inserting objects like tables and images?",
+            "options": [
+              "Insert Group",
+              "Home Group",
+              "View Group",
+              "Review Group"
+            ],
+            "answer": "Insert Group"
+          },
+          {
+            "question": "What can be inserted using the Insert tab?",
+            "options": [
+              "Tables, Pictures, Charts",
+              "Emails, Contacts, Tasks",
+              "Videos, Animations, Sounds",
+              "Databases, Spreadsheets, Presentations"
+            ],
+            "answer": "Tables, Pictures, Charts"
+          },
+          {
+            "question": "How many groups does the Insert tab have?",
+            "options": [
+              "7",
+              "5",
+              "9",
+              "3"
+            ],
+            "answer": "7"
+          },
+          {
+            "question": "What does the Page group help to insert?",
+            "options": [
+              "Page breaks",
+              "Images",
+              "Videos",
+              "Charts"
+            ],
+            "answer": "Page breaks"
+          },
+          {
+            "question": "What can the Tables group insert in a document?",
+            "options": [
+              "Custom table format",
+              "Only text",
+              "Only images",
+              "Only videos"
+            ],
+            "answer": "Custom table format"
+          },
+          {
+            "question": "What do the Illustrations group insert?",
+            "options": [
+              "Smart art, pictures, charts",
+              "Text only",
+              "Formulas",
+              "Databases"
+            ],
+            "answer": "Smart art, pictures, charts"
+          },
+          {
+            "question": "What does the Links group create?",
+            "options": [
+              "Hyperlink on texts, bookmarks",
+              "New documents",
+              "Spreadsheets",
+              "Emails"
+            ],
+            "answer": "Hyperlink on texts, bookmarks"
+          },
+          {
+            "question": "What does the Header and Footer group insert?",
+            "options": [
+              "Header, footer, page numbers",
+              "Images",
+              "Tables",
+              "Charts"
+            ],
+            "answer": "Header, footer, page numbers"
+          },
+          {
+            "question": "What does the Text group allow creating?",
+            "options": [
+              "Designed text box, signature line",
+              "Only paragraphs",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Designed text box, signature line"
+          },
+          {
+            "question": "What symbols can the Symbols group insert?",
+            "options": [
+              "Math symbols, currency",
+              "Only letters",
+              "Only numbers",
+              "Only images"
+            ],
+            "answer": "Math symbols, currency"
+          },
+          {
+            "question": "What does the Illustrations group not include?",
+            "options": [
+              "Smart art",
+              "Pictures",
+              "Charts",
+              "Videos"
+            ],
+            "answer": "Videos"
+          },
+          {
+            "question": "What is a feature of the Links group?",
+            "options": [
+              "Cross references",
+              "Only text formatting",
+              "Only image editing",
+              "Only video insertion"
+            ],
+            "answer": "Cross references"
+          },
+          {
+            "question": "What does the Header group insert apart from headers?",
+            "options": [
+              "Footers",
+              "Images",
+              "Tables",
+              "Charts"
+            ],
+            "answer": "Footers"
+          },
+          {
+            "question": "What can the Text group design besides text boxes?",
+            "options": [
+              "Signature line",
+              "Only paragraphs",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Signature line"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Page Layout and References",
+        "questions": [
+          {
+            "question": "How many major groups does the Page Layout tab have?",
+            "options": [
+              "5",
+              "7",
+              "3",
+              "9"
+            ],
+            "answer": "5"
+          },
+          {
+            "question": "What does the Themes block in Page Layout create?",
+            "options": [
+              "Predefined template setup",
+              "Only text",
+              "Only images",
+              "Only charts"
+            ],
+            "answer": "Predefined template setup"
+          },
+          {
+            "question": "What features does the Page Setup group include?",
+            "options": [
+              "Margin, orientation, paper size",
+              "Only text formatting",
+              "Only image editing",
+              "Only video insertion"
+            ],
+            "answer": "Margin, orientation, paper size"
+          },
+          {
+            "question": "What does the Page Background group create?",
+            "options": [
+              "Watermark, page color",
+              "Only text",
+              "Only tables",
+              "Only charts"
+            ],
+            "answer": "Watermark, page color"
+          },
+          {
+            "question": "What options are in the Paragraph block?",
+            "options": [
+              "Spacing, indent",
+              "Only font size",
+              "Only color",
+              "Only alignment"
+            ],
+            "answer": "Spacing, indent"
+          },
+          {
+            "question": "What does the Arrange group create?",
+            "options": [
+              "Position of objects, text wrapping",
+              "Only text",
+              "Only images",
+              "Only videos"
+            ],
+            "answer": "Position of objects, text wrapping"
+          },
+          {
+            "question": "What does the References tab include?",
+            "options": [
+              "Table of Contents, Footnotes",
+              "Only images",
+              "Only charts",
+              "Only videos"
+            ],
+            "answer": "Table of Contents, Footnotes"
+          },
+          {
+            "question": "What does the Table of Contents tab create?",
+            "options": [
+              "TOC of a particular publication",
+              "Only images",
+              "Only charts",
+              "Only videos"
+            ],
+            "answer": "TOC of a particular publication"
+          },
+          {
+            "question": "What does the Footnotes tab include?",
+            "options": [
+              "Explanatory phrases or references",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Explanatory phrases or references"
+          },
+          {
+            "question": "Where does Endnote make the note?",
+            "options": [
+              "At the end of the document",
+              "At the beginning",
+              "In the middle",
+              "On a separate page"
+            ],
+            "answer": "At the end of the document"
+          },
+          {
+            "question": "What does the Citations & Bibliography tab insert?",
+            "options": [
+              "External source citation",
+              "Only images",
+              "Only charts",
+              "Only videos"
+            ],
+            "answer": "External source citation"
+          },
+          {
+            "question": "What do Captions tab insert?",
+            "options": [
+              "Authors related to figures intenção",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Authors related to figures"
+          },
+          {
+            "question": "What does the Index tab create?",
+            "options": [
+              "Index according to main topic",
+              "Only charts",
+              "Only videos",
+              "Only images"
+            ],
+            "answer": "Index according to main topic"
+          },
+          {
+            "question": "What does the Table of Authorities group include?",
+            "options": [
+              "Citation mark list of cases",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Citation mark list of cases"
+          },
+          {
+            "question": "What does the Page Setup group not include?",
+            "options": [
+              "Vertical orientation",
+              "Margin",
+              "Paper size",
+              "Columns"
+            ],
+            "answer": "Vertical orientation"
+          },
+          {
+            "question": "What is a feature of the Arrange group?",
+            "options": [
+              "Aligning objects",
+              "Only text formatting",
+              "Only image insertion",
+              "Only video editing"
+            ],
+            "answer": "Aligning objects"
+          },
+          {
+            "question": "What does the Index tab not include?",
+            "options": [
+              "Update Index",
+              "Insert Index",
+              "Insert Table",
+              "Insert Video"
+            ],
+            "answer": "Insert Video"
+          },
+          {
+            "question": "What is a function of the Insert Table of Figures?",
+            "options": [
+              "Insert figure captions",
+              "Only text formatting",
+              "Only image editing",
+              "Only video insertion"
+            ],
+            "answer": "Insert figure captions"
+          },
+          {
+            "question": "What does the Bibliography group not include?",
+            "options": [
+              "Cross-reference",
+              "Citation",
+              "Bibliography",
+              "Image"
+            ],
+            "answer": "Image"
+          },
+          {
+            "question": "What is a feature of the Table of Authorities?",
+            "options": [
+              "List of statutes",
+              "Only images",
+              "Only charts",
+              "Only videos"
+            ],
+            "answer": "List of statutes"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Reviewing and Editing",
+        "questions": [
+          {
+            "question": "Which tab is used for reviewing documents in Word?",
+            "options": [
+              "Review Tab",
+              "Home Tab",
+              "Insert Tab",
+              "View Tab"
+            ],
+            "answer": "Review Tab"
+          },
+          {
+            "question": "What can be checked using the Review tab?",
+            "options": [
+              "Spelling and grammar",
+              "Network connectivity",
+              "Printer status",
+              "File size"
+            ],
+            "answer": "Spelling and grammar"
+          },
+          {
+            "question": "Which feature allows adding comments to a document in Word?",
+            "options": [
+              "Comments feature in Review tab",
+              "Insert tab",
+              "Home tab",
+              "View tab"
+            ],
+            "answer": "Comments feature in Review tab"
+          },
+          {
+            "question": "What is a function of the Editing group?",
+            "options": [
+              "Find and replace text",
+              "Only image insertion",
+              "Only table creation",
+              "Only video editing"
+            ],
+            "answer": "Find and replace text"
+          },
+          {
+            "question": "What does the Proofing tab check?",
+            "options": [
+              "Spelling and Grammar",
+              "Only images",
+              "Only charts",
+              "Only videos"
+            ],
+            "answer": "Spelling and Grammar"
+          },
+          {
+            "question": "What does the Thesaurus provide?",
+            "options": [
+              "Word synonyms",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Word synonyms"
+          },
+          {
+            "question": "What does the Word Count feature show?",
+            "options": [
+              "Total words, characters",
+              "Only images",
+              "Only charts",
+              "Only videos"
+            ],
+            "answer": "Total words, characters"
+          },
+          {
+            "question": "What does the Translate Language option do?",
+            "options": [
+              "Translate text",
+              "Only format text",
+              "Only insert images",
+              "Only create tables"
+            ],
+            "answer": "Translate text"
+          },
+          {
+            "question": "What does the Proofing group include?",
+            "options": [
+              "Spelling & Research",
+              "Only tables",
+              "Only charts",
+              "Only videos"
+            ],
+            "answer": "Spelling & Research"
+          },
+          {
+            "question": "What does the Language group allow?",
+            "options": [
+              "Language translation",
+              "Only text formatting",
+              "Only image insertion",
+              "Only video editing"
+            ],
+            "answer": "Language translation"
+          },
+          {
+            "question": "What does the Language block help to translate?",
+            "options": [
+              "Page into installed language",
+              "Only images",
+              "Only charts",
+              "Only videos"
+            ],
+            "answer": "Page into installed language"
+          },
+          {
+            "question": "What does the Comment & Tracking group insert?",
+            "options": [
+              "Comment for a specific paragraph",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Comment for a specific paragraph"
+          },
+          {
+            "question": "In which mode are comments protected by other authors?",
+            "options": [
+              "Protected mode",
+              "Draft mode",
+              "Read mode",
+              "Edit mode"
+            ],
+            "answer": "Protected mode"
+          },
+          {
+            "question": "What does Track Changes do?",
+            "options": [
+              "Tracks edits by user Y",
+              "Only formats text",
+              "Only inserts images",
+              "Only creates tables"
+            ],
+            "answer": "Tracks edits by user Y"
+          },
+          {
+            "question": "What can Changes, Compare and Protect group do?",
+            "options": [
+              "Accept or reject changes",
+              "Only edit text",
+              "Only insert images",
+              "Only create videos"
+            ],
+            "answer": "Accept or reject changes"
+          },
+          {
+            "question": "What is compared using the Compare feature?",
+            "options": [
+              "More than a document",
+              "Only a single document",
+              "Only images",
+              "Only charts"
+            ],
+            "answer": "More than a document"
+          },
+          {
+            "question": "What can be protected from editing by others?",
+            "options": [
+              "Document from editing",
+              "Only text formatting",
+              "Only image insertion",
+              "Only video editing"
+            ],
+            "answer": "Document from editing"
+          },
+          {
+            "question": "What does the Compare feature allow?",
+            "options": [
+              "Compare a document with another",
+              "Only text insertion",
+              "Only image editing",
+              "Only video creation"
+            ],
+            "answer": "Compare a document with another"
+          },
+          {
+            "question": "What can the Protect group prevent?",
+            "options": [
+              "Editing by others",
+              "Only text formatting",
+              "Only image insertion",
+              "Only video editing"
+            ],
+            "answer": "Editing by others"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Mailings and Document Views",
+        "questions": [
+          {
+            "question": "What is the primary use of the Mailings tab?",
+            "options": [
+              "Creating mailing of a letter",
+              "Only image editing",
+              "Only video insertion",
+              "Only chart creation"
+            ],
+            "answer": "Creating mailing of a letter"
+          },
+          {
+            "question": "What does the Envelopes and Labels feature create?",
+            "options": [
+              "Envelopes and labels",
+              "Only text",
+              "Only images",
+              "Only videos"
+            ],
+            "answer": "Envelopes and labels"
+          },
+          {
+            "question": "What does the Start Mail Merge option allow?",
+            "options": [
+              "Create a letter or email",
+              "Only image insertion",
+              "Only table creation",
+              "Only video editing"
+            ],
+            "answer": "Create a letter or email"
+          },
+          {
+            "question": "What does the Select Recipients option include?",
+            "options": [
+              "Recipient info appearance",
+              "Only text formatting",
+              "Only image editing",
+              "Only video insertion"
+            ],
+            "answer": "Recipient info appearance"
+          },
+          {
+            "question": "What can be created using the Write & Insert Fields group?",
+            "options": [
+              "Address Block, Greetings Line",
+              "Only tables",
+              "Only charts",
+              "Only images"
+            ],
+            "answer": "Address Block, Greetings Line"
+          },
+          {
+            "question": "What does the Preview Results group do?",
+            "options": [
+              "Check for mail merge errors",
+              "Only text formatting",
+              "Only image editing",
+              "Only video insertion"
+            ],
+            "answer": "Check for mail merge errors"
+          },
+          {
+            "question": "What is a function of the Finish & Merge group?",
+            "options": [
+              "Edit accordingly after validation",
+              "Only chart creation",
+              "Only video editing",
+              "Only image insertion"
+            ],
+            "answer": "Edit accordingly after validation"
+          },
+          {
+            "question": "What does the Match Fields option do?",
+            "options": [
+              "Match merge fields",
+              "Only text insertion",
+              "Only image editing",
+              "Only video creation"
+            ],
+            "answer": "Match merge fields"
+          },
+          {
+            "question": "What is checked by the Auto Check for Errors?",
+            "options": [
+              "Mail merge errors",
+              "Only spelling",
+              "Only grammar",
+              "Only images"
+            ],
+            "answer": "Mail merge errors"
+          },
+          {
+            "question": "What can the Create group generate?",
+            "options": [
+              "Mail merge documents",
+              "Only text",
+              "Only images",
+              "Only videos"
+            ],
+            "answer": "Mail merge documents"
+          },
+          {
+            "question": "What does the Greetings Line create?",
+            "options": [
+              "Personalized greetings",
+              "Only tables",
+              "Only charts",
+              "Only images"
+            ],
+            "answer": "Personalized greetings"
+          },
+          {
+            "question": "What does the Document views and show group display?",
+            "options": [
+              "Way of displaying the word document",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Way of displaying the word document"
+          },
+          {
+            "question": "What view minimizes the tabs and ribbons?",
+            "options": [
+              "Full Screen Reading",
+              "Draft view",
+              "Read mode",
+              "Edit mode"
+            ],
+            "answer": "Full Screen Reading"
+          },
+          {
+            "question": "What does the Outline view provide?",
+            "options": [
+              "Basic text editing model",
+              "Only image editing",
+              "Only chart creation",
+              "Only video insertion"
+            ],
+            "answer": "Basic text editing model"
+          },
+          {
+            "question": "What can be shown or hidden in Document views?",
+            "options": [
+              "Rulers, Gridlines, Navigation Pane",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Rulers, Gridlines, Navigation Pane"
+          },
+          {
+            "question": "What does the Zoom / Window / Macro group allow?",
+            "options": [
+              "Zooming to full page",
+              "Only text formatting",
+              "Only image editing",
+              "Only video creation"
+            ],
+            "answer": "Zooming to full page"
+          },
+          {
+            "question": "What can be edited using the Zoom feature?",
+            "options": [
+              "Document with window split",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "Document with window split"
+          },
+          {
+            "question": "What does the new window option create?",
+            "options": [
+              "New window for a document",
+              "Only text formatting",
+              "Only image insertion",
+              "Only video editing"
+            ],
+            "answer": "New window for a document"
+          },
+          {
+            "question": "What can be arranged using the Arrange feature?",
+            "options": [
+              "All open documents",
+              "Only text",
+              "Only tables",
+              "Only images"
+            ],
+            "answer": "All open documents"
+          },
+          {
+            "question": "What does the Macro option repeat?",
+            "options": [
+              "Commands on a document",
+              "Only text editing",
+              "Only image creation",
+              "Only video insertion"
+            ],
+            "answer": "Commands on a document"
+          },
+          {
+            "question": "What is a function of the Draft view?",
+            "options": [
+              "Basic text editing",
+              "Only image editing",
+              "Only chart creation",
+              "Only video insertion"
+            ],
+            "answer": "Basic text editing"
+          },
+          {
+            "question": "What does the Layout view not include?",
+            "options": [
+              "Navigation Pane",
+              "Rulers",
+              "Gridlines",
+              "Images"
+            ],
+            "answer": "Images"
+          }
+        ]
+      }
+    ]
+  }
+}

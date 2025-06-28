@@ -1,0 +1,1378 @@
+{
+  "Module-7": {
+    "title": "Introduction to Linux Operating System",
+    "submodules": [
+      {
+        "subtitle": "Terminal Emulators",
+        "questions": [
+          {
+            "question": "What is a terminal emulator in Linux OS?",
+            "options": [
+              "A graphical user interface",
+              "A command interpreter",
+              "A software that emulates a terminal",
+              "A file editor"
+            ],
+            "answer": "A software that emulates a terminal"
+          },
+          {
+            "question": "Which of the following is a default terminal for GNOME?",
+            "options": ["KDE", "Yakuake", "Guake", "GNOME Terminal"],
+            "answer": "GNOME Terminal"
+          },
+          {
+            "question": "How can you access the terminal in GNOME?",
+            "options": [
+              "Press Alt+F2 and type 'terminal'",
+              "Press Ctrl+Alt+T",
+              "Press Alt+F1",
+              "Press Ctrl+F2"
+            ],
+            "answer": "Press Alt+F2 and type 'terminal'"
+          },
+          {
+            "question": "Which key combination can be used to open a terminal in KDE?",
+            "options": ["Alt+F2", "Ctrl+Alt+T", "Alt+F1", "Ctrl+F2"],
+            "answer": "Alt+F2"
+          },
+          {
+            "question": "What happens if you press Alt+F2 in GNOME?",
+            "options": [
+              "Opens a file explorer",
+              "Opens a run dialog",
+              "Shuts down the system",
+              "Locks the screen"
+            ],
+            "answer": "Opens a run dialog"
+          },
+          {
+            "question": "Which terminal emulator is mentioned for KDE?",
+            "options": ["GNOME Terminal", "Yakuake", "Guake", "rxvt"],
+            "answer": "Yakuake"
+          },
+          {
+            "question": "Which command can be used to display the current terminal?",
+            "options": ["tty", "whoami", "id", "date"],
+            "answer": "tty"
+          }
+        ]
+      },
+      {
+        "subtitle": "Shells in Linux",
+        "questions": [
+          {
+            "question": "What does the prompt 'user@host' indicate?",
+            "options": [
+              "User's email and host IP",
+              "Username and hostname of the computer",
+              "User's password and host name",
+              "User's ID and host location"
+            ],
+            "answer": "Username and hostname of the computer"
+          },
+          {
+            "question": "Which shell is the default on most Linux systems?",
+            "options": ["sh", "csh", "bash", "tcsh"],
+            "answer": "bash"
+          },
+          {
+            "question": "What does 'sh' stand for in the context of shells?",
+            "options": [
+              "Simple Shell",
+              "Bourne Shell",
+              "System Shell",
+              "Standard Shell"
+            ],
+            "answer": "Bourne Shell"
+          },
+          {
+            "question": "Which shell accepts a syntax resembling the C programming language?",
+            "options": ["bash", "sh", "csh", "ksh"],
+            "answer": "csh"
+          },
+          {
+            "question": "Which shell is an improved version of the C Shell?",
+            "options": ["bash", "tcsh", "ksh", "dash"],
+            "answer": "tcsh"
+          },
+          {
+            "question": "When was the Korn Shell initially developed?",
+            "options": ["1980s", "1990s", "2000s", "1970s"],
+            "answer": "1980s"
+          },
+          {
+            "question": "Which shell was created by the Debian distribution?",
+            "options": ["bash", "dash", "csh", "ksh"],
+            "answer": "dash"
+          },
+          {
+            "question": "What command lists available shells in the system?",
+            "options": ["ls /etc/shells", "cat /etc/shells", "show shells", "list shells"],
+            "answer": "cat /etc/shells"
+          },
+          {
+            "question": "What is the primary function of a command shell?",
+            "options": [
+              "To edit files",
+              "To interpret and execute commands",
+              "To manage network connections",
+              "To create directories"
+            ],
+            "answer": "To interpret and execute commands"
+          },
+          {
+            "question": "Which shell is considered the most powerful and widely used?",
+            "options": ["sh", "csh", "bash", "tcsh"],
+            "answer": "bash"
+          },
+          {
+            "question": "What does the 'tcsh' shell stand for?",
+            "options": [
+              "Ten Command Shell",
+              "Turbo C Shell",
+              "Ten Command Shell",
+              "TEN Command Shell"
+            ],
+            "answer": "Turbo C Shell"
+          },
+          {
+            "question": "Which shell was developed by the GNU project?",
+            "options": ["bash", "sh", "csh", "ksh"],
+            "answer": "bash"
+          },
+          {
+            "question": "What is the default shell specified in the /etc/passwd file on Debian?",
+            "options": ["sh", "bash", "csh", "dash"],
+            "answer": "bash"
+          },
+          {
+            "question": "Which shell is not widely used anymore?",
+            "options": ["bash", "sh", "csh", "ksh"],
+            "answer": "sh"
+          },
+          {
+            "question": "What is the purpose of the 'cat' command in the context of shells?",
+            "options": [
+              "To concatenate and display file content",
+              "To create a new shell",
+              "To change directory",
+              "To clear the terminal"
+            ],
+            "answer": "To concatenate and display file content"
+          },
+          {
+            "question": "Which distribution created the 'dash' shell?",
+            "options": ["Ubuntu", "Debian", "Fedora", "Red Hat"],
+            "answer": "Debian"
+          },
+          {
+            "question": "What is the first part before the ampersand in 'user@host'?",
+            "options": ["Hostname", "Username", "Password", "IP address"],
+            "answer": "Username"
+          },
+          {
+            "question": "What command is used to display the list of valid login shells?",
+            "options": ["ls /etc/shells", "cat /etc/shells", "show shells", "list shells"],
+            "answer": "cat /etc/shells"
+          },
+          {
+            "question": "Which of the following is NOT a valid shell listed in the image?",
+            "options": ["/bin/csh", "/bin/sh", "/bin/python", "/bin/bash"],
+            "answer": "/bin/python"
+          },
+          {
+            "question": "What is the default shell displayed in Fig 3?",
+            "options": ["/bin/bash", "/bin/sh", "/bin/csh", "/bin/dash"],
+            "answer": "/bin/bash"
+          },
+          {
+            "question": "Which command is used to display the default shell?",
+            "options": ["echo $SHELL", "cat $SHELL", "show $SHELL", "display $SHELL"],
+            "answer": "echo $SHELL"
+          },
+          {
+            "question": "Where is the list of valid shells stored?",
+            "options": ["/etc/shells", "/bin/shells", "/usr/shells", "/var/shells"],
+            "answer": "/etc/shells"
+          },
+          {
+            "question": "Which shell is listed as /usr/bin/es?",
+            "options": ["Enhanced Shell", "Extended Shell", "Eshell", "None of these"],
+            "answer": "Eshell"
+          },
+          {
+            "question": "What does the 'rc' in /usr/bin/rc suggest?",
+            "options": ["Run Command", "Resource Control", "Root Command", "None of these"],
+            "answer": "Run Command"
+          },
+          {
+            "question": "Which shell is an improved version of the C Shell according to the list?",
+            "options": ["/bin/tcsh", "/bin/csh", "/bin/ksh", "/bin/dash"],
+            "answer": "/bin/tcsh"
+          },
+          {
+            "question": "Which shell is created by the Debian distribution?",
+            "options": ["/bin/dash", "/bin/bash", "/bin/sh", "/bin/ksh"],
+            "answer": "/bin/dash"
+          },
+          {
+            "question": "What is the path for the Korn Shell in the list?",
+            "options": ["/bin/ksh", "/usr/bin/ksh", "/bin/bash", "/usr/bin/csh"],
+            "answer": "/usr/bin/ksh"
+          },
+          {
+            "question": "Which shell is listed multiple times in the output?",
+            "options": ["/bin/bash", "/bin/sh", "/bin/csh", "/bin/dash"],
+            "answer": "/bin/bash"
+          },
+          {
+            "question": "What is the purpose of the /etc/shells file?",
+            "options": [
+              "To store user passwords",
+              "To list valid login shells",
+              "To configure network settings",
+              "To store system logs"
+            ],
+            "answer": "To list valid login shells"
+          },
+          {
+            "question": "Which shell is the default on the system shown in Fig 3?",
+            "options": ["/bin/sh", "/bin/bash", "/bin/csh", "/bin/tcsh"],
+            "answer": "/bin/bash"
+          },
+          {
+            "question": "What does the '$SHELL' variable represent?",
+            "options": [
+              "Current working directory",
+              "Default shell for the user",
+              "System hostname",
+              "User's home directory"
+            ],
+            "answer": "Default shell for the user"
+          },
+          {
+            "question": "Which shell is located at /usr/bin/screen?",
+            "options": ["Screen Shell", "Bash", "Screen Manager", "None of these"],
+            "answer": "Screen Manager"
+          },
+          {
+            "question": "How many different shells are listed in the output of Fig 2?",
+            "options": ["8", "10", "12", "14"],
+            "answer": "12"
+          },
+          {
+            "question": "Which shell is an older shell not widely used anymore?",
+            "options": ["/bin/sh", "/bin/bash", "/bin/csh", "/bin/tcsh"],
+            "answer": "/bin/sh"
+          },
+          {
+            "question": "What is the output of 'echo $SHELL' in Fig 3?",
+            "options": ["/bin/sh", "/bin/bash", "/bin/csh", "/usr/bin/ksh"],
+            "answer": "/bin/bash"
+          },
+          {
+            "question": "Which command requires superuser privileges in Fig 2?",
+            "options": ["cat /etc/shells", "echo $SHELL", "ls /etc", "cd /etc"],
+            "answer": "cat /etc/shells"
+          },
+          {
+            "question": "Which shell is listed at /bin/rbash?",
+            "options": ["Restricted Bash", "Root Bash", "Regular Bash", "None of these"],
+            "answer": "Restricted Bash"
+          },
+          {
+            "question": "What is the significance of the '#' symbol in Fig 2?",
+            "options": [
+              "Indicates a comment",
+              "Indicates superuser mode",
+              "Indicates a new line",
+              "Indicates an error"
+            ],
+            "answer": "Indicates superuser mode"
+          },
+          {
+            "question": "Which shell is located at /usr/bin/esh?",
+            "options": ["Enhanced Shell", "Extended Shell", "Eshell", "None of these"],
+            "answer": "Eshell"
+          },
+          {
+            "question": "What does the 'tcsh' shell stand for?",
+            "options": ["Turbo C Shell", "Ten Command Shell", "Total Command Shell", "None of these"],
+            "answer": "Turbo C Shell"
+          },
+          {
+            "question": "Which shell is used for scripting and automation in Linux?",
+            "options": ["/bin/bash", "/bin/csh", "/bin/sh", "/bin/dash"],
+            "answer": "/bin/bash"
+          }
+        ]
+      },
+      {
+        "subtitle": "File System and Navigation",
+        "questions": [
+          {
+            "question": "What is the root directory in Linux represented by?",
+            "options": ["/", "\\", "~", "."],
+            "answer": "/"
+          },
+          {
+            "question": "What is the nameless base of the file system called?",
+            "options": ["/", "/root", "/home", "/bin"],
+            "answer": "/"
+          },
+          {
+            "question": "Which directory stores essential command binaries?",
+            "options": ["/boot", "/bin", "/etc", "/home"],
+            "answer": "/bin"
+          },
+          {
+            "question": "Where are static files of the boot loader stored?",
+            "options": ["/dev", "/boot", "/tmp", "/usr"],
+            "answer": "/boot"
+          },
+          {
+            "question": "Which directory contains device files in Linux?",
+            "options": ["/etc", "/dev", "/home", "/lib"],
+            "answer": "/dev"
+          },
+          {
+            "question": "Where are user personal home directories located?",
+            "options": ["/etc", "/home", "/usr", "/tmp"],
+            "answer": "/home"
+          },
+          {
+            "question": "Which directory provides an interface to kernel data structures?",
+            "options": ["/proc", "/bin", "/etc", "/usr"],
+            "answer": "/proc"
+          },
+          {
+            "question": "Where are essential system binaries like fsck stored?",
+            "options": ["/sbin", "/bin", "/usr", "/tmp"],
+            "answer": "/sbin"
+          },
+          {
+            "question": "Which directory is used for temporary files?",
+            "options": ["/tmp", "/etc", "/home", "/usr"],
+            "answer": "/tmp"
+          },
+          {
+            "question": "Where are most user programs and libraries stored?",
+            "options": ["/usr", "/bin", "/home", "/etc"],
+            "answer": "/usr"
+          },
+          {
+            "question": "Which directory contains header files for compiling C programs?",
+            "options": ["/usr/include", "/usr/lib", "/usr/bin", "/usr/share"],
+            "answer": "/usr/include"
+          },
+          {
+            "question": "Where are locally-installed software files stored?",
+            "options": ["/usr/local", "/usr/bin", "/usr/share", "/usr/src"],
+            "answer": "/usr/local"
+          },
+          {
+            "question": "Which directory contains architecture-independent data?",
+            "options": ["/usr/share", "/usr/bin", "/usr/lib", "/usr/src"],
+            "answer": "/usr/share"
+          },
+          {
+            "question": "Where is the Linux Kernel source code stored?",
+            "options": ["/usr/src", "/usr/bin", "/usr/lib", "/usr/share"],
+            "answer": "/usr/src"
+          },
+          {
+            "question": "Which directory contains variable data like mail and printer spools?",
+            "options": ["/var", "/tmp", "/etc", "/usr"],
+            "answer": "/var"
+          },
+          {
+            "question": "Which directory is represented by '~' for the user 'janis'?",
+            "options": ["/home/janis", "/janis", "/usr/janis", "/root"],
+            "answer": "/home/janis"
+          },
+          {
+            "question": "Which directory contains the root user's home directory?",
+            "options": ["/", "/root", "/home", "/usr"],
+            "answer": "/root"
+          },
+          {
+            "question": "What type of files are stored in /dev?",
+            "options": ["Device files", "User files", "Binary files", "Log files"],
+            "answer": "Device files"
+          },
+          {
+            "question": "Which directory is read-only for most users?",
+            "options": ["/usr", "/tmp", "/etc", "/boot"],
+            "answer": "/boot"
+          },
+          {
+            "question": "What does the /usr/local directory typically contain?",
+            "options": [
+              "Locally-installed software",
+              "System binaries",
+              "User home directories",
+              "Kernel source"
+            ],
+            "answer": "Locally-installed software"
+          },
+          {
+            "question": "What is the purpose of the /proc directory?",
+            "options": [
+              "To store user files",
+              "To provide kernel data interface",
+              "To store temporary files",
+              "To store system binaries"
+            ],
+            "answer": "To provide kernel data interface"
+          },
+          {
+            "question": "Which character is used to separate directories?",
+            "options": ["/", "\\", ":", ";"],
+            "answer": "/"
+          },
+          {
+            "question": "What is the significance of the forward slash (/) in a path?",
+            "options": [
+              "Separates directory names",
+              "Indicates the root directory",
+              "Both A and B",
+              "None of the above"
+            ],
+            "answer": "Both A and B"
+          },
+          {
+            "question": "What does the '.' character represent in a filename?",
+            "options": ["Current directory", "Hidden files", "Parent directory", "User's home"],
+            "answer": "Current directory"
+          },
+          {
+            "question": "Which symbol represents the parent directory?",
+            "options": ["..", ".", "~", "/"],
+            "answer": ".."
+          },
+          {
+            "question": "What does the '~' symbol represent?",
+            "options": ["User's home directory", "Root directory", "Parent directory", "Current directory"],
+            "answer": "User's home directory"
+          },
+          {
+            "question": "Which command changes the current directory to the root directory?",
+            "options": ["cd /", "cd ..", "cd ~", "cd usr"],
+            "answer": "cd /"
+          },
+          {
+            "question": "What does 'cd ..' do?",
+            "options": [
+              "Changes to the parent directory",
+              "Changes to the root directory",
+              "Changes to the user's home directory",
+              "Lists directory contents"
+            ],
+            "answer": "Changes to the parent directory"
+          },
+          {
+            "question": "Which command changes the current directory to the user's home directory?",
+            "options": ["cd ~", "cd /", "cd ..", "cd home"],
+            "answer": "cd ~"
+          },
+          {
+            "question": "What happens when you use 'cd' without any arguments?",
+            "options": [
+              "Changes to the root directory",
+              "Changes to the user's home directory",
+              "Lists the current directory",
+              "Does nothing"
+            ],
+            "answer": "Changes to the user's home directory"
+          },
+          {
+            "question": "Which of the following is an absolute path?",
+            "options": ["/usr/local/share/man", "usr/local/share/man", "../share/man", "./man"],
+            "answer": "/usr/local/share/man"
+          },
+          {
+            "question": "What does 'cd /usr/sbin' do?",
+            "options": [
+              "Changes to a subdirectory using an absolute path",
+              "Changes to the parent directory",
+              "Changes to the home directory",
+              "Lists the sbin directory"
+            ],
+            "answer": "Changes to a subdirectory using an absolute path"
+          },
+          {
+            "question": "How can you change to a subdirectory using a relative path?",
+            "options": ["cd man2", "cd /man2", "cd ~/man2", "cd ../man2"],
+            "answer": "cd man2"
+          },
+          {
+            "question": "What is the purpose of the 'pwd' command?",
+            "options": [
+              "To print the current directory",
+              "To change the current directory",
+              "To create a new directory",
+              "To delete a directory"
+            ],
+            "answer": "To print the current directory"
+          },
+          {
+            "question": "Which command displays the full path to the current directory?",
+            "options": ["pwd", "cd", "ls", "dir"],
+            "answer": "pwd"
+          },
+          {
+            "question": "What does 'cd -' do?",
+            "options": [
+              "Changes to the previous directory",
+              "Changes to the root directory",
+              "Changes to the home directory",
+              "Lists the current directory"
+            ],
+            "answer": "Changes to the previous directory"
+          },
+          {
+            "question": "How many options does the 'cd' command have?",
+            "options": ["0", "1", "2", "3"],
+            "answer": "2"
+          },
+          {
+            "question": "What is the default behavior of symbolic links with 'cd'?",
+            "options": [
+              "They are followed automatically",
+              "They are ignored",
+              "They require an option to be followed",
+              "They cause an error"
+            ],
+            "answer": "They are followed automatically"
+          },
+          {
+            "question": "Which option with 'pwd' forces symbolic links to be followed?",
+            "options": ["-L", "-P", "-l", "-p"],
+            "answer": "-P"
+          },
+          {
+            "question": "What does 'pwd -L' do?",
+            "options": [
+              "Prints the logical path with symbolic links",
+              "Prints the physical path ignoring symbolic links",
+              "Changes the current directory",
+              "Lists directory contents"
+            ],
+            "answer": "Prints the logical path with symbolic links"
+          },
+          {
+            "question": "What does 'cd ~' do?",
+            "options": [
+              "Changes to the user's home directory",
+              "Changes to the root directory",
+              "Changes to the parent directory",
+              "Lists the home directory"
+            ],
+            "answer": "Changes to the user's home directory"
+          },
+          {
+            "question": "What happens if you type 'cd' and press Enter without arguments?",
+            "options": [
+              "Returns to the user's home directory",
+              "Displays an error",
+              "Changes to the root directory",
+              "Lists the current directory"
+            ],
+            "answer": "Returns to the user's home directory"
+          },
+          {
+            "question": "What is the primary function of the cd command?",
+            "options": [
+              "To change the current directory",
+              "To list directory contents",
+              "To create a new directory",
+              "To delete a directory"
+            ],
+            "answer": "To change the current directory"
+          },
+          {
+            "question": "What does the pwd command do?",
+            "options": [
+              "Prints the current directory",
+              "Changes the current directory",
+              "Lists all files",
+              "Displays the user"
+            ],
+            "answer": "Prints the current directory"
+          },
+          {
+            "question": "Which of the following is an absolute path?",
+            "options": ["/home/user", "home/user", "../user", "./user"],
+            "answer": "/home/user"
+          },
+          {
+            "question": "Which optionThey are followed automatically with pwd displays the physical path?",
+            "options": ["-P", "-L", "-p", "-l"],
+            "answer": "-P"
+          },
+          {
+            "question": "Which option with pwd prints the logical path?",
+            "options": ["-L", "-P", "-l", "-p"],
+            "answer": "-L"
+          }
+        ]
+      },
+      {
+        "subtitle": "Basic Linux Commands",
+        "questions": [
+          {
+            "question": "Where are the results of commands typically displayed?",
+            "options": [
+              "Standard input",
+              "Standard output (screen)",
+              "Standard error",
+              "Log files"
+            ],
+            "answer": "Standard output (screen)"
+          },
+          {
+            "question": "What are Linux commands executable binary files used for?",
+            "options": [
+              "To perform certain tasks",
+              "To store user data",
+              "To manage hardware",
+              "To edit files"
+            ],
+            "answer": "To perform certain tasks"
+          },
+          {
+            "question": "What does the '$' symbol indicate in a command?",
+            "options": [
+              "Superuser mode",
+              "Regular user mode",
+              "Error in command",
+              "Comment"
+            ],
+            "answer": "Regular user mode"
+          },
+          {
+            "question": "What is the output of the command 'echo -e \"Hello, world\\n\"'?",
+            "options": [
+              "Hello, world",
+              "Hello, world followed by a newline",
+              "Error",
+              "Hello, world\\n"
+            ],
+            "answer": "Hello, world followed by a newline"
+          },
+          {
+            "question": "What does the '-e' option do in the echo command?",
+            "options": [
+              "Enables interpretation of escape sequences",
+              "Exits the command",
+              "Edits the output",
+              "Enables error checking"
+            ],
+            "answer": "Enables interpretation of escape sequences"
+          },
+          {
+            "question": "What character is used to escape a special character in Linux?",
+            "options": ["\\", "/", ".", "~"],
+            "answer": "\\"
+          },
+          {
+            "question": "Which character is used as a directory separator in Linux?",
+            "options": ["/", "\\", ":", ";"],
+            "answer": "/"
+          },
+  {
+    "question": "Which wildcard represents zero or more characters?",
+    "options": ["*", "?", "[", "]"],
+    "answer": "*"
+  },
+  {
+    "question": "What does the '?' wildcard represent in a filename pattern?",
+    "options": ["Single character", "Zero or more characters", "Range of values", "Parent directory"],
+    "answer": "Single character"
+  },
+          {
+            "question": "What does the '|' symbol do in a command?",
+            "options": [
+              "Redirects output to a file",
+              "Pipes the output of one command to another",
+              "Separates multiple commands",
+              "Redirects input from a file"
+            ],
+            "answer": "Pipes the output of one command to another"
+          },
+          {
+            "question": "What does the '>>' symbol do in a command?",
+            "options": [
+              "Redirects output to a file, appending if it exists",
+              "Redirects input from a file",
+              "Separates multiple commands",
+              "Redirects output to a new file, overwriting if it exists"
+            ],
+            "answer": "Redirects output to a file, appending if it exists"
+          },
+          {
+            "question": "What does the '<' symbol do in a command?",
+            "options": [
+              "Redirects output to a file",
+              "Redirects input from a file",
+              "Pipes the output of one command to another",
+              "Separates multiple commands"
+            ],
+            "answer": "Redirects input from a file"
+          },
+          {
+            "question": "What is the purpose of the 'echo' command?",
+            "options": [
+              "To display text or variables on the screen",
+              "To change the current directory",
+              "To create a new directory",
+              "To delete files"
+            ],
+            "answer": "To display text or variables on the screen"
+          },
+          {
+            "question": "Which command is used to display the current working directory?",
+            "options": ["pwd", "cd", "ls", "echo"],
+            "answer": "pwd"
+          },
+          {
+            "question": "What does the 'ls' command do?",
+            "options": [
+              "Lists files and directories in the current directory",
+              "Changes the current directory",
+              "Displays the contents of a file",
+              "Creates a new file"
+            ],
+            "answer": "Lists files and directories in the current directory"
+          },
+          {
+            "question": "Which command is used to change the current directory?",
+            "options": ["cd", "ls", "pwd", "echo"],
+            "answer": "cd"
+          },
+
+          {
+            "question": "Which symbol is used to redirect the output of one command into another?",
+            "options": ["|", ">", ">>", "<"],
+            "answer": "|"
+          },
+          {
+            "question": "What does the '>' symbol do in a command?",
+            "options": ["Redirect output to a new file, overwriting if it exists", "Append output to an existing file", "Redirect input from a file", "Separate multiple commands"],
+            "answer": "Redirect output to a new file, overwriting if it exists"
+          },
+          {
+            "question": "Which symbol allows you to execute multiple commands on a single line?",
+            "options": [";", "|", ">", "<"],
+            "answer": ";"
+          },
+          {
+            "question": "Which command is used to list the contents of the current directory?",
+            "options": ["ls", "cd", "pwd", "dir"],
+            "answer": "ls"
+          },
+          {
+            "question": "Which command can be used to show a user's PATH environment variable?",
+            "options": ["echo $PATH", "cd $PATH", "pwd $PATH", "ls $PATH"],
+            "answer": "echo $PATH"
+          },
+          {
+            "question": "What does the -e option do with the echo command?",
+            "options": [
+              "Enables interpretation of escape sequences",
+              "Disables output",
+              "Changes the output format",
+              "Lists files"
+            ],
+            "answer": "Enables interpretation of escape sequences"
+          },
+          {
+            "question": "What is the result of 'echo -e \"Hello\\nWorld\"'?",
+            "options": [
+              "Hello on one line, World on the next",
+              "HelloWorld on one line",
+              "Error message",
+              "Hello\\nWorld on one line"
+            ],
+            "answer": "Hello on one line, World on the next"
+          },
+          {
+            "question": "Which command can be used to concatenate and display files?",
+            "options": ["cat", "echo", "pwd", "cd"],
+            "answer": "cat"
+          },
+          {
+            "question": "Which command can redirect output to a file?",
+            "options": ["echo > file.txt", "echo | file.txt", "echo < file.txt", "echo - file.txt"],
+            "answer": "echo > file.txt"
+          },
+          {
+            "question": "What does 'cat file.txt' do?",
+            "options": [
+              "Displays the contents of file.txt",
+              "Creates a new file",
+              "Changes to file.txt directory",
+              "Deletes file.txt"
+            ],
+            "answer": "Displays the contents of file.txt"
+          },
+          {
+            "question": "Which symbol is used to redirect input from a file?",
+            "options": ["<", ">", ">>", "|"],
+            "answer": "<"
+          },
+          {
+            "question": "What is the primary function of the echo command?",
+            "options": [
+              "To display text or variables on the screen",
+              "To change the current directory",
+              "To create a new directory",
+              "To delete files"
+            ],
+            "answer": "To display text or variables on the screen"
+          },
+          {
+            "question": "How can you create a new file using the echo command?",
+            "options": [
+              "echo \"Project\" > newfile.txt",
+              "echo Project > newfile.txt",
+              "echo < newfile.txt",
+              "echo Project | newfile.txt"
+            ],
+            "answer": "echo \"Project\" > newfile.txt"
+          },
+          {
+            "question": "What does the '>' symbol do with the echo command?",
+            "options": [
+              "Redirects output to a new file, overwriting if it exists",
+              "Appends output to an existing file",
+              "Displays the output on the screen",
+              "Redirects input from a file"
+            ],
+            "answer": "Redirects output to a new file, overwriting if it exists"
+          },
+          {
+            "question": "How can you append text to an existing file using echo?",
+            "options": [
+              "echo \"text\" >> filename",
+              "echo \"text\" > filename",
+              "echo \"text\" | filename",
+              "echo \"text\" < filename"
+            ],
+            "answer": "echo \"text\" >> filename"
+          },
+          {
+            "question": "What does the cal command display?",
+            "options": [
+              "Calendar of the current month",
+              "Current date and time",
+              "List of files",
+              "User information"
+            ],
+            "answer": "Calendar of the current month"
+          },
+          {
+            "question": "How can you display the calendar for a specific month and year?",
+            "options": ["cal 08 1991", "cal -m 1991", "cal 1991", "cal -y 1991"],
+            "answer": "cal 08 1991"
+          },
+          {
+            "question": "What command displays the current date and time?",
+            "options": ["date", "echo $DATE", "cal", "time"],
+            "answer": "date"
+          },
+          {
+            "question": "Which format option with date displays only the time?",
+            "options": ["date +%T", "date +%D", "date +%m", "date +%Y"],
+            "answer": "date +%T"
+          },
+          {
+            "question": "What does the whoami command do?",
+            "options": [
+              "Displays the current logged-in user",
+              "Displays the current directory",
+              "Lists all users",
+              "Shows the date"
+            ],
+            "answer": "Displays the current logged-in user"
+          },
+          {
+            "question": "Which command displays the UID and GID of the current user?",
+            "options": ["id", "whoami", "echo $USER", "date"],
+            "answer": "id"
+          },
+          {
+            "question": "What does the clear command do?",
+            "options": [
+              "Clears the terminal screen",
+              "Deletes files",
+              "Changes the directory",
+              "Displays the calendar"
+            ],
+            "answer": "Clears the terminal screen"
+          },
+          {
+            "question": "What is a disadvantage of the clear command?",
+            "options": [
+              "It clears the command history",
+              "It requires a lot of commands to remember",
+              "It cannot be undone",
+              "It stops the terminal"
+            ],
+            "answer": "It cannot be undone"
+          },
+          {
+            "question": "What does the output of 'id' include for the user 'raghu'?",
+            "options": [
+              "UID and GID",
+              "Only the username",
+              "Only the date",
+              "Only the terminal"
+            ],
+            "answer": "UID and GID"
+          },
+          {
+            "question": "Which option with date displays the day of the week?",
+            "options": ["date +%A", "date +%B", "date +%d", "date +%Y"],
+            "answer": "date +%A"
+          },
+          {
+            "question": "What is the purpose of the '-h' option with most commands?",
+            "options": [
+              "Shows help or usage summary",
+              "Hides the output",
+              "Changes the directory",
+              "Clears the screen"
+            ],
+            "answer": "Shows help or usage summary"
+          },
+          {
+            "question": "What does 'echo -e \"Hello\\nWorld\"' do?",
+            "options": [
+              "Displays Hello on one line and World on the next",
+              "Displays HelloWorld on one line",
+              "Shows an error",
+              "Appends to a file"
+            ],
+            "answer": "Displays Hello on one line and World on the next"
+          },
+          {
+            "question": "Which command can be used to verify the contents of a file?",
+            "options": ["cat", "echo", "date", "cal"],
+            "answer": "cat"
+          },
+          {
+            "question": "What is the default behavior of the echo command without options?",
+            "options": [
+              "Displays text followed by a newline",
+              "Omits the newline",
+              "Clears the screen",
+              "Changes the directory"
+            ],
+            "answer": "Displays text followed by a newline"
+          },
+          {
+            "question": "Which command is used to redirect output to a file?",
+            "options": [">", ">>", "<", "|"],
+            "answer": ">"
+          },
+          {
+            "question": "What is the purpose of the -n option with echo?",
+            "options": [
+              "Omits the trailing newline",
+              "Adds a newline",
+              "Changes the output format",
+              "Displays an error"
+            ],
+            "answer": "Omits the trailing newline"
+          },
+          {
+            "question": "What is the output of 'echo -n \"Hello\" World'?",
+            "options": [
+              "HelloWorld on one line",
+              "Hello on one line, World on the next",
+              "Error message",
+              "Hello World with a space"
+            ],
+            "answer": "HelloWorld on one line"
+          },
+          {
+            "question": "What is the primary function of the whatis command?",
+            "options": [
+              "Provides a brief description of commands",
+              "Changes the current directory",
+              "Creates a new file",
+              "Deletes files"
+            ],
+            "answer": "Provides a brief description of commands"
+          },
+          {
+            "question": "What does the whatis command do with Linux and Unix-like operating systems?",
+            "options": [
+              "Returns a single-line description for each command",
+              "Lists all files in a directory",
+              "Displays the current date",
+              "Shows user information"
+            ],
+            "answer": "Returns a single-line description for each command"
+          },
+          {
+            "question": "What is the syntax for the whatis command?",
+            "options": ["whatis [keyword]", "whatis -keyword", "whatis keyword -", "whatis > keyword"],
+            "answer": "whatis [keyword]"
+          },
+          {
+            "question": "What does the output of the whatis command include?",
+            "options": [
+              "A brief description limited by the first line",
+              "Full manual pages",
+              "All command options",
+              "User manuals"
+            ],
+            "answer": "A brief description limited by the first line"
+          },
+          {
+            "question": "Which command is similar to the apropos command?",
+            "options": ["whatis", "man", "cd", "ls"],
+            "answer": "whatis"
+          },
+          {
+            "question": "What is a key difference between whatis and apropos?",
+            "options": [
+              "whatis shows brief descriptions, apropos shows powerful matches",
+              "whatis creates files, apropos deletes them",
+              "whatis changes directories, apropos lists files",
+              "whatis shows full manuals, apropos shows none"
+            ],
+            "answer": "whatis shows brief descriptions, apropos shows powerful matches"
+          },
+          {
+            "question": "What does the man command provide compared to whatis?",
+            "options": [
+              "Full manual pages with detailed information",
+              "Only a single-line description",
+              "A list of directories",
+              "User login details"
+            ],
+            "answer": "Full manual pages with detailed information"
+          },
+          {
+            "question": "How does the whatis command handle multiple keywords?",
+            "options": [
+              "Searches for each keyword separately",
+              "Combines keywords into one search",
+              "Ignores additional keywords",
+              "Displays an error"
+            ],
+            "answer": "Searches for each keyword separately"
+          },
+          {
+            "question": "What is a limitation of the whatis command?",
+            "options": [
+              "It provides only the first line of the manual",
+              "It cannot search for files",
+              "It requires internet access",
+              "It deletes files"
+            ],
+            "answer": "It provides only the first line of the manual"
+          },
+          {
+            "question": "Which command is equivalent to 'man -f'?",
+            "options": ["whatis", "apropos", "cat", "ls"],
+            "answer": "whatis"
+          },
+          {
+            "question": "What type of information does the whatis command not provide?",
+            "options": [
+              "Detailed manual pages",
+              "Brief command descriptions",
+              "Keyword matches",
+              "Single-line summaries"
+            ],
+            "answer": "Detailed manual pages"
+          },
+          {
+            "question": "What is the benefit of using the whatis command over man?",
+            "options": [
+              "It is quicker for brief information",
+              "It provides full manuals",
+              "It changes directories",
+              "It lists all files"
+            ],
+            "answer": "It is quicker for brief information"
+          },
+          {
+            "question": "What key is pressed after typing a command in the terminal?",
+            "options": ["Enter", "Space", "Tab", "Esc"],
+            "answer": "Enter"
+          },
+          {
+            "question": "What is an argument in a Linux command?",
+            "options": [
+              "An option or a filename",
+              "A directory path",
+              "A system variable",
+              "A comment"
+            ],
+            "answer": "An option or a filename"
+          },
+          {
+            "question": "Which command displays the current user?",
+            "options": ["echo $USER", "cd $USER", "pwd $USER", "ls $USER"],
+            "answer": "echo $USER"
+          },
+          {
+            "question": "What does the echo command do?",
+            "options": [
+              "Displays text or variables on the screen",
+              "Changes the directory",
+              "Creates a new file",
+              "Deletes a file"
+            ],
+            "answer": "Displays text or variables on the screen"
+          }
+        ]
+      },
+      {
+        "subtitle": "Vi Editor",
+        "questions": [
+          {
+            "question": "What does the 'vi' command do?",
+            "options": [
+              "Opens one or more files in the same directory in vi editor",
+              "Changes the current directory",
+              "Deletes files",
+              "Displays the calendar"
+            ],
+            "answer": "Opens one or more files in the same directory in vi editor"
+          },
+          {
+            "question": "What is the function of 'vi +' command?",
+            "options": [
+              "Opens every file in the current directory",
+              "Opens a specific file at the last line",
+              "Creates a new file",
+              "Lists directory contents"
+            ],
+            "answer": "Opens every file in the current directory"
+          },
+          {
+            "question": "What does 'q' do in vi editor?",
+            "options": [
+              "Quits without saving any changes",
+              "Saves and quits",
+              "Deletes the current line",
+              "Moves the cursor"
+            ],
+            "answer": "Quits without saving any changes"
+          },
+          {
+            "question": "What is the purpose of 'wq' command in vi?",
+            "options": [
+              "Writes the buffer contents to file, saves changes, and quits",
+              "Quits without saving",
+              "Opens a new file",
+              "Deletes the file"
+            ],
+            "answer": "Writes the buffer contents to file, saves changes, and quits"
+          },
+          {
+            "question": "What does 'zz' do in vi editor?",
+            "options": [
+              "Same as 'wq' but saves and quits immediately",
+              "Quits without saving",
+              "Moves the cursor to the end",
+              "Deletes the line"
+            ],
+            "answer": "Same as 'wq' but saves and quits immediately"
+          },
+          {
+            "question": "What action does 'i' perform in vi command mode?",
+            "options": [
+              "Activates text insert mode, inserting text immediately under the cursor",
+              "Moves the cursor left",
+              "Saves the file",
+              "Quits the editor"
+            ],
+            "answer": "Activates text insert mode, inserting text immediately under the cursor"
+          },
+          {
+            "question": "What does 'h' do in vi command mode?",
+            "options": [
+              "Moves the cursor one character to the left",
+              "Moves the cursor up",
+              "Deletes a character",
+              "Inserts text"
+            ],
+            "answer": "Moves the cursor one character to the left"
+          },
+          {
+            "question": "What is the function of 'j' in vi command mode?",
+            "options": [
+              "Moves the cursor one line down",
+              "Moves the cursor up",
+              "Moves the cursor right",
+              "Deletes a line"
+            ],
+            "answer": "Moves the cursor one line down"
+          },
+          {
+            "question": "What does 'k' do in vi command mode?",
+            "options": [
+              "Moves the cursor one line up",
+              "Moves the cursor down",
+              "Moves the cursor left",
+              "Inserts text"
+            ],
+            "answer": "Moves the cursor one line up"
+          },
+          {
+            "question": "What action is performed by 'G' in vi command mode?",
+            "options": [
+              "Moves the cursor to the last line of text",
+              "Moves to the first line",
+              "Deletes the line",
+              "Saves the file"
+            ],
+            "answer": "Moves the cursor to the last line of text"
+          },
+          {
+            "question": "What does 'a' do in vi command mode?",
+            "options": [
+              "Switches to insert mode and allows insertion of text immediately to the right",
+              "Moves the cursor",
+              "Deletes text",
+              "Quits the editor"
+            ],
+            "answer": "Switches to insert mode and allows insertion of text immediately to the right"
+          },
+          {
+            "question": "What is the function of 'x' in vi command mode?",
+            "options": [
+              "Deletes the character immediately under the cursor",
+              "Moves the cursor",
+              "Inserts text",
+              "Saves the file"
+            ],
+            "answer": "Deletes the character immediately under the cursor"
+          },
+          {
+            "question": "What does 'X' do in vi command mode?",
+            "options": [
+              "Deletes a single character to the left of the cursor",
+              "Deletes the line",
+              "Moves the cursor right",
+              "Inserts text"
+            ],
+            "answer": "Deletes a single character to the left of the cursor"
+          },
+          {
+            "question": "What action is performed by 'd$' in vi command mode?",
+            "options": [
+              "Deletes the text on the current line from the character under the cursor to the end",
+              "Deletes the entire line",
+              "Moves the cursor",
+              "Inserts text"
+            ],
+            "answer": "Deletes the text on the current line from the character under the cursor to the end"
+          },
+          {
+            "question": "What does 'dw' do in vi command mode?",
+            "options": [
+              "Deletes the character immediately under the cursor and the remaining characters to the right of it in the same word",
+              "Deletes the entire line",
+              "Moves the cursor",
+              "Saves the file"
+            ],
+            "answer": "Deletes the character immediately under the cursor and the remaining characters to the right of it in the same word"
+          },
+          {
+            "question": "What is the function of 'dd' in vi command mode?",
+            "options": [
+              "Deletes the entire line containing the cursor",
+              "Deletes a single character",
+              "Moves the cursor",
+              "Inserts text"
+            ],
+            "answer": "Deletes the entire line containing the cursor"
+          },
+          {
+            "question": "What does 'cw' do in vi command mode?",
+            "options": [
+              "Deletes the character under the cursor and its right in the same word and allows replacement characters to be typed",
+              "Moves the cursor",
+              "Saves the file",
+              "Deletes the line"
+            ],
+            "answer": "Deletes the character under the cursor and its right in the same word and allows replacement characters to be typed"
+          },
+          {
+            "question": "Which command moves the cursor to the first line of text?",
+            "options": ["1G", "G", "j", "k"],
+            "answer": "1G"
+          },
+          {
+            "question": "What is the effect of the '5G' command in vi?",
+            "options": [
+              "Moves the cursor to the fifth line",
+              "Deletes five lines",
+              "Moves the cursor to the end",
+              "Inserts text"
+            ],
+            "answer": "Moves the cursor to the fifth line"
+          },
+          {
+            "question": "Which command switches to insert mode immediately to the left of the cursor?",
+            "options": ["i", "a", "h", "j"],
+            "answer": "i"
+          }
+        ]
+      },
+      {
+        "subtitle": "Movement Commands",
+        "questions": [
+          {
+            "question": "Which key combination is used to hold and press for the backspace function?",
+            "options": ["Ctrl + p", "Ctrl + b", "Ctrl + e", "None"],
+            "answer": "None"
+          },
+          {
+            "question": "What action is performed by pressing the 'p' key in the context of movement commands?",
+            "options": ["Move up a line", "Move down a line", "Move left one space", "Move right one space"],
+            "answer": "Move up a line"
+          },
+          {
+            "question": "Which key is used to move left one space?",
+            "options": ["b", "p", "e", "n"],
+            "answer": "b"
+          },
+          {
+            "question": "What does pressing the 'e' key do in the movement commands?",
+            "options": ["Move to the end of line", "Move up a line", "Move down a line", "Move left one space"],
+            "answer": "Move to the end of line"
+          },
+          {
+            "question": "Which arrow key is equivalent to the 'p' key for moving up a line?",
+            "options": ["Up arrow", "Down arrow", "Left arrow", "Right arrow"],
+            "answer": "Up arrow"
+          },
+          {
+            "question": "What is the equivalent action for the 'b' key using an arrow key?",
+            "options": ["Left arrow", "Right arrow", "Up arrow", "Down arrow"],
+            "answer": "Left arrow"
+          },
+          {
+            "question": "Which arrow key corresponds to the 'e' key action?",
+            "options": ["Right arrow", "Left arrow", "Up arrow", "Down arrow"],
+            "answer": "Right arrow"
+          },
+          {
+            "question": "What is the purpose of the backspace key in the context provided?",
+            "options": ["Delete a character", "Move up a line", "Move to end of line", "Clear the screen"],
+            "answer": "Delete a character"
+          }
+        ]
+      }
+    ]
+  }
+}

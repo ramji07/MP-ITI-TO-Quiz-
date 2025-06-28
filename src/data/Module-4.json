@@ -1,0 +1,2059 @@
+{
+  "Module-4": {
+    "title": "Install Windows Operating System",
+    "submodules": [
+      {
+        "submodule_title": "BIOS Fundamentals",
+        "questions": [
+          {
+            "question": "What is BIOS often referred to as?",
+            "options": [
+              "The Advanced Power System",
+              "The Basic Input/Output System",
+              "The Central Processing Unit",
+              "The Hard Disk Drive"
+            ],
+            "answer": "The Basic Input/Output System"
+          },
+          {
+            "question": "What is the fundamental purpose of the BIOS?",
+            "options": [
+              "To run application software",
+              "To display graphics on the screen",
+              "To initiate and test system hardware and load an operating system",
+              "To store user data"
+            ],
+            "answer": "To initiate and test system hardware and load an operating system"
+          },
+          {
+            "question": "What is one of the primary responsibilities of the BIOS software?",
+            "options": [
+              "Running web browsers",
+              "Loading the operating system",
+              "Playing video games",
+              "Editing documents"
+            ],
+            "answer": "Loading the operating system"
+          },
+          {
+            "question": "What does BIOS stand for?",
+            "options": [
+              "Basic Internal Operating System",
+              "Binary Input Output Software",
+              "Basic Input/Output System",
+              "Byte Information Operating Standard"
+            ],
+            "answer": "Basic Input/Output System"
+          },
+          {
+            "question": "Why is the BIOS considered fundamental to a computer's operation?",
+            "options": [
+              "Because it runs all user applications",
+              "Because it performs essential startup functions before the OS loads",
+              "Because it stores all user data permanently",
+              "Because it connects to the internet"
+            ],
+            "answer": "Because it performs essential startup functions before the OS loads"
+          },
+          {
+            "question": "What does the text imply about the relationship between BIOS and the operating system?",
+            "options": [
+              "They are independent and do not interact",
+              "BIOS loads the operating system to start the computer",
+              "The operating system manages the BIOS",
+              "They are the same thing"
+            ],
+            "answer": "BIOS loads the operating system to start the computer"
+          },
+          {
+            "question": "Why is it important for BIOS to properly load the operating system?",
+            "options": [
+              "Because the OS stores the BIOS",
+              "Because without the OS, the computer cannot perform complex tasks",
+              "Because the BIOS needs the OS for its own functionality",
+              "Because the OS controls the power supply"
+            ],
+            "answer": "Because without the OS, the computer cannot perform complex tasks"
+          }
+        ]
+      },
+      {
+        "submodule_title": "BIOS Storage and Firmware",
+        "questions": [
+          {
+            "question": "Where is the BIOS software typically stored?",
+            "options": [
+              "On the hard drive",
+              "On the RAM",
+              "On a flash memory chip on the motherboard",
+              "On the CPU"
+            ],
+            "answer": "On a flash memory chip on the motherboard"
+          },
+          {
+            "question": "What is a firmware in the context of BIOS?",
+            "options": [
+              "A type of hardware component",
+              "Software permanently recorded on a chip",
+              "A temporary storage area",
+              "An external peripheral device"
+            ],
+            "answer": "Software permanently recorded on a chip"
+          },
+          {
+            "question": "What does the image (Fig. 1) show?",
+            "options": [
+              "A CPU",
+              "A RAM module",
+              "A BIOS chip on a circuit board",
+              "A hard drive"
+            ],
+            "answer": "A BIOS chip on a circuit board"
+          },
+          {
+            "question": "What type of chip is the BIOS typically stored on, as indicated in the text?",
+            "options": [
+              "SRAM chip",
+              "DRAM chip",
+              "Flash memory chip",
+              "EEPROM chip"
+            ],
+            "answer": "Flash memory chip"
+          },
+          {
+            "question": "What type of memory is used for the BIOS chip?",
+            "options": [
+              "SRAM",
+              "DRAM",
+              "Flash memory",
+              "ROM (Read-Only Memory)"
+            ],
+            "answer": "Flash memory"
+          },
+          {
+            "question": "What is the significance of BIOS being 'firmware'?",
+            "options": [
+              "It can be easily updated by the user daily",
+              "It's a combination of hardware and software, permanently stored",
+              "It requires a constant internet connection to function",
+              "It is only used in mobile devices"
+            ],
+            "answer": "It's a combination of hardware and software, permanently stored"
+          },
+          {
+            "question": "What is the main advantage of BIOS being stored on a flash memory chip?",
+            "options": [
+              "It makes it faster to access user files",
+              "It allows the BIOS to be updated (flashed)",
+              "It provides more storage for the operating system",
+              "It reduces power consumption significantly"
+            ],
+            "answer": "It allows the BIOS to be updated (flashed)"
+          },
+          {
+            "question": "What is the primary function of the chip shown in Fig. 1?",
+            "options": [
+              "To store temporary data",
+              "To perform calculations for the CPU",
+              "To contain the BIOS firmware",
+              "To provide network connectivity"
+            ],
+            "answer": "To contain the BIOS firmware"
+          }
+        ]
+      },
+      {
+        "submodule_title": "CMOS and BIOS Settings",
+        "questions": [
+          {
+            "question": "What does CMOS stand for in relation to the BIOS?",
+            "options": [
+              "Central Memory Operating System",
+              "Complementary Metal Oxide Semiconductor",
+              "Computer Mainframe Operating Software",
+              "Common Memory Output System"
+            ],
+            "answer": "Complementary Metal Oxide Semiconductor"
+          },
+          {
+            "question": "What information does the CMOS chip store?",
+            "options": [
+              "User documents",
+              "Application programs",
+              "System configuration information",
+              "Internet Browse history"
+            ],
+            "answer": "System configuration information"
+          },
+          {
+            "question": "How is the CMOS chip powered?",
+            "options": [
+              "Directly from the power supply",
+              "By the CPU",
+              "By a small lithium battery",
+              "Through the hard drive"
+            ],
+            "answer": "By a small lithium battery"
+          },
+          {
+            "question": "What is the name of the chip that stores BIOS settings?",
+            "options": [
+              "CPU",
+              "RAM",
+              "CMOS",
+              "GPU"
+            ],
+            "answer": "CMOS"
+          },
+          {
+            "question": "Which component is responsible for providing setup information to the BIOS?",
+            "options": [
+              "The CPU",
+              "The RAM",
+              "The CMOS chip",
+              "The Graphics Card"
+            ],
+            "answer": "The CMOS chip"
+          },
+          {
+            "question": "If you change a setting in the BIOS Setup, where is that change stored?",
+            "options": [
+              "In the RAM, temporarily",
+              "On the hard drive, permanently",
+              "In the CMOS chip, powered by a battery",
+              "On the CPU's internal cache"
+            ],
+            "answer": "In the CMOS chip, powered by a battery"
+          },
+          {
+            "question": "What happens if the CMOS battery runs out of power?",
+            "options": [
+              "The computer will not turn on",
+              "The operating system will crash",
+              "The BIOS settings will revert to default",
+              "The hard drive will be erased"
+            ],
+            "answer": "The BIOS settings will revert to default"
+          },
+          {
+            "question": "If your computer's date and time are constantly resetting, what is the most likely cause?",
+            "options": [
+              "A software bug",
+              "A failing hard drive",
+              "A dead CMOS battery",
+              "An outdated operating system"
+            ],
+            "answer": "A dead CMOS battery"
+          },
+          {
+            "question": "What technology does BIOS use to save changes made to the computer's settings?",
+            "options": [
+              "RAM",
+              "CMOS",
+              "Hard Drive",
+              "CPU"
+            ],
+            "answer": "CMOS"
+          },
+          {
+            "question": "Which type of battery is typically used to maintain CMOS settings?",
+            "options": [
+              "AA battery",
+              "Lithium or Ni-Cad battery",
+              "Alkaline battery",
+              "Lead-acid battery"
+            ],
+            "answer": "Lithium or Ni-Cad battery"
+          }
+        ]
+      },
+      {
+        "submodule_title": "BIOS Setup and Configuration",
+        "questions": [
+          {
+            "question": "What is the purpose of the CMOS Setup program?",
+            "options": [
+              "To install new software",
+              "To configure system settings",
+              "To clean the computer's memory",
+              "To run antivirus scans"
+            ],
+            "answer": "To configure system settings"
+          },
+          {
+            "question": "How do you typically enter the CMOS Setup program?",
+            "options": [
+              "By clicking an icon on the desktop",
+              "By pressing 'Ctrl+Alt+Del'",
+              "By pressing a specific key during startup (e.g., Esc, Del, F1, F2)",
+              "By turning the computer off and on rapidly"
+            ],
+            "answer": "By pressing a specific key during startup (e.g., Esc, Del, F1, F2)"
+          },
+          {
+            "question": "What is one common option found in the BIOS setup program related to time?",
+            "options": [
+              "Set screen resolution",
+              "Set system time and date",
+              "Adjust speaker volume",
+              "Change keyboard layout"
+            ],
+            "answer": "Set system time and date"
+          },
+          {
+            "question": "What does the 'Boot Sequence' option in BIOS allow you to do?",
+            "options": [
+              "Change the order of program execution",
+              "Determine which drive the BIOS will try to load the operating system from",
+              "Adjust the CPU clock speed",
+              "Enable or disable network connectivity"
+            ],
+            "answer": "Determine which drive the BIOS will try to load the operating system from"
+          },
+          {
+            "question": "What is the purpose of 'Plug and Play' in BIOS?",
+            "options": [
+              "To automatically play multimedia files",
+              "To automatically detect and configure devices",
+              "To connect to a printer without drivers",
+              "To manage power settings for USB devices"
+            ],
+            "answer": "To automatically detect and configure devices"
+          },
+          {
+            "question": "What does 'Keyboard/Mouse - Enable Num Lock, -Enable the Keyboard, -'Auto-Detect Mouse'' refer to in BIOS options?",
+            "options": [
+              "Physical connections for these devices",
+              "Setting up a new keyboard and mouse",
+              "Configuration options for keyboard and mouse behavior",
+              "Troubleshooting steps for input devices"
+            ],
+            "answer": "Configuration options for keyboard and mouse behavior"
+          },
+          {
+            "question": "What is a typical BIOS option related to storage drives?",
+            "options": [
+              "Drive Fragmentation",
+              "Configure hard drives, CD-ROM and floppy drives",
+              "Format a drive",
+              "Scan for viruses"
+            ],
+            "answer": "Configure hard drives, CD-ROM and floppy drives"
+          },
+          {
+            "question": "What does the 'Memory - Direct the BIOS to shadow to a specific memory address' option imply?",
+            "options": [
+              "Checking the health of RAM modules",
+              "Allocating memory for specific hardware functions",
+              "Installing new RAM",
+              "Running memory diagnostic tests"
+            ],
+            "answer": "Allocating memory for specific hardware functions"
+          },
+          {
+            "question": "What is the purpose of the 'Security - Set a password for accessing the computer' BIOS option?",
+            "options": [
+              "To encrypt files on the hard drive",
+              "To set a password to enter the BIOS setup or boot the computer",
+              "To protect against malware",
+              "To secure Wi-Fi connections"
+            ],
+            "answer": "To set a password to enter the BIOS setup or boot the computer"
+          },
+          {
+            "question": "What does 'Power Management - Select whether to use power management' control?",
+            "options": [
+              "The brightness of the screen",
+              "How the computer handles power states like 'standby' and 'suspend'",
+              "The charging of the battery",
+              "The power output of USB ports"
+            ],
+            "answer": "How the computer handles power states like 'standby' and 'suspend'"
+          },
+          {
+            "question": "What does 'Exit - Save your changes, discard your changes or restore default settings' refer to?",
+            "options": [
+              "Closing a program",
+              "Concluding the BIOS setup process",
+              "Shutting down the operating system",
+              "Ejecting a disk"
+            ],
+            "answer": "Concluding the BIOS setup process"
+          },
+          {
+            "question": "Which key combination is most commonly used to enter BIOS setup on many systems?",
+            "options": [
+              "Ctrl + A",
+              "Alt + F4",
+              "Del or F2",
+              "Shift + Esc"
+            ],
+            "answer": "Del or F2"
+          },
+          {
+            "question": "What does 'shadowing' memory in BIOS settings refer to?",
+            "options": [
+              "Creating a backup of the memory",
+              "Allocating a specific memory address for BIOS operations",
+              "Disabling certain memory modules",
+              "Monitoring memory usage"
+            ],
+            "answer": "Allocating a specific memory address for BIOS operations"
+          },
+          {
+            "question": "If you want to change the order in which your computer boots from different drives (e.g., CD-ROM before hard drive), which BIOS option would you use?",
+            "options": [
+              "Power Management",
+              "Security",
+              "Boot Sequence",
+              "Plug and Play"
+            ],
+            "answer": "Boot Sequence"
+          },
+          {
+            "question": "What is the purpose of the 'restore default settings' option in BIOS?",
+            "options": [
+              "To restore deleted files",
+              "To factory reset the computer's software",
+              "To revert all BIOS configurations to their original state",
+              "To reinstall the operating system"
+            ],
+            "answer": "To revert all BIOS configurations to their original state"
+          },
+          {
+            "question": "What is the main benefit of BIOS managing settings for hard disks, clock, etc.?",
+            "options": [
+              "It makes the computer run faster",
+              "It allows for system customization before the OS loads",
+              "It provides extra storage space",
+              "It enhances internet security"
+            ],
+            "answer": "It allows for system customization before the OS loads"
+          }
+        ]
+      },
+      {
+        "submodule_title": "BIOS Operations and Hardware Interaction",
+        "questions": [
+          {
+            "question": "What is 'Power-on self-test (POST)'?",
+            "options": [
+              "A diagnostic tool for the power supply",
+              "A test conducted by the BIOS to check hardware components at startup",
+              "A software update for the operating system",
+              "A virus scan at boot time"
+            ],
+            "answer": "A test conducted by the BIOS to check hardware components at startup"
+          },
+          {
+            "question": "What is the role of BIOS in activating other BIOS chips on different cards?",
+            "options": [
+              "It disables them to save power",
+              "It integrates them with the main BIOS for system functionality",
+              "It allows them to operate independently without interference",
+              "It transfers all their functions to the main CPU"
+            ],
+            "answer": "It integrates them with the main BIOS for system functionality"
+          },
+          {
+            "question": "What kind of routines does BIOS provide for operating system interfaces?",
+            "options": [
+              "High-level application routines",
+              "Low-level routines to interact with hardware",
+              "Networking protocols",
+              "Graphics rendering algorithms"
+            ],
+            "answer": "Low-level routines to interact with hardware"
+          },
+          {
+            "question": "What common tasks does BIOS manage related to user input and output?",
+            "options": [
+              "Managing complex software applications",
+              "Managing things like the keyboard, the screen, and the ports",
+              "Designing new hardware components",
+              "Performing data analysis"
+            ],
+            "answer": "Managing things like the keyboard, the screen, and the ports"
+          },
+          {
+            "question": "What is another important management task of the BIOS, as mentioned in the text?",
+            "options": [
+              "Managing a collection of settings for the hard disks, clock, etc.",
+              "Managing internet connections",
+              "Managing user accounts and permissions",
+              "Managing software licenses"
+            ],
+            "answer": "Managing a collection of settings for the hard disks, clock, etc."
+          },
+          {
+            "question": "What is the role of the BIOS in managing peripherals?",
+            "options": [
+              "It designs new peripheral devices",
+              "It installs drivers for all peripherals automatically",
+              "It helps the PC hardware coordinate functions like system power-ups and restarts",
+              "It provides power to external peripherals"
+            ],
+            "answer": "It helps the PC hardware coordinate functions like system power-ups and restarts"
+          },
+          {
+            "question": "Which of these is NOT a function of BIOS mentioned in the text?",
+            "options": [
+              "Managing keyboard and screen",
+              "Performing power-on self-test",
+              "Connecting to external networks",
+              "Loading the operating system"
+            ],
+            "answer": "Connecting to external networks"
+          },
+          {
+            "question": "What is the role of the BIOS in ensuring that system hardware components are working properly?",
+            "options": [
+              "It installs new drivers for them",
+              "It performs the Power-on self-test (POST)",
+              "It directly repairs faulty hardware",
+              "It provides a user interface for hardware diagnostics"
+            ],
+            "answer": "It performs the Power-on self-test (POST)"
+          },
+          {
+            "question": "What kind of routines does the BIOS provide for interfacing with different hardware devices?",
+            "options": [
+              "High-level programming languages",
+              "Low-level routines",
+              "Cloud-based services",
+              "Graphics processing unit (GPU) drivers"
+            ],
+            "answer": "Low-level routines"
+          },
+          {
+            "question": "What does BIOS do immediately after the computer is turned on?",
+            "options": [
+              "Launches the web browser",
+              "Starts playing music",
+              "Initiates the POST (Power-on self-test)",
+              "Downloads updates"
+            ],
+            "answer": "Initiates the POST (Power-on self-test)"
+          },
+          {
+            "question": "Which of the following is an example of a low-level routine provided by BIOS?",
+            "options": [
+              "Printing a document",
+              "Reading input from the keyboard",
+              "Playing a video game",
+              "Sending an email"
+            ],
+            "answer": "Reading input from the keyboard"
+          },
+          {
+            "question": "What is one of the essential checks performed by BIOS during POST?",
+            "options": [
+              "Checking internet speed",
+              "Verifying hard drive integrity",
+              "Testing the CPU and memory",
+              "Scanning for viruses"
+            ],
+            "answer": "Testing the CPU and memory"
+          }
+        ]
+      },
+      {
+        "submodule_title": "Disk Partitioning and Formatting",
+        "questions": [
+          {
+            "question": "What is the purpose of multi-boot setups?",
+            "options": [
+              "To improve internet speed",
+              "To allow more than one operating system on a single computer",
+              "To run multiple applications simultaneously",
+              "To backup data automatically"
+            ],
+            "answer": "To allow more than one operating system on a single computer"
+          },
+          {
+            "question": "Which operating systems are mentioned as examples for multi-boot setups?",
+            "options": [
+              "Android and iOS",
+              "Linux and Microsoft Windows",
+              "macOS and Chrome OS",
+              "Unix and DOS"
+            ],
+            "answer": "Linux and Microsoft Windows"
+          },
+          {
+            "question": "What is a benefit of having different operating systems on different partitions?",
+            "options": [
+              "It makes the computer run faster",
+              "It allows for optimal use of hard drive space",
+              "It can prevent a corrupted file system in one OS from affecting another",
+              "It improves graphics performance"
+            ],
+            "answer": "It can prevent a corrupted file system in one OS from affecting another"
+          },
+          {
+            "question": "What is a potential risk if one partition's file system becomes corrupted in a multi-boot setup?",
+            "options": [
+              "All data on the hard drive will be lost",
+              "Other operating systems may be unaffected",
+              "The computer will automatically repair the corruption",
+              "The BIOS settings will reset"
+            ],
+            "answer": "Other operating systems may be unaffected"
+          },
+          {
+            "question": "How does partitioning affect overall computer performance on systems with smaller file systems?",
+            "options": [
+              "It decreases performance",
+              "It has no effect",
+              "It improves performance",
+              "It makes file access slower"
+            ],
+            "answer": "It improves performance"
+          },
+          {
+            "question": "What is a benefit of partitioning for significantly less than the full size available?",
+            "options": [
+              "It increases the risk of data loss",
+              "It reduces the time for diagnostic tools like scandisk to run",
+              "It prevents the installation of new software",
+              "It makes the hard drive run hotter"
+            ],
+            "answer": "It reduces the time for diagnostic tools like scandisk to run"
+          },
+          {
+            "question": "What is disk formatting?",
+            "options": [
+              "The process of cleaning the computer screen",
+              "The process of preparing a data storage device for initial use",
+              "The process of compressing files",
+              "The process of defragmenting a hard drive"
+            ],
+            "answer": "The process of preparing a data storage device for initial use"
+          },
+          {
+            "question": "Which devices are mentioned as examples of data storage devices that need formatting?",
+            "options": [
+              "Printers and scanners",
+              "Hard disk drive, Solid-state drive, or USB flash drive",
+              "Monitors and keyboards",
+              "CPU and RAM"
+            ],
+            "answer": "Hard disk drive, Solid-state drive, or USB flash drive"
+          },
+          {
+            "question": "What is the primary action of formatting a volume?",
+            "options": [
+              "It erases all data on the volume",
+              "It optimizes the volume for faster access",
+              "It installs an operating system on the volume",
+              "It makes the volume read-only"
+            ],
+            "answer": "It erases all data on the volume"
+          },
+          {
+            "question": "What is 'low-level formatting'?",
+            "options": [
+              "A quick format that clears user data",
+              "The process of creating partitions on a drive",
+              "A process that marks the start of the tracks with markers indicating the start of a recording block",
+              "A method of repairing bad sectors on a hard drive"
+            ],
+            "answer": "A process that marks the start of the tracks with markers indicating the start of a recording block"
+          },
+          {
+            "question": "What information does low-level formatting provide?",
+            "options": [
+              "User password data",
+              "Information about block checks done for future use by the disk controller",
+              "Internet Browse history",
+              "Software installation logs"
+            ],
+            "answer": "Information about block checks done for future use by the disk controller"
+          },
+          {
+            "question": "Why is low-level formatting considered the permanent foundation for the disk?",
+            "options": [
+              "Because it cannot be undone",
+              "Because it prepares the physical structure of the disk",
+              "Because it installs the bootloader",
+              "Because it encrypts the disk"
+            ],
+            "answer": "Because it prepares the physical structure of the disk"
+          },
+          {
+            "question": "What is 'high-level formatting'?",
+            "options": [
+              "A process that erases the hard drive completely",
+              "A process that creates the file system format within a disk partition or a logical volume",
+              "A method for physically preparing the disk platters",
+              "A procedure to recover lost files"
+            ],
+            "answer": "A process that creates the file system format within a disk partition or a logical volume"
+          },
+          {
+            "question": "What does high-level formatting involve in terms of disk structures?",
+            "options": [
+              "Physically writing data to sectors",
+              "Creating the logical drive or partition constructs",
+              "Repairing damaged tracks",
+              "Testing the disk's rotational speed"
+            ],
+            "answer": "Creating the logical drive or partition constructs"
+          },
+          {
+            "question": "When does high-level formatting typically occur?",
+            "options": [
+              "Every time the computer starts",
+              "During operating system installation or when adding a new disk",
+              "When running antivirus software",
+              "When connecting to the internet"
+            ],
+            "answer": "During operating system installation or when adding a new disk"
+          },
+          {
+            "question": "What does 'Partitioning' also refer to in the context of hard drives?",
+            "options": [
+              "Deleting files",
+              "A volume",
+              "Defragmenting",
+              "Encrypting"
+            ],
+            "answer": "A volume"
+          },
+          {
+            "question": "What is a 'partition' on a hard disk?",
+            "options": [
+              "A physical component of the disk",
+              "A logical division of the disk that can be formatted",
+              "A temporary storage area for files",
+              "A backup copy of the operating system"
+            ],
+            "answer": "A logical division of the disk that can be formatted"
+          }
+        ]
+      },
+       {
+        "submodule_title": "BIOS Operations and Hardware Interaction",
+        "questions": [
+          {
+            "question": "What is 'Power-on self-test (POST)'?",
+            "options": [
+              "A diagnostic tool for the power supply",
+              "A test conducted by the BIOS to check hardware components at startup",
+              "A software update for the operating system",
+              "A virus scan at boot time"
+            ],
+            "answer": "A test conducted by the BIOS to check hardware components at startup"
+          },
+          {
+            "question": "What is the role of BIOS in activating other BIOS chips on different cards?",
+            "options": [
+              "It disables them to save power",
+              "It integrates them with the main BIOS for system functionality",
+              "It allows them to operate independently without interference",
+              "It transfers all their functions to the main CPU"
+            ],
+            "answer": "It integrates them with the main BIOS for system functionality"
+          },
+          {
+            "question": "What kind of routines does BIOS provide for operating system interfaces?",
+            "options": [
+              "High-level application routines",
+              "Low-level routines to interact with hardware",
+              "Networking protocols",
+              "Graphics rendering algorithms"
+            ],
+            "answer": "Low-level routines to interact with hardware"
+          },
+          {
+            "question": "What common tasks does BIOS manage related to user input and output?",
+            "options": [
+              "Managing complex software applications",
+              "Managing things like the keyboard, the screen, and the ports",
+              "Designing new hardware components",
+              "Performing data analysis"
+            ],
+            "answer": "Managing things like the keyboard, the screen, and the ports"
+          },
+          {
+            "question": "What is another important management task of the BIOS, as mentioned in the text?",
+            "options": [
+              "Managing a collection of settings for the hard disks, clock, etc.",
+              "Managing internet connections",
+              "Managing user accounts and permissions",
+              "Managing software licenses"
+            ],
+            "answer": "Managing a collection of settings for the hard disks, clock, etc."
+          },
+          {
+            "question": "What is the role of the BIOS in managing peripherals?",
+            "options": [
+              "It designs new peripheral devices",
+              "It installs drivers for all peripherals automatically",
+              "It helps the PC hardware coordinate functions like system power-ups and restarts",
+              "It provides power to external peripherals"
+            ],
+            "answer": "It helps the PC hardware coordinate functions like system power-ups and restarts"
+          },
+          {
+            "question": "Which of these is NOT a function of BIOS mentioned in the text?",
+            "options": [
+              "Managing keyboard and screen",
+              "Performing power-on self-test",
+              "Connecting to external networks",
+              "Loading the operating system"
+            ],
+            "answer": "Connecting to external networks"
+          },
+          {
+            "question": "What is the role of the BIOS in ensuring that system hardware components are working properly?",
+            "options": [
+              "It installs new drivers for them",
+              "It performs the Power-on self-test (POST)",
+              "It directly repairs faulty hardware",
+              "It provides a user interface for hardware diagnostics"
+            ],
+            "answer": "It performs the Power-on self-test (POST)"
+          },
+          {
+            "question": "What kind of routines does the BIOS provide for interfacing with different hardware devices?",
+            "options": [
+              "High-level programming languages",
+              "Low-level routines",
+              "Cloud-based services",
+              "Graphics processing unit (GPU) drivers"
+            ],
+            "answer": "Low-level routines"
+          },
+          {
+            "question": "What does BIOS do immediately after the computer is turned on?",
+            "options": [
+              "Launches the web browser",
+              "Starts playing music",
+              "Initiates the POST (Power-on self-test)",
+              "Downloads updates"
+            ],
+            "answer": "Initiates the POST (Power-on self-test)"
+          },
+          {
+            "question": "Which of the following is an example of a low-level routine provided by BIOS?",
+            "options": [
+              "Printing a document",
+              "Reading input from the keyboard",
+              "Playing a video game",
+              "Sending an email"
+            ],
+            "answer": "Reading input from the keyboard"
+          },
+          {
+            "question": "What is one of the essential checks performed by BIOS during POST?",
+            "options": [
+              "Checking internet speed",
+              "Verifying hard drive integrity",
+              "Testing the CPU and memory",
+              "Scanning for viruses"
+            ],
+            "answer": "Testing the CPU and memory"
+          }
+        ]
+      },
+         {
+        "submodule_title": "BIOS Setup and Configuration",
+        "questions": [
+          {
+            "question": "What is the purpose of the CMOS Setup program?",
+            "options": [
+              "To install new software",
+              "To configure system settings",
+              "To clean the computer's memory",
+              "To run antivirus scans"
+            ],
+            "answer": "To configure system settings"
+          },
+          {
+            "question": "How do you typically enter the CMOS Setup program?",
+            "options": [
+              "By clicking an icon on the desktop",
+              "By pressing 'Ctrl+Alt+Del'",
+              "By pressing a specific key during startup (e.g., Esc, Del, F1, F2)",
+              "By turning the computer off and on rapidly"
+            ],
+            "answer": "By pressing a specific key during startup (e.g., Esc, Del, F1, F2)"
+          },
+          {
+            "question": "What is one common option found in the BIOS setup program related to time?",
+            "options": [
+              "Set screen resolution",
+              "Set system time and date",
+              "Adjust speaker volume",
+              "Change keyboard layout"
+            ],
+            "answer": "Set system time and date"
+          },
+          {
+            "question": "What does the 'Boot Sequence' option in BIOS allow you to do?",
+            "options": [
+              "Change the order of program execution",
+              "Determine which drive the BIOS will try to load the operating system from",
+              "Adjust the CPU clock speed",
+              "Enable or disable network connectivity"
+            ],
+            "answer": "Determine which drive the BIOS will try to load the operating system from"
+          },
+          {
+            "question": "What is the purpose of 'Plug and Play' in BIOS?",
+            "options": [
+              "To automatically play multimedia files",
+              "To automatically detect and configure devices",
+              "To connect to a printer without drivers",
+              "To manage power settings for USB devices"
+            ],
+            "answer": "To automatically detect and configure devices"
+          },
+          {
+            "question": "What does 'Keyboard/Mouse - Enable Num Lock, -Enable the Keyboard, -'Auto-Detect Mouse'' refer to in BIOS options?",
+            "options": [
+              "Physical connections for these devices",
+              "Setting up a new keyboard and mouse",
+              "Configuration options for keyboard and mouse behavior",
+              "Troubleshooting steps for input devices"
+            ],
+            "answer": "Configuration options for keyboard and mouse behavior"
+          },
+          {
+            "question": "What is a typical BIOS option related to storage drives?",
+            "options": [
+              "Drive Fragmentation",
+              "Configure hard drives, CD-ROM and floppy drives",
+              "Format a drive",
+              "Scan for viruses"
+            ],
+            "answer": "Configure hard drives, CD-ROM and floppy drives"
+          },
+          {
+            "question": "What does the 'Memory - Direct the BIOS to shadow to a specific memory address' option imply?",
+            "options": [
+              "Checking the health of RAM modules",
+              "Allocating memory for specific hardware functions",
+              "Installing new RAM",
+              "Running memory diagnostic tests"
+            ],
+            "answer": "Allocating memory for specific hardware functions"
+          },
+          {
+            "question": "What is the purpose of the 'Security - Set a password for accessing the computer' BIOS option?",
+            "options": [
+              "To encrypt files on the hard drive",
+              "To set a password to enter the BIOS setup or boot the computer",
+              "To protect against malware",
+              "To secure Wi-Fi connections"
+            ],
+            "answer": "To set a password to enter the BIOS setup or boot the computer"
+          },
+          {
+            "question": "What does 'Power Management - Select whether to use power management' control?",
+            "options": [
+              "The brightness of the screen",
+              "How the computer handles power states like 'standby' and 'suspend'",
+              "The charging of the battery",
+              "The power output of USB ports"
+            ],
+            "answer": "How the computer handles power states like 'standby' and 'suspend'"
+          },
+          {
+            "question": "What does 'Exit - Save your changes, discard your changes or restore default settings' refer to?",
+            "options": [
+              "Closing a program",
+              "Concluding the BIOS setup process",
+              "Shutting down the operating system",
+              "Ejecting a disk"
+            ],
+            "answer": "Concluding the BIOS setup process"
+          },
+          {
+            "question": "Which key combination is most commonly used to enter BIOS setup on many systems?",
+            "options": [
+              "Ctrl + A",
+              "Alt + F4",
+              "Del or F2",
+              "Shift + Esc"
+            ],
+            "answer": "Del or F2"
+          },
+          {
+            "question": "What does 'shadowing' memory in BIOS settings refer to?",
+            "options": [
+              "Creating a backup of the memory",
+              "Allocating a specific memory address for BIOS operations",
+              "Disabling certain memory modules",
+              "Monitoring memory usage"
+            ],
+            "answer": "Allocating a specific memory address for BIOS operations"
+          },
+          {
+            "question": "If you want to change the order in which your computer boots from different drives (e.g., CD-ROM before hard drive), which BIOS option would you use?",
+            "options": [
+              "Power Management",
+              "Security",
+              "Boot Sequence",
+              "Plug and Play"
+            ],
+            "answer": "Boot Sequence"
+          },
+          {
+            "question": "What is the purpose of the 'restore default settings' option in BIOS?",
+            "options": [
+              "To restore deleted files",
+              "To factory reset the computer's software",
+              "To revert all BIOS configurations to their original state",
+              "To reinstall the operating system"
+            ],
+            "answer": "To revert all BIOS configurations to their original state"
+          },
+          {
+            "question": "What is the main benefit of BIOS managing settings for hard disks, clock, etc.?",
+            "options": [
+              "It makes the computer run faster",
+              "It allows for system customization before the OS loads",
+              "It provides extra storage space",
+              "It enhances internet security"
+            ],
+            "answer": "It allows for system customization before the OS loads"
+          },
+          {
+            "question": "What is the main function of the BIOS boot order settings?",
+            "options": [
+              "To prioritize internet connection",
+              "To determine the sequence of devices from which to load an OS",
+              "To adjust screen resolution",
+              "To manage power consumption"
+            ],
+            "answer": "To determine the sequence of devices from which to load an OS"
+          },
+          {
+            "question": "What does Fig. 2 likely depict?",
+            "options": [
+              "A typical desktop environment",
+              "A web browser interface",
+              "A typical BIOS setup screen",
+              "A hard drive's file structure"
+            ],
+            "answer": "A typical BIOS setup screen"
+          },
+          {
+            "question": "Where should you change the primary boot device settings?",
+            "options": [
+              "In the operating system's settings",
+              "In the BIOS setup",
+              "Through a command prompt",
+              "From the desktop"
+            ],
+            "answer": "In the BIOS setup"
+          },
+          {
+            "question": "What is the final step after saving the BIOS settings and exiting?",
+            "options": [
+              "Shut down the computer",
+              "Restart the computer",
+              "Disconnect all peripherals",
+              "Install new drivers"
+            ],
+            "answer": "Restart the computer"
+          }
+        ]
+      },
+         {
+        "submodule_title": "CMOS and BIOS Settings",
+        "questions": [
+          {
+            "question": "What does CMOS stand for in relation to the BIOS?",
+            "options": [
+              "Central Memory Operating System",
+              "Complementary Metal Oxide Semiconductor",
+              "Computer Mainframe Operating Software",
+              "Common Memory Output System"
+            ],
+            "answer": "Complementary Metal Oxide Semiconductor"
+          },
+          {
+            "question": "What information does the CMOS chip store?",
+            "options": [
+              "User documents",
+              "Application programs",
+              "System configuration information",
+              "Internet Browse history"
+            ],
+            "answer": "System configuration information"
+          },
+          {
+            "question": "How is the CMOS chip powered?",
+            "options": [
+              "Directly from the power supply",
+              "By the CPU",
+              "By a small lithium battery",
+              "Through the hard drive"
+            ],
+            "answer": "By a small lithium battery"
+          },
+          {
+            "question": "What is the name of the chip that stores BIOS settings?",
+            "options": [
+              "CPU",
+              "RAM",
+              "CMOS",
+              "GPU"
+            ],
+            "answer": "CMOS"
+          },
+          {
+            "question": "Which component is responsible for providing setup information to the BIOS?",
+            "options": [
+              "The CPU",
+              "The RAM",
+              "The CMOS chip",
+              "The Graphics Card"
+            ],
+            "answer": "The CMOS chip"
+          },
+          {
+            "question": "If you change a setting in the BIOS Setup, where is that change stored?",
+            "options": [
+              "In the RAM, temporarily",
+              "On the hard drive, permanently",
+              "In the CMOS chip, powered by a battery",
+              "On the CPU's internal cache"
+            ],
+            "answer": "In the CMOS chip, powered by a battery"
+          },
+          {
+            "question": "What happens if the CMOS battery runs out of power?",
+            "options": [
+              "The computer will not turn on",
+              "The operating system will crash",
+              "The BIOS settings will revert to default",
+              "The hard drive will be erased"
+            ],
+            "answer": "The BIOS settings will revert to default"
+          },
+          {
+            "question": "If your computer's date and time are constantly resetting, what is the most likely cause?",
+            "options": [
+              "A software bug",
+              "A failing hard drive",
+              "A dead CMOS battery",
+              "An outdated operating system"
+            ],
+            "answer": "A dead CMOS battery"
+          },
+          {
+            "question": "What technology does BIOS use to save changes made to the computer's settings?",
+            "options": [
+              "RAM",
+              "CMOS",
+              "Hard Drive",
+              "CPU"
+            ],
+            "answer": "CMOS"
+          },
+          {
+            "question": "Which type of battery is typically used to maintain CMOS settings?",
+            "options": [
+              "AA battery",
+              "Lithium or Ni-Cad battery",
+              "Alkaline battery",
+              "Lead-acid battery"
+            ],
+            "answer": "Lithium or Ni-Cad battery"
+          },
+          {
+            "question": "What does BIOS use CMOS memory to save?",
+            "options": [
+              "User documents",
+              "Computer's settings",
+              "Installed programs",
+              "Internet Browse history"
+            ],
+            "answer": "Computer's settings"
+          }
+        ]
+      },
+         {
+        "submodule_title": "BIOS Storage and Firmware",
+        "questions": [
+          {
+            "question": "Where is the BIOS software typically stored?",
+            "options": [
+              "On the hard drive",
+              "On the RAM",
+              "On a flash memory chip on the motherboard",
+              "On the CPU"
+            ],
+            "answer": "On a flash memory chip on the motherboard"
+          },
+          {
+            "question": "What is a firmware in the context of BIOS?",
+            "options": [
+              "A type of hardware component",
+              "Software permanently recorded on a chip",
+              "A temporary storage area",
+              "An external peripheral device"
+            ],
+            "answer": "Software permanently recorded on a chip"
+          },
+          {
+            "question": "What does the image (Fig. 1) show?",
+            "options": [
+              "A CPU",
+              "A RAM module",
+              "A BIOS chip on a circuit board",
+              "A hard drive"
+            ],
+            "answer": "A BIOS chip on a circuit board"
+          },
+          {
+            "question": "What type of chip is the BIOS typically stored on, as indicated in the text?",
+            "options": [
+              "SRAM chip",
+              "DRAM chip",
+              "Flash memory chip",
+              "EEPROM chip"
+            ],
+            "answer": "Flash memory chip"
+          },
+          {
+            "question": "What type of memory is used for the BIOS chip?",
+            "options": [
+              "SRAM",
+              "DRAM",
+              "Flash memory",
+              "ROM (Read-Only Memory)"
+            ],
+            "answer": "Flash memory"
+          },
+          {
+            "question": "What is the significance of BIOS being 'firmware'?",
+            "options": [
+              "It can be easily updated by the user daily",
+              "It's a combination of hardware and software, permanently stored",
+              "It requires a constant internet connection to function",
+              "It is only used in mobile devices"
+            ],
+            "answer": "It's a combination of hardware and software, permanently stored"
+          },
+          {
+            "question": "What is the main advantage of BIOS being stored on a flash memory chip?",
+            "options": [
+              "It makes it faster to access user files",
+              "It allows the BIOS to be updated (flashed)",
+              "It provides more storage for the operating system",
+              "It reduces power consumption significantly"
+            ],
+            "answer": "It allows the BIOS to be updated (flashed)"
+          },
+          {
+            "question": "What is the primary function of the chip shown in Fig. 1?",
+            "options": [
+              "To store temporary data",
+              "To perform calculations for the CPU",
+              "To contain the BIOS firmware",
+              "To provide network connectivity"
+            ],
+            "answer": "To contain the BIOS firmware"
+          }
+        ]
+      },
+        {
+        "submodule_title": "BIOS Fundamentals",
+        "questions": [
+          {
+            "question": "What is BIOS often referred to as?",
+            "options": [
+              "The Advanced Power System",
+              "The Basic Input/Output System",
+              "The Central Processing Unit",
+              "The Hard Disk Drive"
+            ],
+            "answer": "The Basic Input/Output System"
+          },
+          {
+            "question": "What is the fundamental purpose of the BIOS?",
+            "options": [
+              "To run application software",
+              "To display graphics on the screen",
+              "To initiate and test system hardware and load an operating system",
+              "To store user data"
+            ],
+            "answer": "To initiate and test system hardware and load an operating system"
+          },
+          {
+            "question": "What is one of the primary responsibilities of the BIOS software?",
+            "options": [
+              "Running web browsers",
+              "Loading the operating system",
+              "Playing video games",
+              "Editing documents"
+            ],
+            "answer": "Loading the operating system"
+          },
+          {
+            "question": "What does BIOS stand for?",
+            "options": [
+              "Basic Internal Operating System",
+              "Binary Input Output Software",
+              "Basic Input/Output System",
+              "Byte Information Operating Standard"
+            ],
+            "answer": "Basic Input/Output System"
+          },
+          {
+            "question": "Why is the BIOS considered fundamental to a computer's operation?",
+            "options": [
+              "Because it runs all user applications",
+              "Because it performs essential startup functions before the OS loads",
+              "Because it stores all user data permanently",
+              "Because it connects to the internet"
+            ],
+            "answer": "Because it performs essential startup functions before the OS loads"
+          },
+          {
+            "question": "What does the text imply about the relationship between BIOS and the operating system?",
+            "options": [
+              "They are independent and do not interact",
+              "BIOS loads the operating system to start the computer",
+              "The operating system manages the BIOS",
+              "They are the same thing"
+            ],
+            "answer": "BIOS loads the operating system to start the computer"
+          },
+          {
+            "question": "Why is it important for BIOS to properly load the operating system?",
+            "options": [
+              "Because the OS stores the BIOS",
+              "Because without the OS, the computer cannot perform complex tasks",
+              "Because the BIOS needs the OS for its own functionality",
+              "Because the OS controls the power supply"
+            ],
+            "answer": "Because without the OS, the computer cannot perform complex tasks"
+          },
+          {
+            "question": "What does AMI BIOS stand for?",
+            "options": [
+              "American Micro-chip Industries",
+              "Advanced Motherboard Interface",
+              "American Megatrends Inc.",
+              "Analog Memory Integration"
+            ],
+            "answer": "American Megatrends Inc."
+          },
+          {
+            "question": "Which two specific BIOS manufacturers are mentioned in the text?",
+            "options": [
+              "Intel and AMD",
+              "HP and Dell",
+              "American Megatrends Inc. (AMI) and Phoenix Technologies",
+              "Microsoft and Apple"
+            ],
+            "answer": "American Megatrends Inc. (AMI) and Phoenix Technologies"
+          }
+        ]
+      },
+            {
+        "submodule_title": "Disk Partitioning and Formatting",
+        "questions": [
+          {
+            "question": "What is the purpose of multi-boot setups?",
+            "options": [
+              "To improve internet speed",
+              "To allow more than one operating system on a single computer",
+              "To run multiple applications simultaneously",
+              "To backup data automatically"
+            ],
+            "answer": "To allow more than one operating system on a single computer"
+          },
+          {
+            "question": "Which operating systems are mentioned as examples for multi-boot setups?",
+            "options": [
+              "Android and iOS",
+              "Linux and Microsoft Windows",
+              "macOS and Chrome OS",
+              "Unix and DOS"
+            ],
+            "answer": "Linux and Microsoft Windows"
+          },
+          {
+            "question": "What is a benefit of having different operating systems on different partitions?",
+            "options": [
+              "It makes the computer run faster",
+              "It allows for optimal use of hard drive space",
+              "It can prevent a corrupted file system in one OS from affecting another",
+              "It improves graphics performance"
+            ],
+            "answer": "It can prevent a corrupted file system in one OS from affecting another"
+          },
+          {
+            "question": "What is a potential risk if one partition's file system becomes corrupted in a multi-boot setup?",
+            "options": [
+              "All data on the hard drive will be lost",
+              "Other operating systems may be unaffected",
+              "The computer will automatically repair the corruption",
+              "The BIOS settings will reset"
+            ],
+            "answer": "Other operating systems may be unaffected"
+          },
+          {
+            "question": "How does partitioning affect overall computer performance on systems with smaller file systems?",
+            "options": [
+              "It decreases performance",
+              "It has no effect",
+              "It improves performance",
+              "It makes file access slower"
+            ],
+            "answer": "It improves performance"
+          },
+          {
+            "question": "What is a benefit of partitioning for significantly less than the full size available?",
+            "options": [
+              "It increases the risk of data loss",
+              "It reduces the time for diagnostic tools like scandisk to run",
+              "It prevents the installation of new software",
+              "It makes the hard drive run hotter"
+            ],
+            "answer": "It reduces the time for diagnostic tools like scandisk to run"
+          },
+          {
+            "question": "What is disk formatting?",
+            "options": [
+              "The process of cleaning the computer screen",
+              "The process of preparing a data storage device for initial use",
+              "The process of compressing files",
+              "The process of defragmenting a hard drive"
+            ],
+            "answer": "The process of preparing a data storage device for initial use"
+          },
+          {
+            "question": "Which devices are mentioned as examples of data storage devices that need formatting?",
+            "options": [
+              "Printers and scanners",
+              "Hard disk drive, Solid-state drive, or USB flash drive",
+              "Monitors and keyboards",
+              "CPU and RAM"
+            ],
+            "answer": "Hard disk drive, Solid-state drive, or USB flash drive"
+          },
+          {
+            "question": "What is the primary action of formatting a volume?",
+            "options": [
+              "It erases all data on the volume",
+              "It optimizes the volume for faster access",
+              "It installs an operating system on the volume",
+              "It makes the volume read-only"
+            ],
+            "answer": "It erases all data on the volume"
+          },
+          {
+            "question": "What is 'low-level formatting'?",
+            "options": [
+              "A quick format that clears user data",
+              "The process of creating partitions on a drive",
+              "A process that marks the start of the tracks with markers indicating the start of a recording block",
+              "A method of repairing bad sectors on a hard drive"
+            ],
+            "answer": "A process that marks the start of the tracks with markers indicating the start of a recording block"
+          },
+          {
+            "question": "What information does low-level formatting provide?",
+            "options": [
+              "User password data",
+              "Information about block checks done for future use by the disk controller",
+              "Internet Browse history",
+              "Software installation logs"
+            ],
+            "answer": "Information about block checks done for future use by the disk controller"
+          },
+          {
+            "question": "Why is low-level formatting considered the permanent foundation for the disk?",
+            "options": [
+              "Because it cannot be undone",
+              "Because it prepares the physical structure of the disk",
+              "Because it installs the bootloader",
+              "Because it encrypts the disk"
+            ],
+            "answer": "Because it prepares the physical structure of the disk"
+          },
+          {
+            "question": "What is 'high-level formatting'?",
+            "options": [
+              "A process that erases the hard drive completely",
+              "A process that creates the file system format within a disk partition or a logical volume",
+              "A method for physically preparing the disk platters",
+              "A procedure to recover lost files"
+            ],
+            "answer": "A process that creates the file system format within a disk partition or a logical volume"
+          },
+          {
+            "question": "What does high-level formatting involve in terms of disk structures?",
+            "options": [
+              "Physically writing data to sectors",
+              "Creating the logical drive or partition constructs",
+              "Repairing damaged tracks",
+              "Testing the disk's rotational speed"
+            ],
+            "answer": "Creating the logical drive or partition constructs"
+          },
+          {
+            "question": "When does high-level formatting typically occur?",
+            "options": [
+              "Every time the computer starts",
+              "During operating system installation or when adding a new disk",
+              "When running antivirus software",
+              "When connecting to the internet"
+            ],
+            "answer": "During operating system installation or when adding a new disk"
+          },
+          {
+            "question": "What does 'Partitioning' also refer to in the context of hard drives?",
+            "options": [
+              "Deleting files",
+              "A volume",
+              "Defragmenting",
+              "Encrypting"
+            ],
+            "answer": "A volume"
+          },
+          {
+            "question": "What is a 'partition' on a hard disk?",
+            "options": [
+              "A physical component of the disk",
+              "A logical division of the disk that can be formatted",
+              "A temporary storage area for files",
+              "A backup copy of the operating system"
+            ],
+            "answer": "A logical division of the disk that can be formatted"
+          },
+          {
+            "question": "How are partitions identified in Windows?",
+            "options": [
+              "By numbers",
+              "By letters of the alphabet (e.g., C, D, E)",
+              "By colors",
+              "By special symbols"
+            ],
+            "answer": "By letters of the alphabet (e.g., C, D, E)"
+          },
+          {
+            "question": "What are the first three partitions on a hard disk typically called?",
+            "options": [
+              "Extended partitions",
+              "Primary partitions",
+              "Logical partitions",
+              "Secondary partitions"
+            ],
+            "answer": "Primary partitions"
+          },
+          {
+            "question": "How many primary partitions can be created on a hard disk to start an operating system?",
+            "options": [
+              "One",
+              "Two",
+              "Three",
+              "Four"
+            ],
+            "answer": "Three"
+          },
+          {
+            "question": "If you want to create more than three partitions, what must the fourth partition be created as?",
+            "options": [
+              "A primary partition",
+              "A logical partition",
+              "An extended partition",
+              "A hidden partition"
+            ],
+            "answer": "An extended partition"
+          },
+          {
+            "question": "What is an 'extended partition'?",
+            "options": [
+              "A partition that can directly hold an operating system",
+              "A container that can hold one or more logical drives",
+              "A partition used only for backups",
+              "A read-only partition"
+            ],
+            "answer": "A container that can hold one or more logical drives"
+          },
+          {
+            "question": "Can logical drives contained within an extended partition be used to start an operating system?",
+            "options": [
+              "Yes, always",
+              "Only if they are formatted as primary",
+              "No, they cannot",
+              "Only if they are encrypted"
+            ],
+            "answer": "No, they cannot"
+          },
+          {
+            "question": "What is a primary advantage of partitioning a hard disk into several smaller partitions?",
+            "options": [
+              "It reduces the total storage capacity",
+              "It makes the computer less secure",
+              "It is more useful for organizing data on your hard disk",
+              "It slows down file access"
+            ],
+            "answer": "It is more useful for organizing data on your hard disk"
+          },
+          {
+            "question": "What is one advantage of partitioning related to the operating system?",
+            "options": [
+              "Separation of the operating system (OS) and program files from user files",
+              "Faster OS boot time",
+              "Automatic OS updates",
+              "Improved graphics performance"
+            ],
+            "answer": "Separation of the operating system (OS) and program files from user files"
+          },
+          {
+            "question": "What is the benefit of having a separate area for operating system virtual memory swapping/paging?",
+            "options": [
+              "It speeds up internet connection",
+              "It can improve system stability and performance",
+              "It allows for larger file transfers",
+              "It reduces power consumption"
+            ],
+            "answer": "It can improve system stability and performance"
+          },
+          {
+            "question": "How does partitioning help in managing frequently used programs and data?",
+            "options": [
+              "By hiding them from view",
+              "By keeping them near each other for quicker access",
+              "By automatically deleting them after use",
+              "By encrypting them for security"
+            ],
+            "answer": "By keeping them near each other for quicker access"
+          },
+          {
+            "question": "What happens if a hard disk is not partitioned and formatted before data is stored on it?",
+            "options": [
+              "It will still function normally",
+              "Data will be stored randomly",
+              "Data cannot be stored on it",
+              "It will automatically partition itself"
+            ],
+            "answer": "Data cannot be stored on it"
+          },
+          {
+            "question": "What is the purpose of low-level formatting's information about block checks?",
+            "options": [
+              "To optimize data compression",
+              "To detect and correct errors in data storage",
+              "To prevent unauthorized access",
+              "To speed up hard drive rotation"
+            ],
+            "answer": "To detect and correct errors in data storage"
+          },
+          {
+            "question": "Which type of drive needs to be formatted before data can be stored on it?",
+            "options": [
+              "RAM",
+              "Hard disk drive",
+              "CPU cache",
+              "GPU memory"
+            ],
+            "answer": "Hard disk drive"
+          },
+          {
+            "question": "What is the general term for a partition, as described in the text?",
+            "options": [
+              "A sector",
+              "A track",
+              "A volume",
+              "A cluster"
+            ],
+            "answer": "A volume"
+          },
+          {
+            "question": "What are the first primary partitions usually used for?",
+            "options": [
+              "Storing user files only",
+              "Starting an operating system",
+              "Acting as backup drives",
+              "Holding logical drives"
+            ],
+            "answer": "Starting an operating system"
+          },
+          {
+            "question": "Which type of partition can contain multiple logical drives?",
+            "options": [
+              "Primary partition",
+              "System partition",
+              "Extended partition",
+              "Boot partition"
+            ],
+            "answer": "Extended partition"
+          },
+          {
+            "question": "What is a characteristic of a hard disk partition?",
+            "options": [
+              "It must be the same size as the entire disk",
+              "It can be formatted with a file system and identified with a letter",
+              "It is always a physical separate drive",
+              "It cannot store operating systems"
+            ],
+            "answer": "It can be formatted with a file system and identified with a letter"
+          },
+          {
+            "question": "What is the primary reason to format a hard drive?",
+            "options": [
+              "To increase its physical size",
+              "To install Windows fresh, remove viruses, or prepare for selling",
+              "To change its color",
+              "To make it waterproof"
+            ],
+            "answer": "To install Windows fresh, remove viruses, or prepare for selling"
+          },
+          {
+            "question": "The process of formatting a hard drive can differ based on what factors?",
+            "options": [
+              "The price of the hard drive and its brand",
+              "Whether it's an only hard drive or a spare PC, and whether there is an OS",
+              "The weather conditions and internet speed",
+              "The type of monitor connected to the PC"
+            ],
+            "answer": "Whether it's an only hard drive or a spare PC, and whether there is an OS"
+          },
+          {
+            "question": "When can a hard drive not be formatted?",
+            "options": [
+              "When the hard drive is running the Windows OS",
+              "When the hard drive is empty",
+              "When the hard drive is connected via USB",
+              "When the hard drive is brand new"
+            ],
+            "answer": "When the hard drive is running the Windows OS"
+          },
+          {
+            "question": "What is needed to format the PC's hard drive if Windows is running on it?",
+            "options": [
+              "An internet connection",
+              "A Windows installation disc, USB flash drive, or another bootable disc",
+              "A printer",
+              "A keyboard and mouse"
+            ],
+            "answer": "A Windows installation disc, USB flash drive, or another bootable disc"
+          },
+          {
+            "question": "What is 'Quick Format' in the context of hard drive formatting?",
+            "options": [
+              "A format that thoroughly erases all data",
+              "A format that leaves all data in place but marks the drive as empty",
+              "A format that can only be done on new hard drives",
+              "A format that only affects system files"
+            ],
+            "answer": "A format that leaves all data in place but marks the drive as empty"
+          },
+          {
+            "question": "What is recommended before formatting a drive, especially if it's being given to someone else?",
+            "options": [
+              "Connecting it to the internet",
+              "Manually backing up photos, videos, music, and other documents",
+              "Installing a new operating system",
+              "Running a diagnostic tool"
+            ],
+            "answer": "Manually backing up photos, videos, music, and other documents"
+          },
+          {
+            "question": "Can deleted files be recovered after formatting?",
+            "options": [
+              "Never, once formatted, files are gone forever",
+              "Only if special recovery software is used before any new data is written",
+              "Always, they are just hidden",
+              "Only if the hard drive is physically damaged"
+            ],
+            "answer": "Only if special recovery software is used before any new data is written"
+          },
+          {
+            "question": "What does 'hard drive partitions' refer to?",
+            "options": [
+              "Physical segments of the hard drive",
+              "Divisions of a hard drive into smaller sections",
+              "Types of hard drive connections",
+              "The process of cleaning a hard drive"
+            ],
+            "answer": "Divisions of a hard drive into smaller sections"
+          },
+          {
+            "question": "What is the simplest way to partition a hard drive while leaving the others untouched?",
+            "options": [
+              "To format the entire hard drive",
+              "To format one partition",
+              "To delete all partitions",
+              "To encrypt the entire hard drive"
+            ],
+            "answer": "To format one partition"
+          },
+          {
+            "question": "If you need to format the entire hard drive and use the entire capacity in one block, what action should you take?",
+            "options": [
+              "Create multiple partitions",
+              "Delete the partition information",
+              "Encrypt the hard drive",
+              "Install a new operating system directly"
+            ],
+            "answer": "Delete the partition information"
+          },
+          {
+            "question": "What is the benefit of understanding hard drive partitions?",
+            "options": [
+              "It helps in physically disassembling the drive",
+              "It provides insights into data organization and management",
+              "It speeds up internet Browse",
+              "It improves battery life"
+            ],
+            "answer": "It provides insights into data organization and management"
+          },
+          {
+            "question": "What is a characteristic of a hard disk drive (HDD)?",
+            "options": [
+              "It stores data on flash memory chips",
+              "It uses spinning platters to store data",
+              "It is only used for temporary storage",
+              "It has no moving parts"
+            ],
+            "answer": "It uses spinning platters to store data"
+          },
+          {
+            "question": "Why would someone choose to 'delete the partition information' on a hard drive?",
+            "options": [
+              "To create more partitions",
+              "To make the entire drive available as one single block for storage or OS installation",
+              "To speed up data access within a single partition",
+              "To add security to the drive"
+            ],
+            "answer": "To make the entire drive available as one single block for storage or OS installation"
+          },
+          {
+            "question": "What kind of data should be backed up before formatting?",
+            "options": [
+              "Only system files",
+              "Photos, videos, music, and other documents",
+              "Only program files",
+              "Only temporary internet files"
+            ],
+            "answer": "Photos, videos, music, and other documents"
+          },
+          {
+            "question": "What does the text suggest about the recovery of deleted files after formatting?",
+            "options": [
+              "It's always impossible",
+              "It's always possible regardless of new data",
+              "It's possible before new data is written over them",
+              "It depends on the type of file"
+            ],
+            "answer": "It's possible before new data is written over them"
+          },
+          {
+            "question": "What is the primary action of a formatting process (as described in the text)?",
+            "options": [
+              "Copying files",
+              "Preparing a data storage device for initial use",
+              "Defragmenting the disk",
+              "Running antivirus scans"
+            ],
+            "answer": "Preparing a data storage device for initial use"
+          },
+          {
+            "question": "What is the general advice for old hard drives being disposed of or given away?",
+            "options": [
+              "Perform a quick format",
+              "Just delete individual files",
+              "Ensure all data is permanently erased",
+              "Encrypt the entire drive"
+            ],
+            "answer": "Ensure all data is permanently erased"
+          },
+          {
+            "question": "What does a hard drive need to be partitioned into?",
+            "options": [
+              "Sectors",
+              "Clusters",
+              "Smaller sections called partitions",
+              "Tracks"
+            ],
+            "answer": "Smaller sections called partitions"
+          },
+          {
+            "question": "If your hard drive is corrupted by a virus, what is a common solution mentioned?",
+            "options": [
+              "Run antivirus software from the OS",
+              "Replace the hard drive immediately",
+              "Format the hard drive (e.g., install Windows fresh)",
+              "Disconnect it from the computer"
+            ],
+            "answer": "Format the hard drive (e.g., install Windows fresh)"
+          },
+          {
+            "question": "What is the main difference between a 'Quick Format' and a full format for data recovery?",
+            "options": [
+              "Quick format is faster but leaves data recoverable, full format erases data more thoroughly",
+              "Quick format encrypts data, full format does not",
+              "Quick format is only for new drives, full format is for used drives",
+              "Quick format only works on SSDs, full format on HDDs"
+            ],
+            "answer": "Quick format is faster but leaves data recoverable, full format erases data more thoroughly"
+          },
+          {
+            "question": "What is the consequence of a 'Quick Format' regarding data?",
+            "options": [
+              "It permanently deletes all data",
+              "It leaves data recoverable with special software",
+              "It encrypts all existing data",
+              "It moves data to a different location"
+            ],
+            "answer": "It leaves data recoverable with special software"
+          }
+        ]
+      },
+      {
+  "submodule_title": "BIOS Fundamentals",
+  "questions": [
+    {
+      "question": "What is BIOS often referred to as?",
+      "options": [
+        "The Advanced Power System",
+        "The Basic Input/Output System",
+        "The Central Processing Unit",
+        "The Hard Disk Drive"
+      ],
+      "answer": "The Basic Input/Output System"
+    },
+    {
+      "question": "What is the fundamental purpose of the BIOS?",
+      "options": [
+        "To run application software",
+        "To display graphics on the screen",
+        "To initiate and test system hardware and load an operating system",
+        "To store user data"
+      ],
+      "answer": "To initiate and test system hardware and load an operating system"
+    },
+    {
+      "question": "What is one of the primary responsibilities of the BIOS software?",
+      "options": [
+        "Running web browsers",
+        "Loading the operating system",
+        "Playing video games",
+        "Editing documents"
+      ],
+      "answer": "Loading the operating system"
+    },
+    {
+      "question": "What does BIOS stand for?",
+      "options": [
+        "Basic Internal Operating System",
+        "Binary Input Output Software",
+        "Basic Input/Output System",
+        "Byte Information Operating Standard"
+      ],
+      "answer": "Basic Input/Output System"
+    },
+    {
+      "question": "Why is the BIOS considered fundamental to a computer's operation?",
+      "options": [
+        "Because it runs all user applications",
+        "Because it performs essential startup functions before the OS loads",
+        "Because it stores all user data permanently",
+        "Because it connects to the internet"
+      ],
+      "answer": "Because it performs essential startup functions before the OS loads"
+    },
+    {
+      "question": "What does the text imply about the relationship between BIOS and the operating system?",
+      "options": [
+        "They are independent and do not interact",
+        "BIOS loads the operating system to start the computer",
+        "The operating system manages the BIOS",
+        "They are the same thing"
+      ],
+      "answer": "BIOS loads the operating system to start the computer"
+    },
+    {
+      "question": "Why is it important for BIOS to properly load the operating system?",
+      "options": [
+        "Because the OS stores the BIOS",
+        "Because without the OS, the computer cannot perform complex tasks",
+        "Because the BIOS needs the OS for its own functionality",
+        "Because the OS controls the power supply"
+      ],
+      "answer": "Because without the OS, the computer cannot perform complex tasks"
+    }
+  ]
+},
+
+      
+      {
+        "submodule_title": "Windows Installation Process",
+        "questions": [
+          {
+            "question": "What is the first basic step for installing a Windows operating system?",
+            "options": [
+              "Erase the disk",
+              "Install on a brand new disk or computer system",
+              "Install into a new directory for dual-booting",
+              "Configure network settings"
+            ],
+            "answer": "Install on a brand new disk or computer system"
+          },
+          {
+            "question": "What is a general step after installing Windows on a new disk?",
+            "options": [
+              "Erase the disk, format it, and install",
+              "Update graphics drivers",
+              "Install antivirus software",
+              "Connect to Wi-Fi"
+            ],
+            "answer": "Erase the disk, format it, and install"
+          },
+          {
+            "question": "What is an alternative installation method for Windows operating system besides a brand new system?",
+            "options": [
+              "Installing on a different computer",
+              "Installing into a new directory for dual-booting",
+              "Installing via USB only",
+              "Installing from the cloud"
+            ],
+            "answer": "Installing into a new directory for dual-booting"
+          },
+          {
+            "question": "Before installing the OS, what must be ensured regarding the computer's boot order?",
+            "options": [
+              "The hard drive must be the first boot device",
+              "The CD or DVD drive, or USB drive, must be the first boot device",
+              "The network boot option must be enabled",
+              "The floppy drive must be disconnected"
+            ],
+            "answer": "The CD or DVD drive, or USB drive, must be the first boot device"
+          },
+          {
+            "question": "Where are boot order changes made in a computer system?",
+            "options": [
+              "In the operating system's settings",
+              "In the BIOS settings",
+              "On the hard drive's partition table",
+              "Through a command prompt"
+            ],
+            "answer": "In the BIOS settings"
+          },
+          {
+            "question": "How does the Windows DVD installation typically proceed after booting?",
+            "options": [
+              "It requires manual file copying",
+              "It automatically runs the setup program",
+              "It asks for internet connection first",
+              "It performs a full system scan"
+            ],
+            "answer": "It automatically runs the setup program"
+          }
+        ]
+      }
+    ]
+  }
+}

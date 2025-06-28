@@ -1,0 +1,1441 @@
+{
+  "Module-5": {
+    "title": "DOS Commands Line Interface",
+    "submodules": {
+      "dos_hierarchy": {
+        "title": "DOS Hierarchical Directory System",
+        "questions": [{
+            "question": "What is the purpose of the hierarchical directory system in DOS?",
+            "options": [
+              "To store files in a flat structure",
+              "To organize files and directories in a tree-like structure",
+              "To delete files permanently",
+              "To create multiple operating systems"
+            ],
+            "answer": "To organize files and directories in a tree-like structure"
+          },
+          {
+            "question": "In the hierarchical directory system, what is referred to as the root directory?",
+            "options": [
+              "The topmost directory",
+              "A subdirectory",
+              "A file with no extension",
+              "The last directory in the path"
+            ],
+            "answer": "The topmost directory"
+          },
+          {
+            "question": "What does DOS use to create directories and subdirectories?",
+            "options": [
+              "Commands",
+              "Graphics",
+              "Icons",
+              "Shortcuts"
+            ],
+            "answer": "Commands"
+          },
+          {
+            "question": "How can you change the directory in DOS?",
+            "options": [
+              "Using graphical interface",
+              "Using DOS commands",
+              "Using a mouse",
+              "Using a keyboard shortcut"
+            ],
+            "answer": "Using DOS commands"
+          },
+          {
+            "question": "What is the purpose of using DOS commands to access specific files?",
+            "options": [
+              "To delete the files",
+              "To open or manipulate specific files",
+              "To format the disk",
+              "To copy the operating system"
+            ],
+            "answer": "To open or manipulate specific files"
+          },
+          {
+            "question": "In a family tree analogy, who is considered the root?",
+            "options": [
+              "The son",
+              "The father",
+              "The great-great-grandfather",
+              "The sibling"
+            ],
+            "answer": "The great-great-grandfather"
+          },
+          {
+            "question": "What is a subdirectory in the DOS hierarchical system?",
+            "options": [
+              "The main directory",
+              "A directory within another directory",
+              "A file extension",
+              "A command prompt"
+            ],
+            "answer": "A directory within another directory"
+          },
+          {
+            "question": "How are entities arranged in a hierarchical directory system?",
+            "options": [
+              "Randomly",
+              "In a tree-like structure",
+              "In a linear sequence",
+              "In a circular pattern"
+            ],
+            "answer": "In a tree-like structure"
+          },
+          {
+            "question": "What is the relationship between a subdirectory and its parent directory?",
+            "options": [
+              "They are independent",
+              "The subdirectory is contained within the parent directory",
+              "The parent is a file in the subdirectory",
+              "They have no connection"
+            ],
+            "answer": "The subdirectory is contained within the parent directory"
+          },
+          {
+            "question": "What is the base of the DOS tree-structured file system?",
+            "options": [
+              "The root directory",
+              "A subdirectory",
+              "A file",
+              "The command prompt"
+            ],
+            "answer": "The root directory"
+          },
+          {
+            "question": "What is a path in the context of DOS directories?",
+            "options": [
+              "A file extension",
+              "The sequence of directory names leading to a file",
+              "A command to delete files",
+              "A shortcut to the root"
+            ],
+            "answer": "The sequence of directory names leading to a file"
+          },
+          {
+            "question": "Why can DOS handle files with the same name and extension?",
+            "options": [
+              "Because it uses different drives",
+              "Because files reside in different directories",
+              "Because it ignores file names",
+              "Because it renames files automatically"
+            ],
+            "answer": "Because files reside in different directories"
+          },
+          {
+            "question": "What does the term 'hierarchy' imply in DOS?",
+            "options": [
+              "A flat file system",
+              "An organized arrangement of entities",
+              "A random file storage",
+              "A single directory"
+            ],
+            "answer": "An organized arrangement of entities"
+          },
+          {
+            "question": "In the family tree example, who is Govinda's father?",
+            "options": [
+              "Rajappa",
+              "Ramappa",
+              "Venkappa",
+              "None of the above"
+            ],
+            "answer": "Rajappa"
+          },
+          {
+            "question": "What can be arranged by denomination as an example of hierarchy?",
+            "options": [
+              "Files",
+              "Currency",
+              "Pebbles",
+              "Directories"
+            ],
+            "answer": "Currency"
+          },
+          {
+            "question": "What can be arranged by size as an example of hierarchy?",
+            "options": [
+              "Files",
+              "Currency",
+              "Pebbles",
+              "Directories"
+            ],
+            "answer": "Pebbles"
+          },
+          {
+            "question": "How many levels of subdirectories are represented in the given example?",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "answer": "3"
+          },
+          {
+            "question": "What is the importance of the root directory in DOS?",
+            "options": [
+              "It contains only subdirectories",
+              "It can contain user files and subdirectories",
+              "It is the last directory",
+              "It cannot be accessed"
+            ],
+            "answer": "It can contain user files and subdirectories"
+          },
+          {
+            "question": "What is the main advantage of a hierarchical system in DOS?",
+            "options": [
+              "Faster file deletion",
+              "Easier file organization and access",
+              "Smaller file sizes",
+              "Automatic backups"
+            ],
+            "answer": "Easier file organization and access"
+          },
+          {
+            "question": "Which command is used to list directories in DOS?",
+            "options": [
+              "DIR",
+              "CD",
+              "MD",
+              "RD"
+            ],
+            "answer": "DIR"
+          },
+          {
+            "question": "Which command is used to change directories in DOS?",
+            "options": [
+              "DIR",
+              "CD",
+              "MD",
+              "RD"
+            ],
+            "answer": "CD"
+          },
+          {
+            "question": "Which command is used to create a new directory in DOS?",
+            "options": [
+              "DIR",
+              "CD",
+              "MD",
+              "RD"
+            ],
+            "answer": "MD"
+          },
+          {
+            "question": "Which command is used to remove a directory in DOS?",
+            "options": [
+              "DIR",
+              "CD",
+              "MD",
+              "RD"
+            ],
+            "answer": "RD"
+          },
+          {
+            "question": "What is the significance of naming each entity in a hierarchical system?",
+            "options": [
+              "To confuse users",
+              "To establish relationships with other entities",
+              "To hide files",
+              "To increase file size"
+            ],
+            "answer": "To establish relationships with other entities"
+          },
+          {
+            "question": "In the DOS hierarchy, what starts the directory system?",
+            "options": [
+              "A subdirectory",
+              "The root directory",
+              "A file",
+              "A command"
+            ],
+            "answer": "The root directory"
+          },
+          {
+            "question": "What type of structure does the DOS file system follow?",
+            "options": [
+              "Linear",
+              "Circular",
+              "Tree-structured",
+              "Random"
+            ],
+            "answer": "Tree-structured"
+          },
+          {
+            "question": "Who is considered the head or root of the family tree for Govinda?",
+            "options": [
+              "Govinda",
+              "Rajappa",
+              "Ramappa",
+              "Venkappa"
+            ],
+            "answer": "Venkappa"
+          } ]
+      },
+
+       "dos_dir_type_command": {
+        "title": "DIR & TYPE Command in DOS",
+        "questions": [
+          {
+            "question": "What is the extension of the file 'TouristData.txt'?",
+            "options": ["TouristData", ".txt", "Accounts", "Admin"],
+            "answer": ".txt"
+          },
+          {
+            "question": "What command can be used to verify the creation of a directory?",
+            "options": ["MKDIR", "CD", "DIR", "CHDIR"],
+            "answer": "DIR"
+          },
+          {
+            "question": "What does the 'path' in 'C:path\\dirname' represent?",
+            "options": [
+              "The file name",
+              "The sequence of directories leading to the subdirectory",
+              "The drive letter",
+              "The switch"
+            ],
+            "answer": "The sequence of directories leading to the subdirectory"
+          },
+          {
+            "question": "What is the default behavior of the CD command without a path?",
+            "options": [
+              "It creates a new directory",
+              "It shows the current directory path",
+              "It deletes the current directory",
+              "It lists all files"
+            ],
+            "answer": "It shows the current directory path"
+          },
+          {
+            "question": "What drive is represented by 'A:' in DOS?",
+            "options": [
+              "Floppy disk drive",
+              "Hard disk drive",
+              "CD-ROM drive",
+              "Network drive"
+            ],
+            "answer": "Floppy disk drive"
+          },
+          {
+            "question": "What is the result of typing 'CD \\' in DOS?",
+            "options": [
+              "Changes to the root directory of the current drive",
+              "Creates a new directory",
+              "Deletes the current directory",
+              "Lists all files"
+            ],
+            "answer": "Changes to the root directory of the current drive"
+          },
+          {
+            "question": "What is the primary function of the DIR command in DOS?",
+            "options": [
+              "To delete files",
+              "To display a list of files and subdirectories",
+              "To create directories",
+              "To format the disk"
+            ],
+            "answer": "To display a list of files and subdirectories"
+          },
+          {
+            "question": "What does the 'C:' in the DIR command syntax indicate?",
+            "options": [
+              "The current directory",
+              "The disk drive holding the directory",
+              "A file name",
+              "A switch"
+            ],
+            "answer": "The disk drive holding the directory"
+          },
+          {
+            "question": "What happens if no path is specified in the DIR command?",
+            "options": [
+              "It lists files in the current directory",
+              "It fails to execute",
+              "It lists all drives",
+              "It deletes the current directory"
+            ],
+            "answer": "It lists files in the current directory"
+          },
+          {
+            "question": "What does the 'path' parameter in the DIR command specify?",
+            "options": [
+              "The file name",
+              "The directory and/or files to list",
+              "The drive letter",
+              "The output format"
+            ],
+            "answer": "The directory and/or files to list"
+          },
+          {
+            "question": "What will be listed if the file name is not specified in the DIR command?",
+            "options": [
+              "Only subdirectories",
+              "All the files in the directory",
+              "Only hidden files",
+              "No files"
+            ],
+            "answer": "All the files in the directory"
+          },
+          {
+            "question": "What is the purpose of the /P switch in the DIR command?",
+            "options": [
+              "Pauses after each screenful of information",
+              "Displays wide format",
+              "Lists only directories",
+              "Ignores errors"
+            ],
+            "answer": "Pauses after each screenful of information"
+          },
+          {
+            "question": "What does pressing any key do when the /P switch is used with DIR?",
+            "options": [
+              "Deletes the file",
+              "Continues to the next screen",
+              "Aborts the command",
+              "Formats the disk"
+            ],
+            "answer": "Continues to the next screen"
+          },
+          {
+            "question": "What is the effect of the /W switch in the DIR command?",
+            "options": [
+              "Displays wide format of 80-column",
+              "Pauses the screen",
+              "Lists only read-only files",
+              "Ignores the date"
+            ],
+            "answer": "Displays wide format of 80-column"
+          },
+          {
+            "question": "What information is not displayed when the /W switch is used?",
+            "options": [
+              "File names",
+              "Date and time",
+              "File size",
+              "Directory names"
+            ],
+            "answer": "Date and time"
+          },
+          {
+            "question": "What does the /A switch in the DIR command do?",
+            "options": [
+              "Displays files with specified attributes",
+              "Changes the drive",
+              "Creates a directory",
+              "Deletes files"
+            ],
+            "answer": "Displays files with specified attributes"
+          },
+          {
+            "question": "Which attribute is represented by 'D' in the /A switch?",
+            "options": [
+              "Read-only files",
+              "Directories",
+              "System files",
+              "Hidden files"
+            ],
+            "answer": "Directories"
+          },
+          {
+            "question": "Which attribute is represented by 'R' in the /A switch?",
+            "options": [
+              "Directories",
+              "Read-only files",
+              "System files",
+              "Hidden files"
+            ],
+            "answer": "Read-only files"
+          },
+          {
+            "question": "What does the 'A' option under sorting mean in the DIR command?",
+            "options": [
+              "By archive",
+              "By size",
+              "By extension",
+              "By date"
+            ],
+            "answer": "By archive"
+          },
+          {
+            "question": "What does the 'N' option under sorting mean in the DIR command?",
+            "options": [
+              "By name (alphabetic)",
+              "By size",
+              "By extension",
+              "By date"
+            ],
+            "answer": "By name (alphabetic)"
+          },
+          {
+            "question": "What does the 'S' option under sorting mean in the DIR command?",
+            "options": [
+              "By size (smallest first)",
+              "By name",
+              "By extension",
+              "By date"
+            ],
+            "answer": "By size (smallest first)"
+          },
+          {
+            "question": "What does the 'E' option under sorting mean in the DIR command?",
+            "options": [
+              "By extension (alphabetic)",
+              "By size",
+              "By name",
+              "By date"
+            ],
+            "answer": "By extension (alphabetic)"
+          },
+          {
+            "question": "What does the 'D' option under sorting mean in the DIR command?",
+            "options": [
+              "By date & time (earliest first)",
+              "By size",
+              "By name",
+              "By extension"
+            ],
+            "answer": "By date & time (earliest first)"
+          },
+          {
+            "question": "What does the '-P' prefix under sorting indicate?",
+            "options": [
+              "Reverse order",
+              "Smallest first",
+              "Alphabetical order",
+              "Earliest first"
+            ],
+            "answer": "Reverse order"
+          },
+          {
+            "question": "What does the '/S' switch do in the DIR command?",
+            "options": [
+              "Displays files in the specified directory and all subdirectories",
+              "Pauses the screen",
+              "Displays wide format",
+              "Ignores errors"
+            ],
+            "answer": "Displays files in the specified directory and all subdirectories"
+          },
+          {
+            "question": "What does the '/B' switch do in the DIR command?",
+            "options": [
+              "Uses bare format (no heading information or summary)",
+              "Pauses the screen",
+              "Displays wide format",
+              "Lists only directories"
+            ],
+            "answer": "Uses bare format (no heading information or summary)"
+          },
+          {
+            "question": "What does the '/L' switch do in the DIR command?",
+            "options": [
+              "Uses lowercase",
+              "Pauses the screen",
+              "Displays wide format",
+              "Ignores errors"
+            ],
+            "answer": "Uses lowercase"
+          },
+          {
+            "question": "What does the '/CH' switch do in the DIR command?",
+            "options": [
+              "Displays file compression ratio",
+              "Pauses the screen",
+              "Lists only read-only files",
+              "Changes the drive"
+            ],
+            "answer": "Displays file compression ratio"
+          },
+          {
+            "question": "What information is displayed when using the DIR command without switches?",
+            "options": [
+              "Volume label and serial number",
+              "File size, date, and time",
+              "Only file names",
+              "Compression ratio"
+            ],
+            "answer": "Volume label and serial number"
+          },
+          {
+            "question": "What does the 'H' option under hidden files mean?",
+            "options": [
+              "Hidden files",
+              "System files",
+              "Read-only files",
+              "Directories"
+            ],
+            "answer": "Hidden files"
+          },
+          {
+            "question": "What does the 'S' option under system files mean?",
+            "options": [
+              "System files",
+              "Hidden files",
+              "Read-only files",
+              "Directories"
+            ],
+            "answer": "System files"
+          },
+          {
+            "question": "What does the 'A' option under files ready to archive mean?",
+            "options": [
+              "Files ready to archive",
+              "Hidden files",
+              "System files",
+              "Read-only files"
+            ],
+            "answer": "Files ready to archive"
+          },
+          {
+            "question": "What action does the 'A' switch (Abort, Retry, Fail?) prompt allow?",
+            "options": [
+              "To abort the command",
+              "To retry the command",
+              "To fail the command",
+              "All of the above"
+            ],
+            "answer": "All of the above"
+          },
+          {
+            "question": "What does the 'R' switch (Redirects DOS to retry) do?",
+            "options": [
+              "Retries the command to correct the error",
+              "Aborts the command",
+              "Ignores the error",
+              "Displays the error"
+            ],
+            "answer": "Retries the command to correct the error"
+          },
+          {
+            "question": "What does the 'I' switch (Ignores the error) do?",
+            "options": [
+              "Ignores the error and attempts to continue",
+              "Aborts the command",
+              "Retries the command",
+              "Displays the error"
+            ],
+            "answer": "Ignores the error and attempts to continue"
+          },
+          {
+            "question": "What is the purpose of wildcards in the DIR command?",
+            "options": [
+              "To specify exact file names",
+              "To replace single or multiple characters",
+              "To delete files",
+              "To change directories"
+            ],
+            "answer": "To replace single or multiple characters"
+          },
+          {
+            "question": "What character is used as a wildcard for a single character?",
+            "options": ["*", "?", "/", "\\"],
+            "answer": "?"
+          },
+          {
+            "question": "What character is used as a wildcard for multiple characters?",
+            "options": ["*", "?", "/", "\\"],
+            "answer": "*"
+          },
+          {
+            "question": "What does the 'DIR *.txt' command do?",
+            "options": [
+              "Lists all files with .txt extension",
+              "Deletes all .txt files",
+              "Creates a .txt file",
+              "Changes to a .txt directory"
+            ],
+            "answer": "Lists all files with .txt extension"
+          },
+          {
+            "question": "What does the 'DIR ????.*' command do?",
+            "options": [
+              "Lists files with four characters followed by any extension",
+              "Deletes all files",
+              "Creates a new directory",
+              "Displays the drive information"
+            ],
+            "answer": "Lists files with four characters followed by any extension"
+          },
+          {
+            "question": "What is the primary function of the TYPE command in DOS?",
+            "options": [
+              "To delete a text file",
+              "To display the contents of a text file",
+              "To create a new directory",
+              "To format a disk"
+            ],
+            "answer": "To display the contents of a text file"
+          },
+          {
+            "question": "What does 'C:' indicate in the TYPE command syntax?",
+            "options": [
+              "The current directory",
+              "The disk drive holding the file for displaying",
+              "A file name",
+              "A switch"
+            ],
+            "answer": "The disk drive holding the file for displaying"
+          },
+          {
+            "question": "What does the 'path' parameter specify in the TYPE command?",
+            "options": [
+              "The file name",
+              "The location of the file for displaying",
+              "The drive letter",
+              "The output format"
+            ],
+            "answer": "The location of the file for displaying"
+          },
+          {
+            "question": "What does 'filename' specify in the TYPE command?",
+            "options": [
+              "The directory name",
+              "The file to display",
+              "The drive letter",
+              "A switch"
+            ],
+            "answer": "The file to display"
+          },
+          {
+            "question": "What format does the TYPE command use to display file contents?",
+            "options": [
+              "Binary",
+              "ASCII (American Standard Code for Information Interchange)",
+              "Hexadecimal",
+              "Unicode"
+            ],
+            "answer": "ASCII (American Standard Code for Information Interchange)"
+          }
+        ]
+      },
+      "dos_type_rename_command": {
+  "title": "TYPE & RENAME Command in DOS",
+  "questions": [
+    {
+      "question": "What happens if the TYPE command is used on a non-ASCII file?",
+      "options": ["It displays the content correctly", "It looks like gibberish", "It creates a new file", "It deletes the file"],
+      "answer": "It looks like gibberish"
+    },
+    {
+      "question": "How many lines does the video monitor show when using the TYPE command?",
+      "options": ["10", "20", "24", "30"],
+      "answer": "24"
+    },
+    {
+      "question": "What can scrolling be controlled by when using the TYPE command?",
+      "options": ["Mouse", "Control + S keys together", "Arrow keys", "Enter key"],
+      "answer": "Control + S keys together"
+    },
+    {
+      "question": "What does pressing Control + S do during the TYPE command?",
+      "options": ["Stops the scrolling", "Continues the scrolling", "Deletes the file", "Aborts the command"],
+      "answer": "Stops the scrolling"
+    },
+    {
+      "question": "What happens when Control + S is released during the TYPE command?",
+      "options": ["Scrolling stops permanently", "Scrolling resumes", "The file is deleted", "The command aborts"],
+      "answer": "Scrolling resumes"
+    },
+    {
+      "question": "What key can be pressed to scroll through the screen contents during the TYPE command?",
+      "options": ["Spacebar", "Enter", "Esc", "Tab"],
+      "answer": "Spacebar"
+    },
+    {
+      "question": "What is the purpose of the MORE command with the TYPE command?",
+      "options": ["To delete the file", "To display output screen by screen", "To create a new file", "To change the directory"],
+      "answer": "To display output screen by screen"
+    },
+    {
+      "question": "What character is used to pipe the TYPE command to MORE?",
+      "options": ["|", ">", "<", "-"],
+      "answer": "|"
+    },
+    {
+      "question": "What does the RENAME command allow you to do?",
+      "options": ["Delete a file", "Change the name of a file", "Display file contents", "Create a new directory"],
+      "answer": "Change the name of a file"
+    },
+    {
+      "question": "What is the syntax for the RENAME command?",
+      "options": ["REN C:path\\filename1.exe filename2.exe", "TYPE C:path\\filename1.exe filename2.exe", "DIR C:path\\filename1.exe filename2.exe", "CD C:path\\filename1.exe filename2.exe"],
+      "answer": "REN C:path\\filename1.exe filename2.exe"
+    },
+    {
+      "question": "What does 'C:' represent in the RENAME command?",
+      "options": ["The current directory", "The disk drive holding the file for displaying", "A file name", "A switch"],
+      "answer": "The disk drive holding the file for displaying"
+    },
+    {
+      "question": "What is 'filename1.exe' in the RENAME command?",
+      "options": ["The new file name", "The file to be renamed", "The directory name", "A switch"],
+      "answer": "The file to be renamed"
+    },
+    {
+      "question": "What is 'filename2.exe' in the RENAME command?",
+      "options": ["The original file name", "The new file name", "The directory name", "A switch"],
+      "answer": "The new file name"
+    },
+    {
+      "question": "What happens if the drive is not specified in the RENAME command?",
+      "options": ["It uses the current disk drive", "It fails to execute", "It deletes the file", "It creates a new directory"],
+      "answer": "It uses the current disk drive"
+    },
+    {
+      "question": "What happens if the path is not specified in the RENAME command?",
+      "options": ["It uses the current directory", "It fails to execute", "It deletes the file", "It creates a new directory"],
+      "answer": "It uses the current directory"
+    },
+    {
+      "question": "Is the file extension required when renaming a file with the RENAME command?",
+      "options": ["Yes", "No", "Only for system files", "Only for hidden files"],
+      "answer": "Yes"
+    },
+    {
+      "question": "What is a valid requirement for the new file name in the RENAME command?",
+      "options": ["It must be the same as the original", "It must have an appropriate extension", "It must be a directory", "It must be empty"],
+      "answer": "It must have an appropriate extension"
+    },
+    {
+      "question": "Can a group of files be renamed using the RENAME command?",
+      "options": ["Yes", "No", "Only with wildcards", "Only with switches"],
+      "answer": "Yes"
+    },
+    {
+      "question": "What is the result of the command 'TYPE C:\\COPAIDOS\\PRACT\\TEST1.txt | MORE'?",
+      "options": ["Deletes TEST1.txt", "Displays TEST1.txt content screen by screen", "Renames TEST1.txt", "Creates a new directory"],
+      "answer": "Displays TEST1.txt content screen by screen"
+    },
+    {
+      "question": "What is the purpose of the pipe symbol '|' in the TYPE command with MORE?",
+      "options": ["To redirect output", "To delete the file", "To change the directory", "To display the file name"],
+      "answer": "To redirect output"
+    },
+    {
+      "question": "What happens if you attempt to change a file name to a name that already exists in the directory?",
+      "options": ["DOS prompts an error message", "The file is overwritten", "The new file is created", "No action is taken"],
+      "answer": "DOS prompts an error message"
+    },
+    {
+      "question": "What happens if an invalid file name or no new name is given in the RENAME command?",
+      "options": ["DOS creates a new file", "DOS prompts an error message", "The command executes successfully", "The file is deleted"],
+      "answer": "DOS prompts an error message"
+    },
+    {
+      "question": "What is the minimum number of characters a file name must have?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "1"
+    },
+    {
+      "question": "What is the maximum length of an optional file extension?",
+      "options": ["1 to 3 characters", "1 to 4 characters", "1 to 5 characters", "1 to 6 characters"],
+      "answer": "1 to 3 characters"
+    },
+    {
+      "question": "Which characters are allowed between the name and extension of a file?",
+      "options": ["A period (.)", "A comma (,)", "A hyphen (-)", "A space"],
+      "answer": "A period (.)"
+    },
+    {
+      "question": "Which of the following is a valid character for a file name?",
+      "options": ["A through Z (lower case)", "0 through 9", "$ & @", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which special characters are permitted in the file name?",
+      "options": ["Esc, Del, or spacebar", "#, %, ^", "&, *, +", "None of the above"],
+      "answer": "Esc, Del, or spacebar"
+    },
+    {
+      "question": "What must be unique for each file?",
+      "options": ["File extension", "File name", "File path", "File size"],
+      "answer": "File name"
+    },
+    {
+      "question": "What is the drive and path in the command 'C:\\COPAIDOS\\PRACT\\3> REN TEST2.txt CHECKED.txt'?",
+      "options": ["C:\\COPAIDOS\\PRACT\\3", "C:\\COPAIDOS", "PRACT\\3", "TEST2.txt"],
+      "answer": "C:\\COPAIDOS\\PRACT\\3"
+    },
+    {
+      "question": "What is the original file name in the RENAME command example?",
+      "options": ["CHECKED.txt", "TEST2.txt", "PRACT", "COPAIDOS"],
+      "answer": "TEST2.txt"
+    },
+    {
+      "question": "What is the new file name in the RENAME command example?",
+      "options": ["CHECKED.txt", "TEST2.txt", "PRACT", "COPAIDOS"],
+      "answer": "CHECKED.txt"
+    },
+    {
+      "question": "What does the command 'C:\\COPAIDOS\\PRACT\\3> REN *.pic' do?",
+      "options": ["Renames all .pic files to .jpg", "Renames a single .pic file", "Invalid command", "Deletes all .pic files"],
+      "answer": "Invalid command"
+    }
+  ]
+},
+"dos_copy_command": {
+  "title": "COPY Command in DOS",
+  "questions": [
+    {
+      "question": "What is the primary function of the COPY command in DOS?",
+      "options": ["To delete files", "To copy one or more files to another location", "To rename files", "To display file contents"],
+      "answer": "To copy one or more files to another location"
+    },
+    {
+      "question": "What does the '/A' switch indicate in the COPY command?",
+      "options": ["ASCII text file", "Binary file", "Verifies new files", "Prompts to confirm"],
+      "answer": "ASCII text file"
+    },
+    {
+      "question": "What does the '/B' switch indicate in the COPY command?",
+      "options": ["ASCII text file", "Binary file", "Verifies new files", "Prompts to confirm"],
+      "answer": "Binary file"
+    },
+    {
+      "question": "What does the '/V' switch do in the COPY command?",
+      "options": ["Verifies that new files are written correctly", "Copies only ASCII files", "Deletes the source file", "Prompts to overwrite"],
+      "answer": "Verifies that new files are written correctly"
+    },
+    {
+      "question": "What does the '/Y' switch do in the COPY command?",
+      "options": ["Suppresses prompting to confirm you want to overwrite", "Verifies new files", "Copies only binary files", "Displays file contents"],
+      "answer": "Suppresses prompting to confirm you want to overwrite"
+    }
+  ]
+},
+"dos_delete_command": {
+  "title": "DEL Command in DOS",
+  "questions": [
+    {
+      "question": "What format does the DEL command use when prompting with the /P switch?",
+      "options": [
+        "Filename, Delete (Y/N)?", "Delete File (Y/N)?", "Confirm Delete (Y/N)?", "Remove File (Y/N)?"
+      ],
+      "answer": "Filename, Delete (Y/N)?"
+    },
+    {
+      "question": "What keys can be pressed to stop the DEL command?",
+      "options": ["CTRL+C", "CTRL+Z", "Both CTRL+C and CTRL+Z", "ESC"],
+      "answer": "Both CTRL+C and CTRL+Z"
+    },
+    {
+      "question": "What happens if the drive is not specified in the DEL command?",
+      "options": ["Current disk drive is used", "Command fails", "All drives are deleted", "New directory is created"],
+      "answer": "Current disk drive is used"
+    },
+    {
+      "question": "What happens if the path is not specified in the DEL command?",
+      "options": ["Current directory is used", "Command fails", "All paths are deleted", "New file is created"],
+      "answer": "Current directory is used"
+    },
+    {
+      "question": "Is the file extension required for the file to be deleted?",
+      "options": ["Yes", "No", "Only for system files", "Only for hidden files"],
+      "answer": "Yes"
+    },
+    {
+      "question": "What is the result of the command 'C:\\COPAIDOS\\PRACT\\3> DEL TEST2.txt'?",
+      "options": ["TEST2.txt is displayed", "TEST2.txt is deleted", "TEST2.txt is renamed", "TEST2.txt is copied"],
+      "answer": "TEST2.txt is deleted"
+    },
+    {
+      "question": "What does the command 'DEL *.*' do?",
+      "options": ["Deletes all files in the current directory", "Deletes only .txt files", "Renames all files", "Displays all files"],
+      "answer": "Deletes all files in the current directory"
+    },
+    {
+      "question": "What prompt is displayed before deleting all files with 'DEL *.*'?",
+      "options": [
+        "Are you sure (Y/N)?", "Delete all files (Y/N)?", "Confirm deletion (Y/N)?", "All files, Delete (Y/N)?"
+      ],
+      "answer": "All files, Delete (Y/N)?"
+    },
+    {
+      "question": "What happens if 'Y' is pressed after the 'DEL *.*' prompt?",
+      "options": ["All files in the current directory are deleted", "Deletion is canceled", "Only .txt files are deleted", "A new directory is created"],
+      "answer": "All files in the current directory are deleted"
+    },
+    {
+      "question": "What happens if 'N' is pressed after the 'DEL *.*' prompt?",
+      "options": ["All files in the current directory are deleted", "Deletion is canceled", "Only .txt files are deleted", "A new directory is created"],
+      "answer": "Deletion is canceled"
+    },
+    {
+      "question": "Can a directory be removed with the DEL command?",
+      "options": ["Yes", "No", "Only with a switch", "Only with wildcards"],
+      "answer": "No"
+    },
+    {
+      "question": "What key activates the delete command before pressing Enter?",
+      "options": ["Shift", "Ctrl", "Alt", "None"],
+      "answer": "None"
+    }
+  ]
+},
+"dos_undelete_command": {
+  "title": "UNDELETE Command in DOS",
+  "questions": [
+    {
+      "question": "What is the purpose of the UNDELETE command?",
+      "options": ["To delete files permanently", "To recover deleted files", "To rename files", "To copy files"],
+      "answer": "To recover deleted files"
+    },
+    {
+      "question": "What is the syntax for the UNDELETE command?",
+      "options": ["UNDELETE C:path\\filename", "DEL C:path\\filename", "COPY C:path\\filename", "REN C:path\\filename"],
+      "answer": "UNDELETE C:path\\filename"
+    },
+    {
+      "question": "What does 'C:' represent in the UNDELETE command?",
+      "options": [
+        "The current directory", "The disk drive holding the files to be undeleted", "A file name", "A switch"
+      ],
+      "answer": "The disk drive holding the files to be undeleted"
+    },
+    {
+      "question": "What does 'path' specify in the UNDELETE command?",
+      "options": ["The file name", "The location of the file to be undeleted", "The drive letter", "The output format"],
+      "answer": "The location of the file to be undeleted"
+    },
+    {
+      "question": "What does 'filename' specify in the UNDELETE command?",
+      "options": ["The directory name", "The file to be undeleted", "The drive letter", "A switch"],
+      "answer": "The file to be undeleted"
+    },
+    {
+      "question": "What happens if the drive is not specified in the UNDELETE command?",
+      "options": ["Current disk drive is used", "Command fails", "All drives are scanned", "New directory is created"],
+      "answer": "Current disk drive is used"
+    },
+    {
+      "question": "What happens if the path is not specified in the UNDELETE command?",
+      "options": ["Current directory is used", "Command fails", "All paths are scanned", "New file is created"],
+      "answer": "Current directory is used"
+    },
+    {
+      "question": "What is the result of the command 'C:\\COPAIDOS\\PRACT\\4> UNDELETE *.txt'?",
+      "options": [
+        "All .txt files in the directory are deleted", "All .txt files in the directory are recovered", "Only one .txt file is recovered", "A new directory is created"
+      ],
+      "answer": "All .txt files in the directory are recovered"
+    },
+    {
+      "question": "Can wildcards be used with the UNDELETE command?",
+      "options": ["Yes", "No", "Only with a switch", "Only with a path"],
+      "answer": "Yes"
+    },
+    {
+      "question": "What is the space occupied by a deleted file immediately after deletion?",
+      "options": ["Freed immediately", "Occupied until recovery", "Deleted permanently", "Reserved for new files"],
+      "answer": "Freed immediately"
+    },
+    {
+      "question": "What is the primary function of the UNDELETE command in DOS?",
+      "options": ["To delete files permanently", "To recover deleted files", "To rename files", "To display file contents"],
+      "answer": "To recover deleted files"
+    },
+    {
+      "question": "What does the /LIST switch do in the UNDELETE command?",
+      "options": ["Recovers files without prompting", "Lists the deleted files available to be recovered", "Purges files from the Delete Sentry", "Loads Undelete into memory"],
+      "answer": "Lists the deleted files available to be recovered"
+    },
+    {
+      "question": "What does the /ALL switch do in the UNDELETE command?",
+      "options": [
+        "Lists all deleted files", "Recovers files without prompting for confirmation", "Purges all files", "Loads Undelete into memory"
+      ],
+      "answer": "Recovers files without prompting for confirmation"
+    },
+    {
+      "question": "What does the /DOS switch do in the UNDELETE command?",
+      "options": [
+        "Recovers files listed as deleted by MS-DOS", "Purges files", "Loads Undelete into memory", "Displays the protection method"
+      ],
+      "answer": "Recovers files listed as deleted by MS-DOS"
+    },
+    {
+      "question": "What does the /DT switch do in the UNDELETE command?",
+      "options": [
+        "Recovers files protected by Delete Tracker", "Purges files", "Loads Undelete into memory", "Displays the protection method"
+      ],
+      "answer": "Recovers files protected by Delete Tracker"
+    },
+    {
+      "question": "What does the /DS switch do in the UNDELETE command?",
+      "options": [
+        "Recovers files protected by Delete Sentry", "Purges files", "Loads Undelete into memory", "Displays the protection method"
+      ],
+      "answer": "Recovers files protected by Delete Sentry"
+    },
+    {
+      "question": "What does the /LOAD switch do in the UNDELETE command?",
+      "options": [
+        "Loads Undelete into memory for delete protection", "Recovers files", "Purges files", "Unloads Undelete from memory"
+      ],
+      "answer": "Loads Undelete into memory for delete protection"
+    },
+    {
+      "question": "What does the /UNLOAD switch do in the UNDELETE command?",
+      "options": ["Unloads Undelete from memory", "Recovers files", "Purges files", "Loads Undelete into memory"],
+      "answer": "Unloads Undelete from memory"
+    },
+    {
+      "question": "What does the /PURGE[drive] switch do in the UNDELETE command?",
+      "options": ["Purges files in the Delete Sentry directory", "Recovers files", "Loads Undelete into memory", "Displays the protection method"],
+      "answer": "Purges files in the Delete Sentry directory"
+    },
+    {
+      "question": "What does the /STATUS switch do in the UNDELETE command?",
+      "options": [
+        "Displays the protection method in effect for each drive", "Recovers files", "Purges files", "Loads Undelete into memory"
+      ],
+      "answer": "Displays the protection method in effect for each drive"
+    },
+    {
+      "question": "What does the /[drive][:entry] switch do in the UNDELETE command?",
+      "options": [
+        "Enables Delete Tracking method of protection", "Recovers files", "Purges files", "Displays the protection method"
+      ],
+      "answer": "Enables Delete Tracking method of protection"
+    },
+    {
+      "question": "What is the result of the command 'C:\\COPAIDOS\\PRACT\\3> UNDELETE TEST2.txt'?",
+      "options": [
+        "TEST2.txt is deleted", "TEST2.txt is recovered if available", "TEST2.txt is renamed", "TEST2.txt is copied"
+      ],
+      "answer": "TEST2.txt is recovered if available"
+    },
+    {
+      "question": "What happens if the UNDELETE command is issued after the disk is reformatted?",
+      "options": [
+        "Files can still be recovered", "Recovery is not possible", "Only some files are recovered", "The command fails"
+      ],
+      "answer": "Recovery is not possible"
+    },
+    {
+      "question": "What does the command 'C:\\COPAIDOS\\PRACT\\4> UNDELETE /ALL' do?",
+      "options": [
+        "Lists all deleted files", "Recovers all deleted files without prompting", "Purges all deleted files", "Loads Undelete into memory"
+      ],
+      "answer": "Recovers all deleted files without prompting"
+    },
+    {
+      "question": "What prompt is displayed with the command 'C:\\COPAIDOS\\PRACT\\3> UNDELETE /DT'?",
+      "options": [
+        "Enter the first letter of the file name", "Delete file (Y/N)?", "Recover file (Y/N)?", "List files (Y/N)?"
+      ],
+      "answer": "Enter the first letter of the file name"
+    }
+  ]
+},
+      "dos_commands": {
+        "title": "DOS Command Usage and Syntax",
+        "questions": [
+          {
+            "question": "What can subdirectories stem from in DOS?",
+            "options": [
+              "Only the root directory",
+              "Other subdirectories and the root",
+              "Files only",
+              "Commands only"
+            ],
+            "answer": "Other subdirectories and the root"
+          },
+          {
+            "question": "What is the role of the parent directory in DOS?",
+            "options": [
+              "To delete subdirectories",
+              "To contain subdirectories",
+              "To create files",
+              "To format the disk"
+            ],
+            "answer": "To contain subdirectories"
+          },
+          {
+            "question": "Why is the hierarchical organization special in DOS?",
+            "options": [
+              "Because it is random",
+              "Because it allows naming and relationship tracking",
+              "Because it limits file storage",
+              "Because it requires no commands"
+            ],
+            "answer": "Because it allows naming and relationship tracking"
+          },
+          {
+            "question": "What does a path in DOS represent?",
+            "options": [
+              "A file extension",
+              "A chain of directory names telling DOS how to find a file",
+              "A command prompt",
+              "A disk drive"
+            ],
+            "answer": "A chain of directory names telling DOS how to find a file"
+          },
+          {
+            "question": "What character is used to separate directories in a DOS path?",
+            "options": ["/", "\\\\", ":", "."],
+            "answer": "\\\\"
+          },
+          {
+            "question": "What is the purpose of the MKDIR or MD command in DOS?",
+            "options": [
+              "To delete a directory",
+              "To create a new directory",
+              "To list files",
+              "To change the current directory"
+            ],
+            "answer": "To create a new directory"
+          },
+          {
+            "question": "What is the syntax for the MKDIR command?",
+            "options": [
+              "MKDIR C:path\\\\dirname",
+              "DIR C:path\\\\dirname",
+              "CD C:path\\\\dirname",
+              "RM C:path\\\\dirname"
+            ],
+            "answer": "MKDIR C:path\\\\dirname"
+          },
+          {
+            "question": "What does 'C:' indicate in the MKDIR command?",
+            "options": [
+              "The current directory",
+              "The disk drive for the subdirectory",
+              "A file name",
+              "A switch"
+            ],
+            "answer": "The disk drive for the subdirectory"
+          },
+          {
+            "question": "What is the maximum number of characters for a DOS path name, including backslashes?",
+            "options": ["63", "128", "255", "512"],
+            "answer": "63"
+          },
+          {
+            "question": "What happens if you create a directory name identical to an existing file name?",
+            "options": [
+              "DOS allows it",
+              "DOS overwrites the file",
+              "DOS prevents the creation",
+              "DOS renames the file"
+            ],
+            "answer": "DOS prevents the creation"
+          },
+          {
+            "question": "What command is used to create a subdirectory named 'Drivers' under the current drive?",
+            "options": ["MKDIR Drivers", "CD Drivers", "DIR Drivers", "RM Drivers"],
+            "answer": "MKDIR Drivers"
+          },
+          {
+            "question": "What does the CHDIR or CD command do in DOS?",
+            "options": [
+              "Creates a directory",
+              "Changes or shows the path of the current directory",
+              "Deletes a directory",
+              "Lists files"
+            ],
+            "answer": "Changes or shows the path of the current directory"
+          },
+          {
+            "question": "What is the syntax for the CHDIR command?",
+            "options": [
+              "CHDIR d: path",
+              "MKDIR d: path",
+              "DIR d: path",
+              "CD d: path"
+            ],
+            "answer": "CHDIR d: path"
+          },
+          {
+            "question": "What does 'd:' represent in the CHDIR command?",
+            "options": [
+              "A directory name",
+              "A valid disk drive and directory names",
+              "A file extension",
+              "A switch"
+            ],
+            "answer": "A valid disk drive and directory names"
+          },
+          {
+            "question": "How many methods are mentioned for maneuvering through the hierarchical directories with CD?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "2"
+          },
+          {
+            "question": "What is the first method of using the CD command?",
+            "options": [
+              "Starting at the root, or top, directory of the disk",
+              "Starting with the current directory",
+              "Moving to a subdirectory",
+              "Deleting a directory"
+            ],
+            "answer": "Starting at the root, or top, directory of the disk"
+          },
+          {
+            "question": "What is the second method of using the CD command?",
+            "options": [
+              "Starting at the root directory",
+              "Starting with the current directory and moving in either direction",
+              "Deleting the current directory",
+              "Creating a new directory"
+            ],
+            "answer": "Starting with the current directory and moving in either direction"
+          },
+          {
+            "question": "What must you begin a path with when using the CD command with the root character?",
+            "options": ["/", "\\\\", ":", "."],
+            "answer": "\\\\"
+          },
+          {
+            "question": "Where does DOS start the path when the root character is used?",
+            "options": [
+              "Current directory",
+              "First directory",
+              "Root directory",
+              "Last directory"
+            ],
+            "answer": "Root directory"
+          },
+          {
+            "question": "What does the instruction 'C:\\\\>' indicate?",
+            "options": [
+              "Current directory is the root of drive C",
+              "A subdirectory named C",
+              "A file named C",
+              "A command prompt error"
+            ],
+            "answer": "Current directory is the root of drive C"
+          },
+          {
+            "question": "What is the default drive by typing the letter identification of disk drive in DOS?",
+            "options": ["A drive", "B drive", "C drive", "D drive"],
+            "answer": "C drive"
+          },
+          {
+            "question": "What happens when you type a drive letter followed by a colon in DOS?",
+            "options": [
+              "It creates a new directory",
+              "It changes the current directory to the root of that drive",
+              "It deletes the drive",
+              "It lists all files"
+            ],
+            "answer": "It changes the current directory to the root of that drive"
+          },
+          {
+            "question": "What is the purpose of the DIR command mentioned in the context?",
+            "options": [
+              "To create a directory",
+              "To verify the directory structure",
+              "To delete files",
+              "To format the disk"
+            ],
+            "answer": "To verify the directory structure"
+          },
+          {
+            "question": "Under which drive is the subdirectory 'Printers' created in the example?",
+            "options": ["A", "B", "C", "D"],
+            "answer": "C"
+          },
+          {
+            "question": "What is the name of the subdirectory created under 'C:\\\\Devices'?",
+            "options": ["Printers", "Plotters", "Drivers", "Files"],
+            "answer": "Printers"
+          },
+          {
+            "question": "How many subdirectories are created under 'C:\\\\Devices' in the example?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "1"
+          },
+          {
+            "question": "What is the parent directory of 'Printers' in the example?",
+            "options": [
+              "C:\\\\",
+              "C:\\\\Devices",
+              "C:\\\\Plotters",
+              "C:\\\\Drivers"
+            ],
+            "answer": "C:\\\\Devices"
+          },
+          {
+            "question": "What command is used to create the 'Printers' subdirectory?",
+            "options": ["CD", "MKDIR", "CHDIR", "DIR"],
+            "answer": "MKDIR"
+          },
+          {
+            "question": "What is the full path to the 'Printers' subdirectory in the example?",
+            "options": [
+              "C:\\\\Printers",
+              "C:\\\\Devices\\\\Printers",
+              "C:\\\\Drivers\\\\Printers",
+              "C:\\\\Plotters\\\\Printers"
+            ],
+            "answer": "C:\\\\Devices\\\\Printers"
+          },
+          {
+            "question": "What does the switch option represent in the MKDIR command?",
+            "options": [
+              "A mandatory parameter",
+              "An optional parameter",
+              "A file name",
+              "A directory name"
+            ],
+            "answer": "An optional parameter"
+          },
+          {
+            "question": "What is the short form of the MKDIR command?",
+            "options": ["MD", "CD", "RD", "DIR"],
+            "answer": "MD"
+          },
+          {
+            "question": "What is the significance of backslashes in a DOS path?",
+            "options": [
+              "They separate directory names",
+              "They indicate a file",
+              "They denote a drive",
+              "They are optional"
+            ],
+            "answer": "They separate directory names"
+          },
+          {
+            "question": "What happens if you do not specify a path in the MKDIR command?",
+            "options": [
+              "It creates a directory in the current directory",
+              "It fails to execute",
+              "It deletes the current directory",
+              "It lists all directories"
+            ],
+            "answer": "It creates a directory in the current directory"
+          },
+          {
+            "question": "What is the purpose of the 'dirname' in the MKDIR command?",
+            "options": [
+              "To specify the drive",
+              "To name the subdirectory being created",
+              "To list files",
+              "To change the directory"
+            ],
+            "answer": "To name the subdirectory being created"
+          },
+          {
+            "question": "What is the root directory in the path 'C:\\\\Admin\\\\Accounts\\\\TouristData.txt'?",
+            "options": ["Admin", "Accounts", "C:\\\\", "TouristData.txt"],
+            "answer": "C:\\\\"
+          },
+          {
+            "question": "What is the first subdirectory in the path 'C:\\\\Admin\\\\Accounts\\\\TouristData.txt'?",
+            "options": ["Accounts", "Admin", "C:\\\\", "TouristData.txt"],
+            "answer": "Admin"
+          },
+          {
+            "question": "What is the file name in the path 'C:\\\\Admin\\\\Accounts\\\\TouristData.txt'?",
+            "options": ["Admin", "Accounts", "TouristData", "TouristData.txt"],
+            "answer": "TouristData.txt"
+          }
+        ]
+      }
+    }
+  }
+}

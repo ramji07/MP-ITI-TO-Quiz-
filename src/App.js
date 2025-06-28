@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import ModuleList from "./routes/ModuleList";
+import SubModuleList from "./routes/SubModuleList";
+import QuizPage from "./routes/QuizPage";
+import ResultPage from "./routes/ResultPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-light p-4 text-center">
+      <h1 className="text-3xl fw-bold mb-4">🧠 MCQ Practice App (Module-wise)</h1>
+      <Routes>
+       <Route path="/" element={<ModuleList />} />
+      <Route path="/submodules/:moduleId" element={<SubModuleList />} />
+      <Route path="/quiz/:moduleId/:subId" element={<QuizPage />} />
+      <Route path="/result" element={<ResultPage />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;

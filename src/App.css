@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.hover-shadow:hover {
+  background-color: #e7f1ff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
