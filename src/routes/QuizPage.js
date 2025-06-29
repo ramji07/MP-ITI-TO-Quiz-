@@ -78,23 +78,38 @@ export default function QuizPage() {
     }
   }, [quiz, current, userAnswers, marked, showTimeInput, moduleId, subId]);
 
-  const handleSubmit = useCallback(() => {
-    if (!quiz) return;
+ const handleSubmit = useCallback(() => {
+  if (!quiz) return;
 
-    const correctAnswers = quiz.questions.map((q) => q.answer);
-    localStorage.setItem(`progress_${moduleId}_${subId}`, "true");
-    localStorage.removeItem(`bookmark_${moduleId}_${subId}`);
+  const correctAnswers = quiz.questions.map((q) => q.answer);
+  const score = userAnswers.filter((ans, i) => ans === correctAnswers[i]).length;
 
-    navigate("/result", {
-      state: {
-        moduleId,
-        subModuleId: subId,
-        userAnswers,
-        correctAnswers,
-        questions: quiz.questions,
-      },
-    });
-  }, [quiz, moduleId, subId, userAnswers, navigate]);
+  // ✅ Mark submodule completed
+  localStorage.setItem(`progress_${moduleId}_${subId}`, "true");
+
+  // ✅ Save result with marked questions
+  const resultData = {
+    userAnswers,
+    correctAnswers,
+    questions: quiz.questions,
+    marked,
+    score,
+    total: correctAnswers.length,
+    date: new Date().toLocaleString(),
+  };
+
+  localStorage.setItem(`result_${moduleId}_${subId}`, JSON.stringify(resultData));
+  localStorage.removeItem(`bookmark_${moduleId}_${subId}`);
+
+  navigate("/result", {
+    state: {
+      moduleId,
+      subModuleId: subId,
+      ...resultData,
+    },
+  });
+}, [quiz, moduleId, subId, userAnswers, navigate, marked]);
+
 
   useEffect(() => {
     if (!quiz || showTimeInput) return;
