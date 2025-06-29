@@ -10,13 +10,14 @@ export default function QuizPage() {
   const [userAnswers, setUserAnswers] = useState([]);
   const [marked, setMarked] = useState([]);
   const [showSubmit, setShowSubmit] = useState(false);
-  //eslint-disable-next-line
+  //eslint-disable-next-line no-unused-vars
   const [resumed, setResumed] = useState(false);
   const [timeLeft, setTimeLeft] = useState(null);
   const [dailyProgress, setDailyProgress] = useState(0);
   const [timePerQuestion, setTimePerQuestion] = useState(10);
   const [showTimeInput, setShowTimeInput] = useState(true);
   const [waitingToShowUI, setWaitingToShowUI] = useState(true);
+  const [checkedAnswers, setCheckedAnswers] = useState({});
 
   const audioRef = useRef(null);
   const intervalRef = useRef(null);
@@ -24,7 +25,6 @@ export default function QuizPage() {
 
   const DAILY_GOAL = 30;
 
-  // 🔓 Unlock autoplay
   useEffect(() => {
     const unlock = () => {
       audioRef.current?.play().then(() => {
@@ -36,7 +36,6 @@ export default function QuizPage() {
     document.addEventListener("click", unlock);
   }, []);
 
-  // Load quiz data
   useEffect(() => {
     import(`../data/${moduleId}.json`)
       .then((data) => {
@@ -52,7 +51,6 @@ export default function QuizPage() {
     if (quiz) {
       setTimeLeft(timePerQuestion + 3);
       setShowTimeInput(false);
-
       const saved = localStorage.getItem(`bookmark_${moduleId}_${subId}`);
       if (saved) {
         const parsed = JSON.parse(saved);
@@ -69,7 +67,6 @@ export default function QuizPage() {
     }
   };
 
-  // Bookmark save
   useEffect(() => {
     if (quiz && !showTimeInput) {
       const data = {
@@ -81,7 +78,6 @@ export default function QuizPage() {
     }
   }, [quiz, current, userAnswers, marked, showTimeInput, moduleId, subId]);
 
-  // Submit handler
   const handleSubmit = useCallback(() => {
     if (!quiz) return;
 
@@ -100,7 +96,6 @@ export default function QuizPage() {
     });
   }, [quiz, moduleId, subId, userAnswers, navigate]);
 
-  // Timer logic
   useEffect(() => {
     if (!quiz || showTimeInput) return;
 
@@ -119,14 +114,11 @@ export default function QuizPage() {
         if (prev <= 1) {
           clearInterval(intervalRef.current);
           audioRef.current?.play().catch(() => {});
-
-          // Auto-next logic
           if (current === quiz.questions.length - 1) {
             handleSubmit();
           } else {
             setCurrent((prevQ) => prevQ + 1);
           }
-
           return 0;
         }
         return prev - 1;
@@ -139,7 +131,13 @@ export default function QuizPage() {
     };
   }, [current, quiz, showTimeInput, timePerQuestion, handleSubmit]);
 
-  // Daily goal track
+  useEffect(() => {
+    return () => {
+      clearInterval(intervalRef.current);
+      clearTimeout(delayTimerRef.current);
+    };
+  }, []);
+
   useEffect(() => {
     const today = new Date().toISOString().split("T")[0];
     const key = `daily_goal_${today}`;
@@ -168,8 +166,6 @@ export default function QuizPage() {
     updateDailyProgress();
     if (current === quiz.questions.length - 1) {
       setShowSubmit(true);
-    } else {
-      setCurrent((prevQ) => prevQ + 1);
     }
   };
 
@@ -203,6 +199,8 @@ export default function QuizPage() {
 
   const question = quiz.questions[current];
   const isMarked = marked.includes(current);
+  const userAnswer = userAnswers[current];
+  const isChecked = checkedAnswers[current];
 
   return (
     <div className="container my-5">
@@ -231,7 +229,7 @@ export default function QuizPage() {
           {question.options.map((opt, i) => (
             <li
               key={i}
-              className={`list-group-item list-group-item-action ${userAnswers[current] === opt ? "active" : ""}`}
+              className={`list-group-item list-group-item-action ${userAnswer === opt ? "active" : ""}`}
               onClick={() => handleAnswer(opt)}
               style={{ cursor: "pointer" }}
             >
@@ -239,6 +237,26 @@ export default function QuizPage() {
             </li>
           ))}
         </ul>
+
+        {/* ✅ Show Result after Check */}
+        {isChecked !== undefined && (
+          <div className={`mt-3 alert ${isChecked ? 'alert-success' : 'alert-danger'}`}>
+            {isChecked ? '✅ Correct Answer!' : '❌ Wrong Answer'}
+          </div>
+        )}
+
+        {/* ✅ Check Answer Button */}
+        {userAnswer && isChecked === undefined && (
+          <button
+            className="btn btn-info mt-3"
+            onClick={() => {
+              const correct = question.answer === userAnswer;
+              setCheckedAnswers((prev) => ({ ...prev, [current]: correct }));
+            }}
+          >
+            Check Answer
+          </button>
+        )}
       </div>
 
       <div className="d-flex justify-content-between mt-3">

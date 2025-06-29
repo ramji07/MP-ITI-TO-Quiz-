@@ -1,0 +1,5726 @@
+{
+  "Module-11": {
+    "title": "Computer Networks and internet",
+    "submodules": {
+      "basics_1" : {
+        "title": "Introduction to Computer Networks",
+        "questions": [
+                {
+        "question": "What is a computer network?",
+        "options": ["A group of interconnected computers", "A computer without internet", "A type of hardware", "A data center"],
+        "answer": "A group of interconnected computers"
+      },
+      {
+        "question": "Which device is used to connect different networks together?",
+        "options": ["Switch", "Hub", "Router", "Repeater"],
+        "answer": "Router"
+      },
+      {
+        "question": "What does LAN stand for?",
+        "options": ["Large Area Network", "Local Area Network", "Linked Access Network", "Logical Area Network"],
+        "answer": "Local Area Network"
+      },
+      {
+        "question": "Which of the following is an example of a PAN?",
+        "options": ["Bluetooth network", "Internet", "Intranet", "WAN"],
+        "answer": "Bluetooth network"
+      },
+      {
+        "question": "Which topology requires a central controller or hub?",
+        "options": ["Bus", "Star", "Ring", "Mesh"],
+        "answer": "Star"
+      },
+      {
+        "question": "Which of the following is not a type of network topology?",
+        "options": ["Tree", "Bus", "Star", "Circle"],
+        "answer": "Circle"
+      },
+      {
+        "question": "What is the main purpose of networking?",
+        "options": ["To play games", "To share resources", "To print documents", "To install software"],
+        "answer": "To share resources"
+      },
+      {
+        "question": "What is the full form of Wi-Fi?",
+        "options": ["Wireless Fidelity", "Wide Frequency", "Wired File", "Wireless File"],
+        "answer": "Wireless Fidelity"
+      },
+      {
+        "question": "Which device connects multiple devices within a LAN?",
+        "options": ["Switch", "Router", "Bridge", "Modem"],
+        "answer": "Switch"
+      },
+      {
+        "question": "What is a modem used for?",
+        "options": ["Convert digital signals to analog", "Connect printers", "Store data", "Create backups"],
+        "answer": "Convert digital signals to analog"
+      },
+      {
+        "question": "Which type of network covers the largest geographical area?",
+        "options": ["LAN", "MAN", "WAN", "PAN"],
+        "answer": "WAN"
+      },
+      {
+        "question": "What is the full form of IP?",
+        "options": ["Internet Protocol", "Internal Process", "Interface Protocol", "Integrated Path"],
+        "answer": "Internet Protocol"
+      },
+      {
+        "question": "Which protocol is used to transfer files over a network?",
+        "options": ["FTP", "HTML", "SMTP", "SNMP"],
+        "answer": "FTP"
+      },
+      {
+        "question": "What is the function of a firewall?",
+        "options": ["To protect network from unauthorized access", "To clean viruses", "To increase speed", "To connect to internet"],
+        "answer": "To protect network from unauthorized access"
+      },
+      {
+        "question": "Which cable type is most commonly used in LAN?",
+        "options": ["Twisted pair", "Coaxial", "Fiber optic", "HDMI"],
+        "answer": "Twisted pair"
+      },
+      {
+        "question": "Which IP class provides a maximum of 254 hosts?",
+        "options": ["Class A", "Class B", "Class C", "Class D"],
+        "answer": "Class C"
+      },
+      {
+        "question": "What does MAC stand for in networking?",
+        "options": ["Media Access Control", "Memory Access Channel", "Multiple Access Code", "Mobile Access Computer"],
+        "answer": "Media Access Control"
+      },
+      {
+        "question": "What is the default port number of HTTP?",
+        "options": ["80", "443", "21", "110"],
+        "answer": "80"
+      },
+      {
+        "question": "Which protocol is used for secure data transmission?",
+        "options": ["HTTPS", "HTTP", "FTP", "Telnet"],
+        "answer": "HTTPS"
+      },
+      {
+        "question": "Which device is used to regenerate signals in a network?",
+        "options": ["Repeater", "Switch", "Router", "Hub"],
+        "answer": "Repeater"
+      },
+      {
+        "question": "Which layer of OSI model deals with physical connection?",
+        "options": ["Physical layer", "Data Link Layer", "Network Layer", "Session Layer"],
+        "answer": "Physical layer"
+      },
+      {
+        "question": "What is the role of DNS?",
+        "options": ["Converts domain names to IP addresses", "Stores passwords", "Protects network", "Blocks viruses"],
+        "answer": "Converts domain names to IP addresses"
+      },
+      {
+        "question": "What does ISP stand for?",
+        "options": ["Internet Service Provider", "Information Security Protocol", "Internet Speed Program", "Internal Signal Path"],
+        "answer": "Internet Service Provider"
+      },
+      {
+        "question": "What is a network protocol?",
+        "options": ["Set of rules for data communication", "Software tool", "File format", "Hardware name"],
+        "answer": "Set of rules for data communication"
+      },
+      {
+        "question": "Which of the following is not a transmission medium?",
+        "options": ["Air", "Cable", "Fiber", "Router"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which device separates different networks based on IP address?",
+        "options": ["Router", "Hub", "Switch", "Repeater"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which network topology connects all devices to a single backbone?",
+        "options": ["Bus", "Star", "Ring", "Mesh"],
+        "answer": "Bus"
+      },
+      {
+        "question": "Which topology connects each computer to every other computer?",
+        "options": ["Mesh", "Bus", "Star", "Ring"],
+        "answer": "Mesh"
+      },
+      {
+        "question": "Which protocol is used to send emails?",
+        "options": ["SMTP", "FTP", "DNS", "HTTP"],
+        "answer": "SMTP"
+      },
+      {
+        "question": "Which of the following is a valid IP address?",
+        "options": ["192.168.1.1", "999.999.999.999", "300.300.300.300", "1234.567.890.123"],
+        "answer": "192.168.1.1"
+      },
+      {
+        "question": "Which protocol is connectionless?",
+        "options": ["UDP", "TCP", "FTP", "SMTP"],
+        "answer": "UDP"
+      },
+      {
+        "question": "Which device can operate at multiple OSI layers?",
+        "options": ["Router", "Switch", "Repeater", "Modem"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which network device has a MAC address?",
+        "options": ["NIC", "Switch", "Router", "Modem"],
+        "answer": "NIC"
+      },
+      {
+        "question": "What is the primary function of the Data Link Layer?",
+        "options": ["Framing", "Routing", "Encryption", "Compression"],
+        "answer": "Framing"
+      },
+      {
+        "question": "Which tool is used to test network connectivity?",
+        "options": ["ping", "ls", "cmd", "scan"],
+        "answer": "ping"
+      },
+      {
+        "question": "Which one is an example of network protocol?",
+        "options": ["TCP/IP", "PDF", "EXE", "JPG"],
+        "answer": "TCP/IP"
+      },
+      {
+        "question": "What is the main use of IP address?",
+        "options": ["Identify devices on a network", "Encrypt data", "Transfer images", "Access RAM"],
+        "answer": "Identify devices on a network"
+      },
+      {
+        "question": "In which topology does data travel in a circular manner?",
+        "options": ["Ring", "Star", "Bus", "Tree"],
+        "answer": "Ring"
+      },
+      {
+        "question": "What is the data rate of a standard Ethernet network?",
+        "options": ["10 Mbps", "1 Mbps", "100 Mbps", "1 Gbps"],
+        "answer": "100 Mbps"
+      },
+      {
+        "question": "What is the primary purpose of a switch in networking?",
+        "options": ["Forward data to correct device", "Convert signals", "Store backups", "Create firewall"],
+        "answer": "Forward data to correct device"
+      },
+      {
+        "question": "Which of the following is a private IP range?",
+        "options": ["192.168.0.0 to 192.168.255.255", "8.8.8.8", "172.16.0.0 to 172.31.255.255", "Both A and C"],
+        "answer": "Both A and C"
+      },
+      {
+        "question": "Which protocol provides reliable data transfer?",
+        "options": ["TCP", "UDP", "ICMP", "HTTP"],
+        "answer": "TCP"
+      },
+      {
+        "question": "What is the purpose of subnetting?",
+        "options": ["Divide large network into smaller ones", "Store IP addresses", "Send files", "Encrypt network"],
+        "answer": "Divide large network into smaller ones"
+      },
+      {
+        "question": "Which device translates domain names to IP addresses?",
+        "options": ["DNS server", "Router", "Switch", "Modem"],
+        "answer": "DNS server"
+      },
+      {
+        "question": "Which transmission medium offers the highest speed?",
+        "options": ["Fiber optic cable", "Coaxial cable", "Twisted pair cable", "Wireless"],
+        "answer": "Fiber optic cable"
+      },
+      {
+        "question": "Which protocol is used for remote login?",
+        "options": ["Telnet", "FTP", "SMTP", "HTTP"],
+        "answer": "Telnet"
+      },
+      {
+        "question": "Which layer of OSI model handles error detection?",
+        "options": ["Data Link Layer", "Physical Layer", "Transport Layer", "Application Layer"],
+        "answer": "Data Link Layer"
+      },
+      {
+        "question": "Which cable is immune to electromagnetic interference?",
+        "options": ["Fiber optic", "Twisted pair", "Coaxial", "All of the above"],
+        "answer": "Fiber optic"
+      },
+         {
+        "question": "Which protocol is used for resolving hardware addresses?",
+        "options": ["ARP", "RARP", "DNS", "DHCP"],
+        "answer": "ARP"
+      },
+      {
+        "question": "What is the full form of DHCP?",
+        "options": ["Dynamic Host Configuration Protocol", "Domain Host Configuration Protocol", "Dynamic Host Communicator Protocol", "Domain Host Control Protocol"],
+        "answer": "Dynamic Host Configuration Protocol"
+      },
+      {
+        "question": "In OSI model, which layer is responsible for end-to-end delivery?",
+        "options": ["Transport", "Network", "Session", "Application"],
+        "answer": "Transport"
+      },
+      {
+        "question": "Which protocol provides error reporting in IP networks?",
+        "options": ["ICMP", "TCP", "UDP", "FTP"],
+        "answer": "ICMP"
+      },
+      {
+        "question": "What does RJ45 refer to?",
+        "options": ["Connector type", "Cable type", "Protocol", "Network topology"],
+        "answer": "Connector type"
+      },
+      {
+        "question": "Which topology has no single point of failure?",
+        "options": ["Mesh", "Star", "Bus", "Ring"],
+        "answer": "Mesh"
+      },
+      {
+        "question": "Which protocol is used for secure file transfer?",
+        "options": ["SFTP", "FTP", "HTTP", "SMTP"],
+        "answer": "SFTP"
+      },
+      {
+        "question": "Which device filters traffic based on MAC addresses?",
+        "options": ["Bridge", "Router", "Hub", "Modem"],
+        "answer": "Bridge"
+      },
+      {
+        "question": "Which layer of the OSI model encrypts data?",
+        "options": ["Presentation", "Session", "Transport", "Application"],
+        "answer": "Presentation"
+      },
+      {
+        "question": "Which address is 00-14-22-01-23-45 an example of?",
+        "options": ["MAC address", "IP address", "Subnet mask", "Port address"],
+        "answer": "MAC address"
+      },
+      {
+        "question": "What does latency refer to in networking?",
+        "options": ["Delay in data transmission", "Bandwidth", "Packet size", "Error rate"],
+        "answer": "Delay in data transmission"
+      },
+      {
+        "question": "Which protocol uses port number 23?",
+        "options": ["Telnet", "FTP", "SMTP", "HTTP"],
+        "answer": "Telnet"
+      },
+      {
+        "question": "In IPv4, subnet mask 255.255.255.0 defines what prefix length?",
+        "options": ["24", "16", "8", "32"],
+        "answer": "24"
+      },
+      {
+        "question": "Which type of cable uses light to transmit data?",
+        "options": ["Fiber optic", "Coaxial", "Twisted pair", "USB"],
+        "answer": "Fiber optic"
+      },
+      {
+        "question": "Which protocol is used to automatically assign IP addresses?",
+        "options": ["DHCP", "DNS", "SMTP", "FTP"],
+        "answer": "DHCP"
+      },
+      {
+        "question": "Which of these is not a function of routers?",
+        "options": ["Packet forwarding", "Collision detection", "Path selection", "Subnet traffic control"],
+        "answer": "Collision detection"
+      },
+      {
+        "question": "What is the unit of network bandwidth?",
+        "options": ["bps", "Hz", "Ohm", "Volts"],
+        "answer": "bps"
+      },
+      {
+        "question": "What is jitter in network communication?",
+        "options": ["Variation in packet arrival time", "Packet loss", "Signal strength", "Latency"],
+        "answer": "Variation in packet arrival time"
+      },
+      {
+        "question": "Which network uses infrared to connect devices?",
+        "options": ["IrDA", "Ethernet", "Wi-Fi", "Bluetooth"],
+        "answer": "IrDA"
+      },
+      {
+        "question": "Which address is assigned dynamically by DHCP?",
+        "options": ["IP address", "MAC address", "Serial number", "Host name"],
+        "answer": "IP address"
+      }
+        ]
+      },
+      "basics_2" : {
+        "title": "Network Models and Architectures",
+        "questions": [
+
+                  {
+        "question": "How many layers are there in the OSI model?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "7"
+      },
+      {
+        "question": "Which protocol is used in the Transport layer of TCP/IP model?",
+        "options": ["IP", "UDP", "ARP", "FTP"],
+        "answer": "UDP"
+      },
+      {
+        "question": "Which is the lowest layer in the OSI model?",
+        "options": ["Physical", "Data Link", "Network", "Transport"],
+        "answer": "Physical"
+      },
+      {
+        "question": "What is the main function of the Session layer in OSI model?",
+        "options": ["Data Encryption", "Dialog Control", "Routing", "Error Detection"],
+        "answer": "Dialog Control"
+      },
+      {
+        "question": "Which OSI layers are covered by the Application layer in TCP/IP?",
+        "options": ["Session + Presentation", "All layers", "Network Layer only", "Physical + Data Link"],
+        "answer": "Session + Presentation"
+      },
+      {
+        "question": "What is the main function of the Data Link layer in OSI?",
+        "options": ["Framing", "Packet Forwarding", "Encryption", "Naming"],
+        "answer": "Framing"
+      },
+      {
+        "question": "What does the Presentation layer in OSI model do?",
+        "options": ["Bit Transmission", "Syntax Translation", "Routing", "Segmenting"],
+        "answer": "Syntax Translation"
+      },
+      {
+        "question": "The Network Interface layer in TCP/IP corresponds to which OSI layers?",
+        "options": ["Physical + Data Link", "Transport + Network", "Application only", "Session + Presentation"],
+        "answer": "Physical + Data Link"
+      },
+      {
+        "question": "Which OSI layer is responsible for IP?",
+        "options": ["Network", "Transport", "Data Link", "Application"],
+        "answer": "Network"
+      },
+      {
+        "question": "What is the main function of Transport layer in OSI?",
+        "options": ["Error Recovery", "Frame Delivery", "Path Selection", "Bit Modulation"],
+        "answer": "Error Recovery"
+      },
+      {
+        "question": "TCP is what type of protocol?",
+        "options": ["Connectionless", "Connection-oriented", "Routing", "Link layer"],
+        "answer": "Connection-oriented"
+      },
+      {
+        "question": "UDP is what type of protocol?",
+        "options": ["Reliable", "Unreliable", "Connection-oriented", "Session based"],
+        "answer": "Unreliable"
+      },
+      {
+        "question": "Which layer handles data encryption in OSI model?",
+        "options": ["Presentation", "Session", "Network", "Transport"],
+        "answer": "Presentation"
+      },
+      {
+        "question": "The Internet layer in TCP/IP is responsible for?",
+        "options": ["Routing", "Fragmentation", "Both A and B", "Dialog Control"],
+        "answer": "Both A and B"
+      },
+      {
+        "question": "Which OSI layer provides user interface to applications?",
+        "options": ["Application layer", "Transport layer", "Network layer", "Physical layer"],
+        "answer": "Application layer"
+      },
+      {
+        "question": "Which two OSI layers are responsible for data transfer?",
+        "options": ["Physical & Data Link", "Network & Session", "Application & Presentation", "Transport & Network"],
+        "answer": "Physical & Data Link"
+      },
+      {
+        "question": "Which layer in TCP/IP corresponds to OSI Network and Transport layers?",
+        "options": ["Internet layer", "Application layer", "Link layer", "None"],
+        "answer": "Internet layer"
+      },
+      {
+        "question": "Which OSI layer establishes and terminates sessions?",
+        "options": ["Session layer", "Transport layer", "Presentation layer", "Network layer"],
+        "answer": "Session layer"
+      },
+      {
+        "question": "Which TCP/IP layer manages end-to-end data delivery?",
+        "options": ["Transport layer", "Network layer", "Application layer", "Link layer"],
+        "answer": "Transport layer"
+      },
+      {
+        "question": "Which OSI layer converts segments to packets?",
+        "options": ["Network layer", "Transport layer", "Data link layer", "Application layer"],
+        "answer": "Network layer"
+      },
+      {
+        "question": "Which TCP/IP layer converts frames into bits?",
+        "options": ["Link layer", "Transport layer", "Internet layer", "Application layer"],
+        "answer": "Link layer"
+      },
+      {
+        "question": "Which OSI layer provides flow control and error control?",
+        "options": ["Transport layer", "Network layer", "Physical layer", "Application layer"],
+        "answer": "Transport layer"
+      },
+      {
+        "question": "Which TCP/IP layer handles packet switching?",
+        "options": ["Internet layer", "Application layer", "Transport layer", "Link layer"],
+        "answer": "Internet layer"
+      },
+      {
+        "question": "Which two layers are aligned in both OSI and TCP/IP models?",
+        "options": ["Transport", "All layers", "None", "Physical only"],
+        "answer": "Transport"
+      },
+      {
+        "question": "Which technology belongs to Data Link layer?",
+        "options": ["Ethernet", "TCP", "HTTP", "FTP"],
+        "answer": "Ethernet"
+      },
+      {
+        "question": "Which of the following is not part of TCP/IP Application layer?",
+        "options": ["SMTP", "DNS", "IP", "HTTP"],
+        "answer": "IP"
+      },
+      {
+        "question": "Which OSI layer handles flow control?",
+        "options": ["Transport", "Physical", "Network", "Data Link"],
+        "answer": "Transport"
+      },
+      {
+        "question": "Which layer handles fragmentation in TCP/IP model?",
+        "options": ["Internet layer", "Physical layer", "Application layer", "Transport layer"],
+        "answer": "Internet layer"
+      },
+      {
+        "question": "Header + Payload + Trailer forms what?",
+        "options": ["Data Frame", "Packet", "Segment", "Bit"],
+        "answer": "Data Frame"
+      },
+      {
+        "question": "What does TCP use to improve transmission efficiency?",
+        "options": ["Flow Control", "Static IP", "Broadcast", "Path Selection"],
+        "answer": "Flow Control"
+      },
+      {
+        "question": "Which OSI layer is responsible for electric signals?",
+        "options": ["Physical layer", "Presentation layer", "Session layer", "Network layer"],
+        "answer": "Physical layer"
+      },
+      {
+        "question": "Which TCP/IP layer interacts with applications directly?",
+        "options": ["Application layer", "Internet layer", "Link layer", "Transport layer"],
+        "answer": "Application layer"
+      },
+      {
+        "question": "Main function of Session layer in OSI?",
+        "options": ["Session control", "Packet Routing", "Frame Construction", "Bit Transmission"],
+        "answer": "Session control"
+      },
+      {
+        "question": "In TCP/IP, where is OSI Presentation layer handled?",
+        "options": ["Application layer", "Transport layer", "Internet layer", "Link layer"],
+        "answer": "Application layer"
+      },
+      {
+        "question": "Which TCP/IP layer handles datagrams?",
+        "options": ["Internet layer", "Link layer", "Application layer", "Transport layer"],
+        "answer": "Internet layer"
+      },
+      {
+        "question": "Which OSI layer does encryption and compression?",
+        "options": ["Presentation layer", "Application layer", "Transport layer", "Network layer"],
+        "answer": "Presentation layer"
+      },
+      {
+        "question": "Which layer ensures reliable delivery in TCP/IP model?",
+        "options": ["Transport layer", "Internet layer", "Application layer", "Link layer"],
+        "answer": "Transport layer"
+      },
+      {
+        "question": "Which TCP/IP layer uses port numbers?",
+        "options": ["Transport layer", "Internet layer", "Link layer", "Application layer"],
+        "answer": "Transport layer"
+      },
+      {
+        "question": "Which OSI layer handles physical addressing?",
+        "options": ["Data Link", "Network", "Transport", "Application"],
+        "answer": "Data Link"
+      },
+      {
+        "question": "Which TCP/IP layer handles encryption?",
+        "options": ["Application layer", "Link layer", "Internet layer", "Transport layer"],
+        "answer": "Application layer"
+      },
+      {
+        "question": "Which OSI layer adds headers?",
+        "options": ["All except Physical", "Physical only", "Application only", "Data Link only"],
+        "answer": "All except Physical"
+      },
+      {
+        "question": "What is the encapsulation order in TCP/IP?",
+        "options": ["Data → Segment → Packet → Frame → Bits", "Frame → Packet → Segment → Data", "Bits → Frame → Packet", "Packet → Data → Bits"],
+        "answer": "Data → Segment → Packet → Frame → Bits"
+      },
+      {
+        "question": "Which OSI layer includes acknowledgments?",
+        "options": ["Transport layer", "Session layer", "Application layer", "Network layer"],
+        "answer": "Transport layer"
+      },
+      {
+        "question": "Which TCP/IP layer supports multiple applications?",
+        "options": ["Application layer", "Internet layer", "Link layer", "Transport layer"],
+        "answer": "Application layer"
+      },
+      {
+        "question": "Which model is more theoretical: OSI or TCP/IP?",
+        "options": ["OSI", "TCP/IP", "Both", "Neither"],
+        "answer": "OSI"
+      },
+      {
+        "question": "Which model has more layers?",
+        "options": ["OSI", "TCP/IP", "Equal", "Depends"],
+        "answer": "OSI"
+      },
+      {
+        "question": "Does every TCP/IP layer use addressing?",
+        "options": ["No", "Yes", "Only Application", "Only Link"],
+        "answer": "No"
+      },
+      {
+        "question": "Which OSI layer detects errors end-to-end?",
+        "options": ["Transport", "Session", "Network", "Physical"],
+        "answer": "Transport"
+      },
+      {
+        "question": "Which layer in TCP/IP breaks data into segments?",
+        "options": ["Transport layer", "Link layer", "Internet layer", "Application layer"],
+        "answer": "Transport layer"
+      },
+      {
+        "question": "Which OSI layer is responsible for logical addressing?",
+        "options": ["Network layer", "Data Link", "Transport", "Physical"],
+        "answer": "Network layer"
+      },
+      {
+        "question": "Which protocols exist in Transport layer of TCP/IP?",
+        "options": ["TCP & UDP", "IP & ARP", "HTTP & SMTP", "Ethernet & Wi-Fi"],
+        "answer": "TCP & UDP"
+      },
+      {
+        "question": "OSI Session layer is handled by which TCP/IP layer?",
+        "options": ["Application layer", "Transport layer", "Internet layer", "Link layer"],
+        "answer": "Application layer"
+      },
+      {
+        "question": "In OSI, which layer performs fragmentation?",
+        "options": ["Network layer", "Transport layer", "Data Link layer", "Physical layer"],
+        "answer": "Network layer"
+      },
+      {
+        "question": "Which OSI layer makes routing decisions?",
+        "options": ["Network layer", "Transport layer", "Session layer", "Application layer"],
+        "answer": "Network layer"
+      },
+      {
+        "question": "How does TCP/IP encapsulate data?",
+        "options": ["Layer-wise", "Protocol-wise", "Single block", "No encapsulation"],
+        "answer": "Layer-wise"
+      },
+      {
+        "question": "Which OSI layer does segmentation?",
+        "options": ["Transport layer", "Physical layer", "Network layer", "Application layer"],
+        "answer": "Transport layer"
+      },
+      {
+        "question": "Which TCP/IP layer is responsible for bit-level transmission?",
+        "options": ["Link layer", "Internet layer", "Transport layer", "Application layer"],
+        "answer": "Link layer"
+      }
+
+        ]
+      },
+      "functions" : {
+        "title": "Networking Devices",
+        "questions": [
+                {"question": "Which device amplifies digital signals to extend network range?", "options": ["Repeater", "Router", "Switch", "Hub"], "answer": "Repeater"},
+      {"question": "Which device forwards packets between different networks based on IP?", "options": ["Bridge", "Router", "Switch", "Modem"], "answer": "Router"},
+      {"question": "Which device connects multiple devices in a LAN and sends data to all ports?", "options": ["Hub", "Switch", "Router", "Repeater"], "answer": "Hub"},
+      {"question": "Which device sends data only to the intended device using MAC addresses?", "options": ["Router", "Hub", "Switch", "Modem"], "answer": "Switch"},
+      {"question": "Which device connects a local network to the internet via telephone lines?", "options": ["Switch", "Modem", "Router", "Hub"], "answer": "Modem"},
+      {"question": "Which device converts analog signals to digital?", "options": ["Multiplexer", "Bridge", "Modem", "Repeater"], "answer": "Modem"},
+      {"question": "Which device breaks down collision domains but not broadcast domains?", "options": ["Router", "Switch", "Hub", "Bridge"], "answer": "Switch"},
+      {"question": "Which device isolates broadcast domains?", "options": ["Bridge", "Switch", "Router", "Hub"], "answer": "Router"},
+      {"question": "Which device filters traffic at layer 2 using MAC addresses?", "options": ["Router", "Bridge", "Modem", "Repeater"], "answer": "Bridge"},
+      {"question": "Which device regenerates analog or digital signals?", "options": ["Switch", "Repeater", "Router", "Modem"], "answer": "Repeater"},
+      {"question": "Which device operates at OSI Physical layer and is simplest?", "options": ["Bridge", "Router", "Hub", "Switch"], "answer": "Hub"},
+      {"question": "Which device uses port numbers to direct traffic?", "options": ["Repeater", "Router", "Layer 3 Switch", "Bridge"], "answer": "Layer 3 Switch"},
+      {"question": "Which device segments a network into collision domains?", "options": ["Repeater", "Switch", "Router", "Hub"], "answer": "Switch"},
+      {"question": "Which device segments a network into broadcast domains?", "options": ["Router", "Switch", "Repeater", "Hub"], "answer": "Router"},
+      {"question": "Which device connects multiple networks and chooses best path?", "options": ["Bridge", "Hub", "Switch", "Router"], "answer": "Router"},
+      {"question": "Which device can function as both hub and switch?", "options": ["Layer 3 switch", "Smart switch", "Bridging hub", "Repeater"], "answer": "Smart switch"},
+      {"question": "Which device provides network address translation (NAT)?", "options": ["Router", "Switch", "Bridge", "Repeater"], "answer": "Router"},
+      {"question": "Which device is used to create VLANs?", "options": ["Router", "Layer 2 Switch", "Bridge", "Hub"], "answer": "Layer 2 Switch"},
+      {"question": "Which device is best for wireless networks?", "options": ["Router", "Switch", "Wireless Access Point", "Repeater"], "answer": "Wireless Access Point"},
+      {"question": "Which device extends wireless network coverage?", "options": ["Ethernet Cable", "Router", "Wireless Repeater", "Switch"], "answer": "Wireless Repeater"},
+      {"question": "Which device provides DHCP services for IP assignment?", "options": ["Router", "Hub", "Repeater", "Bridge"], "answer": "Router"},
+      {"question": "Which device routes VoIP traffic efficiently?", "options": ["Bridge", "Hub", "VoIP Gateway", "Router"], "answer": "VoIP Gateway"},
+      {"question": "Which device is used to connect two LAN segments with different protocols?", "options": ["Gateway", "Bridge", "Switch", "Router"], "answer": "Gateway"},
+      {"question": "Which device filters traffic using IP and port?", "options": ["Firewall", "Switch", "Repeater", "Modem"], "answer": "Firewall"},
+      {"question": "Which device inspects packets and blocks threats?", "options": ["Router", "IDS", "IPS", "Hub"], "answer": "IPS"},
+      {"question": "Which device functions as network translator between dissimilar networks?", "options": ["Modem", "Bridge", "Gateway", "Switch"], "answer": "Gateway"},
+      {"question": "Which device provides power to PoE devices?", "options": ["PoE Switch", "Router", "Bridge", "Repeater"], "answer": "PoE Switch"},
+      {"question": "Which device manages wireless network SSID and authentication?", "options": ["Router", "Wireless Controller", "Firewall", "Bridge"], "answer": "Wireless Controller"},
+      {"question": "Which device uses MAC tables to forward frames?", "options": ["Switch", "Router", "Hub", "Modem"], "answer": "Switch"},
+      {"question": "Which device connects two network segments that use the same protocol?", "options": ["Bridge", "Hub", "Router", "Modem"], "answer": "Bridge"},
+      {"question": "Which device performs network address and port translation?", "options": ["Router", "Switch", "Bridge", "Hub"], "answer": "Router"},
+      {"question": "Which device routes traffic based on destination logically?", "options": ["Switch", "Router", "Hub", "Access Point"], "answer": "Router"},
+      {"question": "Which switch type allows VLAN trunking?", "options": ["Managed Switch", "Unmanaged Switch", "Hub", "Bridge"], "answer": "Managed Switch"},
+      {"question": "Which device is a multiport bridge?", "options": ["Hub", "Switch", "Router", "Modem"], "answer": "Switch"},
+      {"question": "Which device provides caching for network performance?", "options": ["Proxy Server", "Router", "Bridge", "Hub"], "answer": "Proxy Server"},
+      {"question": "Which device is used between WAN and LAN?", "options": ["Repeater", "Switch", "Router", "Hub"], "answer": "Router"},
+      {"question": "Which device dynamically learns MAC addresses?", "options": ["Router", "Switch", "Hub", "Modem"], "answer": "Switch"},
+      {"question": "Which device aggregates multiple links?", "options": ["Load Balancer", "Switch", "Hub", "Bridge"], "answer": "Load Balancer"},
+      {"question": "Which device handles SSL decryption for secure web traffic?", "options": ["SSL Offloader", "Router", "Switch", "Modem"], "answer": "SSL Offloader"},
+      {"question": "Which device is used to simulate or test networks?", "options": ["Tap", "Hub", "Modem", "Ethernet Cable"], "answer": "Tap"},
+      {"question": "Which device adds headers for encapsulation?", "options": ["Router", "Switch", "Bridge", "Hub"], "answer": "Router"},
+      {"question": "Which device inspects and filters traffic using application rules?", "options": ["Application Firewall", "Switch", "Repeater", "Modem"], "answer": "Application Firewall"},
+      {"question": "Which device connects virtual networks in cloud architectures?", "options": ["Virtual Switch", "Router", "Hub", "Bridge"], "answer": "Virtual Switch"},
+      {"question": "Which device removes collisions in Ethernet?", "options": ["Hub", "Repeater", "Switch", "Bridge"], "answer": "Switch"},
+      {"question": "Which device limits broadcast traffic?", "options": ["Router", "Switch", "Hub", "Repeater"], "answer": "Router"},
+      {"question": "Which device handles dynamic routing protocols?", "options": ["Router", "Switch", "Bridge", "Hub"], "answer": "Router"},
+      {"question": "Which device splits high-speed fiber into multiple ports?", "options": ["Fiber Switch", "Hub", "Bridge", "Modem"], "answer": "Fiber Switch"},
+      {"question": "Which device inspects traffic without impacting path?", "options": ["Network Tap", "Router", "Switch", "Hub"], "answer": "Network Tap"},
+      {"question": "Which device centralizes wireless APs in campuses?", "options": ["Wireless Controller", "Router", "Switch", "Bridge"], "answer": "Wireless Controller"},
+      {"question": "Which device minimizes latency using caching?", "options": ["CDN Node", "Router", "Switch", "Repeater"], "answer": "CDN Node"},
+      {"question": "Which device protects LAN from external threats?", "options": ["Firewall", "Switch", "Router", "Hub"], "answer": "Firewall"},
+      {"question": "Which device is also called a Layer 4 switch?", "options": ["Multilayer Switch", "Router", "Hub", "Bridge"], "answer": "Multilayer Switch"},
+      {"question": "Which device operates at OSI layer 7?", "options": ["Application Firewall", "Switch", "Router", "Hub"], "answer": "Application Firewall"},
+      {"question": "Which device provides VPN termination?", "options": ["VPN Gateway", "Switch", "Router", "Modem"], "answer": "VPN Gateway"},
+      {"question": "Which device hides internal structure from external oversight?", "options": ["Proxy Server", "Switch", "Hub", "Modem"], "answer": "Proxy Server"},
+      {"question": "Which device balances outgoing DNS queries?", "options": ["DNS Load Balancer", "Switch", "Router", "Hub"], "answer": "DNS Load Balancer"},
+      {"question": "Which device inspects and filters DNS traffic?", "options": ["DNS Firewall", "Router", "Switch", "Firewall"], "answer": "DNS Firewall"},
+      {"question": "Which device functions as broadcast domain boundary?", "options": ["Router", "Hub", "Switch", "Bridge"], "answer": "Router"},
+      {"question": "Which device forwards traffic based on port and VLAN?", "options": ["Layer 3 Switch", "Router", "Hub", "Modem"], "answer": "Layer 3 Switch"},
+      {"question": "Which device decapsulates and recapsulates VPN traffic?", "options": ["VPN Concentrator", "Router", "Switch", "MODem"], "answer": "VPN Concentrator"},
+      {"question": "Which device functions primarily at layer 2?", "options": ["Bridge", "Router", "Firewall", "VPN Concentrator"], "answer": "Bridge"},
+      {"question": "Which device is considered 'dumb' and simple?", "options": ["Hub", "Router", "Switch", "Bridge"], "answer": "Hub"},
+      {"question": "Which device makes forwarding decisions based on MAC address lookups?", "options": ["Switch", "Router", "Hub", "Modem"], "answer": "Switch"},
+      {"question": "Which device uses ARP to communicate on local networks?", "options": ["Router", "Switch", "Hub", "Modem"], "answer": "Router"},
+      {"question": "Which device can police traffic to limit rates?", "options": ["Managed Switch", "Hub", "Router", "Modem"], "answer": "Managed Switch"},
+      {"question": "Which device allows for remote network management via SNMP?", "options": ["Managed Switch", "Router", "Hub", "Modem"], "answer": "Managed Switch"},
+      {"question": "Which device isolates VLANs without a router?", "options": ["Layer 3 Switch", "Bridge", "Hub", "Modem"], "answer": "Layer 3 Switch"},
+      {"question": "Which device sends power and data together over Ethernet?", "options": ["PoE Switch", "Hub", "Bridge", "Router"], "answer": "PoE Switch"},
+      {"question": "Which device is virtual and runs in hypervisors?", "options": ["Virtual Router", "Switch", "Hub", "Bridge"], "answer": "Virtual Router"},
+      {"question": "Which device monitors and logs network activity passively?", "options": ["Network Tap", "Router", "Switch", "Hub"], "answer": "Network Tap"},
+      {"question": "Which device connects nodes at the physical layer?", "options": ["Hub", "Router", "Switch", "Bridge"], "answer": "Hub"},
+      {"question": "Which device routes voice traffic between IP networks?", "options": ["VoIP Gateway", "Hub", "Switch", "Modem"], "answer": "VoIP Gateway"},
+      {"question": "Which device is essential for VoIP endpoint management?", "options": ["Media Controller", "Hub", "Switch", "Router"], "answer": "Media Controller"},
+      {"question": "Which device enhances WAN performance using compression?", "options": ["WAN Optimizer", "Readapter", "Bridge", "Hub"], "answer": "WAN Optimizer"},
+      {"question": "Which device isolates faulty segments via microsegmentation?", "options": ["Switch", "Router", "Bridge", "Hub"], "answer": "Switch"},
+      {"question": "Which device synchronizes network clocks?", "options": ["NTP Appliance", "Switch", "Router", "Hub"], "answer": "NTP Appliance"},
+      {"question": "Which device distributes backup power to network devices?", "options": ["UPS", "Hub", "Switch", "Router"], "answer": "UPS"},
+      {"question": "Which device is a dedicated firewall box?", "options": ["UTM Appliance", "Switch", "Router", "Hub"], "answer": "UTM Appliance"},
+      {"question": "Which device can control and inspect encrypted traffic?", "options": ["SSL/TLS Inspection Appliance", "Hub", "Switch", "Router"], "answer": "SSL/TLS Inspection Appliance"},
+      {"question": "Which device prevents unauthorized USB use on networked PCs?", "options": ["USB Firewall", "Hub", "Switch", "Router"], "answer": "USB Firewall"},
+      {"question": "Which device handles DPI for detecting payload-level threats?", "options": ["DPI Firewall", "Switch", "Router", "Hub"], "answer": "DPI Firewall"},
+      {"question": "Which device can segment intrusion detection into VLANs?", "options": ["IDS Sensor", "Hub", "Switch", "Router"], "answer": "IDS Sensor"},
+      {"question": "Which device links fiber to copper Ethernet?", "options": ["Media Converter", "Bridge", "Router", "Hub"], "answer": "Media Converter"},
+      {"question": "Which device aggregates WAN links for load balancing?", "options": ["WAN Aggregator", "Router", "Switch", "Hub"], "answer": "WAN Aggregator"},
+      {"question": "Which device provides endpoint bypass during failures?", "options": ["Network Bypass Switch", "Router", "Switch", "Hub"], "answer": "Network Bypass Switch"},
+      {"question": "Which device provides user-friendly web-based network management?", "options": ["Smart Switch", "Hub", "Switch", "Router"], "answer": "Smart Switch"}
+        ]
+      },
+      "charts" : {
+        "title": "Transmission Media",
+        "questions": [
+                  {"question": "Which of the following is a guided transmission medium?", "options": ["Air", "Coaxial cable", "Infrared", "Radio waves"], "answer": "Coaxial cable"},
+      {"question": "Which transmission medium uses light pulses?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "Microwave"], "answer": "Fiber optic"},
+      {"question": "What is the main disadvantage of unshielded twisted pair (UTP)?", "options": ["High cost", "Electromagnetic interference", "Short reach", "Low bandwidth"], "answer": "Electromagnetic interference"},
+      {"question": "Which medium provides the highest bandwidth?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "Radio waves"], "answer": "Fiber optic"},
+      {"question": "Which of the following is an unguided medium?", "options": ["Coaxial cable", "Fiber optic", "Twisted pair", "Radio waves"], "answer": "Radio waves"},
+      {"question": "Which medium is most susceptible to eavesdropping?", "options": ["Fiber optic", "Twisted pair", "Coaxial cable", "Air"], "answer": "Twisted pair"},
+      {"question": "What is the characteristic impedance of typical coaxial cable?", "options": ["50 Ω", "75 Ω", "100 Ω", "600 Ω"], "answer": "75 Ω"},
+      {"question": "Which of these uses total internal reflection?", "options": ["UTP", "Coaxial cable", "Fiber optic", "Microwave"], "answer": "Fiber optic"},
+      {"question": "Which medium supports long-distance, high-speed data?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "Infrared"], "answer": "Fiber optic"},
+      {"question": "Which medium uses copper conductor?", "options": ["Fiber optic", "Twisted pair", "Infrared", "Microwave"], "answer": "Twisted pair"},
+      {"question": "Which medium is commonly used for telephone lines?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "Radio"], "answer": "Twisted pair"},
+      {"question": "Microwave transmission requires:", "options": ["Line of sight", "Fiber cable", "Grounding", "Shielding"], "answer": "Line of sight"},
+      {"question": "Radio waves can pass through:", "options": ["Walls", "Only air", "Only vacuum", "Metal"], "answer": "Walls"},
+      {"question": "Infrared transmission is typically used for:", "options": ["Remote controls", "Long-haul data links", "Underwater communication", "Satellite links"], "answer": "Remote controls"},
+      {"question": "Which guided medium is best for high noise environments?", "options": ["UTP", "Coaxial cable", "Fiber optic", "Microwave"], "answer": "Fiber optic"},
+      {"question": "Attenuation refers to:", "options": ["Signal loss over distance", "Signal amplification", "Signal delay", "Signal reflection"], "answer": "Signal loss over distance"},
+      {"question": "Which medium uses light but cannot pass through bends easily?", "options": ["UTP", "Graded-index fiber", "Coaxial cable", "Microwave"], "answer": "Graded-index fiber"},
+      {"question": "Which medium is best for underwater communication?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "Infrared"], "answer": "Fiber optic"},
+      {"question": "Which medium has the least electromagnetic interference?", "options": ["Fiber optic", "Coaxial cable", "Twisted pair", "Radio"], "answer": "Fiber optic"},
+      {"question": "Which medium is cheapest per foot?", "options": ["Fiber optic", "UTP", "Coaxial cable", "Microwave"], "answer": "UTP"},
+      {"question": "Multiplexing is commonly used with:", "options": ["Fiber optic", "Twisted pair", "Radio", "All above"], "answer": "All above"},
+      {"question": "Which medium uses a conductor surrounded by insulating material?", "options": ["UTP", "Coaxial cable", "Fiber optic", "Microwave"], "answer": "Coaxial cable"},
+      {"question": "Which medium is immune to lightning?", "options": ["Coaxial cable", "Fiber optic", "Twisted pair", "Radio waves"], "answer": "Fiber optic"},
+      {"question": "Which medium is most flexible and easy to install?", "options": ["Fiber optic", "Twisted pair", "Coaxial cable", "Satellite"], "answer": "Twisted pair"},
+      {"question": "Which medium provides both data and voice in local networks?", "options": ["Twisted pair", "Fiber optic", "Radio", "Infrared"], "answer": "Twisted pair"},
+      {"question": "GaAs laser is used in which medium?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "Radio"], "answer": "Fiber optic"},
+      {"question": "Which medium supports immune to EMI and RFI?", "options": ["Coaxial cable", "Fiber optic", "UTP", "Hub"], "answer": "Fiber optic"},
+      {"question": "Which medium’s signal degrades fastest over distance?", "options": ["Fiber optic", "Twisted pair", "Coaxial cable", "Microwave"], "answer": "Twisted pair"},
+      {"question": "Signal reflection is a major issue in:", "options": ["Fiber optic", "Coaxial cable", "UTP", "Air"], "answer": "Coaxial cable"},
+      {"question": "Which unguided medium is used for satellite communication?", "options": ["Infrared", "Microwave", "Fiber optic", "Twisted pair"], "answer": "Microwave"},
+         {"question": "Which transmission medium is most secure from tapping?", "options": ["Coaxial cable", "Fiber optic", "UTP", "Microwave"], "answer": "Fiber optic"},
+      {"question": "Which of the following is not a guided medium?", "options": ["Twisted pair", "Microwave", "Coaxial cable", "Fiber optic"], "answer": "Microwave"},
+      {"question": "What is the maximum data rate of Cat5e cable?", "options": ["10 Mbps", "100 Mbps", "1 Gbps", "10 Gbps"], "answer": "1 Gbps"},
+      {"question": "What is the maximum segment length for UTP Ethernet without repeaters?", "options": ["50m", "100m", "500m", "1km"], "answer": "100m"},
+      {"question": "Which medium is used in TV cable networks?", "options": ["Twisted pair", "Fiber optic", "Coaxial cable", "Microwave"], "answer": "Coaxial cable"},
+      {"question": "What type of cable is most commonly used in LANs?", "options": ["Fiber optic", "Coaxial cable", "Twisted pair", "Microwave"], "answer": "Twisted pair"},
+      {"question": "In fiber optic cables, the core is surrounded by what?", "options": ["Plastic jacket", "Cladding", "Copper mesh", "Shield"], "answer": "Cladding"},
+      {"question": "Infrared signals require:", "options": ["Line of sight", "Submarine cables", "Shielding", "Coaxial cable"], "answer": "Line of sight"},
+      {"question": "Microwave signals travel in:", "options": ["Ground waves", "Sky waves", "Straight line", "Reflected wave"], "answer": "Straight line"},
+      {"question": "Which category of UTP supports 10 Gbps?", "options": ["Cat5", "Cat5e", "Cat6", "Cat7"], "answer": "Cat6"},
+      {"question": "What is crosstalk in twisted pair cables?", "options": ["Reflection of light", "Signal interference between pairs", "Electrical short", "Signal attenuation"], "answer": "Signal interference between pairs"},
+      {"question": "Which cable type is commonly used in CCTV?", "options": ["UTP", "Fiber optic", "Coaxial cable", "Microwave"], "answer": "Coaxial cable"},
+      {"question": "Which wireless medium is suitable for short-range communication?", "options": ["Radio waves", "Microwave", "Infrared", "Fiber optic"], "answer": "Infrared"},
+      {"question": "Which type of fiber allows multiple light paths?", "options": ["Single-mode", "Multi-mode", "Hybrid", "Step-index"], "answer": "Multi-mode"},
+      {"question": "Which medium is the most expensive?", "options": ["Coaxial cable", "Twisted pair", "Fiber optic", "Infrared"], "answer": "Fiber optic"},
+      {"question": "Which frequency range is used in microwave communication?", "options": ["300 Hz to 3 kHz", "3 MHz to 30 MHz", "300 MHz to 300 GHz", "30 kHz to 300 kHz"], "answer": "300 MHz to 300 GHz"},
+      {"question": "What is the typical core size of single-mode fiber?", "options": ["50 microns", "9 microns", "100 microns", "200 microns"], "answer": "9 microns"},
+      {"question": "Which medium is most affected by rain?", "options": ["Infrared", "Fiber optic", "Microwave", "UTP"], "answer": "Microwave"},
+      {"question": "What type of signal is used in radio transmission?", "options": ["Digital", "Analog", "Binary", "Optical"], "answer": "Analog"},
+      {"question": "Which of the following cables is least flexible?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "All are flexible"], "answer": "Fiber optic"},
+      {"question": "Which medium supports the longest transmission without repeaters?", "options": ["UTP", "Coaxial cable", "Fiber optic", "Radio"], "answer": "Fiber optic"},
+      {"question": "Which wireless medium is best for mobile devices?", "options": ["Microwave", "Infrared", "Radio waves", "Satellite"], "answer": "Radio waves"},
+      {"question": "Which part of fiber optic guides light within the cable?", "options": ["Sheath", "Core", "Cladding", "Jacket"], "answer": "Core"},
+      {"question": "Which medium requires modulation and demodulation?", "options": ["Twisted pair", "Fiber optic", "Modem with copper wire", "Satellite link"], "answer": "Modem with copper wire"},
+      {"question": "Which medium has the highest attenuation?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "Microwave"], "answer": "Twisted pair"},
+      {"question": "Twisted pair cables are twisted to:", "options": ["Reduce noise", "Make flexible", "Enhance length", "Reduce cost"], "answer": "Reduce noise"},
+      {"question": "Which cable type is most commonly used in backbone networks?", "options": ["Twisted pair", "Coaxial cable", "Fiber optic", "Infrared"], "answer": "Fiber optic"},
+      {"question": "Microwave antennas are usually:", "options": ["Directional", "Omni-directional", "Fiber based", "Short range"], "answer": "Directional"},
+      {"question": "Which medium allows bidirectional transmission?", "options": ["Twisted pair", "Fiber optic", "Coaxial", "All of these"], "answer": "All of these"},
+      {"question": "Which UTP category supports frequencies up to 100 MHz?", "options": ["Cat3", "Cat5", "Cat6", "Cat7"], "answer": "Cat5"},
+       {"question": "Which type of fiber has the smallest core diameter?", "options": ["Single-mode", "Multi-mode", "Plastic fiber", "Loose tube"], "answer": "Single-mode"},
+      {"question": "What type of wave is used in microwave transmission?", "options": ["Transverse", "Radio", "Electromagnetic", "Longitudinal"], "answer": "Electromagnetic"},
+      {"question": "Satellite communication typically uses which frequency band?", "options": ["VHF", "UHF", "C-band", "HF"], "answer": "C-band"},
+      {"question": "Which transmission medium is commonly used in WANs?", "options": ["Twisted pair", "Microwave", "Infrared", "Wi-Fi"], "answer": "Microwave"},
+      {"question": "Which of the following is an advantage of coaxial cable?", "options": ["Low bandwidth", "High attenuation", "Less noise", "Expensive"], "answer": "Less noise"},
+      {"question": "Which of the following is not a characteristic of fiber optics?", "options": ["Uses light signals", "High bandwidth", "Easily tapped", "Immune to EMI"], "answer": "Easily tapped"},
+      {"question": "What is the main disadvantage of microwave transmission?", "options": ["Slow speed", "High cost", "Line-of-sight required", "Low bandwidth"], "answer": "Line-of-sight required"},
+      {"question": "Infrared communication works in which range?", "options": ["Radio", "Visible light", "Ultraviolet", "Just below visible light"], "answer": "Just below visible light"},
+      {"question": "Which medium is affected by environmental factors like rain or fog?", "options": ["Fiber optic", "Coaxial", "Microwave", "UTP"], "answer": "Microwave"},
+      {"question": "Which device is used to convert electrical signals to light signals?", "options": ["Modem", "Converter", "Transceiver", "Light source"], "answer": "Transceiver"},
+      {"question": "The light signal in fiber optics is usually generated by:", "options": ["LED or Laser", "Incandescent bulb", "Electromagnet", "Solar panel"], "answer": "LED or Laser"},
+      {"question": "The outer layer in a coaxial cable is called:", "options": ["Core", "Shield", "Cladding", "Sheath"], "answer": "Sheath"},
+      {"question": "Which medium is not affected by electromagnetic interference?", "options": ["Twisted pair", "Microwave", "Coaxial cable", "Fiber optic"], "answer": "Fiber optic"},
+      {"question": "Which fiber type supports longer transmission distances?", "options": ["Multi-mode", "Plastic", "Single-mode", "Hybrid"], "answer": "Single-mode"},
+      {"question": "Which layer of the OSI model is most concerned with media?", "options": ["Application", "Network", "Transport", "Physical"], "answer": "Physical"},
+      {"question": "Which fiber optic cable is best for short-distance LAN?", "options": ["Single-mode", "Multi-mode", "Plastic optical fiber", "Loose-tube"], "answer": "Multi-mode"},
+      {"question": "What is the function of cladding in fiber optics?", "options": ["To transmit light", "To reflect light back", "To block interference", "To generate light"], "answer": "To reflect light back"},
+      {"question": "What is the basic unit of data transmission?", "options": ["Byte", "Bit", "Packet", "Signal"], "answer": "Bit"},
+      {"question": "Which medium has the highest data carrying capacity?", "options": ["Radio", "Microwave", "Fiber optic", "Twisted pair"], "answer": "Fiber optic"},
+      {"question": "Which guided media is most resistant to corrosion?", "options": ["Copper cable", "Fiber optic", "Coaxial cable", "Shielded cable"], "answer": "Fiber optic"},
+      {"question": "Which category of cable is used for Gigabit Ethernet?", "options": ["Cat5", "Cat5e", "Cat3", "Cat4"], "answer": "Cat5e"},
+      {"question": "Which medium is suitable for inter-building communication?", "options": ["Wi-Fi", "Fiber optic", "Twisted pair", "Infrared"], "answer": "Fiber optic"},
+      {"question": "Which type of interference occurs when nearby wires cause noise?", "options": ["EMI", "RFI", "Crosstalk", "Reflection"], "answer": "Crosstalk"},
+      {"question": "Which media uses electromagnetic spectrum?", "options": ["Twisted pair", "Fiber optic", "Coaxial", "Microwave"], "answer": "Microwave"},
+      {"question": "Which of the following is not a transmission medium?", "options": ["Air", "Vacuum", "Copper wire", "Modem"], "answer": "Modem"},
+      {"question": "Which signal type is used in coaxial cables?", "options": ["Light", "Analog", "Radio", "Infrared"], "answer": "Analog"},
+      {"question": "Which cable type is most flexible physically?", "options": ["Fiber optic", "Thick coaxial", "UTP", "STP"], "answer": "UTP"},
+      {"question": "Which media supports total internal reflection?", "options": ["UTP", "STP", "Coaxial", "Fiber optic"], "answer": "Fiber optic"},
+      {"question": "The acronym EMI stands for:", "options": ["Electric Magnetic Interference", "Electromagnetic Interface", "Electromagnetic Interference", "Electronic Magnetic Interference"], "answer": "Electromagnetic Interference"},
+      {"question": "Which medium needs a satellite dish for communication?", "options": ["Microwave", "Infrared", "Fiber optic", "UTP"], "answer": "Microwave"},
+      {"question": "Which wireless medium has the shortest range?", "options": ["Radio", "Microwave", "Infrared", "Satellite"], "answer": "Infrared"},
+      {"question": "What is the main purpose of shielding in cables?", "options": ["Color coding", "Support", "EMI protection", "Data encoding"], "answer": "EMI protection"},
+      {"question": "The color coding in twisted pair helps with:", "options": ["Signal strength", "Cable management", "Speed", "Interference"], "answer": "Cable management"},
+      {"question": "In networking, attenuation refers to:", "options": ["Signal loss", "Signal gain", "Signal duplication", "Signal boost"], "answer": "Signal loss"},
+      {"question": "Which medium is used in older cable TV systems?", "options": ["UTP", "Coaxial cable", "Fiber", "STP"], "answer": "Coaxial cable"},
+      {"question": "Which wireless medium requires both sender and receiver to be aligned?", "options": ["Microwave", "Infrared", "Radio", "Satellite"], "answer": "Infrared"},
+      {"question": "Which guided medium is ideal for electrical noise environments?", "options": ["UTP", "STP", "Fiber optic", "Microwave"], "answer": "Fiber optic"},
+      {"question": "The signal in twisted pair is carried by:", "options": ["Light", "Current", "Voltage difference", "Magnetism"], "answer": "Voltage difference"},
+      {"question": "Which medium is used for long-distance telephony?", "options": ["Twisted pair", "Radio", "Fiber optic", "Infrared"], "answer": "Fiber optic"},
+      {"question": "Which of the following supports duplex communication?", "options": ["Twisted pair", "Fiber optic", "Coaxial", "All of these"], "answer": "All of these"}
+    ]
+      },
+      "Protocol" : {
+        "title": "Network Protocols",
+        "questions": [
+  {
+    "question": "What is the primary function of a network protocol?",
+    "options": ["To manage hardware", "To define rules for data communication", "To store data permanently", "To execute programs"],
+    "answer": "To define rules for data communication"
+  },
+  {
+    "question": "Which protocol is used for transferring web pages over the internet?",
+    "options": ["FTP", "HTTP", "SMTP", "DNS"],
+    "answer": "HTTP"
+  },
+  {
+    "question": "What does TCP stand for?",
+    "options": ["Transmission Control Protocol", "Transfer Control Protocol", "Terminal Control Protocol", "Transport Communication Protocol"],
+    "answer": "Transmission Control Protocol"
+  },
+  {
+    "question": "Which protocol is used to send emails?",
+    "options": ["POP3", "SMTP", "IMAP", "HTTP"],
+    "answer": "SMTP"
+  },
+  {
+    "question": "What is the main difference between TCP and UDP?",
+    "options": ["TCP is connectionless, UDP is connection-oriented", "TCP is reliable, UDP is unreliable", "TCP is slower, UDP is volatile", "TCP is used for file transfer, UDP for email"],
+    "answer": "TCP is reliable, UDP is unreliable"
+  },
+  {
+    "question": "Which protocol resolves domain names to IP addresses?",
+    "options": ["DHCP", "DNS", "FTP", "HTTP"],
+    "answer": "DNS"
+  },
+  {
+    "question": "What is the full form of HTTPS?",
+    "options": ["HyperText Transfer Protocol Secure", "HyperText Transmission Protocol Standard", "High Transfer Protocol Secure", "HyperText Transport Protocol Simple"],
+    "answer": "HyperText Transfer Protocol Secure"
+  },
+  {
+    "question": "Which protocol is used for retrieving emails from a mail server?",
+    "options": ["SMTP", "POP3", "FTP", "DHCP"],
+    "answer": "POP3"
+  },
+  {
+    "question": "What is the role of the IP protocol?",
+    "options": ["To transfer files", "To assign addresses and route data packets", "To send emails", "To manage web pages"],
+    "answer": "To assign addresses and route data packets"
+  },
+  {
+    "question": "Which protocol is used for secure file transfer?",
+    "options": ["FTP", "SFTP", "HTTP", "SMTP"],
+    "answer": "SFTP"
+  },
+  {
+    "question": "What does DHCP stand for?",
+    "options": ["Dynamic Host Configuration Protocol", "Direct Host Control Protocol", "Dynamic Hypertext Configuration Protocol", "Domain Host Communication Protocol"],
+    "answer": "Dynamic Host Configuration Protocol"
+  },
+  {
+    "question": "Which protocol allows users to access and manage emails on the server without downloading them?",
+    "options": ["SMTP", "POP3", "IMAP", "FTP"],
+    "answer": "IMAP"
+  },
+  {
+    "question": "Which protocol operates at the transport layer of the TCP/IP model?",
+    "options": ["HTTP", "TCP", "DNS", "IP"],
+    "answer": "TCP"
+  },
+  {
+    "question": "What is the main function of the FTP protocol?",
+    "options": ["To send emails", "To transfer files between computers", "To resolve domain names", "To manage network connections"],
+    "answer": "To transfer files between computers"
+  },
+  {
+    "question": "Which protocol is used for remote login to a server?",
+    "options": ["Telnet", "HTTP", "SMTP", "DNS"],
+    "answer": "Telnet"
+  },
+  {
+    "question": "What is the secure version of Telnet?",
+    "options": ["FTP", "SSH", "HTTP", "POP3"],
+    "answer": "SSH"
+  },
+  {
+    "question": "Which protocol is responsible for assigning IP addresses dynamically?",
+    "options": ["DNS", "DHCP", "FTP", "HTTP"],
+    "answer": "DHCP"
+  },
+  {
+    "question": "Which protocol is used for voice communication over the internet?",
+    "options": ["VoIP", "FTP", "SMTP", "DNS"],
+    "answer": "VoIP"
+  },
+  {
+    "question": "What is the main advantage of HTTPS over HTTP?",
+    "options": ["Faster speed", "Larger data transfer", "Encryption for security", "Simpler implementation"],
+    "answer": "Encryption for security"
+  },
+  {
+    "question": "Which protocol operates at the application layer of the OSI model?",
+    "options": ["TCP", "IP", "HTTP", "UDP"],
+    "answer": "HTTP"
+  },
+  {
+    "question": "What does ICMP stand for?",
+    "options": ["Internet Control Message Protocol", "Internal Communication Message Protocol", "Internet Communication Management Protocol", "Integrated Control Message Protocol"],
+    "answer": "Internet Control Message Protocol"
+  },
+  {
+    "question": "Which protocol is used to manage network devices and gather statistics?",
+    "options": ["SNMP", "FTP", "HTTP", "IMAP"],
+    "answer": "SNMP"
+  },
+  {
+    "question": "What is the primary purpose of the ARP protocol?",
+    "options": ["To resolve IP addresses to MAC addresses", "To transfer files", "To send emails", "To manage web pages"],
+    "answer": "To resolve IP addresses to MAC addresses"
+  },
+  {
+    "question": "Which protocol is used for secure web transactions?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "What does the term 'port' refer to in networking?",
+    "options": ["A physical connection point", "A logical endpoint for communication", "A type of cable", "A network device"],
+    "answer": "A logical endpoint for communication"
+  },
+  {
+    "question": "Which protocol is used to synchronize clocks across network devices?",
+    "options": ["NTP", "SNMP", "DHCP", "FTP"],
+    "answer": "NTP"
+  },
+  {
+    "question": "What is the main function of the SSL/TLS protocol?",
+    "options": ["To encrypt data in transit", "To manage IP addresses", "To transfer files securely", "To send emails"],
+    "answer": "To encrypt data in transit"
+  },
+  {
+    "question": "Which protocol ensures reliable data delivery in a network?",
+    "options": ["UDP", "TCP", "FTP", "DNS"],
+    "answer": "TCP"
+  },
+  {
+    "question": "What is the main purpose of the DNS protocol?",
+    "options": ["To transfer files", "To resolve domain names to IP addresses", "To send emails", "To manage network traffic"],
+    "answer": "To resolve domain names to IP addresses"
+  },
+  {
+    "question": "Which protocol is used to securely access a remote server?",
+    "options": ["Telnet", "FTP", "SSH", "SMTP"],
+    "answer": "SSH"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": ["HyperText Transport Protocol", "HyperText Transfer Protocol", "High Text Transmission Protocol", "Hyper Terminal Protocol"],
+    "answer": "HyperText Transfer Protocol"
+  },
+  {
+    "question": "Which protocol is used for sending emails from a client to a server?",
+    "options": ["IMAP", "POP3", "SMTP", "HTTP"],
+    "answer": "SMTP"
+  },
+  {
+    "question": "What is the function of the FTP protocol?",
+    "options": ["To browse web pages", "To transfer files between computers", "To manage IP addresses", "To send emails"],
+    "answer": "To transfer files between computers"
+  },
+  {
+    "question": "Which protocol is connectionless and used for fast data transfer?",
+    "options": ["TCP", "UDP", "HTTP", "FTP"],
+    "answer": "UDP"
+  },
+  {
+    "question": "What does DHCP stand for?",
+    "options": ["Dynamic Host Configuration Protocol", "Direct Host Control Protocol", "Domain Hypertext Configuration Protocol", "Dynamic Host Communication Protocol"],
+    "answer": "Dynamic Host Configuration Protocol"
+  },
+  {
+    "question": "Which protocol is used to retrieve emails while keeping them on the server?",
+    "options": ["SMTP", "POP3", "IMAP", "FTP"],
+    "answer": "IMAP"
+  },
+  {
+    "question": "What is the secure version of FTP?",
+    "options": ["SFTP", "HTTP", "SMTP", "DNS"],
+    "answer": "SFTP"
+  },
+  {
+    "question": "Which protocol operates at the application layer for web browsing?",
+    "options": ["TCP", "IP", "HTTP", "UDP"],
+    "answer": "HTTP"
+  },
+  {
+    "question": "What is the purpose of the ICMP protocol?",
+    "options": ["To transfer files", "To diagnose network issues", "To send emails", "To resolve domain names"],
+    "answer": "To diagnose network issues"
+  },
+  {
+    "question": "Which protocol is used for voice communication over the internet?",
+    "options": ["VoIP", "FTP", "SMTP", "DNS"],
+    "answer": "VoIP"
+  },
+  {
+    "question": "What is the main advantage of HTTPS over HTTP?",
+    "options": ["Faster data transfer", "Secure data transmission", "Larger file support", "Simpler implementation"],
+    "answer": "Secure data transmission"
+  },
+  {
+    "question": "Which protocol is used to assign IP addresses automatically?",
+    "options": ["DNS", "DHCP", "FTP", "HTTP"],
+    "answer": "DHCP"
+  },
+  {
+    "question": "What does POP3 stand for?",
+    "options": ["Post Office Protocol version 3", "Public Office Protocol version 3", "Primary Office Protocol version 3", "Post Operation Protocol version 3"],
+    "answer": "Post Office Protocol version 3"
+  },
+  {
+    "question": "Which protocol is used for remote terminal access without encryption?",
+    "options": ["SSH", "Telnet", "FTP", "HTTP"],
+    "answer": "Telnet"
+  },
+  {
+    "question": "What is the function of the ARP protocol?",
+    "options": ["To resolve IP addresses to MAC addresses", "To transfer files", "To send emails", "To manage web pages"],
+    "answer": "To resolve IP addresses to MAC addresses"
+  },
+  {
+    "question": "Which protocol is used for network management and monitoring?",
+    "options": ["SNMP", "FTP", "HTTP", "IMAP"],
+    "answer": "SNMP"
+  },
+  {
+    "question": "What does IMAP stand for?",
+    "options": ["Internet Mail Access Protocol", "Internal Message Access Protocol", "Internet Message Application Protocol", "Integrated Mail Access Protocol"],
+    "answer": "Internet Mail Access Protocol"
+  },
+  {
+    "question": "Which protocol is used to secure web transactions?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "What is the main function of the UDP protocol?",
+    "options": ["Reliable data delivery", "Connectionless data transfer", "File transfer", "Email sending"],
+    "answer": "Connectionless data transfer"
+  },
+  {
+    "question": "Which protocol is used for transferring large files over the internet?",
+    "options": ["HTTP", "FTP", "SMTP", "DNS"],
+    "answer": "FTP"
+  },
+  {
+    "question": "What is the purpose of the SSL/TLS protocol?",
+    "options": ["To resolve domain names", "To provide secure communication", "To assign IP addresses", "To transfer files"],
+    "answer": "To provide secure communication"
+  },
+  {
+    "question": "Which protocol is used to test network connectivity?",
+    "options": ["ICMP", "FTP", "HTTP", "SMTP"],
+    "answer": "ICMP"
+  },
+  {
+    "question": "What is the role of the SNMP protocol?",
+    "options": ["To manage network devices", "To send emails", "To transfer files", "To browse web pages"],
+    "answer": "To manage network devices"
+  },
+  {
+    "question": "Which protocol is used for real-time video streaming?",
+    "options": ["TCP", "UDP", "FTP", "SMTP"],
+    "answer": "UDP"
+  },
+  {
+    "question": "What does SFTP stand for?",
+    "options": ["Secure File Transfer Protocol", "Simple File Transmission Protocol", "Standard File Transfer Protocol", "Secure File Transport Protocol"],
+    "answer": "Secure File Transfer Protocol"
+  },
+  {
+    "question": "Which protocol is used to map IP addresses to physical addresses?",
+    "options": ["ARP", "DNS", "DHCP", "HTTP"],
+    "answer": "ARP"
+  },
+  {
+    "question": "What is the main function of the SMTP protocol?",
+    "options": ["To retrieve emails", "To send emails", "To resolve domain names", "To transfer files"],
+    "answer": "To send emails"
+  },
+  {
+    "question": "Which protocol is used for secure remote command execution?",
+    "options": ["Telnet", "SSH", "FTP", "HTTP"],
+    "answer": "SSH"
+  },
+  {
+    "question": "What is the purpose of the RIP protocol?",
+    "options": ["To transfer files", "To route data packets", "To send emails", "To resolve domain names"],
+    "answer": "To route data packets"
+  },
+  {
+    "question": "Which protocol is used for time synchronization in networks?",
+    "options": ["NTP", "FTP", "SMTP", "DNS"],
+    "answer": "NTP"
+  },
+  {
+    "question": "What does VoIP stand for?",
+    "options": ["Voice over Internet Protocol", "Video over Internet Protocol", "Voice Operation Internet Protocol", "Virtual Office Internet Protocol"],
+    "answer": "Voice over Internet Protocol"
+  },
+  {
+    "question": "Which protocol is used to manage email folders on a server?",
+    "options": ["SMTP", "POP3", "IMAP", "FTP"],
+    "answer": "IMAP"
+  },
+  {
+    "question": "What is the main function of the BGP protocol?",
+    "options": ["To transfer files", "To route data between autonomous systems", "To send emails", "To resolve domain names"],
+    "answer": "To route data between autonomous systems"
+  },
+  {
+    "question": "Which protocol is used for downloading emails to a local device?",
+    "options": ["IMAP", "POP3", "SMTP", "FTP"],
+    "answer": "POP3"
+  },
+  {
+    "question": "What is the purpose of the IGMP protocol?",
+    "options": ["To manage multicast group memberships", "To transfer files", "To send emails", "To resolve domain names"],
+    "answer": "To manage multicast group memberships"
+  },
+  {
+    "question": "Which protocol is used for secure web browsing?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "What does NTP stand for?",
+    "options": ["Network Time Protocol", "Network Transfer Protocol", "Network Terminal Protocol", "Network Transport Protocol"],
+    "answer": "Network Time Protocol"
+  },
+  {
+    "question": "Which protocol is used for file sharing in a network?",
+    "options": ["FTP", "SMB", "HTTP", "DNS"],
+    "answer": "SMB"
+  },
+  {
+    "question": "What is the main function of the OSPF protocol?",
+    "options": ["To transfer files", "To route data within a network", "To send emails", "To resolve domain names"],
+    "answer": "To route data within a network"
+  },
+  {
+    "question": "Which protocol is used for network diagnostics using ping?",
+    "options": ["ICMP", "FTP", "HTTP", "SMTP"],
+    "answer": "ICMP"
+  },
+  {
+    "question": "What is the purpose of the RARP protocol?",
+    "options": ["To resolve MAC addresses to IP addresses", "To transfer files", "To send emails", "To manage web pages"],
+    "answer": "To resolve MAC addresses to IP addresses"
+  },
+  {
+    "question": "Which protocol is used for streaming media over the internet?",
+    "options": ["RTP", "FTP", "SMTP", "DNS"],
+    "answer": "RTP"
+  },
+  {
+    "question": "What does SNMP stand for?",
+    "options": ["Simple Network Management Protocol", "Secure Network Management Protocol", "Standard Network Monitoring Protocol", "Simple Network Monitoring Protocol"],
+    "answer": "Simple Network Management Protocol"
+  },
+  {
+    "question": "Which protocol is used for secure email communication?",
+    "options": ["SMTP with SSL/TLS", "POP3", "IMAP", "FTP"],
+    "answer": "SMTP with SSL/TLS"
+  },
+  {
+    "question": "What is the main function of the HTTP protocol?",
+    "options": ["To send emails", "To transfer web pages", "To assign IP addresses", "To manage network devices"],
+    "answer": "To transfer web pages"
+  },
+  {
+    "question": "Which protocol is used for network time synchronization?",
+    "options": ["NTP", "FTP", "SMTP", "DNS"],
+    "answer": "NTP"
+  },
+  {
+    "question": "What is the purpose of the TFTP protocol?",
+    "options": ["To transfer files with minimal features", "To send emails", "To resolve domain names", "To manage web pages"],
+    "answer": "To transfer files with minimal features"
+  },
+  {
+    "question": "Which protocol is used for multicast data transmission?",
+    "options": ["IGMP", "FTP", "HTTP", "SMTP"],
+    "answer": "IGMP"
+  },
+  {
+    "question": "What does SSH stand for?",
+    "options": ["Secure Shell", "Simple Shell", "Standard Shell", "Secure System Host"],
+    "answer": "Secure Shell"
+  },
+  {
+    "question": "Which protocol is used for routing data in large networks?",
+    "options": ["BGP", "FTP", "SMTP", "DNS"],
+    "answer": "BGP"
+  },
+  {
+    "question": "What is the main function of the RTP protocol?",
+    "options": ["To transfer files", "To stream real-time media", "To send emails", "To resolve domain names"],
+    "answer": "To stream real-time media"
+  },
+  {
+    "question": "Which protocol is used for email retrieval with minimal server storage?",
+    "options": ["IMAP", "POP3", "SMTP", "FTP"],
+    "answer": "POP3"
+  },
+  {
+    "question": "What is the purpose of the SIP protocol?",
+    "options": ["To manage network devices", "To initiate multimedia sessions", "To transfer files", "To resolve domain names"],
+    "answer": "To initiate multimedia sessions"
+  },
+  {
+    "question": "Which protocol is used for network file sharing in Windows?",
+    "options": ["SMB", "FTP", "HTTP", "DNS"],
+    "answer": "SMB"
+  },
+  {
+    "question": "What does TFTP stand for?",
+    "options": ["Trivial File Transfer Protocol", "Terminal File Transfer Protocol", "Transfer File Transmission Protocol", "Trivial File Transport Protocol"],
+    "answer": "Trivial File Transfer Protocol"
+  },
+  {
+    "question": "Which protocol is used for error reporting in networks?",
+    "options": ["ICMP", "FTP", "HTTP", "SMTP"],
+    "answer": "ICMP"
+  },
+  {
+    "question": "What is the main function of the DNS protocol?",
+    "options": ["To transfer files", "To resolve domain names to IP addresses", "To send emails", "To manage network traffic"],
+    "answer": "To resolve domain names to IP addresses"
+  },
+  {
+    "question": "Which protocol is used for secure file transfers over SSH?",
+    "options": ["FTP", "SFTP", "HTTP", "SMTP"],
+    "answer": "SFTP"
+  },
+  {
+    "question": "What is the purpose of the RIP protocol?",
+    "options": ["To transfer files", "To route data packets", "To send emails", "To resolve domain names"],
+    "answer": "To route data packets"
+  },
+  {
+    "question": "Which protocol is used for real-time communication in VoIP?",
+    "options": ["RTP", "FTP", "SMTP", "DNS"],
+    "answer": "RTP"
+  },
+  {
+    "question": "What does BGP stand for?",
+    "options": ["Border Gateway Protocol", "Basic Gateway Protocol", "Broadcast Gateway Protocol", "Border General Protocol"],
+    "answer": "Border Gateway Protocol"
+  },
+  {
+    "question": "Which protocol is used for managing email on a server?",
+    "options": ["SMTP", "POP3", "IMAP", "FTP"],
+    "answer": "IMAP"
+  },
+  {
+    "question": "What is the main function of the OSPF protocol?",
+    "options": ["To transfer files", "To route data within a network", "To send emails", "To resolve domain names"],
+    "answer": "To route data within a network"
+  },
+  {
+    "question": "Which protocol is used for simple file transfers without authentication?",
+    "options": ["FTP", "SFTP", "TFTP", "HTTP"],
+    "answer": "TFTP"
+  },
+  {
+    "question": "What is the purpose of the SSL protocol?",
+    "options": ["To resolve domain names", "To provide secure communication", "To assign IP addresses", "To transfer files"],
+    "answer": "To provide secure communication"
+  },
+  {
+    "question": "Which protocol is used for network diagnostics with traceroute?",
+    "options": ["ICMP", "FTP", "HTTP", "SMTP"],
+    "answer": "ICMP"
+  },
+  {
+    "question": "What does SIP stand for?",
+    "options": ["Session Initiation Protocol", "Secure Internet Protocol", "Standard Initiation Protocol", "Session Internet Protocol"],
+    "answer": "Session Initiation Protocol"
+  },
+  {
+    "question": "Which protocol is used for file sharing in local networks?",
+    "options": ["SMB", "FTP", "HTTP", "DNS"],
+    "answer": "SMB"
+  },
+  {
+    "question": "What is the main function of the IGMP protocol?",
+    "options": ["To manage multicast group memberships", "To transfer files", "To send emails", "To resolve domain names"],
+    "answer": "To manage multicast group memberships"
+  },
+  {
+    "question": "Which protocol is used for secure web transactions?",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "What does RARP stand for?",
+    "options": ["Reverse Address Resolution Protocol", "Remote Address Resolution Protocol", "Reverse Access Resolution Protocol", "Remote Address Retrieval Protocol"],
+    "answer": "Reverse Address Resolution Protocol"
+  },
+  {
+    "question": "Which protocol is used for real-time data transfer in streaming?",
+    "options": ["RTP", "FTP", "SMTP", "DNS"],
+    "answer": "RTP"
+  },
+  {
+    "question": "What is the main function of the Telnet protocol?",
+    "options": ["To transfer files", "To provide remote terminal access", "To send emails", "To resolve domain names"],
+    "answer": "To provide remote terminal access"
+  },
+  {
+    "question": "Which protocol is used for email sending with encryption?",
+    "options": ["SMTP with SSL/TLS", "POP3", "IMAP", "FTP"],
+    "answer": "SMTP with SSL/TLS"
+  },
+  {
+    "question": "What is the purpose of the DHCP protocol?",
+    "options": ["To assign IP addresses dynamically", "To transfer files", "To send emails", "To manage web pages"],
+    "answer": "To assign IP addresses dynamically"
+  },
+  {
+    "question": "Which protocol is used for routing in small networks?",
+    "options": ["RIP", "FTP", "SMTP", "DNS"],
+    "answer": "RIP"
+  }
+        ]
+      },
+      "Addressing" : {
+        "title": "Network Addressing",
+        "questions": 
+        [
+  {
+    "question": "What is the primary purpose of an IP address?",
+    "options": ["To identify a device on a network", "To encrypt data", "To manage network protocols", "To store data"],
+    "answer": "To identify a device on a network"
+  },
+  {
+    "question": "How many bits are used in an IPv4 address?",
+    "options": ["32 bits", "64 bits", "128 bits", "16 bits"],
+    "answer": "32 bits"
+  },
+  {
+    "question": "Which of the following is an example of an IPv4 address?",
+    "options": ["192.168.1.1", "2001:0db8::1", "FF:FF:FF:FF:FF:FF", "255.255.255.255.255"],
+    "answer": "192.168.1.1"
+  },
+  {
+    "question": "What is the purpose of a MAC address?",
+    "options": ["To route data on the internet", "To identify a device at the data link layer", "To assign IP addresses", "To encrypt network traffic"],
+    "answer": "To identify a device at the data link layer"
+  },
+  {
+    "question": "How many bits are used in an IPv6 address?",
+    "options": ["32 bits", "64 bits", "128 bits", "256 bits"],
+    "answer": "128 bits"
+  },
+  {
+    "question": "Which class of IPv4 address is used for large networks?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": "Class A"
+  },
+  {
+    "question": "What is the default subnet mask for a Class C IP address?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+    "answer": "255.255.255.0"
+  },
+  {
+    "question": "Which of the following is a private IP address?",
+    "options": ["172.16.1.1", "8.8.8.8", "192.0.2.1", "203.0.113.1"],
+    "answer": "172.16.1.1"
+  },
+  {
+    "question": "What does CIDR stand for?",
+    "options": ["Classless Inter-Domain Routing", "Classful Internet Domain Routing", "Centralized IP Domain Routing", "Classless Internal Data Routing"],
+    "answer": "Classless Inter-Domain Routing"
+  },
+  {
+    "question": "Which protocol is used to resolve IP addresses to MAC addresses?",
+    "options": ["DHCP", "DNS", "ARP", "ICMP"],
+    "answer": "ARP"
+  },
+  {
+    "question": "What is the range of Class A IP addresses?",
+    "options": ["1.0.0.0 to 126.255.255.255", "128.0.0.0 to 191.255.255.255", "192.0.0.0 to 223.255.255.255", "224.0.0.0 to 239.255.255.255"],
+    "answer": "1.0.0.0 to 126.255.255.255"
+  },
+  {
+    "question": "How many bytes are in an IPv4 address?",
+    "options": ["4 bytes", "8 bytes", "16 bytes", "32 bytes"],
+    "answer": "4 bytes"
+  },
+  {
+    "question": "What is the purpose of a subnet mask?",
+    "options": ["To encrypt data", "To divide an IP address into network and host portions", "To assign MAC addresses", "To route packets"],
+    "answer": "To divide an IP address into network and host portions"
+  },
+  {
+    "question": "Which of the following is a valid IPv6 address?",
+    "options": ["192.168.1.1", "2001:0db8:85a3:0000:0000:8a2e:0370:7334", "255.255.255.255", "FF:FF:FF:FF"],
+    "answer": "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+  },
+  {
+    "question": "What is the loopback address in IPv4?",
+    "options": ["192.168.0.1", "127.0.0.1", "10.0.0.1", "172.16.0.1"],
+    "answer": "127.0.0.1"
+  },
+  {
+    "question": "Which protocol resolves MAC addresses to IP addresses?",
+    "options": ["ARP", "RARP", "DHCP", "DNS"],
+    "answer": "RARP"
+  },
+  {
+    "question": "What is the default subnet mask for a Class B IP address?",
+    "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+    "answer": "255.255.0.0"
+  },
+  {
+    "question": "Which of the following is a public IP address?",
+    "options": ["192.168.1.1", "10.0.0.1", "203.0.113.1", "172.16.1.1"],
+    "answer": "203.0.113.1"
+  },
+  {
+    "question": "What is the purpose of subnetting?",
+    "options": ["To increase network speed", "To divide a network into smaller subnetworks", "To encrypt data", "To assign MAC addresses"],
+    "answer": "To divide a network into smaller subnetworks"
+  },
+  {
+    "question": "Which class of IP address is reserved for multicasting?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": "Class D"
+  },
+  {
+    "question": "How many bits are used for the network portion in a Class A IP address?",
+    "options": ["8 bits", "16 bits", "24 bits", "32 bits"],
+    "answer": "8 bits"
+  },
+  {
+    "question": "What is the format of a MAC address?",
+    "options": ["32-bit decimal", "48-bit hexadecimal", "128-bit binary", "64-bit decimal"],
+    "answer": "48-bit hexadecimal"
+  },
+  {
+    "question": "Which of the following is a private IP address range?",
+    "options": ["10.0.0.0 to 10.255.255.255", "128.0.0.0 to 191.255.255.255", "192.0.0.0 to 223.255.255.255", "224.0.0.0 to 239.255.255.255"],
+    "answer": "10.0.0.0 to 10.255.255.255"
+  },
+  {
+    "question": "What does the acronym NAT stand for?",
+    "options": ["Network Address Translation", "Network Access Terminal", "Network Address Terminal", "Network Allocation Table"],
+    "answer": "Network Address Translation"
+  },
+  {
+    "question": "Which protocol dynamically assigns IP addresses to devices?",
+    "options": ["ARP", "DNS", "DHCP", "ICMP"],
+    "answer": "DHCP"
+  },
+  {
+    "question": "What is the loopback address in IPv6?",
+    "options": ["127.0.0.1", "::1", "0.0.0.0", "192.168.1.1"],
+    "answer": "::1"
+  },
+  {
+    "question": "Which part of an IP address identifies the host?",
+    "options": ["Network portion", "Subnet mask", "Host portion", "Gateway address"],
+    "answer": "Host portion"
+  },
+  {
+    "question": "What is the range of Class C IP addresses?",
+    "options": ["1.0.0.0 to 126.255.255.255", "128.0.0.0 to 191.255.255.255", "192.0.0.0 to 223.255.255.255", "224.0.0.0 to 239.255.255.255"],
+    "answer": "192.0.0.0 to 223.255.255.255"
+  },
+  {
+    "question": "Which of the following is used to represent a subnet mask in CIDR notation?",
+    "options": ["/24", "255.255.255.0", "192.168.1.1", "FF:FF:FF:FF"],
+    "answer": "/24"
+  },
+  {
+    "question": "What is the purpose of a default gateway?",
+    "options": ["To assign IP addresses", "To connect different networks", "To encrypt data", "To store MAC addresses"],
+    "answer": "To connect different networks"
+  },
+  {
+    "question": "Which class of IP address is used for experimental purposes?",
+    "options": ["Class A", "Class B", "Class C", "Class E"],
+    "answer": "Class E"
+  },
+  {
+    "question": "How many bits are used for the host portion in a Class C IP address?",
+    "options": ["8 bits", "16 bits", "24 bits", "32 bits"],
+    "answer": "8 bits"
+  },
+  {
+    "question": "What is the purpose of the ARP cache?",
+    "options": ["To store IP addresses", "To store MAC address mappings", "To store subnet masks", "To store routing tables"],
+    "answer": "To store MAC address mappings"
+  },
+  {
+    "question": "Which of the following is a valid subnet mask?",
+    "options": ["255.255.255.0", "255.255.255.1", "255.255.0.255", "255.0.255.255"],
+    "answer": "255.255.255.0"
+  },
+  {
+    "question": "What is the broadcast address in IPv4?",
+    "options": ["127.0.0.1", "255.255.255.255", "192.168.1.1", "10.0.0.1"],
+    "answer": "255.255.255.255"
+  },
+  {
+    "question": "Which protocol is used to translate domain names to IP addresses?",
+    "options": ["ARP", "RARP", "DHCP", "DNS"],
+    "answer": "DNS"
+  },
+  {
+    "question": "What is the main advantage of IPv6 over IPv4?",
+    "options": ["Smaller address space", "Larger address space", "S Facetellectslower speed", "Less security"],
+    "answer": "Larger address space"
+  },
+  {
+    "question": "How many hexadecimal groups are in an IPv6 address?",
+    "options": ["4 groups", "6 groups", "8 groups", "10 groups"],
+    "answer": "8 groups"
+  },
+  {
+    "question": "What is the purpose of a private IP address?",
+    "options": ["To access the internet directly", "To be used within a local network", "To encrypt network traffic", "To assign MAC addresses"],
+    "answer": "To be used within a local network"
+  },
+  {
+    "question": "Which of the following is a reserved IP address for APIPA?",
+    "options": ["192.168.1.1", "169.254.0.1", "10.0.0.1", "172.16.0.1"],
+    "answer": "169.254.0.1"
+  },
+  {
+    "question": "What does the first octet of a Class B IP address range from?",
+    "options": ["1 to 126", "128 to 191", "192 to 223", "224 to 239"],
+    "answer": "128 to 191"
+  },
+  {
+    "question": "Which protocol is used to manage IP address allocation?",
+    "options": ["ARP", "RARP", "DHCP", "DNS"],
+    "answer": "DHCP"
+  },
+  {
+    "question": "What is the purpose of a network address?",
+    "options": ["To identify the host", "To identify the network", "To encrypt data", "To store MAC addresses"],
+    "answer": "To identify the network"
+  },
+  {
+    "question": "Which of the following is a valid CIDR notation for a Class A network?",
+    "options": ["/8", "/16", "/24", "/32"],
+    "answer": "/8"
+  },
+  {
+    "question": "What is the length of a MAC address in bytes?",
+    "options": ["4 bytes", "6 bytes", "8 bytes", "12 bytes"],
+    "answer": "6 bytes"
+  },
+  {
+    "question": "Which IP address is used for local communication within a device?",
+    "options": ["192.168.1.1", "127.0.0.1", "10.0.0.1", "172.16.0.1"],
+    "answer": "127.0.0.1"
+  },
+  {
+    "question": "What is the purpose of the network prefix in CIDR?",
+    "options": ["To identify the host", "To specify the network portion", "To encrypt data", "To assign MAC addresses"],
+    "answer": "To specify the network portion"
+  },
+  {
+    "question": "Which of the following is a private IP address range for Class C?",
+    "options": ["10.0.0.0 to 10.255.255.255", "172.16.0.0 to 172.31.255.255", "192.168.0.0 to 192.168.255.255", "169.254.0.0 to 169.254.255.255"],
+    "answer": "192.168.0.0 to 192.168.255.255"
+  },
+  {
+    "question": "What is the main function of NAT in a network?",
+    "options": ["To assign MAC addresses", "To translate private IP to public IP", "To encrypt data", "To resolve domain names"],
+    "answer": "To translate private IP to public IP"
+  },
+  {
+    "question": "Which of the following is used to identify a specific device on a local network?",
+    "options": ["IP address", "MAC address", "Subnet mask", "Default gateway"],
+    "answer": "MAC address"
+  }
+]
+      },
+      "Switching" : {
+        "title": "Data Transmission and Switching",
+        "questions": [
+            {
+      "question": "What is the primary function of data transmission in a network?",
+      "options": [
+        "To store data permanently",
+        "To transfer data between devices",
+        "To process data locally",
+        "To encrypt data for security"
+      ],
+      "answer": "To transfer data between devices"
+    },
+    {
+      "question": "Which of the following is a guided transmission medium?",
+      "options": [
+        "Microwave",
+        "Coaxial cable",
+        "Infrared",
+        "Radio waves"
+      ],
+      "answer": "Coaxial cable"
+    },
+    {
+      "question": "What is the unit of data transmission rate?",
+      "options": [
+        "Bytes per second",
+        "Bits per second",
+        "Packets per second",
+        "Frames per second"
+      ],
+      "answer": "Bits per second"
+    },
+    {
+      "question": "Which transmission mode allows data flow in both directions simultaneously?",
+      "options": [
+        "Simplex",
+        "Half-duplex",
+        "Full-duplex",
+        "Multiplex"
+      ],
+      "answer": "Full-duplex"
+    },
+    {
+      "question": "In which type of switching is a dedicated path established between two devices?",
+      "options": [
+        "Packet switching",
+        "Circuit switching",
+        "Message switching",
+        "Virtual switching"
+      ],
+      "answer": "Circuit switching"
+    },
+    {
+      "question": "Which device is used to connect multiple network segments at the data link layer?",
+      "options": [
+        "Router",
+        "Switch",
+        "Hub",
+        "Gateway"
+      ],
+      "answer": "Switch"
+    },
+    {
+      "question": "What is the main advantage of packet switching over circuit switching?",
+      "options": [
+        "Guaranteed bandwidth",
+        "Efficient use of network resources",
+        "Fixed latency",
+        "Dedicated connection"
+      ],
+      "answer": "Efficient use of network resources"
+    },
+    {
+      "question": "Which of the following is an example of an unguided transmission medium?",
+      "options": [
+        "Twisted pair",
+        "Fiber optic",
+        "Microwave",
+        "Coaxial cable"
+      ],
+      "answer": "Microwave"
+    },
+    {
+      "question": "What does multiplexing allow in data transmission?",
+      "options": [
+        "Multiple signals over a single channel",
+        "Data encryption",
+        "Error correction",
+        "Data compression"
+      ],
+      "answer": "Multiple signals over a single channel"
+    },
+    {
+      "question": "Which protocol is used to control data transmission errors?",
+      "options": [
+        "TCP",
+        "UDP",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "TCP"
+    },
+    {
+      "question": "What is the purpose of a switch in a network?",
+      "options": [
+        "To broadcast data to all devices",
+        "To forward data to specific devices",
+        "To connect to the internet",
+        "To encrypt network traffic"
+      ],
+      "answer": "To forward data to specific devices"
+    },
+    {
+      "question": "Which type of switching is used in the Internet?",
+      "options": [
+        "Circuit switching",
+        "Packet switching",
+        "Message switching",
+        "Frame switching"
+      ],
+      "answer": "Packet switching"
+    },
+    {
+      "question": "What is the maximum data rate of a Category 5 cable?",
+      "options": [
+        "10 Mbps",
+        "100 Mbps",
+        "1 Gbps",
+        "10 Gbps"
+      ],
+      "answer": "1 Gbps"
+    },
+    {
+      "question": "Which device operates at the network layer to route data?",
+      "options": [
+        "Switch",
+        "Hub",
+        "Router",
+        "Bridge"
+      ],
+      "answer": "Router"
+    },
+    {
+      "question": "What is the role of a frame in data transmission?",
+      "options": [
+        "To encrypt data",
+        "To encapsulate data for transmission",
+        "To store data permanently",
+        "To compress data"
+      ],
+      "answer": "To encapsulate data for transmission"
+    },
+    {
+      "question": "Which transmission medium is least affected by electromagnetic interference?",
+      "options": [
+        "Twisted pair",
+        "Coaxial cable",
+        "Fiber optic",
+        "Microwave"
+      ],
+      "answer": "Fiber optic"
+    },
+    {
+      "question": "What does TDM stand for in multiplexing?",
+      "options": [
+        "Time Division Multiplexing",
+        "Transfer Data Multiplexing",
+        "Time Delay Multiplexing",
+        "Total Division Multiplexing"
+      ],
+      "answer": "Time Division Multiplexing"
+    },
+    {
+      "question": "Which switching technique is used in traditional telephone networks?",
+      "options": [
+        "Packet switching",
+        "Circuit switching",
+        "Message switching",
+        "Virtual switching"
+      ],
+      "answer": "Circuit switching"
+    },
+    {
+      "question": "What is the primary function of a hub in a network?",
+      "options": [
+        "To route data",
+        "To broadcast data to all connected devices",
+        "To filter data packets",
+        "To encrypt data"
+      ],
+      "answer": "To broadcast data to all connected devices"
+    },
+    {
+      "question": "Which layer of the OSI model is responsible for data transmission?",
+      "options": [
+        "Application layer",
+        "Transport layer",
+        "Data link layer",
+        "Physical layer"
+      ],
+      "answer": "Physical layer"
+    },
+    {
+      "question": "What is the purpose of error detection in data transmission?",
+      "options": [
+        "To compress data",
+        "To identify and correct transmission errors",
+        "To increase data speed",
+        "To encrypt data"
+      ],
+      "answer": "To identify and correct transmission errors"
+    },
+    {
+      "question": "Which type of cable is commonly used for Ethernet networks?",
+      "options": [
+        "Coaxial cable",
+        "Twisted pair",
+        "Fiber optic",
+        "Telephone line"
+      ],
+      "answer": "Twisted pair"
+    },
+    {
+      "question": "What is the main disadvantage of circuit switching?",
+      "options": [
+        "High latency",
+        "Inefficient use of resources",
+        "No dedicated path",
+        "Complex setup"
+      ],
+      "answer": "Inefficient use of resources"
+    },
+    {
+      "question": "Which device uses MAC addresses to forward data?",
+      "options": [
+        "Router",
+        "Switch",
+        "Gateway",
+        "Hub"
+      ],
+      "answer": "Switch"
+    },
+    {
+      "question": "What does FDM stand for in multiplexing?",
+      "options": [
+        "Frequency Division Multiplexing",
+        "Fast Data Multiplexing",
+        "Frame Division Multiplexing",
+        "Full Duplex Multiplexing"
+      ],
+      "answer": "Frequency Division Multiplexing"
+    },
+    {
+      "question": "Which transmission mode is used in walkie-talkies?",
+      "options": [
+        "Simplex",
+        "Half-duplex",
+        "Full-duplex",
+        "Multiplex"
+      ],
+      "answer": "Half-duplex"
+    },
+    {
+      "question": "What is the function of a repeater in data transmission?",
+      "options": [
+        "To route data",
+        "To amplify signals",
+        "To encrypt data",
+        "To compress data"
+      ],
+      "answer": "To amplify signals"
+    },
+    {
+      "question": "Which protocol is connectionless in data transmission?",
+      "options": [
+        "TCP",
+        "UDP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "UDP"
+    },
+    {
+      "question": "What is the role of a bridge in a network?",
+      "options": [
+        "To connect different network protocols",
+        "To connect LAN segments",
+        "To route data between networks",
+        "To broadcast data"
+      ],
+      "answer": "To connect LAN segments"
+    },
+    {
+      "question": "Which cable type supports the highest bandwidth?",
+      "options": [
+        "Twisted pair",
+        "Coaxial cable",
+        "Fiber optic",
+        "Telephone line"
+      ],
+      "answer": "Fiber optic"
+    },
+    {
+      "question": "What is store-and-forward switching?",
+      "options": [
+        "Transmitting data without checking",
+        "Storing data before forwarding",
+        "Encrypting data during transmission",
+        "Broadcasting data to all devices"
+      ],
+      "answer": "Storing data before forwarding"
+    },
+    {
+      "question": "Which device connects networks with different protocols?",
+      "options": [
+        "Switch",
+        "Hub",
+        "Gateway",
+        "Router"
+      ],
+      "answer": "Gateway"
+    },
+    {
+      "question": "What is the purpose of CRC in data transmission?",
+      "options": [
+        "Data compression",
+        "Error detection",
+        "Data encryption",
+        "Data routing"
+      ],
+      "answer": "Error detection"
+    },
+    {
+      "question": "Which transmission medium uses light signals?",
+      "options": [
+        "Twisted pair",
+        "Coaxial cable",
+        "Fiber optic",
+        "Microwave"
+      ],
+      "answer": "Fiber optic"
+    },
+    {
+      "question": "What is the main advantage of fiber optic cables?",
+      "options": [
+        "Low cost",
+        "High bandwidth",
+        "Easy installation",
+        "Low latency"
+      ],
+      "answer": "High bandwidth"
+    },
+    {
+      "question": "Which switching technique breaks data into small packets?",
+      "options": [
+        "Circuit switching",
+        "Packet switching",
+        "Message switching",
+        "Frame switching"
+      ],
+      "answer": "Packet switching"
+    },
+    {
+      "question": "What is the role of a modem in data transmission?",
+      "options": [
+        "To convert digital signals to analog and vice versa",
+        "To amplify signals",
+        "To route data",
+        "To encrypt data"
+      ],
+      "answer": "To convert digital signals to analog and vice versa"
+    },
+    {
+      "question": "Which layer handles error detection and correction?",
+      "options": [
+        "Physical layer",
+        "Data link layer",
+        "Network layer",
+        "Transport layer"
+      ],
+      "answer": "Data link layer"
+    },
+    {
+      "question": "What is the maximum data rate of a CAT-6 cable?",
+      "options": [
+        "1 Gbps",
+        "10 Gbps",
+        "100 Mbps",
+        "100 Gbps"
+      ],
+      "answer": "10 Gbps"
+    },
+    {
+      "question": "Which device is used to regenerate signals over long distances?",
+      "options": [
+        "Router",
+        "Switch",
+        "Repeater",
+        "Gateway"
+      ],
+      "answer": "Repeater"
+    },
+    {
+      "question": "What does WDM stand for in multiplexing?",
+      "options": [
+        "Wave Division Multiplexing",
+        "Wide Data Multiplexing",
+        "Wireless Division Multiplexing",
+        "Wave Delay Multiplexing"
+      ],
+      "answer": "Wave Division Multiplexing"
+    },
+    {
+      "question": "Which transmission medium is most susceptible to noise?",
+      "options": [
+        "Fiber optic",
+        "Twisted pair",
+        "Coaxial cable",
+        "Microwave"
+      ],
+      "answer": "Twisted pair"
+    },
+    {
+      "question": "What is cut-through switching?",
+      "options": [
+        "Forwarding data after storing",
+        "Forwarding data as soon as the destination is known",
+        "Encrypting data before transmission",
+        "Broadcasting data to all devices"
+      ],
+      "answer": "Forwarding data as soon as the destination is known"
+    },
+    {
+      "question": "Which protocol ensures reliable data transmission?",
+      "options": [
+        "UDP",
+        "TCP",
+        "ICMP",
+        "ARP"
+      ],
+      "answer": "TCP"
+    },
+    {
+      "question": "What is the purpose of a MAC address in switching?",
+      "options": [
+        "To identify devices at the network layer",
+        "To identify devices at the data link layer",
+        "To encrypt data",
+        "To compress data"
+      ],
+      "answer": "To identify devices at the data link layer"
+    },
+    {
+      "question": "Which cable is used for long-distance data transmission?",
+      "options": [
+        "Twisted pair",
+        "Coaxial cable",
+        "Fiber optic",
+        "Telephone line"
+      ],
+      "answer": "Fiber optic"
+    },
+    {
+      "question": "What is the main disadvantage of packet switching?",
+      "options": [
+        "High latency",
+        "Dedicated bandwidth",
+        "Inefficient resource use",
+        "Fixed path"
+      ],
+      "answer": "High latency"
+    },
+    {
+      "question": "Which device operates at the physical layer?",
+      "options": [
+        "Router",
+        "Switch",
+        "Hub",
+        "Gateway"
+      ],
+      "answer": "Hub"
+    },
+    {
+      "question": "What is the purpose of flow control in data transmission?",
+      "options": [
+        "To manage data speed between sender and receiver",
+        "To encrypt data",
+        "To compress data",
+        "To route data"
+      ],
+      "answer": "To manage data speed between sender and receiver"
+    },
+    {
+      "question": "Which multiplexing technique is used in fiber optic communication?",
+      "options": [
+        "Time Division Multiplexing",
+        "Frequency Division Multiplexing",
+        "Wave Division Multiplexing",
+        "Code Division Multiplexing"
+      ],
+      "answer": "Wave Division Multiplexing"
+    }
+        ]
+      },
+      "Topologies": {
+        "title": "Network Topologies",
+        "questions": [
+                {
+      "question": "What is a network topology?",
+      "options": [
+        "The physical or logical arrangement of network devices",
+        "The protocol used for data transmission",
+        "The software used to manage networks",
+        "The encryption method for network security"
+      ],
+      "answer": "The physical or logical arrangement of network devices"
+    },
+    {
+      "question": "Which network topology connects all devices to a single cable?",
+      "options": [
+        "Star",
+        "Bus",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Bus"
+    },
+    {
+      "question": "In which topology is each device connected to a central hub or switch?",
+      "options": [
+        "Bus",
+        "Ring",
+        "Star",
+        "Tree"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "Which topology forms a closed loop where each device is connected to the next?",
+      "options": [
+        "Star",
+        "Bus",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Ring"
+    },
+    {
+      "question": "What is the main advantage of a star topology?",
+      "options": [
+        "Low cost",
+        "Easy to install and manage",
+        "High redundancy",
+        "No central point of failure"
+      ],
+      "answer": "Easy to install and manage"
+    },
+    {
+      "question": "Which topology requires the most cabling?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "In a bus topology, what is the single cable called?",
+      "options": [
+        "Backbone",
+        "Trunk",
+        "Spine",
+        "Core"
+      ],
+      "answer": "Backbone"
+    },
+    {
+      "question": "What happens in a ring topology if one device fails?",
+      "options": [
+        "The entire network fails",
+        "Only that device is affected",
+        "The network continues to function",
+        "Data is rerouted automatically"
+      ],
+      "answer": "The entire network fails"
+    },
+    {
+      "question": "Which topology is most commonly used in modern LANs?",
+      "options": [
+        "Bus",
+        "Ring",
+        "Star",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is a key disadvantage of a bus topology?",
+      "options": [
+        "High cost",
+        "Difficult to troubleshoot",
+        "Requires a central hub",
+        "No scalability"
+      ],
+      "answer": "Difficult to troubleshoot"
+    },
+    {
+      "question": "In a mesh topology, how are devices connected?",
+      "options": [
+        "To a central hub",
+        "To every other device",
+        "In a circular loop",
+        "To a single backbone"
+      ],
+      "answer": "To every other device"
+    },
+    {
+      "question": "Which topology combines elements of star and bus topologies?",
+      "options": [
+        "Ring",
+        "Tree",
+        "Mesh",
+        "Hybrid"
+      ],
+      "answer": "Tree"
+    },
+    {
+      "question": "What is the primary advantage of a mesh topology?",
+      "options": [
+        "Low cost",
+        "High reliability",
+        "Easy to install",
+        "Minimal cabling"
+      ],
+      "answer": "High reliability"
+    },
+    {
+      "question": "Which topology is most suitable for a small office network?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What device is typically used as the central point in a star topology?",
+      "options": [
+        "Router",
+        "Switch",
+        "Repeater",
+        "Gateway"
+      ],
+      "answer": "Switch"
+    },
+    {
+      "question": "In a bus topology, what is used to prevent signal reflection?",
+      "options": [
+        "Terminator",
+        "Repeater",
+        "Hub",
+        "Switch"
+      ],
+      "answer": "Terminator"
+    },
+    {
+      "question": "Which topology is least affected by the addition of new devices?",
+      "options": [
+        "Bus",
+        "Ring",
+        "Star",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is a disadvantage of a star topology?",
+      "options": [
+        "Single point of failure",
+        "High cabling cost",
+        "Difficult to troubleshoot",
+        "Limited scalability"
+      ],
+      "answer": "Single point of failure"
+    },
+    {
+      "question": "In a ring topology, data travels in which direction?",
+      "options": [
+        "Bidirectional",
+        "Unidirectional",
+        "Multidirectional",
+        "Random"
+      ],
+      "answer": "Unidirectional"
+    },
+    {
+      "question": "Which topology is used in token ring networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Ring"
+    },
+    {
+      "question": "What is a hybrid topology?",
+      "options": [
+        "A topology with no central device",
+        "A combination of two or more topologies",
+        "A topology with minimal cabling",
+        "A topology with high latency"
+      ],
+      "answer": "A combination of two or more topologies"
+    },
+    {
+      "question": "Which topology is most expensive to implement?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "In a tree topology, what is the central connecting point called?",
+      "options": [
+        "Root",
+        "Hub",
+        "Node",
+        "Leaf"
+      ],
+      "answer": "Root"
+    },
+    {
+      "question": "Which topology is prone to collisions in data transmission?",
+      "options": [
+        "Star",
+        "Bus",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Bus"
+    },
+    {
+      "question": "What is the main benefit of a tree topology?",
+      "options": [
+        "Low cost",
+        "Scalability",
+        "No central device",
+        "Minimal cabling"
+      ],
+      "answer": "Scalability"
+    },
+    {
+      "question": "Which topology uses a token-passing mechanism?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Ring"
+    },
+    {
+      "question": "In a star topology, what happens if the central hub fails?",
+      "options": [
+        "The network continues to function",
+        "Only one device is affected",
+        "The entire network fails",
+        "Data is rerouted"
+      ],
+      "answer": "The entire network fails"
+    },
+    {
+      "question": "Which topology is best for high-speed networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is a key feature of a fully connected mesh topology?",
+      "options": [
+        "Every device is connected to every other device",
+        "Devices are connected in a loop",
+        "Devices are connected to a central hub",
+        "Devices share a single cable"
+      ],
+      "answer": "Every device is connected to every other device"
+    },
+    {
+      "question": "Which topology is used in wireless networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "What is the main disadvantage of a ring topology?",
+      "options": [
+        "High cost",
+        "Single point of failure",
+        "Complex setup",
+        "Low scalability"
+      ],
+      "answer": "Single point of failure"
+    },
+    {
+      "question": "Which topology is easiest to expand?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "In a bus topology, what happens if the backbone cable is damaged?",
+      "options": [
+        "Only one device is affected",
+        "The entire network fails",
+        "Data is rerouted",
+        "The network continues to function"
+      ],
+      "answer": "The entire network fails"
+    },
+    {
+      "question": "Which topology is commonly used in Ethernet LANs?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is a partial mesh topology?",
+      "options": [
+        "Some devices are connected to all others",
+        "All devices are connected to a central hub",
+        "Devices form a closed loop",
+        "Devices share a single cable"
+      ],
+      "answer": "Some财富 devices are connected to all others"
+    },
+    {
+      "question": "Which topology requires a central controller for data flow?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is the primary use of a bus topology?",
+      "options": [
+        "Large-scale networks",
+        "Small networks",
+        "High-security networks",
+        "Wireless networks"
+      ],
+      "answer": "Small networks"
+    },
+    {
+      "question": "Which topology provides the highest redundancy?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "In a ring topology, what controls data transmission?",
+      "options": [
+        "Hub",
+        "Token",
+        "Switch",
+        "Router"
+      ],
+      "answer": "Token"
+    },
+    {
+      "question": "Which topology is most suitable for a large campus network?",
+      "options": [
+        "Bus",
+        "Star",
+        "Tree",
+        "Ring"
+      ],
+      "answer": "Tree"
+    },
+    {
+      "question": "What is a disadvantage of a mesh topology?",
+      "options": [
+        "Low reliability",
+        "High cost",
+        "Single point of failure",
+        "Difficult to troubleshoot"
+      ],
+      "answer": "High cost"
+    },
+    {
+      "question": "Which topology uses the least amount of cabling?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Bus"
+    },
+    {
+      "question": "In a star topology, what type of cable is commonly used?",
+      "options": [
+        "Coaxial",
+        "Twisted pair",
+        "Fiber optic",
+        "Microwave"
+      ],
+      "answer": "Twisted pair"
+    },
+    {
+      "question": "Which topology is best for fault tolerance?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "What is the role of a switch in a star topology?",
+      "options": [
+        "To broadcast data",
+        "To forward data to specific devices",
+        "To amplify signals",
+        "To encrypt data"
+      ],
+      "answer": "To forward data to specific devices"
+    },
+    {
+      "question": "Which topology is used in FDDI networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Ring"
+    },
+    {
+      "question": "What is a key feature of a tree topology?",
+      "options": [
+        "Hierarchical structure",
+        "Single cable connection",
+        "Closed loop",
+        "Full connectivity"
+      ],
+      "answer": "Hierarchical structure"
+    },
+    {
+      "question": "Which topology is most difficult to reconfigure?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "In a bus topology, how is data transmitted?",
+      "options": [
+        "Through a central hub",
+        "Along a single cable",
+        "In a closed loop",
+        "To every device directly"
+      ],
+      "answer": "Along a single cable"
+    },
+    {
+      "question": "Which topology is used in traditional telephone networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is a disadvantage of a tree topology?",
+      "options": [
+        "Low scalability",
+        "Complex maintenance",
+        "No central device",
+        "High latency"
+      ],
+      "answer": "Complex maintenance"
+    },
+    {
+      "question": "Which topology is most prone to single-point failures?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "In a mesh topology, how many connections are needed for 5 devices in a full mesh?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answer": "10"
+    },
+    {
+      "question": "Which topology is used in peer-to-peer networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "What is the main advantage of a bus topology?",
+      "options": [
+        "High reliability",
+        "Low cost",
+        "Easy troubleshooting",
+        "High scalability"
+      ],
+      "answer": "Low cost"
+    },
+    {
+      "question": "Which topology requires a central management device?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "In a ring topology, what happens if the cable is cut?",
+      "options": [
+        "The network continues to function",
+        "Only one device is affected",
+        "The entire network fails",
+        "Data is rerouted"
+      ],
+      "answer": "The entire network fails"
+    },
+    {
+      "question": "Which topology is best for a small-scale network with limited budget?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Bus"
+    },
+    {
+      "question": "What is the role of a hub in a star topology?",
+      "options": [
+        "To route data",
+        "To broadcast data",
+        "To amplify signals",
+        "To encrypt data"
+      ],
+      "answer": "To broadcast data"
+    },
+    {
+      "question": "Which topology is used in modern data centers?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "What is a disadvantage of a hybrid topology?",
+      "options": [
+        "Low cost",
+        "Complex design",
+        "Single point of failure",
+        "Low reliability"
+      ],
+      "answer": "Complex design"
+    },
+    {
+      "question": "Which topology is most suitable for real-time applications?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "In a tree topology, what are the end devices called?",
+      "options": [
+        "Roots",
+        "Nodes",
+        "Leaves",
+        "Branches"
+      ],
+      "answer": "Leaves"
+    },
+    {
+      "question": "Which topology is used in cable television networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Tree"
+      ],
+      "answer": "Tree"
+    },
+    {
+      "question": "What is a key feature of a bus topology?",
+      "options": [
+        "Centralized control",
+        "Shared communication medium",
+        "High redundancy",
+        "Complex wiring"
+      ],
+      "answer": "Shared communication medium"
+    },
+    {
+      "question": "Which topology is most secure against network failures?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "In a star topology, what is the role of the central device?",
+      "options": [
+        "To store data",
+        "To connect all devices",
+        "To encrypt data",
+        "To compress data"
+      ],
+      "answer": "To connect all devices"
+    },
+    {
+      "question": "Which topology is used in ATM networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is a disadvantage of a bus topology?",
+      "options": [
+        "High cost",
+        "Limited scalability",
+        "Complex setup",
+        "High latency"
+      ],
+      "answer": "Limited scalability"
+    },
+    {
+      "question": "Which topology is best for a network requiring high reliability?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "In a ring topology, how is data transmitted between devices?",
+      "options": [
+        "Through a central hub",
+        "In a circular path",
+        "Along a single cable",
+        "To every device directly"
+      ],
+      "answer": "In a circular path"
+    },
+    {
+      "question": "Which topology is most commonly used in home networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is the main advantage of a hybrid topology?",
+      "options": [
+        "Low cost",
+        "Flexibility",
+        "Single point of failure",
+        "Minimal cabling"
+      ],
+      "answer": "Flexibility"
+    },
+    {
+      "question": "Which topology is used in older LANs like ARCnet?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Bus"
+    },
+    {
+      "question": "In a mesh topology, what happens if one connection fails?",
+      "options": [
+        "The entire network fails",
+        "Data is rerouted through other paths",
+        "Only one device is affected",
+        "The network slows down"
+      ],
+      "answer": "Data is rerouted through other paths"
+    },
+    {
+      "question": "Which topology is most suitable for a network with frequent device additions?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Star"
+    },
+    {
+      "question": "What is the primary disadvantage of a ring topology?",
+      "options": [
+        "High cost",
+        "Single point of failure",
+        "Complex wiring",
+        "Low bandwidth"
+      ],
+      "answer": "Single point of failure"
+    },
+    {
+      "question": "Which topology is used in fiber optic networks for high reliability?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Mesh"
+      ],
+      "answer": "Mesh"
+    },
+    {
+      "question": "In a bus topology, what device is used to extend the network?",
+      "options": [
+        "Switch",
+        "Repeater",
+        "Router",
+        "Gateway"
+      ],
+      "answer": "Repeater"
+    },
+    {
+      "question": "Which topology is most commonly used in enterprise networks?",
+      "options": [
+        "Bus",
+        "Star",
+        "Ring",
+        "Hybrid"
+      ],
+      "answer": "Hybrid"
+    }
+        ]
+      },
+      "Security:": {
+        "title": "Network Security",
+        "questions": [
+               {
+      "question": "What is the primary goal of network security?",
+      "options": [
+        "To increase network speed",
+        "To protect data and systems from unauthorized access",
+        "To reduce network latency",
+        "To expand network coverage"
+      ],
+      "answer": "To protect data and systems from unauthorized access"
+    },
+    {
+      "question": "Which of the following is a common network security threat?",
+      "options": [
+        "Phishing",
+        "Data compression",
+        "File sharing",
+        "Network routing"
+      ],
+      "answer": "Phishing"
+    },
+    {
+      "question": "What does a firewall do in a network?",
+      "options": [
+        "Monitors and filters network traffic",
+        "Increases bandwidth",
+        "Encrypts data",
+        "Manages IP addresses"
+      ],
+      "answer": "Monitors and filters network traffic"
+    },
+    {
+      "question": "Which protocol is used for secure web browsing?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "HTTPS",
+        "SMTP"
+      ],
+      "answer": "HTTPS"
+    },
+    {
+      "question": "What is the purpose of encryption in network security?",
+      "options": [
+        "To compress data",
+        "To protect data confidentiality",
+        "To increase data speed",
+        "To route data"
+      ],
+      "answer": "To protect data confidentiality"
+    },
+    {
+      "question": "Which type of attack involves overwhelming a server with traffic?",
+      "options": [
+        "Phishing",
+        "DDoS",
+        "Man-in-the-middle",
+        "SQL injection"
+      ],
+      "answer": "DDoS"
+    },
+    {
+      "question": "What does VPN stand for?",
+      "options": [
+        "Virtual Private Network",
+        "Variable Packet Network",
+        "Virtual Public Network",
+        "Verified Protocol Network"
+      ],
+      "answer": "Virtual Private Network"
+    },
+    {
+      "question": "Which of the following is used to authenticate users in a network?",
+      "options": [
+        "Firewall",
+        "Encryption",
+        "Password",
+        "Router"
+      ],
+      "answer": "Password"
+    },
+    {
+      "question": "What is a common method to prevent unauthorized access to a network?",
+      "options": [
+        "MAC filtering",
+        "Data compression",
+        "Packet switching",
+        "Bandwidth allocation"
+      ],
+      "answer": "MAC filtering"
+    },
+    {
+      "question": "Which protocol is used for secure file transfer?",
+      "options": [
+        "FTP",
+        "SFTP",
+        "HTTP",
+        "SMTP"
+      ],
+      "answer": "SFTP"
+    },
+    {
+      "question": "What is the purpose of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To encrypt data",
+        "To detect unauthorized network activity",
+        "To increase network speed",
+        "To manage IP addresses"
+      ],
+      "answer": "To detect unauthorized network activity"
+    },
+    {
+      "question": "Which attack intercepts communication between two parties?",
+      "options": [
+        "DDoS",
+        "Phishing",
+        "Man-in-the-middle",
+        "Brute force"
+      ],
+      "answer": "Man-in-the-middle"
+    },
+    {
+      "question": "What does SSL stand for?",
+      "options": [
+        "Secure Socket Layer",
+        "System Security Layer",
+        "Secure System Link",
+        "Standard Socket Link"
+      ],
+      "answer": "Secure Socket Layer"
+    },
+    {
+      "question": "Which of the following is a symmetric encryption algorithm?",
+      "options": [
+        "RSA",
+        "AES",
+        "DSA",
+        "ECC"
+      ],
+      "answer": "AES"
+    },
+    {
+      "question": "What is the purpose of a digital certificate?",
+      "options": [
+        "To compress data",
+        "To verify the identity of a user or device",
+        "To increase bandwidth",
+        "To route traffic"
+      ],
+      "answer": "To verify the identity of a user or device"
+    },
+    {
+      "question": "Which protocol is used to secure email communication?",
+      "options": [
+        "HTTP",
+        "SMTP",
+        "IMAPS",
+        "FTP"
+      ],
+      "answer": "IMAPS"
+    },
+    {
+      "question": "What is a brute force attack?",
+      "options": [
+        "Trying all possible password combinations",
+        "Sending spam emails",
+        "Overloading a server",
+        "Intercepting data packets"
+      ],
+      "answer": "Trying all possible password combinations"
+    },
+    {
+      "question": "Which device is used to secure wireless networks?",
+      "options": [
+        "Router",
+        "Switch",
+        "Access point",
+        "Firewall"
+      ],
+      "answer": "Firewall"
+    },
+    {
+      "question": "What does WEP stand for in wireless security?",
+      "options": [
+        "Wired Equivalent Privacy",
+        "Wireless Encryption Protocol",
+        "Wired Encryption Policy",
+        "Wireless Equivalent Protection"
+      ],
+      "answer": "Wired Equivalent Privacy"
+    },
+    {
+      "question": "Which of the following is a stronger wireless security protocol?",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA2",
+        "WPA3"
+      ],
+      "answer": "WPA3"
+    },
+    {
+      "question": "What is the purpose of a honeypot in network security?",
+      "options": [
+        "To encrypt data",
+        "To attract and detect attackers",
+        "To compress network traffic",
+        "To route data"
+      ],
+      "answer": "To attract and detect attackers"
+    },
+    {
+      "question": "Which type of firewall filters traffic based on IP addresses?",
+      "options": [
+        "Packet-filtering firewall",
+        "Stateful firewall",
+        "Application-layer firewall",
+        "Proxy firewall"
+      ],
+      "answer": "Packet-filtering firewall"
+    },
+    {
+      "question": "What is the role of a Public Key Infrastructure (PKI)?",
+      "options": [
+        "To manage digital certificates",
+        "To compress data",
+        "To route network traffic",
+        "To increase bandwidth"
+      ],
+      "answer": "To manage digital certificates"
+    },
+    {
+      "question": "Which attack involves injecting malicious code into a website?",
+      "options": [
+        "SQL injection",
+        "Cross-site scripting",
+        "DDoS",
+        "Phishing"
+      ],
+      "answer": "Cross-site scripting"
+    },
+    {
+      "question": "What does TLS stand for?",
+      "options": [
+        "Transport Layer Security",
+        "Transmission Layer System",
+        "Trusted Link Security",
+        "Transport Link Standard"
+      ],
+      "answer": "Transport Layer Security"
+    },
+    {
+      "question": "Which of the following is an example of multi-factor authentication?",
+      "options": [
+        "Password only",
+        "Password and biometric",
+        "Username and password",
+        "IP address and MAC address"
+      ],
+      "answer": "Password and biometric"
+    },
+    {
+      "question": "What is the purpose of a DMZ in network security?",
+      "options": [
+        "To store sensitive data",
+        "To isolate public-facing servers",
+        "To encrypt data",
+        "To increase network speed"
+      ],
+      "answer": "To isolate public-facing servers"
+    },
+    {
+      "question": "Which protocol is used for secure remote access?",
+      "options": [
+        "Telnet",
+        "SSH",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "SSH"
+    },
+    {
+      "question": "What is a common method to protect against phishing attacks?",
+      "options": [
+        "User awareness training",
+        "Data compression",
+        "Increasing bandwidth",
+        "Disabling firewalls"
+      ],
+      "answer": "User awareness training"
+    },
+    {
+      "question": "Which type of malware encrypts data and demands payment?",
+      "options": [
+        "Virus",
+        "Worm",
+        "Ransomware",
+        "Spyware"
+      ],
+      "answer": "Ransomware"
+    },
+    {
+      "question": "What is the purpose of a proxy server in network security?",
+      "options": [
+        "To compress data",
+        "To act as an intermediary between client and server",
+        "To increase network speed",
+        "To store data"
+      ],
+      "answer": "To act as an intermediary between client and server"
+    },
+    {
+      "question": "Which of the following is an asymmetric encryption algorithm?",
+      "options": [
+        "AES",
+        "DES",
+        "RSA",
+        "3DES"
+      ],
+      "answer": "RSA"
+    },
+    {
+      "question": "What does IDS stand for in network security?",
+      "options": [
+        "Intrusion Detection System",
+        "Internet Data Security",
+        "Internal Defense System",
+        "Intrusion Denial Service"
+      ],
+      "answer": "Intrusion Detection System"
+    },
+    {
+      "question": "Which attack involves pretending to be a trusted entity?",
+      "options": [
+        "DDoS",
+        "Phishing",
+        "Brute force",
+        "SQL injection"
+      ],
+      "answer": "Phishing"
+    },
+    {
+      "question": "What is the purpose of a network security policy?",
+      "options": [
+        "To increase network speed",
+        "To define rules for protecting the network",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To define rules for protecting the network"
+    },
+    {
+      "question": "Which protocol is used to secure wireless networks?",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA2",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is a common method to detect network intrusions?",
+      "options": [
+        "Packet sniffing",
+        "Log analysis",
+        "Data compression",
+        "Bandwidth monitoring"
+      ],
+      "answer": "Log analysis"
+    },
+    {
+      "question": "Which of the following is a type of social engineering attack?",
+      "options": [
+        "DDoS",
+        "Phishing",
+        "SQL injection",
+        "Cross-site scripting"
+      ],
+      "answer": "Phishing"
+    },
+    {
+      "question": "What is the purpose of antivirus software in network security?",
+      "options": [
+        "To detect and remove malware",
+        "To increase network speed",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To detect and remove malware"
+    },
+    {
+      "question": "Which protocol is used to secure VPN connections?",
+      "options": [
+        "IPsec",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "IPsec"
+    },
+    {
+      "question": "What is a zero-day exploit?",
+      "options": [
+        "An attack on a known vulnerability",
+        "An attack on an unknown vulnerability",
+        "A type of encryption",
+        "A network routing error"
+      ],
+      "answer": "An attack on an unknown vulnerability"
+    },
+    {
+      "question": "Which of the following is used to secure Wi-Fi networks?",
+      "options": [
+        "WPA3",
+        "FTP",
+        "HTTP",
+        "Telnet"
+      ],
+      "answer": "WPA3"
+    },
+    {
+      "question": "What is the role of a security information and event management (SIEM) system?",
+      "options": [
+        "To compress data",
+        "To monitor and analyze security events",
+        "To increase bandwidth",
+        "To route traffic"
+      ],
+      "answer": "To monitor and analyze security events"
+    },
+    {
+      "question": "Which attack targets vulnerabilities in a database?",
+      "options": [
+        "SQL injection",
+        "Phishing",
+        "DDoS",
+        "Man-in-the-middle"
+      ],
+      "answer": "SQL injection"
+    },
+    {
+      "question": "What is the purpose of a hash function in network security?",
+      "options": [
+        "To compress data",
+        "To verify data integrity",
+        "To increase bandwidth",
+        "To route traffic"
+      ],
+      "answer": "To verify data integrity"
+    },
+    {
+      "question": "Which of the following is a type of firewall?",
+      "options": [
+        "Stateful firewall",
+        "Packet sniffer",
+        "Router",
+        "Switch"
+      ],
+      "answer": "Stateful firewall"
+    },
+    {
+      "question": "What is the purpose of two-factor authentication?",
+      "options": [
+        "To increase network speed",
+        "To enhance user security",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To enhance user security"
+    },
+    {
+      "question": "Which protocol is used for secure communication in VoIP?",
+      "options": [
+        "SIP",
+        "RTP",
+        "SRTP",
+        "HTTP"
+      ],
+      "answer": "SRTP"
+    },
+    {
+      "question": "What is the purpose of penetration testing?",
+      "options": [
+        "To identify network vulnerabilities",
+        "To increase bandwidth",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To identify network vulnerabilities"
+    },
+    {
+      "question": "Which of the following is a common encryption standard for wireless networks?",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA2",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+     {
+      "question": "What is the primary purpose of a network intrusion prevention system (IPS)?",
+      "options": [
+        "To detect and block unauthorized network activity",
+        "To increase network bandwidth",
+        "To compress network data",
+        "To assign IP addresses"
+      ],
+      "answer": "To detect and block unauthorized network activity"
+    },
+    {
+      "question": "Which type of attack involves stealing user credentials through fake login pages?",
+      "options": [
+        "DDoS",
+        "Phishing",
+        "SQL injection",
+        "Packet sniffing"
+      ],
+      "answer": "Phishing"
+    },
+    {
+      "question": "Which security protocol is used to secure data in transit over the Internet?",
+      "options": [
+        "FTP",
+        "TLS",
+        "SMTP",
+        "ARP"
+      ],
+      "answer": "TLS"
+    },
+    {
+      "question": "What is the purpose of a security audit in network security?",
+      "options": [
+        "To identify vulnerabilities and ensure compliance",
+        "To increase network speed",
+        "To compress data packets",
+        "To route network traffic"
+      ],
+      "answer": "To identify vulnerabilities and ensure compliance"
+    },
+    {
+      "question": "Which of the following is a common tool for network packet analysis?",
+      "options": [
+        "Wireshark",
+        "Notepad",
+        "Excel",
+        "PuTTY"
+      ],
+      "answer": "Wireshark"
+    },
+    {
+      "question": "What does a Trojan horse do in a network?",
+      "options": [
+        "Encrypts network data",
+        "Disguises itself as legitimate software to gain access",
+        "Increases network speed",
+        "Manages IP addresses"
+      ],
+      "answer": "Disguises itself as legitimate software to gain access"
+    },
+    {
+      "question": "Which encryption algorithm is commonly used for securing VPNs?",
+      "options": [
+        "DES",
+        "RSA",
+        "AES",
+        "MD5"
+      ],
+      "answer": "AES"
+    },
+    {
+      "question": "What is the purpose of a sandbox in network security?",
+      "options": [
+        "To isolate and analyze suspicious files",
+        "To increase network bandwidth",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To isolate and analyze suspicious files"
+    },
+    {
+      "question": "Which type of firewall operates at the application layer?",
+      "options": [
+        "Packet-filtering firewall",
+        "Stateful firewall",
+        "Proxy firewall",
+        "Circuit-level firewall"
+      ],
+      "answer": "Proxy firewall"
+    },
+    {
+      "question": "What is a key characteristic of a denial-of-service (DoS) attack?",
+      "options": [
+        "Stealing user credentials",
+        "Disrupting network availability",
+        "Encrypting data",
+        "Modifying network routes"
+      ],
+      "answer": "Disrupting network availability"
+    },
+    {
+      "question": "Which protocol is used for secure domain name resolution?",
+      "options": [
+        "DNS",
+        "DNSSEC",
+        "DHCP",
+        "SNMP"
+      ],
+      "answer": "DNSSEC"
+    },
+    {
+      "question": "What is the purpose of a network access control (NAC) system?",
+      "options": [
+        "To manage bandwidth",
+        "To restrict unauthorized devices from accessing the network",
+        "To compress data",
+        "To encrypt network traffic"
+      ],
+      "answer": "To restrict unauthorized devices from accessing the network"
+    },
+    {
+      "question": "Which attack involves capturing and analyzing network packets?",
+      "options": [
+        "Phishing",
+        "Packet sniffing",
+        "DDoS",
+        "SQL injection"
+      ],
+      "answer": "Packet sniffing"
+    },
+    {
+      "question": "What does the term 'CIA triad' stand for in network security?",
+      "options": [
+        "Confidentiality, Integrity, Availability",
+        "Control, Inspection, Authentication",
+        "Compression, Integration, Access",
+        "Connection, Isolation, Authorization"
+      ],
+      "answer": "Confidentiality, Integrity, Availability"
+    },
+    {
+      "question": "Which of the following is a type of malware that spreads without user interaction?",
+      "options": [
+        "Virus",
+        "Worm",
+        "Trojan",
+        "Spyware"
+      ],
+      "answer": "Worm"
+    },
+    {
+      "question": "What is the purpose of a security token in authentication?",
+      "options": [
+        "To generate one-time passwords",
+        "To compress data",
+        "To increase bandwidth",
+        "To route traffic"
+      ],
+      "answer": "To generate one-time passwords"
+    },
+    {
+      "question": "Which protocol is commonly used for secure remote management of network devices?",
+      "options": [
+        "Telnet",
+        "SSH",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "SSH"
+    },
+    {
+      "question": "What is the role of a VPN in network security?",
+      "options": [
+        "To create a secure tunnel over a public network",
+        "To increase network speed",
+        "To compress data packets",
+        "To assign IP addresses"
+      ],
+      "answer": "To create a secure tunnel over a public network"
+    },
+    {
+      "question": "Which of the following is a common hashing algorithm used for data integrity?",
+      "options": [
+        "AES",
+        "SHA-256",
+        "RSA",
+        "DES"
+      ],
+      "answer": "SHA-256"
+    },
+    {
+      "question": "What is a common method to protect against SQL injection attacks?",
+      "options": [
+        "Input validation",
+        "Increasing bandwidth",
+        "Disabling firewalls",
+        "Data compression"
+      ],
+      "answer": "Input validation"
+    },
+    {
+      "question": "Which security measure ensures that data is not altered during transmission?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Authentication"
+      ],
+      "answer": "Integrity"
+    },
+    {
+      "question": "What is the purpose of a security patch?",
+      "options": [
+        "To fix vulnerabilities in software",
+        "To increase network speed",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To fix vulnerabilities in software"
+    },
+    {
+      "question": "Which type of attack uses multiple compromised systems to target a single server?",
+      "options": [
+        "DoS",
+        "DDoS",
+        "Phishing",
+        "Man-in-the-middle"
+      ],
+      "answer": "DDoS"
+    },
+    {
+      "question": "What is the purpose of a digital signature in network security?",
+      "options": [
+        "To compress data",
+        "To verify authenticity and integrity",
+        "To increase bandwidth",
+        "To route traffic"
+      ],
+      "answer": "To verify authenticity and integrity"
+    },
+    {
+      "question": "Which protocol is used to secure wireless communications in modern networks?",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA3",
+        "WPA2"
+      ],
+      "answer": "WPA3"
+    },
+    {
+      "question": "What is a common tool used for vulnerability scanning?",
+      "options": [
+        "Nessus",
+        "Notepad",
+        "Excel",
+        "PuTTY"
+      ],
+      "answer": "Nessus"
+    },
+    {
+      "question": "Which type of firewall tracks the state of network connections?",
+      "options": [
+        "Packet-filtering firewall",
+        "Stateful firewall",
+        "Proxy firewall",
+        "Application-layer firewall"
+      ],
+      "answer": "Stateful firewall"
+    },
+    {
+      "question": "What is the purpose of a security incident response plan?",
+      "options": [
+        "To increase network speed",
+        "To manage and mitigate security breaches",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To manage and mitigate security breaches"
+    },
+    {
+      "question": "Which attack involves manipulating a user’s browser session?",
+      "options": [
+        "Cross-site scripting",
+        "SQL injection",
+        "DDoS",
+        "Phishing"
+      ],
+      "answer": "Cross-site scripting"
+    },
+    {
+      "question": "What does the term 'authentication' mean in network security?",
+      "options": [
+        "Ensuring data confidentiality",
+        "Verifying user identity",
+        "Compressing data",
+        "Routing traffic"
+      ],
+      "answer": "Verifying user identity"
+    },
+    {
+      "question": "Which protocol is used for secure email transmission?",
+      "options": [
+        "SMTP",
+        "SMTPS",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "SMTPS"
+    },
+    {
+      "question": "What is the purpose of a network security baseline?",
+      "options": [
+        "To define minimum security standards",
+        "To increase bandwidth",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To define minimum security standards"
+    },
+    {
+      "question": "Which type of malware collects user data without consent?",
+      "options": [
+        "Virus",
+        "Worm",
+        "Spyware",
+        "Ransomware"
+      ],
+      "answer": "Spyware"
+    },
+    {
+      "question": "What is the purpose of a certificate authority (CA)?",
+      "options": [
+        "To issue digital certificates",
+        "To compress data",
+        "To increase bandwidth",
+        "To route traffic"
+      ],
+      "answer": "To issue digital certificates"
+    },
+    {
+      "question": "Which attack exploits vulnerabilities in outdated software?",
+      "options": [
+        "Exploit attack",
+        "Phishing",
+        "DDoS",
+        "Man-in-the-middle"
+      ],
+      "answer": "Exploit attack"
+    },
+    {
+      "question": "What is the purpose of network segmentation in security?",
+      "options": [
+        "To increase network speed",
+        "To limit the spread of attacks",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To limit the spread of attacks"
+    },
+    {
+      "question": "Which protocol is used for secure network management?",
+      "options": [
+        "SNMP",
+        "SNMPv3",
+        "Telnet",
+        "FTP"
+      ],
+      "answer": "SNMPv3"
+    },
+    {
+      "question": "What is a common method to prevent man-in-the-middle attacks?",
+      "options": [
+        "Using encryption",
+        "Increasing bandwidth",
+        "Disabling firewalls",
+        "Data compression"
+      ],
+      "answer": "Using encryption"
+    },
+    {
+      "question": "Which of the following is a type of social engineering attack?",
+      "options": [
+        "Baiting",
+        "DDoS",
+        "SQL injection",
+        "Packet sniffing"
+      ],
+      "answer": "Baiting"
+    },
+    {
+      "question": "What is the purpose of a security operations center (SOC)?",
+      "options": [
+        "To monitor and respond to security incidents",
+        "To increase network speed",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To monitor and respond to security incidents"
+    },
+    {
+      "question": "Which protocol is used to secure VoIP communications?",
+      "options": [
+        "SIP",
+        "RTP",
+        "SRTP",
+        "HTTP"
+      ],
+      "answer": "SRTP"
+    },
+    {
+      "question": "What is the purpose of a network security key?",
+      "options": [
+        "To secure wireless network access",
+        "To increase bandwidth",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To secure wireless network access"
+    },
+    {
+      "question": "Which attack involves flooding a network with fake ARP requests?",
+      "options": [
+        "ARP spoofing",
+        "Phishing",
+        "DDoS",
+        "SQL injection"
+      ],
+      "answer": "ARP spoofing"
+    },
+    {
+      "question": "What is the purpose of a secure gateway in network security?",
+      "options": [
+        "To filter and secure web traffic",
+        "To increase bandwidth",
+        "To compress data",
+        "To assign IP addresses"
+      ],
+      "answer": "To filter and secure web traffic"
+    },
+    {
+      "question": "Which of the following is a type of biometric authentication?",
+      "options": [
+        "Password",
+        "Fingerprint scanning",
+        "Security question",
+        "IP address"
+      ],
+      "answer": "Fingerprint scanning"
+    },
+    {
+      "question": "What is the purpose of a network security audit trail?",
+      "options": [
+        "To track user activities for accountability",
+        "To increase network speed",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To track user activities for accountability"
+    },
+    {
+      "question": "Which protocol is used for secure web server authentication?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "HTTPS"
+    },
+    {
+      "question": "What is the purpose of a security information sharing platform?",
+      "options": [
+        "To share threat intelligence",
+        "To increase bandwidth",
+        "To compress data",
+        "To route traffic"
+      ],
+      "answer": "To share threat intelligence"
+    },
+    {
+      "question": "Which type of attack involves exploiting a software bug?",
+      "options": [
+        "Buffer overflow",
+        "Phishing",
+        "DDoS",
+        "Man-in-the-middle"
+      ],
+      "answer": "Buffer overflow"
+    },
+    {
+      "question": "What is the purpose of a network security protocol like IPsec?",
+      "options": [
+        "To secure data transmission",
+        "To increase bandwidth",
+        "To compress data",
+        "To assign IP addresses"
+      ],
+      "answer": "To secure data transmission"
+    }
+        ]
+      },
+      "Wireless": {
+        "title": "Wireless Networking",
+        "questions": [
+              {
+      "question": "What is the primary advantage of wireless networking?",
+      "options": [
+        "Higher bandwidth than wired networks",
+        "Mobility and flexibility",
+        "Lower installation cost",
+        "No need for security"
+      ],
+      "answer": "Mobility and flexibility"
+    },
+    {
+      "question": "Which standard is commonly used for wireless LANs?",
+      "options": [
+        "IEEE 802.3",
+        "IEEE 802.11",
+        "IEEE 802.15",
+        "IEEE 802.16"
+      ],
+      "answer": "IEEE 802.11"
+    },
+    {
+      "question": "What does Wi-Fi stand for?",
+      "options": [
+        "Wireless Fidelity",
+        "Wired Fiber",
+        "Wireless Frequency",
+        "Wired Freedom"
+      ],
+      "answer": "Wireless Fidelity"
+    },
+    {
+      "question": "Which frequency band is used by the 802.11ac standard?",
+      "options": [
+        "2.4 GHz",
+        "5 GHz",
+        "3.5 GHz",
+        "60 GHz"
+      ],
+      "answer": "5 GHz"
+    },
+    {
+      "question": "What is the primary function of a wireless access point (WAP)?",
+      "options": [
+        "To connect wireless devices to a wired network",
+        "To encrypt data",
+        "To assign IP addresses",
+        "To compress data"
+      ],
+      "answer": "To connect wireless devices to a wired network"
+    },
+    {
+      "question": "Which wireless security protocol is considered the most secure?",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA2",
+        "WPA3"
+      ],
+      "answer": "WPA3"
+    },
+    {
+      "question": "What is the maximum theoretical speed of 802.11ax (Wi-Fi 6)?",
+      "options": [
+        "1 Gbps",
+        "3.5 Gbps",
+        "9.6 Gbps",
+        "10 Gbps"
+      ],
+      "answer": "9.6 Gbps"
+    },
+    {
+      "question": "Which device is used to extend the range of a wireless network?",
+      "options": [
+        "Router",
+        "Switch",
+        "Repeater",
+        "Gateway"
+      ],
+      "answer": "Repeater"
+    },
+    {
+      "question": "What does SSID stand for in wireless networking?",
+      "options": [
+        "Service Set Identifier",
+        "Secure Signal Identifier",
+        "System Service ID",
+        "Standard Signal Interface"
+      ],
+      "answer": "Service Set Identifier"
+    },
+    {
+      "question": "Which type of wireless network is created without a central access point?",
+      "options": [
+        "Infrastructure mode",
+        "Ad-hoc mode",
+        "Mesh mode",
+        "Bridge mode"
+      ],
+      "answer": "Ad-hoc mode"
+    },
+    {
+      "question": "What is the purpose of a wireless router?",
+      "options": [
+        "To connect devices to the Internet and manage traffic",
+        "To encrypt all network data",
+        "To compress wireless signals",
+        "To store network data"
+      ],
+      "answer": "To connect devices to the Internet and manage traffic"
+    },
+    {
+      "question": "Which frequency band is more prone to interference?",
+      "options": [
+        "2.4 GHz",
+        "5 GHz",
+        "60 GHz",
+        "3.5 GHz"
+      ],
+      "answer": "2.4 GHz"
+    },
+    {
+      "question": "What is the main disadvantage of wireless networking?",
+      "options": [
+        "High installation cost",
+        "Susceptibility to interference",
+        "Limited bandwidth",
+        "No mobility"
+      ],
+      "answer": "Susceptibility to interference"
+    },
+    {
+      "question": "Which protocol is used for secure wireless communication?",
+      "options": [
+        "WEP",
+        "WPA2",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "WPA2"
+    },
+    {
+      "question": "What is the role of a wireless bridge?",
+      "options": [
+        "To connect two separate networks wirelessly",
+        "To amplify signals",
+        "To assign IP addresses",
+        "To compress data"
+      ],
+      "answer": "To connect two separate networks wirelessly"
+    },
+    {
+      "question": "Which IEEE standard is used for Bluetooth?",
+      "options": [
+        "802.11",
+        "802.15",
+        "802.16",
+        "802.3"
+      ],
+      "answer": "802.15"
+    },
+    {
+      "question": "What is the maximum range of a typical Wi-Fi network?",
+      "options": [
+        "10 meters",
+        "50 meters",
+        "100 meters",
+        "500 meters"
+      ],
+      "answer": "100 meters"
+    },
+    {
+      "question": "Which modulation technique is used in 802.11ac?",
+      "options": [
+        "QPSK",
+        "OFDM",
+        "DSSS",
+        "FHSS"
+      ],
+      "answer": "OFDM"
+    },
+    {
+      "question": "What is a common cause of wireless network interference?",
+      "options": [
+        "Microwave ovens",
+        "Fiber optic cables",
+        "Ethernet cables",
+        "Power supply"
+      ],
+      "answer": "Microwave ovens"
+    },
+    {
+      "question": "Which wireless standard supports multiple input multiple output (MIMO)?",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11n",
+        "802.11g"
+      ],
+      "answer": "802.11n"
+    },
+    {
+      "question": "What does MU-MIMO stand for in wireless networking?",
+      "options": [
+        "Multi-User Multiple Input Multiple Output",
+        "Multiple User Modulation Input Output",
+        "Multi-Unit Multiple Input Output",
+        "Main User Multiple Input Output"
+      ],
+      "answer": "Multi-User Multiple Input Multiple Output"
+    },
+    {
+      "question": "Which wireless standard operates in the 60 GHz band?",
+      "options": [
+        "802.11ac",
+        "802.11ad",
+        "802.11ax",
+        "802.11n"
+      ],
+      "answer": "802.11ad"
+    },
+    {
+      "question": "What is the purpose of a wireless network adapter?",
+      "options": [
+        "To connect a device to a wireless network",
+        "To encrypt data",
+        "To assign IP addresses",
+        "To compress signals"
+      ],
+      "answer": "To connect a device to a wireless network"
+    },
+    {
+      "question": "Which security protocol uses AES encryption?",
+      "options": [
+        "WEP",
+        "WPA",
+        "WPA2",
+        "WPA3"
+      ],
+      "answer": "WPA2"
+    },
+    {
+      "question": "What is the purpose of hiding the SSID in a wireless network?",
+      "options": [
+        "To increase bandwidth",
+        "To enhance security",
+        "To reduce interference",
+        "To assign IP addresses"
+      ],
+      "answer": "To enhance security"
+    },
+    {
+      "question": "Which wireless standard is backward compatible with 802.11g?",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11n",
+        "802.11ac"
+      ],
+      "answer": "802.11n"
+    },
+    {
+      "question": "What is the primary advantage of the 5 GHz band over the 2.4 GHz band?",
+      "options": [
+        "Longer range",
+        "Less interference",
+        "Lower cost",
+        "Higher power consumption"
+      ],
+      "answer": "Less interference"
+    },
+    {
+      "question": "Which device is used to manage wireless network traffic?",
+      "options": [
+        "Switch",
+        "Jon",
+        "Router",
+        "Repeater"
+      ],
+      "answer": "Router"
+    },
+    {
+      "question": "What is the purpose of a MAC address filter in wireless networks?",
+      "options": [
+        "To allow only authorized devices to connect",
+        "To increase signal strength",
+        "To compress data",
+        "To assign IP addresses"
+      ],
+      "answer": "To allow only authorized devices to connect"
+    },
+    {
+      "question": "Which wireless standard is known as Wi-Fi 6?",
+      "options": [
+        "802.11ac",
+        "802.11ax",
+        "802.11n",
+        "802.11ad"
+      ],
+      "answer": "802.11ax"
+    },
+    {
+      "question": "What is a wireless mesh network?",
+      "options": [
+        "A network with a single access point",
+        "A network where devices connect directly to each other",
+        "A network with multiple interconnected access points",
+        "A network with no security"
+      ],
+      "answer": "A network with multiple interconnected access points"
+    },
+    {
+      "question": "Which protocol is used for dynamic IP address assignment in wireless networks?",
+      "options": [
+        "DHCP",
+        "DNS",
+        "FTP",
+        "SNMP"
+      ],
+      "answer": "DHCP"
+    },
+    {
+      "question": "What is the main disadvantage of the 5 GHz band?",
+      "options": [
+        "Higher interference",
+        "Shorter range",
+        "Lower bandwidth",
+        "Higher cost"
+      ],
+      "answer": "Shorter range"
+    },
+    {
+      "question": "Which wireless standard is designed for short-range, high-speed communication?",
+      "options": [
+        "802.11ac",
+        "802.11ad",
+        "802.11ax",
+        "802.11n"
+      ],
+      "answer": "802.11ad"
+    },
+    {
+      "question": "What is the purpose of a wireless site survey?",
+      "options": [
+        "To assign IP addresses",
+        "To assess signal coverage and interference",
+        "To encrypt data",
+        "To compress signals"
+      ],
+      "answer": "To assess signal coverage and interference"
+    },
+    {
+      "question": "Which technique is used to improve wireless signal strength?",
+      "options": [
+        "Channel bonding",
+        "Data compression",
+        "Packet switching",
+        "IP addressing"
+      ],
+      "answer": "Channel bonding"
+    },
+    {
+      "question": "What is the maximum number of channels in the 2.4 GHz band for 802.11?",
+      "options": [
+        "3",
+        "11",
+        "14",
+        "20"
+      ],
+      "answer": "14"
+    },
+    {
+      "question": "Which wireless standard supports beamforming?",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11ac",
+        "802.11g"
+      ],
+      "answer": "802.11ac"
+    },
+    {
+      "question": "What is the purpose of QoS in wireless networking?",
+      "options": [
+        "To prioritize certain types of traffic",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To prioritize certain types of traffic"
+    },
+    {
+      "question": "Which type of antenna is commonly used in wireless access points?",
+      "options": [
+        "Omnidirectional",
+        "Directional",
+        "Parabolic",
+        "Yagi"
+      ],
+      "answer": "Omnidirectional"
+    },
+    {
+      "question": "What is the role of a wireless controller in large networks?",
+      "options": [
+        "To manage multiple access points",
+        "To compress data",
+        "To assign IP addresses",
+        "To encrypt signals"
+      ],
+      "answer": "To manage multiple access points"
+    },
+    {
+      "question": "Which wireless standard is optimized for IoT devices?",
+      "options": [
+        "802.11ac",
+        "802.11ax",
+        "802.11ah",
+        "802.11n"
+      ],
+      "answer": "802.11ah"
+    },
+    {
+      "question": "What is the purpose of a captive portal in wireless networks?",
+      "options": [
+        "To authenticate users before granting access",
+        "To increase signal strength",
+        "To compress data",
+        "To assign IP addresses"
+      ],
+      "answer": "To authenticate users before granting access"
+    },
+    {
+      "question": "Which frequency band is used by 802.11b?",
+      "options": [
+        "2.4 GHz",
+        "5 GHz",
+        "60 GHz",
+        "3.5 GHz"
+      ],
+      "answer": "2.4 GHz"
+    },
+    {
+      "question": "What is the main advantage of a wireless mesh network?",
+      "options": [
+        "Low cost",
+        "High reliability",
+        "Simple setup",
+        "No interference"
+      ],
+      "answer": "High reliability"
+    },
+    {
+      "question": "Which protocol is used for secure guest access in wireless networks?",
+      "options": [
+        "WEP",
+        "WPA3",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "WPA3"
+    },
+    {
+      "question": "What is the purpose of a wireless LAN controller?",
+      "options": [
+        "To manage and configure access points",
+        "To compress data",
+        "To encrypt signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To manage and configure access points"
+    },
+    {
+      "question": "Which wireless standard supports up to 600 Mbps in the 2.4 GHz band?",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11n",
+        "802.11g"
+      ],
+      "answer": "802.11n"
+    },
+    {
+      "question": "What is the purpose of a wireless network analyzer?",
+      "options": [
+        "To monitor and troubleshoot network performance",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To monitor and troubleshoot network performance"
+    },
+    {
+      "question": "Which type of wireless network is used for short-range device communication?",
+      "options": [
+        "WLAN",
+        "WPAN",
+        "WMAN",
+        "WWAN"
+      ],
+      "answer": "WPAN"
+    },
+    {
+      "question": "What is the maximum theoretical speed of 802.11ac?",
+      "options": [
+        "1.3 Gbps",
+        "600 Mbps",
+        "9.6 Gbps",
+        "54 Mbps"
+      ],
+      "answer": "1.3 Gbps"
+    },
+    {
+      "question": "Which wireless standard is used for WiMAX?",
+      "options": [
+        "802.11",
+        "802.15",
+        "802.16",
+        "802.3"
+      ],
+      "answer": "802.16"
+    },
+    {
+      "question": "What is the purpose of a wireless signal booster?",
+      "options": [
+        "To increase signal strength",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To increase signal strength"
+    },
+    {
+      "question": "Which wireless standard is designed for low-power, long-range communication?",
+      "options": [
+        "802.11ac",
+        "802.11ah",
+        "802.11n",
+        "802.11ad"
+      ],
+      "answer": "802.11ah"
+    },
+    {
+      "question": "What is the role of a wireless gateway?",
+      "options": [
+        "To connect wireless and wired networks",
+        "To compress data",
+        "To encrypt signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To connect wireless and wired networks"
+    },
+    {
+      "question": "Which modulation technique is used in 802.11b?",
+      "options": [
+        "OFDM",
+        "DSSS",
+        "QPSK",
+        "FHSS"
+      ],
+      "answer": "DSSS"
+    },
+    {
+      "question": "What is the main disadvantage of a wireless ad-hoc network?",
+      "options": [
+        "High cost",
+        "Limited scalability",
+        "No security",
+        "High interference"
+      ],
+      "answer": "Limited scalability"
+    },
+    {
+      "question": "Which wireless standard supports speeds up to 54 Mbps?",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11n",
+        "802.11ac"
+      ],
+      "answer": "802.11a"
+    },
+    {
+      "question": "What is the purpose of a wireless network extender?",
+      "options": [
+        "To extend the range of a wireless network",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To extend the range of a wireless network"
+    },
+    {
+      "question": "Which frequency band is used by 802.11a?",
+      "options": [
+        "2.4 GHz",
+        "5 GHz",
+        "60 GHz",
+        "3.5 GHz"
+      ],
+      "answer": "5 GHz"
+    },
+    {
+      "question": "What is the main advantage of a wireless bridge?",
+      "options": [
+        "Low cost",
+        "High reliability",
+        "Simple setup",
+        "No interference"
+      ],
+      "answer": "High reliability"
+    },
+    {
+      "question": "Which wireless standard is used for Zigbee?",
+      "options": [
+        "802.11",
+        "802.15",
+        "802.16",
+        "802.3"
+      ],
+      "answer": "802.15"
+    },
+    {
+      "question": "What is the purpose of a wireless network monitor?",
+      "options": [
+        "To track network performance and issues",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To track network performance and issues"
+    },
+    {
+      "question": "Which wireless standard supports Orthogonal Frequency Division Multiple Access (OFDMA)?",
+      "options": [
+        "802.11ac",
+        "802.11ax",
+        "802.11n",
+        "802.11g"
+      ],
+      "answer": "802.11ax"
+    },
+    {
+      "question": "What is the maximum number of non-overlapping channels in the 5 GHz band for 802.11?",
+      "options": [
+        "3",
+        "11",
+        "24",
+        "14"
+      ],
+      "answer": "24"
+    },
+    {
+      "question": "Which wireless standard is designed for high-speed, short-range communication?",
+      "options": [
+        "802.11ac",
+        "802.11ad",
+        "802.11ax",
+        "802.11n"
+      ],
+      "answer": "802.11ad"
+    },
+    {
+      "question": "What is the purpose of a wireless network scanner?",
+      "options": [
+        "To detect nearby wireless networks",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To detect nearby wireless networks"
+    },
+    {
+      "question": "Which security feature is used to encrypt wireless data?",
+      "options": [
+        "WPA3",
+        "DHCP",
+        "DNS",
+        "FTP"
+      ],
+      "answer": "WPA3"
+    },
+    {
+      "question": "What is the main disadvantage of a wireless mesh network?",
+      "options": [
+        "High cost",
+        "Complex setup",
+        "Low bandwidth",
+        "No security"
+      ],
+      "answer": "Complex setup"
+    },
+    {
+      "question": "Which wireless standard supports speeds up to 11 Mbps?",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11n",
+        "802.11ac"
+      ],
+      "answer": "802.11b"
+    },
+    {
+      "question": "What is the purpose of a wireless network analyzer tool like Wireshark?",
+      "options": [
+        "To capture and analyze network packets",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To capture and analyze network packets"
+    },
+    {
+      "question": "Which wireless standard is used for long-range broadband access?",
+      "options": [
+        "802.11",
+        "802.15",
+        "802.16",
+        "802.3"
+      ],
+      "answer": "802.16"
+    },
+    {
+      "question": "What is the purpose of a wireless network bridge mode?",
+      "options": [
+        "To connect two networks wirelessly",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To connect two networks wirelessly"
+    },
+    {
+      "question": "Which wireless standard supports low-power IoT applications?",
+      "options": [
+        "802.11ac",
+        "802.11ah",
+        "802.11n",
+        "802.11ad"
+      ],
+      "answer": "802.11ah"
+    },
+    {
+      "question": "What is the main advantage of a wireless access point?",
+      "options": [
+        "Low cost",
+        "High reliability",
+        "Easy setup",
+        "No interference"
+      ],
+      "answer": "Easy setup"
+    },
+    {
+      "question": "Which protocol is used for secure wireless authentication?",
+      "options": [
+        "EAP",
+        "DHCP",
+        "DNS",
+        "FTP"
+      ],
+      "answer": "EAP"
+    },
+    {
+      "question": "What is the purpose of a wireless network site survey tool?",
+      "options": [
+        "To optimize network coverage and performance",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To optimize network coverage and performance"
+    },
+    {
+      "question": "Which wireless standard supports speeds up to 54 Mbps in the 5 GHz band?",
+      "options": [
+        "802.11a",
+        "802.11b",
+        "802.11n",
+        "802.11ac"
+      ],
+      "answer": "802.11a"
+    },
+    {
+      "question": "What is the purpose of a wireless network extender in a large building?",
+      "options": [
+        "To increase coverage area",
+        "To encrypt data",
+        "To compress signals",
+        "To assign IP addresses"
+      ],
+      "answer": "To increase coverage area"
+    }
+        ]
+      },
+      "Internet" : {
+        "title": "Introduction to the Internet",
+        "questions": [
+              {
+      "question": "What is the Internet?",
+      "options": [
+        "A single computer network",
+        "A global network of interconnected computers",
+        "A software application",
+        "A type of programming language"
+      ],
+      "answer": "A global network of interconnected computers"
+    },
+    {
+      "question": "Which protocol is used for transferring web pages over the Internet?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "TCP"
+      ],
+      "answer": "HTTP"
+    },
+    {
+      "question": "What does URL stand for?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Reference Link",
+        "Unified Resource Language",
+        "Unique Routing Label"
+      ],
+      "answer": "Uniform Resource Locator"
+    },
+    {
+      "question": "Which device is used to connect a local network to the Internet?",
+      "options": [
+        "Switch",
+        "Router",
+        "Hub",
+        "Repeater"
+      ],
+      "answer": "Router"
+    },
+    {
+      "question": "What is the purpose of a web browser?",
+      "options": [
+        "To manage email accounts",
+        "To access and display web pages",
+        "To secure network connections",
+        "To compress data"
+      ],
+      "answer": "To access and display web pages"
+    },
+    {
+      "question": "Which protocol is used for sending emails?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "DNS"
+      ],
+      "answer": "SMTP"
+    },
+    {
+      "question": "What does IP stand for in the context of the Internet?",
+      "options": [
+        "Internet Protocol",
+        "Internal Process",
+        "Integrated Packet",
+        "Information Port"
+      ],
+      "answer": "Internet Protocol"
+    },
+    {
+      "question": "What is the role of DNS in the Internet?",
+      "options": [
+        "To encrypt data",
+        "To translate domain names to IP addresses",
+        "To compress web pages",
+        "To route emails"
+      ],
+      "answer": "To translate domain names to IP addresses"
+    },
+    {
+      "question": "Which of the following is an example of a web browser?",
+      "options": [
+        "Microsoft Word",
+        "Google Chrome",
+        "Windows Explorer",
+        "Notepad"
+      ],
+      "answer": "Google Chrome"
+    },
+    {
+      "question": "What is a domain name?",
+      "options": [
+        "A unique address for a website",
+        "A type of network cable",
+        "A security protocol",
+        "A data compression method"
+      ],
+      "answer": "A unique address for a website"
+    },
+    {
+      "question": "Which protocol is used for secure web browsing?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "HTTPS"
+    },
+    {
+      "question": "What does ISP stand for?",
+      "options": [
+        "Internet Service Provider",
+        "Internal System Protocol",
+        "Integrated Security Platform",
+        "Information Sharing Protocol"
+      ],
+      "answer": "Internet Service Provider"
+    },
+    {
+      "question": "Which layer of the OSI model is responsible for routing data on the Internet?",
+      "options": [
+        "Data Link Layer",
+        "Network Layer",
+        "Transport Layer",
+        "Application Layer"
+      ],
+      "answer": "Network Layer"
+    },
+    {
+      "question": "What is the purpose of a modem in an Internet connection?",
+      "options": [
+        "To convert digital signals to analog and vice versa",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To convert digital signals to analog and vice versa"
+    },
+    {
+      "question": "Which of the following is a top-level domain (TLD)?",
+      "options": [
+        ".com",
+        ".html",
+        ".exe",
+        ".txt"
+      ],
+      "answer": ".com"
+    },
+    {
+      "question": "What is the function of TCP in the Internet?",
+      "options": [
+        "To ensure reliable data transmission",
+        "To compress data",
+        "To assign domain names",
+        "To encrypt web pages"
+      ],
+      "answer": "To ensure reliable data transmission"
+    },
+    {
+      "question": "Which protocol is used for transferring files over the Internet?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "DNS"
+      ],
+      "answer": "FTP"
+    },
+    {
+      "question": "What is a LAN in the context of the Internet?",
+      "options": [
+        "Local Area Network",
+        "Large Access Network",
+        "Logical Address Node",
+        "Limited Area Node"
+      ],
+      "answer": "Local Area Network"
+    },
+    {
+      "question": "Which of the following is an example of an Internet search engine?",
+      "options": [
+        "Microsoft Excel",
+        "Google",
+        "Adobe Photoshop",
+        "Notepad"
+      ],
+      "answer": "Google"
+    },
+    {
+      "question": "What is the purpose of a firewall in Internet security?",
+      "options": [
+        "To monitor and filter network traffic",
+        "To increase bandwidth",
+        "To compress data",
+        "To assign IP addresses"
+      ],
+      "answer": "To monitor and filter network traffic"
+    },
+    {
+      "question": "Which protocol is used for resolving IP addresses to MAC addresses?",
+      "options": [
+        "ARP",
+        "DNS",
+        "DHCP",
+        "HTTP"
+      ],
+      "answer": "ARP"
+    },
+    {
+      "question": "What does WWW stand for?",
+      "options": [
+        "World Wide Web",
+        "Wireless Web Worker",
+        "World Web Wizard",
+        "Wide Wireless Web"
+      ],
+      "answer": "World Wide Web"
+    },
+    {
+      "question": "Which of the following is a cloud storage service accessible via the Internet?",
+      "options": [
+        "Google Drive",
+        "Microsoft Word",
+        "Windows Explorer",
+        "Notepad"
+      ],
+      "answer": "Google Drive"
+    },
+    {
+      "question": "What is the purpose of an IP address?",
+      "options": [
+        "To identify devices on a network",
+        "To encrypt data",
+        "To compress web pages",
+        "To manage email accounts"
+      ],
+      "answer": "To identify devices on a network"
+    },
+    {
+      "question": "Which protocol is used for dynamic IP address assignment?",
+      "options": [
+        "DNS",
+        "DHCP",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": "DHCP"
+    },
+    {
+      "question": "What is a VPN used for on the Internet?",
+      "options": [
+        "To create a secure connection over a public network",
+        "To increase Internet speed",
+        "To compress data",
+        "To assign domain names"
+      ],
+      "answer": "To create a secure connection over a public network"
+    },
+    {
+      "question": "Which of the following is an example of an email client?",
+      "options": [
+        "Microsoft Outlook",
+        "Google Chrome",
+        "Adobe Acrobat",
+        "Notepad"
+      ],
+      "answer": "Microsoft Outlook"
+    },
+    {
+      "question": "What is the purpose of a proxy server on the Internet?",
+      "options": [
+        "To act as an intermediary between client and server",
+        "To compress data",
+        "To assign IP addresses",
+        "To encrypt web pages"
+      ],
+      "answer": "To act as an intermediary between client and server"
+    },
+    {
+      "question": "Which protocol is used for secure file transfer over the Internet?",
+      "options": [
+        "FTP",
+        "SFTP",
+        "HTTP",
+        "SMTP"
+      ],
+      "answer": "SFTP"
+    },
+    {
+      "question": "What is the role of a gateway in Internet connectivity?",
+      "options": [
+        "To connect networks with different protocols",
+        "To compress data",
+        "To assign IP addresses",
+        "To encrypt web pages"
+      ],
+      "answer": "To connect networks with different protocols"
+    },
+    {
+      "question": "Which of the following is a type of Internet connection?",
+      "options": [
+        "DSL",
+        "USB",
+        "HDMI",
+        "VGA"
+      ],
+      "answer": "DSL"
+    },
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "High Transfer Mode Language",
+        "Hyperlink Text Management Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "HyperText Markup Language"
+    },
+    {
+      "question": "Which organization oversees the allocation of IP addresses?",
+      "options": [
+        "ICANN",
+        "IEEE",
+        "ISO",
+        "W3C"
+      ],
+      "answer": "ICANN"
+    },
+    {
+      "question": "What is the purpose of a cookie in web browsing?",
+      "options": [
+        "To store user preferences and session data",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To store user preferences and session data"
+    },
+    {
+      "question": "Which protocol is used for retrieving emails from a server?",
+      "options": [
+        "SMTP",
+        "IMAP",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "IMAP"
+    },
+    {
+      "question": "What is a bandwidth in the context of the Internet?",
+      "options": [
+        "The amount of data transferred per unit time",
+        "The number of devices connected",
+        "The type of network cable",
+        "The encryption strength"
+      ],
+      "answer": "The amount of data transferred per unit time"
+    },
+    {
+      "question": "Which of the following is an example of a social media platform accessible via the Internet?",
+      "options": [
+        "Microsoft Excel",
+        "Twitter",
+        "Notepad",
+        "Adobe Photoshop"
+      ],
+      "answer": "Twitter"
+    },
+    {
+      "question": "What is the purpose of a subnet mask in IP addressing?",
+      "options": [
+        "To divide a network into smaller subnetworks",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign domain names"
+      ],
+      "answer": "To divide a network into smaller subnetworks"
+    },
+    {
+      "question": "Which protocol is used for real-time communication over the Internet?",
+      "options": [
+        "HTTP",
+        "RTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "RTP"
+    },
+    {
+      "question": "What is the main disadvantage of a dial-up Internet connection?",
+      "options": [
+        "High cost",
+        "Low speed",
+        "No security",
+        "Limited range"
+      ],
+      "answer": "Low speed"
+    },
+    {
+      "question": "Which of the following is a type of wireless Internet connection?",
+      "options": [
+        "Wi-Fi",
+        "Ethernet",
+        "Coaxial",
+        "Fiber optic"
+      ],
+      "answer": "Wi-Fi"
+    },
+    {
+      "question": "What is the purpose of a web server?",
+      "options": [
+        "To host and deliver web pages",
+        "To compress data",
+        "To assign IP addresses",
+        "To encrypt emails"
+      ],
+      "answer": "To host and deliver web pages"
+    },
+    {
+      "question": "Which protocol is used for network management?",
+      "options": [
+        "SNMP",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "SNMP"
+    },
+    {
+      "question": "What is a broadband connection?",
+      "options": [
+        "A high-speed Internet connection",
+        "A low-speed Internet connection",
+        "A type of network cable",
+        "A security protocol"
+      ],
+      "answer": "A high-speed Internet connection"
+    },
+    {
+      "question": "Which of the following is an example of an Internet messaging protocol?",
+      "options": [
+        "HTTP",
+        "IMAP",
+        "DNS",
+        "ARP"
+      ],
+      "answer": "IMAP"
+    },
+    {
+      "question": "What is the purpose of a router in an Internet network?",
+      "options": [
+        "To forward data between networks",
+        "To compress data",
+        "To encrypt web pages",
+        "To store data"
+      ],
+      "answer": "To forward data between networks"
+    },
+    {
+      "question": "Which of the following is a common Internet security threat?",
+      "options": [
+        "Phishing",
+        "Data compression",
+        "File sharing",
+        "Network routing"
+      ],
+      "answer": "Phishing"
+    },
+    {
+      "question": "What does VoIP stand for?",
+      "options": [
+        "Voice over Internet Protocol",
+        "Virtual Online Information Protocol",
+        "Voice Online Integration Platform",
+        "Virtual Operation Internet Protocol"
+      ],
+      "answer": "Voice over Internet Protocol"
+    },
+    {
+      "question": "Which of the following is used to secure Internet transactions?",
+      "options": [
+        "SSL/TLS",
+        "FTP",
+        "SMTP",
+        "DNS"
+      ],
+      "answer": "SSL/TLS"
+    },
+    {
+      "question": "What is the purpose of a cache in web browsing?",
+      "options": [
+        "To store web pages for faster access",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To store web pages for faster access"
+    },
+    {
+      "question": "Which protocol is used for video streaming over the Internet?",
+      "options": [
+        "HTTP",
+        "RTSP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "RTSP"
+    },
+    {
+      "question": "What is the main advantage of fiber optic Internet connections?",
+      "options": [
+        "Low cost",
+        "High speed",
+        "Easy installation",
+        "No security"
+      ],
+      "answer": "High speed"
+    },
+    {
+      "question": "Which of the following is an example of an Internet-based application?",
+      "options": [
+        "Microsoft Word",
+        "Google Docs",
+        "Notepad",
+        "Paint"
+      ],
+      "answer": "Google Docs"
+    },
+    {
+      "question": "What is the purpose of a ping command on the Internet?",
+      "options": [
+        "To test network connectivity",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To test network connectivity"
+    },
+    {
+      "question": "Which protocol is used for secure remote access over the Internet?",
+      "options": [
+        "Telnet",
+        "SSH",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "SSH"
+    },
+    {
+      "question": "What is the role of a content delivery network (CDN)?",
+      "options": [
+        "To distribute content closer to users",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To distribute content closer to users"
+    },
+    {
+      "question": "Which of the following is a type of Internet protocol?",
+      "options": [
+        "TCP/IP",
+        "HTML",
+        "CSS",
+        "XML"
+      ],
+      "answer": "TCP/IP"
+    },
+    {
+      "question": "What is the purpose of a hyperlink on a web page?",
+      "options": [
+        "To link to another web page or resource",
+        "To compress data",
+        "To encrypt data",
+        "To assign IP addresses"
+      ],
+      "answer": "To link to another web page or resource"
+    },
+    {
+      "question": "Which of the following is a common Internet connection type for mobile devices?",
+      "options": [
+        "Dial-up",
+        "DSL",
+        "4G",
+        "Ethernet"
+      ],
+      "answer": "4G"
+    },
+    {
+      "question": "What is the purpose of a web cache server?",
+      "options": [
+        "To store frequently accessed web content",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To store frequently accessed web content"
+    },
+    {
+      "question": "Which protocol is used for network address translation?",
+      "options": [
+        "NAT",
+        "DNS",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": "NAT"
+    },
+    {
+      "question": "What is the main disadvantage of satellite Internet?",
+      "options": [
+        "High speed",
+        "Low latency",
+        "High latency",
+        "No security"
+      ],
+      "answer": "High latency"
+    },
+    {
+      "question": "Which of the following is an example of a cloud computing service?",
+      "options": [
+        "Microsoft Azure",
+        "Microsoft Word",
+        "Notepad",
+        "Paint"
+      ],
+      "answer": "Microsoft Azure"
+    },
+    {
+      "question": "What is the purpose of a packet in Internet communication?",
+      "options": [
+        "To break data into smaller units for transmission",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To break data into smaller units for transmission"
+    },
+    {
+      "question": "Which protocol is used for secure email retrieval?",
+      "options": [
+        "POP3",
+        "IMAPS",
+        "SMTP",
+        "FTP"
+      ],
+      "answer": "IMAPS"
+    },
+    {
+      "question": "What is the role of a switch in an Internet-connected network?",
+      "options": [
+        "To forward data to specific devices",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign domain names"
+      ],
+      "answer": "To forward data to specific devices"
+    },
+    {
+      "question": "Which of the following is a type of Internet-based attack?",
+      "options": [
+        "DDoS",
+        "Data compression",
+        "File sharing",
+        "Network routing"
+      ],
+      "answer": "DDoS"
+    },
+    {
+      "question": "What is the purpose of a digital certificate on the Internet?",
+      "options": [
+        "To verify the identity of a website or user",
+        "To compress data",
+        "To assign IP addresses",
+        "To encrypt emails"
+      ],
+      "answer": "To verify the identity of a website or user"
+    },
+    {
+      "question": "Which protocol is used for real-time video conferencing?",
+      "options": [
+        "HTTP",
+        "SIP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "SIP"
+    },
+    {
+      "question": "What is the main advantage of a cable Internet connection?",
+      "options": [
+        "Low cost",
+        "High speed",
+        "Long range",
+        "No latency"
+      ],
+      "answer": "High speed"
+    },
+    {
+      "question": "Which of the following is an example of an Internet protocol for file sharing?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "DNS",
+        "ARP"
+      ],
+      "answer": "FTP"
+    },
+    {
+      "question": "What is the purpose of a browser cache?",
+      "options": [
+        "To store web pages for faster loading",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To store web pages for faster loading"
+    },
+    {
+      "question": "Which protocol is used for secure network management?",
+      "options": [
+        "SNMP",
+        "SNMPv3",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": "SNMPv3"
+    },
+    {
+      "question": "What is the role of a DNS server?",
+      "options": [
+        "To resolve domain names to IP addresses",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign domain names"
+      ],
+      "answer": "To resolve domain names to IP addresses"
+    },
+    {
+      "question": "Which of the following is a type of Internet service?",
+      "options": [
+        "VoIP",
+        "USB",
+        "HDMI",
+        "VGA"
+      ],
+      "answer": "VoIP"
+    },
+    {
+      "question": "What is the purpose of a web address?",
+      "options": [
+        "To locate resources on the Internet",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To locate resources on the Internet"
+    },
+    {
+      "question": "Which protocol is used for secure VoIP communication?",
+      "options": [
+        "SIP",
+        "RTP",
+        "SRTP",
+        "HTTP"
+      ],
+      "answer": "SRTP"
+    },
+    {
+      "question": "What is the main disadvantage of a wireless Internet connection?",
+      "options": [
+        "High cost",
+        "Susceptibility to interference",
+        "Low speed",
+        "No security"
+      ],
+      "answer": "Susceptibility to interference"
+    },
+    {
+      "question": "Which of the following is an example of an Internet-based collaboration tool?",
+      "options": [
+        "Microsoft Teams",
+        "Microsoft Excel",
+        "Notepad",
+        "Paint"
+      ],
+      "answer": "Microsoft Teams"
+    },
+    {
+      "question": "What is the purpose of a traceroute command?",
+      "options": [
+        "To trace the path of data packets",
+        "To encrypt data",
+        "To compress web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To trace the path of data packets"
+    },
+    {
+      "question": "Which protocol is used for secure web server authentication?",
+      "options": [
+        "HTTP",
+        "HTTPS",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "HTTPS"
+    },
+    {
+      "question": "What is the role of a content management system (CMS) on the Internet?",
+      "options": [
+        "To create and manage web content",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To create and manage web content"
+    },
+    {
+      "question": "Which of the following is a type of Internet protocol for streaming media?",
+      "options": [
+        "HTTP",
+        "RTMP",
+        "DNS",
+        "ARP"
+      ],
+      "answer": "RTMP"
+    },
+    {
+      "question": "What is the purpose of a public IP address?",
+      "options": [
+        "To identify devices on the public Internet",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign domain names"
+      ],
+      "answer": "To identify devices on the public Internet"
+    },
+    {
+      "question": "Which protocol is used for secure DNS queries?",
+      "options": [
+        "DNS",
+        "DNSSEC",
+        "DHCP",
+        "HTTP"
+      ],
+      "answer": "DNSSEC"
+    },
+    {
+      "question": "What is the main advantage of a 5G Internet connection?",
+      "options": [
+        "Low cost",
+        "High speed and low latency",
+        "Long range",
+        "No security"
+      ],
+      "answer": "High speed and low latency"
+    },
+    {
+      "question": "Which of the following is an example of an Internet-based payment system?",
+      "options": [
+        "PayPal",
+        "Microsoft Word",
+        "Notepad",
+        "Paint"
+      ],
+      "answer": "PayPal"
+    },
+    {
+      "question": "What is the purpose of a network interface card (NIC) in Internet connectivity?",
+      "options": [
+        "To connect a device to a network",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign domain names"
+      ],
+      "answer": "To connect a device to a network"
+    },
+    {
+      "question": "Which protocol is used for time synchronization over the Internet?",
+      "options": [
+        "NTP",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "NTP"
+    },
+    {
+      "question": "What is the role of a load balancer on the Internet?",
+      "options": [
+        "To distribute traffic across multiple servers",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To distribute traffic across multiple servers"
+    },
+    {
+      "question": "Which of the following is a type of Internet-based attack?",
+      "options": [
+        "SQL injection",
+        "Data compression",
+        "File sharing",
+        "Network routing"
+      ],
+      "answer": "SQL injection"
+    },
+    {
+      "question": "What is the purpose of a web hosting service?",
+      "options": [
+        "To store and serve website files",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To store and serve website files"
+    },
+    {
+      "question": "Which protocol is used for secure remote desktop access?",
+      "options": [
+        "RDP",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "RDP"
+    },
+    {
+      "question": "What is the main disadvantage of a public Wi-Fi network?",
+      "options": [
+        "High speed",
+        "Security risks",
+        "Low latency",
+        "No cost"
+      ],
+      "answer": "Security risks"
+    },
+    {
+      "question": "Which of the following is an example of an Internet-based video streaming service?",
+      "options": [
+        "Netflix",
+        "Microsoft Excel",
+        "Notepad",
+        "Paint"
+      ],
+      "answer": "Netflix"
+    },
+    {
+      "question": "What is the purpose of a packet sniffer on the Internet?",
+      "options": [
+        "To capture and analyze network traffic",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To capture and analyze network traffic"
+    },
+    {
+      "question": "Which protocol is used for secure online transactions?",
+      "options": [
+        "HTTP",
+        "SSL/TLS",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "SSL/TLS"
+    },
+    {
+      "question": "What is the role of a web application firewall (WAF)?",
+      "options": [
+        "To protect web applications from attacks",
+        "To compress data",
+        "To encrypt web pages",
+        "To assign IP addresses"
+      ],
+      "answer": "To protect web applications from attacks"
+    }
+        ]
+      }
+    }
+  }
+}

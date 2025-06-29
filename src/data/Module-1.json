@@ -5,6 +5,51 @@
       "basics": {
         "title": "Computer Basics",
         "questions": [
+             {
+            "question": "Natural Language Processing helps computers to:",
+            "options": ["Understand HTML", "Interpret binary code", "Understand human languages", "Store large files"],
+            "answer": "Understand human languages"
+          },
+          {
+            "question": "Which system attempts to replicate the brain’s physical connections?",
+            "options": ["Robotics", "Neural Networks", "Expert Systems", "Supercomputers"],
+            "answer": "Neural Networks"
+          },
+          {
+            "question": "Robotics focuses on programming computers to:",
+            "options": ["Connect networks", "Access the internet", "See, hear, and respond to sensory input", "Run software"],
+            "answer": "See, hear, and respond to sensory input"
+          },
+          {
+            "question": "Which generation used Integrated Circuits (IC)?",
+            "options": ["First", "Second", "Third", "Fourth"],
+            "answer": "Third"
+          },
+          {
+            "question": "One major disadvantage of third generation computers was:",
+            "options": ["High power usage", "Need for air conditioning", "Initial problem with manufacturers", "No memory support"],
+            "answer": "Initial problem with manufacturers"
+          },
+          {
+            "question": "Second generation computers were better than first generation because they:",
+            "options": ["Used bigger memory", "Used transistors which were smaller and faster", "Supported touchscreen", "Had color displays"],
+            "answer": "Used transistors which were smaller and faster"
+          },
+          {
+            "question": "Which of the following is a disadvantage of the first generation computers?",
+            "options": ["Used BASIC language", "No operating systems", "Used machine-level language", "Used hard disks"],
+            "answer": "Used machine-level language"
+          },
+          {
+            "question": "Which generation introduced the concept of CPU and programming languages?",
+            "options": ["First", "Second", "Third", "Fourth"],
+            "answer": "Second"
+          },
+          {
+            "question": "Which generation introduced the use of high-level languages?",
+            "options": ["First", "Second", "Third", "Fourth"],
+            "answer": "Second"
+          },
           {
             "question": "Which of the following best describes a computer system?",
             "options": [
@@ -340,8 +385,14 @@
             "question": "Which computer type has the highest computing power?",
             "options": ["Mini", "Micro", "Super", "Mainframe"],
             "answer": "Super"
-          },
-          {
+          }
+        ]
+      },
+      "Advanced Computer Concepts" : {
+        "title": "Advanced Computer Concepts",
+        "questions":[
+               
+           {
             "question": "Mainframe computers are typically used in:",
             "options": ["Homes", "Large organizations", "Mobile phones", "Music players"],
             "answer": "Large organizations"
@@ -705,53 +756,9 @@
             "question": "Expert Systems are used to:",
             "options": ["Play games", "Solve math problems", "Make decisions based on symptoms", "Control physical devices"],
             "answer": "Make decisions based on symptoms"
-          },
-          {
-            "question": "Natural Language Processing helps computers to:",
-            "options": ["Understand HTML", "Interpret binary code", "Understand human languages", "Store large files"],
-            "answer": "Understand human languages"
-          },
-          {
-            "question": "Which system attempts to replicate the brain’s physical connections?",
-            "options": ["Robotics", "Neural Networks", "Expert Systems", "Supercomputers"],
-            "answer": "Neural Networks"
-          },
-          {
-            "question": "Robotics focuses on programming computers to:",
-            "options": ["Connect networks", "Access the internet", "See, hear, and respond to sensory input", "Run software"],
-            "answer": "See, hear, and respond to sensory input"
-          },
-          {
-            "question": "Which generation used Integrated Circuits (IC)?",
-            "options": ["First", "Second", "Third", "Fourth"],
-            "answer": "Third"
-          },
-          {
-            "question": "One major disadvantage of third generation computers was:",
-            "options": ["High power usage", "Need for air conditioning", "Initial problem with manufacturers", "No memory support"],
-            "answer": "Initial problem with manufacturers"
-          },
-          {
-            "question": "Second generation computers were better than first generation because they:",
-            "options": ["Used bigger memory", "Used transistors which were smaller and faster", "Supported touchscreen", "Had color displays"],
-            "answer": "Used transistors which were smaller and faster"
-          },
-          {
-            "question": "Which of the following is a disadvantage of the first generation computers?",
-            "options": ["Used BASIC language", "No operating systems", "Used machine-level language", "Used hard disks"],
-            "answer": "Used machine-level language"
-          },
-          {
-            "question": "Which generation introduced the concept of CPU and programming languages?",
-            "options": ["First", "Second", "Third", "Fourth"],
-            "answer": "Second"
-          },
-          {
-            "question": "Which generation introduced the use of high-level languages?",
-            "options": ["First", "Second", "Third", "Fourth"],
-            "answer": "Second"
           }
         ]
+
       },
       "hardware": {
         "title": "Hardware Concepts",
@@ -1082,6 +1089,1850 @@
             "options": ["Expensive and large", "Small, reliable, and low-cost", "Same as second generation", "Limited to labs"],
             "answer": "Small, reliable, and low-cost"
           }
+        ]
+      },
+      "Machine" : {
+        "title" : "Basics of Machine Language",
+        "questions": [
+            {
+      "question": "What is machine language?",
+      "options": [
+        "A high-level programming language",
+        "A language consisting of binary instructions executed directly by the CPU",
+        "A scripting language for web development",
+        "A language used for database management"
+      ],
+      "answer": "A language consisting of binary instructions executed directly by the CPU"
+    },
+    {
+      "question": "Machine language instructions are typically represented in:",
+      "options": [
+        "Decimal format",
+        "Binary or hexadecimal format",
+        "English text",
+        "Symbolic notation"
+      ],
+      "answer": "Binary or hexadecimal format"
+    },
+    {
+      "question": "Which of the following is a characteristic of machine language?",
+      "options": [
+        "It is portable across different hardware platforms",
+        "It is human-readable",
+        "It is specific to a particular CPU architecture",
+        "It uses high-level constructs like loops"
+      ],
+      "answer": "It is specific to a particular CPU architecture"
+    },
+    {
+      "question": "What is the primary advantage of machine language?",
+      "options": [
+        "Easy to read and write",
+        "Fast execution by the CPU",
+        "Platform independence",
+        "Supports object-oriented programming"
+      ],
+      "answer": "Fast execution by the CPU"
+    },
+    {
+      "question": "What is a disadvantage of programming in machine language?",
+      "options": [
+        "It is too slow for modern computers",
+        "It is difficult to write and prone to errors",
+        "It cannot be executed by the CPU",
+        "It requires a large amount of memory"
+      ],
+      "answer": "It is difficult to write and prone to errors"
+    },
+
+    {
+      "question": "The set of instructions that a CPU can execute is called:",
+      "options": [
+        "Assembly language",
+        "Instruction Set Architecture (ISA)",
+        "Machine code library",
+        "High-level language"
+      ],
+      "answer": "Instruction Set Architecture (ISA)"
+    },
+    {
+      "question": "Which of the following is NOT a typical type of machine language instruction?",
+      "options": [
+        "Arithmetic instruction",
+        "Data transfer instruction",
+        "Loop instruction",
+        "Control transfer instruction"
+      ],
+      "answer": "Loop instruction"
+    },
+    {
+      "question": "An instruction in machine language typically consists of:",
+      "options": [
+        "An opcode and operands",
+        "A variable and a loop",
+        "A function and parameters",
+        "A keyword and a condition"
+      ],
+      "answer": "An opcode and operands"
+    },
+    {
+      "question": "What does the opcode in a machine language instruction specify?",
+      "options": [
+        "The memory address of the instruction",
+        "The operation to be performed",
+        "The size of the data",
+        "The register to store the result"
+      ],
+      "answer": "The operation to be performed"
+    },
+    {
+      "question": "Which of the following is an example of a machine language operation?",
+      "options": [
+        "PRINT",
+        "ADD",
+        "FOR",
+        "IF"
+      ],
+      "answer": "ADD"
+    },
+
+    {
+      "question": "What is an addressing mode in machine language?",
+      "options": [
+        "The way the CPU locates operands for an instruction",
+        "The method to write high-level code",
+        "The process of compiling code",
+        "The technique to debug a program"
+      ],
+      "answer": "The way the CPU locates operands for an instruction"
+    },
+    {
+      "question": "Which addressing mode uses a constant value directly in the instruction?",
+      "options": [
+        "Register addressing",
+        "Immediate addressing",
+        "Direct addressing",
+        "Indirect addressing"
+      ],
+      "answer": "Immediate addressing"
+    },
+    {
+      "question": "In register addressing mode, the operand is located in:",
+      "options": [
+        "Main memory",
+        "A CPU register",
+        "Cache memory",
+        "Secondary storage"
+      ],
+      "answer": "A CPU register"
+    },
+    {
+      "question": "Which addressing mode uses a memory address specified in the instruction?",
+      "options": [
+        "Immediate addressing",
+        "Direct addressing",
+        "Indexed addressing",
+        "Implied addressing"
+      ],
+      "answer": "Direct addressing"
+    },
+    {
+      "question": "In indirect addressing mode, the instruction contains:",
+      "options": [
+        "The actual data",
+        "The address of the memory location containing the address of the operand",
+        "A register name",
+        "A constant value"
+      ],
+      "answer": "The address of the memory location containing the address of the operand"
+    },
+
+    {
+      "question": "What is the role of the Program Counter (PC) in executing machine language instructions?",
+      "options": [
+        "It stores the result of the instruction",
+        "It holds the address of the next instruction to be executed",
+        "It decodes the instruction",
+        "It performs arithmetic operations"
+      ],
+      "answer": "It holds the address of the next instruction to be executed"
+    },
+    {
+      "question": "The process of retrieving an instruction from memory is called:",
+      "options": [
+        "Decoding",
+        "Fetching",
+        "Executing",
+        "Storing"
+      ],
+      "answer": "Fetching"
+    },
+    {
+      "question": "What happens during the decode phase of instruction execution?",
+      "options": [
+        "The instruction is executed",
+        "The instruction is interpreted to determine the operation",
+        "The result is stored in memory",
+        "The next instruction is fetched"
+      ],
+      "answer": "The instruction is interpreted to determine the operation"
+    },
+    {
+      "question": "Which component of the CPU is responsible for executing arithmetic and logical operations?",
+      "options": [
+        "Control Unit",
+        "Arithmetic Logic Unit (ALU)",
+        "Memory Unit",
+        "Program Counter"
+      ],
+      "answer": "Arithmetic Logic Unit (ALU)"
+    },
+    {
+      "question": "The fetch-decode-execute cycle is also known as:",
+      "options": [
+        "Machine cycle",
+        "Instruction cycle",
+        "Clock cycle",
+        "Data cycle"
+      ],
+      "answer": "Instruction cycle"
+    },
+
+    {
+      "question": "Which language is one level above machine language in terms of abstraction?",
+      "options": [
+        "Assembly language",
+        "C++",
+        "Python",
+        "Java"
+      ],
+      "answer": "Assembly language"
+    },
+    {
+      "question": "What translates assembly language into machine language?",
+      "options": [
+        "Compiler",
+        "Assembler",
+        "Interpreter",
+        "Linker"
+      ],
+      "answer": "Assembler"
+    },
+    {
+      "question": "Machine language is considered a:",
+      "options": [
+        "High-level language",
+        "Low-level language",
+        "Scripting language",
+        "Markup language"
+      ],
+      "answer": "Low-level language"
+    },
+    {
+      "question": "Which of the following languages is most portable across different systems?",
+      "options": [
+        "Machine language",
+        "Assembly language",
+        "C",
+        "Java"
+      ],
+      "answer": "Java"
+    },
+    {
+      "question": "Why is machine language not commonly used by programmers?",
+      "options": [
+        "It is too slow",
+        "It is difficult to understand and error-prone",
+        "It cannot perform complex operations",
+        "It is not supported by modern CPUs"
+      ],
+      "answer": "It is difficult to understand and error-prone"
+    },
+
+    {
+      "question": "How are numbers typically represented in machine language?",
+      "options": [
+        "In decimal format",
+        "In binary format",
+        "In ASCII format",
+        "In hexadecimal format only"
+      ],
+      "answer": "In binary format"
+    },
+    {
+      "question": "What is the binary representation of the decimal number 5 in an 8-bit machine language instruction?",
+      "options": [
+        "00000101",
+        "00001010",
+        "00000005",
+        "00001111"
+      ],
+      "answer": "00000101"
+    },
+    {
+      "question": "In machine language, characters are often represented using:",
+      "options": [
+        "ASCII or Unicode",
+        "Binary-coded decimal",
+        "Hexadecimal only",
+        "Floating-point notation"
+      ],
+      "answer": "ASCII or Unicode"
+    },
+    {
+      "question": "What is the size of an instruction in machine language dependent on?",
+      "options": [
+        "The programming language used",
+        "The CPU architecture",
+        "The operating system",
+        "The compiler version"
+      ],
+      "answer": "The CPU architecture"
+    },
+    {
+      "question": "Which of the following is used to represent negative numbers in machine language?",
+      "options": [
+        "ASCII",
+        "Two’s complement",
+        "BCD",
+        "Unicode"
+      ],
+      "answer": "Two’s complement"
+    },
+
+    {
+      "question": "Which type of instruction moves data between memory and registers?",
+      "options": [
+        "Arithmetic instruction",
+        "Data transfer instruction",
+        "Control instruction",
+        "Logical instruction"
+      ],
+      "answer": "Data transfer instruction"
+    },
+    {
+      "question": "An instruction that changes the flow of a program, such as a jump, is called:",
+      "options": [
+        "Data transfer instruction",
+        "Control instruction",
+        "Arithmetic instruction",
+        "Logical instruction"
+      ],
+      "answer": "Control instruction"
+    },
+    {
+      "question": "Which instruction performs operations like AND, OR, and NOT?",
+      "options": [
+        "Arithmetic instruction",
+        "Logical instruction",
+        "Control instruction",
+        "Data transfer instruction"
+      ],
+      "answer": "Logical instruction"
+    },
+    {
+      "question": "An example of an arithmetic instruction in machine language is:",
+      "options": [
+        "MOV",
+        "ADD",
+        "JMP",
+        "CMP"
+      ],
+      "answer": "ADD"
+    },
+    {
+      "question": "Which instruction compares two values and sets flags based on the result?",
+      "options": [
+        "SUB",
+        "CMP",
+        "MOV",
+        "JMP"
+      ],
+      "answer": "CMP"
+    },
+
+    {
+      "question": "What is the purpose of registers in a CPU?",
+      "options": [
+        "To store large programs",
+        "To hold temporary data during processing",
+        "To manage input/output devices",
+        "To store the operating system"
+      ],
+      "answer": "To hold temporary data during processing"
+    },
+    {
+      "question": "Which register holds the result of an arithmetic operation?",
+      "options": [
+        "Program Counter",
+        "Accumulator",
+        "Instruction Register",
+        "Stack Pointer"
+      ],
+      "answer": "Accumulator"
+    },
+    {
+      "question": "The Stack Pointer register is used to:",
+      "options": [
+        "Store the next instruction",
+        "Point to the top of the stack in memory",
+        "Hold the result of logical operations",
+        "Manage interrupts"
+      ],
+      "answer": "Point to the top of the stack in memory"
+    },
+    {
+      "question": "Which of the following is NOT a typical CPU register?",
+      "options": [
+        "Instruction Register",
+        "Program Counter",
+        "Cache Register",
+        "Accumulator"
+      ],
+      "answer": "Cache Register"
+    },
+    {
+      "question": "The memory location where data is stored for an instruction is called:",
+      "options": [
+        "Opcode",
+        "Operand",
+        "Register",
+        "Cache"
+      ],
+      "answer": "Operand"
+    },
+
+    {
+      "question": "What is a branch instruction in machine language?",
+      "options": [
+        "An instruction that performs arithmetic",
+        "An instruction that changes the program’s execution path",
+        "An instruction that moves data",
+        "An instruction that performs logical operations"
+      ],
+      "answer": "An instruction that changes the program’s execution path"
+    },
+    {
+      "question": "Which of the following is a conditional branch instruction?",
+      "options": [
+        "JMP",
+        "JE (Jump if Equal)",
+        "MOV",
+        "ADD"
+      ],
+      "answer": "JE (Jump if Equal)"
+    },
+    {
+      "question": "What is the purpose of a flag in a CPU?",
+      "options": [
+        "To store the program",
+        "To indicate the status of an operation (e.g., zero, carry)",
+        "To hold the memory address",
+        "To execute instructions"
+      ],
+      "answer": "To indicate the status of an operation (e.g., zero, carry)"
+    },
+    {
+      "question": "Which flag is set when the result of an operation is zero?",
+      "options": [
+        "Carry flag",
+        "Zero flag",
+        "Sign flag",
+        "Overflow flag"
+      ],
+      "answer": "Zero flag"
+    },
+    {
+      "question": "What is an interrupt in the context of machine language?",
+      "options": [
+        "A high-level function call",
+        "A signal that pauses the CPU to handle an event",
+        "A type of arithmetic instruction",
+        "A memory allocation technique"
+      ],
+      "answer": "A signal that pauses the CPU to handle an event"
+    },
+
+    {
+      "question": "Which tool is used to debug machine language programs?",
+      "options": [
+        "Compiler",
+        "Debugger",
+        "Interpreter",
+        "Assembler"
+      ],
+      "answer": "Debugger"
+    },
+    {
+      "question": "Machine language programs are typically written in:",
+      "options": [
+        "Text editors",
+        "Hexadecimal editors or assemblers",
+        "Word processors",
+        "Spreadsheets"
+      ],
+      "answer": "Hexadecimal editors or assemblers"
+    },
+    {
+      "question": "Which of the following architectures uses a different instruction set?",
+      "options": [
+        "x86",
+        "ARM",
+        "RISC-V",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the role of a linker in the context of machine language?",
+      "options": [
+        "Converts high-level code to machine code",
+        "Combines multiple object files into a single executable",
+        "Executes the program",
+        "Debugs the program"
+      ],
+      "answer": "Combines multiple object files into a single executable"
+    },
+    {
+      "question": "Which of the following is true about RISC and CISC architectures?",
+      "options": [
+        "RISC uses complex instructions, CISC uses simple instructions",
+        "RISC uses simpler instructions, CISC uses more complex instructions",
+        "Both use identical instruction sets",
+        "RISC is always slower than CISC"
+      ],
+      "answer": "RISC uses simpler instructions, CISC uses more complex instructions"
+    }
+        ]
+      },
+
+      "low" : {
+        "title" : "low-level programming",
+        "questions" : [
+    {
+    "question": "Low-level programming primarily involves:",
+    "options": [
+      "Writing code in high-level languages like Python",
+      "Writing code in machine language or assembly language",
+      "Developing web applications",
+      "Managing databases"
+    ],
+    "answer": "Writing code in machine language or assembly language"
+  },
+  {
+    "question": "Assembly language uses ________ to represent machine language instructions.",
+    "options": [
+      "Mnemonics",
+      "Binary code",
+      "High-level functions",
+      "Object-oriented classes"
+    ],
+    "answer": "Mnemonics"
+  },
+  {
+    "question": "Which of the following is a benefit of low-level programming?",
+    "options": [
+      "Platform independence",
+      "Direct control over hardware resources",
+      "Simplified syntax for rapid development",
+      "Automatic memory management"
+    ],
+    "answer": "Direct control over hardware resources"
+  },
+  {
+    "question": "The primary difference between machine language and assembly language is:",
+    "options": [
+      "Machine language uses mnemonics, assembly uses binary",
+      "Assembly language uses mnemonics, machine language uses binary",
+      "Both use the same syntax",
+      "Assembly language is executed directly by the CPU"
+    ],
+    "answer": "Assembly language uses mnemonics, machine language uses binary"
+  },
+  {
+    "question": "Which processor architecture is commonly studied in MP ITI low-level programming courses?",
+    "options": [
+      "8086",
+      "ARM64",
+      "RISC-V",
+      "SPARC"
+    ],
+    "answer": "8086"
+  },
+  {
+    "question": "In x86 assembly, the MOV instruction is used to:",
+    "options": [
+      "Perform arithmetic addition",
+      "Transfer data between registers or memory",
+      "Jump to a new instruction",
+      "Compare two values"
+    ],
+    "answer": "Transfer data between registers or memory"
+  },
+  {
+    "question": "Which x86 instruction subtracts the source operand from the destination operand?",
+    "options": ["ADD", "SUB", "CMP", "MUL"],
+    "answer": "SUB"
+  },
+  {
+    "question": "The INC instruction in assembly language:",
+    "options": [
+      "Increments a register or memory location by 1",
+      "Decrements a register by 1",
+      "Initializes a variable",
+      "Jumps to a new address"
+    ],
+    "answer": "Increments a register or memory location by 1"
+  },
+  {
+    "question": "In 8086 assembly, the DIV instruction is used for:",
+    "options": [
+      "Division of two operands",
+      "Multiplication of two operands",
+      "Data transfer",
+      "Logical comparison"
+    ],
+    "answer": "Division of two operands"
+  },
+  {
+    "question": "Which instruction is used to perform a logical AND operation in x86 assembly?",
+    "options": ["OR", "AND", "XOR", "NOT"],
+    "answer": "AND"
+  },
+  {
+    "question": "In 8086 architecture, which register is used as the primary accumulator?",
+    "options": ["BX", "AX", "CX", "DX"],
+    "answer": "AX"
+  },
+  {
+    "question": "The CX register in 8086 is commonly used for:",
+    "options": [
+      "Storing memory addresses",
+      "Loop counter in repetitive instructions",
+      "Holding temporary results",
+      "Pointing to the stack"
+    ],
+    "answer": "Loop counter in repetitive instructions"
+  },
+  {
+    "question": "Which register pair is used for string operations in 8086 assembly?",
+    "options": ["AX and BX", "SI and DI", "CX and DX", "BP and SP"],
+    "answer": "SI and DI"
+  },
+  {
+    "question": "The SP (Stack Pointer) register in 8086 points to:",
+    "options": [
+      "The next instruction to execute",
+      "The top of the stack in memory",
+      "The base address of a segment",
+      "The result of an arithmetic operation"
+    ],
+    "answer": "The top of the stack in memory"
+  },
+  {
+    "question": "In 8086, the BX register is often used as:",
+    "options": [
+      "A base register for addressing memory",
+      "A loop counter",
+      "A stack pointer",
+      "An instruction pointer"
+    ],
+    "answer": "A base register for addressing memory"
+  },
+  {
+    "question": "In 8086 assembly, the instruction MOV AX, [BX] uses which addressing mode?",
+    "options": [
+      "Immediate addressing",
+      "Register addressing",
+      "Base addressing",
+      "Direct addressing"
+    ],
+    "answer": "Base addressing"
+  },
+  {
+    "question": "The instruction MOV AX, 1000H uses which addressing mode?",
+    "options": [
+      "Immediate addressing",
+      "Register addressing",
+      "Indirect addressing",
+      "Indexed addressing"
+    ],
+    "answer": "Immediate addressing"
+  },
+  {
+    "question": "In based-indexed addressing mode in 8086, the effective address is calculated as:",
+    "options": [
+      "Base register + Index register + Offset",
+      "Base register + Immediate value",
+      "Index register + Stack pointer",
+      "Base register + Program counter"
+    ],
+    "answer": "Base register + Index register + Offset"
+  },
+  {
+    "question": "Which addressing mode is used in the 8086 instruction MOV AX, [SI + 4]?",
+    "options": [
+      "Direct addressing",
+      "Indexed addressing",
+      "Register addressing",
+      "Immediate addressing"
+    ],
+    "answer": "Indexed addressing"
+  },
+  {
+    "question": "In 8086 assembly, the LEA (Load Effective Address) instruction is used to:",
+    "options": [
+      "Load data into a register",
+      "Calculate and load the address of an operand",
+      "Perform arithmetic addition",
+      "Compare two values"
+    ],
+    "answer": "Calculate and load the address of an operand"
+  },
+  {
+    "question": "The JMP instruction in assembly language is used to:",
+    "options": [
+      "Compare two values",
+      "Unconditionally transfer control to a new address",
+      "Perform a logical operation",
+      "Move data between registers"
+    ],
+    "answer": "Unconditionally transfer control to a new address"
+  },
+  {
+    "question": "Which instruction jumps to a new address if the zero flag is set?",
+    "options": ["JNZ", "JZ", "JC", "JNC"],
+    "answer": "JZ"
+  },
+  {
+    "question": "In 8086 assembly, the LOOP instruction decrements which register?",
+    "options": ["AX", "BX", "CX", "DX"],
+    "answer": "CX"
+  },
+  {
+    "question": "The JCXZ instruction in 8086 jumps if:",
+    "options": [
+      "The CX register is zero",
+      "The zero flag is set",
+      "The carry flag is set",
+      "The accumulator is zero"
+    ],
+    "answer": "The CX register is zero"
+  },
+  {
+    "question": "Which instruction is used to call a subroutine in 8086 assembly?",
+    "options": ["JMP", "CALL", "RET", "INT"],
+    "answer": "CALL"
+  },
+  {
+    "question": "The PUSH instruction in 8086 assembly:",
+    "options": [
+      "Removes data from the stack",
+      "Adds data to the top of the stack",
+      "Compares two stack values",
+      "Clears the stack"
+    ],
+    "answer": "Adds data to the top of the stack"
+  },
+  {
+    "question": "The POP instruction in 8086 assembly:",
+    "options": [
+      "Adds data to the stack",
+      "Retrieves data from the top of the stack",
+      "Initializes the stack pointer",
+      "Jumps to a new address"
+    ],
+    "answer": "Retrieves data from the top of the stack"
+  },
+  {
+    "question": "In 8086, the stack grows:",
+    "options": [
+      "Upward (toward higher memory addresses)",
+      "Downward (toward lower memory addresses)",
+      "Randomly",
+      "In a circular pattern"
+    ],
+    "answer": "Downward (toward lower memory addresses)"
+  },
+  {
+    "question": "What happens to the SP register when a PUSH operation is performed in 8086?",
+    "options": [
+      "It is incremented by 2",
+      "It is decremented by 2",
+      "It remains unchanged",
+      "It is reset to zero"
+    ],
+    "answer": "It is decremented by 2"
+  },
+  {
+    "question": "Which register is used to store the return address during a subroutine call?",
+    "options": ["SP", "BP", "IP", "AX"],
+    "answer": "IP"
+  },
+  {
+    "question": "The INT instruction in 8086 assembly is used to:",
+    "options": [
+      "Perform arithmetic division",
+      "Trigger a software interrupt",
+      "Move data to a register",
+      "Jump to a new address"
+    ],
+    "answer": "Trigger a software interrupt"
+  },
+  {
+    "question": "In 8086, the IRET instruction is used to:",
+    "options": [
+      "Return from an interrupt service routine",
+      "Call a subroutine",
+      "Reset the CPU",
+      "Compare two values"
+    ],
+    "answer": "Return from an interrupt service routine"
+  },
+  {
+    "question": "Which interrupt is used for division by zero in 8086?",
+    "options": ["INT 0", "INT 1", "INT 2", "INT 3"],
+    "answer": "INT 0"
+  },
+  {
+    "question": "The CLI instruction in 8086 assembly:",
+    "options": [
+      "Enables interrupts",
+      "Disables interrupts",
+      "Clears the stack",
+      "Initializes the CPU"
+    ],
+    "answer": "Disables interrupts"
+  },
+  {
+    "question": "The STI instruction in 8086 assembly:",
+    "options": [
+      "Sets the interrupt flag to enable interrupts",
+      "Stops the CPU",
+      "Clears the interrupt vector table",
+      "Pushes data onto the stack"
+    ],
+    "answer": "Sets the interrupt flag to enable interrupts"
+  },
+  {
+    "question": "In 8086 architecture, memory is divided into:",
+    "options": ["Pages", "Segments", "Blocks", "Clusters"],
+    "answer": "Segments"
+  },
+  {
+    "question": "The CS (Code Segment) register in 8086 holds:",
+    "options": [
+      "The base address of the code segment",
+      "The base address of the data segment",
+      "The stack pointer",
+      "The instruction pointer"
+    ],
+    "answer": "The base address of the code segment"
+  },
+  {
+    "question": "In 8086, the physical address is calculated as:",
+    "options": [
+      "Segment address + Offset",
+      "Segment address × 16 + Offset",
+      "Offset × 16 + Segment address",
+      "Segment address + Stack pointer"
+    ],
+    "answer": "Segment address × 16 + Offset"
+  },
+  {
+    "question": "The DS (Data Segment) register is used to:",
+    "options": [
+      "Store the address of the code segment",
+      "Access data in memory",
+      "Manage the stack",
+      "Store interrupt vectors"
+    ],
+    "answer": "Access data in memory"
+  },
+  {
+    "question": "Which register pair is used to address memory in 8086 string operations?",
+    "options": ["CS:IP", "DS:SI", "SS:SP", "ES:DI"],
+    "answer": "DS:SI"
+  },
+  {
+    "question": "The MOVSB instruction in 8086 is used to:",
+    "options": [
+      "Move a byte from source to destination in string operations",
+      "Compare two bytes",
+      "Add two bytes",
+      "Jump to a new address"
+    ],
+    "answer": "Move a byte from source to destination in string operations"
+  },
+  {
+    "question": "The REP prefix in 8086 assembly is used to:",
+    "options": [
+      "Repeat a string instruction until CX is zero",
+      "Reset the CPU",
+      "Reverse the operation",
+      "Enable interrupts"
+    ],
+    "answer": "Repeat a string instruction until CX is zero"
+  },
+  {
+    "question": "Which instruction moves a word (2 bytes) in 8086 string operations?",
+    "options": ["MOVSB", "MOVSW", "CMPSB", "SCASB"],
+    "answer": "MOVSW"
+  },
+  {
+    "question": "The CMPSB instruction in 8086 is used to:",
+    "options": [
+      "Compare two bytes in memory",
+      "Move a byte to a register",
+      "Scan a string",
+      "Clear the memory"
+    ],
+    "answer": "Compare two bytes in memory"
+  },
+  {
+    "question": "In 8086, the SCASB instruction is used to:",
+    "options": [
+      "Scan a string for a specific byte",
+      "Move a string to memory",
+      "Compare two strings",
+      "Clear the accumulator"
+    ],
+    "answer": "Scan a string for a specific byte"
+  },
+  {
+    "question": "Which assembler is commonly used for 8086 programming in MP ITI courses?",
+    "options": [
+      "MASM (Microsoft Macro Assembler)",
+      "GCC",
+      "Java Compiler",
+      "Python Interpreter"
+    ],
+    "answer": "MASM (Microsoft Macro Assembler)"
+  },
+  {
+    "question": "The DEBUG tool in 8086 programming is used to:",
+    "options": [
+      "Compile assembly code",
+      "Debug and trace program execution",
+      "Link object files",
+      "Optimize code"
+    ],
+    "answer": "Debug and trace program execution"
+  },
+  {
+    "question": "In assembly language, a macro is:",
+    "options": [
+      "A single instruction",
+      "A reusable block of code replaced before assembly",
+      "A hardware component",
+      "A high-level function"
+    ],
+    "answer": "A reusable block of code replaced before assembly"
+  },
+  {
+    "question": "Which directive in 8086 assembly defines a data variable?",
+    "options": ["PROC", "DB", "END", "SEGMENT"],
+    "answer": "DB"
+  },
+  {
+    "question": "The END directive in 8086 assembly indicates:",
+    "options": [
+      "The end of a program or segment",
+      "The start of a procedure",
+      "The initialization of a variable",
+      "The beginning of a loop"
+    ],
+    "answer": "The end of a program or segment"
+  }
+
+        ]
+      },
+      "NetworkingHardware" : {
+        "title" :"Networking Hardware",
+        "questions" : [
+             {
+        "question": "Which device connects multiple computers in a LAN and filters data using MAC addresses?",
+        "options": ["Hub", "Router", "Switch", "Repeater"],
+        "answer": "Switch"
+      },
+      {
+        "question": "What is the main function of a modem?",
+        "options": ["Data filtering", "Signal amplification", "Modulate and demodulate signals", "Connect LAN segments"],
+        "answer": "Modulate and demodulate signals"
+      },
+      {
+        "question": "Which hardware device works on the network layer (Layer 3) of the OSI model?",
+        "options": ["Switch", "Bridge", "Router", "Repeater"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which device sends data to all connected devices and doesn't filter it?",
+        "options": ["Switch", "Router", "Hub", "Firewall"],
+        "answer": "Hub"
+      },
+      {
+        "question": "Which hardware component assigns a MAC address to the computer?",
+        "options": ["Router", "NIC", "Hub", "Modem"],
+        "answer": "NIC"
+      },
+      {
+        "question": "Which networking device is used to extend the range of a signal?",
+        "options": ["Hub", "Repeater", "Bridge", "Gateway"],
+        "answer": "Repeater"
+      },
+      {
+        "question": "Which device is used to connect two different networks using different protocols?",
+        "options": ["Router", "Switch", "Gateway", "Hub"],
+        "answer": "Gateway"
+      },
+      {
+        "question": "Which device acts as a wireless transmitter in a network?",
+        "options": ["Router", "Bridge", "Access Point", "Repeater"],
+        "answer": "Access Point"
+      },
+      {
+        "question": "Which device is used to segment a network and reduce collision domains?",
+        "options": ["Hub", "Switch", "Bridge", "Repeater"],
+        "answer": "Bridge"
+      },
+      {
+        "question": "A device used to provide security by filtering incoming and outgoing traffic is:",
+        "options": ["Router", "Firewall", "Repeater", "Bridge"],
+        "answer": "Firewall"
+      },
+
+      {
+        "question": "Which device is used to connect a LAN to the Internet?",
+        "options": ["Bridge", "Router", "Switch", "Repeater"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which of the following uses IP address for data transmission?",
+        "options": ["Switch", "Bridge", "Router", "Hub"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which of these has only one collision domain and one broadcast domain?",
+        "options": ["Switch", "Router", "Hub", "Gateway"],
+        "answer": "Hub"
+      },
+      {
+        "question": "Which device can operate in both wired and wireless networks?",
+        "options": ["Switch", "Router", "Modem", "Access Point"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which of the following devices regenerate signals in the network?",
+        "options": ["Repeater", "Router", "Hub", "NIC"],
+        "answer": "Repeater"
+      },
+      {
+        "question": "The device that connects dissimilar networks is called:",
+        "options": ["Bridge", "Hub", "Router", "Gateway"],
+        "answer": "Gateway"
+      },
+      {
+        "question": "What is used to manage cable connections in networking racks?",
+        "options": ["Hub", "Patch Panel", "Switch", "Router"],
+        "answer": "Patch Panel"
+      },
+      {
+        "question": "Which port is commonly used with an Ethernet cable?",
+        "options": ["USB", "RJ11", "RJ45", "VGA"],
+        "answer": "RJ45"
+      },
+      {
+        "question": "Which device is known to flood all ports with data?",
+        "options": ["Switch", "Hub", "Router", "Firewall"],
+        "answer": "Hub"
+      },
+      {
+        "question": "Which layer of OSI does a bridge operate on?",
+        "options": ["Layer 1", "Layer 2", "Layer 3", "Layer 4"],
+        "answer": "Layer 2"
+      },
+
+      {
+        "question": "Which layer of the OSI model does a router operate on?",
+        "options": ["Data Link", "Transport", "Network", "Physical"],
+        "answer": "Network"
+      },
+      {
+        "question": "What does NIC stand for?",
+        "options": ["Network Internal Card", "Network Integrated Circuit", "Network Interface Card", "Net Internet Connection"],
+        "answer": "Network Interface Card"
+      },
+      {
+        "question": "What is the function of a bridge in networking?",
+        "options": ["Signal boosting", "IP addressing", "Joining two LANs", "Data encryption"],
+        "answer": "Joining two LANs"
+      },
+      {
+        "question": "Which is a hardware firewall device?",
+        "options": ["Antivirus", "Cisco ASA", "Modem", "Repeater"],
+        "answer": "Cisco ASA"
+      },
+      {
+        "question": "A switch works based on which address?",
+        "options": ["IP Address", "Port Number", "MAC Address", "Domain Name"],
+        "answer": "MAC Address"
+      },
+      {
+        "question": "Which of the following devices uses routing tables?",
+        "options": ["Hub", "Switch", "Router", "Bridge"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which hardware helps you wirelessly connect to the internet?",
+        "options": ["Switch", "Router", "Access Point", "NIC"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which device combines the functionality of a router and modem?",
+        "options": ["Access Point", "Repeater", "Router Modem Combo", "Firewall"],
+        "answer": "Router Modem Combo"
+      },
+      {
+        "question": "Which of the following devices is considered intelligent?",
+        "options": ["Hub", "Repeater", "Switch", "RJ45"],
+        "answer": "Switch"
+      },
+      {
+        "question": "Which device cannot filter traffic based on IP or MAC?",
+        "options": ["Router", "Switch", "Hub", "Firewall"],
+        "answer": "Hub"
+      },
+
+      {
+        "question": "Which device is responsible for managing traffic between two networks?",
+        "options": ["Hub", "Repeater", "Router", "NIC"],
+        "answer": "Router"
+      },
+      {
+        "question": "What is the purpose of a patch panel?",
+        "options": ["Routing data", "Signal boosting", "Cable management", "Encryption"],
+        "answer": "Cable management"
+      },
+      {
+        "question": "The MAC address is stored in which device?",
+        "options": ["Router", "NIC", "Repeater", "Modem"],
+        "answer": "NIC"
+      },
+      {
+        "question": "Which hardware device can both send and receive data simultaneously?",
+        "options": ["Hub", "Half-Duplex NIC", "Full-Duplex Switch", "Repeater"],
+        "answer": "Full-Duplex Switch"
+      },
+      {
+        "question": "A device used to reduce signal loss over long distances is:",
+        "options": ["Router", "Bridge", "Repeater", "Hub"],
+        "answer": "Repeater"
+      },
+      {
+        "question": "Which connector is most commonly used for Ethernet cables?",
+        "options": ["USB", "RJ45", "RJ11", "HDMI"],
+        "answer": "RJ45"
+      },
+      {
+        "question": "Which of these can act as both hardware and software?",
+        "options": ["Router", "Firewall", "Repeater", "Bridge"],
+        "answer": "Firewall"
+      },
+      {
+        "question": "Which device is required for a device to communicate over a network?",
+        "options": ["Switch", "NIC", "Repeater", "Router"],
+        "answer": "NIC"
+      },
+      {
+        "question": "Which device works only on physical layer?",
+        "options": ["Bridge", "Repeater", "Router", "Switch"],
+        "answer": "Repeater"
+      },
+      {
+        "question": "Which device translates private IP to public IP for internet access?",
+        "options": ["NIC", "Router", "Gateway", "Modem"],
+        "answer": "Router"
+      },
+
+      {
+        "question": "What is the full form of LAN?",
+        "options": ["Low Area Network", "Local Area Network", "Linear Area Network", "Large Access Network"],
+        "answer": "Local Area Network"
+      },
+      {
+        "question": "What is the purpose of a firewall?",
+        "options": ["Boost signal", "Divide LAN", "Block unauthorized access", "Generate IP addresses"],
+        "answer": "Block unauthorized access"
+      },
+      {
+        "question": "Which device is known as a multi-port bridge?",
+        "options": ["Router", "Switch", "Hub", "Repeater"],
+        "answer": "Switch"
+      },
+      {
+        "question": "Which device provides DHCP services?",
+        "options": ["Bridge", "Switch", "Router", "Repeater"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which device increases the number of devices that can be connected in a LAN?",
+        "options": ["Router", "Modem", "Switch", "Gateway"],
+        "answer": "Switch"
+      },
+      {
+        "question": "Which hardware device prevents data collisions?",
+        "options": ["Hub", "Switch", "Repeater", "Router"],
+        "answer": "Switch"
+      },
+      {
+        "question": "Which layer does the access point function at?",
+        "options": ["Physical Layer", "Data Link Layer", "Network Layer", "Application Layer"],
+        "answer": "Data Link Layer"
+      },
+      {
+        "question": "What does a repeater do?",
+        "options": ["Changes IP", "Boosts signal", "Routes data", "Connects to ISP"],
+        "answer": "Boosts signal"
+      },
+       {
+        "question": "What is the purpose of ARP in networking?",
+        "options": ["Assign IP addresses", "Map IP address to MAC address", "Transfer data", "Connect to the Internet"],
+        "answer": "Map IP address to MAC address"
+      },
+      {
+        "question": "What does the term 'duplex' refer to in networking?",
+        "options": ["Cable type", "Data transmission direction", "Device configuration", "Network size"],
+        "answer": "Data transmission direction"
+      },
+      {
+        "question": "Which command is used to check the connectivity to another system in the network?",
+        "options": ["ipconfig", "netstat", "ping", "arp"],
+        "answer": "ping"
+      },
+      {
+        "question": "Which class of IP address is used for multicasting?",
+        "options": ["Class A", "Class B", "Class C", "Class D"],
+        "answer": "Class D"
+      },
+      {
+        "question": "What is the full form of FTP?",
+        "options": ["Fast Transfer Protocol", "File Transfer Protocol", "File Transmission Protocol", "Fetch Transfer Program"],
+        "answer": "File Transfer Protocol"
+      },
+      {
+        "question": "Which device is used to connect different types of networks?",
+        "options": ["Bridge", "Router", "Gateway", "Repeater"],
+        "answer": "Gateway"
+      },
+      {
+        "question": "The default port number for HTTP is?",
+        "options": ["21", "25", "80", "443"],
+        "answer": "80"
+      },
+      {
+        "question": "Which of the following is a connectionless protocol?",
+        "options": ["TCP", "UDP", "FTP", "SSH"],
+        "answer": "UDP"
+      },
+      {
+        "question": "Which address is unique to every device on a LAN?",
+        "options": ["IP Address", "Subnet Mask", "Gateway", "MAC Address"],
+        "answer": "MAC Address"
+      },
+      {
+        "question": "Which device reduces network traffic by filtering packets?",
+        "options": ["Hub", "Switch", "Router", "Bridge"],
+        "answer": "Bridge"
+      },
+
+      {
+        "question": "Which command shows your system's IP configuration?",
+        "options": ["ping", "ipconfig", "netstat", "tracert"],
+        "answer": "ipconfig"
+      },
+      {
+        "question": "What is the speed of a standard Ethernet connection?",
+        "options": ["1 Mbps", "10 Mbps", "100 Mbps", "1 Gbps"],
+        "answer": "100 Mbps"
+      },
+      {
+        "question": "Which protocol converts domain names into IP addresses?",
+        "options": ["FTP", "HTTP", "DNS", "TCP"],
+        "answer": "DNS"
+      },
+      {
+        "question": "What is the role of a proxy server?",
+        "options": ["Encrypt traffic", "Filter requests", "Assign IPs", "Boost signal"],
+        "answer": "Filter requests"
+      },
+      {
+        "question": "Which layer of the OSI model handles end-to-end communication?",
+        "options": ["Network", "Data Link", "Transport", "Session"],
+        "answer": "Transport"
+      },
+      {
+        "question": "Which protocol is used for secure file transfer?",
+        "options": ["FTP", "SFTP", "SMTP", "SNMP"],
+        "answer": "SFTP"
+      },
+      {
+        "question": "What is the full form of DHCP?",
+        "options": ["Dynamic Host Control Protocol", "Dynamic Host Configuration Protocol", "Data Host Configuration Protocol", "Device Hardware Configuration Protocol"],
+        "answer": "Dynamic Host Configuration Protocol"
+      },
+      {
+        "question": "What does a subnet mask do?",
+        "options": ["Assign MAC address", "Divide networks", "Assign gateway", "Enable DNS"],
+        "answer": "Divide networks"
+      },
+      {
+        "question": "What is the loopback IP address?",
+        "options": ["127.0.0.1", "192.168.0.1", "0.0.0.0", "255.255.255.0"],
+        "answer": "127.0.0.1"
+      },
+      {
+        "question": "Which protocol is used to send emails?",
+        "options": ["POP3", "SMTP", "IMAP", "HTTP"],
+        "answer": "SMTP"
+      },
+
+      {
+        "question": "What is the default subnet mask for a Class C IP?",
+        "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
+        "answer": "255.255.255.0"
+      },
+      {
+        "question": "Which type of address is 192.168.0.1?",
+        "options": ["Public IP", "Loopback", "Private IP", "Broadcast IP"],
+        "answer": "Private IP"
+      },
+      {
+        "question": "What is the full form of ISP?",
+        "options": ["Internet Sharing Provider", "Internet Service Provider", "Internal System Provider", "Internet Security Protocol"],
+        "answer": "Internet Service Provider"
+      },
+      {
+        "question": "Which protocol does the web use for secure communication?",
+        "options": ["FTP", "HTTP", "HTTPS", "TELNET"],
+        "answer": "HTTPS"
+      },
+      {
+        "question": "Which device separates broadcast domains in a network?",
+        "options": ["Router", "Switch", "Bridge", "Hub"],
+        "answer": "Router"
+      },
+      {
+        "question": "Which layer is responsible for error detection?",
+        "options": ["Physical", "Data Link", "Transport", "Application"],
+        "answer": "Data Link"
+      },
+      {
+        "question": "Which protocol is used for remote login?",
+        "options": ["SMTP", "Telnet", "POP", "DNS"],
+        "answer": "Telnet"
+      },
+      {
+        "question": "Which layer is responsible for encryption and compression?",
+        "options": ["Application", "Session", "Presentation", "Transport"],
+        "answer": "Presentation"
+      },
+      {
+        "question": "In OSI, the session layer is layer number?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "5"
+      },
+      {
+        "question": "Which address is used by switches to forward data?",
+        "options": ["IP Address", "Subnet Mask", "Port Number", "MAC Address"],
+        "answer": "MAC Address"
+      },
+
+      {
+        "question": "Which command is used to trace the path to a host?",
+        "options": ["tracert", "ping", "ipconfig", "netstat"],
+        "answer": "tracert"
+      },
+      {
+        "question": "Which layer of OSI handles routing of data?",
+        "options": ["Data Link", "Network", "Transport", "Session"],
+        "answer": "Network"
+      },
+      {
+        "question": "Which protocol is used to manage network devices?",
+        "options": ["FTP", "SNMP", "SMTP", "DHCP"],
+        "answer": "SNMP"
+      },
+      {
+        "question": "What is the purpose of NAT in a router?",
+        "options": ["Boost signal", "Assign MAC", "Convert private IP to public IP", "Manage ports"],
+        "answer": "Convert private IP to public IP"
+      },
+      {
+        "question": "Which port number is used for HTTPS?",
+        "options": ["80", "21", "443", "25"],
+        "answer": "443"
+      },
+      {
+        "question": "Which layer ensures reliable transmission?",
+        "options": ["Data Link", "Network", "Transport", "Session"],
+        "answer": "Transport"
+      },
+      {
+        "question": "What is used to logically divide a large network into smaller networks?",
+        "options": ["Subnetting", "Bridging", "Routing", "Repeating"],
+        "answer": "Subnetting"
+      },
+      {
+        "question": "Which tool helps in checking open ports on a system?",
+        "options": ["ipconfig", "tracert", "netstat", "ping"],
+        "answer": "netstat"
+      },
+      {
+        "question": "Which layer converts data into bits?",
+        "options": ["Transport", "Network", "Data Link", "Physical"],
+        "answer": "Physical"
+      },
+      {
+        "question": "Which protocol is used to retrieve emails from a server?",
+        "options": ["SMTP", "POP3", "FTP", "HTTP"],
+        "answer": "POP3"
+      }
+        ]
+      },
+      "Software_Licensing" : {
+        "title" : "Software Licensing",
+        "questions" : [
+               {
+        "question": "What is the key feature of open-source software?",
+        "options": ["Free to use", "Source code is accessible", "Commercial support required", "Only available on Linux"],
+        "answer": "Source code is accessible"
+      },
+      {
+        "question": "Which of the following is a proprietary software?",
+        "options": ["LibreOffice", "MS Word", "Linux", "GIMP"],
+        "answer": "MS Word"
+      },
+      {
+        "question": "What does freeware mean?",
+        "options": ["Open-source and free", "Paid but free for trials", "Free to use but not to modify", "Illegal software"],
+        "answer": "Free to use but not to modify"
+      },
+      {
+        "question": "Shareware software is usually:",
+        "options": ["Open-source", "Free with full rights", "Trial version with limited features", "Completely free forever"],
+        "answer": "Trial version with limited features"
+      },
+      {
+        "question": "Which of the following is NOT open-source?",
+        "options": ["Linux", "Android", "MS Windows", "Python"],
+        "answer": "MS Windows"
+      },
+      {
+        "question": "Which license allows users to modify and distribute software freely?",
+        "options": ["Proprietary License", "GNU General Public License (GPL)", "Trial License", "Read-only License"],
+        "answer": "GNU General Public License (GPL)"
+      },
+      {
+        "question": "What is the main difference between freeware and open-source software?",
+        "options": ["Freeware is always better", "Open-source can be edited", "Freeware requires payment", "Both are identical"],
+        "answer": "Open-source can be edited"
+      },
+      {
+        "question": "Commercial software is typically:",
+        "options": ["Free of cost", "Open-source", "Paid and licensed", "Trial only"],
+        "answer": "Paid and licensed"
+      },
+      {
+        "question": "Which of the following is an example of freeware?",
+        "options": ["Adobe Photoshop", "WinRAR Trial", "Google Chrome", "Microsoft Office"],
+        "answer": "Google Chrome"
+      },
+      {
+        "question": "Which of the following is NOT allowed with proprietary software?",
+        "options": ["Viewing the source code", "Installing on multiple PCs", "Using it after buying", "Following license rules"],
+        "answer": "Viewing the source code"
+      },
+
+      {
+        "question": "GPL stands for:",
+        "options": ["General Public License", "General Program License", "Google Public License", "Government Program License"],
+        "answer": "General Public License"
+      },
+      {
+        "question": "What does 'license agreement' mean in software?",
+        "options": ["User's payment", "Legal rules for software use", "Software expiry", "File format"],
+        "answer": "Legal rules for software use"
+      },
+      {
+        "question": "Trialware means:",
+        "options": ["Free forever", "Can be used for a limited time", "Source code available", "Can’t be installed"],
+        "answer": "Can be used for a limited time"
+      },
+      {
+        "question": "Which of the following is NOT a type of software license?",
+        "options": ["Freeware", "Shareware", "Commercial", "Driverware"],
+        "answer": "Driverware"
+      },
+      {
+        "question": "Which of the following software is mostly open-source?",
+        "options": ["Notepad++", "MS Excel", "Adobe Reader", "CorelDraw"],
+        "answer": "Notepad++"
+      },
+      {
+        "question": "Which license prohibits copying and redistribution?",
+        "options": ["GPL", "Freeware", "Proprietary", "Open Source"],
+        "answer": "Proprietary"
+      },
+      {
+        "question": "What is the key benefit of open-source software?",
+        "options": ["Paid support", "Limited access", "Customization", "Always faster"],
+        "answer": "Customization"
+      },
+      {
+        "question": "Which license allows source code modification?",
+        "options": ["Shareware", "Freeware", "Open-source", "Proprietary"],
+        "answer": "Open-source"
+      },
+      {
+        "question": "The software license that gives limited rights and expires after trial is:",
+        "options": ["Freeware", "Shareware", "Commercial", "Open Source"],
+        "answer": "Shareware"
+      },
+      {
+        "question": "Which of the following is a commercial software?",
+        "options": ["Mozilla Firefox", "Linux", "MS Excel", "LibreOffice"],
+        "answer": "MS Excel"
+      }
+        ]
+      },
+      "Computer_Memory" : {
+        "title" : "Computer Memory",
+        "questions" : [
+  {
+    "question": "Which of the following is a type of Primary Memory?",
+    "options": ["Hard Disk", "SSD", "SRAM", "Flash Memory"],
+    "answer": "SRAM"
+  },
+  {
+    "question": "What is the main difference between SRAM and DRAM?",
+    "options": ["SRAM is volatile, DRAM is non-volatile", "SRAM is faster and does not need refreshing", "DRAM is faster than SRAM", "SRAM is used for permanent storage"],
+    "answer": "SRAM is faster and does not need refreshing"
+  },
+  {
+    "question": "Which memory is used to store frequently accessed data for quick retrieval?",
+    "options": ["ROM", "Cache Memory", "Hard Disk", "Virtual Memory"],
+    "answer": "Cache Memory"
+  },
+  {
+    "question": "What is the full form of EEPROM?",
+    "options": ["Electrically Erasable Programmable Read Only Memory", "Electronic External Program Memory", "Erasable External Primary Memory", "Electrically Enhanced Program Memory"],
+    "answer": "Electrically Erasable Programmable Read Only Memory"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of Secondary Memory?",
+    "options": ["Non-volatile", "Large storage capacity", "High speed", "Used for permanent storage"],
+    "answer": "High speed"
+  },
+  {
+    "question": "What is the role of the swap file in virtual memory?",
+    "options": ["To store permanent data", "To act as an extension of RAM on the hard disk", "To manage CPU operations", "To store BIOS settings"],
+    "answer": "To act as an extension of RAM on the hard disk"
+  },
+  {
+    "question": "Which memory is used in pen drives and memory cards?",
+    "options": ["RAM", "ROM", "Flash Memory", "Cache Memory"],
+    "answer": "Flash Memory"
+  },
+  {
+    "question": "What is the primary advantage of SSD over HDD?",
+    "options": ["Lower cost", "Higher speed and durability", "Larger storage capacity", "Volatile nature"],
+    "answer": "Higher speed and durability"
+  },
+  {
+    "question": "Which type of memory is directly accessible by the CPU?",
+    "options": ["Hard Disk", "SSD", "Registers", "Flash Memory"],
+    "answer": "Registers"
+  },
+  {
+    "question": "What happens to data in ROM when the computer is turned off?",
+    "options": ["It is lost", "It is transferred to RAM", "It remains intact", "It is copied to the hard disk"],
+    "answer": "It remains intact"
+  },
+  {
+    "question": "Which of the following memories has the largest storage capacity?",
+    "options": ["RAM", "Cache Memory", "Hard Disk Drive", "Registers"],
+    "answer": "Hard Disk Drive"
+  },
+  {
+    "question": "What is the purpose of PROM in a computer system?",
+    "options": ["To store temporary data", "To store data that can be programmed once", "To act as virtual memory", "To manage CPU registers"],
+    "answer": "To store data that can be programmed once"
+  },
+  {
+    "question": "Which memory type is refreshed periodically to retain data?",
+    "options": ["SRAM", "DRAM", "ROM", "Flash Memory"],
+    "answer": "DRAM"
+  },
+  {
+    "question": "Which of the following is a non-volatile memory?",
+    "options": ["RAM", "Cache Memory", "ROM", "Registers"],
+    "answer": "ROM"
+  },
+  {
+    "question": "What is the main function of memory management in an operating system?",
+    "options": ["To allocate and deallocate memory to processes", "To store permanent data", "To increase CPU speed", "To manage input devices"],
+    "answer": "To allocate and deallocate memory to processes"
+  },
+   {
+    "question": "Which memory is used to store the startup instructions for a computer?",
+    "options": ["RAM", "ROM", "Cache Memory", "Virtual Memory"],
+    "answer": "ROM"
+  },
+  {
+    "question": "What is the primary purpose of memory hierarchy in a computer system?",
+    "options": ["To increase storage capacity", "To balance speed, cost, and capacity", "To manage input devices", "To run the operating system"],
+    "answer": "To balance speed, cost, and capacity"
+  },
+  {
+    "question": "Which of the following is a characteristic of SRAM?",
+    "options": ["Needs periodic refreshing", "Slower than DRAM", "Used in cache memory", "Volatile and permanent"],
+    "answer": "Used in cache memory"
+  },
+  {
+    "question": "What is the function of a memory controller?",
+    "options": ["To manage data flow between CPU and memory", "To store permanent data", "To execute programs", "To control input devices"],
+    "answer": "To manage data flow between CPU and memory"
+  },
+  {
+    "question": "Which memory is used in digital cameras for storage?",
+    "options": ["RAM", "Cache Memory", "Flash Memory", "Registers"],
+    "answer": "Flash Memory"
+  },
+  {
+    "question": "What is the main disadvantage of DRAM compared to SRAM?",
+    "options": ["Higher cost", "Needs periodic refreshing", "Lower storage capacity", "Non-volatile nature"],
+    "answer": "Needs periodic refreshing"
+  },
+  {
+    "question": "Which of the following is a secondary storage device?",
+    "options": ["RAM", "SSD", "Cache Memory", "Registers"],
+    "answer": "SSD"
+  },
+  {
+    "question": "What is the purpose of paging in virtual memory?",
+    "options": ["To increase CPU speed", "To divide memory into fixed-size blocks", "To store permanent data", "To manage registers"],
+    "answer": "To divide memory into fixed-size blocks"
+  },
+  {
+    "question": "Which memory is closest to the CPU in terms of access speed?",
+    "options": ["RAM", "Registers", "Hard Disk", "SSD"],
+    "answer": "Registers"
+  },
+  {
+    "question": "What does PROM stand for?",
+    "options": ["Programmable Read Only Memory", "Permanent Random Output Memory", "Primary Read Only Memory", "Programmable Random Memory"],
+    "answer": "Programmable Read Only Memory"
+  },
+  {
+    "question": "Which of the following is NOT a type of ROM?",
+    "options": ["EPROM", "EEPROM", "PROM", "DRAM"],
+    "answer": "DRAM"
+  },
+  {
+    "question": "What is the main advantage of flash memory over traditional HDD?",
+    "options": ["Lower cost", "Higher speed and no moving parts", "Larger storage capacity", "Volatile nature"],
+    "answer": "Higher speed and no moving parts"
+  },
+  {
+    "question": "Which memory type is used to store the operating system temporarily during execution?",
+    "options": ["ROM", "RAM", "Hard Disk", "Cache Memory"],
+    "answer": "RAM"
+  },
+  {
+    "question": "What is the role of the memory address register (MAR)?",
+    "options": ["To store data permanently", "To hold the address of the memory location being accessed", "To execute instructions", "To manage virtual memory"],
+    "answer": "To hold the address of the memory location being accessed"
+  },
+  {
+    "question": "Which of the following is a characteristic of non-volatile memory?",
+    "options": ["Data is lost when power is off", "Data is retained without power", "High access speed", "Used only in CPU"],
+    "answer": "Data is retained without power"
+  },
+  {
+    "question": "What is the function of a memory buffer register (MBR)?",
+    "options": ["To store permanent data", "To hold data being transferred to or from memory", "To manage CPU speed", "To store BIOS"],
+    "answer": "To hold data being transferred to or from memory"
+  },
+  {
+    "question": "Which memory type is used in SD cards?",
+    "options": ["RAM", "Cache Memory", "Flash Memory", "Registers"],
+    "answer": "Flash Memory"
+  },
+  {
+    "question": "What is the main purpose of memory management unit (MMU)?",
+    "options": ["To manage virtual memory", "To store permanent data", "To increase CPU speed", "To control input devices"],
+    "answer": "To manage virtual memory"
+  },
+  {
+    "question": "Which of the following is a type of cache memory?",
+    "options": ["L1 Cache", "RAM", "ROM", "Hard Disk"],
+    "answer": "L1 Cache"
+  },
+  {
+    "question": "What is the primary disadvantage of HDD compared to SSD?",
+    "options": ["Lower storage capacity", "Slower speed and mechanical parts", "Higher cost", "Volatile nature"],
+    "answer": "Slower speed and mechanical parts"
+  },
+  {
+    "question": "Which memory type requires UV light to erase data?",
+    "options": ["PROM", "EPROM", "EEPROM", "DRAM"],
+    "answer": "EPROM"
+  },
+  {
+    "question": "What is the function of the instruction register (IR)?",
+    "options": ["To store temporary data", "To hold the current instruction being executed", "To manage virtual memory", "To store permanent data"],
+    "answer": "To hold the current instruction being executed"
+  },
+  {
+    "question": "Which of the following is a volatile memory?",
+    "options": ["ROM", "Flash Memory", "Cache Memory", "SSD"],
+    "answer": "Cache Memory"
+  },
+  {
+    "question": "What is the purpose of memory interleaving?",
+    "options": ["To increase storage capacity", "To improve memory access speed", "To store permanent data", "To manage registers"],
+    "answer": "To improve memory access speed"
+  },
+  {
+    "question": "Which memory type is used to store firmware?",
+    "options": ["RAM", "ROM", "Cache Memory", "Virtual Memory"],
+    "answer": "ROM"
+  },
+  {
+    "question": "What is the main difference between primary and secondary memory?",
+    "options": ["Primary is volatile, secondary is non-volatile", "Primary is non-volatile, secondary is volatile", "Primary is slower, secondary is faster", "Primary is larger, secondary is smaller"],
+    "answer": "Primary is volatile, secondary is non-volatile"
+  },
+  {
+    "question": "Which of the following is a type of secondary storage?",
+    "options": ["RAM", "Cache Memory", "Optical Disk", "Registers"],
+    "answer": "Optical Disk"
+  },
+  {
+    "question": "What is the purpose of segmentation in memory management?",
+    "options": ["To divide memory into variable-sized blocks", "To increase CPU speed", "To store permanent data", "To manage cache memory"],
+    "answer": "To divide memory into variable-sized blocks"
+  },
+  {
+    "question": "Which memory is used to store data temporarily during program execution?",
+    "options": ["ROM", "Hard Disk", "RAM", "Flash Memory"],
+    "answer": "RAM"
+  },
+  {
+    "question": "What is the full form of MBR in the context of memory?",
+    "options": ["Memory Buffer Register", "Main Backup Register", "Memory Block Register", "Main Boot Record"],
+    "answer": "Memory Buffer Register"
+  },
+  {
+    "question": "Which of the following is NOT a type of primary memory?",
+    "options": ["RAM", "ROM", "Cache Memory", "Hard Disk"],
+    "answer": "Hard Disk"
+  },
+  {
+    "question": "What is the main advantage of cache memory over RAM?",
+    "options": ["Larger storage capacity", "Higher speed", "Non-volatile nature", "Lower cost"],
+    "answer": "Higher speed"
+  },
+  {
+    "question": "Which memory type is electrically erasable and programmable?",
+    "options": ["PROM", "EPROM", "EEPROM", "DRAM"],
+    "answer": "EEPROM"
+  },
+  {
+    "question": "What is the role of the program counter (PC) in a CPU?",
+    "options": ["To store permanent data", "To hold the address of the next instruction", "To manage virtual memory", "To store temporary data"],
+    "answer": "To hold the address of the next instruction"
+  },
+  {
+    "question": "Which of the following is a type of flash memory?",
+    "options": ["NAND Flash", "SRAM", "DRAM", "Cache Memory"],
+    "answer": "NAND Flash"
+  },
+  {
+    "question": "What is the main purpose of a memory cache?",
+    "options": ["To store permanent data", "To reduce the time to access frequently used data", "To manage CPU registers", "To increase storage capacity"],
+    "answer": "To reduce the time to access frequently used data"
+  },
+  {
+    "question": "Which memory type is used in USB drives?",
+    "options": ["RAM", "Cache Memory", "Flash Memory", "Registers"],
+    "answer": "Flash Memory"
+  },
+  {
+    "question": "What is the primary function of a memory management unit (MMU)?",
+    "options": ["To execute programs", "To translate virtual addresses to physical addresses", "To store permanent data", "To manage input devices"],
+    "answer": "To translate virtual addresses to physical addresses"
+  },
+  {
+    "question": "Which of the following is a type of volatile memory?",
+    "options": ["ROM", "Flash Memory", "DRAM", "SSD"],
+    "answer": "DRAM"
+  },
+  {
+    "question": "What is the main disadvantage of virtual memory?",
+    "options": ["High speed", "Increased storage capacity", "Slower performance compared to RAM", "Non-volatile nature"],
+    "answer": "Slower performance compared to RAM"
+  },
+  {
+    "question": "Which memory type is used to store bootstrap loader?",
+    "options": ["RAM", "ROM", "Cache Memory", "Virtual Memory"],
+    "answer": "ROM"
+  },
+  {
+    "question": "What is the purpose of memory swapping in an operating system?",
+    "options": ["To increase CPU speed", "To move inactive pages from RAM to secondary storage", "To store permanent data", "To manage registers"],
+    "answer": "To move inactive pages from RAM to secondary storage"
+  },
+  {
+    "question": "Which of the following is a characteristic of registers?",
+    "options": ["Large storage capacity", "Located inside the CPU", "Non-volatile", "Used for permanent storage"],
+    "answer": "Located inside the CPU"
+  },
+  {
+    "question": "What is the main difference between NAND and NOR flash memory?",
+    "options": ["NAND is volatile, NOR is non-volatile", "NAND is faster for reading, NOR for writing", "NAND has higher density and lower cost", "NOR is used in CPUs"],
+    "answer": "NAND has higher density and lower cost"
+  },
+  {
+    "question": "Which memory type is used to store temporary variables during program execution?",
+    "options": ["ROM", "Hard Disk", "RAM", "Flash Memory"],
+    "answer": "RAM"
+  },
+  {
+    "question": "What is the purpose of a memory protection unit?",
+    "options": ["To prevent unauthorized access to memory", "To increase storage capacity", "To manage CPU speed", "To store permanent data"],
+    "answer": "To prevent unauthorized access to memory"
+  },
+  {
+    "question": "Which of the following is a type of secondary memory?",
+    "options": ["RAM", "Cache Memory", "DVD", "Registers"],
+    "answer": "DVD"
+  },
+  {
+    "question": "What is the main advantage of ROM over RAM?",
+    "options": ["Higher speed", "Non-volatile nature", "Larger storage capacity", "Lower cost"],
+    "answer": "Non-volatile nature"
+  },
+  {
+    "question": "Which memory type is used to store data in a computer's motherboard?",
+    "options": ["RAM", "ROM", "Cache Memory", "Virtual Memory"],
+    "answer": "ROM"
+  },
+  {
+    "question": "What is the primary function of a memory cache hit?",
+    "options": ["To increase storage capacity", "To indicate data is found in cache", "To manage virtual memory", "To store permanent data"],
+    "answer": "To indicate data is found in cache"
+  }
         ]
       }
     }
