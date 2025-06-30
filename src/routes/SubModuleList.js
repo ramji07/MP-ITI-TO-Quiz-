@@ -48,30 +48,39 @@ export default function SubModuleList() {
                 )}
 
                 <div className="mt-2">
-                  {isCompleted && result ? (
-                    <button
-                      className="btn btn-sm btn-outline-primary w-100"
-                      onClick={() =>
-                        navigate("/result", {
-                          state: {
-                            moduleId,
-                            subModuleId: subId,
-                            ...result,
-                          },
-                        })
-                      }
-                    >
-                      📊 View Result
-                    </button>
-                  ) : (
-                    <button
-                      onClick={() => navigate(`/quiz/${moduleId}/${subId}`)}
-                      className="btn btn-outline-dark w-100"
-                    >
-                      Start Quiz
-                    </button>
-                  )}
-                </div>
+  {isCompleted && result ? (
+    <div className="d-flex gap-2">
+      <button
+        className="btn btn-sm btn-outline-primary w-100"
+        onClick={() =>
+          navigate("/result", {
+            state: {
+              moduleId,
+              subModuleId: subId,
+              ...result,
+            },
+          })
+        }
+      >
+        📊 View Result
+      </button>
+      <button
+        className="btn btn-sm btn-outline-success w-100"
+        onClick={() => navigate(`/quiz/${moduleId}/${subId}`)}
+      >
+        🔄 Start Again
+      </button>
+    </div>
+  ) : (
+    <button
+      onClick={() => navigate(`/quiz/${moduleId}/${subId}`)}
+      className="btn btn-outline-dark w-100"
+    >
+      Start Quiz
+    </button>
+  )}
+</div>
+
               </div>
             </div>
           );
