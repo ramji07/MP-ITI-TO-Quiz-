@@ -1,0 +1,569 @@
+{
+  "Module-15": {
+    "title": "JavaScript Programming",
+    "submodules": {
+      "basics_1": {
+        "title": "Excel Basics - Set 1",
+        "questions": []
+      },
+      "basics_2": {
+        "title": "Excel Basics - Set 2",
+        "questions": []
+      },
+      "functions": {
+        "title": "Excel Functions",
+        "questions": []
+      },
+      "charts": {
+        "title": "Excel Charts",
+        "questions": []
+      },
+      "shortcuts": {
+        "title": "JavaScript Practical - SET 1",
+        "questions": [
+  {
+    "question": "What will the following code output?\nconsole.log(typeof null);",
+    "options": ["object", "null", "undefined", "number"],
+    "answer": "object"
+  },
+  {
+    "question": "What is the output?\nconsole.log(2 + '2');",
+    "options": ["'22'", "4", "NaN", "undefined"],
+    "answer": "'22'"
+  },
+  {
+    "question": "Which method converts a JSON string to a JavaScript object?",
+    "options": ["JSON.parse()", "JSON.stringify()", "parseJSON()", "toObject()"],
+    "answer": "JSON.parse()"
+  },
+  {
+    "question": "What is the output?\nconsole.log([1,2,3].length);",
+    "options": ["3", "2", "1", "undefined"],
+    "answer": "3"
+  },
+  {
+    "question": "What is the result of 0 == '0'?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of 0 === '0'?",
+    "options": ["false", "true", "undefined", "NaN"],
+    "answer": "false"
+  },
+  {
+    "question": "Which method adds one or more elements to the end of an array?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "push()"
+  },
+  {
+    "question": "What does the following code output?\nconsole.log(typeof NaN);",
+    "options": ["number", "NaN", "undefined", "object"],
+    "answer": "number"
+  },
+  {
+    "question": "How do you declare a variable that cannot be reassigned?",
+    "options": ["const", "let", "var", "static"],
+    "answer": "const"
+  },
+  {
+    "question": "What will this output?\nconsole.log([1,2,3].pop());",
+    "options": ["3", "1", "2", "undefined"],
+    "answer": "3"
+  },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "options": ["// comment", "# comment", "<!-- comment -->", "' comment"],
+    "answer": "// comment"
+  },
+  {
+    "question": "What will this output?\nconsole.log(1 + true);",
+    "options": ["2", "1", "true1", "NaN"],
+    "answer": "2"
+  },
+  {
+    "question": "What is the output?\nconsole.log('5' - 2);",
+    "options": ["3", "'3'", "'52'", "NaN"],
+    "answer": "3"
+  },
+  {
+    "question": "Which method removes the first element from an array?",
+    "options": ["shift()", "pop()", "unshift()", "push()"],
+    "answer": "shift()"
+  },
+  {
+    "question": "What does the following code output?\nconsole.log(!!'');",
+    "options": ["false", "true", "undefined", "null"],
+    "answer": "false"
+  },
+  {
+    "question": "How do you check if a variable is an array?",
+    "options": ["Array.isArray()", "isArray()", "typeof array", "array.isArray()"],
+    "answer": "Array.isArray()"
+  },
+  {
+    "question": "What is the result of typeof undefined?",
+    "options": ["undefined", "object", "null", "string"],
+    "answer": "undefined"
+  },
+  {
+    "question": "What will this output?\nconsole.log('abc'.toUpperCase());",
+    "options": ["ABC", "abc", "Abc", "undefined"],
+    "answer": "ABC"
+  },
+  {
+    "question": "Which method joins all elements of an array into a string?",
+    "options": ["join()", "concat()", "toString()", "split()"],
+    "answer": "join()"
+  },
+  {
+    "question": "What does the following code output?\nconsole.log([1,2,3].slice(1));",
+    "options": ["[2,3]", "[1,2]", "[1,2,3]", "[3]"],
+    "answer": "[2,3]"
+  },
+  {
+    "question": "How do you define a function in JavaScript?",
+    "options": ["function myFunc() {}", "def myFunc() {}", "func myFunc() {}", "function:myFunc() {}"],
+    "answer": "function myFunc() {}"
+  },
+  {
+    "question": "What is the output?\nconsole.log(typeof []);",
+    "options": ["object", "array", "undefined", "null"],
+    "answer": "object"
+  },
+  {
+    "question": "Which method returns the index of the first occurrence of a value?",
+    "options": ["indexOf()", "findIndex()", "search()", "locate()"],
+    "answer": "indexOf()"
+  },
+  {
+    "question": "What is the output?\nconsole.log('hello'.charAt(1));",
+    "options": ["e", "h", "l", "o"],
+    "answer": "e"
+  },
+  {
+    "question": "How do you convert a string to an integer?",
+    "options": ["parseInt()", "parseFloat()", "Number()", "toInt()"],
+    "answer": "parseInt()"
+  },
+  {
+    "question": "What is the output?\nconsole.log(Math.floor(2.9));",
+    "options": ["2", "3", "2.9", "NaN"],
+    "answer": "2"
+  },
+  {
+    "question": "Which method returns the number of milliseconds since January 1, 1970?",
+    "options": ["Date.now()", "Date.getTime()", "Date.valueOf()", "Date.milliseconds()"],
+    "answer": "Date.now()"
+  },
+  {
+    "question": "What does this output?\nconsole.log(Boolean(0));",
+    "options": ["false", "true", "0", "null"],
+    "answer": "false"
+  },
+  {
+    "question": "What is the output?\nconsole.log('10' == 10);",
+    "options": ["true", "false", "undefined", "NaN"],
+    "answer": "true"
+  },
+  {
+    "question": "How do you create an object in JavaScript?",
+    "options": ["{}", "[]", "()", "<>"],
+    "answer": "{}"
+  },
+  {
+    "question": "Which method is used to remove the last element from an array?",
+    "options": ["pop()", "push()", "shift()", "unshift()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "What is the output?\nconsole.log(typeof function(){});",
+    "options": ["function", "object", "undefined", "string"],
+    "answer": "function"
+  },
+  {
+    "question": "How do you write an arrow function?",
+    "options": ["() => {}", "function() => {}", "() -> {}", "=> () {}"],
+    "answer": "() => {}"
+  },
+  {
+    "question": "What will this output?\nconsole.log([1,2,3].reverse());",
+    "options": ["[3,2,1]", "[1,2,3]", "[2,3,1]", "[1,3,2]"],
+    "answer": "[3,2,1]"
+  },
+  {
+    "question": "What is the output?\nconsole.log('5' + 1);",
+    "options": ["'51'", "6", "NaN", "undefined"],
+    "answer": "'51'"
+  },
+  {
+    "question": "Which method can be used to merge two arrays?",
+    "options": ["concat()", "join()", "push()", "merge()"],
+    "answer": "concat()"
+  },
+  {
+    "question": "What will this output?\nconsole.log(!!1);",
+    "options": ["true", "false", "1", "undefined"],
+    "answer": "true"
+  },
+  {
+    "question": "How do you get the length of a string 'abc'?",
+    "options": ["'abc'.length", "'abc'.size", "'abc'.count", "'abc'.len"],
+    "answer": "'abc'.length"
+  },
+  {
+    "question": "Which method is used to convert an array to a string?",
+    "options": ["toString()", "join()", "concat()", "split()"],
+    "answer": "toString()"
+  },
+  {
+    "question": "What is the output?\nconsole.log(2 === '2');",
+    "options": ["false", "true", "undefined", "NaN"],
+    "answer": "false"
+  },
+  {
+    "question": "How do you check if a variable is undefined?",
+    "options": ["typeof variable === 'undefined'", "variable == null", "variable === false", "variable == undefined"],
+    "answer": "typeof variable === 'undefined'"
+  },
+  {
+    "question": "What does the following output?\nconsole.log(Math.max(1, 2, 3));",
+    "options": ["3", "1", "2", "undefined"],
+    "answer": "3"
+  },
+  {
+    "question": "Which method is used to round a number up to the nearest integer?",
+    "options": ["Math.ceil()", "Math.floor()", "Math.round()", "Math.abs()"],
+    "answer": "Math.ceil()"
+  },
+  {
+    "question": "How do you generate a random number between 0 and 1?",
+    "options": ["Math.random()", "Math.rand()", "random()", "Number.random()"],
+    "answer": "Math.random()"
+  },
+  {
+    "question": "What is the output?\nconsole.log('hello'.indexOf('e'));",
+    "options": ["1", "0", "2", "-1"],
+    "answer": "1"
+  },
+  {
+    "question": "Which method is used to split a string into an array?",
+    "options": ["split()", "splice()", "slice()", "join()"],
+    "answer": "split()"
+  },
+  {
+    "question": "How do you check if a string contains a substring?",
+    "options": ["includes()", "has()", "contains()", "search()"],
+    "answer": "includes()"
+  },
+  {
+    "question": "What is the output?\nconsole.log('abc'.replace('b', 'x'));",
+    "options": ["axc", "abc", "xbc", "ac"],
+    "answer": "axc"
+  },
+  {
+    "question": "Which method returns the Unicode of a character at a given index?",
+    "options": ["charCodeAt()", "charAt()", "codeAt()", "getCharCode()"],
+    "answer": "charCodeAt()"
+  },
+  {
+    "question": "How do you add a new property to an object?",
+    "options": ["object.newProp = value", "object.add('newProp', value)", "object.push('newProp', value)", "object.insert('newProp', value)"],
+    "answer": "object.newProp = value"
+  },
+  {
+    "question": "What is the output?\nconsole.log(Boolean('false'));",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true"
+  },
+  {
+    "question": "Which method is used to remove a property from an object?",
+    "options": ["delete", "remove", "pop", "splice"],
+    "answer": "delete"
+  },
+  {
+    "question": "What is the output?\nconsole.log([1,2,3].map(x => x * 2));",
+    "options": ["[2,4,6]", "[1,2,3]", "[3,2,1]", "[1,4,9]"],
+    "answer": "[2,4,6]"
+  },
+  {
+    "question": "How do you filter an array to only even numbers?",
+    "options": [
+      "arr.filter(x => x % 2 === 0)",
+      "arr.filter(x => x % 2)",
+      "arr.even()",
+      "arr.filterEven()"
+    ],
+    "answer": "arr.filter(x => x % 2 === 0)"
+  },
+  {
+    "question": "Which method executes a function for each array element?",
+    "options": ["forEach()", "map()", "filter()", "reduce()"],
+    "answer": "forEach()"
+  },
+  {
+    "question": "What is the output?\nconsole.log([1,2,3].reduce((a,b) => a + b, 0));",
+    "options": ["6", "1", "2", "3"],
+    "answer": "6"
+  },
+  {
+    "question": "How do you remove the first element from an array?",
+    "options": ["shift()", "pop()", "unshift()", "push()"],
+    "answer": "shift()"
+  },
+  {
+    "question": "How do you add an element to the beginning of an array?",
+    "options": ["unshift()", "push()", "shift()", "pop()"],
+    "answer": "unshift()"
+  },
+  {
+    "question": "What is the output?\nconsole.log([1,2,3].find(x => x > 1));",
+    "options": ["2", "1", "3", "undefined"],
+    "answer": "2"
+  },
+  {
+    "question": "What does the following output?\nconsole.log([1,2,3].every(x => x > 0));",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true"
+  },
+  {
+    "question": "What is the output?\nconsole.log([1,2,3].some(x => x > 2));",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true"
+  },
+  {
+    "question": "How do you sort an array in ascending order?",
+    "options": ["arr.sort((a,b) => a-b)", "arr.sort()", "arr.sort((a,b) => b-a)", "arr.sortAsc()"],
+    "answer": "arr.sort((a,b) => a-b)"
+  },
+  {
+    "question": "How do you create a shallow copy of an array?",
+    "options": ["arr.slice()", "arr.copy()", "arr.duplicate()", "arr.clone()"],
+    "answer": "arr.slice()"
+  },
+  {
+    "question": "What is the output?\nconsole.log([1,2,3].includes(2));",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true"
+  },
+  {
+    "question": "How do you check if a variable is NaN?",
+    "options": ["isNaN(variable)", "variable == NaN", "variable === NaN", "typeof variable === 'NaN'"],
+    "answer": "isNaN(variable)"
+  },
+  {
+    "question": "What is the output?\nconsole.log(typeof NaN);",
+    "options": ["number", "NaN", "undefined", "object"],
+    "answer": "number"
+  },
+  {
+    "question": "How do you convert a number to a string?",
+    "options": ["num.toString()", "String(num)", "num + ''", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the output?\nconsole.log('10' + 10);",
+    "options": ["'1010'", "20", "NaN", "undefined"],
+    "answer": "'1010'"
+  },
+  {
+    "question": "How do you check if a variable is null?",
+    "options": ["variable === null", "variable == undefined", "typeof variable === 'null'", "variable == null"],
+    "answer": "variable === null"
+  },
+  {
+    "question": "What will this output?\nconsole.log(!!undefined);",
+    "options": ["false", "true", "undefined", "null"],
+    "answer": "false"
+  },
+  {
+    "question": "How do you get the keys of an object?",
+    "options": ["Object.keys(obj)", "obj.keys()", "obj.getKeys()", "Object.getKeys(obj)"],
+    "answer": "Object.keys(obj)"
+  },
+  {
+    "question": "How do you get the values of an object?",
+    "options": ["Object.values(obj)", "obj.values()", "obj.getValues()", "Object.getValues(obj)"],
+    "answer": "Object.values(obj)"
+  },
+  {
+    "question": "Which method returns an array of [key, value] pairs?",
+    "options": ["Object.entries(obj)", "Object.pairs(obj)", "obj.entries()", "obj.pairs()"],
+    "answer": "Object.entries(obj)"
+  },
+  {
+    "question": "What is the output?\nconsole.log('abc'.split(''));",
+    "options": ["['a','b','c']", "['abc']", "['a b c']", "['a','bc']"],
+    "answer": "['a','b','c']"
+  },
+  {
+    "question": "How do you check if an object has a property?",
+    "options": ["obj.hasOwnProperty('prop')", "'prop' in obj", "obj.prop !== undefined", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the output?\nconsole.log(2 ** 3);",
+    "options": ["8", "6", "9", "5"],
+    "answer": "8"
+  },
+  {
+    "question": "How do you make a deep copy of an object?",
+    "options": [
+      "JSON.parse(JSON.stringify(obj))",
+      "Object.assign({}, obj)",
+      "obj.slice()",
+      "obj.clone()"
+    ],
+    "answer": "JSON.parse(JSON.stringify(obj))"
+  },
+  {
+    "question": "Which method is used to convert an object to a JSON string?",
+    "options": ["JSON.stringify()", "JSON.parse()", "toString()", "String()"],
+    "answer": "JSON.stringify()"
+  },
+  {
+    "question": "What is the output?\nconsole.log(typeof Symbol('x'));",
+    "options": ["symbol", "object", "string", "undefined"],
+    "answer": "symbol"
+  },
+  {
+    "question": "How do you get the prototype of an object?",
+    "options": ["Object.getPrototypeOf(obj)", "obj.prototype()", "obj.getPrototype()", "Object.prototype(obj)"],
+    "answer": "Object.getPrototypeOf(obj)"
+  },
+  {
+    "question": "What is the output?\nconsole.log(Math.round(2.5));",
+    "options": ["3", "2", "2.5", "undefined"],
+    "answer": "3"
+  },
+  {
+    "question": "How do you check if a string starts with a certain substring?",
+    "options": ["startsWith()", "beginsWith()", "hasPrefix()", "isStartWith()"],
+    "answer": "startsWith()"
+  },
+  {
+    "question": "How do you check if a string ends with a certain substring?",
+    "options": ["endsWith()", "finishesWith()", "hasSuffix()", "isEndWith()"],
+    "answer": "endsWith()"
+  },
+  {
+    "question": "What is the output?\nconsole.log('abc'.repeat(2));",
+    "options": ["abcabc", "abc", "aabbcc", "abccba"],
+    "answer": "abcabc"
+  },
+  {
+    "question": "How do you pad a string at the start to a certain length?",
+    "options": ["padStart()", "padLeft()", "startPad()", "leftPad()"],
+    "answer": "padStart()"
+  },
+  {
+    "question": "How do you pad a string at the end to a certain length?",
+    "options": ["padEnd()", "padRight()", "endPad()", "rightPad()"],
+    "answer": "padEnd()"
+  },
+  {
+    "question": "How do you remove whitespace from both ends of a string?",
+    "options": ["trim()", "strip()", "removeSpaces()", "clear()"],
+    "answer": "trim()"
+  },
+  {
+    "question": "What is the output?\nconsole.log('abc'.includes('b'));",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true"
+  },
+  {
+    "question": "What is the output?\nconsole.log([1,2,3].at(-1));",
+    "options": ["3", "1", "2", "undefined"],
+    "answer": "3"
+  },
+  {
+    "question": "How do you flatten a nested array one level deep?",
+    "options": ["arr.flat()", "arr.flatten()", "arr.flatMap()", "arr.flattenDeep()"],
+    "answer": "arr.flat()"
+  },
+  {
+    "question": "How do you merge two objects?",
+    "options": [
+      "Object.assign({}, obj1, obj2)",
+      "{...obj1, ...obj2}",
+      "Both of the above",
+      "obj1 + obj2"
+    ],
+    "answer": "Both of the above"
+  },
+  {
+    "question": "How do you destructure an array?",
+    "options": [
+      "const [a, b] = arr",
+      "const {a, b} = arr",
+      "const a = arr[0], b = arr[1]",
+      "arr.destructure()"
+    ],
+    "answer": "const [a, b] = arr"
+  },
+  {
+    "question": "How do you destructure an object?",
+    "options": [
+      "const {a, b} = obj",
+      "const [a, b] = obj",
+      "obj.destructure()",
+      "const a = obj.a, b = obj.b"
+    ],
+    "answer": "const {a, b} = obj"
+  },
+  {
+    "question": "What is the output?\nconsole.log([...'abc']);",
+    "options": ["['a','b','c']", "['abc']", "['a b c']", "['a','bc']"],
+    "answer": "['a','b','c']"
+  },
+  {
+    "question": "How do you clone an object using the spread operator?",
+    "options": [
+      "{...obj}",
+      "obj.clone()",
+      "Object.clone(obj)",
+      "obj.copy()"
+    ],
+    "answer": "{...obj}"
+  },
+  {
+    "question": "How do you get the current date in JavaScript?",
+    "options": [
+      "new Date()",
+      "Date.now()",
+      "Date.today()",
+      "getDate()"
+    ],
+    "answer": "new Date()"
+  },
+  {
+    "question": "What is the output?\nconsole.log(typeof undefined);",
+    "options": ["undefined", "object", "string", "number"],
+    "answer": "undefined"
+  },
+  {
+    "question": "How do you check if a variable is a function?",
+    "options": [
+      "typeof variable === 'function'",
+      "variable instanceof Function",
+      "Object.prototype.toString.call(variable) === '[object Function]'",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How do you check if a variable is a string?",
+    "options": [
+      "typeof variable === 'string'",
+      "variable instanceof String",
+      "Object.prototype.toString.call(variable) === '[object String]'",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  }
+]
+
+      }
+    }
+  }
+}

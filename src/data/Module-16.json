@@ -1,0 +1,5532 @@
+{
+  "Module-16": {
+    "title": "MS Word Basics And Advanced",
+    "submodules": {
+      "basics_1": {
+        "title": "MS Word - Set 1",
+        "questions": [
+  {
+    "question": "Q1. What is the default font in MS Word 2016?",
+    "question_hindi": "Q1. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q2. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q2. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q3. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q3. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q4. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q4. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q5. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q5. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q6. What is the default font in MS Word 2016?",
+    "question_hindi": "Q6. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q7. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q7. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q8. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q8. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q9. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q9. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q10. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q10. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q11. What is the default font in MS Word 2016?",
+    "question_hindi": "Q11. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q12. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q12. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q13. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q13. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q14. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q14. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q15. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q15. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q16. What is the default font in MS Word 2016?",
+    "question_hindi": "Q16. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q17. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q17. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q18. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q18. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q19. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q19. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q20. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q20. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q21. What is the default font in MS Word 2016?",
+    "question_hindi": "Q21. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q22. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q22. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q23. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q23. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q24. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q24. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q25. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q25. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q26. What is the default font in MS Word 2016?",
+    "question_hindi": "Q26. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q27. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q27. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q28. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q28. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q29. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q29. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q30. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q30. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q31. What is the default font in MS Word 2016?",
+    "question_hindi": "Q31. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q32. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q32. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q33. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q33. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q34. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q34. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q35. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q35. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q36. What is the default font in MS Word 2016?",
+    "question_hindi": "Q36. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q37. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q37. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q38. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q38. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q39. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q39. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q40. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q40. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q41. What is the default font in MS Word 2016?",
+    "question_hindi": "Q41. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q42. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q42. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q43. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q43. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q44. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q44. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q45. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q45. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q46. What is the default font in MS Word 2016?",
+    "question_hindi": "Q46. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q47. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q47. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q48. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q48. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q49. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q49. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q50. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q50. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q51. What is the default font in MS Word 2016?",
+    "question_hindi": "Q51. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q52. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q52. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q53. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q53. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q54. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q54. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q55. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q55. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q56. What is the default font in MS Word 2016?",
+    "question_hindi": "Q56. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q57. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q57. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q58. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q58. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q59. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q59. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q60. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q60. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q61. What is the default font in MS Word 2016?",
+    "question_hindi": "Q61. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q62. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q62. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q63. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q63. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q64. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q64. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q65. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q65. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q66. What is the default font in MS Word 2016?",
+    "question_hindi": "Q66. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q67. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q67. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q68. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q68. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q69. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q69. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q70. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q70. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q71. What is the default font in MS Word 2016?",
+    "question_hindi": "Q71. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q72. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q72. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q73. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q73. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q74. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q74. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q75. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q75. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q76. What is the default font in MS Word 2016?",
+    "question_hindi": "Q76. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q77. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q77. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q78. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q78. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q79. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q79. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q80. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q80. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q81. What is the default font in MS Word 2016?",
+    "question_hindi": "Q81. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q82. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q82. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q83. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q83. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q84. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q84. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q85. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q85. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q86. What is the default font in MS Word 2016?",
+    "question_hindi": "Q86. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q87. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q87. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q88. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q88. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q89. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q89. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q90. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q90. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q91. What is the default font in MS Word 2016?",
+    "question_hindi": "Q91. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q92. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q92. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q93. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q93. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q94. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q94. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q95. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q95. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q96. What is the default font in MS Word 2016?",
+    "question_hindi": "Q96. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q97. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q97. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q98. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q98. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q99. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q99. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q100. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q100. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  }
+]
+      },
+      "basics_2": {
+        "title": " MS Word - Set 2",
+        "questions": [
+          {
+    "question": "Q400. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q400. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q401. What is the default font in MS Word 2016?",
+    "question_hindi": "Q401. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q402. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q402. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q403. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q403. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q404. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q404. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q405. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q405. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q406. What is the default font in MS Word 2016?",
+    "question_hindi": "Q406. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q407. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q407. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q408. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q408. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q409. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q409. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q410. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q410. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q411. What is the default font in MS Word 2016?",
+    "question_hindi": "Q411. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q412. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q412. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q413. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q413. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q414. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q414. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q415. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q415. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q416. What is the default font in MS Word 2016?",
+    "question_hindi": "Q416. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q417. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q417. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q418. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q418. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q419. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q419. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q420. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q420. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q421. What is the default font in MS Word 2016?",
+    "question_hindi": "Q421. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q422. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q422. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q423. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q423. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q424. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q424. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q425. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q425. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q426. What is the default font in MS Word 2016?",
+    "question_hindi": "Q426. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q427. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q427. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q428. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q428. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q429. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q429. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q430. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q430. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q431. What is the default font in MS Word 2016?",
+    "question_hindi": "Q431. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q432. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q432. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q433. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q433. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q434. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q434. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q435. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q435. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q436. What is the default font in MS Word 2016?",
+    "question_hindi": "Q436. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q437. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q437. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q438. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q438. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q439. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q439. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q440. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q440. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q441. What is the default font in MS Word 2016?",
+    "question_hindi": "Q441. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q442. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q442. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q443. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q443. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q444. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q444. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q445. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q445. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q446. What is the default font in MS Word 2016?",
+    "question_hindi": "Q446. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q447. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q447. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q448. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q448. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q449. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q449. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q450. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q450. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q451. What is the default font in MS Word 2016?",
+    "question_hindi": "Q451. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q452. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q452. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q453. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q453. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q454. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q454. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q455. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q455. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q456. What is the default font in MS Word 2016?",
+    "question_hindi": "Q456. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q457. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q457. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q458. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q458. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q459. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q459. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q460. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q460. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q461. What is the default font in MS Word 2016?",
+    "question_hindi": "Q461. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q462. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q462. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q463. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q463. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q464. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q464. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q465. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q465. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q466. What is the default font in MS Word 2016?",
+    "question_hindi": "Q466. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q467. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q467. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q468. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q468. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q469. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q469. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q470. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q470. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q471. What is the default font in MS Word 2016?",
+    "question_hindi": "Q471. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q472. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q472. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q473. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q473. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q474. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q474. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q475. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q475. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q476. What is the default font in MS Word 2016?",
+    "question_hindi": "Q476. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q477. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q477. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q478. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q478. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q479. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q479. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q480. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q480. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q481. What is the default font in MS Word 2016?",
+    "question_hindi": "Q481. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q482. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q482. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q483. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q483. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q484. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q484. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q485. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q485. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q486. What is the default font in MS Word 2016?",
+    "question_hindi": "Q486. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q487. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q487. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q488. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q488. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q489. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q489. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q490. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q490. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q491. What is the default font in MS Word 2016?",
+    "question_hindi": "Q491. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q492. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q492. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q493. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q493. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q494. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q494. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q495. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q495. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q496. What is the default font in MS Word 2016?",
+    "question_hindi": "Q496. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q497. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q497. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q498. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q498. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q499. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q499. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q500. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q500. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  }
+        ]
+      },
+      "functions": {
+        "title": "MS Word - Set 3",
+        "questions": [
+            {
+    "question": "Q301. What is the default font in MS Word 2016?",
+    "question_hindi": "Q301. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q302. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q302. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q303. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q303. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q304. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q304. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q305. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q305. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q306. What is the default font in MS Word 2016?",
+    "question_hindi": "Q306. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q307. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q307. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q308. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q308. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q309. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q309. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q310. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q310. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q311. What is the default font in MS Word 2016?",
+    "question_hindi": "Q311. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q312. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q312. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q313. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q313. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q314. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q314. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q315. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q315. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q316. What is the default font in MS Word 2016?",
+    "question_hindi": "Q316. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q317. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q317. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q318. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q318. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q319. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q319. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q320. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q320. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q321. What is the default font in MS Word 2016?",
+    "question_hindi": "Q321. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q322. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q322. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q323. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q323. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q324. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q324. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q325. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q325. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q326. What is the default font in MS Word 2016?",
+    "question_hindi": "Q326. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q327. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q327. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q328. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q328. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q329. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q329. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q330. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q330. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q331. What is the default font in MS Word 2016?",
+    "question_hindi": "Q331. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q332. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q332. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q333. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q333. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q334. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q334. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q335. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q335. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q336. What is the default font in MS Word 2016?",
+    "question_hindi": "Q336. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q337. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q337. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q338. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q338. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q339. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q339. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q340. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q340. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q341. What is the default font in MS Word 2016?",
+    "question_hindi": "Q341. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q342. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q342. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q343. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q343. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q344. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q344. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q345. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q345. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q346. What is the default font in MS Word 2016?",
+    "question_hindi": "Q346. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q347. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q347. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q348. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q348. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q349. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q349. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q350. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q350. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q351. What is the default font in MS Word 2016?",
+    "question_hindi": "Q351. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q352. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q352. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q353. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q353. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q354. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q354. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q355. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q355. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q356. What is the default font in MS Word 2016?",
+    "question_hindi": "Q356. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q357. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q357. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q358. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q358. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q359. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q359. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q360. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q360. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q361. What is the default font in MS Word 2016?",
+    "question_hindi": "Q361. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q362. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q362. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q363. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q363. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q364. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q364. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q365. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q365. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q366. What is the default font in MS Word 2016?",
+    "question_hindi": "Q366. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q367. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q367. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q368. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q368. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q369. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q369. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q370. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q370. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q371. What is the default font in MS Word 2016?",
+    "question_hindi": "Q371. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q372. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q372. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q373. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q373. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q374. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q374. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q375. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q375. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q376. What is the default font in MS Word 2016?",
+    "question_hindi": "Q376. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q377. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q377. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q378. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q378. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q379. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q379. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q380. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q380. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q381. What is the default font in MS Word 2016?",
+    "question_hindi": "Q381. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q382. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q382. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q383. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q383. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q384. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q384. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q385. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q385. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q386. What is the default font in MS Word 2016?",
+    "question_hindi": "Q386. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q387. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q387. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q388. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q388. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q389. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q389. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q390. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q390. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q391. What is the default font in MS Word 2016?",
+    "question_hindi": "Q391. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q392. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q392. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q393. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q393. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q394. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q394. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q395. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q395. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q396. What is the default font in MS Word 2016?",
+    "question_hindi": "Q396. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q397. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q397. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q398. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q398. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q399. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q399. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  }
+        ]
+      },
+      "charts": {
+        "title": "MS Word - Set 4",
+        "questions": [
+            {
+    "question": "Q201. What is the default font in MS Word 2016?",
+    "question_hindi": "Q201. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q202. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q202. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q203. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q203. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q204. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q204. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q205. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q205. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q206. What is the default font in MS Word 2016?",
+    "question_hindi": "Q206. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q207. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q207. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q208. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q208. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q209. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q209. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q210. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q210. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q211. What is the default font in MS Word 2016?",
+    "question_hindi": "Q211. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q212. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q212. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q213. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q213. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q214. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q214. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q215. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q215. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q216. What is the default font in MS Word 2016?",
+    "question_hindi": "Q216. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q217. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q217. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q218. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q218. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q219. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q219. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q220. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q220. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q221. What is the default font in MS Word 2016?",
+    "question_hindi": "Q221. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q222. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q222. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q223. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q223. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q224. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q224. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q225. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q225. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q226. What is the default font in MS Word 2016?",
+    "question_hindi": "Q226. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q227. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q227. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q228. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q228. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q229. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q229. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q230. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q230. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q231. What is the default font in MS Word 2016?",
+    "question_hindi": "Q231. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q232. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q232. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q233. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q233. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q234. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q234. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q235. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q235. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q236. What is the default font in MS Word 2016?",
+    "question_hindi": "Q236. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q237. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q237. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q238. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q238. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q239. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q239. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q240. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q240. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q241. What is the default font in MS Word 2016?",
+    "question_hindi": "Q241. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q242. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q242. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q243. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q243. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q244. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q244. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q245. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q245. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q246. What is the default font in MS Word 2016?",
+    "question_hindi": "Q246. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q247. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q247. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q248. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q248. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q249. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q249. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q250. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q250. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q251. What is the default font in MS Word 2016?",
+    "question_hindi": "Q251. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q252. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q252. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q253. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q253. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q254. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q254. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q255. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q255. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q256. What is the default font in MS Word 2016?",
+    "question_hindi": "Q256. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q257. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q257. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q258. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q258. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q259. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q259. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q260. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q260. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q261. What is the default font in MS Word 2016?",
+    "question_hindi": "Q261. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q262. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q262. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q263. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q263. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q264. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q264. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q265. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q265. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q266. What is the default font in MS Word 2016?",
+    "question_hindi": "Q266. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q267. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q267. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q268. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q268. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q269. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q269. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q270. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q270. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q271. What is the default font in MS Word 2016?",
+    "question_hindi": "Q271. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q272. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q272. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q273. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q273. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q274. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q274. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q275. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q275. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q276. What is the default font in MS Word 2016?",
+    "question_hindi": "Q276. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q277. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q277. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q278. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q278. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q279. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q279. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q280. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q280. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q281. What is the default font in MS Word 2016?",
+    "question_hindi": "Q281. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q282. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q282. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q283. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q283. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q284. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q284. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q285. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q285. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q286. What is the default font in MS Word 2016?",
+    "question_hindi": "Q286. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q287. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q287. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q288. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q288. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q289. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q289. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q290. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q290. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q291. What is the default font in MS Word 2016?",
+    "question_hindi": "Q291. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q292. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q292. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q293. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q293. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q294. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q294. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q295. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q295. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q296. What is the default font in MS Word 2016?",
+    "question_hindi": "Q296. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q297. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q297. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q298. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q298. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q299. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q299. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q300. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q300. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  }
+        ]
+      },
+      "shortcuts": {
+        "title": "Ms Word - Set 5",
+        "questions": [
+           {
+    "question": "Q101. What is the default font in MS Word 2016?",
+    "question_hindi": "Q101. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q102. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q102. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q103. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q103. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q104. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q104. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q105. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q105. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q106. What is the default font in MS Word 2016?",
+    "question_hindi": "Q106. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q107. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q107. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q108. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q108. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q109. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q109. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q110. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q110. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q111. What is the default font in MS Word 2016?",
+    "question_hindi": "Q111. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q112. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q112. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q113. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q113. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q114. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q114. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q115. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q115. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q116. What is the default font in MS Word 2016?",
+    "question_hindi": "Q116. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q117. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q117. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q118. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q118. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q119. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q119. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q120. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q120. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q121. What is the default font in MS Word 2016?",
+    "question_hindi": "Q121. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q122. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q122. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q123. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q123. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q124. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q124. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q125. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q125. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q126. What is the default font in MS Word 2016?",
+    "question_hindi": "Q126. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q127. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q127. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q128. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q128. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q129. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q129. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q130. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q130. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q131. What is the default font in MS Word 2016?",
+    "question_hindi": "Q131. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q132. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q132. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q133. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q133. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q134. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q134. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q135. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q135. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q136. What is the default font in MS Word 2016?",
+    "question_hindi": "Q136. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q137. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q137. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q138. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q138. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q139. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q139. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q140. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q140. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q141. What is the default font in MS Word 2016?",
+    "question_hindi": "Q141. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q142. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q142. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q143. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q143. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q144. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q144. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q145. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q145. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q146. What is the default font in MS Word 2016?",
+    "question_hindi": "Q146. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q147. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q147. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q148. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q148. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q149. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q149. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q150. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q150. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q151. What is the default font in MS Word 2016?",
+    "question_hindi": "Q151. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q152. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q152. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q153. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q153. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q154. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q154. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q155. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q155. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q156. What is the default font in MS Word 2016?",
+    "question_hindi": "Q156. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q157. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q157. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q158. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q158. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q159. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q159. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q160. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q160. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q161. What is the default font in MS Word 2016?",
+    "question_hindi": "Q161. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q162. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q162. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q163. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q163. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q164. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q164. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q165. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q165. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q166. What is the default font in MS Word 2016?",
+    "question_hindi": "Q166. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q167. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q167. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q168. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q168. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q169. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q169. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q170. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q170. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q171. What is the default font in MS Word 2016?",
+    "question_hindi": "Q171. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q172. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q172. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q173. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q173. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q174. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q174. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q175. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q175. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q176. What is the default font in MS Word 2016?",
+    "question_hindi": "Q176. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q177. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q177. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q178. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q178. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q179. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q179. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q180. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q180. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q181. What is the default font in MS Word 2016?",
+    "question_hindi": "Q181. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q182. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q182. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q183. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q183. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q184. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q184. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q185. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q185. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q186. What is the default font in MS Word 2016?",
+    "question_hindi": "Q186. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q187. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q187. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q188. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q188. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q189. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q189. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q190. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q190. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q191. What is the default font in MS Word 2016?",
+    "question_hindi": "Q191. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q192. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q192. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q193. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q193. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q194. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q194. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q195. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q195. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q196. What is the default font in MS Word 2016?",
+    "question_hindi": "Q196. MS Word 2016 में डिफ़ॉल्ट फॉन्ट कौन सा होता है?",
+    "options": [
+      "Arial",
+      "Calibri",
+      "Times New Roman",
+      "Verdana"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q197. Which shortcut key is used to make text bold in Word?",
+    "question_hindi": "Q197. MS Word में टेक्स्ट को बोल्ड करने की शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + U",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q198. Which tab contains the 'Page Setup' group?",
+    "question_hindi": "Q198. 'Page Setup' ग्रुप किस टैब में होता है?",
+    "options": [
+      "Insert",
+      "Home",
+      "Layout",
+      "Review"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "Q199. Which feature in MS Word allows you to combine form letters with a data source?",
+    "question_hindi": "Q199. MS Word में किस सुविधा से आप फॉर्म लेटर्स को डेटा स्रोत से जोड़ सकते हैं?",
+    "options": [
+      "Mail Merge",
+      "Macro",
+      "SmartArt",
+      "Track Changes"
+    ],
+    "answer": "Mail Merge"
+  },
+  {
+    "question": "Q200. Which file extension is used for Word documents by default?",
+    "question_hindi": "Q200. MS Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".doc",
+      ".txt",
+      ".pdf",
+      ".docx"
+    ],
+    "answer": ".docx"
+  }
+        ]
+      }
+    }
+  }
+}

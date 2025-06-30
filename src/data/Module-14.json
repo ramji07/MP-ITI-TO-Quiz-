@@ -1,0 +1,2108 @@
+{
+  "Module-14": {
+    "title": "CSS Basics And Advanced",
+    "submodules": {
+      "CSS": {
+        "title": "Basic CSS",
+        "questions": [
+  {
+    "question": "What does CSS stand for?",
+    "options": ["Cascading Style Sheets", "Colorful Style Syntax", "Creative Style System", "Computer Style Sheets"],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which HTML tag is used to link an external CSS file?",
+    "options": ["<link>", "<style>", "<css>", "<script>"],
+    "answer": "<link>"
+  },
+  {
+    "question": "Where should the <style> tag be placed in an HTML document?",
+    "options": ["Inside the <head>", "Inside the <body>", "At the end of the document", "Anywhere"],
+    "answer": "Inside the <head>"
+  },
+  {
+    "question": "Which CSS property changes the text color?",
+    "options": ["color", "background-color", "font-color", "text-color"],
+    "answer": "color"
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "options": ["background-color", "color", "bgcolor", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which symbol is used to select an id in CSS?",
+    "options": ["#", ".", "*", "&"],
+    "answer": "#"
+  },
+  {
+    "question": "Which symbol is used to select a class in CSS?",
+    "options": [".", "#", "*", "&"],
+    "answer": "."
+  },
+  {
+    "question": "How do you add a comment in CSS?",
+    "options": ["/* comment */", "// comment", "<!-- comment -->", "# comment"],
+    "answer": "/* comment */"
+  },
+  {
+    "question": "Which property is used to change the font size?",
+    "options": ["font-size", "text-size", "font-style", "size"],
+    "answer": "font-size"
+  },
+  {
+    "question": "How do you select all elements of a specific type in CSS?",
+    "options": [
+      "By using the element name",
+      "By using #element",
+      "By using .element",
+      "By using *element"
+    ],
+    "answer": "By using the element name"
+  },
+  {
+    "question": "Which property adds space inside an element?",
+    "options": ["padding", "margin", "border", "spacing"],
+    "answer": "padding"
+  },
+  {
+    "question": "Which property adds space outside an element?",
+    "options": ["margin", "padding", "border", "spacing"],
+    "answer": "margin"
+  },
+  {
+    "question": "Which property sets the font family?",
+    "options": ["font-family", "font-style", "font-weight", "font-type"],
+    "answer": "font-family"
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "options": ["font-weight: bold;", "font-style: bold;", "text-weight: bold;", "font-bold: true;"],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "How do you link an external CSS file named 'style.css'?",
+    "options": [
+      "<link rel='stylesheet' href='style.css'>",
+      "<style src='style.css'>",
+      "<css href='style.css'>",
+      "<script src='style.css'>"
+    ],
+    "answer": "<link rel='stylesheet' href='style.css'>"
+  },
+  {
+    "question": "Which property changes the border of an element?",
+    "options": ["border", "outline", "border-style", "border-width"],
+    "answer": "border"
+  },
+  {
+    "question": "How do you select all elements with the class 'example'?",
+    "options": [".example", "#example", "example", "*example"],
+    "answer": ".example"
+  },
+  {
+    "question": "Which property aligns text to the center?",
+    "options": ["text-align: center;", "align: center;", "center: text;", "text-center: true;"],
+    "answer": "text-align: center;"
+  },
+  {
+    "question": "Which property is used to change the width of an element?",
+    "options": ["width", "size", "length", "height"],
+    "answer": "width"
+  },
+  {
+    "question": "Which property is used to change the height of an element?",
+    "options": ["height", "width", "size", "length"],
+    "answer": "height"
+  },
+  {
+    "question": "How do you select all <p> elements in CSS?",
+    "options": ["p", ".p", "#p", "*p"],
+    "answer": "p"
+  },
+  {
+    "question": "Which property is used to set the background image?",
+    "options": ["background-image", "background", "bg-image", "image-background"],
+    "answer": "background-image"
+  },
+  {
+    "question": "Which property is used to set the space between lines of text?",
+    "options": ["line-height", "letter-spacing", "word-spacing", "spacing"],
+    "answer": "line-height"
+  },
+  {
+    "question": "Which property is used to set the style of a border?",
+    "options": ["border-style", "border-type", "border", "outline-style"],
+    "answer": "border-style"
+  },
+  {
+    "question": "Which property sets the transparency of an element?",
+    "options": ["opacity", "visibility", "transparent", "alpha"],
+    "answer": "opacity"
+  },
+  {
+    "question": "Which property is used to set the shadow of a box?",
+    "options": ["box-shadow", "shadow", "text-shadow", "border-shadow"],
+    "answer": "box-shadow"
+  },
+  {
+    "question": "Which property is used to set the shadow of text?",
+    "options": ["text-shadow", "box-shadow", "shadow", "font-shadow"],
+    "answer": "text-shadow"
+  },
+  {
+    "question": "How do you select an element with id 'header'?",
+    "options": ["#header", ".header", "header", "*header"],
+    "answer": "#header"
+  },
+  {
+    "question": "Which property is used to hide an element but keep its space?",
+    "options": ["visibility: hidden;", "display: none;", "opacity: 0;", "hidden: true;"],
+    "answer": "visibility: hidden;"
+  },
+  {
+    "question": "Which property is used to completely remove an element from the layout?",
+    "options": ["display: none;", "visibility: hidden;", "opacity: 0;", "hidden: true;"],
+    "answer": "display: none;"
+  },
+  {
+    "question": "Which property is used to change the cursor when hovering over an element?",
+    "options": ["cursor", "pointer", "hover", "mouse"],
+    "answer": "cursor"
+  },
+  {
+    "question": "Which property is used to add rounded corners to an element?",
+    "options": ["border-radius", "border-corner", "corner-radius", "radius"],
+    "answer": "border-radius"
+  },
+  {
+    "question": "Which property is used to control the spacing between letters?",
+    "options": ["letter-spacing", "word-spacing", "line-height", "spacing"],
+    "answer": "letter-spacing"
+  },
+  {
+    "question": "Which property is used to control the spacing between words?",
+    "options": ["word-spacing", "letter-spacing", "line-height", "spacing"],
+    "answer": "word-spacing"
+  },
+  {
+    "question": "Which property is used to change the style of the list item marker?",
+    "options": ["list-style-type", "list-type", "marker-style", "list-marker"],
+    "answer": "list-style-type"
+  },
+  {
+    "question": "Which property is used to float an element to the left or right?",
+    "options": ["float", "position", "align", "display"],
+    "answer": "float"
+  },
+  {
+    "question": "Which property is used to clear floated elements?",
+    "options": ["clear", "float", "reset", "remove-float"],
+    "answer": "clear"
+  },
+  {
+    "question": "Which property is used to set the maximum width of an element?",
+    "options": ["max-width", "width", "min-width", "size"],
+    "answer": "max-width"
+  },
+  {
+    "question": "Which property is used to set the minimum height of an element?",
+    "options": ["min-height", "height", "max-height", "size"],
+    "answer": "min-height"
+  },
+  {
+    "question": "Which property is used to set the background color of an element?",
+    "options": ["background-color", "color", "bgcolor", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which property is used to specify the type of positioning method used for an element?",
+    "options": ["position", "float", "display", "align"],
+    "answer": "position"
+  },
+  {
+    "question": "Which property is used to set the z-order of an element?",
+    "options": ["z-index", "order", "position", "layer"],
+    "answer": "z-index"
+  }
+]
+
+      },
+      "Selectors": {
+        "title": "CSS Selectors",
+        "questions": [
+  {
+    "question": "Which symbol is used to select a class in CSS?",
+    "options": [".", "#", "*", "&"],
+    "answer": "."
+  },
+  {
+    "question": "Which symbol is used to select an id in CSS?",
+    "options": ["#", ".", "*", "&"],
+    "answer": "#"
+  },
+  {
+    "question": "How do you select all <p> elements in CSS?",
+    "options": ["p", ".p", "#p", "*p"],
+    "answer": "p"
+  },
+  {
+    "question": "How do you select an element with the id 'header'?",
+    "options": ["#header", ".header", "header", "*header"],
+    "answer": "#header"
+  },
+  {
+    "question": "How do you select all elements with the class 'menu'?",
+    "options": [".menu", "#menu", "menu", "*menu"],
+    "answer": ".menu"
+  },
+  {
+    "question": "Which selector targets all elements on a page?",
+    "options": ["*", "#", ".", "all"],
+    "answer": "*"
+  },
+  {
+    "question": "How do you select all <a> elements inside a <nav>?",
+    "options": ["nav a", "nav.a", "nav#a", "nav>a"],
+    "answer": "nav a"
+  },
+  {
+    "question": "Which selector targets only direct child elements?",
+    "options": ["parent > child", "parent child", "parent.child", "parent#child"],
+    "answer": "parent > child"
+  },
+  {
+    "question": "How do you select all <li> elements that are the first child of their parent?",
+    "options": ["li:first-child", "li:first", "li:first-of-type", "li:nth-child(1)"],
+    "answer": "li:first-child"
+  },
+  {
+    "question": "Which selector targets elements with a specific attribute?",
+    "options": ["[attribute]", ".attribute", "#attribute", "*attribute"],
+    "answer": "[attribute]"
+  },
+  {
+    "question": "How do you select all <input> elements of type 'text'?",
+    "options": ["input[type='text']", "input.text", "#input.text", "input#text"],
+    "answer": "input[type='text']"
+  },
+  {
+    "question": "Which selector targets the last child of its parent?",
+    "options": [":last-child", ":last", ":last-of-type", ":nth-last-child(1)"],
+    "answer": ":last-child"
+  },
+  {
+    "question": "How do you select every even <tr> in a table?",
+    "options": ["tr:nth-child(even)", "tr:even", "tr:nth-of-type(even)", "tr:even-child"],
+    "answer": "tr:nth-child(even)"
+  },
+  {
+    "question": "Which selector selects all <p> elements with class 'intro'?",
+    "options": ["p.intro", ".p.intro", "#p.intro", "p#intro"],
+    "answer": "p.intro"
+  },
+  {
+    "question": "How do you select an element with both class 'big' and 'red'?",
+    "options": [".big.red", ".big .red", "#big.red", "big.red"],
+    "answer": ".big.red"
+  },
+  {
+    "question": "Which selector targets all <input> elements that are checked?",
+    "options": ["input:checked", "input.checked", "input#checked", "input[checked]"],
+    "answer": "input:checked"
+  },
+  {
+    "question": "How do you select the first <h2> on a page?",
+    "options": ["h2:first-of-type", "h2:first", "h2:first-child", "h2:nth-child(1)"],
+    "answer": "h2:first-of-type"
+  },
+  {
+    "question": "Which selector selects all <a> elements with a 'title' attribute?",
+    "options": ["a[title]", ".a[title]", "#a[title]", "a.title"],
+    "answer": "a[title]"
+  },
+  {
+    "question": "How do you select all <input> elements that are disabled?",
+    "options": ["input:disabled", "input.disabled", "input[disabled]", "input#disabled"],
+    "answer": "input:disabled"
+  },
+  {
+    "question": "Which selector targets the hover state of a button?",
+    "options": ["button:hover", "button.hover", "button#hover", "button[hover]"],
+    "answer": "button:hover"
+  },
+  {
+    "question": "How do you select all <li> elements that are odd children?",
+    "options": ["li:nth-child(odd)", "li:odd", "li:nth-of-type(odd)", "li:odd-child"],
+    "answer": "li:nth-child(odd)"
+  },
+  {
+    "question": "Which selector targets all <input> elements that are required?",
+    "options": ["input:required", "input.required", "input[required]", "input#required"],
+    "answer": "input:required"
+  },
+  {
+    "question": "How do you select all <img> elements with alt text containing 'logo'?",
+    "options": ["img[alt*='logo']", "img[alt='logo']", "img.alt-logo", "img#logo"],
+    "answer": "img[alt*='logo']"
+  },
+  {
+    "question": "Which selector targets the nth child of a parent?",
+    "options": [":nth-child(n)", ":nth(n)", ":nth-of-type(n)", ":nth-child"],
+    "answer": ":nth-child(n)"
+  },
+  {
+    "question": "How do you select all <div> elements with a class starting with 'box-'?",
+    "options": ["div[class^='box-']", "div.box-", "div[class*='box-']", "div#box-"],
+    "answer": "div[class^='box-']"
+  },
+  {
+    "question": "Which selector targets an element when it is focused?",
+    "options": [":focus", ":hover", ":active", ":checked"],
+    "answer": ":focus"
+  },
+  {
+    "question": "How do you select all <a> elements that have been visited?",
+    "options": ["a:visited", "a.visited", "a#visited", "a[visited]"],
+    "answer": "a:visited"
+  },
+  {
+    "question": "Which selector targets all direct children of a <ul>?",
+    "options": ["ul > *", "ul *", "ul.child", "ul#child"],
+    "answer": "ul > *"
+  },
+  {
+    "question": "How do you select the only child of a parent?",
+    "options": [":only-child", ":first-child", ":last-child", ":nth-child(1)"],
+    "answer": ":only-child"
+  },
+  {
+    "question": "Which selector targets all <input> elements of type 'checkbox'?",
+    "options": ["input[type='checkbox']", "input.checkbox", "#input.checkbox", "input#checkbox"],
+    "answer": "input[type='checkbox']"
+  }
+]
+
+      },
+      "Properties": {
+        "title": "CSS Properties",
+        "questions": [
+  {
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": ["color", "background-color", "font-color", "text-color"],
+    "answer": "color"
+  },
+  {
+    "question": "Which property is used to set the background color of an element?",
+    "options": ["background-color", "color", "bgcolor", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which property is used to change the font size?",
+    "options": ["font-size", "text-size", "font-style", "size"],
+    "answer": "font-size"
+  },
+  {
+    "question": "Which CSS property is used to set the space inside an element?",
+    "options": ["padding", "margin", "border", "spacing"],
+    "answer": "padding"
+  },
+  {
+    "question": "Which property adds space outside an element?",
+    "options": ["margin", "padding", "border", "outline"],
+    "answer": "margin"
+  },
+  {
+    "question": "Which property sets the font family of an element?",
+    "options": ["font-family", "font-style", "font-weight", "font-type"],
+    "answer": "font-family"
+  },
+  {
+    "question": "Which property makes text bold?",
+    "options": ["font-weight", "font-style", "text-weight", "bold"],
+    "answer": "font-weight"
+  },
+  {
+    "question": "Which property sets the width of an element?",
+    "options": ["width", "size", "length", "height"],
+    "answer": "width"
+  },
+  {
+    "question": "Which property sets the height of an element?",
+    "options": ["height", "width", "size", "length"],
+    "answer": "height"
+  },
+  {
+    "question": "Which property sets the background image of an element?",
+    "options": ["background-image", "background", "bg-image", "image-background"],
+    "answer": "background-image"
+  },
+  {
+    "question": "Which property sets the style of a border?",
+    "options": ["border-style", "border-type", "border", "outline-style"],
+    "answer": "border-style"
+  },
+  {
+    "question": "Which property sets the thickness of a border?",
+    "options": ["border-width", "border-style", "border", "outline-width"],
+    "answer": "border-width"
+  },
+  {
+    "question": "Which property sets the color of a border?",
+    "options": ["border-color", "color", "border-style", "outline-color"],
+    "answer": "border-color"
+  },
+  {
+    "question": "Which property sets the transparency of an element?",
+    "options": ["opacity", "visibility", "transparent", "alpha"],
+    "answer": "opacity"
+  },
+  {
+    "question": "Which property is used to align text to the center?",
+    "options": ["text-align", "align", "center", "text-center"],
+    "answer": "text-align"
+  },
+  {
+    "question": "Which property sets the shadow of a box?",
+    "options": ["box-shadow", "shadow", "text-shadow", "border-shadow"],
+    "answer": "box-shadow"
+  },
+  {
+    "question": "Which property sets the shadow of text?",
+    "options": ["text-shadow", "box-shadow", "shadow", "font-shadow"],
+    "answer": "text-shadow"
+  },
+  {
+    "question": "Which property sets the space between lines of text?",
+    "options": ["line-height", "letter-spacing", "word-spacing", "spacing"],
+    "answer": "line-height"
+  },
+  {
+    "question": "Which property sets the space between letters?",
+    "options": ["letter-spacing", "word-spacing", "line-height", "spacing"],
+    "answer": "letter-spacing"
+  },
+  {
+    "question": "Which property sets the space between words?",
+    "options": ["word-spacing", "letter-spacing", "line-height", "spacing"],
+    "answer": "word-spacing"
+  },
+  {
+    "question": "Which property is used to float an element to the left or right?",
+    "options": ["float", "position", "align", "display"],
+    "answer": "float"
+  },
+  {
+    "question": "Which property is used to clear floated elements?",
+    "options": ["clear", "float", "reset", "remove-float"],
+    "answer": "clear"
+  },
+  {
+    "question": "Which property sets the maximum width of an element?",
+    "options": ["max-width", "width", "min-width", "size"],
+    "answer": "max-width"
+  },
+  {
+    "question": "Which property sets the minimum height of an element?",
+    "options": ["min-height", "height", "max-height", "size"],
+    "answer": "min-height"
+  },
+  {
+    "question": "Which property sets the background color of an element?",
+    "options": ["background-color", "color", "bgcolor", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "Which property specifies the type of positioning method used for an element?",
+    "options": ["position", "float", "display", "align"],
+    "answer": "position"
+  },
+  {
+    "question": "Which property sets the z-order of an element?",
+    "options": ["z-index", "order", "position", "layer"],
+    "answer": "z-index"
+  },
+  {
+    "question": "Which property is used to hide an element but keep its space?",
+    "options": ["visibility", "display", "opacity", "hidden"],
+    "answer": "visibility"
+  },
+  {
+    "question": "Which property is used to completely remove an element from the layout?",
+    "options": ["display", "visibility", "opacity", "hidden"],
+    "answer": "display"
+  },
+  {
+    "question": "Which property is used to add rounded corners to an element?",
+    "options": ["border-radius", "border-corner", "corner-radius", "radius"],
+    "answer": "border-radius"
+  },
+  {
+    "question": "Which property is used to change the cursor when hovering over an element?",
+    "options": ["cursor", "pointer", "hover", "mouse"],
+    "answer": "cursor"
+  }
+]
+
+      },
+      "Advanced": {
+        "title": "Advanced Styling",
+        "questions": [
+  {
+    "question": "Which CSS property is used to create a gradient background?",
+    "options": ["background-image", "background-gradient", "gradient", "background-style"],
+    "answer": "background-image"
+  },
+  {
+    "question": "Which CSS function is used for a linear gradient?",
+    "options": ["linear-gradient()", "gradient-linear()", "background-gradient()", "linear()"],
+    "answer": "linear-gradient()"
+  },
+  {
+    "question": "Which CSS property is used to create rounded corners?",
+    "options": ["border-radius", "corner-radius", "round-corner", "border-corner"],
+    "answer": "border-radius"
+  },
+  {
+    "question": "Which property is used to apply a shadow to an element's box?",
+    "options": ["box-shadow", "shadow", "element-shadow", "border-shadow"],
+    "answer": "box-shadow"
+  },
+  {
+    "question": "Which property is used to apply a shadow to text?",
+    "options": ["text-shadow", "font-shadow", "shadow", "box-shadow"],
+    "answer": "text-shadow"
+  },
+  {
+    "question": "Which property is used to control the transparency of an element?",
+    "options": ["opacity", "transparent", "alpha", "visibility"],
+    "answer": "opacity"
+  },
+  {
+    "question": "Which property is used to set the stacking order of positioned elements?",
+    "options": ["z-index", "stack", "order", "layer"],
+    "answer": "z-index"
+  },
+  {
+    "question": "Which property is used for flexible box layouts?",
+    "options": ["display: flex", "flex-layout", "box-flex", "flexbox"],
+    "answer": "display: flex"
+  },
+  {
+    "question": "Which property is used for CSS grid layouts?",
+    "options": ["display: grid", "grid-layout", "grid", "layout: grid"],
+    "answer": "display: grid"
+  },
+  {
+    "question": "Which property is used to align items along the main axis in flexbox?",
+    "options": ["justify-content", "align-items", "align-content", "flex-align"],
+    "answer": "justify-content"
+  },
+  {
+    "question": "Which property is used to align items along the cross axis in flexbox?",
+    "options": ["align-items", "justify-content", "align-content", "flex-align"],
+    "answer": "align-items"
+  },
+  {
+    "question": "Which property is used to control the direction of flex items?",
+    "options": ["flex-direction", "direction", "flex-flow", "align-direction"],
+    "answer": "flex-direction"
+  },
+  {
+    "question": "Which property is used to create a multi-column layout?",
+    "options": ["column-count", "columns", "multi-column", "layout-columns"],
+    "answer": "column-count"
+  },
+  {
+    "question": "Which property is used to add a blur effect to an element?",
+    "options": ["filter: blur()", "blur", "box-blur", "shadow-blur"],
+    "answer": "filter: blur()"
+  },
+  {
+    "question": "Which property is used to transform an element in 2D or 3D space?",
+    "options": ["transform", "transition", "animation", "translate"],
+    "answer": "transform"
+  },
+  {
+    "question": "Which property is used to animate changes in CSS properties?",
+    "options": ["transition", "animation", "transform", "keyframes"],
+    "answer": "transition"
+  },
+  {
+    "question": "Which property is used for keyframe animations?",
+    "options": ["animation", "transition", "transform", "keyframes"],
+    "answer": "animation"
+  },
+  {
+    "question": "Which at-rule is used to define keyframes for animations?",
+    "options": ["@keyframes", "@animation", "@transition", "@frames"],
+    "answer": "@keyframes"
+  },
+  {
+    "question": "Which property is used to clip an element to a basic shape?",
+    "options": ["clip-path", "clip", "shape", "path"],
+    "answer": "clip-path"
+  },
+  {
+    "question": "Which property is used to set a custom font from a URL?",
+    "options": ["@font-face", "font-url", "font-family", "font-src"],
+    "answer": "@font-face"
+  },
+  {
+    "question": "Which property is used to apply a filter effect like grayscale?",
+    "options": ["filter", "effect", "transform", "opacity"],
+    "answer": "filter"
+  },
+  {
+    "question": "Which property is used to make an element sticky?",
+    "options": ["position: sticky", "display: sticky", "sticky", "float: sticky"],
+    "answer": "position: sticky"
+  },
+  {
+    "question": "Which property is used to set how an element is resized by the user?",
+    "options": ["resize", "user-resize", "element-resize", "change-size"],
+    "answer": "resize"
+  },
+  {
+    "question": "Which property is used to control overflow content?",
+    "options": ["overflow", "content-overflow", "scroll", "visible"],
+    "answer": "overflow"
+  },
+  {
+    "question": "Which property is used to set the minimum width of an element?",
+    "options": ["min-width", "width", "max-width", "size"],
+    "answer": "min-width"
+  },
+  {
+    "question": "Which property is used to set the maximum height of an element?",
+    "options": ["max-height", "height", "min-height", "size"],
+    "answer": "max-height"
+  },
+  {
+    "question": "Which property is used to set the aspect ratio of an element?",
+    "options": ["aspect-ratio", "ratio", "width-height", "size-ratio"],
+    "answer": "aspect-ratio"
+  },
+  {
+    "question": "Which property is used to set the gap between grid or flex items?",
+    "options": ["gap", "spacing", "margin", "padding"],
+    "answer": "gap"
+  },
+  {
+    "question": "Which property is used to set the order of flex or grid items?",
+    "options": ["order", "z-index", "flex-order", "item-order"],
+    "answer": "order"
+  },
+  {
+    "question": "Which property is used to set the alignment of self in flex or grid?",
+    "options": ["align-self", "align-items", "justify-self", "self-align"],
+    "answer": "align-self"
+  },
+  {
+    "question": "Which property is used to set the background size of an element?",
+    "options": ["background-size", "background", "size", "bg-size"],
+    "answer": "background-size"
+  },
+  {
+    "question": "Which property is used to set the background position of an element?",
+    "options": ["background-position", "background", "position", "bg-position"],
+    "answer": "background-position"
+  },
+  {
+    "question": "Which property is used to set the blend mode for background layers?",
+    "options": ["background-blend-mode", "blend-mode", "background-mode", "bg-blend-mode"],
+    "answer": "background-blend-mode"
+  },
+  {
+    "question": "Which property is used to set a mask image for an element?",
+    "options": ["mask-image", "mask", "image-mask", "masking"],
+    "answer": "mask-image"
+  },
+  {
+    "question": "Which property is used to set a custom cursor image?",
+    "options": ["cursor", "pointer", "mouse-cursor", "custom-cursor"],
+    "answer": "cursor"
+  },
+  {
+    "question": "Which property is used to set the writing direction of text?",
+    "options": ["direction", "writing-mode", "text-direction", "text-orientation"],
+    "answer": "direction"
+  }
+]
+
+      },
+      "Units": {
+        "title": "CSS Units",
+        "questions": [
+  {
+    "question": "What are the two main categories of CSS units?",
+    "options": ["Absolute and Relative", "Fixed and Fluid", "Pixels and Percentages", "Static and Dynamic"],
+    "answer": "Absolute and Relative"
+  },
+  {
+    "question": "Which CSS unit is considered absolute?",
+    "options": ["px", "em", "%", "vw"],
+    "answer": "px"
+  },
+  {
+    "question": "Which CSS unit is considered relative?",
+    "options": ["em", "cm", "mm", "in"],
+    "answer": "em"
+  },
+  {
+    "question": "What does 1in equal in pixels?",
+    "options": ["96px", "72px", "100px", "120px"],
+    "answer": "96px"
+  },
+  {
+    "question": "Which unit is relative to the font-size of the root element?",
+    "options": ["rem", "em", "px", "vh"],
+    "answer": "rem"
+  },
+  {
+    "question": "Which unit is relative to the font-size of the current element?",
+    "options": ["em", "rem", "px", "vw"],
+    "answer": "em"
+  },
+  {
+    "question": "Which unit represents a percentage of the parent element?",
+    "options": ["%", "px", "em", "pt"],
+    "answer": "%"
+  },
+  {
+    "question": "Which unit is equal to 1/72 of an inch?",
+    "options": ["pt", "pc", "px", "mm"],
+    "answer": "pt"
+  },
+  {
+    "question": "Which unit is equal to 1/6 of an inch?",
+    "options": ["pc", "pt", "px", "cm"],
+    "answer": "pc"
+  },
+  {
+    "question": "Which unit is based on the width of the viewport?",
+    "options": ["vw", "vh", "vmin", "vmax"],
+    "answer": "vw"
+  },
+  {
+    "question": "Which unit is based on the height of the viewport?",
+    "options": ["vh", "vw", "vmin", "vmax"],
+    "answer": "vh"
+  },
+  {
+    "question": "Which unit is relative to the smaller dimension of the viewport?",
+    "options": ["vmin", "vmax", "vw", "vh"],
+    "answer": "vmin"
+  },
+  {
+    "question": "Which unit is relative to the larger dimension of the viewport?",
+    "options": ["vmax", "vmin", "vw", "vh"],
+    "answer": "vmax"
+  },
+  {
+    "question": "Which unit is equal to 1/10th of a centimeter?",
+    "options": ["mm", "cm", "in", "pt"],
+    "answer": "mm"
+  },
+  {
+    "question": "Which unit is equal to 1/40th of a centimeter?",
+    "options": ["Q", "mm", "cm", "pt"],
+    "answer": "Q"
+  },
+  {
+    "question": "Which unit is relative to the x-height of the current font?",
+    "options": ["ex", "ch", "em", "rem"],
+    "answer": "ex"
+  },
+  {
+    "question": "Which unit is relative to the width of the '0' character?",
+    "options": ["ch", "ex", "em", "rem"],
+    "answer": "ch"
+  },
+  {
+    "question": "Which unit is relative to the line height of the element?",
+    "options": ["lh", "rlh", "em", "rem"],
+    "answer": "lh"
+  },
+  {
+    "question": "Which unit is relative to the line height of the root element?",
+    "options": ["rlh", "lh", "em", "rem"],
+    "answer": "rlh"
+  },
+  {
+    "question": "Which unit is equal to 1 centimeter?",
+    "options": ["cm", "mm", "in", "pt"],
+    "answer": "cm"
+  },
+  {
+    "question": "Which unit is used for specifying font sizes in print design?",
+    "options": ["pt", "px", "em", "vh"],
+    "answer": "pt"
+  },
+  {
+    "question": "Which unit is used for scalable, responsive layouts?",
+    "options": ["em", "rem", "%", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which unit is relative to the size of the initial containing block in the block axis?",
+    "options": ["vb", "vi", "vw", "vh"],
+    "answer": "vb"
+  },
+  {
+    "question": "Which unit is relative to the size of the initial containing block in the inline axis?",
+    "options": ["vi", "vb", "vw", "vh"],
+    "answer": "vi"
+  },
+  {
+    "question": "Which unit is relative to the width and height of the smaller viewport?",
+    "options": ["svw, svh", "lvw, lvh", "dvw, dvh", "vw, vh"],
+    "answer": "svw, svh"
+  },
+  {
+    "question": "Which unit is relative to the width and height of the larger viewport?",
+    "options": ["lvw, lvh", "svw, svh", "dvw, dvh", "vw, vh"],
+    "answer": "lvw, lvh"
+  },
+  {
+    "question": "Which unit is relative to the width and height of the dynamic viewport?",
+    "options": ["dvw, dvh", "svw, svh", "lvw, lvh", "vw, vh"],
+    "answer": "dvw, dvh"
+  },
+  {
+    "question": "Which unit is typically used for pixel-perfect layouts?",
+    "options": ["px", "em", "rem", "%"],
+    "answer": "px"
+  },
+  {
+    "question": "Which unit is best for creating fluid typography?",
+    "options": ["em", "rem", "vw", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which unit is NOT an absolute unit?",
+    "options": ["em", "cm", "in", "pt"],
+    "answer": "em"
+  },
+  {
+    "question": "Which unit is NOT a relative unit?",
+    "options": ["px", "em", "rem", "%"],
+    "answer": "px"
+  }
+]
+
+      },
+      "Queries": {
+        "title": "Media Queries",
+        "questions": [
+  {
+    "question": "What is the main purpose of CSS media queries?",
+    "options": [
+      "To apply styles based on device characteristics",
+      "To animate elements",
+      "To add JavaScript to a page",
+      "To create gradients"
+    ],
+    "answer": "To apply styles based on device characteristics"
+  },
+  {
+    "question": "Which keyword is used to begin a media query in CSS?",
+    "options": ["@media", "@query", "@screen", "@device"],
+    "answer": "@media"
+  },
+  {
+    "question": "Which of the following is a valid media feature?",
+    "options": ["max-width", "min-color", "font-size", "device-type"],
+    "answer": "max-width"
+  },
+  {
+    "question": "How do you write a media query for screens smaller than 600px?",
+    "options": [
+      "@media (max-width: 600px) { ... }",
+      "@media screen and (width < 600px) { ... }",
+      "@media (screen: max-width 600px) { ... }",
+      "@media only screen 600px { ... }"
+    ],
+    "answer": "@media (max-width: 600px) { ... }"
+  },
+  {
+    "question": "Which media type targets printers?",
+    "options": ["print", "screen", "all", "projection"],
+    "answer": "print"
+  },
+  {
+    "question": "Which media type targets computer screens?",
+    "options": ["screen", "print", "all", "speech"],
+    "answer": "screen"
+  },
+  {
+    "question": "What does 'orientation: landscape' mean?",
+    "options": [
+      "The device is wider than it is tall",
+      "The device is taller than it is wide",
+      "The device is square",
+      "The device is in portrait mode"
+    ],
+    "answer": "The device is wider than it is tall"
+  },
+  {
+    "question": "Which keyword combines multiple conditions in a media query?",
+    "options": ["and", "or", "with", "not"],
+    "answer": "and"
+  },
+  {
+    "question": "How do you target devices with a minimum width of 768px?",
+    "options": [
+      "@media (min-width: 768px) { ... }",
+      "@media (width > 768px) { ... }",
+      "@media (screen: min-width 768px) { ... }",
+      "@media only screen 768px { ... }"
+    ],
+    "answer": "@media (min-width: 768px) { ... }"
+  },
+  {
+    "question": "Which media feature detects if a device supports color?",
+    "options": ["color", "color-index", "resolution", "monochrome"],
+    "answer": "color"
+  },
+  {
+    "question": "What does the 'not' keyword do in a media query?",
+    "options": [
+      "Excludes styles from certain devices",
+      "Includes styles for all devices",
+      "Combines two conditions",
+      "Targets only print devices"
+    ],
+    "answer": "Excludes styles from certain devices"
+  },
+  {
+    "question": "Which is the correct syntax for a media query targeting both screen and print?",
+    "options": [
+      "@media screen, print { ... }",
+      "@media screen and print { ... }",
+      "@media (screen, print) { ... }",
+      "@media only screen print { ... }"
+    ],
+    "answer": "@media screen, print { ... }"
+  },
+  {
+    "question": "Which media feature checks the pixel density of a device?",
+    "options": ["resolution", "density", "dpi", "pixel-ratio"],
+    "answer": "resolution"
+  },
+  {
+    "question": "How do you target devices in portrait mode?",
+    "options": [
+      "@media (orientation: portrait) { ... }",
+      "@media (portrait) { ... }",
+      "@media orientation=portrait { ... }",
+      "@media only portrait { ... }"
+    ],
+    "answer": "@media (orientation: portrait) { ... }"
+  },
+  {
+    "question": "What does 'all' mean as a media type?",
+    "options": [
+      "Applies to all devices",
+      "Applies only to screens",
+      "Applies only to printers",
+      "Applies only to mobile devices"
+    ],
+    "answer": "Applies to all devices"
+  },
+  {
+    "question": "Which media feature checks the height of the viewport?",
+    "options": ["height", "max-height", "min-height", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which media feature checks if a device is in monochrome mode?",
+    "options": ["monochrome", "color", "display-mode", "contrast"],
+    "answer": "monochrome"
+  },
+  {
+    "question": "Which media feature targets devices with a specific aspect ratio?",
+    "options": ["aspect-ratio", "device-aspect-ratio", "ratio", "screen-ratio"],
+    "answer": "aspect-ratio"
+  },
+  {
+    "question": "Which keyword is used to apply styles only to speech synthesizers?",
+    "options": ["speech", "print", "screen", "audio"],
+    "answer": "speech"
+  },
+  {
+    "question": "What is the default media type if none is specified?",
+    "options": ["all", "screen", "print", "none"],
+    "answer": "all"
+  },
+  {
+    "question": "How do you combine a media type and a media feature?",
+    "options": [
+      "@media screen and (max-width: 600px) { ... }",
+      "@media (screen, max-width: 600px) { ... }",
+      "@media only screen (max-width: 600px) { ... }",
+      "@media screen (max-width: 600px) { ... }"
+    ],
+    "answer": "@media screen and (max-width: 600px) { ... }"
+  },
+  {
+    "question": "Which media feature checks for the device's pixel ratio?",
+    "options": ["resolution", "device-pixel-ratio", "pixel-density", "dpi"],
+    "answer": "resolution"
+  },
+  {
+    "question": "How do you target devices with a maximum height of 500px?",
+    "options": [
+      "@media (max-height: 500px) { ... }",
+      "@media (height < 500px) { ... }",
+      "@media only screen 500px { ... }",
+      "@media (screen: max-height 500px) { ... }"
+    ],
+    "answer": "@media (max-height: 500px) { ... }"
+  },
+  {
+    "question": "Which of the following is NOT a valid media feature?",
+    "options": ["font-size", "min-width", "max-height", "orientation"],
+    "answer": "font-size"
+  },
+  {
+    "question": "Which media feature checks the width of the device's rendering surface?",
+    "options": ["width", "device-width", "max-width", "min-width"],
+    "answer": "width"
+  },
+  {
+    "question": "How do you target devices with a minimum aspect ratio of 16:9?",
+    "options": [
+      "@media (min-aspect-ratio: 16/9) { ... }",
+      "@media (aspect-ratio: 16/9) { ... }",
+      "@media (min-ratio: 16/9) { ... }",
+      "@media only aspect-ratio 16/9 { ... }"
+    ],
+    "answer": "@media (min-aspect-ratio: 16/9) { ... }"
+  },
+  {
+    "question": "Which media feature checks if a device supports hover?",
+    "options": ["hover", "pointer", "touch", "interaction"],
+    "answer": "hover"
+  },
+  {
+    "question": "Which media feature checks the type of pointer input device?",
+    "options": ["pointer", "hover", "touch", "device-pointer"],
+    "answer": "pointer"
+  },
+  {
+    "question": "Which media feature checks the contrast of the device?",
+    "options": ["contrast", "color", "brightness", "saturation"],
+    "answer": "contrast"
+  }
+]
+
+      },
+      "Positioning": {
+        "title": "Positioning and Z-index",
+        "questions": [
+  {
+    "question": "Which CSS property controls how an element is positioned?",
+    "options": ["position", "set", "static", "fix"],
+    "answer": "position"
+  },
+  {
+    "question": "Which property specifies the top offset of a positioned element?",
+    "options": ["top", "up", "reverse", "fix"],
+    "answer": "top"
+  },
+  {
+    "question": "Which property specifies the left offset of a positioned element?",
+    "options": ["left", "right", "bottom", "up"],
+    "answer": "left"
+  },
+  {
+    "question": "Which property sets the stacking order of positioned elements?",
+    "options": ["z-index", "x-index", "y-index", "all of the mentioned"],
+    "answer": "z-index"
+  },
+  {
+    "question": "How many types of position values are there in CSS?",
+    "options": ["5", "3", "2", "6"],
+    "answer": "5"
+  },
+  {
+    "question": "What is the default position value for HTML elements?",
+    "options": ["static", "relative", "absolute", "fixed"],
+    "answer": "static"
+  },
+  {
+    "question": "Which position value removes the element from the normal document flow and positions it relative to its nearest positioned ancestor?",
+    "options": ["absolute", "relative", "fixed", "static"],
+    "answer": "absolute"
+  },
+  {
+    "question": "Which position value keeps the element fixed relative to the browser window?",
+    "options": ["fixed", "absolute", "relative", "static"],
+    "answer": "fixed"
+  },
+  {
+    "question": "Which position value allows an element to act as relatively positioned until it reaches a scroll threshold?",
+    "options": ["sticky", "relative", "fixed", "absolute"],
+    "answer": "sticky"
+  },
+  {
+    "question": "Which property specifies the right offset of a positioned element?",
+    "options": ["right", "left", "top", "bottom"],
+    "answer": "right"
+  },
+  {
+    "question": "Which property specifies the bottom offset of a positioned element?",
+    "options": ["bottom", "top", "left", "right"],
+    "answer": "bottom"
+  },
+  {
+    "question": "Which position value positions the element relative to its normal position?",
+    "options": ["relative", "absolute", "fixed", "static"],
+    "answer": "relative"
+  },
+  {
+    "question": "Which position value is not affected by the z-index property?",
+    "options": ["static", "relative", "absolute", "fixed"],
+    "answer": "static"
+  },
+  {
+    "question": "Which property is used to move a relatively positioned element 20px down?",
+    "options": ["top: 20px;", "bottom: 20px;", "left: 20px;", "right: 20px;"],
+    "answer": "top: 20px;"
+  },
+  {
+    "question": "If no positioned ancestor exists, an absolutely positioned element is positioned relative to which element?",
+    "options": ["Initial containing block", "Body", "Parent", "First child"],
+    "answer": "Initial containing block"
+  },
+  {
+    "question": "Which position value keeps the element in the normal document flow?",
+    "options": ["static", "relative", "sticky", "absolute"],
+    "answer": "static"
+  },
+  {
+    "question": "Which property is used to layer elements on top of each other?",
+    "options": ["z-index", "layer", "order", "stack"],
+    "answer": "z-index"
+  },
+  {
+    "question": "Which position value allows an element to overlap other elements using z-index?",
+    "options": ["absolute", "relative", "fixed", "sticky"],
+    "answer": "absolute"
+  },
+  {
+    "question": "Which position value makes the element scroll with the page until a threshold is met?",
+    "options": ["sticky", "fixed", "absolute", "relative"],
+    "answer": "sticky"
+  },
+  {
+    "question": "Which property is ignored if position is set to static?",
+    "options": ["top", "left", "z-index", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "What happens if two positioned elements overlap and both have z-index set?",
+    "options": [
+      "The one with higher z-index appears on top",
+      "The one with lower z-index appears on top",
+      "Both are hidden",
+      "The one that appears first in HTML appears on top"
+    ],
+    "answer": "The one with higher z-index appears on top"
+  },
+  {
+    "question": "Which position value is best for creating a floating navigation bar that stays visible on scroll?",
+    "options": ["fixed", "absolute", "relative", "static"],
+    "answer": "fixed"
+  },
+  {
+    "question": "Which position value is used to create tooltips that appear above other content?",
+    "options": ["absolute", "relative", "fixed", "static"],
+    "answer": "absolute"
+  },
+  {
+    "question": "Which position value should you use for a modal dialog that covers the entire viewport?",
+    "options": ["fixed", "absolute", "relative", "sticky"],
+    "answer": "fixed"
+  },
+  {
+    "question": "Which position value allows an element to be offset without removing it from the document flow?",
+    "options": ["relative", "absolute", "fixed", "static"],
+    "answer": "relative"
+  },
+  {
+    "question": "Which property can be negative to move an element up or to the left?",
+    "options": ["top or left", "z-index", "position", "static"],
+    "answer": "top or left"
+  },
+  {
+    "question": "What is the initial value of the z-index property?",
+    "options": ["auto", "0", "1", "none"],
+    "answer": "auto"
+  },
+  {
+    "question": "Which position value is most suitable for elements that must remain visible at the top of the page during scrolling?",
+    "options": ["fixed", "sticky", "absolute", "relative"],
+    "answer": "fixed"
+  },
+  {
+    "question": "Which property is used to move an absolutely positioned element 50px from the right edge of its containing block?",
+    "options": ["right: 50px;", "left: 50px;", "top: 50px;", "bottom: 50px;"],
+    "answer": "right: 50px;"
+  },
+  {
+    "question": "Which position value is the default for all HTML elements?",
+    "options": ["static", "relative", "absolute", "fixed"],
+    "answer": "static"
+  }
+]
+
+      },
+      "Animation": {
+        "title": "Transitions & Animation",
+        "questions": [
+  {
+    "question": "Which CSS property is used to create smooth changes from one style to another?",
+    "options": ["transition", "animation", "transform", "effect"],
+    "answer": "transition"
+  },
+  {
+    "question": "Which property specifies the CSS property to which a transition effect should be applied?",
+    "options": ["transition-property", "transition-effect", "transition-style", "transition-type"],
+    "answer": "transition-property"
+  },
+  {
+    "question": "Which property sets how long the transition effect takes to complete?",
+    "options": ["transition-duration", "transition-time", "transition-delay", "animation-duration"],
+    "answer": "transition-duration"
+  },
+  {
+    "question": "Which property specifies the speed curve of the transition effect?",
+    "options": ["transition-timing-function", "transition-curve", "transition-speed", "transition-function"],
+    "answer": "transition-timing-function"
+  },
+  {
+    "question": "Which property delays the start of a transition effect?",
+    "options": ["transition-delay", "transition-duration", "transition-wait", "animation-delay"],
+    "answer": "transition-delay"
+  },
+  {
+    "question": "Which shorthand property combines transition properties into one line?",
+    "options": ["transition", "transition-all", "transition-combine", "transition-group"],
+    "answer": "transition"
+  },
+  {
+    "question": "Which CSS property is used to create keyframe-based animations?",
+    "options": ["animation", "transition", "transform", "effect"],
+    "answer": "animation"
+  },
+  {
+    "question": "Which at-rule is used to define keyframes for animations?",
+    "options": ["@keyframes", "@animation", "@transition", "@frames"],
+    "answer": "@keyframes"
+  },
+  {
+    "question": "Which property specifies the name of the keyframes to use?",
+    "options": ["animation-name", "animation-keyframes", "animation-id", "animation-title"],
+    "answer": "animation-name"
+  },
+  {
+    "question": "Which property sets how long an animation should take to complete one cycle?",
+    "options": ["animation-duration", "animation-time", "animation-delay", "transition-duration"],
+    "answer": "animation-duration"
+  },
+  {
+    "question": "Which property sets the speed curve of an animation?",
+    "options": ["animation-timing-function", "animation-curve", "animation-speed", "transition-timing-function"],
+    "answer": "animation-timing-function"
+  },
+  {
+    "question": "Which property delays the start of an animation?",
+    "options": ["animation-delay", "animation-duration", "animation-wait", "transition-delay"],
+    "answer": "animation-delay"
+  },
+  {
+    "question": "Which property specifies how many times an animation should be played?",
+    "options": ["animation-iteration-count", "animation-repeat", "animation-times", "animation-loop"],
+    "answer": "animation-iteration-count"
+  },
+  {
+    "question": "Which property specifies whether the animation should play forwards, backwards, or alternate?",
+    "options": ["animation-direction", "animation-mode", "animation-orientation", "animation-flow"],
+    "answer": "animation-direction"
+  },
+  {
+    "question": "Which property specifies what values are applied by the animation before and after it executes?",
+    "options": ["animation-fill-mode", "animation-state", "animation-default", "animation-apply"],
+    "answer": "animation-fill-mode"
+  },
+  {
+    "question": "Which property specifies whether the animation is running or paused?",
+    "options": ["animation-play-state", "animation-status", "animation-paused", "animation-active"],
+    "answer": "animation-play-state"
+  },
+  {
+    "question": "Which keyword makes an animation run infinitely?",
+    "options": ["infinite", "forever", "loop", "endless"],
+    "answer": "infinite"
+  },
+  {
+    "question": "Which timing function starts slow, speeds up, then slows down again?",
+    "options": ["ease", "linear", "ease-in", "ease-out"],
+    "answer": "ease"
+  },
+  {
+    "question": "Which timing function has a constant speed from start to end?",
+    "options": ["linear", "ease", "ease-in", "ease-out"],
+    "answer": "linear"
+  },
+  {
+    "question": "Which timing function starts slow and then speeds up?",
+    "options": ["ease-in", "ease-out", "ease-in-out", "linear"],
+    "answer": "ease-in"
+  },
+  {
+    "question": "Which timing function starts fast and then slows down?",
+    "options": ["ease-out", "ease-in", "ease-in-out", "linear"],
+    "answer": "ease-out"
+  },
+  {
+    "question": "Which property is used to scale, rotate, or skew an element?",
+    "options": ["transform", "transition", "animation", "effect"],
+    "answer": "transform"
+  },
+  {
+    "question": "Which property is used to specify a list of animations to apply to an element?",
+    "options": ["animation", "animation-list", "animation-group", "animation-set"],
+    "answer": "animation"
+  },
+  {
+    "question": "Which property is used to specify multiple transitions on an element?",
+    "options": ["transition", "transition-list", "transition-group", "transition-set"],
+    "answer": "transition"
+  },
+  {
+    "question": "Which property is used to specify the origin of a transformation?",
+    "options": ["transform-origin", "transform-point", "origin", "animation-origin"],
+    "answer": "transform-origin"
+  },
+  {
+    "question": "Which property is used to specify the origin of a transition?",
+    "options": ["transition-property", "transition-origin", "origin", "animation-origin"],
+    "answer": "transition-property"
+  },
+  {
+    "question": "What is the default value of animation-iteration-count?",
+    "options": ["1", "infinite", "0", "2"],
+    "answer": "1"
+  },
+  {
+    "question": "Which property is used to reverse the direction of an animation on alternate cycles?",
+    "options": ["animation-direction: alternate", "animation-flow: reverse", "animation-alternate: true", "animation-play-state: reverse"],
+    "answer": "animation-direction: alternate"
+  },
+  {
+    "question": "Which property is used to pause an animation?",
+    "options": ["animation-play-state: paused", "animation-paused: true", "animation-status: paused", "animation-active: false"],
+    "answer": "animation-play-state: paused"
+  },
+  {
+    "question": "Which property is used to set the state of an animation before it starts?",
+    "options": ["animation-fill-mode: backwards", "animation-state: before", "animation-begin: true", "animation-init: before"],
+    "answer": "animation-fill-mode: backwards"
+  }
+]
+
+      },
+      "Variables": {
+        "title": "CSS Variables",
+        "questions": [
+  {
+    "question": "What is the correct syntax for declaring a CSS variable?",
+    "options": ["--main-color: blue;", "$main-color: blue;", "var-main-color: blue;", "main-color: blue;"],
+    "answer": "--main-color: blue;"
+  },
+  {
+    "question": "Where are CSS custom properties (variables) usually defined?",
+    "options": [":root", "body", "html", "header"],
+    "answer": ":root"
+  },
+  {
+    "question": "How do you use a CSS variable in a property value?",
+    "options": ["var(--main-color)", "--main-color", "$main-color", "main-color"],
+    "answer": "var(--main-color)"
+  },
+  {
+    "question": "What is the scope of a CSS variable declared in :root?",
+    "options": ["Global", "Local", "Only inside body", "Only inside header"],
+    "answer": "Global"
+  },
+  {
+    "question": "Which of the following is NOT a valid CSS variable name?",
+    "options": ["--color", "--1color", "--main_color", "--main-color"],
+    "answer": "--1color"
+  },
+  {
+    "question": "What happens if a CSS variable is not defined?",
+    "options": [
+      "The property using it becomes invalid",
+      "It uses the fallback value if provided",
+      "It defaults to black",
+      "It throws an error"
+    ],
+    "answer": "It uses the fallback value if provided"
+  },
+  {
+    "question": "How do you provide a fallback value for a CSS variable?",
+    "options": [
+      "var(--main-color, red)",
+      "var(--main-color || red)",
+      "var(--main-color or red)",
+      "var(--main-color; red)"
+    ],
+    "answer": "var(--main-color, red)"
+  },
+  {
+    "question": "Can CSS variables be changed with JavaScript?",
+    "options": ["Yes", "No", "Only in :root", "Only in body"],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which selector is best for defining global CSS variables?",
+    "options": [":root", "body", ".global", "html"],
+    "answer": ":root"
+  },
+  {
+    "question": "Are CSS variables case-sensitive?",
+    "options": ["Yes", "No", "Only in :root", "Only in body"],
+    "answer": "Yes"
+  },
+  {
+    "question": "Can CSS variables be used in media queries?",
+    "options": ["Yes", "No", "Only in :root", "Only in body"],
+    "answer": "Yes"
+  },
+  {
+    "question": "How do you override a CSS variable for a specific element?",
+    "options": [
+      "Redefine the variable in that element's selector",
+      "Use !important",
+      "You can't override",
+      "Use var() in the selector"
+    ],
+    "answer": "Redefine the variable in that element's selector"
+  },
+  {
+    "question": "Which property is used to access a CSS variable?",
+    "options": ["var()", "--", "$", "get()"],
+    "answer": "var()"
+  },
+  {
+    "question": "Can CSS variables be used in pseudo-classes like :hover?",
+    "options": ["Yes", "No", "Only in :root", "Only in body"],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which of the following is a benefit of using CSS variables?",
+    "options": [
+      "Easier theming and maintenance",
+      "Faster page loading",
+      "Better SEO",
+      "Smaller file size"
+    ],
+    "answer": "Easier theming and maintenance"
+  },
+  {
+    "question": "Can you use CSS variables in calc() expressions?",
+    "options": ["Yes", "No", "Only in :root", "Only in body"],
+    "answer": "Yes"
+  },
+  {
+    "question": "What is the default value of a CSS variable if not set?",
+    "options": [
+      "No value (undefined)",
+      "Black",
+      "0",
+      "White"
+    ],
+    "answer": "No value (undefined)"
+  },
+  {
+    "question": "How do you define a local CSS variable inside a class?",
+    "options": [
+      ".myclass { --main-color: green; }",
+      ":root { --main-color: green; }",
+      "body { --main-color: green; }",
+      ".myclass { var(--main-color): green; }"
+    ],
+    "answer": ".myclass { --main-color: green; }"
+  },
+  {
+    "question": "Are CSS variables inherited by child elements?",
+    "options": ["Yes", "No", "Only in :root", "Only in body"],
+    "answer": "Yes"
+  },
+  {
+    "question": "What is the correct way to use a CSS variable in a background property?",
+    "options": [
+      "background: var(--bg-color);",
+      "background: --bg-color;",
+      "background: $bg-color;",
+      "background: bg-color;"
+    ],
+    "answer": "background: var(--bg-color);"
+  },
+  {
+    "question": "Can CSS variables store values other than colors?",
+    "options": ["Yes", "No", "Only colors", "Only numbers"],
+    "answer": "Yes"
+  },
+  {
+    "question": "What is the main difference between CSS variables and preprocessor variables (like Sass)?",
+    "options": [
+      "CSS variables are dynamic and live in the browser",
+      "CSS variables must start with $",
+      "CSS variables are compiled at build time",
+      "CSS variables can't be used in media queries"
+    ],
+    "answer": "CSS variables are dynamic and live in the browser"
+  },
+  {
+    "question": "Which of the following is NOT a valid use of var()?",
+    "options": [
+      "color: var(--main-color);",
+      "width: calc(100% - var(--sidebar-width));",
+      "font-size: var(--font-size, 16px);",
+      "background: var(main-color);"
+    ],
+    "answer": "background: var(main-color);"
+  },
+  {
+    "question": "Can you animate CSS variables directly with transitions?",
+    "options": ["No", "Yes", "Only in :root", "Only in body"],
+    "answer": "No"
+  },
+  {
+    "question": "Which of the following is a correct fallback for a missing CSS variable?",
+    "options": [
+      "var(--primary, blue)",
+      "var(--primary || blue)",
+      "var(--primary or blue)",
+      "var(--primary; blue)"
+    ],
+    "answer": "var(--primary, blue)"
+  },
+  {
+    "question": "How do you access a CSS variable in JavaScript?",
+    "options": [
+      "getComputedStyle(element).getPropertyValue('--main-color')",
+      "element.style.get('--main-color')",
+      "element.var('--main-color')",
+      "element.get('--main-color')"
+    ],
+    "answer": "getComputedStyle(element).getPropertyValue('--main-color')"
+  },
+  {
+    "question": "Can you use CSS variables in media queries?",
+    "options": ["Yes, but only for property values", "No", "Yes, for all parts", "Only in :root"],
+    "answer": "Yes, but only for property values"
+  },
+  {
+    "question": "Which selector is used to define a variable that is inherited by all elements?",
+    "options": [":root", "body", ".global", "html"],
+    "answer": ":root"
+  },
+  {
+    "question": "Can you use math functions like calc() with CSS variables?",
+    "options": ["Yes", "No", "Only in :root", "Only in body"],
+    "answer": "Yes"
+  },
+  {
+    "question": "What happens if you use var() for a variable that is not defined and no fallback is provided?",
+    "options": [
+      "The property becomes invalid",
+      "It defaults to black",
+      "It throws an error",
+      "It uses the variable name as value"
+    ],
+    "answer": "The property becomes invalid"
+  }
+]
+
+      },
+      "Frameworks": {
+        "title": "CSS Frameworks",
+        "questions": [
+  {
+    "question": "What is a CSS framework?",
+    "options": [
+      "A pre-prepared library for easier and faster web design",
+      "A JavaScript library",
+      "A database system",
+      "A type of image format"
+    ],
+    "answer": "A pre-prepared library for easier and faster web design"
+  },
+  {
+    "question": "Which of the following is a popular CSS framework?",
+    "options": ["Bootstrap", "React", "Node.js", "Django"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework is known for its utility-first approach?",
+    "options": ["Tailwind CSS", "Bootstrap", "Bulma", "Foundation"],
+    "answer": "Tailwind CSS"
+  },
+  {
+    "question": "Which CSS framework uses a grid system based on 12 columns?",
+    "options": ["Bootstrap", "Materialize", "Bulma", "UIKit"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which of the following is NOT a CSS framework?",
+    "options": ["Vue.js", "Bulma", "Foundation", "Materialize"],
+    "answer": "Vue.js"
+  },
+  {
+    "question": "Which CSS framework is developed by Google and follows Material Design guidelines?",
+    "options": ["Materialize", "Bootstrap", "Tailwind", "Bulma"],
+    "answer": "Materialize"
+  },
+  {
+    "question": "Which CSS framework is known for being lightweight and modular?",
+    "options": ["Bulma", "Bootstrap", "Foundation", "Materialize"],
+    "answer": "Bulma"
+  },
+  {
+    "question": "Which CSS framework provides a set of ready-to-use components and JavaScript plugins?",
+    "options": ["Bootstrap", "Normalize.css", "Pure.css", "Skeleton"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework is best for rapid prototyping and responsive design?",
+    "options": ["Bootstrap", "Tailwind CSS", "Bulma", "Foundation"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework is purely CSS and does not require JavaScript?",
+    "options": ["Bulma", "Bootstrap", "Foundation", "Materialize"],
+    "answer": "Bulma"
+  },
+  {
+    "question": "Which CSS framework is known for its mobile-first approach?",
+    "options": ["Bootstrap", "Tailwind CSS", "Bulma", "UIKit"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework allows you to customize themes using SASS variables?",
+    "options": ["Bootstrap", "Tailwind CSS", "Bulma", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which CSS framework is designed to be minimal and only includes essential features?",
+    "options": ["Skeleton", "Bootstrap", "Foundation", "Materialize"],
+    "answer": "Skeleton"
+  },
+  {
+    "question": "Which of the following is a benefit of using a CSS framework?",
+    "options": [
+      "Faster development and consistency",
+      "Larger file sizes",
+      "More complex code",
+      "Slower websites"
+    ],
+    "answer": "Faster development and consistency"
+  },
+  {
+    "question": "Which CSS framework is known for its customizable utility classes?",
+    "options": ["Tailwind CSS", "Bootstrap", "Bulma", "Foundation"],
+    "answer": "Tailwind CSS"
+  },
+  {
+    "question": "Which CSS framework uses the class 'container' for a responsive fixed-width container?",
+    "options": ["Bootstrap", "Bulma", "Foundation", "Materialize"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework is best known for its Flexbox-based layout?",
+    "options": ["Bulma", "Bootstrap", "Foundation", "Materialize"],
+    "answer": "Bulma"
+  },
+  {
+    "question": "Which CSS framework provides a 'card' component?",
+    "options": ["All of the above", "Bootstrap", "Bulma", "Materialize"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which framework is known for its grid and responsive utilities?",
+    "options": ["Bootstrap", "Bulma", "Tailwind CSS", "Materialize"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework can be used with React, Vue, and Angular?",
+    "options": ["All of the above", "Bootstrap", "Tailwind CSS", "Bulma"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which CSS framework is open source and free to use?",
+    "options": ["All of the above", "Bootstrap", "Bulma", "Tailwind CSS"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which CSS framework is best for building accessible web applications?",
+    "options": ["Bootstrap", "Bulma", "Foundation", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which CSS framework uses the class 'is-primary' for primary color styling?",
+    "options": ["Bulma", "Bootstrap", "Tailwind CSS", "Foundation"],
+    "answer": "Bulma"
+  },
+  {
+    "question": "Which CSS framework is often used for admin dashboards?",
+    "options": ["Bootstrap", "Bulma", "Tailwind CSS", "Materialize"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework is best for highly customized designs with minimal default styles?",
+    "options": ["Tailwind CSS", "Bootstrap", "Bulma", "Foundation"],
+    "answer": "Tailwind CSS"
+  },
+  {
+    "question": "Which CSS framework uses utility classes like 'p-4' and 'm-2'?",
+    "options": ["Tailwind CSS", "Bootstrap", "Bulma", "Materialize"],
+    "answer": "Tailwind CSS"
+  },
+  {
+    "question": "Which CSS framework is known for its responsive navbar component?",
+    "options": ["Bootstrap", "Bulma", "Foundation", "Materialize"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework is best for beginners due to its extensive documentation?",
+    "options": ["Bootstrap", "Bulma", "Tailwind CSS", "Materialize"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which CSS framework is based on Google's Material Design?",
+    "options": ["Materialize", "Bootstrap", "Bulma", "Tailwind CSS"],
+    "answer": "Materialize"
+  },
+  {
+    "question": "Which CSS framework uses a class naming convention like 'btn', 'btn-primary', etc.?",
+    "options": ["Bootstrap", "Bulma", "Tailwind CSS", "Foundation"],
+    "answer": "Bootstrap"
+  },
+  {
+    "question": "Which of the following is a disadvantage of using a CSS framework?",
+    "options": [
+      "Potential for unused code and larger file size",
+      "Faster development",
+      "Consistent design",
+      "Responsive layouts"
+    ],
+    "answer": "Potential for unused code and larger file size"
+  }
+]
+
+      },
+      "Practices": {
+        "title": "Best Practices",
+        "questions": [
+  {
+    "question": "Why should you keep your CSS selectors as simple as possible?",
+    "options": [
+      "To improve performance and maintainability",
+      "To make the code harder to read",
+      "To increase specificity",
+      "To add more colors"
+    ],
+    "answer": "To improve performance and maintainability"
+  },
+  {
+    "question": "What is the benefit of using external stylesheets?",
+    "options": [
+      "They allow for code reuse and easier maintenance",
+      "They make the website slower",
+      "They reduce browser compatibility",
+      "They increase file size"
+    ],
+    "answer": "They allow for code reuse and easier maintenance"
+  },
+  {
+    "question": "Why should you avoid using !important in CSS?",
+    "options": [
+      "It makes debugging and maintenance harder",
+      "It improves performance",
+      "It adds animations",
+      "It improves accessibility"
+    ],
+    "answer": "It makes debugging and maintenance harder"
+  },
+  {
+    "question": "Why is commenting your CSS code considered a best practice?",
+    "options": [
+      "It helps others understand your code",
+      "It increases file size",
+      "It improves browser compatibility",
+      "It adds color to your code"
+    ],
+    "answer": "It helps others understand your code"
+  },
+  {
+    "question": "Which CSS methodology helps organize large projects?",
+    "options": [
+      "BEM (Block Element Modifier)",
+      "Inline styling",
+      "Using only IDs",
+      "Avoiding comments"
+    ],
+    "answer": "BEM (Block Element Modifier)"
+  },
+  {
+    "question": "Why is it important to remove unused CSS?",
+    "options": [
+      "To reduce file size and improve performance",
+      "To add more styles",
+      "To increase specificity",
+      "To improve color contrast"
+    ],
+    "answer": "To reduce file size and improve performance"
+  },
+  {
+    "question": "What is the recommended approach for responsive design?",
+    "options": [
+      "Mobile-first with fluid layouts and media queries",
+      "Desktop-only layouts",
+      "Fixed-width layouts",
+      "Using only inline styles"
+    ],
+    "answer": "Mobile-first with fluid layouts and media queries"
+  },
+  {
+    "question": "Why should you avoid using IDs for styling in CSS?",
+    "options": [
+      "IDs have high specificity and can cause conflicts",
+      "IDs are not supported in all browsers",
+      "IDs make the code slower",
+      "IDs cannot be used in JavaScript"
+    ],
+    "answer": "IDs have high specificity and can cause conflicts"
+  },
+  {
+    "question": "What is the benefit of minifying CSS files?",
+    "options": [
+      "It reduces file size and speeds up loading",
+      "It adds more styles",
+      "It increases specificity",
+      "It improves color contrast"
+    ],
+    "answer": "It reduces file size and speeds up loading"
+  },
+  {
+    "question": "Why is using semantic HTML recommended?",
+    "options": [
+      "It improves accessibility and SEO",
+      "It makes CSS files smaller",
+      "It increases specificity",
+      "It disables JavaScript"
+    ],
+    "answer": "It improves accessibility and SEO"
+  },
+  {
+    "question": "Why is it important to validate your CSS code?",
+    "options": [
+      "To catch errors and follow standards",
+      "To make the site load slower",
+      "To add more colors",
+      "To increase file size"
+    ],
+    "answer": "To catch errors and follow standards"
+  },
+  {
+    "question": "What is the benefit of using CSS variables?",
+    "options": [
+      "They make theming and maintenance easier",
+      "They slow down the website",
+      "They disable animations",
+      "They increase specificity"
+    ],
+    "answer": "They make theming and maintenance easier"
+  },
+  {
+    "question": "Why should you separate global and local styles?",
+    "options": [
+      "To avoid style conflicts and make code more maintainable",
+      "To increase file size",
+      "To add more animations",
+      "To use more IDs"
+    ],
+    "answer": "To avoid style conflicts and make code more maintainable"
+  },
+  {
+    "question": "Which practice helps with teamwork and collaboration on CSS projects?",
+    "options": [
+      "Using version control and code reviews",
+      "Writing only inline styles",
+      "Avoiding comments",
+      "Using only IDs"
+    ],
+    "answer": "Using version control and code reviews"
+  },
+  {
+    "question": "What is the main advantage of modularizing CSS?",
+    "options": [
+      "It allows for reusable code and easier maintenance",
+      "It makes CSS files larger",
+      "It reduces the number of HTML elements",
+      "It disables browser caching"
+    ],
+    "answer": "It allows for reusable code and easier maintenance"
+  },
+  {
+    "question": "Why should you use shorthand properties in CSS?",
+    "options": [
+      "To write cleaner and more concise code",
+      "To make the code harder to read",
+      "To increase file size",
+      "To add more animations"
+    ],
+    "answer": "To write cleaner and more concise code"
+  },
+  {
+    "question": "Why is it important to use a CSS reset or Normalize.css?",
+    "options": [
+      "To ensure consistent rendering across browsers",
+      "To add more styles",
+      "To increase specificity",
+      "To improve color contrast"
+    ],
+    "answer": "To ensure consistent rendering across browsers"
+  },
+  {
+    "question": "What is the benefit of using a CSS preprocessor like Sass?",
+    "options": [
+      "It allows variables and nesting for easier management",
+      "It makes CSS files incompatible with browsers",
+      "It removes the need for HTML",
+      "It disables media queries"
+    ],
+    "answer": "It allows variables and nesting for easier management"
+  },
+  {
+    "question": "Why should you group related CSS rules together?",
+    "options": [
+      "To improve readability and maintainability",
+      "To increase specificity",
+      "To add more animations",
+      "To make the code harder to read"
+    ],
+    "answer": "To improve readability and maintainability"
+  },
+  {
+    "question": "Why is it important to test CSS on multiple browsers and devices?",
+    "options": [
+      "To ensure cross-browser compatibility",
+      "To add more colors",
+      "To increase specificity",
+      "To make the code harder to debug"
+    ],
+    "answer": "To ensure cross-browser compatibility"
+  },
+  {
+    "question": "Why should you avoid deep selector nesting?",
+    "options": [
+      "It increases specificity and makes maintenance harder",
+      "It improves performance",
+      "It reduces file size",
+      "It adds more animations"
+    ],
+    "answer": "It increases specificity and makes maintenance harder"
+  },
+  {
+    "question": "Why is it important to use consistent naming conventions for classes?",
+    "options": [
+      "To improve code readability and teamwork",
+      "To increase specificity",
+      "To make the code harder to read",
+      "To add more colors"
+    ],
+    "answer": "To improve code readability and teamwork"
+  },
+  {
+    "question": "Which of the following is a good practice for responsive images?",
+    "options": [
+      "Use max-width: 100%; height: auto;",
+      "Set fixed width and height",
+      "Use !important",
+      "Avoid using images"
+    ],
+    "answer": "Use max-width: 100%; height: auto;"
+  },
+  {
+    "question": "Why should you avoid inline styles?",
+    "options": [
+      "They make code harder to maintain and override",
+      "They improve performance",
+      "They add more animations",
+      "They increase specificity"
+    ],
+    "answer": "They make code harder to maintain and override"
+  },
+  {
+    "question": "Why is it important to keep your CSS file size small?",
+    "options": [
+      "To improve page load speed",
+      "To add more animations",
+      "To increase specificity",
+      "To make code harder to read"
+    ],
+    "answer": "To improve page load speed"
+  },
+  {
+    "question": "What is the benefit of using CSS logical properties?",
+    "options": [
+      "They help with internationalization and responsive design",
+      "They increase specificity",
+      "They make code harder to read",
+      "They add more animations"
+    ],
+    "answer": "They help with internationalization and responsive design"
+  },
+  {
+    "question": "Why should you use relative units like em or rem instead of px?",
+    "options": [
+      "For better scalability and accessibility",
+      "To increase specificity",
+      "To make code harder to read",
+      "To add more animations"
+    ],
+    "answer": "For better scalability and accessibility"
+  },
+  {
+    "question": "Why is it important to keep CSS selectors DRY (Don't Repeat Yourself)?",
+    "options": [
+      "To reduce code duplication and maintenance effort",
+      "To increase specificity",
+      "To make code harder to read",
+      "To add more animations"
+    ],
+    "answer": "To reduce code duplication and maintenance effort"
+  },
+  {
+    "question": "Why should you use descriptive class names?",
+    "options": [
+      "To make code easier to understand and maintain",
+      "To increase specificity",
+      "To make code harder to read",
+      "To add more colors"
+    ],
+    "answer": "To make code easier to understand and maintain"
+  }
+]
+
+      }
+    }
+  }
+}

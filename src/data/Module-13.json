@@ -4,43 +4,1832 @@
     "submodules": {
       "basics_1": {
         "title": "Introduction to HTML",
-        "questions": []
+        "questions": [
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Hyperlinking Text Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Who is known as the father of HTML?",
+    "options": [
+      "Tim Berners-Lee",
+      "Brendan Eich",
+      "James Gosling",
+      "Guido van Rossum"
+    ],
+    "answer": "Tim Berners-Lee"
+  },
+  {
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "options": [
+      "<img>",
+      "<link>",
+      "<a>",
+      "<h>"
+    ],
+    "answer": "<a>"
+  },
+  {
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": [
+      "<break>",
+      "<br>",
+      "<lb>",
+      "<ln>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<dl>"
+    ],
+    "answer": "<ul>"
+  },
+  {
+    "question": "Which attribute is used to uniquely identify an HTML element?",
+    "options": [
+      "class",
+      "id",
+      "name",
+      "key"
+    ],
+    "answer": "id"
+  },
+  {
+    "question": "What is the purpose of the <head> tag in HTML?",
+    "options": [
+      "To define the main content",
+      "To define metadata and links to scripts/styles",
+      "To display headings",
+      "To create a header for the page"
+    ],
+    "answer": "To define metadata and links to scripts/styles"
+  },
+  {
+    "question": "Which attribute specifies an alternate text for an image if the image cannot be displayed?",
+    "options": [
+      "src",
+      "alt",
+      "title",
+      "longdesc"
+    ],
+    "answer": "alt"
+  },
+  {
+    "question": "Which HTML element is used to display a scalar measurement within a range?",
+    "options": [
+      "<progress>",
+      "<meter>",
+      "<range>",
+      "<scale>"
+    ],
+    "answer": "<meter>"
+  },
+  {
+    "question": "How can you make a numbered list in HTML?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<dl>"
+    ],
+    "answer": "<ol>"
+  },
+  {
+    "question": "Which tag is used to display a table in HTML?",
+    "options": [
+      "<table>",
+      "<tab>",
+      "<tbl>",
+      "<tb>"
+    ],
+    "answer": "<table>"
+  },
+  {
+    "question": "Which HTML element is used for a definition list?",
+    "options": [
+      "<dl>",
+      "<ul>",
+      "<ol>",
+      "<li>"
+    ],
+    "answer": "<dl>"
+  },
+  {
+    "question": "Which HTML tag is used to define a table header?",
+    "options": [
+      "<thead>",
+      "<th>",
+      "<header>",
+      "<tablehead>"
+    ],
+    "answer": "<th>"
+  },
+  {
+    "question": "What is the correct way to add a background color in HTML?",
+    "options": [
+      "<body background='yellow'>",
+      "<body bg-color='yellow'>",
+      "<body style='background-color: yellow;'>",
+      "<body color='yellow'>"
+    ],
+    "answer": "<body style='background-color: yellow;'>"
+  },
+  {
+    "question": "Which tag is used to create a checkbox in HTML?",
+    "options": [
+      "<input type='checkbox'>",
+      "<checkbox>",
+      "<input checkbox>",
+      "<check>"
+    ],
+    "answer": "<input type='checkbox'>"
+  },
+  {
+    "question": "Which HTML tag is used to make the text bold in HTML?",
+    "options": [
+      "<bold>",
+      "<b>",
+      "<strong>",
+      "<em>"
+    ],
+    "answer": "<b>"
+  },
+  {
+    "question": "How do you include external CSS in HTML?",
+    "options": [
+      "<style src='style.css'>",
+      "<css href='style.css'>",
+      "<link rel='stylesheet' href='style.css'>",
+      "<stylesheet>style.css</stylesheet>"
+    ],
+    "answer": "<link rel='stylesheet' href='style.css'>"
+  },
+  {
+    "question": "Which HTML tag is used to display the text with scrolling effect?",
+    "options": [
+      "<scroll>",
+      "<marquee>",
+      "<blink>",
+      "<move>"
+    ],
+    "answer": "<marquee>"
+  },
+  {
+    "question": "What is the correct HTML tag for inserting the largest heading?",
+    "options": [
+      "<heading>",
+      "<h6>",
+      "<h1>",
+      "<head>"
+    ],
+    "answer": "<h1>"
+  },
+  {
+    "question": "Which tag is used to place a horizontal line on the page?",
+    "options": [
+      "<hr>",
+      "<line>",
+      "<horizontal>",
+      "<hl>"
+    ],
+    "answer": "<hr>"
+  },
+  {
+    "question": "Which tag is used to create SuperScript text?",
+    "options": [
+      "<sup>",
+      "<sub>",
+      "<super>",
+      "<script>"
+    ],
+    "answer": "<sup>"
+  },
+  {
+    "question": "What is the correct syntax to write an HTML comment?",
+    "options": [
+      "// comment",
+      "<!-- comment -->",
+      "# comment",
+      "/* comment */"
+    ],
+    "answer": "<!-- comment -->"
+  },
+  {
+    "question": "Which HTML file extension is correct?",
+    "options": [
+      ".htm",
+      ".html",
+      ".xml",
+      ".doc"
+    ],
+    "answer": ".html"
+  },
+  {
+    "question": "Which of the following tags is self-closing in HTML5?",
+    "options": [
+      "<img>",
+      "<div>",
+      "<span>",
+      "<form>"
+    ],
+    "answer": "<img>"
+  },
+  {
+    "question": "Which HTML attribute specifies an input field that must be filled out before submitting the form?",
+    "options": [
+      "validate",
+      "form-check",
+      "required",
+      "mandatory"
+    ],
+    "answer": "required"
+  },
+  {
+    "question": "How many sizes of headers are available in HTML by default?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "6"
+  },
+  {
+    "question": "Which tag is used to display preformatted text in HTML?",
+    "options": [
+      "<pre>",
+      "<format>",
+      "<text>",
+      "<code>"
+    ],
+    "answer": "<pre>"
+  },
+  {
+    "question": "Which tag is used to make text italic in HTML?",
+    "options": [
+      "<italic>",
+      "<i>",
+      "<em>",
+      "<it>"
+    ],
+    "answer": "<i>"
+  },
+  {
+    "question": "Which tag is used to insert an image in HTML?",
+    "options": [
+      "<img src='image.jpg'>",
+      "<image src='image.jpg'>",
+      "<img href='image.jpg'>",
+      "<picture src='image.jpg'>"
+    ],
+    "answer": "<img src='image.jpg'>"
+  },
+  {
+    "question": "Which HTML tag is used to define the title of a document?",
+    "options": [
+      "<title>",
+      "<head>",
+      "<meta>",
+      "<heading>"
+    ],
+    "answer": "<title>"
+  }
+]
       },
       "basics_2": {
         "title": "HTML Elements and Tags",
-        "questions": []
+        "questions": [
+  {
+    "question": "Which HTML tag is used to define a paragraph?",
+    "options": ["<p>", "<para>", "<paragraph>", "<pg>"],
+    "answer": "<p>"
+  },
+  {
+    "question": "What tag is used to insert a line break in HTML?",
+    "options": ["<lb>", "<break>", "<br>", "<ln>"],
+    "answer": "<br>"
+  },
+  {
+    "question": "Which tag is used for the largest heading in HTML?",
+    "options": ["<h6>", "<h1>", "<heading>", "<head>"],
+    "answer": "<h1>"
+  },
+  {
+    "question": "What does the <em> tag do?",
+    "options": ["Makes text bold", "Makes text italic", "Adds emphasis (usually italic)", "Underlines text"],
+    "answer": "Adds emphasis (usually italic)"
+  },
+  {
+    "question": "Which tag is used to display an image?",
+    "options": ["<img>", "<image>", "<src>", "<pic>"],
+    "answer": "<img>"
+  },
+  {
+    "question": "Which tag creates a numbered list?",
+    "options": ["<ol>", "<ul>", "<li>", "<dl>"],
+    "answer": "<ol>"
+  },
+  {
+    "question": "What is the correct HTML for making a checkbox?",
+    "options": ["<input type='checkbox'>", "<checkbox>", "<input checkbox>", "<check>"],
+    "answer": "<input type='checkbox'>"
+  },
+  {
+    "question": "Which tag is used to add a table row?",
+    "options": ["<td>", "<tr>", "<th>", "<row>"],
+    "answer": "<tr>"
+  },
+  {
+    "question": "Which tag is used to define a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<hyper>"],
+    "answer": "<a>"
+  },
+  {
+    "question": "What does the <strong> tag do?",
+    "options": ["Makes text italic", "Adds strong importance (usually bold)", "Underlines text", "Creates a heading"],
+    "answer": "Adds strong importance (usually bold)"
+  },
+  {
+    "question": "Which tag is used to define a table header cell?",
+    "options": ["<th>", "<thead>", "<header>", "<td>"],
+    "answer": "<th>"
+  },
+  {
+    "question": "Which tag is used to define a list item?",
+    "options": ["<item>", "<li>", "<ul>", "<ol>"],
+    "answer": "<li>"
+  },
+  {
+    "question": "What is the correct tag for inserting a horizontal rule?",
+    "options": ["<hr>", "<line>", "<horizontal>", "<rule>"],
+    "answer": "<hr>"
+  },
+  {
+    "question": "Which tag is used to define a block of code?",
+    "options": ["<code>", "<pre>", "<script>", "<block>"],
+    "answer": "<code>"
+  },
+  {
+    "question": "What tag is used for creating a dropdown list?",
+    "options": ["<dropdown>", "<select>", "<list>", "<option>"],
+    "answer": "<select>"
+  },
+  {
+    "question": "Which tag is used to group inline elements and apply CSS?",
+    "options": ["<span>", "<div>", "<group>", "<section>"],
+    "answer": "<span>"
+  },
+  {
+    "question": "Which tag is used to group block-level elements in HTML?",
+    "options": ["<span>", "<div>", "<section>", "<group>"],
+    "answer": "<div>"
+  },
+  {
+    "question": "Which tag is used to define a section in a document?",
+    "options": ["<section>", "<div>", "<article>", "<main>"],
+    "answer": "<section>"
+  },
+  {
+    "question": "Which tag is used to define navigation links?",
+    "options": ["<nav>", "<navigation>", "<menu>", "<links>"],
+    "answer": "<nav>"
+  },
+  {
+    "question": "What is the correct tag for adding a comment in HTML?",
+    "options": ["<!-- comment -->", "// comment", "<comment>", "# comment"],
+    "answer": "<!-- comment -->"
+  },
+  {
+    "question": "Which tag is used to define emphasized text?",
+    "options": ["<em>", "<i>", "<strong>", "<b>"],
+    "answer": "<em>"
+  },
+  {
+    "question": "Which tag is used to define a footer for a document or section?",
+    "options": ["<footer>", "<bottom>", "<foot>", "<section-footer>"],
+    "answer": "<footer>"
+  },
+  {
+    "question": "Which tag is used to define a form in HTML?",
+    "options": ["<form>", "<input>", "<submit>", "<fieldset>"],
+    "answer": "<form>"
+  },
+  {
+    "question": "Which tag is used to define a label for an input element?",
+    "options": ["<label>", "<inputlabel>", "<tag>", "<caption>"],
+    "answer": "<label>"
+  },
+  {
+    "question": "Which tag is used to define a caption for a table?",
+    "options": ["<caption>", "<tablecaption>", "<title>", "<head>"],
+    "answer": "<caption>"
+  },
+  {
+    "question": "Which tag is used to define a cell in a table?",
+    "options": ["<td>", "<tr>", "<th>", "<cell>"],
+    "answer": "<td>"
+  },
+  {
+    "question": "Which tag is used to define a document's body?",
+    "options": ["<body>", "<main>", "<section>", "<content>"],
+    "answer": "<body>"
+  },
+  {
+    "question": "Which tag is used to define the title of a document?",
+    "options": ["<title>", "<head>", "<meta>", "<header>"],
+    "answer": "<title>"
+  },
+  {
+    "question": "Which tag is used to define a header for a document or section?",
+    "options": ["<header>", "<head>", "<top>", "<section-header>"],
+    "answer": "<header>"
+  },
+  {
+    "question": "Which tag is used to define a clickable button?",
+    "options": ["<button>", "<input type='button'>", "<btn>", "<click>"],
+    "answer": "<button>"
+  },
+  {
+    "question": "Which tag is used to display preformatted text?",
+    "options": ["<pre>", "<code>", "<format>", "<fixed>"],
+    "answer": "<pre>"
+  }
+]
+
       },
       "functions": {
         "title": "Text Formatting and Links",
-        "questions": []
+        "questions": [
+  {
+    "question": "Which HTML tag is used to make text bold without adding semantic importance?",
+    "options": ["<b>", "<strong>", "<em>", "<mark>"],
+    "answer": "<b>"
+  },
+  {
+    "question": "What is the purpose of the <strong> tag in HTML?",
+    "options": [
+      "To underline text",
+      "To highlight text",
+      "To mark text as important (bold with semantic meaning)",
+      "To make text italic"
+    ],
+    "answer": "To mark text as important (bold with semantic meaning)"
+  },
+  {
+    "question": "Which tag is used to italicize text for stylistic purposes only?",
+    "options": ["<em>", "<i>", "<b>", "<mark>"],
+    "answer": "<i>"
+  },
+  {
+    "question": "Which tag is used to emphasize text with semantic meaning?",
+    "options": ["<strong>", "<em>", "<i>", "<b>"],
+    "answer": "<em>"
+  },
+  {
+    "question": "Which HTML tag highlights text with a yellow background?",
+    "options": ["<mark>", "<highlight>", "<strong>", "<em>"],
+    "answer": "<mark>"
+  },
+  {
+    "question": "How do you underline text in HTML?",
+    "options": ["<u>", "<underline>", "<ins>", "<mark>"],
+    "answer": "<u>"
+  },
+  {
+    "question": "Which tag is used to display text as subscript?",
+    "options": ["<sub>", "<sup>", "<small>", "<mark>"],
+    "answer": "<sub>"
+  },
+  {
+    "question": "Which tag is used to display text as superscript?",
+    "options": ["<sup>", "<sub>", "<big>", "<small>"],
+    "answer": "<sup>"
+  },
+  {
+    "question": "Which tag indicates deleted text (usually shown with a line through it)?",
+    "options": ["<del>", "<ins>", "<strike>", "<mark>"],
+    "answer": "<del>"
+  },
+  {
+    "question": "Which tag is used to indicate inserted text (usually underlined)?",
+    "options": ["<ins>", "<del>", "<u>", "<mark>"],
+    "answer": "<ins>"
+  },
+  {
+    "question": "What tag is used for smaller text?",
+    "options": ["<small>", "<big>", "<sub>", "<sup>"],
+    "answer": "<small>"
+  },
+  {
+    "question": "Which tag is used for larger text (not supported in HTML5)?",
+    "options": ["<big>", "<large>", "<sup>", "<h1>"],
+    "answer": "<big>"
+  },
+  {
+    "question": "Which tag is used to create a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<url>"],
+    "answer": "<a>"
+  },
+  {
+    "question": "Which attribute specifies the URL for a hyperlink?",
+    "options": ["href", "src", "link", "url"],
+    "answer": "href"
+  },
+  {
+    "question": "What is the correct syntax for an HTML comment?",
+    "options": ["<!-- comment -->", "// comment", "# comment", "/* comment */"],
+    "answer": "<!-- comment -->"
+  },
+  {
+    "question": "Which tag is used to mark up abbreviations or acronyms?",
+    "options": ["<abbr>", "<acronym>", "<short>", "<mark>"],
+    "answer": "<abbr>"
+  },
+  {
+    "question": "Which tag is used for short quotations?",
+    "options": ["<q>", "<blockquote>", "<cite>", "<quote>"],
+    "answer": "<q>"
+  },
+  {
+    "question": "Which tag is used for longer quotations?",
+    "options": ["<blockquote>", "<q>", "<cite>", "<quote>"],
+    "answer": "<blockquote>"
+  },
+  {
+    "question": "What tag is used to define the title of a work (such as a book or song)?",
+    "options": ["<cite>", "<title>", "<strong>", "<mark>"],
+    "answer": "<cite>"
+  },
+  {
+    "question": "Which tag is used to display text in a monospace font (not supported in HTML5)?",
+    "options": ["<tt>", "<code>", "<kbd>", "<samp>"],
+    "answer": "<tt>"
+  },
+  {
+    "question": "Which tag is used to represent computer code?",
+    "options": ["<code>", "<kbd>", "<samp>", "<tt>"],
+    "answer": "<code>"
+  },
+  {
+    "question": "Which tag is used for keyboard input?",
+    "options": ["<kbd>", "<code>", "<samp>", "<tt>"],
+    "answer": "<kbd>"
+  },
+  {
+    "question": "Which tag is used for sample output from a program?",
+    "options": ["<samp>", "<code>", "<kbd>", "<tt>"],
+    "answer": "<samp>"
+  },
+  {
+    "question": "Which tag is used to mark up addresses?",
+    "options": ["<address>", "<cite>", "<abbr>", "<mark>"],
+    "answer": "<address>"
+  },
+  {
+    "question": "Which tag is used to change the direction of text?",
+    "options": ["<bdo>", "<dir>", "<bdi>", "<mark>"],
+    "answer": "<bdo>"
+  },
+  {
+    "question": "Which tag is used to mark text that is no longer accurate or relevant?",
+    "options": ["<del>", "<ins>", "<strike>", "<mark>"],
+    "answer": "<del>"
+  },
+  {
+    "question": "Which tag is used to underline newly added text?",
+    "options": ["<ins>", "<u>", "<mark>", "<del>"],
+    "answer": "<ins>"
+  },
+  {
+    "question": "Which tag is used to highlight text?",
+    "options": ["<mark>", "<highlight>", "<em>", "<strong>"],
+    "answer": "<mark>"
+  },
+  {
+    "question": "What does the <em> tag do?",
+    "options": [
+      "Makes text bold",
+      "Emphasizes text (usually italic)",
+      "Highlights text",
+      "Underlines text"
+    ],
+    "answer": "Emphasizes text (usually italic)"
+  },
+  {
+    "question": "Which tag is used to define a phrase from another language or a technical term?",
+    "options": ["<i>", "<em>", "<strong>", "<mark>"],
+    "answer": "<i>"
+  },
+  {
+    "question": "Which tag is used for marking deleted and inserted text together?",
+    "options": ["<del> and <ins>", "<mark> and <del>", "<ins> and <u>", "<b> and <i>"],
+    "answer": "<del> and <ins>"
+  },
+  {
+    "question": "Which tag is used to display underlined text for semantic importance (not just style)?",
+    "options": ["<ins>", "<u>", "<mark>", "<del>"],
+    "answer": "<ins>"
+  },
+  {
+    "question": "Which tag is used to display text as smaller than the surrounding text?",
+    "options": ["<small>", "<sub>", "<sup>", "<mark>"],
+    "answer": "<small>"
+  },
+  {
+    "question": "What is the correct tag for superscript text?",
+    "options": ["<sup>", "<sub>", "<super>", "<script>"],
+    "answer": "<sup>"
+  },
+  {
+    "question": "What is the correct tag for subscript text?",
+    "options": ["<sub>", "<sup>", "<subscript>", "<script>"],
+    "answer": "<sub>"
+  }
+]
+
       },
       "charts": {
         "title": "Lists and Tables",
-        "questions": []
+        "questions": [
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+    "answer": "<ul>"
+  },
+  {
+    "question": "Which HTML tag is used to define an ordered list?",
+    "options": ["<ol>", "<ul>", "<li>", "<dl>"],
+    "answer": "<ol>"
+  },
+  {
+    "question": "Which tag is used to define a list item in both ordered and unordered lists?",
+    "options": ["<li>", "<dt>", "<dd>", "<item>"],
+    "answer": "<li>"
+  },
+  {
+    "question": "What is the default marker for unordered list items in HTML?",
+    "options": ["Disc", "Number", "Square", "Circle"],
+    "answer": "Disc"
+  },
+  {
+    "question": "How do you create a description list in HTML?",
+    "options": ["<dl>", "<ul>", "<ol>", "<list>"],
+    "answer": "<dl>"
+  },
+  {
+    "question": "Which tag defines a term in a description list?",
+    "options": ["<dt>", "<dd>", "<li>", "<desc>"],
+    "answer": "<dt>"
+  },
+  {
+    "question": "Which tag describes each term in a description list?",
+    "options": ["<dd>", "<dt>", "<li>", "<desc>"],
+    "answer": "<dd>"
+  },
+  {
+    "question": "What is the default marker for ordered list items?",
+    "options": ["Numbers", "Bullets", "Squares", "Circles"],
+    "answer": "Numbers"
+  },
+  {
+    "question": "Which attribute can change the marker type of an ordered list?",
+    "options": ["type", "style", "marker", "list-type"],
+    "answer": "type"
+  },
+  {
+    "question": "Which CSS property changes the marker style of a list?",
+    "options": ["list-style-type", "marker-type", "type", "list-marker"],
+    "answer": "list-style-type"
+  },
+  {
+    "question": "Which tag is used for a nested list inside another list?",
+    "options": ["<ul> or <ol>", "<li>", "<dl>", "<list>"],
+    "answer": "<ul> or <ol>"
+  },
+  {
+    "question": "Which of the following is NOT a valid list type in HTML?",
+    "options": ["<menu>", "<ul>", "<ol>", "<dl>"],
+    "answer": "<menu>"
+  },
+  {
+    "question": "Which marker type is NOT available for unordered lists?",
+    "options": ["triangle", "circle", "square", "disc"],
+    "answer": "triangle"
+  },
+  {
+    "question": "How do you remove list item markers using CSS?",
+    "options": [
+      "list-style-type: none;",
+      "marker: none;",
+      "type: none;",
+      "display: none;"
+    ],
+    "answer": "list-style-type: none;"
+  },
+  {
+    "question": "Which tag is used to create a table in HTML?",
+    "options": ["<table>", "<tr>", "<td>", "<tab>"],
+    "answer": "<table>"
+  },
+  {
+    "question": "Which tag is used to define a row in a table?",
+    "options": ["<tr>", "<td>", "<th>", "<row>"],
+    "answer": "<tr>"
+  },
+  {
+    "question": "Which tag is used to define a cell in a table?",
+    "options": ["<td>", "<tr>", "<th>", "<cell>"],
+    "answer": "<td>"
+  },
+  {
+    "question": "Which tag is used to define a header cell in a table?",
+    "options": ["<th>", "<thead>", "<td>", "<header>"],
+    "answer": "<th>"
+  },
+  {
+    "question": "Which tag is used to group table header content?",
+    "options": ["<thead>", "<th>", "<header>", "<tablehead>"],
+    "answer": "<thead>"
+  },
+  {
+    "question": "Which tag is used to group table body content?",
+    "options": ["<tbody>", "<body>", "<tablebody>", "<td>"],
+    "answer": "<tbody>"
+  },
+  {
+    "question": "Which tag is used to group table footer content?",
+    "options": ["<tfoot>", "<footer>", "<tablefooter>", "<tf>"],
+    "answer": "<tfoot>"
+  },
+  {
+    "question": "How do you add a caption to a table?",
+    "options": ["<caption>", "<title>", "<head>", "<label>"],
+    "answer": "<caption>"
+  },
+  {
+    "question": "Which attribute merges two or more columns in a table cell?",
+    "options": ["colspan", "rowspan", "merge", "span"],
+    "answer": "colspan"
+  },
+  {
+    "question": "Which attribute merges two or more rows in a table cell?",
+    "options": ["rowspan", "colspan", "merge", "span"],
+    "answer": "rowspan"
+  },
+  {
+    "question": "Which tag is used to define a list of terms and their descriptions?",
+    "options": ["<dl>", "<ul>", "<ol>", "<li>"],
+    "answer": "<dl>"
+  },
+  {
+    "question": "Which tag is used to define a single list item in a description list?",
+    "options": ["<dt>", "<li>", "<dd>", "<desc>"],
+    "answer": "<dt>"
+  },
+  {
+    "question": "What is the correct order of tags for a description list?",
+    "options": [
+      "<dl>, <dt>, <dd>",
+      "<ul>, <li>",
+      "<ol>, <li>",
+      "<table>, <tr>, <td>"
+    ],
+    "answer": "<dl>, <dt>, <dd>"
+  },
+  {
+    "question": "Which tag is used to define the main content of a table?",
+    "options": ["<tbody>", "<td>", "<th>", "<table>"],
+    "answer": "<tbody>"
+  },
+  {
+    "question": "How do you create a bulleted list in HTML?",
+    "options": [
+      "Use <ul> and <li>",
+      "Use <ol> and <li>",
+      "Use <dl> and <dt>",
+      "Use <table> and <tr>"
+    ],
+    "answer": "Use <ul> and <li>"
+  },
+  {
+    "question": "How do you create a numbered list in HTML?",
+    "options": [
+      "Use <ol> and <li>",
+      "Use <ul> and <li>",
+      "Use <dl> and <dt>",
+      "Use <table> and <tr>"
+    ],
+    "answer": "Use <ol> and <li>"
+  }
+]
+
       },
       "shortcuts": {
         "title": "Images and Multimedia",
-        "questions": []
+        "questions": [
+  {
+    "question": "Which HTML tag is used to insert an image in a web page?",
+    "options": ["<img>", "<image>", "<picture>", "<src>"],
+    "answer": "<img>"
+  },
+  {
+    "question": "Which attribute specifies the location of an image file in HTML?",
+    "options": ["alt", "src", "href", "link"],
+    "answer": "src"
+  },
+  {
+    "question": "What is the purpose of the 'alt' attribute in the <img> tag?",
+    "options": [
+      "Specifies image size",
+      "Specifies image border",
+      "Provides text if the image cannot be displayed",
+      "Specifies image format"
+    ],
+    "answer": "Provides text if the image cannot be displayed"
+  },
+  {
+    "question": "Which image format is best suited for photographs?",
+    "options": ["JPEG", "GIF", "PNG", "SVG"],
+    "answer": "JPEG"
+  },
+  {
+    "question": "Which image format is best for simple graphics and transparency?",
+    "options": ["PNG", "JPEG", "GIF", "SVG"],
+    "answer": "PNG"
+  },
+  {
+    "question": "Which image format is best suited for simple animations?",
+    "options": ["GIF", "JPEG", "PNG", "SVG"],
+    "answer": "GIF"
+  },
+  {
+    "question": "Which tag is used to embed a video in HTML5?",
+    "options": ["<video>", "<media>", "<movie>", "<embed>"],
+    "answer": "<video>"
+  },
+  {
+    "question": "Which tag is used to embed audio files in HTML5?",
+    "options": ["<audio>", "<sound>", "<music>", "<media>"],
+    "answer": "<audio>"
+  },
+  {
+    "question": "Which attribute is used to specify the width of an image?",
+    "options": ["width", "size", "length", "height"],
+    "answer": "width"
+  },
+  {
+    "question": "Which attribute is used to specify the height of an image?",
+    "options": ["height", "width", "size", "length"],
+    "answer": "height"
+  },
+  {
+    "question": "What is the correct HTML code for inserting an image?",
+    "options": [
+      "<img src='image.gif'>",
+      "<img href='image.gif'>",
+      "<image src='image.gif'>",
+      "<img>image.gif</img>"
+    ],
+    "answer": "<img src='image.gif'>"
+  },
+  {
+    "question": "Which attribute is used to provide a tooltip for an image?",
+    "options": ["title", "alt", "src", "tooltip"],
+    "answer": "title"
+  },
+  {
+    "question": "Which tag is used to embed external content such as a webpage or video?",
+    "options": ["<iframe>", "<frame>", "<embed>", "<object>"],
+    "answer": "<iframe>"
+  },
+  {
+    "question": "Which attribute allows you to specify multiple image sources for responsive images?",
+    "options": ["srcset", "alt", "media", "sizes"],
+    "answer": "srcset"
+  },
+  {
+    "question": "Which tag is used to embed scalable vector graphics in HTML?",
+    "options": ["<svg>", "<vector>", "<canvas>", "<img>"],
+    "answer": "<svg>"
+  },
+  {
+    "question": "Which tag is used to draw graphics via scripting (usually JavaScript)?",
+    "options": ["<canvas>", "<svg>", "<img>", "<draw>"],
+    "answer": "<canvas>"
+  },
+  {
+    "question": "Which attribute is used to control CORS settings for images?",
+    "options": ["crossorigin", "alt", "src", "referrerpolicy"],
+    "answer": "crossorigin"
+  },
+  {
+    "question": "Which attribute is used to specify privacy settings for image referrers?",
+    "options": ["referrerpolicy", "crossorigin", "alt", "src"],
+    "answer": "referrerpolicy"
+  },
+  {
+    "question": "What does the 'controls' attribute do in <audio> and <video> tags?",
+    "options": [
+      "Adds playback controls",
+      "Specifies file source",
+      "Sets autoplay",
+      "Loops the media"
+    ],
+    "answer": "Adds playback controls"
+  },
+  {
+    "question": "Which attribute makes a video start playing automatically?",
+    "options": ["autoplay", "controls", "loop", "muted"],
+    "answer": "autoplay"
+  },
+  {
+    "question": "Which attribute makes a video or audio file play repeatedly?",
+    "options": ["loop", "autoplay", "controls", "muted"],
+    "answer": "loop"
+  },
+  {
+    "question": "Which tag is used to embed a YouTube video?",
+    "options": ["<iframe>", "<video>", "<embed>", "<object>"],
+    "answer": "<iframe>"
+  },
+  {
+    "question": "Which attribute is used to specify alternative media files for <video> and <audio>?",
+    "options": ["<source>", "srcset", "alt", "media"],
+    "answer": "<source>"
+  },
+  {
+    "question": "Which tag is used to embed Flash content (now obsolete)?",
+    "options": ["<object>", "<embed>", "<flash>", "<media>"],
+    "answer": "<object>"
+  },
+  {
+    "question": "Which tag is used to embed other interactive content or applications?",
+    "options": ["<object>", "<embed>", "<iframe>", "<media>"],
+    "answer": "<object>"
+  },
+  {
+    "question": "Which attribute makes an image clickable, linking to another page?",
+    "options": ["<a> wraps <img>", "href in <img>", "src in <a>", "alt in <img>"],
+    "answer": "<a> wraps <img>"
+  },
+  {
+    "question": "What is the default display of the <img> tag?",
+    "options": ["inline", "block", "inline-block", "flex"],
+    "answer": "inline"
+  },
+  {
+    "question": "Which CSS property is commonly used to align images left or right?",
+    "options": ["float", "align", "position", "display"],
+    "answer": "float"
+  },
+  {
+    "question": "Which attribute enables lazy loading for images in HTML?",
+    "options": ["loading", "lazy", "defer", "async"],
+    "answer": "loading"
+  },
+  {
+    "question": "Which image format is best for scalable vector graphics?",
+    "options": ["SVG", "JPEG", "PNG", "GIF"],
+    "answer": "SVG"
+  }
+]
+
       },
       "Forms": {
         "title": "Forms and Input Elements",
-        "questions": []
+        "questions": [
+  {
+    "question": "Which HTML tag is used to create a form?",
+    "options": ["<form>", "<input>", "<label>", "<fieldset>"],
+    "answer": "<form>"
+  },
+  {
+    "question": "Which element is used to create a single-line text input field?",
+    "options": ["<input type='text'>", "<textarea>", "<input type='password'>", "<select>"],
+    "answer": "<input type='text'>"
+  },
+  {
+    "question": "Which input type is used for entering passwords?",
+    "options": ["<input type='password'>", "<input type='text'>", "<input type='email'>", "<input type='number'>"],
+    "answer": "<input type='password'>"
+  },
+  {
+    "question": "Which input type allows users to select only one option from several choices?",
+    "options": ["radio", "checkbox", "text", "button"],
+    "answer": "radio"
+  },
+  {
+    "question": "Which input type allows users to select multiple options?",
+    "options": ["checkbox", "radio", "text", "password"],
+    "answer": "checkbox"
+  },
+  {
+    "question": "Which tag is used to create a drop-down list?",
+    "options": ["<select>", "<option>", "<input>", "<textarea>"],
+    "answer": "<select>"
+  },
+  {
+    "question": "Which tag is used to define options within a drop-down list?",
+    "options": ["<option>", "<select>", "<input>", "<label>"],
+    "answer": "<option>"
+  },
+  {
+    "question": "Which tag is used to create a multi-line text input?",
+    "options": ["<textarea>", "<input>", "<select>", "<option>"],
+    "answer": "<textarea>"
+  },
+  {
+    "question": "What is the purpose of the <label> element?",
+    "options": [
+      "Defines a label for form elements",
+      "Creates a text box",
+      "Submits the form",
+      "Creates a drop-down list"
+    ],
+    "answer": "Defines a label for form elements"
+  },
+  {
+    "question": "Which attribute connects a <label> to an <input> element?",
+    "options": ["for", "id", "name", "type"],
+    "answer": "for"
+  },
+  {
+    "question": "Which input type is used for email addresses?",
+    "options": ["email", "text", "password", "number"],
+    "answer": "email"
+  },
+  {
+    "question": "Which input type is used for numeric input?",
+    "options": ["number", "text", "email", "password"],
+    "answer": "number"
+  },
+  {
+    "question": "Which input type provides a color picker?",
+    "options": ["color", "text", "range", "date"],
+    "answer": "color"
+  },
+  {
+    "question": "Which input type is used for selecting a date?",
+    "options": ["date", "time", "datetime-local", "month"],
+    "answer": "date"
+  },
+  {
+    "question": "Which input type is used for file uploads?",
+    "options": ["file", "text", "image", "submit"],
+    "answer": "file"
+  },
+  {
+    "question": "Which input type creates a clickable button?",
+    "options": ["button", "submit", "reset", "radio"],
+    "answer": "button"
+  },
+  {
+    "question": "Which input type submits the form data?",
+    "options": ["submit", "button", "reset", "text"],
+    "answer": "submit"
+  },
+  {
+    "question": "Which input type resets all form fields to their default values?",
+    "options": ["reset", "submit", "button", "text"],
+    "answer": "reset"
+  },
+  {
+    "question": "Which element groups related form elements together?",
+    "options": ["<fieldset>", "<legend>", "<form>", "<label>"],
+    "answer": "<fieldset>"
+  },
+  {
+    "question": "Which tag provides a caption for a <fieldset>?",
+    "options": ["<legend>", "<caption>", "<label>", "<title>"],
+    "answer": "<legend>"
+  },
+  {
+    "question": "Which input type allows users to select a value from a range?",
+    "options": ["range", "number", "text", "color"],
+    "answer": "range"
+  },
+  {
+    "question": "Which element provides a list of predefined options for an <input>?",
+    "options": ["<datalist>", "<select>", "<option>", "<list>"],
+    "answer": "<datalist>"
+  },
+  {
+    "question": "Which tag is used to display the result of a calculation?",
+    "options": ["<output>", "<result>", "<display>", "<calc>"],
+    "answer": "<output>"
+  },
+  {
+    "question": "Which attribute makes a form field mandatory?",
+    "options": ["required", "readonly", "disabled", "checked"],
+    "answer": "required"
+  },
+  {
+    "question": "Which attribute disables a form field?",
+    "options": ["disabled", "readonly", "required", "checked"],
+    "answer": "disabled"
+  },
+  {
+    "question": "Which attribute makes a form field read-only?",
+    "options": ["readonly", "disabled", "required", "checked"],
+    "answer": "readonly"
+  },
+  {
+    "question": "Which attribute specifies the name of a form field?",
+    "options": ["name", "id", "type", "for"],
+    "answer": "name"
+  },
+  {
+    "question": "Which attribute is used to specify placeholder text in an input field?",
+    "options": ["placeholder", "value", "label", "title"],
+    "answer": "placeholder"
+  },
+  {
+    "question": "Which attribute specifies the maximum number of characters for an input?",
+    "options": ["maxlength", "minlength", "size", "limit"],
+    "answer": "maxlength"
+  },
+  {
+    "question": "Which attribute specifies the initial value of an input field?",
+    "options": ["value", "placeholder", "default", "start"],
+    "answer": "value"
+  }
+]
+
       },
       "Semantic" : {
         "title": "Semantic HTML",
-        "questions": []
+        "questions": [
+  {
+    "question": "What is Semantic HTML?",
+    "options": [
+      "HTML that uses tags for styling only",
+      "HTML that uses tags to convey meaning and structure",
+      "HTML that uses only <div> and <span>",
+      "HTML that uses JavaScript"
+    ],
+    "answer": "HTML that uses tags to convey meaning and structure"
+  },
+  {
+    "question": "Which tag is used to define the main content of a document?",
+    "options": ["<main>", "<body>", "<section>", "<article>"],
+    "answer": "<main>"
+  },
+  {
+    "question": "Which tag is used to define navigation links?",
+    "options": ["<nav>", "<menu>", "<navigation>", "<links>"],
+    "answer": "<nav>"
+  },
+  {
+    "question": "Which tag is used to define a section of content?",
+    "options": ["<section>", "<div>", "<main>", "<aside>"],
+    "answer": "<section>"
+  },
+  {
+    "question": "Which tag is used to define a self-contained piece of content?",
+    "options": ["<article>", "<section>", "<aside>", "<main>"],
+    "answer": "<article>"
+  },
+  {
+    "question": "Which tag is used to define content aside from the main content?",
+    "options": ["<aside>", "<section>", "<article>", "<main>"],
+    "answer": "<aside>"
+  },
+  {
+    "question": "Which tag is used to define a footer for a document or section?",
+    "options": ["<footer>", "<bottom>", "<section>", "<aside>"],
+    "answer": "<footer>"
+  },
+  {
+    "question": "Which tag is used to define a header for a document or section?",
+    "options": ["<header>", "<head>", "<top>", "<main>"],
+    "answer": "<header>"
+  },
+  {
+    "question": "Which tag is used to mark up a figure with an optional caption?",
+    "options": ["<figure>", "<img>", "<caption>", "<figcaption>"],
+    "answer": "<figure>"
+  },
+  {
+    "question": "Which tag is used for the caption of a <figure> element?",
+    "options": ["<figcaption>", "<caption>", "<legend>", "<summary>"],
+    "answer": "<figcaption>"
+  },
+  {
+    "question": "Which tag is used to group form elements semantically?",
+    "options": ["<fieldset>", "<legend>", "<section>", "<group>"],
+    "answer": "<fieldset>"
+  },
+  {
+    "question": "Which tag is used to define a summary or heading for a <details> element?",
+    "options": ["<summary>", "<details>", "<caption>", "<header>"],
+    "answer": "<summary>"
+  },
+  {
+    "question": "Which tag is used to create a collapsible content section?",
+    "options": ["<details>", "<summary>", "<aside>", "<section>"],
+    "answer": "<details>"
+  },
+  {
+    "question": "Which tag is used to mark up contact information?",
+    "options": ["<address>", "<contact>", "<footer>", "<aside>"],
+    "answer": "<address>"
+  },
+  {
+    "question": "Which tag is used to mark up time or dates?",
+    "options": ["<time>", "<date>", "<datetime>", "<span>"],
+    "answer": "<time>"
+  },
+  {
+    "question": "Which tag is used to mark up a citation or reference to a creative work?",
+    "options": ["<cite>", "<quote>", "<ref>", "<source>"],
+    "answer": "<cite>"
+  },
+  {
+    "question": "Which tag is used to mark up a block of quoted text?",
+    "options": ["<blockquote>", "<q>", "<cite>", "<quote>"],
+    "answer": "<blockquote>"
+  },
+  {
+    "question": "Which tag is used for inline quotations?",
+    "options": ["<q>", "<blockquote>", "<cite>", "<quote>"],
+    "answer": "<q>"
+  },
+  {
+    "question": "Which tag is used to mark up the result of a calculation?",
+    "options": ["<output>", "<result>", "<calc>", "<meter>"],
+    "answer": "<output>"
+  },
+  {
+    "question": "Which tag is used to mark up a measurement within a known range?",
+    "options": ["<meter>", "<progress>", "<output>", "<gauge>"],
+    "answer": "<meter>"
+  },
+  {
+    "question": "Which tag is used to mark up the progress of a task?",
+    "options": ["<progress>", "<meter>", "<output>", "<task>"],
+    "answer": "<progress>"
+  },
+  {
+    "question": "Which tag is used to mark up navigation links for accessibility?",
+    "options": ["<nav>", "<menu>", "<ul>", "<aside>"],
+    "answer": "<nav>"
+  },
+  {
+    "question": "Which tag is used to define a list of navigation links?",
+    "options": ["<nav>", "<ul>", "<menu>", "<aside>"],
+    "answer": "<nav>"
+  },
+  {
+    "question": "Which tag is used to mark up a part of a document whose content is only indirectly related to the document's main content?",
+    "options": ["<aside>", "<section>", "<footer>", "<header>"],
+    "answer": "<aside>"
+  },
+  {
+    "question": "Which tag is used to group headings, paragraphs, and other block-level elements?",
+    "options": ["<section>", "<div>", "<article>", "<main>"],
+    "answer": "<section>"
+  },
+  {
+    "question": "Which tag is used to mark up the main navigation of a page?",
+    "options": ["<nav>", "<header>", "<aside>", "<footer>"],
+    "answer": "<nav>"
+  },
+  {
+    "question": "Which tag is used to mark up the main heading of a section?",
+    "options": ["<h1>", "<header>", "<main>", "<section>"],
+    "answer": "<h1>"
+  },
+  {
+    "question": "Which tag is used to mark up a list of definitions?",
+    "options": ["<dl>", "<ul>", "<ol>", "<list>"],
+    "answer": "<dl>"
+  },
+  {
+    "question": "Which tag is used to mark up a term in a definition list?",
+    "options": ["<dt>", "<dd>", "<li>", "<term>"],
+    "answer": "<dt>"
+  },
+  {
+    "question": "Which tag is used to mark up the description of a term in a definition list?",
+    "options": ["<dd>", "<dt>", "<li>", "<desc>"],
+    "answer": "<dd>"
+  }
+]
+
       },
       "HTML5": {
         "title": "HTML5 APIs",
-        "questions": []
+        "questions": [
+  {
+    "question": "Which HTML5 API is used to store data on the client side that persists even after the browser is closed?",
+    "options": ["Web Storage API", "Geolocation API", "Canvas API", "Drag and Drop API"],
+    "answer": "Web Storage API"
+  },
+  {
+    "question": "Which API allows web pages to access the user's geographical location?",
+    "options": ["Geolocation API", "Web Storage API", "Web Workers API", "Canvas API"],
+    "answer": "Geolocation API"
+  },
+  {
+    "question": "Which HTML5 API is used for drawing graphics via JavaScript?",
+    "options": ["Canvas API", "WebGL API", "Drag and Drop API", "Web Storage API"],
+    "answer": "Canvas API"
+  },
+  {
+    "question": "Which API is used to run scripts in background threads?",
+    "options": ["Web Workers API", "Canvas API", "Web Storage API", "Geolocation API"],
+    "answer": "Web Workers API"
+  },
+  {
+    "question": "Which API allows users to drag and drop elements within and between web pages?",
+    "options": ["Drag and Drop API", "Canvas API", "Web Workers API", "Web Storage API"],
+    "answer": "Drag and Drop API"
+  },
+  {
+    "question": "Which HTML5 API is used to play audio and video files?",
+    "options": ["Media API", "Canvas API", "WebGL API", "Web Workers API"],
+    "answer": "Media API"
+  },
+  {
+    "question": "Which API is used to access and manipulate the browser's offline application cache?",
+    "options": ["Application Cache API", "Web Storage API", "Geolocation API", "Drag and Drop API"],
+    "answer": "Application Cache API"
+  },
+  {
+    "question": "Which API allows web applications to communicate with servers in real time?",
+    "options": ["WebSockets API", "Canvas API", "Web Storage API", "Media API"],
+    "answer": "WebSockets API"
+  },
+  {
+    "question": "Which API is used to store key/value pairs in a user's browser?",
+    "options": ["Web Storage API", "Geolocation API", "Canvas API", "Web Workers API"],
+    "answer": "Web Storage API"
+  },
+  {
+    "question": "Which HTML5 API allows you to access the user's camera and microphone?",
+    "options": ["MediaDevices API", "Canvas API", "WebGL API", "Web Workers API"],
+    "answer": "MediaDevices API"
+  },
+  {
+    "question": "Which API is used for 2D and 3D graphics rendering in HTML5?",
+    "options": ["WebGL API", "Canvas API", "Media API", "Web Workers API"],
+    "answer": "WebGL API"
+  },
+  {
+    "question": "Which API is used to detect changes in network connectivity?",
+    "options": ["Network Information API", "Web Storage API", "Media API", "Canvas API"],
+    "answer": "Network Information API"
+  },
+  {
+    "question": "Which API allows a web application to register scripts that run in the background?",
+    "options": ["Service Workers API", "Web Workers API", "Canvas API", "Media API"],
+    "answer": "Service Workers API"
+  },
+  {
+    "question": "Which API allows web pages to access files on the user's computer?",
+    "options": ["File API", "Web Storage API", "Canvas API", "Media API"],
+    "answer": "File API"
+  },
+  {
+    "question": "Which API is used to synchronize data between a web application and a server when offline?",
+    "options": ["IndexedDB API", "Web Workers API", "Canvas API", "Geolocation API"],
+    "answer": "IndexedDB API"
+  },
+  {
+    "question": "Which API is used for client-side database storage of significant amounts of structured data?",
+    "options": ["IndexedDB API", "Web Storage API", "Canvas API", "WebGL API"],
+    "answer": "IndexedDB API"
+  },
+  {
+    "question": "Which API allows web pages to be notified of changes to the visibility of the page?",
+    "options": ["Page Visibility API", "Web Workers API", "Canvas API", "Drag and Drop API"],
+    "answer": "Page Visibility API"
+  },
+  {
+    "question": "Which API is used to access and manipulate the clipboard?",
+    "options": ["Clipboard API", "Web Storage API", "Canvas API", "Media API"],
+    "answer": "Clipboard API"
+  },
+  {
+    "question": "Which API is used to detect and respond to changes in device orientation?",
+    "options": ["Device Orientation API", "Geolocation API", "Web Storage API", "Media API"],
+    "answer": "Device Orientation API"
+  },
+  {
+    "question": "Which API allows you to build push notifications for web applications?",
+    "options": ["Notifications API", "Web Workers API", "Canvas API", "WebGL API"],
+    "answer": "Notifications API"
+  },
+  {
+    "question": "Which API lets you store data that is cleared when the browser is closed?",
+    "options": ["Session Storage API", "Local Storage API", "IndexedDB API", "Application Cache API"],
+    "answer": "Session Storage API"
+  },
+  {
+    "question": "Which API provides a way to handle and play audio in web applications?",
+    "options": ["Web Audio API", "Media API", "Canvas API", "WebGL API"],
+    "answer": "Web Audio API"
+  },
+  {
+    "question": "Which API allows you to create and manage custom events?",
+    "options": ["CustomEvent API", "Web Workers API", "Canvas API", "WebGL API"],
+    "answer": "CustomEvent API"
+  },
+  {
+    "question": "Which API is used to detect the battery status of the user's device?",
+    "options": ["Battery Status API", "Device Orientation API", "Geolocation API", "Media API"],
+    "answer": "Battery Status API"
+  },
+  {
+    "question": "Which API is used to access and manage user contacts?",
+    "options": ["Contacts API", "Web Storage API", "Canvas API", "WebGL API"],
+    "answer": "Contacts API"
+  },
+  {
+    "question": "Which API allows web applications to access and use fonts?",
+    "options": ["Font Loading API", "WebGL API", "Canvas API", "Media API"],
+    "answer": "Font Loading API"
+  },
+  {
+    "question": "Which API allows web applications to access vibration hardware?",
+    "options": ["Vibration API", "Battery Status API", "Geolocation API", "Media API"],
+    "answer": "Vibration API"
+  },
+  {
+    "question": "Which API is used to detect and respond to changes in the ambient light level?",
+    "options": ["Ambient Light Sensor API", "Device Orientation API", "Battery Status API", "Media API"],
+    "answer": "Ambient Light Sensor API"
+  },
+  {
+    "question": "Which API is used to access and control the user's pointer device?",
+    "options": ["Pointer Events API", "Touch Events API", "Clipboard API", "WebGL API"],
+    "answer": "Pointer Events API"
+  },
+  {
+    "question": "Which API is used to allow web apps to access and use the user's Bluetooth devices?",
+    "options": ["Web Bluetooth API", "WebGL API", "Canvas API", "Media API"],
+    "answer": "Web Bluetooth API"
+  }
+]
+
       },
       "CSS-Integration": {
         "title": "CSS Integration",
-        "questions": []
+        "questions": [
+  {
+    "question": "What does CSS stand for?",
+    "options": ["Cascading Style Sheets", "Creative Style System", "Computer Style Syntax", "Colorful Style Sheets"],
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which HTML tag is used to link an external CSS file?",
+    "options": ["<link>", "<style>", "<css>", "<script>"],
+    "answer": "<link>"
+  },
+  {
+    "question": "Which attribute is used with the <link> tag to specify the CSS file?",
+    "options": ["href", "src", "style", "type"],
+    "answer": "href"
+  },
+  {
+    "question": "Where in an HTML document is the <style> tag usually placed?",
+    "options": ["Inside the <head>", "Inside the <body>", "At the end of the document", "After the <title>"],
+    "answer": "Inside the <head>"
+  },
+  {
+    "question": "Which property is used to change the text color in CSS?",
+    "options": ["color", "background-color", "font-color", "text-color"],
+    "answer": "color"
+  },
+  {
+    "question": "Which property is used to change the background color in CSS?",
+    "options": ["background-color", "color", "bgcolor", "background"],
+    "answer": "background-color"
+  },
+  {
+    "question": "How do you add an inline style in HTML?",
+    "options": [
+      "Using the style attribute",
+      "Using the class attribute",
+      "Using the id attribute",
+      "Using the css attribute"
+    ],
+    "answer": "Using the style attribute"
+  },
+  {
+    "question": "Which symbol is used to select an id in CSS?",
+    "options": ["#", ".", "*", "&"],
+    "answer": "#"
+  },
+  {
+    "question": "Which symbol is used to select a class in CSS?",
+    "options": [".", "#", "*", "&"],
+    "answer": "."
+  },
+  {
+    "question": "How do you write a CSS comment?",
+    "options": [
+      "/* comment */",
+      "// comment",
+      "<!-- comment -->",
+      "# comment"
+    ],
+    "answer": "/* comment */"
+  },
+  {
+    "question": "Which property is used to change the font size?",
+    "options": ["font-size", "text-size", "font-style", "size"],
+    "answer": "font-size"
+  },
+  {
+    "question": "How do you select all elements of a specific type in CSS?",
+    "options": [
+      "By using the element name",
+      "By using #element",
+      "By using .element",
+      "By using *element"
+    ],
+    "answer": "By using the element name"
+  },
+  {
+    "question": "Which property is used to add space inside an element?",
+    "options": ["padding", "margin", "border", "spacing"],
+    "answer": "padding"
+  },
+  {
+    "question": "Which property is used to add space outside an element?",
+    "options": ["margin", "padding", "border", "spacing"],
+    "answer": "margin"
+  },
+  {
+    "question": "Which CSS property is used to set the font family?",
+    "options": ["font-family", "font-style", "font-weight", "font-type"],
+    "answer": "font-family"
+  },
+  {
+    "question": "How do you make text bold using CSS?",
+    "options": ["font-weight: bold;", "font-style: bold;", "text-weight: bold;", "font-bold: true;"],
+    "answer": "font-weight: bold;"
+  },
+  {
+    "question": "How do you link an external CSS file named 'style.css'?",
+    "options": [
+      "<link rel='stylesheet' href='style.css'>",
+      "<style src='style.css'>",
+      "<css href='style.css'>",
+      "<script src='style.css'>"
+    ],
+    "answer": "<link rel='stylesheet' href='style.css'>"
+  },
+  {
+    "question": "Which property is used to change the border of an element?",
+    "options": ["border", "outline", "border-style", "border-width"],
+    "answer": "border"
+  },
+  {
+    "question": "How do you select all elements with the class 'example'?",
+    "options": [
+      ".example",
+      "#example",
+      "example",
+      "*example"
+    ],
+    "answer": ".example"
+  },
+  {
+    "question": "Which CSS property is used to align text to the center?",
+    "options": ["text-align: center;", "align: center;", "center: text;", "text-center: true;"],
+    "answer": "text-align: center;"
+  }
+]
+
       },
       "Debugging": {
         "title": "Best Practices and Debugging",
-        "questions": []
+        "questions": [
+  {
+    "question": "What is the recommended doctype declaration for HTML5 documents?",
+    "options": [
+      "<!DOCTYPE html>",
+      "<!DOCTYPE HTML PUBLIC>",
+      "<!DOCTYPE xhtml>",
+      "<html5>"
+    ],
+    "answer": "<!DOCTYPE html>"
+  },
+  {
+    "question": "Why should you use lowercase for HTML element names and attributes?",
+    "options": [
+      "It improves code readability and consistency",
+      "Browsers require lowercase",
+      "It increases page speed",
+      "It is required for CSS"
+    ],
+    "answer": "It improves code readability and consistency"
+  },
+  {
+    "question": "What is the best practice for quoting attribute values in HTML?",
+    "options": [
+      "Always use double quotes",
+      "Use single quotes",
+      "Quotes are not needed",
+      "Use backticks"
+    ],
+    "answer": "Always use double quotes"
+  },
+  {
+    "question": "Why should you always close your HTML tags?",
+    "options": [
+      "To ensure valid markup and avoid rendering issues",
+      "It is required for all browsers",
+      "It speeds up page loading",
+      "It improves SEO"
+    ],
+    "answer": "To ensure valid markup and avoid rendering issues"
+  },
+  {
+    "question": "What is the recommended indentation for HTML code?",
+    "options": [
+      "Two spaces",
+      "Four spaces",
+      "Tabs",
+      "No indentation"
+    ],
+    "answer": "Two spaces"
+  },
+  {
+    "question": "Why should you avoid excessive whitespace in your HTML?",
+    "options": [
+      "It keeps code clean and readable",
+      "It makes pages load faster",
+      "Browsers ignore whitespace",
+      "It reduces file size significantly"
+    ],
+    "answer": "It keeps code clean and readable"
+  },
+  {
+    "question": "Which attribute should always be included in an <img> tag for accessibility?",
+    "options": [
+      "alt",
+      "title",
+      "src",
+      "id"
+    ],
+    "answer": "alt"
+  },
+  {
+    "question": "Why is using semantic HTML elements recommended?",
+    "options": [
+      "They improve accessibility and SEO",
+      "They make code run faster",
+      "They are required for validation",
+      "They reduce file size"
+    ],
+    "answer": "They improve accessibility and SEO"
+  },
+  {
+    "question": "What is the best practice for adding CSS to an HTML document?",
+    "options": [
+      "Use external stylesheets",
+      "Use inline styles",
+      "Use <style> tags in the body",
+      "Use <font> tags"
+    ],
+    "answer": "Use external stylesheets"
+  },
+  {
+    "question": "Why should you avoid inline CSS and JavaScript in HTML?",
+    "options": [
+      "It makes code harder to maintain and less readable",
+      "It is not supported by browsers",
+      "It increases SEO ranking",
+      "It makes pages load faster"
+    ],
+    "answer": "It makes code harder to maintain and less readable"
+  },
+  {
+    "question": "What character encoding is recommended for HTML documents?",
+    "options": [
+      "UTF-8",
+      "ASCII",
+      "ISO-8859-1",
+      "UTF-16"
+    ],
+    "answer": "UTF-8"
+  },
+  {
+    "question": "Why should you use the viewport meta tag in your HTML?",
+    "options": [
+      "To ensure proper scaling on mobile devices",
+      "To increase security",
+      "To improve SEO",
+      "To add animations"
+    ],
+    "answer": "To ensure proper scaling on mobile devices"
+  },
+  {
+    "question": "What is a good practice regarding HTML comments?",
+    "options": [
+      "Use comments sparingly to clarify semantics or naming",
+      "Comment every line of code",
+      "Never use comments",
+      "Use comments for styling"
+    ],
+    "answer": "Use comments sparingly to clarify semantics or naming"
+  },
+  {
+    "question": "Why is code readability important in HTML?",
+    "options": [
+      "It helps maintainability and teamwork",
+      "It makes the page load faster",
+      "Browsers require readable code",
+      "It increases SEO"
+    ],
+    "answer": "It helps maintainability and teamwork"
+  },
+  {
+    "question": "What is the best practice for attribute order in HTML?",
+    "options": [
+      "Classes first, then IDs, then other attributes",
+      "IDs first, then classes",
+      "Random order",
+      "Alphabetical order"
+    ],
+    "answer": "Classes first, then IDs, then other attributes"
+  },
+  {
+    "question": "What should you avoid when writing HTML for maintainability?",
+    "options": [
+      "Superfluous parent elements",
+      "Semantic tags",
+      "Alt attributes",
+      "External CSS"
+    ],
+    "answer": "Superfluous parent elements"
+  },
+  {
+    "question": "Why should you validate your HTML code?",
+    "options": [
+      "To ensure the markup is well-formed and follows standards",
+      "To increase page speed",
+      "To improve color contrast",
+      "To add more features"
+    ],
+    "answer": "To ensure the markup is well-formed and follows standards"
+  },
+  {
+    "question": "What is the benefit of using meaningful alt text for images?",
+    "options": [
+      "It improves accessibility for screen readers",
+      "It makes images load faster",
+      "It increases file size",
+      "It changes image color"
+    ],
+    "answer": "It improves accessibility for screen readers"
+  },
+  {
+    "question": "Why should you avoid mixing uppercase and lowercase in HTML?",
+    "options": [
+      "It affects code readability and consistency",
+      "Browsers cannot render uppercase tags",
+      "It is required for CSS",
+      "It increases SEO"
+    ],
+    "answer": "It affects code readability and consistency"
+  },
+  {
+    "question": "What is the best practice for whitespace around tags and attribute values?",
+    "options": [
+      "Eliminate unnecessary white spaces",
+      "Add extra spaces for clarity",
+      "Use tabs between attributes",
+      "Ignore whitespace"
+    ],
+    "answer": "Eliminate unnecessary white spaces"
+  },
+  {
+    "question": "Why should you close optional HTML tags, even if not required?",
+    "options": [
+      "For better readability and to avoid unexpected rendering",
+      "It is required for all browsers",
+      "It improves SEO",
+      "It makes pages load faster"
+    ],
+    "answer": "For better readability and to avoid unexpected rendering"
+  }
+]
+
       }
     }
   }
