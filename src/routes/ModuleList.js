@@ -14,6 +14,10 @@ const modules = [
   { id: "Module-9", title: "Using MS Word 2010 Software" },
   { id: "Module-10", title: "Using MS Excels Software" },
   { id: "Module-11", title: "Computer Networks and internet" },
+  { id: "Module-12", title: "Demonstrate on MySql" },
+  { id: "Module-13", title: "HTML Structure" },
+  { id: "Module-14", title: "CSS Styling" },
+  { id: "Module-15", title: "JavaScript Soul" },
 ];
 
 export default function ModuleList() {

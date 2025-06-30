@@ -3,6 +3,7 @@ import ModuleList from "./routes/ModuleList";
 import SubModuleList from "./routes/SubModuleList";
 import QuizPage from "./routes/QuizPage";
 import ResultPage from "./routes/ResultPage";
+import MarkedReview from "./routes/MarkedReview"; // ✅ Import the new component  
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Route path="/submodules/:moduleId" element={<SubModuleList />} />
       <Route path="/quiz/:moduleId/:subId" element={<QuizPage />} />
       <Route path="/result" element={<ResultPage />} />
+              <Route path="/marked-review" element={<MarkedReview />} /> {/* ✅ New Route */}
       </Routes>
     </div>
   );

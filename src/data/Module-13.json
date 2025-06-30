@@ -1,0 +1,47 @@
+{
+  "Module-13": {
+    "title": "Hyper Text Markup Language (HTML)",
+    "submodules": {
+      "basics_1": {
+        "title": "Introduction to HTML",
+        "questions": []
+      },
+      "basics_2": {
+        "title": "HTML Elements and Tags",
+        "questions": []
+      },
+      "functions": {
+        "title": "Text Formatting and Links",
+        "questions": []
+      },
+      "charts": {
+        "title": "Lists and Tables",
+        "questions": []
+      },
+      "shortcuts": {
+        "title": "Images and Multimedia",
+        "questions": []
+      },
+      "Forms": {
+        "title": "Forms and Input Elements",
+        "questions": []
+      },
+      "Semantic" : {
+        "title": "Semantic HTML",
+        "questions": []
+      },
+      "HTML5": {
+        "title": "HTML5 APIs",
+        "questions": []
+      },
+      "CSS-Integration": {
+        "title": "CSS Integration",
+        "questions": []
+      },
+      "Debugging": {
+        "title": "Best Practices and Debugging",
+        "questions": []
+      }
+    }
+  }
+}

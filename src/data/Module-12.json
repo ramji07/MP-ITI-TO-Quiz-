@@ -1,0 +1,5167 @@
+{
+  "Module-12": {
+    "title": "Demonstrate on Mysql",
+    "submodules": {
+      "basics_1": {
+        "title" : "Introduction to MySQL",
+        "questions": [
+  {
+    "question": "What type of database is MySQL?",
+    "options": ["Object-oriented", "Relational", "Network", "Hierarchical"],
+    "answer": "Relational"
+  },
+  {
+    "question": "Which company originally developed MySQL?",
+    "options": ["Oracle", "IBM", "Sun Microsystems", "MySQL AB"],
+    "answer": "MySQL AB"
+  },
+  {
+    "question": "What is the default port number for MySQL?",
+    "options": ["3306", "1521", "5432", "1433"],
+    "answer": "3306"
+  },
+  {
+    "question": "Which of the following is a MySQL storage engine?",
+    "options": ["InnoDB", "MyISAM", "Memory", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which command is used to start the MySQL service on Linux?",
+    "options": ["start mysql", "mysql-start", "sudo systemctl start mysql", "mysql begin"],
+    "answer": "sudo systemctl start mysql"
+  },
+  {
+    "question": "Which storage engine supports foreign keys?",
+    "options": ["MyISAM", "InnoDB", "CSV", "Memory"],
+    "answer": "InnoDB"
+  },
+  {
+    "question": "What is the primary function of MySQL?",
+    "options": ["Text editing", "Database management", "Operating system management", "Graphics rendering"],
+    "answer": "Database management"
+  },
+  {
+    "question": "MySQL is written in which programming language?",
+    "options": ["Java", "C", "C++", "C and C++"],
+    "answer": "C and C++"
+  },
+  {
+    "question": "Which file contains the MySQL configuration settings?",
+    "options": ["mysql.conf", "settings.conf", "my.cnf", "config.cfg"],
+    "answer": "my.cnf"
+  },
+  {
+    "question": "Which of these is NOT a feature of MySQL?",
+    "options": ["Multi-user support", "ACID compliance", "Graph-based queries", "Open-source nature"],
+    "answer": "Graph-based queries"
+  },
+
+  {
+    "question": "MySQL falls under which software license?",
+    "options": ["GPL", "Apache", "MIT", "BSD"],
+    "answer": "GPL"
+  },
+  {
+    "question": "What does RDBMS stand for?",
+    "options": ["Relational Database Management System", "Real-time Database Management Software", "Reliable Data Bank Management System", "Relational Data Backup Management System"],
+    "answer": "Relational Database Management System"
+  },
+  {
+    "question": "Which component manages SQL queries in MySQL?",
+    "options": ["Query Optimizer", "Query Parser", "SQL Engine", "Storage Engine"],
+    "answer": "SQL Engine"
+  },
+  {
+    "question": "Which tool is commonly used for managing MySQL via GUI?",
+    "options": ["phpMyAdmin", "MySQL CLI", "MySQL Viewer", "Oracle GUI"],
+    "answer": "phpMyAdmin"
+  },
+  {
+    "question": "Which of the following is a command-line client for MySQL?",
+    "options": ["mysql", "mysqld", "mysqladmin", "mysqlserver"],
+    "answer": "mysql"
+  },
+  {
+    "question": "The process of installing MySQL involves which of the following?",
+    "options": ["Downloading the installer", "Running the setup wizard", "Configuring the server", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "In MySQL architecture, which layer handles SQL commands?",
+    "options": ["Connection Layer", "SQL Layer", "Storage Layer", "Hardware Layer"],
+    "answer": "SQL Layer"
+  },
+  {
+    "question": "Which of these engines supports full-text search in MySQL?",
+    "options": ["InnoDB", "MyISAM", "CSV", "ARCHIVE"],
+    "answer": "MyISAM"
+  },
+  {
+    "question": "Which MySQL engine is best suited for read-heavy operations?",
+    "options": ["MyISAM", "InnoDB", "Memory", "CSV"],
+    "answer": "MyISAM"
+  },
+  {
+    "question": "Which of the following is responsible for data storage in MySQL?",
+    "options": ["SQL Parser", "Query Optimizer", "Storage Engine", "Connection Pool"],
+    "answer": "Storage Engine"
+  },
+
+  {
+    "question": "Which command connects to a MySQL server using terminal?",
+    "options": ["mysql -u root -p", "mysql.connect()", "connect_mysql()", "start mysql"],
+    "answer": "mysql -u root -p"
+  },
+  {
+    "question": "MySQL uses what kind of architecture?",
+    "options": ["Monolithic", "Client-Server", "Peer-to-Peer", "Decentralized"],
+    "answer": "Client-Server"
+  },
+  {
+    "question": "Which engine is ideal for temporary data storage?",
+    "options": ["CSV", "InnoDB", "Memory", "MyISAM"],
+    "answer": "Memory"
+  },
+  {
+    "question": "Which file format does MyISAM use for data storage?",
+    "options": [".MYD", ".MYI", ".frm", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "In MySQL, what is the role of `mysqld`?",
+    "options": ["Query tool", "Daemon that runs MySQL server", "Configuration file", "User login tool"],
+    "answer": "Daemon that runs MySQL server"
+  },
+  {
+    "question": "Which engine supports transactions in MySQL?",
+    "options": ["MyISAM", "InnoDB", "CSV", "ARCHIVE"],
+    "answer": "InnoDB"
+  },
+  {
+    "question": "Which of the following is used to create a database in MySQL?",
+    "options": ["MAKE DATABASE", "CREATE DATABASE", "NEW DATABASE", "ADD DATABASE"],
+    "answer": "CREATE DATABASE"
+  },
+  {
+    "question": "Which storage engine is the default in modern MySQL versions?",
+    "options": ["MyISAM", "InnoDB", "ARCHIVE", "CSV"],
+    "answer": "InnoDB"
+  },
+  {
+    "question": "Which command is used to view all databases in MySQL?",
+    "options": ["SHOW DATABASES;", "LIST DATABASE;", "DISPLAY DB;", "SELECT ALL DATABASE;"],
+    "answer": "SHOW DATABASES;"
+  },
+  {
+    "question": "Which command is used to delete a database?",
+    "options": ["REMOVE DATABASE", "DELETE DATABASE", "DROP DATABASE", "CLEAR DATABASE"],
+    "answer": "DROP DATABASE"
+  },
+
+  {
+    "question": "Which one is NOT a MySQL storage engine?",
+    "options": ["InnoDB", "MongoDB", "MyISAM", "Memory"],
+    "answer": "MongoDB"
+  },
+  {
+    "question": "Which component in MySQL handles user authentication?",
+    "options": ["Query Parser", "Connection Layer", "Storage Engine", "SQL Layer"],
+    "answer": "Connection Layer"
+  },
+  {
+    "question": "Which of the following commands creates a user in MySQL?",
+    "options": ["CREATE NEW USER", "MAKE USER", "CREATE USER", "INSERT USER"],
+    "answer": "CREATE USER"
+  },
+  {
+    "question": "MySQL supports which of the following programming APIs?",
+    "options": ["ODBC", "JDBC", "Python", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which command is used to switch between databases?",
+    "options": ["USE database_name;", "SELECT DATABASE database_name;", "OPEN DATABASE database_name;", "SWITCH DATABASE database_name;"],
+    "answer": "USE database_name;"
+  },
+  {
+    "question": "Which of these is a temporary table engine?",
+    "options": ["ARCHIVE", "InnoDB", "Memory", "MyISAM"],
+    "answer": "Memory"
+  },
+  {
+    "question": "What is the maximum number of rows a MyISAM table can store?",
+    "options": ["2^32", "4GB", "Unlimited", "Depends on OS"],
+    "answer": "Depends on OS"
+  },
+  {
+    "question": "What does the SQL layer do in MySQL?",
+    "options": ["Stores data", "Parses SQL", "Handles physical files", "Formats HTML"],
+    "answer": "Parses SQL"
+  },
+  {
+    "question": "Which of these storage engines compresses data for archiving?",
+    "options": ["ARCHIVE", "MyISAM", "InnoDB", "Memory"],
+    "answer": "ARCHIVE"
+  },
+  {
+    "question": "What is the use of the `mysqladmin` utility?",
+    "options": ["Database backup", "Server administration", "User creation", "Data insertion"],
+    "answer": "Server administration"
+  },
+
+  {
+    "question": "Which of the following file contains the table definition?",
+    "options": [".frm", ".MYD", ".MYI", ".cnf"],
+    "answer": ".frm"
+  },
+  {
+    "question": "Which company owns MySQL as of now?",
+    "options": ["Oracle", "Microsoft", "Google", "IBM"],
+    "answer": "Oracle"
+  },
+  {
+    "question": "Which of these storage engines is designed for fast inserts?",
+    "options": ["ARCHIVE", "Memory", "InnoDB", "MyISAM"],
+    "answer": "ARCHIVE"
+  },
+  {
+    "question": "What is used to manage multiple MySQL versions on a system?",
+    "options": ["MySQL Shell", "MySQL Installer", "Docker", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "The MySQL `root` user has what kind of access by default?",
+    "options": ["No access", "Limited access", "Read-only", "Full access"],
+    "answer": "Full access"
+  },
+  {
+    "question": "Which command shows the current MySQL version?",
+    "options": ["SELECT VERSION();", "SHOW VERSION;", "MYSQL -VERSION", "VERSION();"],
+    "answer": "SELECT VERSION();"
+  },
+  {
+    "question": "Which command lists all tables in the current database?",
+    "options": ["SHOW TABLES;", "LIST TABLES;", "TABLE LIST;", "SELECT * TABLES;"],
+    "answer": "SHOW TABLES;"
+  },
+  {
+    "question": "What is the role of the Query Optimizer in MySQL?",
+    "options": ["Improves performance", "Stores backups", "Manages users", "Deletes temp files"],
+    "answer": "Improves performance"
+  }
+]
+      },
+      "basics_2": {
+        "title" : "Database and Table Management",
+        "questions": [
+  {
+    "question": "Which SQL command is used to create a new database in MySQL?",
+    "options": [
+      "CREATE DATABASE",
+      "NEW DATABASE",
+      "ADD DATABASE",
+      "MAKE DATABASE"
+    ],
+    "answer": "CREATE DATABASE"
+  },
+  {
+    "question": "What is the correct syntax to create a database named 'EmployeeDB'?",
+    "options": [
+      "CREATE DATABASE EmployeeDB;",
+      "CREATE EmployeeDB DATABASE;",
+      "NEW DATABASE EmployeeDB;",
+      "DATABASE CREATE EmployeeDB;"
+    ],
+    "answer": "CREATE DATABASE EmployeeDB;"
+  },
+  {
+    "question": "Which command is used to delete a database in MySQL?",
+    "options": [
+      "DELETE DATABASE",
+      "DROP DATABASE",
+      "REMOVE DATABASE",
+      "ERASE DATABASE"
+    ],
+    "answer": "DROP DATABASE"
+  },
+  {
+    "question": "What happens if you execute 'DROP DATABASE EmployeeDB;' and the database does not exist?",
+    "options": [
+      "The command executes successfully",
+      "An error is thrown",
+      "A new database is created",
+      "The command is ignored"
+    ],
+    "answer": "An error is thrown"
+  },
+  {
+    "question": "Which keyword is used to prevent an error when dropping a database that does not exist?",
+    "options": [
+      "IF EXISTS",
+      "IF NOT EXISTS",
+      "CHECK EXISTS",
+      "WHEN EXISTS"
+    ],
+    "answer": "IF EXISTS"
+  },
+  {
+    "question": "What is the correct syntax to create a table named 'Employees'?",
+    "options": [
+      "CREATE TABLE Employees;",
+      "NEW TABLE Employees;",
+      "ADD TABLE Employees;",
+      "MAKE TABLE Employees;"
+    ],
+    "answer": "CREATE TABLE Employees;"
+  },
+  {
+    "question": "Which SQL command is used to modify an existing table structure?",
+    "options": [
+      "ALTER TABLE",
+      "MODIFY TABLE",
+      "CHANGE TABLE",
+      "UPDATE TABLE"
+    ],
+    "answer": "ALTER TABLE"
+  },
+  {
+    "question": "Which command is used to delete a table in MySQL?",
+    "options": [
+      "DELETE TABLE",
+      "DROP TABLE",
+      "REMOVE TABLE",
+      "ERASE TABLE"
+    ],
+    "answer": "DROP TABLE"
+  },
+  {
+    "question": "What is the purpose of the 'IF EXISTS' clause when dropping a table?",
+    "options": [
+      "To create the table if it does not exist",
+      "To avoid an error if the table does not exist",
+      "To rename the table",
+      "To modify the table structure"
+    ],
+    "answer": "To avoid an error if the table does not exist"
+  },
+  {
+    "question": "Which data type in MySQL is used to store whole numbers?",
+    "options": [
+      "VARCHAR",
+      "INT",
+      "FLOAT",
+      "TEXT"
+    ],
+    "answer": "INT"
+  },
+  {
+    "question": "What is the maximum length of a VARCHAR data type in MySQL?",
+    "options": [
+      "255 characters",
+      "65,535 characters",
+      "1,000 characters",
+      "10,000 characters"
+    ],
+    "answer": "65,535 characters"
+  },
+  {
+    "question": "Which MySQL data type is used to store dates in the format 'YYYY-MM-DD'?",
+    "options": [
+      "DATETIME",
+      "DATE",
+      "TIMESTAMP",
+      "YEAR"
+    ],
+    "answer": "DATE"
+  },
+  {
+    "question": "Which data type is used to store large amounts of text in MySQL?",
+    "options": [
+      "CHAR",
+      "VARCHAR",
+      "TEXT",
+      "BLOB"
+    ],
+    "answer": "TEXT"
+  },
+  {
+    "question": "What is the default size of a CHAR data type if no length is specified?",
+    "options": [
+      "1",
+      "255",
+      "256",
+      "65,535"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Which command adds a new column to an existing table?",
+    "options": [
+      "ALTER TABLE ADD COLUMN",
+      "ADD COLUMN TO TABLE",
+      "MODIFY TABLE ADD",
+      "CHANGE TABLE COLUMN"
+    ],
+    "answer": "ALTER TABLE ADD COLUMN"
+  },
+  {
+    "question": "Which data type is best suited for storing a fixed-length string of 10 characters?",
+    "options": [
+      "VARCHAR(10)",
+      "CHAR(10)",
+      "TEXT",
+      "BLOB"
+    ],
+    "answer": "CHAR(10)"
+  },
+  {
+    "question": "What is the purpose of the 'AUTO_INCREMENT' attribute in MySQL?",
+    "options": [
+      "To automatically generate unique values for a column",
+      "To set a default value for a column",
+      "To limit the column size",
+      "To make a column nullable"
+    ],
+    "answer": "To automatically generate unique values for a column"
+  },
+  {
+    "question": "Which data type is used to store decimal numbers in MySQL?",
+    "options": [
+      "INT",
+      "FLOAT",
+      "VARCHAR",
+      "DATE"
+    ],
+    "answer": "FLOAT"
+  },
+  {
+    "question": "Which command is used to change the data type of a column in a table?",
+    "options": [
+      "ALTER TABLE MODIFY COLUMN",
+      "CHANGE TABLE COLUMN",
+      "ALTER TABLE CHANGE TYPE",
+      "MODIFY TABLE TYPE"
+    ],
+    "answer": "ALTER TABLE MODIFY COLUMN"
+  },
+  {
+    "question": "What is the correct syntax to drop a column named 'age' from a table named 'Employees'?",
+    "options": [
+      "ALTER TABLE Employees DROP COLUMN age;",
+      "DROP COLUMN age FROM Employees;",
+      "ALTER TABLE Employees REMOVE age;",
+      "DELETE COLUMN age FROM Employees;"
+    ],
+    "answer": "ALTER TABLE Employees DROP COLUMN age;"
+  },
+  {
+    "question": "Which MySQL data type is used to store a boolean value?",
+    "options": [
+      "BOOLEAN",
+      "BIT",
+      "TINYINT",
+      "CHAR"
+    ],
+    "answer": "TINYINT"
+  },
+  {
+    "question": "What is the maximum value that can be stored in an INT data type in MySQL?",
+    "options": [
+      "2,147,483,647",
+      "65,535",
+      "255",
+      "4,294,967,295"
+    ],
+    "answer": "2,147,483,647"
+  },
+  {
+    "question": "Which data type is used to store a date and time value in MySQL?",
+    "options": [
+      "DATE",
+      "DATETIME",
+      "TIMESTAMP",
+      "TIME"
+    ],
+    "answer": "DATETIME"
+  },
+  {
+    "question": "What is the purpose of the 'NOT NULL' constraint in a table definition?",
+    "options": [
+      "To ensure a column cannot have null values",
+      "To make a column optional",
+      "To set a default value",
+      "To create an index"
+    ],
+    "answer": "To ensure a column cannot have null values"
+  },
+  {
+    "question": "Which command is used to rename a table in MySQL?",
+    "options": [
+      "ALTER TABLE RENAME",
+      "RENAME TABLE",
+      "CHANGE TABLE NAME",
+      "MODIFY TABLE NAME"
+    ],
+    "answer": "RENAME TABLE"
+  },
+  {
+    "question": "What is the correct syntax to create a table with a primary key?",
+    "options": [
+      "CREATE TABLE Employees (id INT PRIMARY KEY);",
+      "CREATE TABLE Employees (id INT KEY);",
+      "CREATE TABLE Employees (id INT UNIQUE);",
+      "CREATE TABLE Employees (id INT INDEX);"
+    ],
+    "answer": "CREATE TABLE Employees (id INT PRIMARY KEY);"
+  },
+  {
+    "question": "Which data type is best for storing a phone number in MySQL?",
+    "options": [
+      "INT",
+      "VARCHAR",
+      "FLOAT",
+      "TEXT"
+    ],
+    "answer": "VARCHAR"
+  },
+  {
+    "question": "What is the default value of a column if not specified in MySQL?",
+    "options": [
+      "0",
+      "NULL",
+      "Empty string",
+      "1"
+    ],
+    "answer": "NULL"
+  },
+  {
+    "question": "Which data type is used to store binary data in MySQL?",
+    "options": [
+      "TEXT",
+      "BLOB",
+      "VARCHAR",
+      "CHAR"
+    ],
+    "answer": "BLOB"
+  },
+  {
+    "question": "Which command is used to add a foreign key to an existing table?",
+    "options": [
+      "ALTER TABLE ADD FOREIGN KEY",
+      "ADD FOREIGN KEY TO TABLE",
+      "MODIFY TABLE FOREIGN KEY",
+      "CHANGE TABLE FOREIGN KEY"
+    ],
+    "answer": "ALTER TABLE ADD FOREIGN KEY"
+  },
+  {
+    "question": "What is the maximum size of a TINYINT data type in MySQL?",
+    "options": [
+      "127",
+      "255",
+      "65,535",
+      "2,147,483,647"
+    ],
+    "answer": "255"
+  },
+  {
+    "question": "Which MySQL data type is used to store a single year value?",
+    "options": [
+      "DATE",
+      "YEAR",
+      "DATETIME",
+      "TIMESTAMP"
+    ],
+    "answer": "YEAR"
+  },
+  {
+    "question": "What is the purpose of the 'DEFAULT' constraint in MySQL?",
+    "options": [
+      "To set a default value for a column",
+      "To make a column nullable",
+      "To create a primary key",
+      "To enforce uniqueness"
+    ],
+    "answer": "To set a default value for a column"
+  },
+  {
+    "question": "Which command is used to view the structure of a table in MySQL?",
+    "options": [
+      "DESCRIBE TABLE",
+      "SHOW TABLE",
+      "DISPLAY TABLE",
+      "VIEW TABLE"
+    ],
+    "answer": "DESCRIBE TABLE"
+  },
+ {
+    "question": "Which MySQL data type is used to store a time value without a date?",
+    "options": [
+      "DATE",
+      "TIME",
+      "DATETIME",
+      "TIMESTAMP"
+    ],
+    "answer": "TIME"
+  },
+  {
+    "question": "What does the 'UNSIGNED' attribute do to an INT column in MySQL?",
+    "options": [
+      "Allows only positive numbers",
+      "Allows negative numbers",
+      "Increases the maximum value",
+      "Decreases the storage size"
+    ],
+    "answer": "Allows only positive numbers"
+  },
+  {
+    "question": "Which command is used to add a unique constraint to a column?",
+    "options": [
+      "ALTER TABLE ADD UNIQUE",
+      "ADD UNIQUE TO TABLE",
+      "MODIFY TABLE UNIQUE",
+      "CHANGE TABLE UNIQUE"
+    ],
+    "answer": "ALTER TABLE ADD UNIQUE"
+  },
+  {
+    "question": "What is the maximum size of a MEDIUMINT data type in MySQL?",
+    "options": [
+      "255",
+      "65,535",
+      "16,777,215",
+      "2,147,483,647"
+    ],
+    "answer": "16,777,215"
+  },
+  {
+    "question": "Which MySQL data type is best for storing an email address?",
+    "options": [
+      "CHAR",
+      "VARCHAR",
+      "TEXT",
+      "BLOB"
+    ],
+    "answer": "VARCHAR"
+  },
+  {
+    "question": "What is the purpose of the 'PRIMARY KEY' constraint in MySQL?",
+    "options": [
+      "Ensures unique values",
+      "Ensures non-null values",
+      "Uniquely identifies each row",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which command is used to change the name of a column in a table?",
+    "options": [
+      "ALTER TABLE CHANGE",
+      "ALTER TABLE RENAME COLUMN",
+      "RENAME COLUMN",
+      "MODIFY TABLE COLUMN"
+    ],
+    "answer": "ALTER TABLE CHANGE"
+  },
+  {
+    "question": "What is the default storage engine for MySQL tables?",
+    "options": [
+      "MyISAM",
+      "InnoDB",
+      "MEMORY",
+      "CSV"
+    ],
+    "answer": "InnoDB"
+  },
+  {
+    "question": "Which data type is used to store floating-point numbers with high precision?",
+    "options": [
+      "FLOAT",
+      "DOUBLE",
+      "DECIMAL",
+      "INT"
+    ],
+    "answer": "DOUBLE"
+  },
+  {
+    "question": "What is the purpose of the 'CHECK' constraint in MySQL?",
+    "options": [
+      "Ensures a condition is met for column values",
+      "Ensures a column is unique",
+      "Ensures a column is not null",
+      "Ensures a column is indexed"
+    ],
+    "answer": "Ensures a condition is met for column values"
+  },
+  {
+    "question": "Which command is used to drop a foreign key constraint?",
+    "options": [
+      "ALTER TABLE DROP FOREIGN KEY",
+      "DROP FOREIGN KEY",
+      "REMOVE FOREIGN KEY",
+      "DELETE FOREIGN KEY"
+    ],
+    "answer": "ALTER TABLE DROP FOREIGN KEY"
+  },
+  {
+    "question": "What is the maximum size of a BIGINT data type in MySQL?",
+    "options": [
+      "2,147,483,647",
+      "4,294,967,295",
+      "9,223,372,036,854,775,807",
+      "65,535"
+    ],
+    "answer": "9,223,372,036,854,775,807"
+  },
+  {
+    "question": "Which MySQL data type is used to store a small integer value?",
+    "options": [
+      "TINYINT",
+      "SMALLINT",
+      "MEDIUMINT",
+      "INT"
+    ],
+    "answer": "TINYINT"
+  },
+  {
+    "question": "What is the purpose of the 'INDEX' keyword in MySQL?",
+    "options": [
+      "Creates an index on a column",
+      "Ensures unique values",
+      "Sets a default value",
+      "Makes a column nullable"
+    ],
+    "answer": "Creates an index on a column"
+  },
+  {
+    "question": "Which command is used to create a database with a specific character set?",
+    "options": [
+      "CREATE DATABASE db_name CHARACTER SET utf8;",
+      "CREATE DATABASE db_name SET CHARSET utf8;",
+      "CREATE DATABASE db_name WITH CHARSET utf8;",
+      "CREATE DATABASE db_name ENCODING utf8;"
+    ],
+    "answer": "CREATE DATABASE db_name CHARACTER SET utf8;"
+  },
+  {
+    "question": "Which data type is used to store a fixed-point decimal number?",
+    "options": [
+      "FLOAT",
+      "DOUBLE",
+      "DECIMAL",
+      "INT"
+    ],
+    "answer": "DECIMAL"
+  },
+  {
+    "question": "What is the purpose of the 'CASCADE' option in DROP TABLE?",
+    "options": [
+      "Drops dependent tables",
+      "Drops the table only if it exists",
+      "Drops the table and its data",
+      "Drops the table and its indexes"
+    ],
+    "answer": "Drops dependent tables"
+  },
+  {
+    "question": "Which MySQL data type is used to store a large integer value?",
+    "options": [
+      "TINYINT",
+      "SMALLINT",
+      "BIGINT",
+      "MEDIUMINT"
+    ],
+    "answer": "BIGINT"
+  },
+  {
+    "question": "What is the correct syntax to add a default value to a column?",
+    "options": [
+      "ALTER TABLE MODIFY column_name DEFAULT value;",
+      "ALTER TABLE CHANGE column_name DEFAULT value;",
+      "MODIFY TABLE column_name DEFAULT value;",
+      "CHANGE TABLE column_name DEFAULT value;"
+    ],
+    "answer": "ALTER TABLE MODIFY column_name DEFAULT value;"
+  },
+  {
+    "question": "Which data type is used to store a variable-length string up to 255 characters?",
+    "options": [
+      "CHAR",
+      "VARCHAR",
+      "TEXT",
+      "BLOB"
+    ],
+    "answer": "VARCHAR"
+  },
+  {
+    "question": "What is the purpose of the 'ENGINE' option in CREATE TABLE?",
+    "options": [
+      "Specifies the storage engine",
+      "Sets the character set",
+      "Defines the table size",
+      "Enables auto-increment"
+    ],
+    "answer": "Specifies the storage engine"
+  },
+  {
+    "question": "Which command is used to drop an index from a table?",
+    "options": [
+      "DROP INDEX",
+      "REMOVE INDEX",
+      "DELETE INDEX",
+      "ALTER TABLE DROP INDEX"
+    ],
+    "answer": "ALTER TABLE DROP INDEX"
+  },
+  {
+    "question": "Which MySQL data type is best for storing a monetary value?",
+    "options": [
+      "FLOAT",
+      "DOUBLE",
+      "DECIMAL",
+      "INT"
+    ],
+    "answer": "DECIMAL"
+  },
+  {
+    "question": "What is the purpose of the 'FOREIGN KEY' constraint in MySQL?",
+    "options": [
+      "Ensures unique values",
+      "Links a column to a primary key in another table",
+      "Sets a default value",
+      "Makes a column nullable"
+    ],
+    "answer": "Links a column to a primary key in another table"
+  },
+  {
+    "question": "Which command is used to select the current database?",
+    "options": [
+      "USE DATABASE",
+      "SELECT DATABASE",
+      "SET DATABASE",
+      "OPEN DATABASE"
+    ],
+    "answer": "USE DATABASE"
+  },
+  {
+    "question": "What is the maximum size of a SMALLINT data type in MySQL?",
+    "options": [
+      "255",
+      "65,535",
+      "32,767",
+      "2,147,483,647"
+    ],
+    "answer": "32,767"
+  },
+  {
+    "question": "Which MySQL data type is used to store a timestamp value?",
+    "options": [
+      "DATE",
+      "TIME",
+      "DATETIME",
+      "TIMESTAMP"
+    ],
+    "answer": "TIMESTAMP"
+  },
+  {
+    "question": "What is the purpose of the 'ON DELETE CASCADE' option in a foreign key?",
+    "options": [
+      "Deletes related rows in the child table",
+      "Updates related rows in the child table",
+      "Sets related rows to NULL",
+      "Prevents deletion of related rows"
+    ],
+    "answer": "Deletes related rows in the child table"
+  },
+  {
+    "question": "Which command is used to create a table with a specific collation?",
+    "options": [
+      "CREATE TABLE table_name COLLATE utf8_general_ci;",
+      "CREATE TABLE table_name CHARACTER SET utf8;",
+      "CREATE TABLE table_name ENCODING utf8;",
+      "CREATE TABLE table_name WITH COLLATION utf8_general_ci;"
+    ],
+    "answer": "CREATE TABLE table_name COLLATE utf8_general_ci;"
+  },
+  {
+    "question": "What is the purpose of the 'UNIQUE' constraint in MySQL?",
+    "options": [
+      "Ensures a column has unique values",
+      "Ensures a column is not null",
+      "Sets a default value",
+      "Creates an index"
+    ],
+    "answer": "Ensures a column has unique values"
+  },
+  {
+    "question": "Which MySQL data type is used to store a single character?",
+    "options": [
+      "CHAR(1)",
+      "VARCHAR(1)",
+      "TINYTEXT",
+      "BIT"
+    ],
+    "answer": "CHAR(1)"
+  },
+  {
+    "question": "What is the correct syntax to drop a database?",
+    "options": [
+      "DROP DATABASE db_name;",
+      "DELETE DATABASE db_name;",
+      "REMOVE DATABASE db_name;",
+      "ERASE DATABASE db_name;"
+    ],
+    "answer": "DROP DATABASE db_name;"
+  },
+  {
+    "question": "Which data type is used to store a variable-length binary string?",
+    "options": [
+      "BLOB",
+      "VARBINARY",
+      "TEXT",
+      "BINARY"
+    ],
+    "answer": "VARBINARY"
+  },
+  {
+    "question": "What is the purpose of the 'ALTER TABLE' command in MySQL?",
+    "options": [
+      "To create a new table",
+      "To modify an existing table",
+      "To delete a table",
+      "To select a table"
+    ],
+    "answer": "To modify an existing table"
+  },
+  {
+    "question": "Which MySQL data type is used to store a fixed-length binary string?",
+    "options": [
+      "BLOB",
+      "VARBINARY",
+      "BINARY",
+      "TEXT"
+    ],
+    "answer": "BINARY"
+  }
+        ]
+      },
+      "functions": {
+        "title" : "Data Manipulation and Queries",
+        "questions": [
+  {
+    "question": "Which SQL statement is used to add new data into a table?",
+    "options": ["INSERT", "UPDATE", "DELETE", "SELECT"],
+    "answer": "INSERT"
+  },
+  {
+    "question": "Which clause is used to filter records in a SELECT statement?",
+    "options": ["ORDER BY", "WHERE", "GROUP BY", "HAVING"],
+    "answer": "WHERE"
+  },
+  {
+    "question": "What does the UPDATE statement do?",
+    "options": ["Adds new records", "Modifies existing records", "Deletes records", "Retrieves records"],
+    "answer": "Modifies existing records"
+  },
+  {
+    "question": "Which SQL statement is used to remove data from a table?",
+    "options": ["INSERT", "UPDATE", "DELETE", "SELECT"],
+    "answer": "DELETE"
+  },
+  {
+    "question": "Which keyword is used to retrieve all columns from a table?",
+    "options": ["ALL", "*", "COLUMNS", "ALL_COLUMNS"],
+    "answer": "*"
+  },
+  {
+    "question": "What is the correct syntax to insert a new row into the 'users' table?",
+    "options": [
+      "INSERT INTO users VALUES ('John', 'Doe');",
+      "INSERT users VALUES ('John', 'Doe');",
+      "ADD INTO users VALUES ('John', 'Doe');",
+      "INSERT INTO users ('John', 'Doe');"
+    ],
+    "answer": "INSERT INTO users VALUES ('John', 'Doe');"
+  },
+  {
+    "question": "Which statement will update the 'salary' column in the 'employees' table to 5000 where 'id' is 3?",
+    "options": [
+      "UPDATE employees SET salary = 5000 WHERE id = 3;",
+      "MODIFY employees SET salary = 5000 WHERE id = 3;",
+      "CHANGE employees SET salary = 5000 WHERE id = 3;",
+      "UPDATE salary FROM employees WHERE id = 3;"
+    ],
+    "answer": "UPDATE employees SET salary = 5000 WHERE id = 3;"
+  },
+  {
+    "question": "What will the following SQL do? DELETE FROM students WHERE grade < 50;",
+    "options": [
+      "Remove students with grade less than 50",
+      "Remove all students",
+      "Remove students with grade greater than 50",
+      "Update students with grade less than 50"
+    ],
+    "answer": "Remove students with grade less than 50"
+  },
+  {
+    "question": "Which SQL clause is used to sort the result-set?",
+    "options": ["ORDER BY", "SORT BY", "GROUP BY", "ARRANGE BY"],
+    "answer": "ORDER BY"
+  },
+  {
+    "question": "Which SQL statement will select only unique values?",
+    "options": [
+      "SELECT DISTINCT column_name FROM table_name;",
+      "SELECT UNIQUE column_name FROM table_name;",
+      "SELECT DIFFERENT column_name FROM table_name;",
+      "SELECT ONLY column_name FROM table_name;"
+    ],
+    "answer": "SELECT DISTINCT column_name FROM table_name;"
+  },
+  {
+    "question": "How do you delete all records from a table named 'orders'?",
+    "options": [
+      "DELETE FROM orders;",
+      "REMOVE FROM orders;",
+      "DROP FROM orders;",
+      "DELETE * FROM orders;"
+    ],
+    "answer": "DELETE FROM orders;"
+  },
+  {
+    "question": "Which statement will insert a new record into the 'products' table with columns (id, name, price)?",
+    "options": [
+      "INSERT INTO products (id, name, price) VALUES (1, 'Pen', 10);",
+      "ADD INTO products (id, name, price) VALUES (1, 'Pen', 10);",
+      "INSERT products (id, name, price) VALUES (1, 'Pen', 10);",
+      "INSERT INTO products VALUES (1, 'Pen', 10) (id, name, price);"
+    ],
+    "answer": "INSERT INTO products (id, name, price) VALUES (1, 'Pen', 10);"
+  },
+  {
+    "question": "Which SQL statement is used to retrieve data from a database?",
+    "options": ["SELECT", "GET", "RETRIEVE", "SHOW"],
+    "answer": "SELECT"
+  },
+  {
+    "question": "What does the WHERE clause do in a SELECT statement?",
+    "options": [
+      "Filters rows based on a condition",
+      "Sorts the result",
+      "Groups the result",
+      "Deletes rows"
+    ],
+    "answer": "Filters rows based on a condition"
+  },
+  {
+    "question": "Which SQL statement will change the 'email' of a user with id 5?",
+    "options": [
+      "UPDATE users SET email = 'new@email.com' WHERE id = 5;",
+      "MODIFY users SET email = 'new@email.com' WHERE id = 5;",
+      "CHANGE users SET email = 'new@email.com' WHERE id = 5;",
+      "UPDATE email FROM users WHERE id = 5;"
+    ],
+    "answer": "UPDATE users SET email = 'new@email.com' WHERE id = 5;"
+  },
+  {
+    "question": "How do you select all records from the 'customers' table?",
+    "options": [
+      "SELECT * FROM customers;",
+      "GET * FROM customers;",
+      "SELECT ALL FROM customers;",
+      "SHOW * FROM customers;"
+    ],
+    "answer": "SELECT * FROM customers;"
+  },
+  {
+    "question": "Which SQL statement will delete only the 'address' column data for all records in the 'clients' table?",
+    "options": [
+      "UPDATE clients SET address = NULL;",
+      "DELETE address FROM clients;",
+      "REMOVE address FROM clients;",
+      "DELETE FROM clients WHERE address;"
+    ],
+    "answer": "UPDATE clients SET address = NULL;"
+  },
+  {
+    "question": "What will happen if you run: DELETE FROM table_name;",
+    "options": [
+      "All records will be deleted but table will remain",
+      "Table will be deleted",
+      "Only one record will be deleted",
+      "Nothing will happen"
+    ],
+    "answer": "All records will be deleted but table will remain"
+  },
+  {
+    "question": "Which operator is used with WHERE to select rows where salary is between 2000 and 5000?",
+    "options": ["BETWEEN", "IN", "LIKE", "RANGE"],
+    "answer": "BETWEEN"
+  },
+  {
+    "question": "Which of the following is the correct syntax for updating multiple columns?",
+    "options": [
+      "UPDATE table SET col1 = val1, col2 = val2 WHERE condition;",
+      "UPDATE table SET (col1, col2) = (val1, val2) WHERE condition;",
+      "UPDATE table (col1, col2) VALUES (val1, val2) WHERE condition;",
+      "MODIFY table SET col1 = val1, col2 = val2 WHERE condition;"
+    ],
+    "answer": "UPDATE table SET col1 = val1, col2 = val2 WHERE condition;"
+  },
+  {
+    "question": "Which SQL keyword is used to prevent duplicate entries when selecting data?",
+    "options": ["DISTINCT", "UNIQUE", "NO DUPLICATE", "SINGLE"],
+    "answer": "DISTINCT"
+  },
+  {
+    "question": "What does the LIMIT clause do in a SELECT statement?",
+    "options": [
+      "Restricts the number of rows returned",
+      "Limits the number of columns",
+      "Limits the number of tables",
+      "Limits the number of databases"
+    ],
+    "answer": "Restricts the number of rows returned"
+  },
+  {
+    "question": "Which statement will delete all records from 'sales' where 'amount' is less than 100?",
+    "options": [
+      "DELETE FROM sales WHERE amount < 100;",
+      "REMOVE FROM sales WHERE amount < 100;",
+      "DELETE sales WHERE amount < 100;",
+      "DROP FROM sales WHERE amount < 100;"
+    ],
+    "answer": "DELETE FROM sales WHERE amount < 100;"
+  },
+  {
+    "question": "How do you insert a new row with only the 'name' column in the 'departments' table?",
+    "options": [
+      "INSERT INTO departments (name) VALUES ('HR');",
+      "INSERT INTO departments VALUES ('HR');",
+      "INSERT departments (name) VALUES ('HR');",
+      "ADD INTO departments (name) VALUES ('HR');"
+    ],
+    "answer": "INSERT INTO departments (name) VALUES ('HR');"
+  },
+  {
+    "question": "Which clause is used to group rows that have the same values?",
+    "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+    "answer": "GROUP BY"
+  },
+  {
+    "question": "Which clause is used to filter groups in a SELECT statement?",
+    "options": ["HAVING", "WHERE", "GROUP BY", "ORDER BY"],
+    "answer": "HAVING"
+  },
+  {
+    "question": "Which of the following will select all names from the 'students' table?",
+    "options": [
+      "SELECT name FROM students;",
+      "GET name FROM students;",
+      "SELECT * FROM students;",
+      "SHOW name FROM students;"
+    ],
+    "answer": "SELECT name FROM students;"
+  },
+  {
+    "question": "Which SQL statement is used to change data in a table?",
+    "options": ["UPDATE", "INSERT", "DELETE", "SELECT"],
+    "answer": "UPDATE"
+  },
+  {
+    "question": "To insert multiple rows in one statement, you should:",
+    "options": [
+      "INSERT INTO table (col1, col2) VALUES (val1, val2), (val3, val4);",
+      "INSERT INTO table (col1, col2) VALUES (val1, val2); (val3, val4);",
+      "INSERT table (col1, col2) VALUES (val1, val2), (val3, val4);",
+      "ADD INTO table (col1, col2) VALUES (val1, val2), (val3, val4);"
+    ],
+    "answer": "INSERT INTO table (col1, col2) VALUES (val1, val2), (val3, val4);"
+  },
+  {
+    "question": "Which statement will select all records where 'age' is more than 18?",
+    "options": [
+      "SELECT * FROM table WHERE age > 18;",
+      "SELECT * FROM table WHERE age >= 18;",
+      "SELECT * FROM table WHERE age < 18;",
+      "SELECT * FROM table WHERE age = 18;"
+    ],
+    "answer": "SELECT * FROM table WHERE age > 18;"
+  },
+  {
+    "question": "Which SQL statement is used to remove a table from the database?",
+    "options": ["DROP TABLE table_name;", "DELETE FROM table_name;", "REMOVE TABLE table_name;", "TRUNCATE TABLE table_name;"],
+    "answer": "DROP TABLE table_name;"
+  },
+  {
+    "question": "Which clause is used to filter data after grouping?",
+    "options": ["HAVING", "WHERE", "ORDER BY", "GROUP BY"],
+    "answer": "HAVING"
+  },
+  {
+    "question": "Which SQL statement will delete all records but not the table structure?",
+    "options": [
+      "DELETE FROM table_name;",
+      "DROP TABLE table_name;",
+      "REMOVE TABLE table_name;",
+      "DELETE * FROM table_name;"
+    ],
+    "answer": "DELETE FROM table_name;"
+  },
+  {
+    "question": "Which SQL statement will update the 'status' column to 'active' for all users?",
+    "options": [
+      "UPDATE users SET status = 'active';",
+      "UPDATE users status = 'active';",
+      "SET users status = 'active';",
+      "CHANGE users SET status = 'active';"
+    ],
+    "answer": "UPDATE users SET status = 'active';"
+  },
+  {
+    "question": "Which SQL statement retrieves only the first 10 rows from the 'products' table?",
+    "options": [
+      "SELECT * FROM products LIMIT 10;",
+      "SELECT TOP 10 * FROM products;",
+      "SELECT FIRST 10 * FROM products;",
+      "SELECT * FROM products WHERE ROWNUM <= 10;"
+    ],
+    "answer": "SELECT * FROM products LIMIT 10;"
+  },
+  {
+    "question": "What is the purpose of the TRUNCATE statement?",
+    "options": [
+      "Removes all records and resets identity",
+      "Deletes specific records",
+      "Removes the table",
+      "Updates records"
+    ],
+    "answer": "Removes all records and resets identity"
+  },
+  {
+    "question": "Which SQL keyword is used to check if a value exists in a list?",
+    "options": ["IN", "BETWEEN", "LIKE", "EXISTS"],
+    "answer": "IN"
+  },
+  {
+    "question": "Which SQL statement will select all records where 'name' starts with 'A'?",
+    "options": [
+      "SELECT * FROM table WHERE name LIKE 'A%';",
+      "SELECT * FROM table WHERE name = 'A';",
+      "SELECT * FROM table WHERE name LIKE '%A';",
+      "SELECT * FROM table WHERE name = 'A%';"
+    ],
+    "answer": "SELECT * FROM table WHERE name LIKE 'A%';"
+  },
+  {
+    "question": "Which statement will update the 'price' column by increasing it by 10%?",
+    "options": [
+      "UPDATE products SET price = price * 1.10;",
+      "UPDATE products SET price = price + 10%;",
+      "UPDATE products SET price = 10% * price;",
+      "UPDATE products price = price * 1.10;"
+    ],
+    "answer": "UPDATE products SET price = price * 1.10;"
+  },
+  {
+    "question": "Which SQL statement will delete all records from 'employees' and reset identity?",
+    "options": [
+      "TRUNCATE TABLE employees;",
+      "DELETE FROM employees;",
+      "DROP TABLE employees;",
+      "REMOVE FROM employees;"
+    ],
+    "answer": "TRUNCATE TABLE employees;"
+  },
+  {
+    "question": "Which SQL clause is used to combine rows from two or more tables?",
+    "options": ["JOIN", "UNION", "MERGE", "GROUP BY"],
+    "answer": "JOIN"
+  },
+  {
+    "question": "Which function is used to count the number of rows in a table?",
+    "options": ["COUNT()", "SUM()", "TOTAL()", "NUMBER()"],
+    "answer": "COUNT()"
+  },
+  {
+    "question": "Which SQL statement will select the maximum salary from the 'employees' table?",
+    "options": [
+      "SELECT MAX(salary) FROM employees;",
+      "SELECT salary FROM employees MAX;",
+      "SELECT MAXIMUM(salary) FROM employees;",
+      "SELECT TOP salary FROM employees;"
+    ],
+    "answer": "SELECT MAX(salary) FROM employees;"
+  },
+  {
+    "question": "Which SQL statement will insert a new record with default values?",
+    "options": [
+      "INSERT INTO table DEFAULT VALUES;",
+      "INSERT INTO table VALUES ();",
+      "INSERT table DEFAULT VALUES;",
+      "ADD INTO table DEFAULT VALUES;"
+    ],
+    "answer": "INSERT INTO table DEFAULT VALUES;"
+  },
+  {
+    "question": "Which statement will update the 'quantity' column by 1 for all records?",
+    "options": [
+      "UPDATE table SET quantity = quantity + 1;",
+      "UPDATE table SET quantity = 1;",
+      "UPDATE table quantity = quantity + 1;",
+      "SET table quantity = quantity + 1;"
+    ],
+    "answer": "UPDATE table SET quantity = quantity + 1;"
+  },
+  {
+    "question": "Which SQL statement will delete records where 'status' is NULL?",
+    "options": [
+      "DELETE FROM table WHERE status IS NULL;",
+      "DELETE FROM table WHERE status = NULL;",
+      "DELETE FROM table WHERE status == NULL;",
+      "REMOVE FROM table WHERE status IS NULL;"
+    ],
+    "answer": "DELETE FROM table WHERE status IS NULL;"
+  },
+  {
+    "question": "Which SQL statement will select the sum of the 'amount' column?",
+    "options": [
+      "SELECT SUM(amount) FROM table;",
+      "SELECT TOTAL(amount) FROM table;",
+      "SELECT amount SUM FROM table;",
+      "SELECT SUM FROM table amount;"
+    ],
+    "answer": "SELECT SUM(amount) FROM table;"
+  },
+  {
+    "question": "Which SQL statement is used to delete duplicate rows?",
+    "options": [
+      "DELETE FROM table WHERE rowid NOT IN (SELECT MIN(rowid) FROM table GROUP BY column1, column2);",
+      "REMOVE DUPLICATES FROM table;",
+      "DELETE DUPLICATE FROM table;",
+      "DELETE FROM table WHERE DUPLICATE;"
+    ],
+    "answer": "DELETE FROM table WHERE rowid NOT IN (SELECT MIN(rowid) FROM table GROUP BY column1, column2);"
+  },
+  {
+    "question": "Which clause is used to combine the result of two SELECT statements?",
+    "options": ["UNION", "JOIN", "GROUP BY", "MERGE"],
+    "answer": "UNION"
+  },
+  {
+    "question": "Which SQL statement will select all records where 'city' is either 'Delhi' or 'Mumbai'?",
+    "options": [
+      "SELECT * FROM table WHERE city IN ('Delhi', 'Mumbai');",
+      "SELECT * FROM table WHERE city = 'Delhi' OR 'Mumbai';",
+      "SELECT * FROM table WHERE city LIKE 'Delhi' OR 'Mumbai';",
+      "SELECT * FROM table WHERE city = ('Delhi', 'Mumbai');"
+    ],
+    "answer": "SELECT * FROM table WHERE city IN ('Delhi', 'Mumbai');"
+  },
+  {
+    "question": "Which SQL statement will select the average value of the 'marks' column?",
+    "options": [
+      "SELECT AVG(marks) FROM table;",
+      "SELECT AVERAGE(marks) FROM table;",
+      "SELECT MEAN(marks) FROM table;",
+      "SELECT AVG FROM table marks;"
+    ],
+    "answer": "SELECT AVG(marks) FROM table;"
+  },
+  {
+    "question": "Which SQL statement will update records where 'department' is 'Sales'?",
+    "options": [
+      "UPDATE table SET column = value WHERE department = 'Sales';",
+      "UPDATE table WHERE department = 'Sales' SET column = value;",
+      "UPDATE table department = 'Sales' SET column = value;",
+      "UPDATE table SET column = value AND department = 'Sales';"
+    ],
+    "answer": "UPDATE table SET column = value WHERE department = 'Sales';"
+  },
+  {
+    "question": "Which SQL clause is used to specify the table to select or delete data from?",
+    "options": ["FROM", "INTO", "OF", "TO"],
+    "answer": "FROM"
+  },
+  {
+    "question": "Which SQL statement will select all records where 'name' contains 'an'?",
+    "options": [
+      "SELECT * FROM table WHERE name LIKE '%an%';",
+      "SELECT * FROM table WHERE name = 'an';",
+      "SELECT * FROM table WHERE name LIKE 'an%';",
+      "SELECT * FROM table WHERE name LIKE '%an';"
+    ],
+    "answer": "SELECT * FROM table WHERE name LIKE '%an%';"
+  },
+  {
+    "question": "Which SQL statement will insert a new row into 'students' with only the 'id' and 'name' columns?",
+    "options": [
+      "INSERT INTO students (id, name) VALUES (1, 'Alice');",
+      "INSERT INTO students VALUES (1, 'Alice');",
+      "INSERT students (id, name) VALUES (1, 'Alice');",
+      "ADD INTO students (id, name) VALUES (1, 'Alice');"
+    ],
+    "answer": "INSERT INTO students (id, name) VALUES (1, 'Alice');"
+  }
+]
+
+      },
+      "charts": {
+        "title" : "Advanced Querying Techniques",
+        "questions": [
+  {
+    "question": "Which SQL clause is used to filter records based on a specified condition?",
+    "options": ["WHERE", "ORDER BY", "GROUP BY", "HAVING"],
+    "answer": "WHERE"
+  },
+  {
+    "question": "Which clause is used to sort the result set in SQL?",
+    "options": ["ORDER BY", "GROUP BY", "WHERE", "SORT BY"],
+    "answer": "ORDER BY"
+  },
+  {
+    "question": "What is the purpose of the GROUP BY clause?",
+    "options": [
+      "To group rows that have the same values in specified columns",
+      "To filter rows",
+      "To sort rows",
+      "To join tables"
+    ],
+    "answer": "To group rows that have the same values in specified columns"
+  },
+  {
+    "question": "Which aggregate function returns the number of rows in a group?",
+    "options": ["COUNT", "SUM", "AVG", "MAX"],
+    "answer": "COUNT"
+  },
+  {
+    "question": "Which keyword is used to combine rows from two or more tables based on a related column?",
+    "options": ["JOIN", "COMBINE", "MERGE", "LINK"],
+    "answer": "JOIN"
+  },
+  {
+    "question": "What type of JOIN returns only the matching rows from both tables?",
+    "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+    "answer": "INNER JOIN"
+  },
+  {
+    "question": "Which JOIN returns all rows from the left table and matched rows from the right table?",
+    "options": ["LEFT JOIN", "INNER JOIN", "RIGHT JOIN", "CROSS JOIN"],
+    "answer": "LEFT JOIN"
+  },
+  {
+    "question": "Which JOIN returns all rows from the right table and matched rows from the left table?",
+    "options": ["RIGHT JOIN", "INNER JOIN", "LEFT JOIN", "CROSS JOIN"],
+    "answer": "RIGHT JOIN"
+  },
+  {
+    "question": "Which operator is used in WHERE to search for a pattern?",
+    "options": ["LIKE", "IN", "BETWEEN", "EXISTS"],
+    "answer": "LIKE"
+  },
+  {
+    "question": "How do you select unique values from a column?",
+    "options": [
+      "SELECT DISTINCT column FROM table;",
+      "SELECT UNIQUE column FROM table;",
+      "SELECT column FROM table UNIQUE;",
+      "SELECT column DISTINCT FROM table;"
+    ],
+    "answer": "SELECT DISTINCT column FROM table;"
+  },
+  {
+    "question": "Which function returns the largest value in a column?",
+    "options": ["MAX", "MIN", "AVG", "SUM"],
+    "answer": "MAX"
+  },
+  {
+    "question": "Which function returns the smallest value in a column?",
+    "options": ["MIN", "MAX", "AVG", "SUM"],
+    "answer": "MIN"
+  },
+  {
+    "question": "Which function returns the total sum of a numeric column?",
+    "options": ["SUM", "COUNT", "AVG", "MAX"],
+    "answer": "SUM"
+  },
+  {
+    "question": "Which function returns the average value of a numeric column?",
+    "options": ["AVG", "SUM", "COUNT", "MIN"],
+    "answer": "AVG"
+  },
+  {
+    "question": "Which clause is used to filter groups after aggregation?",
+    "options": ["HAVING", "WHERE", "ORDER BY", "GROUP BY"],
+    "answer": "HAVING"
+  },
+  {
+    "question": "Which of the following will sort the results by 'salary' in descending order?",
+    "options": [
+      "ORDER BY salary DESC",
+      "ORDER BY salary ASC",
+      "SORT BY salary DESC",
+      "GROUP BY salary DESC"
+    ],
+    "answer": "ORDER BY salary DESC"
+  },
+  {
+    "question": "Which SQL statement will select all employees with salary greater than 5000?",
+    "options": [
+      "SELECT * FROM employees WHERE salary > 5000;",
+      "SELECT * FROM employees ORDER BY salary > 5000;",
+      "SELECT * FROM employees GROUP BY salary > 5000;",
+      "SELECT * FROM employees HAVING salary > 5000;"
+    ],
+    "answer": "SELECT * FROM employees WHERE salary > 5000;"
+  },
+  {
+    "question": "Which SQL keyword is used to check if a value matches any value in a list?",
+    "options": ["IN", "BETWEEN", "LIKE", "ALL"],
+    "answer": "IN"
+  },
+  {
+    "question": "Which clause is used to group the result set by one or more columns?",
+    "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+    "answer": "GROUP BY"
+  },
+  {
+    "question": "Which SQL statement will count the number of employees in each department?",
+    "options": [
+      "SELECT department, COUNT(*) FROM employees GROUP BY department;",
+      "SELECT department, COUNT(*) FROM employees WHERE department;",
+      "SELECT COUNT(department) FROM employees;",
+      "SELECT department, COUNT(*) FROM employees ORDER BY department;"
+    ],
+    "answer": "SELECT department, COUNT(*) FROM employees GROUP BY department;"
+  },
+  {
+    "question": "Which SQL statement will join 'orders' and 'customers' on customer_id?",
+    "options": [
+      "SELECT * FROM orders INNER JOIN customers ON orders.customer_id = customers.customer_id;",
+      "SELECT * FROM orders, customers WHERE orders.customer_id = customers.customer_id;",
+      "SELECT * FROM orders JOIN customers;",
+      "SELECT * FROM orders LEFT JOIN customers;"
+    ],
+    "answer": "SELECT * FROM orders INNER JOIN customers ON orders.customer_id = customers.customer_id;"
+  },
+  {
+    "question": "Which SQL statement will return all customers and their orders, including customers with no orders?",
+    "options": [
+      "SELECT * FROM customers LEFT JOIN orders ON customers.id = orders.customer_id;",
+      "SELECT * FROM customers INNER JOIN orders ON customers.id = orders.customer_id;",
+      "SELECT * FROM customers RIGHT JOIN orders ON customers.id = orders.customer_id;",
+      "SELECT * FROM customers FULL JOIN orders ON customers.id = orders.customer_id;"
+    ],
+    "answer": "SELECT * FROM customers LEFT JOIN orders ON customers.id = orders.customer_id;"
+  },
+  {
+    "question": "Which SQL clause is used to filter rows before grouping?",
+    "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+    "answer": "WHERE"
+  },
+  {
+    "question": "What does the following SQL do? SELECT * FROM students WHERE name LIKE 'A%';",
+    "options": [
+      "Selects students whose names start with 'A'",
+      "Selects students whose names end with 'A'",
+      "Selects students whose names contain 'A'",
+      "Selects all students"
+    ],
+    "answer": "Selects students whose names start with 'A'"
+  },
+  {
+    "question": "Which SQL statement will find the total sales for each product?",
+    "options": [
+      "SELECT product_id, SUM(sales) FROM sales GROUP BY product_id;",
+      "SELECT product_id, SUM(sales) FROM sales ORDER BY product_id;",
+      "SELECT SUM(sales) FROM sales;",
+      "SELECT product_id, COUNT(sales) FROM sales GROUP BY product_id;"
+    ],
+    "answer": "SELECT product_id, SUM(sales) FROM sales GROUP BY product_id;"
+  },
+  {
+    "question": "Which SQL statement will select employees with salary between 3000 and 7000?",
+    "options": [
+      "SELECT * FROM employees WHERE salary BETWEEN 3000 AND 7000;",
+      "SELECT * FROM employees WHERE salary IN (3000, 7000);",
+      "SELECT * FROM employees WHERE salary > 3000 AND salary < 7000;",
+      "SELECT * FROM employees WHERE salary = 3000 OR salary = 7000;"
+    ],
+    "answer": "SELECT * FROM employees WHERE salary BETWEEN 3000 AND 7000;"
+  },
+  {
+    "question": "Which SQL statement will select all departments with more than 5 employees?",
+    "options": [
+      "SELECT department, COUNT(*) FROM employees GROUP BY department HAVING COUNT(*) > 5;",
+      "SELECT department, COUNT(*) FROM employees WHERE COUNT(*) > 5;",
+      "SELECT department FROM employees GROUP BY department WHERE COUNT(*) > 5;",
+      "SELECT department FROM employees HAVING COUNT(*) > 5;"
+    ],
+    "answer": "SELECT department, COUNT(*) FROM employees GROUP BY department HAVING COUNT(*) > 5;"
+  },
+  {
+    "question": "Which of the following sorts the result by 'name' in ascending order?",
+    "options": [
+      "ORDER BY name ASC",
+      "ORDER BY name DESC",
+      "GROUP BY name ASC",
+      "SORT BY name ASC"
+    ],
+    "answer": "ORDER BY name ASC"
+  },
+  {
+    "question": "Which SQL statement will join 'students' and 'grades' on student_id and include all grades even if no student exists?",
+    "options": [
+      "SELECT * FROM students RIGHT JOIN grades ON students.id = grades.student_id;",
+      "SELECT * FROM students LEFT JOIN grades ON students.id = grades.student_id;",
+      "SELECT * FROM students INNER JOIN grades ON students.id = grades.student_id;",
+      "SELECT * FROM students FULL JOIN grades ON students.id = grades.student_id;"
+    ],
+    "answer": "SELECT * FROM students RIGHT JOIN grades ON students.id = grades.student_id;"
+  },
+  {
+    "question": "Which SQL statement will select the maximum salary in the 'employees' table?",
+    "options": [
+      "SELECT MAX(salary) FROM employees;",
+      "SELECT salary FROM employees MAX;",
+      "SELECT MAXIMUM(salary) FROM employees;",
+      "SELECT salary MAX FROM employees;"
+    ],
+    "answer": "SELECT MAX(salary) FROM employees;"
+  },
+  {
+    "question": "Which aggregate function returns the average value?",
+    "options": ["AVG", "SUM", "COUNT", "MIN"],
+    "answer": "AVG"
+  },
+  {
+    "question": "Which SQL clause is used to combine rows from two or more tables, based on a related column between them?",
+    "options": ["JOIN", "UNION", "INTERSECT", "EXCEPT"],
+    "answer": "JOIN"
+  },
+  {
+    "question": "Which of the following is a valid INNER JOIN syntax?",
+    "options": [
+      "SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;",
+      "SELECT * FROM table1 JOIN table2;",
+      "SELECT * FROM table1, table2 WHERE table1.id = table2.id;",
+      "SELECT * FROM table1 LEFT JOIN table2;"
+    ],
+    "answer": "SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;"
+  },
+  {
+    "question": "Which SQL keyword is used to sort the result set?",
+    "options": ["ORDER BY", "GROUP BY", "SORT", "ARRANGE BY"],
+    "answer": "ORDER BY"
+  },
+  {
+    "question": "Which SQL clause is used to filter the results of a GROUP BY?",
+    "options": ["HAVING", "WHERE", "ORDER BY", "GROUP BY"],
+    "answer": "HAVING"
+  },
+  {
+    "question": "Which SQL statement will select all products with price greater than 100, sorted by price descending?",
+    "options": [
+      "SELECT * FROM products WHERE price > 100 ORDER BY price DESC;",
+      "SELECT * FROM products ORDER BY price DESC WHERE price > 100;",
+      "SELECT * FROM products WHERE price > 100 GROUP BY price DESC;",
+      "SELECT * FROM products GROUP BY price DESC WHERE price > 100;"
+    ],
+    "answer": "SELECT * FROM products WHERE price > 100 ORDER BY price DESC;"
+  },
+  {
+    "question": "Which SQL statement will join 'orders' and 'customers' and show all orders even if there is no customer?",
+    "options": [
+      "SELECT * FROM orders LEFT JOIN customers ON orders.customer_id = customers.id;",
+      "SELECT * FROM orders RIGHT JOIN customers ON orders.customer_id = customers.id;",
+      "SELECT * FROM orders INNER JOIN customers ON orders.customer_id = customers.id;",
+      "SELECT * FROM orders FULL JOIN customers ON orders.customer_id = customers.id;"
+    ],
+    "answer": "SELECT * FROM orders LEFT JOIN customers ON orders.customer_id = customers.id;"
+  },
+  {
+    "question": "Which SQL statement will select the number of orders per customer?",
+    "options": [
+      "SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_id;",
+      "SELECT customer_id, COUNT(*) FROM orders ORDER BY customer_id;",
+      "SELECT COUNT(customer_id) FROM orders;",
+      "SELECT customer_id, COUNT(*) FROM orders HAVING customer_id;"
+    ],
+    "answer": "SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_id;"
+  },
+  {
+    "question": "Which SQL statement will select all employees whose name contains 'an'?",
+    "options": [
+      "SELECT * FROM employees WHERE name LIKE '%an%';",
+      "SELECT * FROM employees WHERE name = 'an';",
+      "SELECT * FROM employees WHERE name LIKE 'an%';",
+      "SELECT * FROM employees WHERE name LIKE '%an';"
+    ],
+    "answer": "SELECT * FROM employees WHERE name LIKE '%an%';"
+  },
+  {
+    "question": "Which SQL statement will select the sum of salaries for each department?",
+    "options": [
+      "SELECT department, SUM(salary) FROM employees GROUP BY department;",
+      "SELECT department, SUM(salary) FROM employees ORDER BY department;",
+      "SELECT SUM(salary) FROM employees;",
+      "SELECT department, COUNT(salary) FROM employees GROUP BY department;"
+    ],
+    "answer": "SELECT department, SUM(salary) FROM employees GROUP BY department;"
+  },
+  {
+    "question": "Which SQL statement will select all employees who do not have a manager?",
+    "options": [
+      "SELECT * FROM employees WHERE manager_id IS NULL;",
+      "SELECT * FROM employees WHERE manager_id = NULL;",
+      "SELECT * FROM employees WHERE manager_id == NULL;",
+      "SELECT * FROM employees WHERE manager_id NOT EXISTS;"
+    ],
+    "answer": "SELECT * FROM employees WHERE manager_id IS NULL;"
+  },
+  {
+    "question": "Which SQL statement will select all records from 'products' with price less than 50?",
+    "options": [
+      "SELECT * FROM products WHERE price < 50;",
+      "SELECT * FROM products WHERE price <= 50;",
+      "SELECT * FROM products WHERE price > 50;",
+      "SELECT * FROM products WHERE price = 50;"
+    ],
+    "answer": "SELECT * FROM products WHERE price < 50;"
+  },
+  {
+    "question": "Which SQL statement will select the average salary for each job title?",
+    "options": [
+      "SELECT job_title, AVG(salary) FROM employees GROUP BY job_title;",
+      "SELECT job_title, AVG(salary) FROM employees ORDER BY job_title;",
+      "SELECT AVG(salary) FROM employees;",
+      "SELECT job_title, COUNT(salary) FROM employees GROUP BY job_title;"
+    ],
+    "answer": "SELECT job_title, AVG(salary) FROM employees GROUP BY job_title;"
+  },
+  {
+    "question": "Which SQL statement will join 'students' and 'courses' and show all students even if not enrolled in any course?",
+    "options": [
+      "SELECT * FROM students LEFT JOIN courses ON students.id = courses.student_id;",
+      "SELECT * FROM students RIGHT JOIN courses ON students.id = courses.student_id;",
+      "SELECT * FROM students INNER JOIN courses ON students.id = courses.student_id;",
+      "SELECT * FROM students FULL JOIN courses ON students.id = courses.student_id;"
+    ],
+    "answer": "SELECT * FROM students LEFT JOIN courses ON students.id = courses.student_id;"
+  },
+  {
+    "question": "Which SQL statement will select all products with quantity between 10 and 100?",
+    "options": [
+      "SELECT * FROM products WHERE quantity BETWEEN 10 AND 100;",
+      "SELECT * FROM products WHERE quantity IN (10, 100);",
+      "SELECT * FROM products WHERE quantity > 10 AND quantity < 100;",
+      "SELECT * FROM products WHERE quantity = 10 OR quantity = 100;"
+    ],
+    "answer": "SELECT * FROM products WHERE quantity BETWEEN 10 AND 100;"
+  },
+  {
+    "question": "Which SQL statement will select all customers whose city is either 'Delhi' or 'Mumbai'?",
+    "options": [
+      "SELECT * FROM customers WHERE city IN ('Delhi', 'Mumbai');",
+      "SELECT * FROM customers WHERE city = 'Delhi' OR 'Mumbai';",
+      "SELECT * FROM customers WHERE city LIKE 'Delhi' OR 'Mumbai';",
+      "SELECT * FROM customers WHERE city = ('Delhi', 'Mumbai');"
+    ],
+    "answer": "SELECT * FROM customers WHERE city IN ('Delhi', 'Mumbai');"
+  },
+  {
+    "question": "Which SQL statement will select the minimum price from the 'products' table?",
+    "options": [
+      "SELECT MIN(price) FROM products;",
+      "SELECT price FROM products MIN;",
+      "SELECT MINIMUM(price) FROM products;",
+      "SELECT price MIN FROM products;"
+    ],
+    "answer": "SELECT MIN(price) FROM products;"
+  },
+  {
+    "question": "Which SQL statement will count the number of orders for each product?",
+    "options": [
+      "SELECT product_id, COUNT(*) FROM orders GROUP BY product_id;",
+      "SELECT product_id, COUNT(*) FROM orders ORDER BY product_id;",
+      "SELECT COUNT(product_id) FROM orders;",
+      "SELECT product_id, COUNT(*) FROM orders HAVING product_id;"
+    ],
+    "answer": "SELECT product_id, COUNT(*) FROM orders GROUP BY product_id;"
+  },
+  {
+    "question": "Which SQL clause is used to filter the results of a SELECT statement?",
+    "options": ["WHERE", "HAVING", "ORDER BY", "GROUP BY"],
+    "answer": "WHERE"
+  },
+  {
+    "question": "Which SQL statement will select all employees with salary not equal to 5000?",
+    "options": [
+      "SELECT * FROM employees WHERE salary <> 5000;",
+      "SELECT * FROM employees WHERE salary =! 5000;",
+      "SELECT * FROM employees WHERE salary != 5000;",
+      "SELECT * FROM employees WHERE salary NOT 5000;"
+    ],
+    "answer": "SELECT * FROM employees WHERE salary <> 5000;"
+  },
+  {
+    "question": "Which SQL statement will select all products ordered by price ascending?",
+    "options": [
+      "SELECT * FROM products ORDER BY price ASC;",
+      "SELECT * FROM products ORDER BY price DESC;",
+      "SELECT * FROM products GROUP BY price ASC;",
+      "SELECT * FROM products SORT BY price ASC;"
+    ],
+    "answer": "SELECT * FROM products ORDER BY price ASC;"
+  },
+  {
+    "question": "Which SQL statement will select the total number of employees?",
+    "options": [
+      "SELECT COUNT(*) FROM employees;",
+      "SELECT SUM(*) FROM employees;",
+      "SELECT TOTAL(*) FROM employees;",
+      "SELECT COUNT(employees) FROM employees;"
+    ],
+    "answer": "SELECT COUNT(*) FROM employees;"
+  },
+  {
+    "question": "Which SQL statement will select all employees whose name ends with 'a'?",
+    "options": [
+      "SELECT * FROM employees WHERE name LIKE '%a';",
+      "SELECT * FROM employees WHERE name LIKE 'a%';",
+      "SELECT * FROM employees WHERE name = '%a';",
+      "SELECT * FROM employees WHERE name = 'a%';"
+    ],
+    "answer": "SELECT * FROM employees WHERE name LIKE '%a';"
+  },
+  {
+    "question": "Which SQL statement will select all customers and their orders, including orders with no customer?",
+    "options": [
+      "SELECT * FROM customers RIGHT JOIN orders ON customers.id = orders.customer_id;",
+      "SELECT * FROM customers LEFT JOIN orders ON customers.id = orders.customer_id;",
+      "SELECT * FROM customers INNER JOIN orders ON customers.id = orders.customer_id;",
+      "SELECT * FROM customers FULL JOIN orders ON customers.id = orders.customer_id;"
+    ],
+    "answer": "SELECT * FROM customers RIGHT JOIN orders ON customers.id = orders.customer_id;"
+  },
+  {
+    "question": "Which SQL statement will select the highest price for each category?",
+    "options": [
+      "SELECT category, MAX(price) FROM products GROUP BY category;",
+      "SELECT category, MAX(price) FROM products ORDER BY category;",
+      "SELECT MAX(price) FROM products;",
+      "SELECT category, COUNT(price) FROM products GROUP BY category;"
+    ],
+    "answer": "SELECT category, MAX(price) FROM products GROUP BY category;"
+  },
+  {
+    "question": "Which SQL statement will select all employees whose salary is not in the list (3000, 4000, 5000)?",
+    "options": [
+      "SELECT * FROM employees WHERE salary NOT IN (3000, 4000, 5000);",
+      "SELECT * FROM employees WHERE salary <> (3000, 4000, 5000);",
+      "SELECT * FROM employees WHERE salary != (3000, 4000, 5000);",
+      "SELECT * FROM employees WHERE salary NOT (3000, 4000, 5000);"
+    ],
+    "answer": "SELECT * FROM employees WHERE salary NOT IN (3000, 4000, 5000);"
+  },
+  {
+    "question": "Which SQL statement will select all products with name starting with 'P'?",
+    "options": [
+      "SELECT * FROM products WHERE name LIKE 'P%';",
+      "SELECT * FROM products WHERE name LIKE '%P';",
+      "SELECT * FROM products WHERE name = 'P%';",
+      "SELECT * FROM products WHERE name = '%P';"
+    ],
+    "answer": "SELECT * FROM products WHERE name LIKE 'P%';"
+  }
+]
+      },
+      "shortcuts": {
+        "title" : "Constraints and Indexes",
+        "questions": [
+             {
+      "question": "What is the primary purpose of a PRIMARY KEY constraint in a database table?",
+      "options": [
+        "To ensure that all values in a column are unique",
+        "To create a relationship between two tables",
+        "To improve query performance on a column",
+        "To allow NULL values in a column"
+      ],
+      "answer": "To ensure that all values in a column are unique"
+    },
+    {
+      "question": "Which of the following statements about FOREIGN KEY constraints is true?",
+      "options": [
+        "A foreign key must always reference a primary key in another table",
+        "A foreign key can contain NULL values",
+        "A table can have only one foreign key",
+        "Foreign keys automatically create indexes"
+      ],
+      "answer": "A foreign key can contain NULL values"
+    },
+    {
+      "question": "What is the main difference between a PRIMARY KEY and a UNIQUE constraint?",
+      "options": [
+        "A PRIMARY KEY allows NULL values while a UNIQUE constraint doesn't",
+        "A UNIQUE constraint allows NULL values while a PRIMARY KEY doesn't",
+        "There is no difference, they are the same",
+        "A PRIMARY KEY can be applied to multiple columns while a UNIQUE constraint can't"
+      ],
+      "answer": "A UNIQUE constraint allows NULL values while a PRIMARY KEY doesn't"
+    },
+    {
+      "question": "Which type of index would be most appropriate for optimizing queries that search a range of values?",
+      "options": [
+        "Hash index",
+        "Bitmap index",
+        "B-tree index",
+        "Full-text index"
+      ],
+      "answer": "B-tree index"
+    },
+    {
+      "question": "What happens when you create a PRIMARY KEY constraint on a column?",
+      "options": [
+        "An index is automatically created on that column",
+        "The column automatically becomes a foreign key",
+        "All existing NULL values in that column are converted to default values",
+        "The column's data type is automatically changed to INTEGER"
+      ],
+      "answer": "An index is automatically created on that column"
+    },
+    {
+      "question": "Which of the following is NOT a benefit of using indexes?",
+      "options": [
+        "Faster data retrieval",
+        "Reduced storage space",
+        "Improved performance of JOIN operations",
+        "Faster sorting of query results"
+      ],
+      "answer": "Reduced storage space"
+    },
+    {
+      "question": "In a one-to-many relationship, where should the FOREIGN KEY be placed?",
+      "options": [
+        "In the parent table",
+        "In the child table",
+        "In both tables",
+        "In a separate junction table"
+      ],
+      "answer": "In the child table"
+    },
+    {
+      "question": "What is the maximum number of PRIMARY KEY constraints a table can have?",
+      "options": [
+        "1",
+        "2",
+        "Unlimited",
+        "Depends on the number of columns in the table"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "Which of the following statements about composite primary keys is true?",
+      "options": [
+        "They can only include two columns",
+        "They must include all columns in the table",
+        "They combine multiple columns to create a unique identifier",
+        "They are less efficient than single-column primary keys"
+      ],
+      "answer": "They combine multiple columns to create a unique identifier"
+    },
+    {
+      "question": "What is the primary purpose of a UNIQUE constraint?",
+      "options": [
+        "To ensure referential integrity between tables",
+        "To prevent duplicate values in a column (except NULL)",
+        "To automatically increment column values",
+        "To create a clustered index on the column"
+      ],
+      "answer": "To prevent duplicate values in a column (except NULL)"
+    },
+    {
+      "question": "Which of the following operations would typically benefit most from an index?",
+      "options": [
+        "INSERT operations",
+        "UPDATE operations",
+        "DELETE operations",
+        "SELECT operations with WHERE clauses"
+      ],
+      "answer": "SELECT operations with WHERE clauses"
+    },
+    {
+      "question": "What is a potential downside of creating too many indexes on a table?",
+      "options": [
+        "Increased storage requirements",
+        "Slower INSERT, UPDATE, and DELETE operations",
+        "Both A and B",
+        "There are no downsides to creating more indexes"
+      ],
+      "answer": "Both A and B"
+    },
+    {
+      "question": "Which SQL statement is used to create an index?",
+      "options": [
+        "CREATE INDEX",
+        "ADD INDEX",
+        "MAKE INDEX",
+        "DEFINE INDEX"
+      ],
+      "answer": "CREATE INDEX"
+    },
+    {
+      "question": "What is the purpose of the ON DELETE CASCADE option in a FOREIGN KEY constraint?",
+      "options": [
+        "To prevent deletion of referenced rows",
+        "To automatically delete child rows when a parent row is deleted",
+        "To set child foreign key values to NULL when a parent row is deleted",
+        "To create a backup of deleted rows"
+      ],
+      "answer": "To automatically delete child rows when a parent row is deleted"
+    },
+    {
+      "question": "Which type of index stores the actual table data in the leaf nodes of the index?",
+      "options": [
+        "Non-clustered index",
+        "Clustered index",
+        "Hash index",
+        "Bitmap index"
+      ],
+      "answer": "Clustered index"
+    },
+    {
+      "question": "In database normalization, what is the main purpose of establishing foreign key relationships?",
+      "options": [
+        "To improve query performance",
+        "To enforce referential integrity",
+        "To reduce storage requirements",
+        "To allow for full-text searching"
+      ],
+      "answer": "To enforce referential integrity"
+    },
+    {
+      "question": "Which of the following columns would typically be the best candidate for an index?",
+      "options": [
+        "A column with mostly NULL values",
+        "A column frequently used in WHERE clauses",
+        "A column that is frequently updated",
+        "A column with only a few distinct values"
+      ],
+      "answer": "A column frequently used in WHERE clauses"
+    },
+    {
+      "question": "What is the main difference between a clustered and non-clustered index?",
+      "options": [
+        "Clustered indexes are faster than non-clustered indexes",
+        "A table can have multiple clustered indexes but only one non-clustered index",
+        "A table can have only one clustered index but multiple non-clustered indexes",
+        "Non-clustered indexes are automatically created for primary keys"
+      ],
+      "answer": "A table can have only one clustered index but multiple non-clustered indexes"
+    },
+    {
+      "question": "Which constraint ensures that values in a column satisfy a specific condition?",
+      "options": [
+        "PRIMARY KEY",
+        "FOREIGN KEY",
+        "CHECK",
+        "UNIQUE"
+      ],
+      "answer": "CHECK"
+    },
+    {
+      "question": "What happens if you try to insert a duplicate value into a column with a UNIQUE constraint?",
+      "options": [
+        "The database automatically increments the value",
+        "The operation succeeds with a warning",
+        "The operation fails with an error",
+        "The duplicate value is converted to NULL"
+      ],
+      "answer": "The operation fails with an error"
+    },
+    {
+      "question": "Which of the following is true about index maintenance?",
+      "options": [
+        "Indexes never need maintenance",
+        "Indexes should be rebuilt periodically for optimal performance",
+        "Index maintenance is only needed for clustered indexes",
+        "Rebuilding indexes improves storage efficiency but not performance"
+      ],
+      "answer": "Indexes should be rebuilt periodically for optimal performance"
+    },
+    {
+      "question": "What is the purpose of the ON UPDATE SET NULL option in a FOREIGN KEY constraint?",
+      "options": [
+        "To prevent updates to referenced rows",
+        "To automatically update child rows when a parent row is updated",
+        "To set child foreign key values to NULL when a parent key is updated",
+        "To create a backup of rows before they are updated"
+      ],
+      "answer": "To set child foreign key values to NULL when a parent key is updated"
+    },
+    {
+      "question": "Which of the following database operations would likely be slowed down by indexes?",
+      "options": [
+        "SELECT queries with JOINs",
+        "INSERT operations",
+        "SELECT queries with WHERE clauses",
+        "Data aggregation queries"
+      ],
+      "answer": "INSERT operations"
+    },
+    {
+      "question": "What is a covering index?",
+      "options": [
+        "An index that includes all columns needed for a query",
+        "An index that spans multiple tables",
+        "An index that automatically updates itself",
+        "An index that prevents NULL values"
+      ],
+      "answer": "An index that includes all columns needed for a query"
+    },
+    {
+      "question": "Which SQL command is used to remove an index?",
+      "options": [
+        "DELETE INDEX",
+        "REMOVE INDEX",
+        "DROP INDEX",
+        "ERASE INDEX"
+      ],
+      "answer": "DROP INDEX"
+    },
+    {
+      "question": "In a many-to-many relationship, how are foreign keys typically implemented?",
+      "options": [
+        "With a single foreign key in one of the tables",
+        "With foreign keys in both tables pointing to each other",
+        "With a junction table containing foreign keys to both tables",
+        "With a special many-to-many constraint"
+      ],
+      "answer": "With a junction table containing foreign keys to both tables"
+    },
+    {
+      "question": "What is the purpose of a partial index?",
+      "options": [
+        "To index only part of a column's values",
+        "To create an index on a subset of rows that meet a condition",
+        "To index only the first few characters of text columns",
+        "To create an index that covers multiple tables"
+      ],
+      "answer": "To create an index on a subset of rows that meet a condition"
+    },
+    {
+      "question": "Which of the following would be a good candidate for a composite index?",
+      "options": [
+        "Two columns that are frequently queried together",
+        "Any two columns in a table",
+        "Two columns that are updated frequently",
+        "Two columns with low cardinality"
+      ],
+      "answer": "Two columns that are frequently queried together"
+    },
+    {
+      "question": "What is the purpose of the UNIQUEIDENTIFIER data type in SQL Server?",
+      "options": [
+        "To store unique constraint definitions",
+        "To store globally unique identifiers (GUIDs)",
+        "To create automatically incrementing values",
+        "To reference unique indexes"
+      ],
+      "answer": "To store globally unique identifiers (GUIDs)"
+    },
+    {
+      "question": "Which of the following is NOT a type of index?",
+      "options": [
+        "B-tree",
+        "Hash",
+        "Bitmap",
+        "Loop"
+      ],
+      "answer": "Loop"
+    },
+    {
+      "question": "What is the default behavior when you try to delete a row that is referenced by a foreign key?",
+      "options": [
+        "The delete operation succeeds with a warning",
+        "The delete operation fails with an error",
+        "The foreign key value in referencing rows is set to NULL",
+        "The referencing rows are automatically deleted"
+      ],
+      "answer": "The delete operation fails with an error"
+    },
+    {
+      "question": "Which database operation typically benefits from an index on a datetime column?",
+      "options": [
+        "Range queries (e.g., date between X and Y)",
+        "Exact match queries",
+        "Insert operations",
+        "Update operations that modify the datetime value"
+      ],
+      "answer": "Range queries (e.g., date between X and Y)"
+    },
+    {
+      "question": "What is the purpose of the IGNORE_DUP_KEY option when creating an index?",
+      "options": [
+        "To automatically remove duplicate values",
+        "To ignore duplicate key values during index creation",
+        "To suppress errors when duplicate keys are inserted",
+        "To create a unique index that allows duplicates"
+      ],
+      "answer": "To suppress errors when duplicate keys are inserted"
+    },
+    {
+      "question": "Which of the following is true about foreign key constraints?",
+      "options": [
+        "They must reference a primary key",
+        "They can reference any unique constraint",
+        "They can only reference columns of the same data type",
+        "They automatically create indexes on the referenced columns"
+      ],
+      "answer": "They can reference any unique constraint"
+    },
+    {
+      "question": "What is the primary purpose of a filtered index?",
+      "options": [
+        "To index only rows that meet certain criteria",
+        "To create an index that filters out NULL values",
+        "To implement full-text search capabilities",
+        "To create an index that spans multiple tables"
+      ],
+      "answer": "To index only rows that meet certain criteria"
+    },
+    {
+      "question": "Which of the following statements about primary keys is false?",
+      "options": [
+        "A primary key can consist of multiple columns",
+        "A primary key column cannot contain NULL values",
+        "A table can have multiple primary keys",
+        "A primary key uniquely identifies each row in a table"
+      ],
+      "answer": "A table can have multiple primary keys"
+    },
+    {
+      "question": "What is the purpose of the FILLFACTOR option when creating an index?",
+      "options": [
+        "To specify what percentage of each index page should be filled",
+        "To determine how often the index is updated",
+        "To control whether NULL values are included in the index",
+        "To set the maximum number of duplicate values allowed"
+      ],
+      "answer": "To specify what percentage of each index page should be filled"
+    },
+    {
+      "question": "Which of the following would be the worst candidate for an index?",
+      "options": [
+        "A column with high cardinality used in WHERE clauses",
+        "A column frequently used in JOIN conditions",
+        "A column that is frequently updated",
+        "A column used for sorting query results"
+      ],
+      "answer": "A column that is frequently updated"
+    },
+    {
+      "question": "What is the primary purpose of an index-organized table?",
+      "options": [
+        "To store index definitions",
+        "To organize tables by their primary key",
+        "To store the table data in a B-tree structure sorted by primary key",
+        "To create a table that only contains indexed columns"
+      ],
+      "answer": "To store the table data in a B-tree structure sorted by primary key"
+    },
+    {
+      "question": "Which of the following is NOT a valid index type in most databases?",
+      "options": [
+        "B-tree",
+        "Hash",
+        "Bitmap",
+        "Radial"
+      ],
+      "answer": "Radial"
+    },
+    {
+      "question": "What is the purpose of the INCLUDE clause when creating an index?",
+      "options": [
+        "To specify which tables to include in the index",
+        "To add non-key columns to the index leaf level",
+        "To determine which queries should use the index",
+        "To include NULL values in the index"
+      ],
+      "answer": "To add non-key columns to the index leaf level"
+    },
+    {
+      "question": "Which constraint would you use to ensure that a date column only contains future dates?",
+      "options": [
+        "PRIMARY KEY",
+        "FOREIGN KEY",
+        "CHECK",
+        "UNIQUE"
+      ],
+      "answer": "CHECK"
+    },
+    {
+      "question": "What is the main advantage of a bitmap index?",
+      "options": [
+        "Excellent for high-cardinality columns",
+        "Efficient for columns with few distinct values",
+        "Best for range queries",
+        "Optimal for text search"
+      ],
+      "answer": "Efficient for columns with few distinct values"
+    },
+    {
+      "question": "Which of the following statements about foreign keys is true?",
+      "options": [
+        "A foreign key must have the same name as the primary key it references",
+        "A foreign key can reference a unique constraint that is not a primary key",
+        "A foreign key cannot reference a column in the same table",
+        "A foreign key must reference all columns of a composite primary key"
+      ],
+      "answer": "A foreign key can reference a unique constraint that is not a primary key"
+    },
+    {
+      "question": "What is the primary disadvantage of a hash index?",
+      "options": [
+        "It doesn't support range queries",
+        "It takes more storage space than other index types",
+        "It can't be used with JOIN operations",
+        "It doesn't support NULL values"
+      ],
+      "answer": "It doesn't support range queries"
+    },
+    {
+      "question": "Which of the following operations would invalidate an index?",
+      "options": [
+        "Changing a column's default value",
+        "Renaming a column",
+        "Changing a column's data type",
+        "Adding a comment to a column"
+      ],
+      "answer": "Changing a column's data type"
+    },
+    {
+      "question": "What is the purpose of the CASCADE option in a foreign key constraint?",
+      "options": [
+        "To automatically propagate operations to related tables",
+        "To create a series of linked constraints",
+        "To build a hierarchical relationship between tables",
+        "To enable circular references between tables"
+      ],
+      "answer": "To automatically propagate operations to related tables"
+    },
+    {
+      "question": "Which of the following is true about index selectivity?",
+      "options": [
+        "Higher selectivity means the index is less useful",
+        "Lower selectivity means the index is more useful",
+        "Higher selectivity means the index is more useful",
+        "Selectivity doesn't affect index usefulness"
+      ],
+      "answer": "Higher selectivity means the index is more useful"
+    },
+    {
+      "question": "What is the primary purpose of a function-based index?",
+      "options": [
+        "To index the results of a function or expression",
+        "To create an index that only works with specific functions",
+        "To optimize stored function execution",
+        "To index function definitions in the database"
+      ],
+      "answer": "To index the results of a function or expression"
+    },
+    {
+      "question": "Which of the following would be the best candidate for a clustered index?",
+      "options": [
+        "A column frequently used in WHERE clauses",
+        "A column that is frequently updated",
+        "A column used for range queries and sorting",
+        "A column with mostly NULL values"
+      ],
+      "answer": "A column used for range queries and sorting"
+    }
+        ]
+      },
+      "Transactions": {
+        "title" : "Transactions and Concurrency Control",
+        "questions": [
+  {
+    "question": "What does the COMMIT command do in SQL?",
+    "options": [
+      "Makes all changes in the current transaction permanent",
+      "Undoes all changes in the current transaction",
+      "Starts a new transaction",
+      "Locks the table"
+    ],
+    "answer": "Makes all changes in the current transaction permanent"
+  },
+  {
+    "question": "What is the purpose of the ROLLBACK command in SQL?",
+    "options": [
+      "Reverts all changes made in the current transaction",
+      "Saves changes permanently",
+      "Starts a new transaction",
+      "Locks a row exclusively"
+    ],
+    "answer": "Reverts all changes made in the current transaction"
+  },
+  {
+    "question": "Which property of a transaction ensures that either all operations are completed or none are?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability"
+    ],
+    "answer": "Atomicity"
+  },
+  {
+    "question": "Which ACID property ensures that once a transaction is committed, its changes are permanent?",
+    "options": [
+      "Durability",
+      "Atomicity",
+      "Isolation",
+      "Consistency"
+    ],
+    "answer": "Durability"
+  },
+  {
+    "question": "What does the Isolation property of ACID ensure?",
+    "options": [
+      "Transactions do not interfere with each other",
+      "All transactions are durable",
+      "All transactions are atomic",
+      "Database remains consistent"
+    ],
+    "answer": "Transactions do not interfere with each other"
+  },
+  {
+    "question": "Which ACID property guarantees that a transaction brings the database from one valid state to another?",
+    "options": [
+      "Consistency",
+      "Atomicity",
+      "Isolation",
+      "Durability"
+    ],
+    "answer": "Consistency"
+  },
+  {
+    "question": "What is a transaction in the context of a database?",
+    "options": [
+      "A sequence of operations treated as a single logical unit",
+      "A single SQL statement",
+      "A database backup",
+      "A database lock"
+    ],
+    "answer": "A sequence of operations treated as a single logical unit"
+  },
+  {
+    "question": "Which command is used to explicitly start a transaction?",
+    "options": [
+      "BEGIN TRANSACTION",
+      "START TRANSACTION",
+      "OPEN TRANSACTION",
+      "INIT TRANSACTION"
+    ],
+    "answer": "BEGIN TRANSACTION"
+  },
+  {
+    "question": "What happens if a ROLLBACK is issued after a COMMIT?",
+    "options": [
+      "No changes are undone",
+      "All changes are undone",
+      "Partial changes are undone",
+      "The database is locked"
+    ],
+    "answer": "No changes are undone"
+  },
+  {
+    "question": "Which of the following is NOT an ACID property?",
+    "options": [
+      "Availability",
+      "Atomicity",
+      "Consistency",
+      "Isolation"
+    ],
+    "answer": "Availability"
+  },
+  {
+    "question": "Which type of lock allows only reading but not writing?",
+    "options": [
+      "Shared lock",
+      "Exclusive lock",
+      "Update lock",
+      "Intent lock"
+    ],
+    "answer": "Shared lock"
+  },
+  {
+    "question": "Which type of lock allows both reading and writing?",
+    "options": [
+      "Exclusive lock",
+      "Shared lock",
+      "Intent lock",
+      "Read lock"
+    ],
+    "answer": "Exclusive lock"
+  },
+  {
+    "question": "What is the main purpose of locking mechanisms in databases?",
+    "options": [
+      "Prevent concurrent modification conflicts",
+      "Increase query speed",
+      "Backup data",
+      "Improve indexing"
+    ],
+    "answer": "Prevent concurrent modification conflicts"
+  },
+  {
+    "question": "Which of the following is a problem that can occur due to locking in concurrent transactions?",
+    "options": [
+      "Deadlock",
+      "Data loss",
+      "Faster transactions",
+      "Index corruption"
+    ],
+    "answer": "Deadlock"
+  },
+  {
+    "question": "What is two-phase locking?",
+    "options": [
+      "A protocol with a growing phase and shrinking phase for locks",
+      "A method for backup",
+      "A type of exclusive lock",
+      "A type of shared lock"
+    ],
+    "answer": "A protocol with a growing phase and shrinking phase for locks"
+  },
+  {
+    "question": "During the growing phase of two-phase locking, what can a transaction do?",
+    "options": [
+      "Acquire locks but not release any",
+      "Release locks but not acquire any",
+      "Neither acquire nor release locks",
+      "Only read data"
+    ],
+    "answer": "Acquire locks but not release any"
+  },
+  {
+    "question": "During the shrinking phase of two-phase locking, what can a transaction do?",
+    "options": [
+      "Release locks but not acquire any",
+      "Acquire locks but not release any",
+      "Both acquire and release locks",
+      "Only write data"
+    ],
+    "answer": "Release locks but not acquire any"
+  },
+  {
+    "question": "Which command would you use to undo all changes since the last COMMIT?",
+    "options": [
+      "ROLLBACK",
+      "COMMIT",
+      "SAVEPOINT",
+      "LOCK"
+    ],
+    "answer": "ROLLBACK"
+  },
+  {
+    "question": "Which scenario best illustrates the use of COMMIT?",
+    "options": [
+      "Finalizing a successful funds transfer between two accounts",
+      "Undoing a failed update operation",
+      "Locking a table for reading",
+      "Backing up the database"
+    ],
+    "answer": "Finalizing a successful funds transfer between two accounts"
+  },
+  {
+    "question": "Which scenario best illustrates the use of ROLLBACK?",
+    "options": [
+      "Undoing a failed funds transfer to maintain consistency",
+      "Saving changes permanently",
+      "Locking a row for writing",
+      "Starting a new transaction"
+    ],
+    "answer": "Undoing a failed funds transfer to maintain consistency"
+  },
+  {
+    "question": "Which property ensures that the effects of a committed transaction are never lost?",
+    "options": [
+      "Durability",
+      "Atomicity",
+      "Isolation",
+      "Consistency"
+    ],
+    "answer": "Durability"
+  },
+  {
+    "question": "What is a deadlock in the context of database transactions?",
+    "options": [
+      "Two or more transactions waiting indefinitely for each other to release locks",
+      "A transaction that completes successfully",
+      "A backup failure",
+      "A lost update"
+    ],
+    "answer": "Two or more transactions waiting indefinitely for each other to release locks"
+  },
+  {
+    "question": "Which of the following is a benefit of optimistic locking?",
+    "options": [
+      "Reduces lock contention in high-activity environments",
+      "Prevents all deadlocks",
+      "Always guarantees consistency",
+      "Requires no conflict checking"
+    ],
+    "answer": "Reduces lock contention in high-activity environments"
+  },
+  {
+    "question": "What is the main difference between optimistic and pessimistic locking?",
+    "options": [
+      "Optimistic locking checks for conflicts at commit, pessimistic locks resources up front",
+      "Pessimistic locking is faster",
+      "Optimistic locking prevents all deadlocks",
+      "Pessimistic locking allows more concurrency"
+    ],
+    "answer": "Optimistic locking checks for conflicts at commit, pessimistic locks resources up front"
+  },
+  {
+    "question": "Which lock is required to update a data item?",
+    "options": [
+      "Exclusive lock",
+      "Shared lock",
+      "Read lock",
+      "Intent lock"
+    ],
+    "answer": "Exclusive lock"
+  },
+  {
+    "question": "Which lock allows multiple transactions to read but not write a data item?",
+    "options": [
+      "Shared lock",
+      "Exclusive lock",
+      "Update lock",
+      "Intent lock"
+    ],
+    "answer": "Shared lock"
+  },
+  {
+    "question": "Which isolation level provides the highest level of isolation?",
+    "options": [
+      "Serializable",
+      "Read committed",
+      "Read uncommitted",
+      "Repeatable read"
+    ],
+    "answer": "Serializable"
+  },
+  {
+    "question": "What is the main goal of concurrency control?",
+    "options": [
+      "Ensure correct results for concurrent database operations",
+      "Speed up transactions",
+      "Reduce disk usage",
+      "Increase backup frequency"
+    ],
+    "answer": "Ensure correct results for concurrent database operations"
+  },
+  {
+    "question": "Which command is used to save a transaction so you can roll back to this point?",
+    "options": [
+      "SAVEPOINT",
+      "COMMIT",
+      "ROLLBACK",
+      "LOCK"
+    ],
+    "answer": "SAVEPOINT"
+  },
+  {
+    "question": "Which phase of two-phase locking can a transaction release locks?",
+    "options": [
+      "Shrinking phase",
+      "Growing phase",
+      "Both phases",
+      "Neither phase"
+    ],
+    "answer": "Shrinking phase"
+  },
+  {
+    "question": "Which of the following is NOT a problem solved by locking mechanisms?",
+    "options": [
+      "Deadlocks",
+      "Lost updates",
+      "Uncommitted data",
+      "Inconsistency"
+    ],
+    "answer": "Deadlocks"
+  },
+  {
+    "question": "Which of the following is a correct sequence for a transaction?",
+    "options": [
+      "Begin transaction, execute operations, COMMIT or ROLLBACK",
+      "COMMIT, execute operations, ROLLBACK",
+      "Execute operations, COMMIT, begin transaction",
+      "ROLLBACK, execute operations, COMMIT"
+    ],
+    "answer": "Begin transaction, execute operations, COMMIT or ROLLBACK"
+  },
+  {
+    "question": "What happens if a transaction fails before COMMIT?",
+    "options": [
+      "All changes are rolled back",
+      "All changes are saved",
+      "Partial changes are saved",
+      "Database is locked"
+    ],
+    "answer": "All changes are rolled back"
+  },
+  {
+    "question": "Which property of ACID ensures that concurrent execution of transactions leaves the database in a consistent state?",
+    "options": [
+      "Isolation",
+      "Durability",
+      "Atomicity",
+      "Consistency"
+    ],
+    "answer": "Isolation"
+  },
+  {
+    "question": "Which of the following is a characteristic of a transaction?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Speed, Security, Availability, Scalability",
+      "Backup, Restore, Lock, Unlock",
+      "Read, Write, Update, Delete"
+    ],
+    "answer": "Atomicity, Consistency, Isolation, Durability"
+  },
+  {
+    "question": "What is the effect of issuing a COMMIT command?",
+    "options": [
+      "Makes all changes permanent",
+      "Undoes all changes",
+      "Locks the table",
+      "Starts a new transaction"
+    ],
+    "answer": "Makes all changes permanent"
+  },
+  {
+    "question": "Which of the following is true about ROLLBACK?",
+    "options": [
+      "It undoes all operations since the last COMMIT",
+      "It saves all operations permanently",
+      "It locks the database",
+      "It starts a new transaction"
+    ],
+    "answer": "It undoes all operations since the last COMMIT"
+  },
+  {
+    "question": "Which of the following is a concurrency control protocol?",
+    "options": [
+      "Two-phase locking",
+      "Backup protocol",
+      "Restore protocol",
+      "Autocommit protocol"
+    ],
+    "answer": "Two-phase locking"
+  },
+  {
+    "question": "Which of the following can result from improper locking in concurrent transactions?",
+    "options": [
+      "Lost update",
+      "Faster queries",
+      "Improved security",
+      "Better indexing"
+    ],
+    "answer": "Lost update"
+  },
+  {
+    "question": "Which command is used to make all changes since the last commit permanent?",
+    "options": [
+      "COMMIT",
+      "ROLLBACK",
+      "SAVEPOINT",
+      "LOCK"
+    ],
+    "answer": "COMMIT"
+  },
+  {
+    "question": "What is the main advantage of using transactions?",
+    "options": [
+      "Ensures data integrity and consistency",
+      "Improves query speed",
+      "Reduces disk usage",
+      "Increases backup frequency"
+    ],
+    "answer": "Ensures data integrity and consistency"
+  },
+  {
+    "question": "Which of the following is a correct statement about atomicity?",
+    "options": [
+      "All steps in a transaction are completed or none are",
+      "All steps are saved permanently",
+      "All steps are visible to other transactions",
+      "All steps are backed up"
+    ],
+    "answer": "All steps in a transaction are completed or none are"
+  },
+  {
+    "question": "Which of the following is a correct statement about consistency?",
+    "options": [
+      "A transaction brings the database from one valid state to another",
+      "All changes are made permanent",
+      "All changes are undone",
+      "All transactions are visible to each other"
+    ],
+    "answer": "A transaction brings the database from one valid state to another"
+  },
+  {
+    "question": "Which of the following is a correct statement about isolation?",
+    "options": [
+      "Transactions do not interfere with each other",
+      "All changes are made permanent",
+      "All changes are undone",
+      "All transactions are visible to each other"
+    ],
+    "answer": "Transactions do not interfere with each other"
+  },
+  {
+    "question": "Which of the following is a correct statement about durability?",
+    "options": [
+      "Committed changes are never lost",
+      "All steps in a transaction are completed or none are",
+      "A transaction brings the database from one valid state to another",
+      "Transactions do not interfere with each other"
+    ],
+    "answer": "Committed changes are never lost"
+  },
+  {
+    "question": "What is a SAVEPOINT in SQL?",
+    "options": [
+      "A point within a transaction to which you can roll back",
+      "A command to save data permanently",
+      "A type of lock",
+      "A backup operation"
+    ],
+    "answer": "A point within a transaction to which you can roll back"
+  },
+  {
+    "question": "Which of the following is an example of a transaction?",
+    "options": [
+      "Transferring money between two bank accounts",
+      "Running a SELECT query",
+      "Backing up the database",
+      "Creating a new table"
+    ],
+    "answer": "Transferring money between two bank accounts"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of transactions?",
+    "options": [
+      "Faster queries",
+      "Data integrity",
+      "Error recovery",
+      "Consistency"
+    ],
+    "answer": "Faster queries"
+  },
+  {
+    "question": "Which of the following is a pessimistic locking scenario?",
+    "options": [
+      "A user locks a record for update and no other user can access it until the lock is released",
+      "All users can read and write simultaneously",
+      "Conflicts are checked only at commit",
+      "No locks are used"
+    ],
+    "answer": "A user locks a record for update and no other user can access it until the lock is released"
+  },
+  {
+    "question": "Which of the following is an optimistic locking scenario?",
+    "options": [
+      "All users can read, but conflicts are checked before commit",
+      "A user locks a record for update",
+      "No conflicts are checked",
+      "All users can write simultaneously"
+    ],
+    "answer": "All users can read, but conflicts are checked before commit"
+  },
+  {
+    "question": "Which of the following is a consequence of deadlock?",
+    "options": [
+      "Transactions wait indefinitely for each other",
+      "Transactions complete faster",
+      "Database is backed up",
+      "Queries are optimized"
+    ],
+    "answer": "Transactions wait indefinitely for each other"
+  },
+  {
+    "question": "Which command is used to explicitly start a transaction in MySQL?",
+    "options": [
+      "START TRANSACTION",
+      "BEGIN TRANSACTION",
+      "OPEN TRANSACTION",
+      "INIT TRANSACTION"
+    ],
+    "answer": "START TRANSACTION"
+  },
+  {
+    "question": "What is the default transaction behavior in most SQL databases?",
+    "options": [
+      "Autocommit mode",
+      "Manual commit mode",
+      "All transactions are rolled back",
+      "All transactions are locked"
+    ],
+    "answer": "Autocommit mode"
+  },
+  {
+    "question": "Which of the following is true about the growing phase in two-phase locking?",
+    "options": [
+      "Locks can be acquired but not released",
+      "Locks can be released but not acquired",
+      "No locks can be acquired or released",
+      "All locks are released"
+    ],
+    "answer": "Locks can be acquired but not released"
+  },
+  {
+    "question": "Which of the following is true about the shrinking phase in two-phase locking?",
+    "options": [
+      "Locks can be released but not acquired",
+      "Locks can be acquired but not released",
+      "No locks can be acquired or released",
+      "All locks are acquired"
+    ],
+    "answer": "Locks can be released but not acquired"
+  },
+  {
+    "question": "Which of the following is a correct statement about deadlocks?",
+    "options": [
+      "They occur when two or more transactions wait for each other to release locks",
+      "They never occur in databases",
+      "They always resolve automatically",
+      "They improve performance"
+    ],
+    "answer": "They occur when two or more transactions wait for each other to release locks"
+  },
+  {
+    "question": "Which of the following is a solution to deadlock?",
+    "options": [
+      "Deadlock detection and resolution",
+      "Ignoring deadlocks",
+      "Increasing transaction speed",
+      "Reducing data size"
+    ],
+    "answer": "Deadlock detection and resolution"
+  },
+  {
+    "question": "Which of the following is a correct statement about exclusive locks?",
+    "options": [
+      "They prevent other transactions from reading or writing the locked data",
+      "They allow other transactions to read but not write",
+      "They allow other transactions to write but not read",
+      "They have no effect on other transactions"
+    ],
+    "answer": "They prevent other transactions from reading or writing the locked data"
+  },
+  {
+    "question": "Which of the following is a correct statement about shared locks?",
+    "options": [
+      "They allow other transactions to read but not write the locked data",
+      "They prevent all access to the locked data",
+      "They allow other transactions to write but not read",
+      "They have no effect on other transactions"
+    ],
+    "answer": "They allow other transactions to read but not write the locked data"
+  },
+  {
+    "question": "Which of the following is a correct statement about transaction isolation?",
+    "options": [
+      "It prevents transactions from seeing intermediate results of other transactions",
+      "It makes all transactions visible to each other",
+      "It guarantees faster queries",
+      "It ensures data is always backed up"
+    ],
+    "answer": "It prevents transactions from seeing intermediate results of other transactions"
+  },
+  {
+    "question": "Which of the following is a correct statement about transaction durability?",
+    "options": [
+      "Once a transaction is committed, its effects are permanent even in case of system failure",
+      "All changes are undone after a crash",
+      "All changes are visible to other transactions",
+      "All transactions are rolled back after a crash"
+    ],
+    "answer": "Once a transaction is committed, its effects are permanent even in case of system failure"
+  }
+]
+
+      },
+      "Functions": {
+        "title" : "Stored Procedures and Functions",
+        "questions": [
+  {
+    "question": "What is a stored procedure?",
+    "options": [
+      "A precompiled set of one or more SQL statements stored in the database",
+      "A single SQL statement executed once",
+      "A temporary table",
+      "A database trigger"
+    ],
+    "answer": "A precompiled set of one or more SQL statements stored in the database"
+  },
+  {
+    "question": "Which SQL statement is used to create a stored procedure?",
+    "options": [
+      "CREATE PROCEDURE",
+      "CREATE FUNCTION",
+      "CREATE TRIGGER",
+      "CREATE PACKAGE"
+    ],
+    "answer": "CREATE PROCEDURE"
+  },
+  {
+    "question": "What is the main advantage of using stored procedures?",
+    "options": [
+      "Improved performance and reusability",
+      "Increased storage usage",
+      "Slower execution",
+      "No security benefits"
+    ],
+    "answer": "Improved performance and reusability"
+  },
+  {
+    "question": "Which keyword is used to execute a stored procedure in SQL Server?",
+    "options": [
+      "EXEC",
+      "RUN",
+      "CALL",
+      "PERFORM"
+    ],
+    "answer": "EXEC"
+  },
+  {
+    "question": "What is a user-defined function?",
+    "options": [
+      "A reusable block of code that returns a value",
+      "A type of table",
+      "A database trigger",
+      "A system variable"
+    ],
+    "answer": "A reusable block of code that returns a value"
+  },
+  {
+    "question": "Which statement is used to create a user-defined function in SQL?",
+    "options": [
+      "CREATE FUNCTION",
+      "CREATE PROCEDURE",
+      "CREATE TRIGGER",
+      "CREATE VIEW"
+    ],
+    "answer": "CREATE FUNCTION"
+  },
+  {
+    "question": "What is the main difference between a stored procedure and a function?",
+    "options": [
+      "A function returns a value, a procedure may not",
+      "A procedure returns a value, a function may not",
+      "Both always return values",
+      "Neither can accept parameters"
+    ],
+    "answer": "A function returns a value, a procedure may not"
+  },
+  {
+    "question": "What is a trigger in SQL?",
+    "options": [
+      "A special procedure that executes automatically in response to certain events",
+      "A manual process",
+      "A type of user-defined function",
+      "A table constraint"
+    ],
+    "answer": "A special procedure that executes automatically in response to certain events"
+  },
+  {
+    "question": "Which SQL statement is used to create a trigger?",
+    "options": [
+      "CREATE TRIGGER",
+      "CREATE PROCEDURE",
+      "CREATE FUNCTION",
+      "CREATE EVENT"
+    ],
+    "answer": "CREATE TRIGGER"
+  },
+  {
+    "question": "Which of the following can a trigger respond to?",
+    "options": [
+      "INSERT, UPDATE, DELETE",
+      "SELECT",
+      "COMMIT",
+      "ROLLBACK"
+    ],
+    "answer": "INSERT, UPDATE, DELETE"
+  },
+  {
+    "question": "What is the purpose of triggers in automation?",
+    "options": [
+      "To automate tasks based on data changes",
+      "To create tables automatically",
+      "To backup data",
+      "To generate reports"
+    ],
+    "answer": "To automate tasks based on data changes"
+  },
+  {
+    "question": "Which clause specifies the table on which a trigger is attached?",
+    "options": [
+      "ON",
+      "FOR",
+      "USING",
+      "WITH"
+    ],
+    "answer": "ON"
+  },
+  {
+    "question": "What is an AFTER trigger?",
+    "options": [
+      "A trigger that runs after an INSERT, UPDATE, or DELETE operation",
+      "A trigger that runs before an operation",
+      "A trigger that runs only on SELECT",
+      "A trigger that runs on commit"
+    ],
+    "answer": "A trigger that runs after an INSERT, UPDATE, or DELETE operation"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of stored procedures?",
+    "options": [
+      "Slower performance",
+      "Security",
+      "Reusability",
+      "Centralized logic"
+    ],
+    "answer": "Slower performance"
+  },
+  {
+    "question": "What is the correct syntax to create a stored procedure with parameters?",
+    "options": [
+      "CREATE PROCEDURE proc_name (@param1 INT) AS BEGIN ... END;",
+      "CREATE PROCEDURE proc_name AS (@param1 INT) BEGIN ... END;",
+      "CREATE FUNCTION proc_name (@param1 INT) BEGIN ... END;",
+      "CREATE TRIGGER proc_name (@param1 INT) BEGIN ... END;"
+    ],
+    "answer": "CREATE PROCEDURE proc_name (@param1 INT) AS BEGIN ... END;"
+  },
+  {
+    "question": "What is the main use of user-defined functions?",
+    "options": [
+      "Encapsulating reusable logic that returns a value",
+      "Creating tables",
+      "Automating triggers",
+      "Backing up databases"
+    ],
+    "answer": "Encapsulating reusable logic that returns a value"
+  },
+  {
+    "question": "Can a function return multiple values?",
+    "options": [
+      "No, it returns a single value",
+      "Yes, always",
+      "Only in triggers",
+      "Only in procedures"
+    ],
+    "answer": "No, it returns a single value"
+  },
+  {
+    "question": "Which keyword is used to return a value from a function?",
+    "options": [
+      "RETURN",
+      "OUTPUT",
+      "YIELD",
+      "EXIT"
+    ],
+    "answer": "RETURN"
+  },
+  {
+    "question": "Which of the following is true about triggers?",
+    "options": [
+      "They execute automatically when a specified event occurs",
+      "They must be called manually",
+      "They can only be run once",
+      "They are not related to tables"
+    ],
+    "answer": "They execute automatically when a specified event occurs"
+  },
+  {
+    "question": "Which of the following is NOT a valid trigger event?",
+    "options": [
+      "SELECT",
+      "INSERT",
+      "UPDATE",
+      "DELETE"
+    ],
+    "answer": "SELECT"
+  },
+  {
+    "question": "What is the purpose of the BEGIN...END block in stored procedures?",
+    "options": [
+      "To group multiple SQL statements",
+      "To start a transaction",
+      "To create a trigger",
+      "To create a function"
+    ],
+    "answer": "To group multiple SQL statements"
+  },
+  {
+    "question": "Which of the following can accept input and output parameters?",
+    "options": [
+      "Stored procedures",
+      "Triggers",
+      "Tables",
+      "Views"
+    ],
+    "answer": "Stored procedures"
+  },
+  {
+    "question": "Which of the following is NOT a type of stored procedure in SQL Server?",
+    "options": [
+      "Table-valued procedure",
+      "User-defined stored procedure",
+      "System stored procedure",
+      "CLR stored procedure"
+    ],
+    "answer": "Table-valued procedure"
+  },
+  {
+    "question": "What is the main advantage of triggers?",
+    "options": [
+      "Automatic enforcement of business rules",
+      "Manual execution of logic",
+      "Faster SELECT queries",
+      "Creating indexes"
+    ],
+    "answer": "Automatic enforcement of business rules"
+  },
+  {
+    "question": "Which of the following is NOT true about user-defined functions?",
+    "options": [
+      "They can modify database tables",
+      "They can return a value",
+      "They can have input parameters",
+      "They can be reused"
+    ],
+    "answer": "They can modify database tables"
+  },
+  {
+    "question": "Which of the following is a correct example of a scalar function?",
+    "options": [
+      "CREATE FUNCTION getTotal() RETURNS INT AS BEGIN RETURN 100; END;",
+      "CREATE PROCEDURE getTotal() AS BEGIN RETURN 100; END;",
+      "CREATE TRIGGER getTotal() AS BEGIN RETURN 100; END;",
+      "CREATE TABLE getTotal() AS BEGIN RETURN 100; END;"
+    ],
+    "answer": "CREATE FUNCTION getTotal() RETURNS INT AS BEGIN RETURN 100; END;"
+  },
+  {
+    "question": "Which of the following is a valid use case for a trigger?",
+    "options": [
+      "Automatically logging changes to a table",
+      "Backing up the database",
+      "Creating a new schema",
+      "Dropping tables"
+    ],
+    "answer": "Automatically logging changes to a table"
+  },
+  {
+    "question": "What is a system stored procedure?",
+    "options": [
+      "A procedure provided by the database system for administrative tasks",
+      "A procedure created by the user",
+      "A function that returns a table",
+      "A trigger on a system table"
+    ],
+    "answer": "A procedure provided by the database system for administrative tasks"
+  },
+  {
+    "question": "What is the main difference between a trigger and a stored procedure?",
+    "options": [
+      "A trigger executes automatically, a procedure is called explicitly",
+      "A procedure executes automatically, a trigger is called explicitly",
+      "Both are called manually",
+      "Neither can use parameters"
+    ],
+    "answer": "A trigger executes automatically, a procedure is called explicitly"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of user-defined functions?",
+    "options": [
+      "Directly modifying data in tables",
+      "Encapsulation of logic",
+      "Reusability",
+      "Simplifies code"
+    ],
+    "answer": "Directly modifying data in tables"
+  },
+  {
+    "question": "What does the RETURN keyword do in a function?",
+    "options": [
+      "Returns a value to the caller",
+      "Ends the procedure",
+      "Creates a trigger",
+      "Starts a transaction"
+    ],
+    "answer": "Returns a value to the caller"
+  },
+  {
+    "question": "Which of the following is true about triggers and views?",
+    "options": [
+      "Triggers are not supported for views",
+      "Triggers can be created on views",
+      "Triggers are always required for views",
+      "Views can only be used in triggers"
+    ],
+    "answer": "Triggers are not supported for views"
+  },
+  {
+    "question": "What is the purpose of input parameters in stored procedures?",
+    "options": [
+      "To pass values to the procedure",
+      "To return values from the procedure",
+      "To create tables",
+      "To create triggers"
+    ],
+    "answer": "To pass values to the procedure"
+  },
+  {
+    "question": "Which of the following is a correct way to call a stored procedure in SQL Server?",
+    "options": [
+      "EXEC procedure_name;",
+      "CALL procedure_name();",
+      "RUN procedure_name;",
+      "PERFORM procedure_name;"
+    ],
+    "answer": "EXEC procedure_name;"
+  },
+  {
+    "question": "Which of the following can be automated using triggers?",
+    "options": [
+      "Audit logging",
+      "Manual data entry",
+      "Schema creation",
+      "Backup operations"
+    ],
+    "answer": "Audit logging"
+  },
+  {
+    "question": "Which of the following is a valid trigger type?",
+    "options": [
+      "AFTER UPDATE",
+      "BEFORE SELECT",
+      "ON COMMIT",
+      "ON ROLLBACK"
+    ],
+    "answer": "AFTER UPDATE"
+  },
+  {
+    "question": "What is the main benefit of using triggers for automation?",
+    "options": [
+      "Reduces manual intervention",
+      "Increases manual errors",
+      "Slows down updates",
+      "Requires more code"
+    ],
+    "answer": "Reduces manual intervention"
+  },
+  {
+    "question": "Which of the following is true about stored procedures and output parameters?",
+    "options": [
+      "Stored procedures can return values using output parameters",
+      "Stored procedures cannot return values",
+      "Only functions can return values",
+      "Only triggers can return values"
+    ],
+    "answer": "Stored procedures can return values using output parameters"
+  },
+  {
+    "question": "Which of the following is a valid use of a trigger?",
+    "options": [
+      "Preventing deletion of critical records",
+      "Creating a view",
+      "Creating a function",
+      "Creating a schema"
+    ],
+    "answer": "Preventing deletion of critical records"
+  },
+  {
+    "question": "Which of the following is NOT a valid use of a user-defined function?",
+    "options": [
+      "Modifying table data",
+      "Returning a computed value",
+      "Encapsulating logic",
+      "Simplifying code"
+    ],
+    "answer": "Modifying table data"
+  },
+  {
+    "question": "Which of the following is a key feature of triggers?",
+    "options": [
+      "Automatic execution on specified events",
+      "Manual execution only",
+      "Can be used as a view",
+      "Cannot access table data"
+    ],
+    "answer": "Automatic execution on specified events"
+  },
+  {
+    "question": "Which of the following is a correct example of a trigger for logging changes?",
+    "options": [
+      "AFTER UPDATE ON Orders INSERT INTO OrderAudit ...",
+      "AFTER SELECT ON Orders INSERT INTO OrderAudit ...",
+      "AFTER DELETE ON Orders CREATE VIEW ...",
+      "BEFORE UPDATE ON Orders CREATE FUNCTION ..."
+    ],
+    "answer": "AFTER UPDATE ON Orders INSERT INTO OrderAudit ..."
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using stored procedures?",
+    "options": [
+      "Slower query performance",
+      "Centralized business logic",
+      "Parameterization",
+      "Improved security"
+    ],
+    "answer": "Slower query performance"
+  },
+  {
+    "question": "Which of the following is a correct syntax for creating a function?",
+    "options": [
+      "CREATE FUNCTION func_name (@param INT) RETURNS INT AS BEGIN RETURN @param + 1; END;",
+      "CREATE PROCEDURE func_name (@param INT) RETURNS INT AS BEGIN RETURN @param + 1; END;",
+      "CREATE TRIGGER func_name (@param INT) RETURNS INT AS BEGIN RETURN @param + 1; END;",
+      "CREATE VIEW func_name AS SELECT ...;"
+    ],
+    "answer": "CREATE FUNCTION func_name (@param INT) RETURNS INT AS BEGIN RETURN @param + 1; END;"
+  },
+  {
+    "question": "Which of the following is true about triggers and automation?",
+    "options": [
+      "Triggers can automate tasks like logging and enforcing business rules",
+      "Triggers can only be executed manually",
+      "Triggers cannot automate any task",
+      "Triggers are only for SELECT statements"
+    ],
+    "answer": "Triggers can automate tasks like logging and enforcing business rules"
+  },
+  {
+    "question": "Which of the following is NOT a valid use of a trigger?",
+    "options": [
+      "Creating a backup",
+      "Enforcing data integrity",
+      "Auditing changes",
+      "Automating calculations"
+    ],
+    "answer": "Creating a backup"
+  },
+  {
+    "question": "Which of the following is a valid use of a function in SQL?",
+    "options": [
+      "Calculating and returning a value in a SELECT statement",
+      "Creating a table",
+      "Creating a trigger",
+      "Automating backups"
+    ],
+    "answer": "Calculating and returning a value in a SELECT statement"
+  },
+  {
+    "question": "Which of the following is NOT a valid trigger timing?",
+    "options": [
+      "AFTER SELECT",
+      "AFTER INSERT",
+      "AFTER UPDATE",
+      "AFTER DELETE"
+    ],
+    "answer": "AFTER SELECT"
+  },
+  {
+    "question": "Which of the following is true about the RETURN statement in a function?",
+    "options": [
+      "It returns a value to the caller",
+      "It ends the procedure",
+      "It creates a trigger",
+      "It starts a transaction"
+    ],
+    "answer": "It returns a value to the caller"
+  },
+  {
+    "question": "Which of the following is a valid use of a stored procedure?",
+    "options": [
+      "Performing complex database operations with parameters",
+      "Creating a table",
+      "Creating a trigger",
+      "Creating a view"
+    ],
+    "answer": "Performing complex database operations with parameters"
+  },
+  {
+    "question": "Which of the following is NOT a valid use of a stored procedure?",
+    "options": [
+      "Returning a value in a SELECT statement",
+      "Inserting data",
+      "Updating data",
+      "Deleting data"
+    ],
+    "answer": "Returning a value in a SELECT statement"
+  },
+  {
+    "question": "Which of the following is a correct example of a trigger to prevent deletion?",
+    "options": [
+      "INSTEAD OF DELETE ON Employees PRINT 'Deletion not allowed';",
+      "AFTER DELETE ON Employees PRINT 'Deletion not allowed';",
+      "AFTER SELECT ON Employees PRINT 'Deletion not allowed';",
+      "BEFORE UPDATE ON Employees PRINT 'Deletion not allowed';"
+    ],
+    "answer": "INSTEAD OF DELETE ON Employees PRINT 'Deletion not allowed';"
+  },
+  {
+    "question": "Which of the following is true about user-defined functions?",
+    "options": [
+      "They can be used in SELECT statements",
+      "They can modify data in tables",
+      "They can create triggers",
+      "They can create procedures"
+    ],
+    "answer": "They can be used in SELECT statements"
+  },
+  {
+    "question": "Which of the following is NOT a valid characteristic of a stored procedure?",
+    "options": [
+      "Returns a value in a SELECT statement",
+      "Can accept parameters",
+      "Can contain multiple SQL statements",
+      "Can be reused"
+    ],
+    "answer": "Returns a value in a SELECT statement"
+  },
+  {
+    "question": "Which of the following is a correct example of a user-defined function?",
+    "options": [
+      "CREATE FUNCTION addNumbers(@a INT, @b INT) RETURNS INT AS BEGIN RETURN @a + @b; END;",
+      "CREATE PROCEDURE addNumbers(@a INT, @b INT) RETURNS INT AS BEGIN RETURN @a + @b; END;",
+      "CREATE TRIGGER addNumbers(@a INT, @b INT) RETURNS INT AS BEGIN RETURN @a + @b; END;",
+      "CREATE VIEW addNumbers AS SELECT ...;"
+    ],
+    "answer": "CREATE FUNCTION addNumbers(@a INT, @b INT) RETURNS INT AS BEGIN RETURN @a + @b; END;"
+  },
+  {
+    "question": "Which of the following is true about triggers and event-driven logic?",
+    "options": [
+      "Triggers execute in response to table events",
+      "Triggers execute only on demand",
+      "Triggers cannot access table data",
+      "Triggers are only for SELECT statements"
+    ],
+    "answer": "Triggers execute in response to table events"
+  },
+  {
+    "question": "Which of the following is a correct statement about stored procedures and security?",
+    "options": [
+      "Stored procedures can help restrict direct access to data",
+      "Stored procedures always expose all data",
+      "Stored procedures cannot use parameters",
+      "Stored procedures are only for SELECT statements"
+    ],
+    "answer": "Stored procedures can help restrict direct access to data"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using triggers?",
+    "options": [
+      "Manual execution of logic",
+      "Automated enforcement of business rules",
+      "Audit logging",
+      "Maintaining data integrity"
+    ],
+    "answer": "Manual execution of logic"
+  }
+]
+
+      },
+      "Subqueries" : {
+        "title" : "Views and Subqueries",
+        "questions": [
+  {
+    "question": "What is a view in SQL?",
+    "options": [
+      "A virtual table based on the result of a query",
+      "A physical table storing data",
+      "A database trigger",
+      "A stored procedure"
+    ],
+    "answer": "A virtual table based on the result of a query"
+  },
+  {
+    "question": "Which command is used to create a view?",
+    "options": [
+      "CREATE VIEW",
+      "CREATE TABLE",
+      "NEW VIEW",
+      "ADD VIEW"
+    ],
+    "answer": "CREATE VIEW"
+  },
+  {
+    "question": "Which command deletes a view named 'my_view'?",
+    "options": [
+      "DROP VIEW my_view;",
+      "DELETE VIEW my_view;",
+      "REMOVE VIEW my_view;",
+      "TRUNCATE VIEW my_view;"
+    ],
+    "answer": "DROP VIEW my_view;"
+  },
+  {
+    "question": "What is the correct syntax to update an existing view?",
+    "options": [
+      "CREATE OR REPLACE VIEW view_name AS ...",
+      "UPDATE VIEW view_name AS ...",
+      "ALTER VIEW view_name AS ...",
+      "MODIFY VIEW view_name AS ..."
+    ],
+    "answer": "CREATE OR REPLACE VIEW view_name AS ..."
+  },
+  {
+    "question": "Which of the following is true about views?",
+    "options": [
+      "Views do not store data physically",
+      "Views store data physically",
+      "Views can only be used for SELECT queries",
+      "Views cannot be updated"
+    ],
+    "answer": "Views do not store data physically"
+  },
+  {
+    "question": "Which command can be used to see the data in a view?",
+    "options": [
+      "SELECT * FROM view_name;",
+      "SHOW VIEW view_name;",
+      "GET VIEW view_name;",
+      "DISPLAY VIEW view_name;"
+    ],
+    "answer": "SELECT * FROM view_name;"
+  },
+  {
+    "question": "Which of the following is a benefit of using views?",
+    "options": [
+      "Simplifies complex queries",
+      "Increases disk usage",
+      "Slows down performance",
+      "Duplicates data"
+    ],
+    "answer": "Simplifies complex queries"
+  },
+  {
+    "question": "What happens if you drop a view?",
+    "options": [
+      "The view is deleted but the underlying data remains",
+      "The underlying data is deleted",
+      "The database is deleted",
+      "Nothing happens"
+    ],
+    "answer": "The view is deleted but the underlying data remains"
+  },
+  {
+    "question": "Which of the following can be used to update a view?",
+    "options": [
+      "CREATE OR REPLACE VIEW",
+      "ALTER VIEW",
+      "UPDATE VIEW",
+      "MODIFY VIEW"
+    ],
+    "answer": "CREATE OR REPLACE VIEW"
+  },
+  {
+    "question": "Which command would you use to remove a view if it exists?",
+    "options": [
+      "DROP VIEW IF EXISTS view_name;",
+      "DELETE VIEW view_name;",
+      "REMOVE VIEW view_name;",
+      "TRUNCATE VIEW view_name;"
+    ],
+    "answer": "DROP VIEW IF EXISTS view_name;"
+  },
+  {
+    "question": "What is a subquery?",
+    "options": [
+      "A query nested inside another SQL query",
+      "A query that runs independently",
+      "A query that updates a view",
+      "A query that deletes a table"
+    ],
+    "answer": "A query nested inside another SQL query"
+  },
+  {
+    "question": "Subqueries are enclosed within:",
+    "options": [
+      "Parentheses",
+      "Brackets",
+      "Curly braces",
+      "Quotes"
+    ],
+    "answer": "Parentheses"
+  },
+  {
+    "question": "Which SQL statements can use subqueries?",
+    "options": [
+      "SELECT, UPDATE, INSERT, DELETE",
+      "SELECT only",
+      "UPDATE only",
+      "DELETE only"
+    ],
+    "answer": "SELECT, UPDATE, INSERT, DELETE"
+  },
+  {
+    "question": "Where are subqueries commonly placed?",
+    "options": [
+      "In WHERE or HAVING clauses",
+      "In SELECT clause only",
+      "After FROM clause only",
+      "At the end of the query"
+    ],
+    "answer": "In WHERE or HAVING clauses"
+  },
+  {
+    "question": "Which clause cannot be used in a subquery?",
+    "options": [
+      "ORDER BY",
+      "GROUP BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "answer": "ORDER BY"
+  },
+  {
+    "question": "What is a correlated subquery?",
+    "options": [
+      "A subquery that refers to columns of the outer query",
+      "A subquery that is independent",
+      "A subquery that creates a view",
+      "A subquery that deletes data"
+    ],
+    "answer": "A subquery that refers to columns of the outer query"
+  },
+  {
+    "question": "Which operator is used to test for set membership in a subquery?",
+    "options": [
+      "IN",
+      "EXISTS",
+      "LIKE",
+      "BETWEEN"
+    ],
+    "answer": "IN"
+  },
+  {
+    "question": "Which operator is used to test for the absence of set membership?",
+    "options": [
+      "NOT IN",
+      "IN",
+      "EXISTS",
+      "LIKE"
+    ],
+    "answer": "NOT IN"
+  },
+  {
+    "question": "Which keyword is used to check if a subquery returns any rows?",
+    "options": [
+      "EXISTS",
+      "IN",
+      "HAVING",
+      "BETWEEN"
+    ],
+    "answer": "EXISTS"
+  },
+  {
+    "question": "Which of the following is true about subqueries?",
+    "options": [
+      "They can return a single value or multiple values",
+      "They must always return a single value",
+      "They cannot be used in SELECT statements",
+      "They can only be used in UPDATE statements"
+    ],
+    "answer": "They can return a single value or multiple values"
+  },
+  {
+    "question": "What is the main advantage of using a view?",
+    "options": [
+      "Simplifies complex queries and enhances security",
+      "Increases storage requirements",
+      "Slows down performance",
+      "Duplicates data"
+    ],
+    "answer": "Simplifies complex queries and enhances security"
+  },
+  {
+    "question": "Which keyword is used to create a view with all columns from a table?",
+    "options": [
+      "SELECT * FROM table_name",
+      "SELECT ALL FROM table_name",
+      "SELECT COLUMNS FROM table_name",
+      "SELECT FIELDS FROM table_name"
+    ],
+    "answer": "SELECT * FROM table_name"
+  },
+  {
+    "question": "Which of the following is a valid view creation statement?",
+    "options": [
+      "CREATE VIEW v AS SELECT * FROM table_name;",
+      "CREATE v VIEW AS SELECT * FROM table_name;",
+      "CREATE TABLE v AS SELECT * FROM table_name;",
+      "NEW VIEW v AS SELECT * FROM table_name;"
+    ],
+    "answer": "CREATE VIEW v AS SELECT * FROM table_name;"
+  },
+  {
+    "question": "What does the following command do? DROP VIEW my_view;",
+    "options": [
+      "Deletes the view named 'my_view'",
+      "Deletes the table 'my_view'",
+      "Deletes all tables",
+      "Deletes all views"
+    ],
+    "answer": "Deletes the view named 'my_view'"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using views?",
+    "options": [
+      "Physical data storage",
+      "Simplification of complex queries",
+      "Security",
+      "Data abstraction"
+    ],
+    "answer": "Physical data storage"
+  },
+  {
+    "question": "In which clause can a subquery NOT be used?",
+    "options": [
+      "ORDER BY",
+      "WHERE",
+      "FROM",
+      "HAVING"
+    ],
+    "answer": "ORDER BY"
+  },
+  {
+    "question": "Which of the following is a valid use of a subquery?",
+    "options": [
+      "Filtering results in a WHERE clause",
+      "Creating a new database",
+      "Dropping a table",
+      "Renaming a column"
+    ],
+    "answer": "Filtering results in a WHERE clause"
+  },
+  {
+    "question": "Which of the following is a virtual relation for storing a query?",
+    "options": [
+      "View",
+      "Function",
+      "Procedure",
+      "Index"
+    ],
+    "answer": "View"
+  },
+  {
+    "question": "Can you join multiple tables in a view?",
+    "options": [
+      "Yes",
+      "No",
+      "Only two tables",
+      "Only with subqueries"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which of the following is a correct example of a subquery?",
+    "options": [
+      "SELECT name FROM student WHERE grade = (SELECT MAX(grade) FROM student);",
+      "SELECT name FROM student WHERE grade = MAX(grade);",
+      "SELECT name FROM student WHERE grade = grade;",
+      "SELECT name FROM student WHERE grade = ALL(grade);"
+    ],
+    "answer": "SELECT name FROM student WHERE grade = (SELECT MAX(grade) FROM student);"
+  },
+  {
+    "question": "Which of the following is true about updating data through a view?",
+    "options": [
+      "It is possible if the view is updatable",
+      "It is always possible",
+      "It is never possible",
+      "It is only possible with subqueries"
+    ],
+    "answer": "It is possible if the view is updatable"
+  },
+  {
+    "question": "Which of the following is NOT a valid reason to use a subquery?",
+    "options": [
+      "To physically store data",
+      "To filter results",
+      "To calculate aggregates",
+      "To compare values"
+    ],
+    "answer": "To physically store data"
+  },
+  {
+    "question": "What is the result of a subquery that returns multiple values?",
+    "options": [
+      "It can be used with IN or EXISTS",
+      "It causes an error",
+      "It can only be used with =",
+      "It is ignored"
+    ],
+    "answer": "It can be used with IN or EXISTS"
+  },
+  {
+    "question": "Which of the following is true about correlated subqueries?",
+    "options": [
+      "They reference columns from the outer query",
+      "They run independently",
+      "They cannot be used in WHERE clauses",
+      "They always return a single value"
+    ],
+    "answer": "They reference columns from the outer query"
+  },
+  {
+    "question": "Which of the following is a valid use of CREATE OR REPLACE VIEW?",
+    "options": [
+      "To update the definition of an existing view",
+      "To delete a view",
+      "To create a table",
+      "To update data in a table"
+    ],
+    "answer": "To update the definition of an existing view"
+  },
+  {
+    "question": "Which of the following can a view NOT do?",
+    "options": [
+      "Store data physically",
+      "Simplify complex queries",
+      "Restrict data access",
+      "Provide data abstraction"
+    ],
+    "answer": "Store data physically"
+  },
+  {
+    "question": "Which of the following is a valid use of a subquery in the SELECT clause?",
+    "options": [
+      "To calculate a value for each row",
+      "To create a new table",
+      "To delete data",
+      "To create a database"
+    ],
+    "answer": "To calculate a value for each row"
+  },
+  {
+    "question": "What is a nested subquery?",
+    "options": [
+      "A subquery inside another subquery",
+      "A subquery in the FROM clause",
+      "A subquery in the SELECT clause",
+      "A subquery in the UPDATE clause"
+    ],
+    "answer": "A subquery inside another subquery"
+  },
+  {
+    "question": "Which of the following is a valid use of a subquery in the FROM clause?",
+    "options": [
+      "To create a derived table",
+      "To update data",
+      "To delete data",
+      "To create a view"
+    ],
+    "answer": "To create a derived table"
+  },
+  {
+    "question": "Which of the following is true about views and security?",
+    "options": [
+      "Views can restrict access to specific data",
+      "Views always expose all data",
+      "Views cannot be used for security",
+      "Views make data less secure"
+    ],
+    "answer": "Views can restrict access to specific data"
+  },
+  {
+    "question": "Which of the following is a correct use of the EXISTS keyword?",
+    "options": [
+      "SELECT name FROM students WHERE EXISTS (SELECT * FROM grades WHERE grades.student_id = students.id);",
+      "SELECT name FROM students WHERE IN (SELECT * FROM grades);",
+      "SELECT name FROM students WHERE grades.student_id = students.id;",
+      "SELECT name FROM students WHERE grades IN (students.id);"
+    ],
+    "answer": "SELECT name FROM students WHERE EXISTS (SELECT * FROM grades WHERE grades.student_id = students.id);"
+  },
+  {
+    "question": "Which of the following is NOT an advantage of using subqueries?",
+    "options": [
+      "Increased storage requirements",
+      "Modular query writing",
+      "Simplified complex queries",
+      "Improved readability"
+    ],
+    "answer": "Increased storage requirements"
+  },
+  {
+    "question": "Which of the following is true about updating a view?",
+    "options": [
+      "It is possible if the view is based on a single table and does not use aggregates",
+      "It is always possible",
+      "It is never possible",
+      "It is only possible with subqueries"
+    ],
+    "answer": "It is possible if the view is based on a single table and does not use aggregates"
+  },
+  {
+    "question": "Which of the following can be used to prevent multiple records from being returned by a subquery?",
+    "options": [
+      "Multiple value operators",
+      "ORDER BY clause",
+      "GROUP BY clause",
+      "HAVING clause"
+    ],
+    "answer": "Multiple value operators"
+  },
+  {
+    "question": "Which of the following is a correct way to select data from a view?",
+    "options": [
+      "SELECT * FROM view_name;",
+      "SHOW view_name;",
+      "GET view_name;",
+      "DISPLAY view_name;"
+    ],
+    "answer": "SELECT * FROM view_name;"
+  },
+  {
+    "question": "Which of the following is true about deleting a view?",
+    "options": [
+      "It does not affect the underlying data",
+      "It deletes the underlying data",
+      "It deletes the database",
+      "It deletes all tables"
+    ],
+    "answer": "It does not affect the underlying data"
+  },
+  {
+    "question": "Which of the following is a correct statement about subqueries in the SELECT clause?",
+    "options": [
+      "They can return a single value for each row",
+      "They can return multiple values for each row",
+      "They can only be used in the WHERE clause",
+      "They cannot be used"
+    ],
+    "answer": "They can return a single value for each row"
+  },
+  {
+    "question": "Which of the following is a valid use of a subquery in the HAVING clause?",
+    "options": [
+      "To filter groups based on aggregate values",
+      "To create a new table",
+      "To delete data",
+      "To create a database"
+    ],
+    "answer": "To filter groups based on aggregate values"
+  },
+  {
+    "question": "Which of the following is true about views and performance?",
+    "options": [
+      "Views can simplify queries but may not always improve performance",
+      "Views always improve performance",
+      "Views always slow down queries",
+      "Views duplicate data"
+    ],
+    "answer": "Views can simplify queries but may not always improve performance"
+  },
+  {
+    "question": "Which of the following is a correct statement about subqueries?",
+    "options": [
+      "They can be used anywhere an expression is allowed",
+      "They can only be used in SELECT statements",
+      "They can only be used in UPDATE statements",
+      "They can only be used in DELETE statements"
+    ],
+    "answer": "They can be used anywhere an expression is allowed"
+  },
+  {
+    "question": "Which of the following is a correct statement about views and updates?",
+    "options": [
+      "Not all views are updatable",
+      "All views are updatable",
+      "Views cannot be queried",
+      "Views always store data physically"
+    ],
+    "answer": "Not all views are updatable"
+  },
+  {
+    "question": "Which of the following is a valid use of a subquery in the UPDATE statement?",
+    "options": [
+      "To set a column value based on another table",
+      "To delete data",
+      "To create a new table",
+      "To create a view"
+    ],
+    "answer": "To set a column value based on another table"
+  },
+  {
+    "question": "Which of the following is true about using JOINs in a view?",
+    "options": [
+      "You can use JOINs to combine data from multiple tables in a view",
+      "JOINs cannot be used in views",
+      "Only INNER JOINs can be used in views",
+      "Only LEFT JOINs can be used in views"
+    ],
+    "answer": "You can use JOINs to combine data from multiple tables in a view"
+  },
+  {
+    "question": "Which of the following is a correct example of a subquery in the WHERE clause?",
+    "options": [
+      "SELECT * FROM employees WHERE department_id = (SELECT department_id FROM departments WHERE name = 'Sales');",
+      "SELECT * FROM employees WHERE department_id IN departments;",
+      "SELECT * FROM employees WHERE department_id = departments.department_id;",
+      "SELECT * FROM employees WHERE EXISTS departments;"
+    ],
+    "answer": "SELECT * FROM employees WHERE department_id = (SELECT department_id FROM departments WHERE name = 'Sales');"
+  },
+  {
+    "question": "Which of the following is a correct statement about subqueries and NULL values?",
+    "options": [
+      "A subquery can return NULL values",
+      "A subquery cannot return NULL values",
+      "A subquery always returns a single value",
+      "A subquery cannot be used with NULL"
+    ],
+    "answer": "A subquery can return NULL values"
+  },
+  {
+    "question": "Which of the following is a correct statement about views and data modification?",
+    "options": [
+      "Some views can be used to modify data if they are simple and based on a single table",
+      "All views can be used to modify data",
+      "No views can be used to modify data",
+      "Views can only be used to delete data"
+    ],
+    "answer": "Some views can be used to modify data if they are simple and based on a single table"
+  },
+  {
+    "question": "Which of the following is a correct use of a subquery in the INSERT statement?",
+    "options": [
+      "INSERT INTO table_name (column1) SELECT column2 FROM another_table;",
+      "INSERT INTO table_name (column1) VALUES (SELECT column2 FROM another_table);",
+      "INSERT INTO table_name (column1) UPDATE another_table SET column2 = value;",
+      "INSERT INTO table_name (column1) DELETE FROM another_table;"
+    ],
+    "answer": "INSERT INTO table_name (column1) SELECT column2 FROM another_table;"
+  },
+  {
+    "question": "Which of the following is true about using GROUP BY in a view?",
+    "options": [
+      "Views can include GROUP BY clauses",
+      "Views cannot include GROUP BY clauses",
+      "GROUP BY is only for tables",
+      "GROUP BY is only for subqueries"
+    ],
+    "answer": "Views can include GROUP BY clauses"
+  }
+]
+
+      },
+      "Security": {
+        "title" : "Security and User Management",
+        "questions": [
+  {
+    "question": "Which command is used to create a new user in MySQL?",
+    "options": [
+      "CREATE USER",
+      "ADD USER",
+      "NEW USER",
+      "INSERT USER"
+    ],
+    "answer": "CREATE USER"
+  },
+  {
+    "question": "Which command grants privileges to a user in MySQL?",
+    "options": [
+      "GRANT",
+      "GIVE",
+      "ALLOW",
+      "PERMIT"
+    ],
+    "answer": "GRANT"
+  },
+  {
+    "question": "Which command is used to remove a user in MySQL?",
+    "options": [
+      "DROP USER",
+      "DELETE USER",
+      "REMOVE USER",
+      "ERASE USER"
+    ],
+    "answer": "DROP USER"
+  },
+  {
+    "question": "Which command revokes privileges from a user?",
+    "options": [
+      "REVOKE",
+      "REMOVE",
+      "DENY",
+      "DISALLOW"
+    ],
+    "answer": "REVOKE"
+  },
+  {
+    "question": "Which privilege allows a user to create tables?",
+    "options": [
+      "CREATE",
+      "INSERT",
+      "SELECT",
+      "UPDATE"
+    ],
+    "answer": "CREATE"
+  },
+  {
+    "question": "Which privilege allows a user to retrieve data from tables?",
+    "options": [
+      "SELECT",
+      "INSERT",
+      "UPDATE",
+      "DELETE"
+    ],
+    "answer": "SELECT"
+  },
+  {
+    "question": "Which privilege allows a user to modify existing data in tables?",
+    "options": [
+      "UPDATE",
+      "SELECT",
+      "CREATE",
+      "DROP"
+    ],
+    "answer": "UPDATE"
+  },
+  {
+    "question": "Which privilege allows a user to remove data from tables?",
+    "options": [
+      "DELETE",
+      "INSERT",
+      "SELECT",
+      "UPDATE"
+    ],
+    "answer": "DELETE"
+  },
+  {
+    "question": "Which privilege allows a user to add new rows to tables?",
+    "options": [
+      "INSERT",
+      "UPDATE",
+      "SELECT",
+      "DROP"
+    ],
+    "answer": "INSERT"
+  },
+  {
+    "question": "What does the following command do? GRANT ALL PRIVILEGES ON db.* TO 'user'@'localhost';",
+    "options": [
+      "Grants all privileges on all tables in db to user",
+      "Grants privileges on all databases",
+      "Removes all privileges from user",
+      "Creates a new user"
+    ],
+    "answer": "Grants all privileges on all tables in db to user"
+  },
+  {
+    "question": "Which command is used to change a user's password in MySQL?",
+    "options": [
+      "ALTER USER",
+      "CHANGE PASSWORD",
+      "SET PASSWORD",
+      "MODIFY USER"
+    ],
+    "answer": "ALTER USER"
+  },
+  {
+    "question": "Which privilege allows a user to remove tables from a database?",
+    "options": [
+      "DROP",
+      "DELETE",
+      "REMOVE",
+      "ERASE"
+    ],
+    "answer": "DROP"
+  },
+  {
+    "question": "How can you see the privileges of a user?",
+    "options": [
+      "SHOW GRANTS FOR 'user'@'host';",
+      "SHOW PRIVILEGES FOR 'user'@'host';",
+      "LIST PRIVILEGES FOR 'user'@'host';",
+      "DESCRIBE USER 'user'@'host';"
+    ],
+    "answer": "SHOW GRANTS FOR 'user'@'host';"
+  },
+  {
+    "question": "Which privilege allows a user to grant privileges to other users?",
+    "options": [
+      "GRANT OPTION",
+      "SUPER",
+      "ADMIN",
+      "ALL"
+    ],
+    "answer": "GRANT OPTION"
+  },
+  {
+    "question": "Which privilege is required to backup a database using mysqldump?",
+    "options": [
+      "SELECT",
+      "INSERT",
+      "UPDATE",
+      "DELETE"
+    ],
+    "answer": "SELECT"
+  },
+  {
+    "question": "Which privilege allows a user to change the structure of a table?",
+    "options": [
+      "ALTER",
+      "UPDATE",
+      "MODIFY",
+      "CHANGE"
+    ],
+    "answer": "ALTER"
+  },
+  {
+    "question": "Which command is used to remove all privileges from a user?",
+    "options": [
+      "REVOKE ALL PRIVILEGES",
+      "DROP USER",
+      "DELETE USER",
+      "REMOVE PRIVILEGES"
+    ],
+    "answer": "REVOKE ALL PRIVILEGES"
+  },
+  {
+    "question": "Which privilege allows a user to create new databases?",
+    "options": [
+      "CREATE",
+      "INSERT",
+      "SELECT",
+      "UPDATE"
+    ],
+    "answer": "CREATE"
+  },
+  {
+    "question": "What does the following command do? REVOKE INSERT ON db.table FROM 'user'@'localhost';",
+    "options": [
+      "Removes INSERT privilege on db.table from user",
+      "Grants INSERT privilege on db.table to user",
+      "Deletes db.table",
+      "Removes user"
+    ],
+    "answer": "Removes INSERT privilege on db.table from user"
+  },
+  {
+    "question": "Which of the following is a good practice for securing MySQL?",
+    "options": [
+      "Use strong passwords for all users",
+      "Allow root access from any host",
+      "Use default passwords",
+      "Grant all privileges to all users"
+    ],
+    "answer": "Use strong passwords for all users"
+  },
+  {
+    "question": "Which command is used to remove all privileges and delete a user?",
+    "options": [
+      "DROP USER",
+      "REVOKE USER",
+      "DELETE USER",
+      "REMOVE USER"
+    ],
+    "answer": "DROP USER"
+  },
+  {
+    "question": "Which privilege allows a user to execute stored procedures?",
+    "options": [
+      "EXECUTE",
+      "RUN",
+      "CALL",
+      "PERFORM"
+    ],
+    "answer": "EXECUTE"
+  },
+  {
+    "question": "Which privilege allows a user to view the structure of a table?",
+    "options": [
+      "SHOW VIEW",
+      "DESCRIBE",
+      "SELECT",
+      "SHOW"
+    ],
+    "answer": "SHOW VIEW"
+  },
+  {
+    "question": "Which privilege allows a user to create views?",
+    "options": [
+      "CREATE VIEW",
+      "CREATE",
+      "INSERT",
+      "ALTER"
+    ],
+    "answer": "CREATE VIEW"
+  },
+  {
+    "question": "Which privilege allows a user to lock tables?",
+    "options": [
+      "LOCK TABLES",
+      "LOCK",
+      "TABLE LOCK",
+      "EXCLUSIVE"
+    ],
+    "answer": "LOCK TABLES"
+  },
+  {
+    "question": "Which privilege allows a user to create triggers?",
+    "options": [
+      "TRIGGER",
+      "CREATE",
+      "ALTER",
+      "UPDATE"
+    ],
+    "answer": "TRIGGER"
+  },
+  {
+    "question": "Which of the following is NOT a privilege in MySQL?",
+    "options": [
+      "READ",
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "answer": "READ"
+  },
+  {
+    "question": "Which command can be used to change a user's host in MySQL?",
+    "options": [
+      "RENAME USER",
+      "ALTER USER",
+      "CHANGE HOST",
+      "MODIFY USER"
+    ],
+    "answer": "RENAME USER"
+  },
+  {
+    "question": "Which privilege allows a user to terminate client connections?",
+    "options": [
+      "PROCESS",
+      "KILL",
+      "TERMINATE",
+      "ADMIN"
+    ],
+    "answer": "PROCESS"
+  },
+  {
+    "question": "Which privilege allows a user to reload or refresh tables, logs, or privileges?",
+    "options": [
+      "RELOAD",
+      "REFRESH",
+      "UPDATE",
+      "ALTER"
+    ],
+    "answer": "RELOAD"
+  },
+  {
+    "question": "Which privilege is needed to grant privileges to others?",
+    "options": [
+      "GRANT OPTION",
+      "SUPER",
+      "ADMIN",
+      "ALL"
+    ],
+    "answer": "GRANT OPTION"
+  },
+  {
+    "question": "Which privilege allows a user to shut down the MySQL server?",
+    "options": [
+      "SHUTDOWN",
+      "STOP",
+      "ADMIN",
+      "SUPER"
+    ],
+    "answer": "SHUTDOWN"
+  },
+  {
+    "question": "Which privilege allows a user to create temporary tables?",
+    "options": [
+      "CREATE TEMPORARY TABLES",
+      "TEMP",
+      "TEMPORARY",
+      "CREATE TABLE"
+    ],
+    "answer": "CREATE TEMPORARY TABLES"
+  },
+  {
+    "question": "Which privilege allows a user to replicate databases?",
+    "options": [
+      "REPLICATION SLAVE",
+      "REPLICATION",
+      "REPLICATE",
+      "COPY"
+    ],
+    "answer": "REPLICATION SLAVE"
+  },
+  {
+    "question": "Which privilege allows a user to set global system variables?",
+    "options": [
+      "SUPER",
+      "ADMIN",
+      "SET",
+      "UPDATE"
+    ],
+    "answer": "SUPER"
+  },
+  {
+    "question": "Which of the following is a best practice for securing MySQL?",
+    "options": [
+      "Remove anonymous users",
+      "Allow root login from any host",
+      "Use weak passwords",
+      "Grant all privileges to all users"
+    ],
+    "answer": "Remove anonymous users"
+  },
+  {
+    "question": "Which command can be used to see all users in MySQL?",
+    "options": [
+      "SELECT user FROM mysql.user;",
+      "SHOW USERS;",
+      "LIST USERS;",
+      "DESCRIBE USERS;"
+    ],
+    "answer": "SELECT user FROM mysql.user;"
+  },
+  {
+    "question": "Which privilege allows a user to view the process list?",
+    "options": [
+      "PROCESS",
+      "SHOW",
+      "SELECT",
+      "LIST"
+    ],
+    "answer": "PROCESS"
+  },
+  {
+    "question": "Which privilege allows a user to create new indexes?",
+    "options": [
+      "INDEX",
+      "CREATE INDEX",
+      "CREATE",
+      "ALTER"
+    ],
+    "answer": "INDEX"
+  },
+  {
+    "question": "Which privilege allows a user to create stored routines?",
+    "options": [
+      "CREATE ROUTINE",
+      "CREATE",
+      "PROCEDURE",
+      "FUNCTION"
+    ],
+    "answer": "CREATE ROUTINE"
+  },
+  {
+    "question": "Which privilege allows a user to alter stored routines?",
+    "options": [
+      "ALTER ROUTINE",
+      "ALTER",
+      "UPDATE",
+      "MODIFY"
+    ],
+    "answer": "ALTER ROUTINE"
+  },
+  {
+    "question": "What is the best way to prevent SQL injection?",
+    "options": [
+      "Use prepared statements and parameterized queries",
+      "Use weak passwords",
+      "Grant all privileges",
+      "Allow root login from any host"
+    ],
+    "answer": "Use prepared statements and parameterized queries"
+  },
+  {
+    "question": "Which privilege allows a user to create events?",
+    "options": [
+      "EVENT",
+      "CREATE",
+      "SCHEDULE",
+      "TIME"
+    ],
+    "answer": "EVENT"
+  },
+  {
+    "question": "Which command is used to remove a specific privilege from a user?",
+    "options": [
+      "REVOKE",
+      "REMOVE",
+      "DELETE",
+      "DROP"
+    ],
+    "answer": "REVOKE"
+  },
+  {
+    "question": "Which privilege allows a user to update the privileges tables directly?",
+    "options": [
+      "UPDATE",
+      "SUPER",
+      "GRANT OPTION",
+      "ADMIN"
+    ],
+    "answer": "UPDATE"
+  },
+  {
+    "question": "Which of the following is a recommended security step after installing MySQL?",
+    "options": [
+      "Run mysql_secure_installation",
+      "Grant all privileges to all users",
+      "Allow remote root access",
+      "Use default passwords"
+    ],
+    "answer": "Run mysql_secure_installation"
+  },
+  {
+    "question": "Which command is used to view current user privileges?",
+    "options": [
+      "SHOW GRANTS;",
+      "SHOW PRIVILEGES;",
+      "LIST PRIVILEGES;",
+      "DESCRIBE PRIVILEGES;"
+    ],
+    "answer": "SHOW GRANTS;"
+  },
+  {
+    "question": "Which privilege allows a user to view the definition of stored routines?",
+    "options": [
+      "SHOW ROUTINE",
+      "SHOW",
+      "SELECT",
+      "DESCRIBE"
+    ],
+    "answer": "SHOW ROUTINE"
+  },
+  {
+    "question": "Which privilege allows a user to execute functions?",
+    "options": [
+      "EXECUTE",
+      "RUN",
+      "CALL",
+      "PERFORM"
+    ],
+    "answer": "EXECUTE"
+  },
+  {
+    "question": "Which of the following is a good practice for user management?",
+    "options": [
+      "Grant minimum necessary privileges",
+      "Grant all privileges by default",
+      "Allow anonymous users",
+      "Use default passwords"
+    ],
+    "answer": "Grant minimum necessary privileges"
+  }
+]
+
+      },
+      "Performance": {
+        "title" : "Performance and Optimization",
+        "questions": [
+  {
+    "question": "What is the main purpose of a database index?",
+    "options": [
+      "To speed up data retrieval",
+      "To store data",
+      "To delete data",
+      "To encrypt data"
+    ],
+    "answer": "To speed up data retrieval"
+  },
+  {
+    "question": "Which SQL command is used to create an index?",
+    "options": [
+      "CREATE INDEX",
+      "ADD INDEX",
+      "MAKE INDEX",
+      "NEW INDEX"
+    ],
+    "answer": "CREATE INDEX"
+  },
+  {
+    "question": "What is a composite index?",
+    "options": [
+      "An index on multiple columns",
+      "An index on a single column",
+      "An index on a table",
+      "A temporary index"
+    ],
+    "answer": "An index on multiple columns"
+  },
+  {
+    "question": "Which of the following can negatively impact query performance?",
+    "options": [
+      "Missing indexes",
+      "Proper indexing",
+      "Normalized tables",
+      "Partitioning"
+    ],
+    "answer": "Missing indexes"
+  },
+  {
+    "question": "What does the EXPLAIN command do?",
+    "options": [
+      "Shows the execution plan for a query",
+      "Executes a query",
+      "Deletes data",
+      "Creates an index"
+    ],
+    "answer": "Shows the execution plan for a query"
+  },
+  {
+    "question": "Which type of index is best for columns with many unique values?",
+    "options": [
+      "B-tree index",
+      "Bitmap index",
+      "Hashed index",
+      "Full-text index"
+    ],
+    "answer": "B-tree index"
+  },
+  {
+    "question": "Which index type is best for columns with a small number of distinct values?",
+    "options": [
+      "Bitmap index",
+      "B-tree index",
+      "Spatial index",
+      "Clustered index"
+    ],
+    "answer": "Bitmap index"
+  },
+  {
+    "question": "What is a covering index?",
+    "options": [
+      "An index that contains all columns needed by a query",
+      "An index on a single column",
+      "A temporary index",
+      "A unique index"
+    ],
+    "answer": "An index that contains all columns needed by a query"
+  },
+  {
+    "question": "Which of the following can help optimize query performance?",
+    "options": [
+      "Using WHERE clauses to filter data",
+      "Selecting all columns with *",
+      "Avoiding indexes",
+      "Storing large blobs in every row"
+    ],
+    "answer": "Using WHERE clauses to filter data"
+  },
+  {
+    "question": "What does query optimization aim to achieve?",
+    "options": [
+      "Reduce query execution time",
+      "Increase data redundancy",
+      "Increase storage usage",
+      "Slow down queries"
+    ],
+    "answer": "Reduce query execution time"
+  },
+  {
+    "question": "What is the effect of too many indexes on a table?",
+    "options": [
+      "Slower write operations",
+      "Faster write operations",
+      "No effect",
+      "Faster deletes"
+    ],
+    "answer": "Slower write operations"
+  },
+  {
+    "question": "Which of the following is a good practice for optimizing SELECT queries?",
+    "options": [
+      "Select only needed columns",
+      "Select all columns with *",
+      "Avoid using WHERE",
+      "Use subqueries for everything"
+    ],
+    "answer": "Select only needed columns"
+  },
+  {
+    "question": "What is a clustered index?",
+    "options": [
+      "An index that determines the physical order of data in a table",
+      "An index on multiple tables",
+      "A temporary index",
+      "An index on a view"
+    ],
+    "answer": "An index that determines the physical order of data in a table"
+  },
+  {
+    "question": "Which of the following can be used to analyze slow queries in MySQL?",
+    "options": [
+      "Slow query log",
+      "Fast query log",
+      "Query cache",
+      "EXPLAIN ANALYZE"
+    ],
+    "answer": "Slow query log"
+  },
+  {
+    "question": "What is the main purpose of database normalization?",
+    "options": [
+      "Reduce data redundancy and improve data integrity",
+      "Speed up all queries",
+      "Increase data duplication",
+      "Reduce indexing"
+    ],
+    "answer": "Reduce data redundancy and improve data integrity"
+  },
+  {
+    "question": "Which clause can help limit the number of rows returned and improve performance?",
+    "options": [
+      "LIMIT",
+      "ORDER BY",
+      "GROUP BY",
+      "HAVING"
+    ],
+    "answer": "LIMIT"
+  },
+  {
+    "question": "Which of the following is a sign of a poorly optimized query?",
+    "options": [
+      "Full table scan",
+      "Index scan",
+      "Using WHERE clause",
+      "Using LIMIT"
+    ],
+    "answer": "Full table scan"
+  },
+  {
+    "question": "Which of the following can improve performance for read-heavy workloads?",
+    "options": [
+      "Adding appropriate indexes",
+      "Removing all indexes",
+      "Denormalizing data",
+      "Using only subqueries"
+    ],
+    "answer": "Adding appropriate indexes"
+  },
+  {
+    "question": "What is the main disadvantage of denormalization?",
+    "options": [
+      "Increased data redundancy",
+      "Faster queries",
+      "Improved data integrity",
+      "More efficient joins"
+    ],
+    "answer": "Increased data redundancy"
+  },
+  {
+    "question": "Which command can be used to remove an index?",
+    "options": [
+      "DROP INDEX",
+      "DELETE INDEX",
+      "REMOVE INDEX",
+      "ALTER INDEX"
+    ],
+    "answer": "DROP INDEX"
+  },
+  {
+    "question": "Which of the following is a benefit of using indexes?",
+    "options": [
+      "Faster data retrieval",
+      "Slower updates",
+      "Increased storage usage",
+      "More data redundancy"
+    ],
+    "answer": "Faster data retrieval"
+  },
+  {
+    "question": "Which of the following is a performance bottleneck in large databases?",
+    "options": [
+      "Full table scans",
+      "Proper indexing",
+      "Partitioning",
+      "Query caching"
+    ],
+    "answer": "Full table scans"
+  },
+  {
+    "question": "What is the purpose of the ANALYZE TABLE command?",
+    "options": [
+      "Update index statistics for the optimizer",
+      "Delete table data",
+      "Create a new index",
+      "Backup the table"
+    ],
+    "answer": "Update index statistics for the optimizer"
+  },
+  {
+    "question": "Which of the following can help optimize JOIN operations?",
+    "options": [
+      "Indexing the join columns",
+      "Avoiding WHERE clauses",
+      "Using SELECT *",
+      "Storing all data in one table"
+    ],
+    "answer": "Indexing the join columns"
+  },
+  {
+    "question": "Which of the following is a good practice for optimizing database performance?",
+    "options": [
+      "Regularly updating statistics",
+      "Never updating statistics",
+      "Removing all indexes",
+      "Avoiding normalization"
+    ],
+    "answer": "Regularly updating statistics"
+  },
+  {
+    "question": "Which of the following is true about query caching?",
+    "options": [
+      "It stores the results of queries for faster retrieval",
+      "It slows down queries",
+      "It deletes old data",
+      "It prevents indexing"
+    ],
+    "answer": "It stores the results of queries for faster retrieval"
+  },
+  {
+    "question": "What is the effect of using SELECT * in queries?",
+    "options": [
+      "Can slow down performance by retrieving unnecessary columns",
+      "Always optimizes performance",
+      "Creates an index",
+      "Deletes data"
+    ],
+    "answer": "Can slow down performance by retrieving unnecessary columns"
+  },
+  {
+    "question": "Which of the following is a benefit of partitioning tables?",
+    "options": [
+      "Improved query performance for large datasets",
+      "Increased data redundancy",
+      "Slower queries",
+      "Larger indexes"
+    ],
+    "answer": "Improved query performance for large datasets"
+  },
+  {
+    "question": "Which index type is used for full-text searching?",
+    "options": [
+      "Full-text index",
+      "B-tree index",
+      "Bitmap index",
+      "Spatial index"
+    ],
+    "answer": "Full-text index"
+  },
+  {
+    "question": "Which of the following is a disadvantage of too many indexes?",
+    "options": [
+      "Slower insert and update operations",
+      "Faster SELECT queries",
+      "Improved normalization",
+      "Better data compression"
+    ],
+    "answer": "Slower insert and update operations"
+  },
+  {
+    "question": "Which tool can be used to analyze query performance in MySQL?",
+    "options": [
+      "EXPLAIN",
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "answer": "EXPLAIN"
+  },
+  {
+    "question": "Which of the following is a sign of an inefficient query?",
+    "options": [
+      "High CPU usage",
+      "Low memory usage",
+      "Short execution time",
+      "Small result set"
+    ],
+    "answer": "High CPU usage"
+  },
+  {
+    "question": "What is the purpose of the OPTIMIZE TABLE command?",
+    "options": [
+      "Defragment and reorganize table data and indexes",
+      "Create a new index",
+      "Delete table data",
+      "Backup the table"
+    ],
+    "answer": "Defragment and reorganize table data and indexes"
+  },
+  {
+    "question": "What is a non-clustered index?",
+    "options": [
+      "An index that does not affect the physical order of data",
+      "An index that determines the physical order of data",
+      "A temporary index",
+      "A unique index"
+    ],
+    "answer": "An index that does not affect the physical order of data"
+  },
+  {
+    "question": "Which of the following is a good practice for writing efficient queries?",
+    "options": [
+      "Avoid using functions on indexed columns in WHERE clauses",
+      "Always use subqueries",
+      "Select all columns",
+      "Avoid using WHERE clauses"
+    ],
+    "answer": "Avoid using functions on indexed columns in WHERE clauses"
+  },
+  {
+    "question": "What is the main advantage of using parameterized queries?",
+    "options": [
+      "Prevents SQL injection and improves performance",
+      "Slows down queries",
+      "Increases data redundancy",
+      "Requires more indexes"
+    ],
+    "answer": "Prevents SQL injection and improves performance"
+  },
+  {
+    "question": "Which of the following can help reduce locking contention?",
+    "options": [
+      "Shorter transactions",
+      "Longer transactions",
+      "No indexing",
+      "Using SELECT *"
+    ],
+    "answer": "Shorter transactions"
+  },
+  {
+    "question": "Which of the following is a benefit of using a primary key?",
+    "options": [
+      "Automatically creates a unique clustered index",
+      "Slows down queries",
+      "Increases redundancy",
+      "Prevents indexing"
+    ],
+    "answer": "Automatically creates a unique clustered index"
+  },
+  {
+    "question": "Which of the following is a good practice for optimizing write performance?",
+    "options": [
+      "Minimize the number of indexes on frequently updated tables",
+      "Add as many indexes as possible",
+      "Use SELECT *",
+      "Avoid normalization"
+    ],
+    "answer": "Minimize the number of indexes on frequently updated tables"
+  },
+  {
+    "question": "Which of the following can help optimize GROUP BY queries?",
+    "options": [
+      "Indexing the group by columns",
+      "Avoiding indexes",
+      "Using SELECT *",
+      "Denormalizing data"
+    ],
+    "answer": "Indexing the group by columns"
+  },
+  {
+    "question": "What is the purpose of using LIMIT in queries?",
+    "options": [
+      "Restrict the number of rows returned and improve performance",
+      "Increase result set size",
+      "Delete data",
+      "Create indexes"
+    ],
+    "answer": "Restrict the number of rows returned and improve performance"
+  },
+  {
+    "question": "Which of the following is a sign that a query needs optimization?",
+    "options": [
+      "Long execution time",
+      "Short execution time",
+      "Small result set",
+      "Low CPU usage"
+    ],
+    "answer": "Long execution time"
+  },
+  {
+    "question": "Which of the following is a benefit of query optimization?",
+    "options": [
+      "Reduced resource usage and faster response times",
+      "Increased storage usage",
+      "More data redundancy",
+      "Slower queries"
+    ],
+    "answer": "Reduced resource usage and faster response times"
+  },
+  {
+    "question": "Which of the following is a good practice for optimizing JOIN queries?",
+    "options": [
+      "Join on indexed columns",
+      "Join on non-indexed columns",
+      "Avoid using WHERE",
+      "Use SELECT *"
+    ],
+    "answer": "Join on indexed columns"
+  },
+  {
+    "question": "Which of the following is a disadvantage of not analyzing query plans?",
+    "options": [
+      "Missed optimization opportunities",
+      "Faster queries",
+      "Less storage usage",
+      "Better indexing"
+    ],
+    "answer": "Missed optimization opportunities"
+  },
+  {
+    "question": "Which of the following is a benefit of using partial indexes?",
+    "options": [
+      "Improved performance for specific queries",
+      "Slower performance",
+      "Increased redundancy",
+      "Larger indexes"
+    ],
+    "answer": "Improved performance for specific queries"
+  },
+  {
+    "question": "Which of the following can help optimize ORDER BY queries?",
+    "options": [
+      "Indexing the order by columns",
+      "Avoiding indexes",
+      "Using SELECT *",
+      "Denormalizing data"
+    ],
+    "answer": "Indexing the order by columns"
+  },
+  {
+    "question": "Which of the following is a good practice for monitoring database performance?",
+    "options": [
+      "Regularly review slow query logs",
+      "Never review logs",
+      "Remove all indexes",
+      "Avoid normalization"
+    ],
+    "answer": "Regularly review slow query logs"
+  }
+]
+
+      }
+    }
+  }
+}

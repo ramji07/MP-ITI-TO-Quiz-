@@ -101,6 +101,16 @@ export default function QuizPage() {
   localStorage.setItem(`result_${moduleId}_${subId}`, JSON.stringify(resultData));
   localStorage.removeItem(`bookmark_${moduleId}_${subId}`);
 
+  const markedReviewData = marked.map((index) => ({
+  index,
+  question: quiz.questions[index].question,
+  answer: quiz.questions[index].answer,
+  userAnswer: userAnswers[index] || "",
+  isCorrect: quiz.questions[index].answer === userAnswers[index],
+}));
+
+localStorage.setItem("marked_preview", JSON.stringify(markedReviewData));
+
   navigate("/result", {
     state: {
       moduleId,
@@ -108,7 +118,11 @@ export default function QuizPage() {
       ...resultData,
     },
   });
+
+
 }, [quiz, moduleId, subId, userAnswers, navigate, marked]);
+
+
 
 
   useEffect(() => {
