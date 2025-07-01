@@ -23,7 +23,10 @@ const modules = [
 export default function ModuleList() {
   const navigate = useNavigate();
   const [completedModules, setCompletedModules] = useState({});
+  const [samplePaperCount, setSamplePaperCount] = useState(0);
+  const [samplePapersAttempted, setSamplePapersAttempted] = useState(0);
 
+  // Check completed submodules
   useEffect(() => {
     modules.forEach((mod) => {
       import(`../data/${mod.id}.json`)
@@ -42,12 +45,46 @@ export default function ModuleList() {
         })
         .catch(() => {});
     });
+
+    // 🔍 Load Sample Paper stats
+    import("../data/Sample-Papers.json")
+      .then((data) => {
+        const subs = data["Sample-Papers"]?.submodules || {};
+        const allKeys = Object.keys(subs);
+        const attempted = allKeys.filter((subId) => {
+          const key = `progress_Sample-Papers_${subId}`;
+          return localStorage.getItem(key) === "true";
+        });
+        setSamplePaperCount(allKeys.length);
+        setSamplePapersAttempted(attempted.length);
+      })
+      .catch(() => {});
   }, []);
 
   return (
     <div className="container my-4">
       <h2 className="mb-4 text-center text-primary">All Modules</h2>
       <div className="row g-3">
+
+        {/* ✅ Sample Paper Section */}
+        <div className="col-12 col-md-4">
+          <button
+            onClick={() => navigate("/sample-papers")}
+            className="btn w-100 text-start border shadow-sm p-3 rounded"
+          >
+            <h5 className="fw-bold mb-1">
+              📄 Sample Papers
+              {samplePapersAttempted === samplePaperCount && samplePaperCount > 0 && (
+                <span className="ms-2 badge bg-success text-white">✔ Completed</span>
+              )}
+            </h5>
+            <p className="text-muted mb-0">
+              {samplePapersAttempted}/{samplePaperCount} papers attempted
+            </p>
+          </button>
+        </div>
+
+        {/* ✅ Regular Modules */}
         {modules.map((mod) => (
           <div className="col-12 col-md-4" key={mod.id}>
             <button

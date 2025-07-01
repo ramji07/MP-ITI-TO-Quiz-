@@ -4,6 +4,7 @@ import SubModuleList from "./routes/SubModuleList";
 import QuizPage from "./routes/QuizPage";
 import ResultPage from "./routes/ResultPage";
 import MarkedReview from "./routes/MarkedReview"; // ✅ Import the new component  
+import SamplePapersPage from "./routes/SamplePapersPage"; // ✅ Import Sample Papers Page
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Route path="/quiz/:moduleId/:subId" element={<QuizPage />} />
       <Route path="/result" element={<ResultPage />} />
               <Route path="/marked-review" element={<MarkedReview />} /> {/* ✅ New Route */}
+              <Route path="/sample-papers" element={<SamplePapersPage />} />
       </Routes>
     </div>
   );

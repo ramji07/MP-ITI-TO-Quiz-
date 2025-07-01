@@ -3,21 +3,3461 @@
     "title": "JavaScript Programming",
     "submodules": {
       "basics_1": {
-        "title": "Excel Basics - Set 1",
-        "questions": []
+        "title": "JS - Set 1",
+        "questions": [
+  {
+    "question": "What is the purpose of a loop in JavaScript?",
+    "options": [
+      "To execute a code block repeatedly",
+      "To declare variables",
+      "To create functions",
+      "To handle errors"
+    ],
+    "answer": "To execute a code block repeatedly"
+  },
+  {
+    "question": "Which loop always executes at least once?",
+    "options": [
+      "do...while",
+      "for",
+      "while",
+      "for...of"
+    ],
+    "answer": "do...while"
+  },
+  {
+    "question": "What is the output? \nlet x = 5; \nconsole.log(x++);",
+    "options": [
+      "5",
+      "6",
+      "undefined",
+      "ReferenceError"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "Which is NOT a JavaScript loop?",
+    "options": [
+      "repeat...until",
+      "for...in",
+      "for...of",
+      "while"
+    ],
+    "answer": "repeat...until"
+  },
+  {
+    "question": "What does the 'break' statement do?",
+    "options": [
+      "Terminates the current loop",
+      "Skips current iteration",
+      "Exits a function",
+      "Throws an error"
+    ],
+    "answer": "Terminates the current loop"
+  },
+  {
+    "question": "Which variable declaration has block scope?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "function"
+    ],
+    "answer": "let"
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      "Function with access to outer scope",
+      "Loop termination condition",
+      "Variable declaration",
+      "Error handling block"
+    ],
+    "answer": "Function with access to outer scope"
+  },
+  {
+    "question": "Which is a valid function declaration?",
+    "options": [
+      "function myFunc() {}",
+      "def myFunc() {}",
+      "func myFunc() {}",
+      "method myFunc() {}"
+    ],
+    "answer": "function myFunc() {}"
+  },
+  {
+    "question": "What is hoisting in JavaScript?",
+    "options": [
+      "Moving declarations to top of scope",
+      "Loop optimization",
+      "Function recursion",
+      "Variable mutation"
+    ],
+    "answer": "Moving declarations to top of scope"
+  },
+  {
+    "question": "Which operator checks strict equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!=="
+    ],
+    "answer": "==="
+  },
+  {
+    "question": "What does this return? \nBoolean('false')",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which loop is best for array iteration?",
+    "options": [
+      "for...of",
+      "for...in",
+      "while",
+      "do...while"
+    ],
+    "answer": "for...of"
+  },
+  {
+    "question": "What is the scope of 'var'?",
+    "options": [
+      "Function or global",
+      "Block",
+      "Module",
+      "Class"
+    ],
+    "answer": "Function or global"
+  },
+  {
+    "question": "Which is a ternary operator?",
+    "options": [
+      "condition ? expr1 : expr2",
+      "if...else",
+      "switch",
+      "try...catch"
+    ],
+    "answer": "condition ? expr1 : expr2"
+  },
+  {
+    "question": "What is the output? \nconsole.log(typeof null);",
+    "options": [
+      "object",
+      "null",
+      "undefined",
+      "string"
+    ],
+    "answer": "object"
+  },
+  {
+    "question": "Which is NOT a loop control statement?",
+    "options": [
+      "return",
+      "break",
+      "continue",
+      "label"
+    ],
+    "answer": "return"
+  },
+  {
+    "question": "What is a pure function?",
+    "options": [
+      "No side effects, same input → same output",
+      "Modifies global state",
+      "Uses random numbers",
+      "Has no parameters"
+    ],
+    "answer": "No side effects, same input → same output"
+  },
+  {
+    "question": "Which declares a constant?",
+    "options": [
+      "const PI = 3.14;",
+      "let PI = 3.14;",
+      "var PI = 3.14;",
+      "PI = 3.14;"
+    ],
+    "answer": "const PI = 3.14;"
+  },
+  {
+    "question": "What does 'continue' do in loops?",
+    "options": [
+      "Skips current iteration",
+      "Exits loop",
+      "Restarts loop",
+      "Pauses execution"
+    ],
+    "answer": "Skips current iteration"
+  },
+  {
+    "question": "Which is a valid arrow function?",
+    "options": [
+      "() => {}",
+      "function => {}",
+      "=> function",
+      "arrow function"
+    ],
+    "answer": "() => {}"
+  },
+  {
+    "question": "What is variable shadowing?",
+    "options": [
+      "Inner scope variable hides outer scope variable",
+      "Uninitialized variable",
+      "Global variable",
+      "Constant variable"
+    ],
+    "answer": "Inner scope variable hides outer scope variable"
+  },
+  {
+    "question": "Which loop iterates over object properties?",
+    "options": [
+      "for...in",
+      "for...of",
+      "for",
+      "while"
+    ],
+    "answer": "for...in"
+  },
+  {
+    "question": "What does this output? \nconsole.log(0 || 'hello');",
+    "options": [
+      "hello",
+      "0",
+      "true",
+      "false"
+    ],
+    "answer": "hello"
+  },
+  {
+    "question": "Which is a higher-order function?",
+    "options": [
+      "Function that takes/returns functions",
+      "Recursive function",
+      "Arrow function",
+      "Async function"
+    ],
+    "answer": "Function that takes/returns functions"
+  },
+  {
+    "question": "What is short-circuit evaluation?",
+    "options": [
+      "Skipping unnecessary condition checks",
+      "Fast loop execution",
+      "Function optimization",
+      "Variable hoisting"
+    ],
+    "answer": "Skipping unnecessary condition checks"
+  },
+  {
+    "question": "Which is NOT a JavaScript variable type?",
+    "options": [
+      "int",
+      "let",
+      "var",
+      "const"
+    ],
+    "answer": "int"
+  },
+  {
+    "question": "What is recursion?",
+    "options": [
+      "Function calling itself",
+      "Infinite loop",
+      "Nested functions",
+      "Callback function"
+    ],
+    "answer": "Function calling itself"
+  },
+  {
+    "question": "Which operator checks nullish coalescing?",
+    "options": [
+      "??",
+      "||",
+      "&&",
+      "?:"
+    ],
+    "answer": "??"
+  },
+  {
+    "question": "What is a callback function?",
+    "options": [
+      "Function passed as argument",
+      "Recursive function",
+      "Main function",
+      "Pure function"
+    ],
+    "answer": "Function passed as argument"
+  },
+  {
+    "question": "Which loop is entry-controlled?",
+    "options": [
+      "for",
+      "do...while",
+      "repeat...until",
+      "goto"
+    ],
+    "answer": "for"
+  },
+  {
+    "question": "What is the output? \nfunction test() {} \nconsole.log(typeof test);",
+    "options": [
+      "function",
+      "object",
+      "undefined",
+      "string"
+    ],
+    "answer": "function"
+  },
+  {
+    "question": "Which is a valid variable name?",
+    "options": [
+      "_myVar",
+      "1stVar",
+      "my-var",
+      "const"
+    ],
+    "answer": "_myVar"
+  },
+  {
+    "question": "What does this return? \nBoolean(0)",
+    "options": [
+      "false",
+      "true",
+      "0",
+      "undefined"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which is a logical operator?",
+    "options": [
+      "&&",
+      "&",
+      "|",
+      "^"
+    ],
+    "answer": "&&"
+  },
+  {
+    "question": "What is function composition?",
+    "options": [
+      "Combining multiple functions",
+      "Function declaration",
+      "Function expression",
+      "Function hoisting"
+    ],
+    "answer": "Combining multiple functions"
+  },
+  {
+    "question": "Which loop is best for unknown iterations?",
+    "options": [
+      "while",
+      "for",
+      "for...of",
+      "do...while"
+    ],
+    "answer": "while"
+  },
+  {
+    "question": "What is the purpose of 'use strict'?",
+    "options": [
+      "Enables strict mode",
+      "Declares variables",
+      "Defines functions",
+      "Handles errors"
+    ],
+    "answer": "Enables strict mode"
+  },
+  {
+    "question": "Which is a self-invoking function?",
+    "options": [
+      "(function() {})()",
+      "function() {}",
+      "() => {}",
+      "function auto() {}"
+    ],
+    "answer": "(function() {})()"
+  },
+  {
+    "question": "What is the output? \nconsole.log(3 == '3');",
+    "options": [
+      "true",
+      "false",
+      "TypeError",
+      "ReferenceError"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which is NOT a function parameter type?",
+    "options": [
+      "loop",
+      "default",
+      "rest",
+      "destructured"
+    ],
+    "answer": "loop"
+  },
+  {
+    "question": "What is a method?",
+    "options": [
+      "Function in an object",
+      "Standalone function",
+      "Arrow function",
+      "Callback function"
+    ],
+    "answer": "Function in an object"
+  },
+  {
+    "question": "Which declares a function expression?",
+    "options": [
+      "const func = function() {}",
+      "function func() {}",
+      "func = () => {}",
+      "expression func() {}"
+    ],
+    "answer": "const func = function() {}"
+  },
+  {
+    "question": "What is the output? \nlet a = 1; \nfunction test() { \n  console.log(a); \n  let a = 2; \n} \ntest();",
+    "options": [
+      "ReferenceError",
+      "1",
+      "2",
+      "undefined"
+    ],
+    "answer": "ReferenceError"
+  },
+  {
+    "question": "Which is a valid switch statement?",
+    "options": [
+      "switch(value) { case 1: break; }",
+      "switch { case value: }",
+      "switch(value) { 1: break; }",
+      "switch case value {}"
+    ],
+    "answer": "switch(value) { case 1: break; }"
+  },
+  {
+    "question": "What is function currying?",
+    "options": [
+      "Transforming multi-arg function into sequence of functions",
+      "Function recursion",
+      "Function overloading",
+      "Function callback"
+    ],
+    "answer": "Transforming multi-arg function into sequence of functions"
+  },
+  {
+    "question": "Which is a valid for loop?",
+    "options": [
+      "for(let i=0; i<5; i++) {}",
+      "for i=0 to 5 {}",
+      "for(i=0; i<5) {}",
+      "loop for i=0; i<5; i++ {}"
+    ],
+    "answer": "for(let i=0; i<5; i++) {}"
+  },
+  {
+    "question": "What is the output? \nconsole.log(typeof undefined);",
+    "options": [
+      "undefined",
+      "object",
+      "null",
+      "string"
+    ],
+    "answer": "undefined"
+  },
+  {
+    "question": "Which is NOT a way to declare functions?",
+    "options": [
+      "method func() {}",
+      "function func() {}",
+      "const func = function() {}",
+      "const func = () => {}"
+    ],
+    "answer": "method func() {}"
+  },
+  {
+    "question": "What is a generator function?",
+    "options": [
+      "Function that can be paused/resumed",
+      "Function that returns values",
+      "Function that creates objects",
+      "Function that handles errors"
+    ],
+    "answer": "Function that can be paused/resumed"
+  },
+  {
+    "question": "Which is a valid if statement?",
+    "options": [
+      "if (condition) {}",
+      "if condition {}",
+      "if { condition }",
+      "if = condition"
+    ],
+    "answer": "if (condition) {}"
+  }
+]
+
       },
       "basics_2": {
-        "title": "Excel Basics - Set 2",
-        "questions": []
+        "title": "JS - Set 2",
+        "questions": [
+  {
+    "question": "What does DOM stand for in JavaScript?",
+    "options": [
+      "Document Object Model",
+      "Data Object Model",
+      "Document Over Model",
+      "Dynamic Object Model"
+    ],
+    "answer": "Document Object Model"
+  },
+  {
+    "question": "Which method is used to select an element by its ID?",
+    "options": [
+      "document.getElementById()",
+      "document.getElementsByClassName()",
+      "document.querySelectorAll()",
+      "document.getElementsByTagName()"
+    ],
+    "answer": "document.getElementById()"
+  },
+  {
+    "question": "Which property is used to change the content of an HTML element?",
+    "options": [
+      "innerHTML",
+      "content",
+      "value",
+      "text"
+    ],
+    "answer": "innerHTML"
+  },
+  {
+    "question": "Which method selects the first element that matches a CSS selector?",
+    "options": [
+      "document.querySelector()",
+      "document.getElementById()",
+      "document.querySelectorAll()",
+      "document.getElementsByClassName()"
+    ],
+    "answer": "document.querySelector()"
+  },
+  {
+    "question": "How do you select all elements with a certain class?",
+    "options": [
+      "document.getElementsByClassName()",
+      "document.getElementById()",
+      "document.querySelector()",
+      "document.getElementsByTagName()"
+    ],
+    "answer": "document.getElementsByClassName()"
+  },
+  {
+    "question": "Which method is used to add a new element to the DOM?",
+    "options": [
+      "appendChild()",
+      "removeChild()",
+      "replaceChild()",
+      "insertBefore()"
+    ],
+    "answer": "appendChild()"
+  },
+  {
+    "question": "Which method removes an element from the DOM?",
+    "options": [
+      "removeChild()",
+      "appendChild()",
+      "replaceChild()",
+      "createElement()"
+    ],
+    "answer": "removeChild()"
+  },
+  {
+    "question": "Which method creates a new HTML element?",
+    "options": [
+      "document.createElement()",
+      "document.newElement()",
+      "document.makeElement()",
+      "document.element()"
+    ],
+    "answer": "document.createElement()"
+  },
+  {
+    "question": "How do you change the value of an input element with id 'myInput'?",
+    "options": [
+      "document.getElementById('myInput').value = 'newValue';",
+      "document.getElementById('myInput').innerHTML = 'newValue';",
+      "document.querySelector('myInput').value = 'newValue';",
+      "document.getElementById('myInput').text = 'newValue';"
+    ],
+    "answer": "document.getElementById('myInput').value = 'newValue';"
+  },
+  {
+    "question": "Which property returns the parent node of an element?",
+    "options": [
+      "parentNode",
+      "parentElement",
+      "ancestorNode",
+      "rootNode"
+    ],
+    "answer": "parentNode"
+  },
+  {
+    "question": "Which method returns a live HTMLCollection of elements with the given tag name?",
+    "options": [
+      "getElementsByTagName()",
+      "querySelectorAll()",
+      "getElementById()",
+      "getElementsByClassName()"
+    ],
+    "answer": "getElementsByTagName()"
+  },
+  {
+    "question": "Which event occurs when a user clicks on an HTML element?",
+    "options": [
+      "onclick",
+      "onchange",
+      "onmouseover",
+      "onkeydown"
+    ],
+    "answer": "onclick"
+  },
+  {
+    "question": "What is the global object for the browser environment?",
+    "options": [
+      "window",
+      "document",
+      "browser",
+      "screen"
+    ],
+    "answer": "window"
+  },
+  {
+    "question": "Which object represents the HTML document loaded in the browser?",
+    "options": [
+      "document",
+      "window",
+      "location",
+      "navigator"
+    ],
+    "answer": "document"
+  },
+  {
+    "question": "How do you set an attribute on an HTML element?",
+    "options": [
+      "element.setAttribute('attr', 'value')",
+      "element.attribute = 'value'",
+      "element.addAttribute('attr', 'value')",
+      "element.setAttr('attr', 'value')"
+    ],
+    "answer": "element.setAttribute('attr', 'value')"
+  },
+  {
+    "question": "Which method can be used to remove an attribute from an element?",
+    "options": [
+      "removeAttribute()",
+      "deleteAttribute()",
+      "clearAttribute()",
+      "unsetAttribute()"
+    ],
+    "answer": "removeAttribute()"
+  },
+  {
+    "question": "How do you access the browser's URL in JavaScript?",
+    "options": [
+      "window.location",
+      "document.url",
+      "browser.url",
+      "document.location.href"
+    ],
+    "answer": "window.location"
+  },
+  {
+    "question": "Which property gives the width of the browser viewport?",
+    "options": [
+      "window.innerWidth",
+      "document.width",
+      "screen.width",
+      "document.body.width"
+    ],
+    "answer": "window.innerWidth"
+  },
+  {
+    "question": "How do you listen for a DOMContentLoaded event?",
+    "options": [
+      "document.addEventListener('DOMContentLoaded', callback)",
+      "window.onLoad = callback",
+      "document.onReady = callback",
+      "window.addEvent('DOMContentLoaded', callback)"
+    ],
+    "answer": "document.addEventListener('DOMContentLoaded', callback)"
+  },
+  {
+    "question": "What does document.body refer to?",
+    "options": [
+      "The <body> element of the document",
+      "The browser window",
+      "The document head",
+      "The root element"
+    ],
+    "answer": "The <body> element of the document"
+  },
+  {
+    "question": "Which property is used to get or set the HTML content of an element?",
+    "options": [
+      "innerHTML",
+      "textContent",
+      "outerHTML",
+      "nodeValue"
+    ],
+    "answer": "innerHTML"
+  },
+  {
+    "question": "Which method is used to stop event propagation?",
+    "options": [
+      "event.stopPropagation()",
+      "event.preventDefault()",
+      "event.cancelBubble()",
+      "event.stopEvent()"
+    ],
+    "answer": "event.stopPropagation()"
+  },
+  {
+    "question": "Which JavaScript object contains information about the browser?",
+    "options": [
+      "navigator",
+      "window",
+      "screen",
+      "document"
+    ],
+    "answer": "navigator"
+  },
+  {
+    "question": "Which property returns the number of child nodes of an element?",
+    "options": [
+      "childNodes.length",
+      "children.count",
+      "childElementCount",
+      "childCount"
+    ],
+    "answer": "childNodes.length"
+  },
+  {
+    "question": "Which method is used to select all elements matching a CSS selector?",
+    "options": [
+      "querySelectorAll()",
+      "getElementsByClassName()",
+      "getElementById()",
+      "getElementsByTagName()"
+    ],
+    "answer": "querySelectorAll()"
+  },
+  {
+    "question": "How do you prevent the default action of an event?",
+    "options": [
+      "event.preventDefault()",
+      "event.stopPropagation()",
+      "event.cancel()",
+      "event.stopDefault()"
+    ],
+    "answer": "event.preventDefault()"
+  },
+  {
+    "question": "Which property gives the height of the browser viewport?",
+    "options": [
+      "window.innerHeight",
+      "screen.height",
+      "document.body.height",
+      "window.height"
+    ],
+    "answer": "window.innerHeight"
+  },
+  {
+    "question": "Which method is used to focus an input element?",
+    "options": [
+      "element.focus()",
+      "element.setFocus()",
+      "element.activate()",
+      "element.select()"
+    ],
+    "answer": "element.focus()"
+  },
+  {
+    "question": "What does window.alert() do?",
+    "options": [
+      "Displays an alert dialog",
+      "Logs to the console",
+      "Changes the document title",
+      "Reloads the page"
+    ],
+    "answer": "Displays an alert dialog"
+  },
+  {
+    "question": "Which method is used to log messages to the browser console?",
+    "options": [
+      "console.log()",
+      "window.alert()",
+      "document.write()",
+      "console.write()"
+    ],
+    "answer": "console.log()"
+  },
+  {
+    "question": "Which property gives the current page URL?",
+    "options": [
+      "window.location.href",
+      "document.url",
+      "navigator.url",
+      "screen.url"
+    ],
+    "answer": "window.location.href"
+  },
+  {
+    "question": "How do you open a new browser window in JavaScript?",
+    "options": [
+      "window.open()",
+      "document.open()",
+      "browser.open()",
+      "screen.open()"
+    ],
+    "answer": "window.open()"
+  },
+  {
+    "question": "Which method removes the last child of an element?",
+    "options": [
+      "removeChild()",
+      "deleteChild()",
+      "popChild()",
+      "removeLastChild()"
+    ],
+    "answer": "removeChild()"
+  },
+  {
+    "question": "Which property returns the type of an HTML element?",
+    "options": [
+      "nodeType",
+      "elementType",
+      "type",
+      "tagType"
+    ],
+    "answer": "nodeType"
+  },
+  {
+    "question": "How do you get all attributes of an element?",
+    "options": [
+      "element.attributes",
+      "element.getAttributes()",
+      "element.allAttributes",
+      "element.getAllAttributes()"
+    ],
+    "answer": "element.attributes"
+  },
+  {
+    "question": "Which property returns the tag name of an element?",
+    "options": [
+      "tagName",
+      "nodeName",
+      "elementName",
+      "name"
+    ],
+    "answer": "tagName"
+  },
+  {
+    "question": "Which method is used to create a text node?",
+    "options": [
+      "document.createTextNode()",
+      "document.makeTextNode()",
+      "document.newTextNode()",
+      "document.textNode()"
+    ],
+    "answer": "document.createTextNode()"
+  },
+  {
+    "question": "Which method can be used to replace a child node?",
+    "options": [
+      "replaceChild()",
+      "changeChild()",
+      "swapChild()",
+      "updateChild()"
+    ],
+    "answer": "replaceChild()"
+  },
+  {
+    "question": "What does document.forms return?",
+    "options": [
+      "A collection of all forms in the document",
+      "A collection of all input elements",
+      "A collection of all div elements",
+      "A collection of all images"
+    ],
+    "answer": "A collection of all forms in the document"
+  },
+  {
+    "question": "Which property gives the number of forms in a document?",
+    "options": [
+      "document.forms.length",
+      "document.forms.count",
+      "document.forms.size",
+      "document.forms.total"
+    ],
+    "answer": "document.forms.length"
+  },
+  {
+    "question": "Which method is used to submit a form via JavaScript?",
+    "options": [
+      "form.submit()",
+      "form.send()",
+      "form.post()",
+      "form.sendForm()"
+    ],
+    "answer": "form.submit()"
+  },
+  {
+    "question": "Which property returns the children of an element as an HTMLCollection?",
+    "options": [
+      "children",
+      "childNodes",
+      "childElements",
+      "elements"
+    ],
+    "answer": "children"
+  },
+  {
+    "question": "How do you access the first child element?",
+    "options": [
+      "firstElementChild",
+      "firstChild",
+      "children[0]",
+      "element.first"
+    ],
+    "answer": "firstElementChild"
+  },
+  {
+    "question": "Which property returns the next sibling element?",
+    "options": [
+      "nextElementSibling",
+      "nextSibling",
+      "nextChild",
+      "nextElement"
+    ],
+    "answer": "nextElementSibling"
+  },
+  {
+    "question": "Which property returns the previous sibling element?",
+    "options": [
+      "previousElementSibling",
+      "previousSibling",
+      "prevChild",
+      "prevElement"
+    ],
+    "answer": "previousElementSibling"
+  },
+  {
+    "question": "What does window.setTimeout() do?",
+    "options": [
+      "Executes a function after a delay",
+      "Repeats a function at intervals",
+      "Stops a function",
+      "Pauses the browser"
+    ],
+    "answer": "Executes a function after a delay"
+  },
+  {
+    "question": "What does window.setInterval() do?",
+    "options": [
+      "Executes a function repeatedly at intervals",
+      "Executes a function once after a delay",
+      "Pauses the browser",
+      "Stops a function"
+    ],
+    "answer": "Executes a function repeatedly at intervals"
+  },
+  {
+    "question": "Which property gives the browser's user agent string?",
+    "options": [
+      "navigator.userAgent",
+      "window.userAgent",
+      "document.userAgent",
+      "screen.userAgent"
+    ],
+    "answer": "navigator.userAgent"
+  },
+  {
+    "question": "How do you get the number of elements with a class name?",
+    "options": [
+      "document.getElementsByClassName('class').length",
+      "document.querySelector('.class').length",
+      "document.getElementById('class').length",
+      "document.getElementsByTagName('class').length"
+    ],
+    "answer": "document.getElementsByClassName('class').length"
+  },
+  {
+    "question": "Which method is used to write directly to the HTML output?",
+    "options": [
+      "document.write()",
+      "console.log()",
+      "window.alert()",
+      "document.log()"
+    ],
+    "answer": "document.write()"
+  },
+  {
+    "question": "Which property returns the current document title?",
+    "options": [
+      "document.title",
+      "window.title",
+      "screen.title",
+      "document.head.title"
+    ],
+    "answer": "document.title"
+  },
+  {
+    "question": "How do you change the background color of the body?",
+    "options": [
+      "document.body.style.backgroundColor = 'red';",
+      "document.body.background = 'red';",
+      "window.background = 'red';",
+      "document.setBackground('red');"
+    ],
+    "answer": "document.body.style.backgroundColor = 'red';"
+  },
+  {
+    "question": "Which property gives the number of nodes in a NodeList?",
+    "options": [
+      "length",
+      "count",
+      "size",
+      "total"
+    ],
+    "answer": "length"
+  },
+  {
+    "question": "Which event occurs when a form is submitted?",
+    "options": [
+      "onsubmit",
+      "onchange",
+      "onclick",
+      "onreset"
+    ],
+    "answer": "onsubmit"
+  },
+  {
+    "question": "Which property returns the name of the browser?",
+    "options": [
+      "navigator.appName",
+      "window.appName",
+      "document.appName",
+      "screen.appName"
+    ],
+    "answer": "navigator.appName"
+  },
+  {
+    "question": "How do you reload the current page?",
+    "options": [
+      "window.location.reload()",
+      "document.reload()",
+      "window.reload()",
+      "location.reloadPage()"
+    ],
+    "answer": "window.location.reload()"
+  },
+  {
+    "question": "Which property returns the cookies associated with the document?",
+    "options": [
+      "document.cookie",
+      "window.cookie",
+      "navigator.cookie",
+      "screen.cookie"
+    ],
+    "answer": "document.cookie"
+  },
+  {
+    "question": "Which method can be used to scroll the window?",
+    "options": [
+      "window.scrollTo()",
+      "window.moveTo()",
+      "window.slideTo()",
+      "window.goTo()"
+    ],
+    "answer": "window.scrollTo()"
+  },
+  {
+    "question": "Which property returns the protocol of the current URL?",
+    "options": [
+      "window.location.protocol",
+      "document.location.protocol",
+      "navigator.protocol",
+      "screen.protocol"
+    ],
+    "answer": "window.location.protocol"
+  },
+  {
+    "question": "Which object represents the screen's properties?",
+    "options": [
+      "screen",
+      "window",
+      "document",
+      "navigator"
+    ],
+    "answer": "screen"
+  }
+]
+
       },
       "functions": {
-        "title": "Excel Functions",
-        "questions": []
+        "title": "JS - Set 3",
+        "questions": [
+  {
+    "question": "Which method can be used to add a CSS class to an element?",
+    "options": [
+      "element.classList.add('className')",
+      "element.addClass('className')",
+      "element.style.add('className')",
+      "element.setClass('className')"
+    ],
+    "answer": "element.classList.add('className')"
+  },
+  {
+    "question": "How do you remove all child nodes from a DOM element?",
+    "options": [
+      "element.innerHTML = ''",
+      "element.removeAllChildren()",
+      "element.clearChildren()",
+      "element.children = []"
+    ],
+    "answer": "element.innerHTML = ''"
+  },
+  {
+    "question": "Which property would you use to access the first child node of an element?",
+    "options": [
+      "firstChild",
+      "firstElement",
+      "firstChildNode",
+      "childFirst"
+    ],
+    "answer": "firstChild"
+  },
+  {
+    "question": "What does the 'dataset' property of an element provide access to?",
+    "options": [
+      "All data-* attributes",
+      "All CSS classes",
+      "All child nodes",
+      "All event listeners"
+    ],
+    "answer": "All data-* attributes"
+  },
+  {
+    "question": "Which method is used to attach an event handler to an element?",
+    "options": [
+      "addEventListener()",
+      "attachEvent()",
+      "setEvent()",
+      "onEvent()"
+    ],
+    "answer": "addEventListener()"
+  },
+  {
+    "question": "How do you toggle a class on an element?",
+    "options": [
+      "element.classList.toggle('className')",
+      "element.toggleClass('className')",
+      "element.className.toggle('className')",
+      "element.toggle('className')"
+    ],
+    "answer": "element.classList.toggle('className')"
+  },
+  {
+    "question": "Which property returns the node type of an element?",
+    "options": [
+      "nodeType",
+      "type",
+      "elementType",
+      "tagType"
+    ],
+    "answer": "nodeType"
+  },
+  {
+    "question": "How can you check if an element has a specific class?",
+    "options": [
+      "element.classList.contains('className')",
+      "element.hasClass('className')",
+      "element.className.includes('className')",
+      "element.containsClass('className')"
+    ],
+    "answer": "element.classList.contains('className')"
+  },
+  {
+    "question": "Which object contains information about the user's browser language?",
+    "options": [
+      "navigator.language",
+      "window.language",
+      "document.language",
+      "screen.language"
+    ],
+    "answer": "navigator.language"
+  },
+  {
+    "question": "How do you clone a DOM node, including all its children?",
+    "options": [
+      "element.cloneNode(true)",
+      "element.copyNode(true)",
+      "element.duplicate(true)",
+      "element.clone(true)"
+    ],
+    "answer": "element.cloneNode(true)"
+  }
+]
+
       },
       "charts": {
-        "title": "Excel Charts",
-        "questions": []
+        "title": "JS - Set 4",
+        "questions": [
+  {
+    "question" : "Which HTML tag is used to link an external CSS file to an HTML document?",
+    "options" : [
+      "<link>",
+      "<style>",
+      "<css>",
+      "<stylesheet>"
+    ],
+    "answer": "<link>"
+  },
+  {
+    "question": "How do you reference an external JavaScript file in HTML?",
+    "options": [
+      "<script src=\"script.js\"></script>",
+      "<js href=\"script.js\"></js>",
+      "<script link=\"script.js\"></script>",
+      "<link rel=\"javascript\" href=\"script.js\">"
+    ],
+    "answer": "<script src=\"script.js\"></script>"
+  },
+  {
+    "question" : "Which HTML tag is used to create a button?",
+    "options" : [
+      "<button>",
+      "<input type=\"button\">",
+      "<btn>",
+      "<button type=\"button\">"
+    ],
+    "answer" : "<button>"
+  },
+  {
+    "question" : "What is triggered when a user clicks a mouse button on a webpage?",
+    "options" : [
+      "An event",
+      "A function",
+      "A property",
+      "A method"
+    ],
+    "answer" : "An event"
+  },
+  {
+    "question" : "Which JavaScript method is used to select an element by its ID?",
+    "options" : [
+      "document.getElementById()",
+      "document.querySelectorAll()",
+      "document.getElementsByClassName()",
+      "document.getElementsByTagName()"
+    ],
+    "answer" : "document.getElementById()"
+  },
+  {
+    "question" : "How do you apply a CSS class to an HTML element?",
+    "options" : [
+      "Using the class attribute",
+      "Using the id attribute",
+      "Using the style attribute",
+      "Using the css attribute"
+    ],
+    "answer" : "Using the class attribute"
+  },
+  {
+    "question" : "Which event is used to detect when a button is clicked?",
+    "options" : [
+      "onclick",
+      "onchange",
+      "onhover",
+      "onpress"
+    ],
+    "answer": "onclick"
+  },
+  {
+    "question": "How can you change the text of a button with JavaScript?",
+    "options": [
+      "button.innerHTML = 'New Text';",
+      "button.text = 'New Text';",
+      "button.value = 'New Text';",
+      "button.content = 'New Text';"
+    ],
+    "answer": "button.innerHTML = 'New Text';"
+  },
+  {
+    "question": "Which CSS property changes the text color?",
+    "options": [
+      "color",
+      "background-color",
+      "font-color",
+      "text-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "question": "How do you add a click event listener to a button in JavaScript?",
+    "options": [
+      "button.addEventListener('click', myFunction);",
+      "button.onclick('click', myFunction);",
+      "button.on('click', myFunction);",
+      "button.addEvent('click', myFunction);"
+    ],
+    "answer": "button.addEventListener('click', myFunction);"
+  },
+  {
+    "question": "Which HTML tag is used to define a CSS style within an HTML document?",
+    "options": [
+      "<style>",
+      "<css>",
+      "<link>",
+      "<script>"
+    ],
+    "answer": "<style>"
+  },
+  {
+    "question": "How do you write a single-line comment in JavaScript?",
+    "options": [
+      "// comment",
+      "<!-- comment -->",
+      "# comment",
+      "/* comment */"
+    ],
+    "answer": "// comment"
+  },
+  {
+    "question": "Which attribute is used to specify inline CSS styles?",
+    "options": [
+      "style",
+      "css",
+      "class",
+      "design"
+    ],
+    "answer": "style"
+  },
+  {
+    "question": "Which HTML tag is used to display an image?",
+    "options": [
+      "<img>",
+      "<image>",
+      "<pic>",
+      "<src>"
+    ],
+    "answer": "<img>"
+  },
+  {
+    "question": "How do you hide an element using CSS?",
+    "options": [
+      "display: none;",
+      "visibility: hidden;",
+      "hide: true;",
+      "opacity: 0;"
+    ],
+    "answer": "display: none;"
+  },
+  {
+    "question": "Which JavaScript method changes the background color of a page?",
+    "options": [
+      "document.body.style.backgroundColor = 'red';",
+      "document.background = 'red';",
+      "body.background = 'red';",
+      "window.background = 'red';"
+    ],
+    "answer": "document.body.style.backgroundColor = 'red';"
+  },
+  {
+    "question": "Which event occurs when the user moves the mouse over an element?",
+    "options": [
+      "onmouseover",
+      "onmouseenter",
+      "onhover",
+      "onmove"
+    ],
+    "answer": "onmouseover"
+  },
+  {
+    "question": "What is the correct way to make a button submit a form?",
+    "options": [
+      "<button type=\"submit\">",
+      "<button type=\"button\">",
+      "<input type=\"button\">",
+      "<input type=\"reset\">"
+    ],
+    "answer": "<button type=\"submit\">"
+  },
+  {
+    "question": "Which CSS property is used to set the font size?",
+    "options": [
+      "font-size",
+      "text-size",
+      "size",
+      "font"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "question": "How do you prevent a form from submitting using JavaScript?",
+    "options": [
+      "event.preventDefault()",
+      "event.stopPropagation()",
+      "return false;",
+      "form.stop();"
+    ],
+    "answer": "event.preventDefault()"
+  },
+  {
+    "question": "Which HTML tag is used for creating hyperlinks?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>",
+      "<hyperlink>"
+    ],
+    "answer": "<a>"
+  },
+  {
+    "question": "How do you change the content of a <div> with id 'demo' using JavaScript?",
+    "options": [
+      "document.getElementById('demo').innerHTML = 'Hello';",
+      "document.getElementById('demo').text = 'Hello';",
+      "document.getElement('demo').innerHTML = 'Hello';",
+      "document.getElementById('demo').value = 'Hello';"
+    ],
+    "answer": "document.getElementById('demo').innerHTML = 'Hello';"
+  },
+  {
+    "question": "Which CSS selector targets all elements with class 'btn'?",
+    "options": [
+      ".btn",
+      "#btn",
+      "btn",
+      "*btn"
+    ],
+    "answer": ".btn"
+  },
+  {
+    "question": "What will the following code do? <button onclick=\"alert('Hello!')\">Click</button>",
+    "options": [
+      "Show an alert with 'Hello!' when clicked",
+      "Change button text to 'Hello!'",
+      "Reload the page",
+      "Do nothing"
+    ],
+    "answer": "Show an alert with 'Hello!' when clicked"
+  },
+  {
+    "question": "Which property is used to get the value of a text input?",
+    "options": [
+      "value",
+      "innerHTML",
+      "text",
+      "content"
+    ],
+    "answer": "value"
+  },
+  {
+    "question": "How do you include CSS in an HTML file?",
+    "options": [
+      "<link rel=\"stylesheet\" href=\"style.css\">",
+      "<css src=\"style.css\">",
+      "<style src=\"style.css\">",
+      "<stylesheet href=\"style.css\">"
+    ],
+    "answer": "<link rel=\"stylesheet\" href=\"style.css\">"
+  },
+  {
+    "question": "Which event is triggered when a form field loses focus?",
+    "options": [
+      "onblur",
+      "onfocus",
+      "onchange",
+      "onleave"
+    ],
+    "answer": "onblur"
+  },
+  {
+    "question": "Which CSS property is used to add space inside an element?",
+    "options": [
+      "padding",
+      "margin",
+      "border",
+      "spacing"
+    ],
+    "answer": "padding"
+  },
+  {
+    "question": "Which JavaScript method is used to execute code after a delay?",
+    "options": [
+      "setTimeout()",
+      "setInterval()",
+      "delay()",
+      "wait()"
+    ],
+    "answer": "setTimeout()"
+  },
+  {
+    "question": "Which HTML attribute is used to specify inline JavaScript code?",
+    "options": [
+      "onclick",
+      "onjs",
+      "onscript",
+      "oncode"
+    ],
+    "answer": "onclick"
+  },
+  {
+    "question": "What is the default display value for a <div> element?",
+    "options": [
+      "block",
+      "inline",
+      "inline-block",
+      "flex"
+    ],
+    "answer": "block"
+  },
+  {
+    "question": "Which method is used to add a new element to the DOM?",
+    "options": [
+      "appendChild()",
+      "addElement()",
+      "insertElement()",
+      "createElement()"
+    ],
+    "answer": "appendChild()"
+  },
+  {
+    "question": "Which CSS property is used to make text bold?",
+    "options": [
+      "font-weight",
+      "font-style",
+      "text-bold",
+      "bold"
+    ],
+    "answer": "font-weight"
+  },
+  {
+    "question": "How do you select an element with id 'main' in CSS?",
+    "options": [
+      "#main",
+      ".main",
+      "main",
+      "*main"
+    ],
+    "answer": "#main"
+  },
+  {
+    "question": "Which HTML tag is used to create a dropdown list?",
+    "options": [
+      "<select>",
+      "<dropdown>",
+      "<list>",
+      "<option>"
+    ],
+    "answer": "<select>"
+  },
+  {
+    "question": "How do you make a button disabled in HTML?",
+    "options": [
+      "<button disabled>",
+      "<button disable>",
+      "<button isdisabled>",
+      "<button off>"
+    ],
+    "answer": "<button disabled>"
+  },
+  {
+    "question": "Which CSS property is used to set the space between lines of text?",
+    "options": [
+      "line-height",
+      "letter-spacing",
+      "spacing",
+      "word-spacing"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "question": "Which event is triggered when the value of an input changes?",
+    "options": [
+      "onchange",
+      "oninput",
+      "onblur",
+      "onupdate"
+    ],
+    "answer": "onchange"
+  },
+  {
+    "question": "How do you add a comment in HTML?",
+    "options": [
+      "<!-- comment -->",
+      "// comment",
+      "# comment",
+      "/* comment */"
+    ],
+    "answer": "<!-- comment -->"
+  },
+  {
+    "question": "What does the CSS property 'display: flex;' do?",
+    "options": [
+      "Creates a flexible container",
+      "Makes text bold",
+      "Adds padding",
+      "Centers text"
+    ],
+    "answer": "Creates a flexible container"
+  },
+  {
+    "question": "Which HTML tag is used to insert a line break?",
+    "options": [
+      "<br>",
+      "<break>",
+      "<lb>",
+      "<newline>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "question": "How do you call a JavaScript function named 'myFunc' when a button is clicked?",
+    "options": [
+      "<button onclick=\"myFunc()\">",
+      "<button onClick=\"myFunc\">",
+      "<button click=\"myFunc()\">",
+      "<button onpress=\"myFunc()\">"
+    ],
+    "answer": "<button onclick=\"myFunc()\">"
+  },
+  {
+    "question": "Which CSS property sets the background color?",
+    "options": [
+      "background-color",
+      "color",
+      "bgcolor",
+      "background"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "question": "How do you include JavaScript code inside an HTML file?",
+    "options": [
+      "<script> ... </script>",
+      "<js> ... </js>",
+      "<javascript> ... </javascript>",
+      "<code> ... </code>"
+    ],
+    "answer": "<script> ... </script>"
+  },
+  {
+    "question": "Which event is triggered when a user double-clicks an element?",
+    "options": [
+      "ondblclick",
+      "onclick",
+      "onmouseover",
+      "onpress"
+    ],
+    "answer": "ondblclick"
+  },
+  {
+    "question": "Which CSS property adds space outside an element?",
+    "options": [
+      "margin",
+      "padding",
+      "border",
+      "outline"
+    ],
+    "answer": "margin"
+  }
+]
       },
+      "main" : {
+        "title" : "JavaScript Practical",
+        "questions" : [
+  {
+    "question": "What is the output of `console.log(typeof null);`?",
+    "options": ["object", "null", "undefined", "string"],
+    "correctAnswer": "object",
+    "explanation": "In JavaScript, `typeof null` returns 'object' due to a historical bug in the language's implementation."
+  },
+  {
+    "question": "What does `let x = 10; x += 5; console.log(x);` output?",
+    "options": ["10", "15", "5", "undefined"],
+    "correctAnswer": "15",
+    "explanation": "The `+=` operator adds 5 to the initial value of `x` (10), so `x` becomes 15."
+  },
+  {
+    "question": "Which keyword is used to declare a variable with block scope?",
+    "options": ["var", "let", "const", "function"],
+    "correctAnswer": "let",
+    "explanation": "`let` declares variables with block scope, unlike `var` which has function scope."
+  },
+  {
+    "question": "What is the output of `console.log(2 + '2');`?",
+    "options": ["4", "22", "NaN", "undefined"],
+    "correctAnswer": "22",
+    "explanation": "JavaScript performs string concatenation when a number is added to a string, resulting in '22'."
+  },
+  {
+    "question": "What does `parseInt('42px')` return?",
+    "options": ["42", "NaN", "42px", "undefined"],
+    "correctAnswer": "42",
+    "explanation": "`parseInt` parses a string and returns the first integer, ignoring non-numeric characters like 'px'."
+  },
+  {
+    "question": "What is the output of `console.log(1 == '1');`?",
+    "options": ["true", "false", "NaN", "undefined"],
+    "correctAnswer": "true",
+    "explanation": "The `==` operator performs type coercion, converting the string '1' to a number before comparison."
+  },
+  {
+    "question": "What does `console.log(1 === '1');` output?",
+    "options": ["true", "false", "NaN", "undefined"],
+    "correctAnswer": "false",
+    "explanation": "The `===` operator checks for strict equality, including type, so a number and a string are not equal."
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": ["function myFunc() {}", "myFunc() {}", "def myFunc() {}", "func myFunc() {}"],
+    "correctAnswer": "function myFunc() {}",
+    "explanation": "The correct syntax for a function declaration is `function` followed by the function name and curly braces."
+  },
+  {
+    "question": "What is the output of `let arr = [1, 2, 3]; console.log(arr.length);`?",
+    "options": ["2", "3", "4", "undefined"],
+    "correctAnswer": "3",
+    "explanation": "The `length` property returns the number of elements in the array, which is 3."
+  },
+  {
+    "question": "What does `arr.push(4)` do to the array `arr = [1, 2, 3]`?",
+    "options": ["Adds 4 to the start", "Adds 4 to the end", "Removes 4", "Replaces the last element"],
+    "correctAnswer": "Adds 4 to the end",
+    "explanation": "`push` adds an element to the end of an array."
+  },
+  {
+    "question": "What is the output of `console.log([1, 2, 3].pop());`?",
+    "options": ["1", "2", "3", "undefined"],
+    "correctAnswer": "3",
+    "explanation": "`pop` removes and returns the last element of the array, which is 3."
+  },
+  {
+    "question": "What does `const obj = {a: 1}; obj.a = 2; console.log(obj.a);` output?",
+    "options": ["1", "2", "undefined", "Error"],
+    "correctAnswer": "2",
+    "explanation": "`const` prevents reassigning the object, but allows modifying its properties."
+  },
+  {
+    "question": "What is the output of `console.log(typeof undefined);`?",
+    "options": ["null", "undefined", "object", "string"],
+    "correctAnswer": "undefined",
+    "explanation": "`typeof undefined` returns 'undefined' as it is a primitive type in JavaScript."
+  },
+  {
+    "question": "How do you access the first element of an array `arr = [10, 20, 30]`?",
+    "options": ["arr[0]", "arr[1]", "arr.first", "arr.get(0)"],
+    "correctAnswer": "arr[0]",
+    "explanation": "Array elements are accessed using zero-based indexing, so `arr[0]` returns 10."
+  },
+  {
+    "question": "What does `console.log(0 == false);` output?",
+    "options": ["true", "false", "NaN", "undefined"],
+    "correctAnswer": "true",
+    "explanation": "The `==` operator converts `false` to 0 during comparison, making it true."
+  },
+  {
+    "question": "What is the output of `let x; console.log(x);`?",
+    "options": ["null", "undefined", "0", "NaN"],
+    "correctAnswer": "undefined",
+    "explanation": "Variables declared without initialization are `undefined`."
+  },
+  {
+    "question": "Which method converts a JavaScript object to a JSON string?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.toString()", "JSON.convert()"],
+    "correctAnswer": "JSON.stringify()",
+    "explanation": "`JSON.stringify()` converts a JavaScript object to a JSON string."
+  },
+  {
+    "question": "What does `console.log([1, 2, 3].includes(2));` output?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correctAnswer": "true",
+    "explanation": "`includes` checks if an array contains a specific value, returning `true` for 2."
+  },
+  {
+    "question": "What is the output of `console.log('Hello'.length);`?",
+    "options": ["4", "5", "6", "undefined"],
+    "correctAnswer": "5",
+    "explanation": "The `length` property returns the number of characters in the string 'Hello', which is 5."
+  },
+  {
+    "question": "How do you write a comment in JavaScript?",
+    "options": ["// Comment", "<!-- Comment -->", "# Comment", "/* Comment */"],
+    "correctAnswer": "// Comment",
+    "explanation": "`//` is used for single-line comments; `/* */` is for multi-line comments."
+  },
+  {
+    "question": "What does `document.getElementById('myId')` do?",
+    "options": ["Selects an element by class", "Selects an element by ID", "Selects all elements", "Creates an element"],
+    "correctAnswer": "Selects an element by ID",
+    "explanation": "`getElementById` retrieves the element with the specified ID from the DOM."
+  },
+  {
+    "question": "What is the output of `console.log(10 / '2');`?",
+    "options": ["5", "NaN", "20", "undefined"],
+    "correctAnswer": "5",
+    "explanation": "JavaScript converts the string '2' to a number during division, resulting in 5."
+  },
+  {
+    "question": "What does `arr.slice(1, 3)` return for `arr = [1, 2, 3, 4]`?",
+    "options": ["[1, 2]", "[2, 3]", "[3, 4]", "[1, 3]"],
+    "correctAnswer": "[2, 3]",
+    "explanation": "`slice(1, 3)` returns elements from index 1 to 2 (end index is exclusive)."
+  },
+  {
+    "question": "What is the purpose of `addEventListener`?",
+    "options": ["To add a new element", "To attach an event handler", "To remove an event", "To style an element"],
+    "correctAnswer": "To attach an event handler",
+    "explanation": "`addEventListener` attaches a function to an event (e.g., click) on an element."
+  },
+  {
+    "question": "What does `console.log(Math.floor(3.7));` output?",
+    "options": ["3", "4", "3.7", "undefined"],
+    "correctAnswer": "3",
+    "explanation": "`Math.floor` rounds down to the nearest integer, so 3.7 becomes 3."
+  },
+  {
+    "question": "What is the output of `let x = 5; console.log(x++);`?",
+    "options": ["5", "6", "undefined", "Error"],
+    "correctAnswer": "5",
+    "explanation": "Post-increment (`x++`) returns the current value (5) before incrementing `x` to 6."
+  },
+  {
+    "question": "What does `typeof NaN` return?",
+    "options": ["number", "NaN", "undefined", "object"],
+    "correctAnswer": "number",
+    "explanation": "`NaN` is a special value of the number type, so `typeof NaN` returns 'number'."
+  },
+  {
+    "question": "What is the output of `console.log([1, 2, 3].join('-'));`?",
+    "options": ["1-2-3", "123", "[1,2,3]", "undefined"],
+    "correctAnswer": "1-2-3",
+    "explanation": "`join('-')` combines array elements into a string with '-' as the separator."
+  },
+  {
+    "question": "How do you declare a constant in JavaScript?",
+    "options": ["var x = 10;", "let x = 10;", "const x = 10;", "constant x = 10;"],
+    "correctAnswer": "const x = 10;",
+    "explanation": "`const` declares a constant that cannot be reassigned after initialization."
+  },
+  {
+    "question": "What does `console.log('hello'.toUpperCase());` output?",
+    "options": ["HELLO", "hello", "Hello", "undefined"],
+    "correctAnswer": "HELLO",
+    "explanation": "`toUpperCase()` converts a string to uppercase."
+  },
+  {
+    "question": "What is the output of `console.log(!!0);`?",
+    "options": ["true", "false", "0", "undefined"],
+    "correctAnswer": "false",
+    "explanation": "Double negation (`!!`) converts a value to its boolean equivalent; 0 is falsy, so it becomes `false`."
+  },
+  {
+    "question": "What does `document.querySelector('.myClass')` do?",
+    "options": ["Selects the first element with class 'myClass'", "Selects all elements with class 'myClass'", "Selects an element by ID", "Creates a new element"],
+    "correctAnswer": "Selects the first element with class 'myClass'",
+    "explanation": "`querySelector` returns the first element matching the specified CSS selector."
+  },
+  {
+    "question": "What is the output of `console.log([1, 2, 3].reverse());`?",
+    "options": ["[1, 2, 3]", "[3, 2, 1]", "[2, 3, 1]", "undefined"],
+    "correctAnswer": "[3, 2, 1]",
+    "explanation": "`reverse` reverses the order of elements in the array."
+  },
+  {
+    "question": "What does `setTimeout(myFunc, 1000)` do?",
+    "options": ["Calls myFunc immediately", "Calls myFunc after 1 second", "Calls myFunc every 1 second", "Pauses execution"],
+    "correctAnswer": "Calls myFunc after 1 second",
+    "explanation": "`setTimeout` schedules a function to run after a specified delay (in milliseconds)."
+  },
+  {
+    "question": "What is the output of `let x = [1, 2]; x[2] = 3; console.log(x.length);`?",
+    "options": ["2", "3", "4", "undefined"],
+    "correctAnswer": "3",
+    "explanation": "Assigning a value to index 2 extends the array, making its length 3."
+  },
+  {
+    "question": "What does `console.log(Number('123'));` output?",
+    "options": ["123", "NaN", "undefined", "Error"],
+    "correctAnswer": "123",
+    "explanation": "`Number()` converts a string to a number if it contains valid numeric characters."
+  },
+  {
+    "question": "What is the output of `console.log([1, 2, 3].map(x => x * 2));`?",
+    "options": ["[2, 4, 6]", "[1, 2, 3]", "[3, 6, 9]", "undefined"],
+    "correctAnswer": "[2, 4, 6]",
+    "explanation": "`map` applies the function to each element, multiplying each by 2."
+  },
+  {
+    "question": "What does `event.preventDefault()` do in an event handler?",
+    "options": ["Stops event propagation", "Prevents the default action", "Removes the event listener", "Triggers the event"],
+    "correctAnswer": "Prevents the default action",
+    "explanation": "`preventDefault` stops the default behavior (e.g., form submission or link navigation)."
+  },
+  {
+    "question": "What is the output of `console.log('5' - 2);`?",
+    "options": ["3", "52", "NaN", "undefined"],
+    "correctAnswer": "3",
+    "explanation": "JavaScript converts the string '5' to a number for subtraction, resulting in 3."
+  },
+  {
+    "question": "What does `Array.isArray([1, 2, 3])` return?",
+    "options": ["true", "false", "undefined", "null"],
+    "correctAnswer": "true",
+    "explanation": "`Array.isArray` checks if a value is an array, returning `true` for `[1, 2, 3]`."
+  },
+  {
+    "question": "What is the output of `console.log(Math.max(1, 2, 3));`?",
+    "options": ["1", "2", "3", "undefined"],
+    "correctAnswer": "3",
+    "explanation": "`Math.max` returns the largest number from the provided arguments."
+  },
+  {
+    "question": "What does `let {name} = {name: 'John'}; console.log(name);` output?",
+    "options": ["John", "undefined", "null", "Error"],
+    "correctAnswer": "John",
+    "explanation": "Destructuring assignment extracts the `name` property, assigning it to the variable `name`."
+  },
+  {
+    "question": "What is the output of `console.log([1, 2, 3].filter(x => x > 1));`?",
+    "options": ["[1]", "[2, 3]", "[1, 2, 3]", "[]"],
+    "correctAnswer": "[2, 3]",
+    "explanation": "`filter` returns a new array with elements that pass the condition (x > 1)."
+  },
+  {
+    "question": "What does `console.log('hello'.indexOf('l'));` output?",
+    "options": ["1", "2", "0", "-1"],
+    "correctAnswer": "2",
+    "explanation": "`indexOf` returns the first index of the specified character ('l' is at index 2)."
+  },
+  {
+    "question": "What is the output of `let x = 10; console.log(++x);`?",
+    "options": ["10", "11", "undefined", "Error"],
+    "correctAnswer": "11",
+    "explanation": "Pre-increment (`++x`) increments `x` first, then returns the new value (11)."
+  },
+  {
+    "question": "What does `console.log(typeof function(){});` output?",
+    "options": ["object", "function", "undefined", "string"],
+    "correctAnswer": "function",
+    "explanation": "`typeof` returns 'function' for function expressions or declarations."
+  },
+  {
+    "question": "What is the output of `console.log([1, 2, 3].concat([4, 5]));`?",
+    "options": ["[1, 2, 3, 4, 5]", "[1, 2, 3]", "[4, 5]", "undefined"],
+    "correctAnswer": "[1, 2, 3, 4, 5]",
+    "explanation": "`concat` combines two arrays into a new array."
+  },
+  {
+    "question": "What does `window.alert('Hi')` do?",
+    "options": ["Logs 'Hi' to the console", "Displays an alert with 'Hi'", "Redirects to 'Hi'", "Creates a new element"],
+    "correctAnswer": "Displays an alert with 'Hi'",
+    "explanation": "`window.alert` shows a simple alert dialog with the specified message."
+  },
+  {
+    "question": "What is the output of `console.log(!!'hello');`?",
+    "options": ["true", "false", "hello", "undefined"],
+    "correctAnswer": "true",
+    "explanation": "Double negation (`!!`) converts a value to its boolean equivalent; non-empty strings are truthy."
+  },
+  {
+    "question": "What does `document.createElement('div')` do?",
+    "options": ["Selects a div", "Creates a new div element", "Removes a div", "Styles a div"],
+    "correctAnswer": "Creates a new div element",
+    "explanation": "`createElement` creates a new DOM element of the specified type."
+  }
+]
+      },
+      "Array": {
+        "title": "Array And Object In JS",
+        "questions": [
+  {
+    "question": "Which method adds one or more elements to the end of an array?",
+    "options": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "push()"
+  },
+  {
+    "question": "How do you remove the last element from an array?",
+    "options": ["pop()", "shift()", "splice()", "remove()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "What does the unshift() method do?",
+    "options": [
+      "Adds elements to the beginning of an array",
+      "Removes the last element",
+      "Sorts the array",
+      "Removes the first element"
+    ],
+    "answer": "Adds elements to the beginning of an array"
+  },
+  {
+    "question": "Which method removes the first element of an array?",
+    "options": ["shift()", "pop()", "splice()", "unshift()"],
+    "answer": "shift()"
+  },
+  {
+    "question": "Which method creates a new array with all elements that pass a test?",
+    "options": ["filter()", "map()", "reduce()", "forEach()"],
+    "answer": "filter()"
+  },
+  {
+    "question": "How do you access the third element in an array named arr?",
+    "options": ["arr[2]", "arr(3)", "arr[3]", "arr{2}"],
+    "answer": "arr[2]"
+  },
+  {
+    "question": "Which method returns the index of the first occurrence of a value?",
+    "options": ["indexOf()", "findIndex()", "find()", "search()"],
+    "answer": "indexOf()"
+  },
+  {
+    "question": "Which method combines two or more arrays?",
+    "options": ["concat()", "join()", "merge()", "combine()"],
+    "answer": "concat()"
+  },
+  {
+    "question": "How do you create an empty object in JavaScript?",
+    "options": ["let obj = {};", "let obj = [];", "let obj = new Array();", "let obj = Object;"],
+    "answer": "let obj = {};"
+  },
+  {
+    "question": "How do you access the property 'name' of an object 'person'?",
+    "options": ["person.name", "person[name]", "person->name", "person::name"],
+    "answer": "person.name"
+  },
+  {
+    "question": "Which method is used to loop through an array?",
+    "options": ["forEach()", "forIn()", "forObject()", "each()"],
+    "answer": "forEach()"
+  },
+  {
+    "question": "How do you check if an array includes a value?",
+    "options": ["includes()", "has()", "contains()", "exists()"],
+    "answer": "includes()"
+  },
+  {
+    "question": "Which method returns a new array with the results of calling a function for every array element?",
+    "options": ["map()", "filter()", "reduce()", "forEach()"],
+    "answer": "map()"
+  },
+  {
+    "question": "How do you add a new property 'age' to an object 'person'?",
+    "options": [
+      "person.age = 25;",
+      "person->age = 25;",
+      "addProperty(person, 'age', 25);",
+      "person.add('age', 25);"
+    ],
+    "answer": "person.age = 25;"
+  },
+  {
+    "question": "What is the output of Array.isArray([])?",
+    "options": ["true", "false", "undefined", "null"],
+    "answer": "true"
+  },
+  {
+    "question": "How do you get the number of elements in an array arr?",
+    "options": ["arr.length", "arr.size()", "arr.count()", "arr.getLength()"],
+    "answer": "arr.length"
+  },
+  {
+    "question": "Which method removes elements from an array and can add new elements?",
+    "options": ["splice()", "slice()", "split()", "remove()"],
+    "answer": "splice()"
+  },
+  {
+    "question": "How do you convert an array to a string?",
+    "options": ["join()", "toString()", "concat()", "stringify()"],
+    "answer": "join()"
+  },
+  {
+    "question": "Which method reverses the order of elements in an array?",
+    "options": ["reverse()", "sort()", "flip()", "invert()"],
+    "answer": "reverse()"
+  },
+  {
+    "question": "How do you delete a property from an object?",
+    "options": ["delete obj.prop;", "remove obj.prop;", "obj.delete('prop');", "obj.remove('prop');"],
+    "answer": "delete obj.prop;"
+  },
+  {
+    "question": "Which method sorts the elements of an array?",
+    "options": ["sort()", "order()", "arrange()", "setOrder()"],
+    "answer": "sort()"
+  },
+  {
+    "question": "How do you check if a property exists in an object?",
+    "options": [
+      "'prop' in obj",
+      "obj.has('prop')",
+      "obj.exists('prop')",
+      "obj.contains('prop')"
+    ],
+    "answer": "'prop' in obj"
+  },
+  {
+    "question": "Which method returns the first element that satisfies a test function?",
+    "options": ["find()", "filter()", "indexOf()", "search()"],
+    "answer": "find()"
+  },
+  {
+    "question": "How do you get all the keys of an object?",
+    "options": [
+      "Object.keys(obj)",
+      "obj.getKeys()",
+      "obj.keys()",
+      "Object.getKeys(obj)"
+    ],
+    "answer": "Object.keys(obj)"
+  },
+  {
+    "question": "Which method returns an array of a given object's own property values?",
+    "options": [
+      "Object.values(obj)",
+      "obj.values()",
+      "getValues(obj)",
+      "obj.getValues()"
+    ],
+    "answer": "Object.values(obj)"
+  },
+  {
+    "question": "How do you merge the properties of two objects?",
+    "options": [
+      "Object.assign(obj1, obj2)",
+      "obj1.merge(obj2)",
+      "obj1 + obj2",
+      "merge(obj1, obj2)"
+    ],
+    "answer": "Object.assign(obj1, obj2)"
+  },
+  {
+    "question": "Which method is used to convert an object to a JSON string?",
+    "options": [
+      "JSON.stringify(obj)",
+      "obj.toString()",
+      "toJSON(obj)",
+      "stringify(obj)"
+    ],
+    "answer": "JSON.stringify(obj)"
+  },
+  {
+    "question": "How do you parse a JSON string to an object?",
+    "options": [
+      "JSON.parse(str)",
+      "parseJSON(str)",
+      "str.toObject()",
+      "Object.parse(str)"
+    ],
+    "answer": "JSON.parse(str)"
+  },
+  {
+    "question": "Which method executes a reducer function on each element of the array?",
+    "options": ["reduce()", "map()", "filter()", "forEach()"],
+    "answer": "reduce()"
+  },
+  {
+    "question": "How do you create an array with 5 empty slots?",
+    "options": [
+      "new Array(5)",
+      "Array.create(5)",
+      "Array(5)",
+      "new Array[]"
+    ],
+    "answer": "new Array(5)"
+  },
+  {
+    "question": "Which method tests whether at least one element passes a test?",
+    "options": ["some()", "every()", "any()", "test()"],
+    "answer": "some()"
+  },
+  {
+    "question": "Which method tests whether all elements pass a test?",
+    "options": ["every()", "some()", "all()", "testAll()"],
+    "answer": "every()"
+  },
+  {
+    "question": "How do you get the last element of an array arr?",
+    "options": [
+      "arr[arr.length - 1]",
+      "arr.last()",
+      "arr[-1]",
+      "arr.get(arr.length)"
+    ],
+    "answer": "arr[arr.length - 1]"
+  },
+  {
+    "question": "How do you clone an array arr?",
+    "options": [
+      "arr.slice()",
+      "arr.copy()",
+      "arr.duplicate()",
+      "arr.clone()"
+    ],
+    "answer": "arr.slice()"
+  },
+  {
+    "question": "Which method returns a shallow copy of a portion of an array?",
+    "options": ["slice()", "splice()", "copy()", "split()"],
+    "answer": "slice()"
+  },
+  {
+    "question": "How do you check if a variable is an array?",
+    "options": [
+      "Array.isArray(var)",
+      "typeof var == 'array'",
+      "var.isArray()",
+      "var instanceof Array"
+    ],
+    "answer": "Array.isArray(var)"
+  },
+  {
+    "question": "Which method flattens a nested array?",
+    "options": ["flat()", "flatten()", "reduce()", "concat()"],
+    "answer": "flat()"
+  },
+  {
+    "question": "How do you iterate over all key-value pairs in an object?",
+    "options": [
+      "for (let key in obj)",
+      "for (let key of obj)",
+      "obj.forEach()",
+      "Object.each(obj)"
+    ],
+    "answer": "for (let key in obj)"
+  },
+  {
+    "question": "Which method returns an array of key-value pairs from an object?",
+    "options": [
+      "Object.entries(obj)",
+      "obj.entries()",
+      "obj.pairs()",
+      "Object.pairs(obj)"
+    ],
+    "answer": "Object.entries(obj)"
+  },
+  {
+    "question": "How do you check if an object has a property as its own property?",
+    "options": [
+      "obj.hasOwnProperty('prop')",
+      "'prop' in obj",
+      "obj.has('prop')",
+      "obj.contains('prop')"
+    ],
+    "answer": "obj.hasOwnProperty('prop')"
+  },
+  {
+    "question": "Which method returns the first index at which a given element can be found?",
+    "options": ["indexOf()", "findIndex()", "search()", "locate()"],
+    "answer": "indexOf()"
+  },
+  {
+    "question": "How do you remove a property from an object?",
+    "options": [
+      "delete obj.prop",
+      "obj.remove('prop')",
+      "obj.delete('prop')",
+      "remove obj.prop"
+    ],
+    "answer": "delete obj.prop"
+  },
+  {
+    "question": "How do you check if an array is empty?",
+    "options": [
+      "arr.length === 0",
+      "arr.size() === 0",
+      "arr.isEmpty()",
+      "arr == null"
+    ],
+    "answer": "arr.length === 0"
+  },
+  {
+    "question": "Which method fills all elements in an array with a static value?",
+    "options": ["fill()", "map()", "set()", "assign()"],
+    "answer": "fill()"
+  },
+  {
+    "question": "How do you create an object with no prototype?",
+    "options": [
+      "Object.create(null)",
+      "Object()",
+      "{}",
+      "new Object()"
+    ],
+    "answer": "Object.create(null)"
+  },
+  {
+    "question": "Which method returns the primitive value of an object?",
+    "options": [
+      "valueOf()",
+      "toString()",
+      "primitive()",
+      "getValue()"
+    ],
+    "answer": "valueOf()"
+  },
+  {
+    "question": "How do you check if all elements in an array are numbers?",
+    "options": [
+      "arr.every(e => typeof e === 'number')",
+      "arr.all(e => typeof e === 'number')",
+      "arr.forEach(e => typeof e === 'number')",
+      "arr.some(e => typeof e === 'number')"
+    ],
+    "answer": "arr.every(e => typeof e === 'number')"
+  },
+  {
+    "question": "How do you get the length of an object?",
+    "options": [
+      "Object.keys(obj).length",
+      "obj.length",
+      "obj.size()",
+      "obj.count()"
+    ],
+    "answer": "Object.keys(obj).length"
+  },
+  {
+    "question": "Which method returns a string representing the array and its elements?",
+    "options": [
+      "toString()",
+      "join()",
+      "stringify()",
+      "format()"
+    ],
+    "answer": "toString()"
+  },
+  {
+    "question": "How do you add multiple elements to an array at once?",
+    "options": [
+      "push(a, b, c)",
+      "add(a, b, c)",
+      "append(a, b, c)",
+      "insert(a, b, c)"
+    ],
+    "answer": "push(a, b, c)"
+  },
+  {
+    "question": "Which method returns the last index at which a given element can be found?",
+    "options": ["lastIndexOf()", "indexOf()", "findLastIndex()", "search()"],
+    "answer": "lastIndexOf()"
+  },
+  {
+    "question": "How do you check if an object is empty?",
+    "options": [
+      "Object.keys(obj).length === 0",
+      "obj.length === 0",
+      "obj.isEmpty()",
+      "obj == null"
+    ],
+    "answer": "Object.keys(obj).length === 0"
+  },
+  {
+    "question": "Which method returns a shallow copy of a portion of an array into a new array?",
+    "options": ["slice()", "splice()", "copy()", "split()"],
+    "answer": "slice()"
+  },
+  {
+    "question": "How do you check if an array contains a specific value?",
+    "options": [
+      "arr.includes(value)",
+      "arr.has(value)",
+      "arr.contains(value)",
+      "arr.exists(value)"
+    ],
+    "answer": "arr.includes(value)"
+  },
+  {
+    "question": "Which method executes a provided function once for each array element?",
+    "options": ["forEach()", "map()", "filter()", "reduce()"],
+    "answer": "forEach()"
+  },
+  {
+    "question": "How do you copy all properties from one object to another?",
+    "options": [
+      "Object.assign(target, source)",
+      "target.copy(source)",
+      "target.clone(source)",
+      "Object.copy(target, source)"
+    ],
+    "answer": "Object.assign(target, source)"
+  },
+  {
+    "question": "Which method returns the value of the first element in the array that satisfies the provided testing function?",
+    "options": ["find()", "filter()", "findIndex()", "indexOf()"],
+    "answer": "find()"
+  },
+  {
+    "question": "How do you check if a variable is an object (but not null or array)?",
+    "options": [
+      "typeof x === 'object' && x !== null && !Array.isArray(x)",
+      "typeof x === 'object'",
+      "x instanceof Object",
+      "x === Object"
+    ],
+    "answer": "typeof x === 'object' && x !== null && !Array.isArray(x)"
+  },
+  {
+    "question": "Which method returns a new array with all sub-array elements concatenated into it recursively?",
+    "options": ["flat()", "concat()", "reduce()", "merge()"],
+    "answer": "flat()"
+  },
+  {
+    "question": "How do you freeze an object to prevent modifications?",
+    "options": [
+      "Object.freeze(obj)",
+      "obj.seal()",
+      "freeze(obj)",
+      "Object.lock(obj)"
+    ],
+    "answer": "Object.freeze(obj)"
+  },
+  {
+    "question": "How do you seal an object so that properties can't be added or removed?",
+    "options": [
+      "Object.seal(obj)",
+      "Object.freeze(obj)",
+      "obj.lock()",
+      "seal(obj)"
+    ],
+    "answer": "Object.seal(obj)"
+  },
+  {
+    "question": "Which method returns an array of a given object's own enumerable property [key, value] pairs?",
+    "options": [
+      "Object.entries(obj)",
+      "Object.pairs(obj)",
+      "obj.entries()",
+      "obj.pairs()"
+    ],
+    "answer": "Object.entries(obj)"
+  },
+  {
+    "question": "How do you get all values of an object?",
+    "options": [
+      "Object.values(obj)",
+      "obj.values()",
+      "obj.getValues()",
+      "Object.getValues(obj)"
+    ],
+    "answer": "Object.values(obj)"
+  }
+]
+
+    },
+    "JavaScript Practical - SET 1": {
+      "title": "Main JS Topic",
+      "questions": [
+  {
+    "question": "What is type conversion in JavaScript?",
+    "options": [
+      "Changing a value from one data type to another",
+      "Converting a string to uppercase",
+      "Sorting an array",
+      "Declaring a variable"
+    ],
+    "answer": "Changing a value from one data type to another"
+  },
+  {
+    "question": "Which operator is used for strict equality comparison in JavaScript?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!=="
+    ],
+    "answer": "==="
+  },
+  {
+    "question": "What is the result of '3' + 2 in JavaScript?",
+    "options": [
+      "'32'",
+      "5",
+      "NaN",
+      "undefined"
+    ],
+    "answer": "'32'"
+  },
+  {
+    "question": "What is the result of '4' - 2 in JavaScript?",
+    "options": [
+      "2",
+      "'42'",
+      "NaN",
+      "'2'"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "Which function explicitly converts a value to a number?",
+    "options": [
+      "Number()",
+      "String()",
+      "Boolean()",
+      "parseString()"
+    ],
+    "answer": "Number()"
+  },
+  {
+    "question": "What is the result of Number('ten')?",
+    "options": [
+      "NaN",
+      "10",
+      "'ten'",
+      "0"
+    ],
+    "answer": "NaN"
+  },
+  {
+    "question": "What is the result of Boolean(0)?",
+    "options": [
+      "false",
+      "true",
+      "0",
+      "undefined"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which operator is used for logical AND in JavaScript?",
+    "options": [
+      "&&",
+      "||",
+      "&",
+      "AND"
+    ],
+    "answer": "&&"
+  },
+  {
+    "question": "What is the result of '5' * 2?",
+    "options": [
+      "10",
+      "'52'",
+      "NaN",
+      "7"
+    ],
+    "answer": "10"
+  },
+  {
+    "question": "What is the result of Boolean('')?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "null"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which operator is used for logical OR?",
+    "options": [
+      "||",
+      "&&",
+      "|",
+      "OR"
+    ],
+    "answer": "||"
+  },
+  {
+    "question": "What is the result of true + 1?",
+    "options": [
+      "2",
+      "'true1'",
+      "NaN",
+      "1"
+    ],
+    "answer": "2"
+  },
+  {
+    "question": "What is the result of Boolean('0')?",
+    "options": [
+      "true",
+      "false",
+      "0",
+      "undefined"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which function converts a number to a string?",
+    "options": [
+      "String()",
+      "Number()",
+      "Boolean()",
+      "parseInt()"
+    ],
+    "answer": "String()"
+  },
+  {
+    "question": "What is the result of '5' == 5?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of '5' === 5?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which operator is used for logical NOT?",
+    "options": [
+      "!",
+      "!!",
+      "NOT",
+      "~"
+    ],
+    "answer": "!"
+  },
+  {
+    "question": "What is the result of null == undefined?",
+    "options": [
+      "true",
+      "false",
+      "null",
+      "undefined"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of null === undefined?",
+    "options": [
+      "false",
+      "true",
+      "null",
+      "undefined"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "What is the result of Boolean([])?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "null"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of Number('')?",
+    "options": [
+      "0",
+      "NaN",
+      "undefined",
+      "false"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "What is the result of Boolean(' ')?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "null"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of Number(true)?",
+    "options": [
+      "1",
+      "0",
+      "NaN",
+      "true"
+    ],
+    "answer": "1"
+  },
+  {
+    "question": "Which operator is used to add two numbers?",
+    "options": [
+      "+",
+      "-",
+      "*",
+      "/"
+    ],
+    "answer": "+"
+  },
+  {
+    "question": "What is the result of 10 / '2'?",
+    "options": [
+      "5",
+      "'102'",
+      "NaN",
+      "0"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "What is the result of 10 + true?",
+    "options": [
+      "11",
+      "10true",
+      "NaN",
+      "1"
+    ],
+    "answer": "11"
+  },
+  {
+    "question": "What is the result of 10 + null?",
+    "options": [
+      "10",
+      "null",
+      "NaN",
+      "undefined"
+    ],
+    "answer": "10"
+  },
+  {
+    "question": "What is the result of 10 + undefined?",
+    "options": [
+      "NaN",
+      "10undefined",
+      "undefined",
+      "0"
+    ],
+    "answer": "NaN"
+  },
+  {
+    "question": "Which operator is used for subtraction?",
+    "options": [
+      "-",
+      "+",
+      "*",
+      "/"
+    ],
+    "answer": "-"
+  },
+  {
+    "question": "What is the result of 10 - '5'?",
+    "options": [
+      "5",
+      "'105'",
+      "NaN",
+      "15"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "What is the result of 10 * '2'?",
+    "options": [
+      "20",
+      "'102'",
+      "NaN",
+      "12"
+    ],
+    "answer": "20"
+  },
+  {
+    "question": "What is the result of 0 == false?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of 0 === false?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which operator is used for exponentiation?",
+    "options": [
+      "**",
+      "^",
+      "exp()",
+      "^^"
+    ],
+    "answer": "**"
+  },
+  {
+    "question": "What is the result of typeof NaN?",
+    "options": [
+      "'number'",
+      "'NaN'",
+      "'undefined'",
+      "'object'"
+    ],
+    "answer": "'number'"
+  },
+  {
+    "question": "What is the result of typeof null?",
+    "options": [
+      "'object'",
+      "'null'",
+      "'undefined'",
+      "'number'"
+    ],
+    "answer": "'object'"
+  },
+  {
+    "question": "Which function converts a value to a boolean?",
+    "options": [
+      "Boolean()",
+      "Number()",
+      "String()",
+      "parseBool()"
+    ],
+    "answer": "Boolean()"
+  },
+  {
+    "question": "What is the result of Boolean(undefined)?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "null"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "What is the result of '10' > 5?",
+    "options": [
+      "true",
+      "false",
+      "NaN",
+      "undefined"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of 'apple' > 'banana'?",
+    "options": [
+      "false",
+      "true",
+      "NaN",
+      "undefined"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "What is the result of 5 > 10 ? 'yes' : 'no'?",
+    "options": [
+      "'no'",
+      "'yes'",
+      "true",
+      "false"
+    ],
+    "answer": "'no'"
+  },
+  {
+    "question": "Which operator is used for conditional branching?",
+    "options": [
+      "?:",
+      "if",
+      "&&",
+      "||"
+    ],
+    "answer": "?:"
+  },
+  {
+    "question": "What is the result of !!'hello'?",
+    "options": [
+      "true",
+      "false",
+      "'hello'",
+      "undefined"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of 0 || 'default'?",
+    "options": [
+      "'default'",
+      "0",
+      "false",
+      "NaN"
+    ],
+    "answer": "'default'"
+  },
+  {
+    "question": "What is the result of 1 && 'hello'?",
+    "options": [
+      "'hello'",
+      "1",
+      "true",
+      "false"
+    ],
+    "answer": "'hello'"
+  },
+  {
+    "question": "What is the result of 0 && 'hello'?",
+    "options": [
+      "0",
+      "'hello'",
+      "false",
+      "undefined"
+    ],
+    "answer": "0"
+  },
+  {
+    "question": "What is the result of !0?",
+    "options": [
+      "true",
+      "false",
+      "0",
+      "NaN"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of NaN == NaN?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "Which function checks if a value is NaN?",
+    "options": [
+      "isNaN()",
+      "Number.isNaN()",
+      "checkNaN()",
+      "typeofNaN()"
+    ],
+    "answer": "isNaN()"
+  },
+  {
+    "question": "What is the result of typeof undefined?",
+    "options": [
+      "'undefined'",
+      "'object'",
+      "'null'",
+      "'string'"
+    ],
+    "answer": "'undefined'"
+  },
+  {
+    "question": "What is the result of 5 < '10'?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which operator is used for modulus (remainder)?",
+    "options": [
+      "%",
+      "/",
+      "*",
+      "//"
+    ],
+    "answer": "%"
+  },
+  {
+    "question": "What is the result of '5' - '2'?",
+    "options": [
+      "3",
+      "'52'",
+      "NaN",
+      "'3'"
+    ],
+    "answer": "3"
+  },
+  {
+    "question": "What is the result of Boolean(NaN)?",
+    "options": [
+      "false",
+      "true",
+      "NaN",
+      "undefined"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "What is the result of typeof true?",
+    "options": [
+      "'boolean'",
+      "'true'",
+      "'object'",
+      "'number'"
+    ],
+    "answer": "'boolean'"
+  },
+  {
+    "question": "What is the result of typeof 123?",
+    "options": [
+      "'number'",
+      "'string'",
+      "'object'",
+      "'undefined'"
+    ],
+    "answer": "'number'"
+  },
+  {
+    "question": "What is the result of isNaN('hello')?",
+    "options": [
+      "true",
+      "false",
+      "NaN",
+      "undefined"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of isNaN('123')?",
+    "options": [
+      "false",
+      "true",
+      "NaN",
+      "undefined"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "What is the result of 5 == '5'?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "What is the result of 5 === '5'?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "NaN"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "What is the result of Boolean(null)?",
+    "options": [
+      "false",
+      "true",
+      "null",
+      "undefined"
+    ],
+    "answer": "false"
+  }
+]
+
+    },
+    "Js": {
+      "title": "Function In JS",
+      "questions": [
+  {
+    "question": "Which loop executes a block of code as long as a specified condition is true?",
+    "options": ["while", "for", "do...while", "switch"],
+    "answer": "while"
+  },
+  {
+    "question": "How many times will the following loop run? \nfor(let i=0; i<3; i++) { ... }",
+    "options": ["3", "2", "4", "0"],
+    "answer": "3"
+  },
+  {
+    "question": "What is the correct syntax for a while loop in JavaScript?",
+    "options": [
+      "while (condition) { ... }",
+      "while condition { ... }",
+      "while: (condition) { ... }",
+      "while (condition); { ... }"
+    ],
+    "answer": "while (condition) { ... }"
+  },
+  {
+    "question": "Which statement is used to exit a loop early?",
+    "options": ["break", "continue", "exit", "stop"],
+    "answer": "break"
+  },
+  {
+    "question": "Which statement skips the current iteration and continues with the next?",
+    "options": ["continue", "break", "skip", "pass"],
+    "answer": "continue"
+  },
+  {
+    "question": "What is the output of: \nlet i = 0; while (i < 2) { i++; } console.log(i);",
+    "options": ["2", "1", "0", "undefined"],
+    "answer": "2"
+  },
+  {
+    "question": "Which is the correct syntax for a for loop?",
+    "options": [
+      "for (let i = 0; i < 5; i++) { ... }",
+      "for i = 0; i < 5; i++ { ... }",
+      "for (i < 5; let i = 0; i++) { ... }",
+      "for (let i = 0; i++; i < 5) { ... }"
+    ],
+    "answer": "for (let i = 0; i < 5; i++) { ... }"
+  },
+  {
+    "question": "Which loop is best for iterating over a fixed range?",
+    "options": ["for", "while", "do...while", "switch"],
+    "answer": "for"
+  },
+  {
+    "question": "What is the purpose of the switch statement?",
+    "options": [
+      "To execute different code blocks based on multiple conditions",
+      "To loop through an array",
+      "To define a function",
+      "To declare variables"
+    ],
+    "answer": "To execute different code blocks based on multiple conditions"
+  },
+  {
+    "question": "What keyword is used to specify a case in a switch statement?",
+    "options": ["case", "if", "when", "option"],
+    "answer": "case"
+  },
+  {
+    "question": "What keyword is used to specify the default case in a switch statement?",
+    "options": ["default", "else", "otherwise", "fallback"],
+    "answer": "default"
+  },
+  {
+    "question": "What is the output of: \nswitch(2) { case 1: console.log('a'); break; case 2: console.log('b'); }",
+    "options": ["b", "a", "undefined", "error"],
+    "answer": "b"
+  },
+  {
+    "question": "What happens if there is no break statement in a switch case?",
+    "options": [
+      "Execution continues to the next case",
+      "The switch ends",
+      "An error occurs",
+      "Nothing happens"
+    ],
+    "answer": "Execution continues to the next case"
+  },
+  {
+    "question": "How do you define a function named 'myFunc' in JavaScript?",
+    "options": [
+      "function myFunc() { }",
+      "def myFunc() { }",
+      "func myFunc() { }",
+      "function: myFunc() { }"
+    ],
+    "answer": "function myFunc() { }"
+  },
+  {
+    "question": "How do you call a function named 'sum'?",
+    "options": [
+      "sum()",
+      "call sum()",
+      "sum[]",
+      "invoke sum"
+    ],
+    "answer": "sum()"
+  },
+  {
+    "question": "What is a function expression?",
+    "options": [
+      "A function assigned to a variable",
+      "A function without a name",
+      "A function with parameters",
+      "A function with return value"
+    ],
+    "answer": "A function assigned to a variable"
+  },
+  {
+    "question": "Which is a valid function expression?",
+    "options": [
+      "const add = function(a, b) { return a + b; }",
+      "function add(a, b) { return a + b; }",
+      "add = function(a, b) return a + b;",
+      "let add = function a, b { return a + b; }"
+    ],
+    "answer": "const add = function(a, b) { return a + b; }"
+  },
+  {
+    "question": "What is an arrow function in JavaScript?",
+    "options": [
+      "A concise way to write function expressions",
+      "A function with no parameters",
+      "A function with no return value",
+      "A function that only works with arrays"
+    ],
+    "answer": "A concise way to write function expressions"
+  },
+  {
+    "question": "Which is the correct syntax for an arrow function with one parameter?",
+    "options": [
+      "x => x * 2",
+      "(x) => x * 2",
+      "x -> x * 2",
+      "Both A and B"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "Which is the correct syntax for an arrow function with no parameters?",
+    "options": [
+      "() => 42",
+      "=> 42",
+      "( ) -> 42",
+      "{} => 42"
+    ],
+    "answer": "() => 42"
+  },
+  {
+    "question": "How do you return an object from an arrow function?",
+    "options": [
+      "() => ({a: 1})",
+      "() => {a: 1}",
+      "() -> {a: 1}",
+      "() => [a: 1]"
+    ],
+    "answer": "() => ({a: 1})"
+  },
+  {
+    "question": "What is the output of: \nfunction f(x) { return x * 2; } console.log(f(3));",
+    "options": ["6", "3", "2", "undefined"],
+    "answer": "6"
+  },
+  {
+    "question": "What is the output of: \nlet f = x => x + 1; console.log(f(4));",
+    "options": ["5", "4", "1", "undefined"],
+    "answer": "5"
+  },
+  {
+    "question": "Which function declaration is NOT valid?",
+    "options": [
+      "let f = function(x) { return x; }",
+      "function f(x) { return x; }",
+      "let f(x) = { return x; }",
+      "const f = x => x;"
+    ],
+    "answer": "let f(x) = { return x; }"
+  },
+  {
+    "question": "Which statement is true about arrow functions?",
+    "options": [
+      "They do not have their own 'this'",
+      "They can be used as constructors",
+      "They must always have parentheses",
+      "They cannot have parameters"
+    ],
+    "answer": "They do not have their own 'this'"
+  },
+  {
+    "question": "What is the result of: \nfor(let i=0; i<2; i++) { console.log(i); }",
+    "options": ["0 1", "1 2", "0 1 2", "2 1 0"],
+    "answer": "0 1"
+  },
+  {
+    "question": "Which loop is guaranteed to run at least once?",
+    "options": [
+      "do...while",
+      "while",
+      "for",
+      "switch"
+    ],
+    "answer": "do...while"
+  },
+  {
+    "question": "What is the output of: \nlet i=0; do {i++;} while(i<2); console.log(i);",
+    "options": ["2", "1", "0", "undefined"],
+    "answer": "2"
+  },
+  {
+    "question": "Which is the correct way to write a function that returns the sum of two numbers?",
+    "options": [
+      "function sum(a, b) { return a + b; }",
+      "function sum(a, b) { a + b }",
+      "function sum(a, b) return a + b;",
+      "sum(a, b) => a + b;"
+    ],
+    "answer": "function sum(a, b) { return a + b; }"
+  },
+  {
+    "question": "How do you write a function expression that squares a number?",
+    "options": [
+      "const square = function(x) { return x * x; }",
+      "function square(x) { return x * x; }",
+      "let square = x => x * x;",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the output of: \nswitch('b') { case 'a': console.log(1); break; case 'b': console.log(2); }",
+    "options": ["2", "1", "undefined", "error"],
+    "answer": "2"
+  },
+  {
+    "question": "Which is NOT a valid loop in JavaScript?",
+    "options": [
+      "foreach",
+      "for",
+      "while",
+      "do...while"
+    ],
+    "answer": "foreach"
+  },
+  {
+    "question": "How do you define an anonymous function?",
+    "options": [
+      "function() { ... }",
+      "function anon() { ... }",
+      "let f = function named() { ... }",
+      "function = () { ... }"
+    ],
+    "answer": "function() { ... }"
+  },
+  {
+    "question": "What is the output of: \nlet arr = [1,2,3]; for(let i=0; i<arr.length; i++) { console.log(arr[i]); }",
+    "options": ["1 2 3", "0 1 2", "3 2 1", "undefined"],
+    "answer": "1 2 3"
+  },
+  {
+    "question": "Which statement is true about function expressions?",
+    "options": [
+      "They can be anonymous",
+      "They must have a name",
+      "They cannot be assigned to variables",
+      "They cannot be used as arguments"
+    ],
+    "answer": "They can be anonymous"
+  },
+  {
+    "question": "What is the output of: \nlet f = () => 5; console.log(f());",
+    "options": ["5", "undefined", "null", "error"],
+    "answer": "5"
+  },
+  {
+    "question": "How do you return a value from a function?",
+    "options": [
+      "Using the return statement",
+      "Using the break statement",
+      "Using the continue statement",
+      "Using the exit statement"
+    ],
+    "answer": "Using the return statement"
+  },
+  {
+    "question": "Which is the correct syntax for a function with no parameters?",
+    "options": [
+      "function f() { }",
+      "function() f { }",
+      "function f[] { }",
+      "function f{}"
+    ],
+    "answer": "function f() { }"
+  },
+  {
+    "question": "How do you call a function with arguments?",
+    "options": [
+      "func(arg1, arg2)",
+      "func[arg1, arg2]",
+      "call func(arg1, arg2)",
+      "func = (arg1, arg2)"
+    ],
+    "answer": "func(arg1, arg2)"
+  },
+  {
+    "question": "What is the output of: \nfor(let i=0; i<3; i++) { if(i==1) continue; console.log(i); }",
+    "options": ["0 2", "1 2", "0 1", "2 1 0"],
+    "answer": "0 2"
+  },
+  {
+    "question": "Which statement is used to define a function as a variable?",
+    "options": [
+      "let f = function() { }",
+      "function f() { }",
+      "def f() { }",
+      "var function f() { }"
+    ],
+    "answer": "let f = function() { }"
+  },
+  {
+    "question": "Which is the correct way to write an arrow function that returns the sum of a and b?",
+    "options": [
+      "(a, b) => a + b",
+      "(a, b) -> a + b",
+      "a, b => a + b",
+      "a, b -> a + b"
+    ],
+    "answer": "(a, b) => a + b"
+  },
+  {
+    "question": "What is the output of: \nlet f = x => { return x * 3; }; console.log(f(2));",
+    "options": ["6", "2", "3", "undefined"],
+    "answer": "6"
+  },
+  {
+    "question": "What is the output of: \nlet i = 0; while(i < 2) { i++; } console.log(i);",
+    "options": ["2", "1", "0", "undefined"],
+    "answer": "2"
+  },
+  {
+    "question": "Which statement is used to exit a switch statement?",
+    "options": [
+      "break",
+      "continue",
+      "exit",
+      "stop"
+    ],
+    "answer": "break"
+  },
+  {
+    "question": "What is the output of: \nlet f = function(x) { return x - 1; }; console.log(f(3));",
+    "options": ["2", "3", "1", "undefined"],
+    "answer": "2"
+  },
+  {
+    "question": "Which is the correct way to write a function that returns true?",
+    "options": [
+      "function f() { return true; }",
+      "function f() { true; }",
+      "function f[] { return true; }",
+      "function f() return true;"
+    ],
+    "answer": "function f() { return true; }"
+  }
+]
+
+    },
       "shortcuts": {
         "title": "JavaScript Practical - SET 1",
         "questions": [
@@ -563,6 +4003,766 @@
   }
 ]
 
+      },
+      "longcuts": {
+        "title": "JavaScript Practical - SET 2",
+        "questions": [
+  {
+    "question": "Which HTML tag is used to embed JavaScript code in an HTML page?",
+    "options": [
+      "<script>",
+      "<javascript>",
+      "<js>",
+      "<code>"
+    ],
+    "answer": "<script>"
+  },
+  {
+    "question": "Where can the <script> tag be placed in an HTML document?",
+    "options": [
+      "In the <head> or <body> section",
+      "Only in the <head> section",
+      "Only in the <body> section",
+      "Only at the end of the document"
+    ],
+    "answer": "In the <head> or <body> section"
+  },
+  {
+    "question": "How do you include an external JavaScript file in HTML?",
+    "options": [
+      "<script src=\"file.js\"></script>",
+      "<script href=\"file.js\"></script>",
+      "<js src=\"file.js\"></js>",
+      "<javascript link=\"file.js\"></javascript>"
+    ],
+    "answer": "<script src=\"file.js\"></script>"
+  },
+  {
+    "question": "What is the correct HTML tag for inline JavaScript?",
+    "options": [
+      "<script> ... </script>",
+      "<js> ... </js>",
+      "<javascript> ... </javascript>",
+      "<code> ... </code>"
+    ],
+    "answer": "<script> ... </script>"
+  },
+  {
+    "question": "What attribute is used in the <script> tag to reference an external file?",
+    "options": [
+      "src",
+      "href",
+      "link",
+      "file"
+    ],
+    "answer": "src"
+  },
+  {
+    "question": "How do you comment a single line in JavaScript?",
+    "options": [
+      "// comment",
+      "<!-- comment -->",
+      "# comment",
+      "/* comment */"
+    ],
+    "answer": "// comment"
+  },
+  {
+    "question": "How do you comment multiple lines in JavaScript?",
+    "options": [
+      "/* comment */",
+      "// comment //",
+      "<!-- comment -->",
+      "# comment #"
+    ],
+    "answer": "/* comment */"
+  },
+  {
+    "question": "What is the default type for the <script> tag in HTML5?",
+    "options": [
+      "text/javascript",
+      "application/javascript",
+      "text/ecmascript",
+      "text/html"
+    ],
+    "answer": "text/javascript"
+  },
+  {
+    "question": "Which attribute in the <script> tag prevents the script from blocking page rendering?",
+    "options": [
+      "async",
+      "defer",
+      "type",
+      "src"
+    ],
+    "answer": "async"
+  },
+  {
+    "question": "Which attribute in the <script> tag delays execution until after the document is parsed?",
+    "options": [
+      "defer",
+      "async",
+      "type",
+      "src"
+    ],
+    "answer": "defer"
+  },
+  {
+    "question": "What is the correct way to write an alert in JavaScript?",
+    "options": [
+      "alert('Hello!');",
+      "msg('Hello!');",
+      "alertBox('Hello!');",
+      "window.alertBox('Hello!');"
+    ],
+    "answer": "alert('Hello!');"
+  },
+  {
+    "question": "How do you write 'Hello World' to the browser console?",
+    "options": [
+      "console.log('Hello World');",
+      "console.write('Hello World');",
+      "log.console('Hello World');",
+      "print('Hello World');"
+    ],
+    "answer": "console.log('Hello World');"
+  },
+  {
+    "question": "How do you write 'Hello World' into an HTML element with id='demo'?",
+    "options": [
+      "document.getElementById('demo').innerHTML = 'Hello World';",
+      "document.write('Hello World');",
+      "window.alert('Hello World');",
+      "demo.innerHTML = 'Hello World';"
+    ],
+    "answer": "document.getElementById('demo').innerHTML = 'Hello World';"
+  },
+  {
+    "question": "Which event executes JavaScript when a button is clicked?",
+    "options": [
+      "onclick",
+      "onpress",
+      "onhover",
+      "onchange"
+    ],
+    "answer": "onclick"
+  },
+  {
+    "question": "What is the correct HTML for a button that runs a function named 'myFunction'?",
+    "options": [
+      "<button onclick=\"myFunction()\">Click me</button>",
+      "<button run=\"myFunction()\">Click me</button>",
+      "<button onpress=\"myFunction()\">Click me</button>",
+      "<button call=\"myFunction()\">Click me</button>"
+    ],
+    "answer": "<button onclick=\"myFunction()\">Click me</button>"
+  },
+  {
+    "question": "How do you execute JavaScript code when the page loads?",
+    "options": [
+      "<body onload=\"myFunction()\">",
+      "<body onstart=\"myFunction()\">",
+      "<body onready=\"myFunction()\">",
+      "<body onbegin=\"myFunction()\">"
+    ],
+    "answer": "<body onload=\"myFunction()\">"
+  },
+  {
+    "question": "Which tag is used to place JavaScript in the head of an HTML document?",
+    "options": [
+      "<script>",
+      "<js>",
+      "<javascript>",
+      "<headscript>"
+    ],
+    "answer": "<script>"
+  },
+  {
+    "question": "What happens if you include both inline and external JavaScript in an HTML file?",
+    "options": [
+      "Both scripts are executed",
+      "Only the external script runs",
+      "Only the inline script runs",
+      "An error occurs"
+    ],
+    "answer": "Both scripts are executed"
+  },
+  {
+    "question": "How do you call a function named 'showAlert' from HTML?",
+    "options": [
+      "<button onclick=\"showAlert()\">Click</button>",
+      "<button onshow=\"showAlert()\">Click</button>",
+      "<button call=\"showAlert()\">Click</button>",
+      "<button run=\"showAlert()\">Click</button>"
+    ],
+    "answer": "<button onclick=\"showAlert()\">Click</button>"
+  },
+  {
+    "question": "Which attribute in the <script> tag specifies the scripting language?",
+    "options": [
+      "type",
+      "language",
+      "lang",
+      "script"
+    ],
+    "answer": "type"
+  },
+  {
+    "question": "What is the correct syntax to access an HTML element by its class name?",
+    "options": [
+      "document.getElementsByClassName('className')",
+      "document.getElementByClass('className')",
+      "document.getClass('className')",
+      "document.class('className')"
+    ],
+    "answer": "document.getElementsByClassName('className')"
+  },
+  {
+    "question": "How do you write a multi-line comment in JavaScript?",
+    "options": [
+      "/* comment */",
+      "// comment //",
+      "<!-- comment -->",
+      "# comment #"
+    ],
+    "answer": "/* comment */"
+  },
+  {
+    "question": "Which is the correct way to reference a script.js file in the same directory?",
+    "options": [
+      "<script src=\"script.js\"></script>",
+      "<script href=\"script.js\"></script>",
+      "<script url=\"script.js\"></script>",
+      "<script file=\"script.js\"></script>"
+    ],
+    "answer": "<script src=\"script.js\"></script>"
+  },
+  {
+    "question": "What is the effect of placing a <script> tag at the end of the <body>?",
+    "options": [
+      "The script runs after the HTML is loaded",
+      "The script runs before the HTML is loaded",
+      "The script does not run",
+      "It causes an error"
+    ],
+    "answer": "The script runs after the HTML is loaded"
+  },
+  {
+    "question": "How do you prevent a script from running until the page is fully loaded?",
+    "options": [
+      "Use the defer attribute",
+      "Use the async attribute",
+      "Place the script in the <head>",
+      "Use the type attribute"
+    ],
+    "answer": "Use the defer attribute"
+  },
+  {
+    "question": "Which attribute allows a script to run asynchronously with HTML parsing?",
+    "options": [
+      "async",
+      "defer",
+      "type",
+      "src"
+    ],
+    "answer": "async"
+  },
+  {
+    "question": "How do you write JavaScript code that runs only after the DOM is fully loaded?",
+    "options": [
+      "document.addEventListener('DOMContentLoaded', function() { ... });",
+      "window.onload = function() { ... };",
+      "document.onload = function() { ... };",
+      "window.ready = function() { ... };"
+    ],
+    "answer": "document.addEventListener('DOMContentLoaded', function() { ... });"
+  },
+  {
+    "question": "What is the correct way to write a script that displays an alert when a button is clicked?",
+    "options": [
+      "<button onclick=\"alert('Clicked!')\">Click</button>",
+      "<button onalert=\"Clicked!\">Click</button>",
+      "<button click=\"alert('Clicked!')\">Click</button>",
+      "<button run=\"alert('Clicked!')\">Click</button>"
+    ],
+    "answer": "<button onclick=\"alert('Clicked!')\">Click</button>"
+  },
+  {
+    "question": "How do you embed JavaScript that changes the background color to yellow?",
+    "options": [
+      "<script>document.body.style.backgroundColor = 'yellow';</script>",
+      "<js>document.body.background = 'yellow';</js>",
+      "<script>body.background = 'yellow';</script>",
+      "<javascript>document.body.bg = 'yellow';</javascript>"
+    ],
+    "answer": "<script>document.body.style.backgroundColor = 'yellow';</script>"
+  },
+  {
+    "question": "Which is the correct way to include a script from a CDN?",
+    "options": [
+      "<script src=\"https://cdn.example.com/script.js\"></script>",
+      "<script href=\"https://cdn.example.com/script.js\"></script>",
+      "<js src=\"https://cdn.example.com/script.js\"></js>",
+      "<javascript src=\"https://cdn.example.com/script.js\"></javascript>"
+    ],
+    "answer": "<script src=\"https://cdn.example.com/script.js\"></script>"
+  },
+  {
+    "question": "How do you write JavaScript code that runs only when a form is submitted?",
+    "options": [
+      "<form onsubmit=\"myFunction()\">",
+      "<form onsubmit=\"return myFunction\">",
+      "<form submit=\"myFunction()\">",
+      "<form onsubmit=\"run myFunction()\">"
+    ],
+    "answer": "<form onsubmit=\"myFunction()\">"
+  },
+  {
+    "question": "Which event attribute runs JavaScript when a user moves the mouse over an element?",
+    "options": [
+      "onmouseover",
+      "onmouseenter",
+      "onhover",
+      "onmove"
+    ],
+    "answer": "onmouseover"
+  },
+  {
+    "question": "How do you write JavaScript code that runs when a user presses a key?",
+    "options": [
+      "<input onkeydown=\"myFunction()\">",
+      "<input onkeypress=\"myFunction()\">",
+      "<input onkeyup=\"myFunction()\">",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the correct way to write an inline script that displays 'Hello'?",
+    "options": [
+      "<script>alert('Hello');</script>",
+      "<js>alert('Hello');</js>",
+      "<javascript>alert('Hello');</javascript>",
+      "<code>alert('Hello');</code>"
+    ],
+    "answer": "<script>alert('Hello');</script>"
+  },
+  {
+    "question": "How do you call a JavaScript function from an HTML link?",
+    "options": [
+      "<a href=\"javascript:myFunction()\">Click</a>",
+      "<a onclick=\"myFunction()\">Click</a>",
+      "<a run=\"myFunction()\">Click</a>",
+      "<a href=\"myFunction()\">Click</a>"
+    ],
+    "answer": "<a href=\"javascript:myFunction()\">Click</a>"
+  },
+  {
+    "question": "Which is the correct way to write a script that logs 'Loaded' after the page loads?",
+    "options": [
+      "<body onload=\"console.log('Loaded')\">",
+      "<body onstart=\"console.log('Loaded')\">",
+      "<body onready=\"console.log('Loaded')\">",
+      "<body onload=\"log('Loaded')\">"
+    ],
+    "answer": "<body onload=\"console.log('Loaded')\">"
+  },
+  {
+    "question": "How do you include multiple external scripts in an HTML page?",
+    "options": [
+      "Use multiple <script src=\"...\"></script> tags",
+      "Use a comma-separated list in one src attribute",
+      "Use <script multiple src=\"...\"></script>",
+      "Use <script srcs=\"...\"></script>"
+    ],
+    "answer": "Use multiple <script src=\"...\"></script> tags"
+  },
+  {
+    "question": "What is the effect of using 'defer' in a <script> tag?",
+    "options": [
+      "Script executes after HTML is parsed",
+      "Script executes immediately",
+      "Script does not execute",
+      "Script executes before HTML is parsed"
+    ],
+    "answer": "Script executes after HTML is parsed"
+  },
+  {
+    "question": "Where is it best to place <script> tags for faster page load?",
+    "options": [
+      "At the end of the <body>",
+      "At the start of the <head>",
+      "In the middle of the document",
+      "Anywhere in the HTML"
+    ],
+    "answer": "At the end of the <body>"
+  },
+  {
+    "question": "How do you prevent an inline script from running twice?",
+    "options": [
+      "Remove the script after execution",
+      "Use the async attribute",
+      "Place script in the <head>",
+      "Use a unique id"
+    ],
+    "answer": "Remove the script after execution"
+  },
+  {
+    "question": "How do you write JavaScript code that changes the text of a <p> with id='demo'?",
+    "options": [
+      "document.getElementById('demo').innerHTML = 'New text';",
+      "document.getElementById('demo').text = 'New text';",
+      "document.getElementById('demo').value = 'New text';",
+      "document.demo.innerHTML = 'New text';"
+    ],
+    "answer": "document.getElementById('demo').innerHTML = 'New text';"
+  },
+  {
+    "question": "Which is the correct way to use JavaScript to change CSS style?",
+    "options": [
+      "element.style.property = 'value';",
+      "element.css.property = 'value';",
+      "element.setStyle('property', 'value');",
+      "element.setCss('property', 'value');"
+    ],
+    "answer": "element.style.property = 'value';"
+  },
+  {
+    "question": "How do you include a JavaScript file from a different domain?",
+    "options": [
+      "<script src=\"https://example.com/script.js\"></script>",
+      "<script href=\"https://example.com/script.js\"></script>",
+      "<js src=\"https://example.com/script.js\"></js>",
+      "<javascript src=\"https://example.com/script.js\"></javascript>"
+    ],
+    "answer": "<script src=\"https://example.com/script.js\"></script>"
+  },
+  {
+    "question": "Which is the correct way to write a script that disables a button?",
+    "options": [
+      "document.getElementById('btn').disabled = true;",
+      "document.getElementById('btn').disable = true;",
+      "document.btn.disabled = true;",
+      "btn.disabled = true;"
+    ],
+    "answer": "document.getElementById('btn').disabled = true;"
+  },
+  {
+    "question": "How do you embed JavaScript that writes 'Welcome' to the page?",
+    "options": [
+      "<script>document.write('Welcome');</script>",
+      "<js>document.write('Welcome');</js>",
+      "<javascript>document.write('Welcome');</javascript>",
+      "<code>document.write('Welcome');</code>"
+    ],
+    "answer": "<script>document.write('Welcome');</script>"
+  },
+  {
+    "question": "Which is the correct way to write a script that changes an image's src?",
+    "options": [
+      "document.getElementById('img').src = 'new.jpg';",
+      "document.img.src = 'new.jpg';",
+      "img.src = 'new.jpg';",
+      "document.getElementById('img').setSrc('new.jpg');"
+    ],
+    "answer": "document.getElementById('img').src = 'new.jpg';"
+  },
+  {
+    "question": "How do you write a script that logs the value of an input field?",
+    "options": [
+      "console.log(document.getElementById('input').value);",
+      "console.log(document.getElementById('input').innerHTML);",
+      "console.log(input.value);",
+      "console.log(document.input.value);"
+    ],
+    "answer": "console.log(document.getElementById('input').value);"
+  },
+  {
+    "question": "How do you embed JavaScript code that runs only if a condition is true?",
+    "options": [
+      "<script>if (condition) { ... }</script>",
+      "<js>if (condition) { ... }</js>",
+      "<javascript>if (condition) { ... }</javascript>",
+      "<code>if (condition) { ... }</code>"
+    ],
+    "answer": "<script>if (condition) { ... }</script>"
+  },
+  {
+    "question": "Which is the correct way to write a script that adds a class to an element?",
+    "options": [
+      "document.getElementById('el').classList.add('active');",
+      "document.getElementById('el').addClass('active');",
+      "el.classList.add('active');",
+      "document.el.addClass('active');"
+    ],
+    "answer": "document.getElementById('el').classList.add('active');"
+  },
+  {
+    "question": "How do you embed JavaScript code that removes an element from the DOM?",
+    "options": [
+      "element.parentNode.removeChild(element);",
+      "element.remove();",
+      "document.removeChild(element);",
+      "element.delete();"
+    ],
+    "answer": "element.parentNode.removeChild(element);"
+  },
+  {
+    "question": "Which is the correct way to write a script that changes the font size of a <p>?",
+    "options": [
+      "document.getElementById('p').style.fontSize = '20px';",
+      "document.getElementById('p').fontSize = '20px';",
+      "p.style.fontSize = '20px';",
+      "document.p.style.fontSize = '20px';"
+    ],
+    "answer": "document.getElementById('p').style.fontSize = '20px';"
+  },
+  {
+    "question": "How do you write a script that toggles a class on an element?",
+    "options": [
+      "element.classList.toggle('className');",
+      "element.toggleClass('className');",
+      "element.className.toggle('className');",
+      "element.toggle('className');"
+    ],
+    "answer": "element.classList.toggle('className');"
+  },
+  {
+    "question": "How do you write a script that sets the value of a text input?",
+    "options": [
+      "document.getElementById('input').value = 'new value';",
+      "document.getElementById('input').text = 'new value';",
+      "input.value = 'new value';",
+      "document.input.value = 'new value';"
+    ],
+    "answer": "document.getElementById('input').value = 'new value';"
+  },
+  {
+    "question": "How do you write a script that adds an event listener to a button?",
+    "options": [
+      "document.getElementById('btn').addEventListener('click', myFunction);",
+      "document.getElementById('btn').on('click', myFunction);",
+      "btn.addEvent('click', myFunction);",
+      "document.btn.addEventListener('click', myFunction);"
+    ],
+    "answer": "document.getElementById('btn').addEventListener('click', myFunction);"
+  },
+  {
+    "question": "How do you write a script that gets the inner text of a <div>?",
+    "options": [
+      "document.getElementById('div').innerText",
+      "document.getElementById('div').text",
+      "div.innerText",
+      "document.div.innerText"
+    ],
+    "answer": "document.getElementById('div').innerText"
+  }
+]
+      },
+      "longcuts2": {
+        "title": "JavaScript Practical - SET 3",
+        "questions": [
+  {
+    "question": "Which HTML tag is used to embed JavaScript code?",
+    "options": [
+      "<script>",
+      "<js>",
+      "<javascript>",
+      "<code>"
+    ],
+    "answer": "<script>"
+  },
+  {
+    "question": "How do you write an inline JavaScript alert in HTML?",
+    "options": [
+      "<script>alert('Hello!');</script>",
+      "<js>alert('Hello!');</js>",
+      "<javascript>alert('Hello!');</javascript>",
+      "<code>alert('Hello!');</code>"
+    ],
+    "answer": "<script>alert('Hello!');</script>"
+  },
+  {
+    "question": "What attribute is used to reference an external JavaScript file?",
+    "options": [
+      "src",
+      "href",
+      "link",
+      "file"
+    ],
+    "answer": "src"
+  },
+  {
+    "question": "Where can the <script> tag be placed in an HTML document?",
+    "options": [
+      "In the <head> or <body>",
+      "Only in the <head>",
+      "Only in the <body>",
+      "Only after the closing </html>"
+    ],
+    "answer": "In the <head> or <body>"
+  },
+  {
+    "question": "What is the effect of placing a <script> tag at the end of the <body>?",
+    "options": [
+      "The script runs after the HTML is loaded",
+      "The script runs before the HTML is loaded",
+      "The script does not run",
+      "It causes an error"
+    ],
+    "answer": "The script runs after the HTML is loaded"
+  },
+  {
+    "question": "Which attribute allows a script to run after the page has finished parsing?",
+    "options": [
+      "defer",
+      "async",
+      "type",
+      "lang"
+    ],
+    "answer": "defer"
+  },
+  {
+    "question": "How do you include a JavaScript file from a CDN?",
+    "options": [
+      "<script src=\"https://cdn.example.com/script.js\"></script>",
+      "<js src=\"https://cdn.example.com/script.js\"></js>",
+      "<javascript src=\"https://cdn.example.com/script.js\"></javascript>",
+      "<code src=\"https://cdn.example.com/script.js\"></code>"
+    ],
+    "answer": "<script src=\"https://cdn.example.com/script.js\"></script>"
+  },
+  {
+    "question": "What is the default type for the <script> tag in HTML5?",
+    "options": [
+      "text/javascript",
+      "application/javascript",
+      "text/ecmascript",
+      "text/html"
+    ],
+    "answer": "text/javascript"
+  },
+  {
+    "question": "How do you prevent a script from blocking page rendering?",
+    "options": [
+      "Use the async attribute",
+      "Use the type attribute",
+      "Use the lang attribute",
+      "Use the defer attribute"
+    ],
+    "answer": "Use the async attribute"
+  },
+  {
+    "question": "How do you run JavaScript only after the DOM is fully loaded?",
+    "options": [
+      "document.addEventListener('DOMContentLoaded', function() { ... });",
+      "window.onload = function() { ... };",
+      "document.onload = function() { ... };",
+      "window.ready = function() { ... };"
+    ],
+    "answer": "document.addEventListener('DOMContentLoaded', function() { ... });"
+  },
+  {
+    "question": "Which is the correct way to call a function when a button is clicked?",
+    "options": [
+      "<button onclick=\"myFunction()\">Click me</button>",
+      "<button onpress=\"myFunction()\">Click me</button>",
+      "<button onrun=\"myFunction()\">Click me</button>",
+      "<button action=\"myFunction()\">Click me</button>"
+    ],
+    "answer": "<button onclick=\"myFunction()\">Click me</button>"
+  },
+  {
+    "question": "How do you write a single-line comment in JavaScript?",
+    "options": [
+      "// comment",
+      "<!-- comment -->",
+      "# comment",
+      "/* comment */"
+    ],
+    "answer": "// comment"
+  },
+  {
+    "question": "Which event attribute runs JavaScript when a form is submitted?",
+    "options": [
+      "onsubmit",
+      "onchange",
+      "onblur",
+      "onsend"
+    ],
+    "answer": "onsubmit"
+  },
+  {
+    "question": "How do you reference a script.js file in the same directory?",
+    "options": [
+      "<script src=\"script.js\"></script>",
+      "<script href=\"script.js\"></script>",
+      "<js src=\"script.js\"></js>",
+      "<javascript src=\"script.js\"></javascript>"
+    ],
+    "answer": "<script src=\"script.js\"></script>"
+  },
+  {
+    "question": "How do you call a JavaScript function from an HTML link?",
+    "options": [
+      "<a href=\"javascript:myFunction()\">Click</a>",
+      "<a onclick=\"myFunction()\">Click</a>",
+      "<a run=\"myFunction()\">Click</a>",
+      "<a href=\"myFunction()\">Click</a>"
+    ],
+    "answer": "<a href=\"javascript:myFunction()\">Click</a>"
+  },
+  {
+    "question": "Which attribute in the <script> tag specifies the scripting language?",
+    "options": [
+      "type",
+      "language",
+      "lang",
+      "script"
+    ],
+    "answer": "type"
+  },
+  {
+    "question": "What is the effect of using the 'defer' attribute?",
+    "options": [
+      "Script executes after HTML is parsed",
+      "Script executes immediately",
+      "Script does not execute",
+      "Script executes before HTML is parsed"
+    ],
+    "answer": "Script executes after HTML is parsed"
+  },
+  {
+    "question": "How do you write a script that logs 'Loaded' after the page loads?",
+    "options": [
+      "<body onload=\"console.log('Loaded')\">",
+      "<body onstart=\"console.log('Loaded')\">",
+      "<body onready=\"console.log('Loaded')\">",
+      "<body onload=\"log('Loaded')\">"
+    ],
+    "answer": "<body onload=\"console.log('Loaded')\">"
+  },
+  {
+    "question": "How do you include multiple external scripts in an HTML page?",
+    "options": [
+      "Use multiple <script src=\"...\"></script> tags",
+      "Use a comma-separated list in one src attribute",
+      "Use <script multiple src=\"...\"></script>",
+      "Use <script srcs=\"...\"></script>"
+    ],
+    "answer": "Use multiple <script src=\"...\"></script> tags"
+  },
+  {
+    "question": "How do you embed JavaScript that writes 'Welcome' to the page?",
+    "options": [
+      "<script>document.write('Welcome');</script>",
+      "<js>document.write('Welcome');</js>",
+      "<javascript>document.write('Welcome');</javascript>",
+      "<code>document.write('Welcome');</code>"
+    ],
+    "answer": "<script>document.write('Welcome');</script>"
+  }
+]
       }
     }
   }
