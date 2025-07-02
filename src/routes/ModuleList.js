@@ -18,6 +18,8 @@ const modules = [
   { id: "Module-13", title: "HTML Structure" },
   { id: "Module-14", title: "CSS Styling" },
   { id: "Module-15", title: "JavaScript Soul" },
+  {id:"Module-16", title: "MS Word Basics And Advanced" },
+  {id:"Module-17", title: "Cyber Security and Digital Safety" },
 ];
 
 export default function ModuleList() {

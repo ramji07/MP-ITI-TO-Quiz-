@@ -1,0 +1,5633 @@
+
+{
+  "Module-17": {
+    "title": "Cyber Security and Digital Safety",
+    "submodules": {
+      "basics_1": {
+        "title": "Malware",
+        "questions": [
+  {
+    "question": "What is malware?",
+    "options": [
+      "Malicious software designed to harm or exploit computers",
+      "A type of hardware",
+      "A computer programming language",
+      "A security patch"
+    ],
+    "answer": "Malicious software designed to harm or exploit computers"
+  },
+  {
+    "question": "Which of the following is NOT a type of malware?",
+    "options": [
+      "Firewall",
+      "Virus",
+      "Worm",
+      "Trojan Horse"
+    ],
+    "answer": "Firewall"
+  },
+  {
+    "question": "What does a computer virus do?",
+    "options": [
+      "Replicates itself and spreads to other files",
+      "Protects your computer from threats",
+      "Optimizes computer speed",
+      "Cleans temporary files"
+    ],
+    "answer": "Replicates itself and spreads to other files"
+  },
+  {
+    "question": "Which malware disguises itself as legitimate software?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "What is a worm?",
+    "options": [
+      "A self-replicating malware that spreads without user interaction",
+      "A type of computer hardware",
+      "A security update",
+      "A password manager"
+    ],
+    "answer": "A self-replicating malware that spreads without user interaction"
+  },
+  {
+    "question": "Which malware records keystrokes to steal sensitive information?",
+    "options": [
+      "Keylogger",
+      "Ransomware",
+      "Spyware",
+      "Worm"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "What does ransomware do?",
+    "options": [
+      "Encrypts files and demands payment for decryption",
+      "Deletes files permanently",
+      "Replicates itself endlessly",
+      "Monitors network traffic"
+    ],
+    "answer": "Encrypts files and demands payment for decryption"
+  },
+  {
+    "question": "Spyware is designed to:",
+    "options": [
+      "Secretly monitor user activity and collect information",
+      "Clean your computer",
+      "Speed up your computer",
+      "Protect against viruses"
+    ],
+    "answer": "Secretly monitor user activity and collect information"
+  },
+  {
+    "question": "Which malware type often arrives as an email attachment pretending to be something useful?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Virus",
+      "Ransomware"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware spreads by exploiting network vulnerabilities?",
+    "options": [
+      "Worm",
+      "Spyware",
+      "Adware",
+      "Keylogger"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "Which of the following is a characteristic of a computer virus?",
+    "options": [
+      "Needs user action to spread",
+      "Does not need to attach to files",
+      "Cannot replicate",
+      "Is always visible to users"
+    ],
+    "answer": "Needs user action to spread"
+  },
+  {
+    "question": "What is a payload in the context of malware?",
+    "options": [
+      "The harmful action performed by malware",
+      "A backup file",
+      "A security patch",
+      "A network protocol"
+    ],
+    "answer": "The harmful action performed by malware"
+  },
+  {
+    "question": "Which malware can lock your screen and demand payment?",
+    "options": [
+      "Ransomware",
+      "Spyware",
+      "Worm",
+      "Trojan Horse"
+    ],
+    "answer": "Ransomware"
+  },
+  {
+    "question": "What is the main difference between a virus and a worm?",
+    "options": [
+      "A worm can spread without user action, a virus cannot",
+      "A virus is always harmless",
+      "A worm cannot replicate",
+      "A virus cannot attach to files"
+    ],
+    "answer": "A worm can spread without user action, a virus cannot"
+  },
+  {
+    "question": "Which malware is commonly used for identity theft?",
+    "options": [
+      "Spyware",
+      "Ransomware",
+      "Worm",
+      "Adware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can turn your computer into a 'zombie' for a botnet?",
+    "options": [
+      "Worm",
+      "Trojan Horse",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "What is the purpose of a keylogger?",
+    "options": [
+      "To secretly record keystrokes",
+      "To encrypt files",
+      "To display ads",
+      "To clean temporary files"
+    ],
+    "answer": "To secretly record keystrokes"
+  },
+  {
+    "question": "Which malware can be used to spy on emails, chats, and browsing history?",
+    "options": [
+      "Spyware",
+      "Ransomware",
+      "Worm",
+      "Virus"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware often demands payment in cryptocurrency?",
+    "options": [
+      "Ransomware",
+      "Trojan Horse",
+      "Worm",
+      "Keylogger"
+    ],
+    "answer": "Ransomware"
+  },
+  {
+    "question": "A Trojan Horse typically requires what to activate?",
+    "options": [
+      "User action (such as opening a file)",
+      "Automatic execution",
+      "Network vulnerability",
+      "None of the above"
+    ],
+    "answer": "User action (such as opening a file)"
+  },
+  {
+    "question": "Which type of malware is most likely to spread rapidly through a network?",
+    "options": [
+      "Worm",
+      "Spyware",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "Which malware might display unwanted advertisements?",
+    "options": [
+      "Adware",
+      "Keylogger",
+      "Ransomware",
+      "Worm"
+    ],
+    "answer": "Adware"
+  },
+  {
+    "question": "Which malware is often used in phishing attacks?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "What is a common symptom of ransomware infection?",
+    "options": [
+      "Files become inaccessible or encrypted",
+      "Computer runs faster",
+      "New hardware is detected",
+      "Screen turns blue"
+    ],
+    "answer": "Files become inaccessible or encrypted"
+  },
+  {
+    "question": "Which malware can be hidden inside a seemingly innocent software download?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Virus",
+      "Ransomware"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to steal banking credentials?",
+    "options": [
+      "Keylogger",
+      "Worm",
+      "Ransomware",
+      "Adware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can spread via USB drives?",
+    "options": [
+      "Worm",
+      "Trojan Horse",
+      "Ransomware",
+      "Spyware"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "Which malware can collect screenshots and send them to an attacker?",
+    "options": [
+      "Spyware",
+      "Ransomware",
+      "Worm",
+      "Virus"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can act as a backdoor for hackers?",
+    "options": [
+      "Trojan Horse",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "What is the best way to protect against ransomware?",
+    "options": [
+      "Regular backups and updated antivirus",
+      "Install more RAM",
+      "Use only wireless connections",
+      "Disable your firewall"
+    ],
+    "answer": "Regular backups and updated antivirus"
+  },
+  {
+    "question": "Which malware can log passwords entered on a website?",
+    "options": [
+      "Keylogger",
+      "Worm",
+      "Trojan Horse",
+      "Ransomware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can slow down your system by running in the background?",
+    "options": [
+      "Spyware",
+      "Ransomware",
+      "Worm",
+      "Keylogger"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be programmed to delete files on a specific date?",
+    "options": [
+      "Virus",
+      "Keylogger",
+      "Adware",
+      "Ransomware"
+    ],
+    "answer": "Virus"
+  },
+  {
+    "question": "Which malware can be used to monitor employee activity in a company (legally or illegally)?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Ransomware",
+      "Virus"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to create a botnet for DDoS attacks?",
+    "options": [
+      "Worm",
+      "Keylogger",
+      "Ransomware",
+      "Adware"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "Which malware can be delivered via malicious email attachments?",
+    "options": [
+      "Trojan Horse",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to steal credit card information?",
+    "options": [
+      "Keylogger",
+      "Worm",
+      "Adware",
+      "Ransomware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be installed by visiting a compromised website?",
+    "options": [
+      "Drive-by download (often a Trojan or spyware)",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Drive-by download (often a Trojan or spyware)"
+  },
+  {
+    "question": "Which malware can modify browser settings and redirect searches?",
+    "options": [
+      "Spyware",
+      "Ransomware",
+      "Worm",
+      "Keylogger"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "What is the main goal of ransomware?",
+    "options": [
+      "Extort money from victims",
+      "Display ads",
+      "Monitor browsing activity",
+      "Speed up the computer"
+    ],
+    "answer": "Extort money from victims"
+  },
+  {
+    "question": "Which malware can be used for corporate espionage?",
+    "options": [
+      "Spyware",
+      "Ransomware",
+      "Keylogger",
+      "Worm"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware is often spread through instant messaging apps?",
+    "options": [
+      "Worm",
+      "Trojan Horse",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "Which malware can be programmed to avoid detection by antivirus software?",
+    "options": [
+      "Polymorphic virus",
+      "Keylogger",
+      "Adware",
+      "Worm"
+    ],
+    "answer": "Polymorphic virus"
+  },
+  {
+    "question": "Which malware can be used to steal confidential business documents?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Ransomware",
+      "Adware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can display fake antivirus warnings?",
+    "options": [
+      "Scareware (often a type of Trojan)",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Scareware (often a type of Trojan)"
+  },
+  {
+    "question": "Which malware can be used to launch phishing attacks?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to steal login credentials from browsers?",
+    "options": [
+      "Keylogger",
+      "Worm",
+      "Ransomware",
+      "Adware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to create fake banking websites?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to spy on webcam and microphone activity?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to track GPS location on mobile devices?",
+    "options": [
+      "Spyware",
+      "Trojan Horse",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be installed by clicking on fake pop-up ads?",
+    "options": [
+      "Adware",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Adware"
+  },
+  {
+    "question": "Which malware can be used to steal social media credentials?",
+    "options": [
+      "Keylogger",
+      "Worm",
+      "Ransomware",
+      "Adware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be hidden in pirated software downloads?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Spyware"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can cause a denial-of-service (DoS) attack?",
+    "options": [
+      "Worm",
+      "Trojan Horse",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "Which malware can be used to record audio without user consent?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to launch attacks on other computers from your device?",
+    "options": [
+      "Worm",
+      "Trojan Horse",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "Which malware can be used to manipulate online banking sessions?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to steal cryptocurrency wallets?",
+    "options": [
+      "Keylogger",
+      "Worm",
+      "Ransomware",
+      "Spyware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to bypass two-factor authentication?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to install additional malware?",
+    "options": [
+      "Trojan Horse",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to modify system files and settings?",
+    "options": [
+      "Virus",
+      "Keylogger",
+      "Worm",
+      "Adware"
+    ],
+    "answer": "Virus"
+  },
+  {
+    "question": "Which malware can be used to monitor clipboard activity?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to disable antivirus software?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to create fake login screens?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to monitor network traffic?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to steal FTP credentials?",
+    "options": [
+      "Keylogger",
+      "Worm",
+      "Ransomware",
+      "Adware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to block access to security websites?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to alter search engine results?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to capture screenshots at regular intervals?",
+    "options": [
+      "Spyware",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to redirect web traffic to malicious sites?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to steal browser cookies?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to disable firewalls?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to send spam emails from your computer?",
+    "options": [
+      "Worm",
+      "Trojan Horse",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Worm"
+  },
+  {
+    "question": "Which malware can be used to steal form data entered on websites?",
+    "options": [
+      "Keylogger",
+      "Spyware",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to modify DNS settings?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to monitor email communications?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to steal FTP credentials?",
+    "options": [
+      "Keylogger",
+      "Worm",
+      "Ransomware",
+      "Adware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to manipulate system time and date?",
+    "options": [
+      "Virus",
+      "Keylogger",
+      "Worm",
+      "Adware"
+    ],
+    "answer": "Virus"
+  },
+  {
+    "question": "Which malware can be used to record voice conversations?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to create fake system alerts?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to monitor clipboard activity?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to steal Wi-Fi passwords?",
+    "options": [
+      "Keylogger",
+      "Spyware",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to install rootkits?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to modify registry settings?",
+    "options": [
+      "Virus",
+      "Keylogger",
+      "Worm",
+      "Adware"
+    ],
+    "answer": "Virus"
+  },
+  {
+    "question": "Which malware can be used to steal browser autofill data?",
+    "options": [
+      "Keylogger",
+      "Spyware",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to monitor network bandwidth usage?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to create fake system processes?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to steal browser bookmarks?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to steal cloud storage credentials?",
+    "options": [
+      "Keylogger",
+      "Spyware",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to create fake error messages?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to steal browser history?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to monitor file downloads?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to steal instant messaging credentials?",
+    "options": [
+      "Keylogger",
+      "Spyware",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to create fake login prompts?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to monitor printer activity?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to redirect printer output?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to monitor USB device usage?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to create fake desktop shortcuts?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "Which malware can be used to steal VPN credentials?",
+    "options": [
+      "Keylogger",
+      "Spyware",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Keylogger"
+  },
+  {
+    "question": "Which malware can be used to monitor Bluetooth device connections?",
+    "options": [
+      "Spyware",
+      "Keylogger",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "Which malware can be used to create fake system updates?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Ransomware",
+      "Keylogger"
+    ],
+    "answer": "Trojan Horse"
+  }
+]
+
+      },
+      "basics_2": {
+        "title": "Network Attacks",
+        "questions": [
+  {
+    "question": "What does DDoS stand for?",
+    "options": [
+      "Distributed Denial of Service",
+      "Direct Denial of Service",
+      "Domain Denial of Service",
+      "Delayed Denial of Service"
+    ],
+    "answer": "Distributed Denial of Service"
+  },
+  {
+    "question": "What is the main goal of a DDoS attack?",
+    "options": [
+      "To make a service unavailable by overwhelming it with traffic",
+      "To steal user credentials",
+      "To encrypt files for ransom",
+      "To redirect users to fake websites"
+    ],
+    "answer": "To make a service unavailable by overwhelming it with traffic"
+  },
+  {
+    "question": "Which of the following best describes a Man-in-the-Middle (MitM) attack?",
+    "options": [
+      "An attacker intercepts and possibly alters communication between two parties",
+      "An attacker floods a server with traffic",
+      "An attacker steals data from a database",
+      "An attacker installs ransomware"
+    ],
+    "answer": "An attacker intercepts and possibly alters communication between two parties"
+  },
+  {
+    "question": "What is packet sniffing?",
+    "options": [
+      "Capturing and analyzing network traffic",
+      "Encrypting network packets",
+      "Blocking network traffic",
+      "Sending fake packets"
+    ],
+    "answer": "Capturing and analyzing network traffic"
+  },
+  {
+    "question": "Which protocol is most vulnerable to ARP spoofing?",
+    "options": [
+      "Ethernet",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "answer": "Ethernet"
+  },
+  {
+    "question": "What is ARP spoofing?",
+    "options": [
+      "Sending fake ARP messages to associate the attacker's MAC address with the IP address of another host",
+      "Flooding a server with requests",
+      "Intercepting encrypted traffic",
+      "Modifying DNS records"
+    ],
+    "answer": "Sending fake ARP messages to associate the attacker's MAC address with the IP address of another host"
+  },
+  {
+    "question": "Which network attack can be used to capture passwords sent over an unencrypted network?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Ransomware"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "What is a botnet?",
+    "options": [
+      "A network of compromised computers controlled by an attacker",
+      "A type of firewall",
+      "A secure VPN",
+      "A network switch"
+    ],
+    "answer": "A network of compromised computers controlled by an attacker"
+  },
+  {
+    "question": "Which attack involves overwhelming a server with traffic from many sources?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "MitM",
+      "Packet sniffing"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which tool is commonly used for packet sniffing?",
+    "options": [
+      "Wireshark",
+      "Photoshop",
+      "WordPress",
+      "Excel"
+    ],
+    "answer": "Wireshark"
+  },
+  {
+    "question": "What is the main risk of ARP spoofing?",
+    "options": [
+      "Traffic can be redirected or intercepted",
+      "Files are encrypted",
+      "Servers are overloaded",
+      "Websites are defaced"
+    ],
+    "answer": "Traffic can be redirected or intercepted"
+  },
+  {
+    "question": "Which layer of the OSI model does ARP operate at?",
+    "options": [
+      "Data Link",
+      "Network",
+      "Transport",
+      "Application"
+    ],
+    "answer": "Data Link"
+  },
+  {
+    "question": "What is one way to defend against DDoS attacks?",
+    "options": [
+      "Use rate limiting and traffic filtering",
+      "Disable antivirus",
+      "Use weak passwords",
+      "Enable ARP"
+    ],
+    "answer": "Use rate limiting and traffic filtering"
+  },
+  {
+    "question": "Which attack can be mitigated by using HTTPS?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which protocol is often targeted in packet sniffing attacks?",
+    "options": [
+      "HTTP",
+      "SSH",
+      "HTTPS",
+      "SFTP"
+    ],
+    "answer": "HTTP"
+  },
+  {
+    "question": "What is the main purpose of a Man-in-the-Middle attack?",
+    "options": [
+      "To eavesdrop, alter, or inject data in a communication",
+      "To overload a server",
+      "To encrypt files",
+      "To redirect ARP traffic"
+    ],
+    "answer": "To eavesdrop, alter, or inject data in a communication"
+  },
+  {
+    "question": "What is a SYN flood?",
+    "options": [
+      "A type of DDoS attack that exploits the TCP handshake",
+      "A way to sniff packets",
+      "A method of ARP spoofing",
+      "A web application attack"
+    ],
+    "answer": "A type of DDoS attack that exploits the TCP handshake"
+  },
+  {
+    "question": "Which attack can be detected by monitoring unusual ARP traffic?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "MitM",
+      "Packet sniffing"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which of the following is NOT a common goal of a DDoS attack?",
+    "options": [
+      "Gain unauthorized access to a database",
+      "Disrupt a website",
+      "Overwhelm a network",
+      "Cause financial loss"
+    ],
+    "answer": "Gain unauthorized access to a database"
+  },
+  {
+    "question": "Which attack can be used to intercept login credentials on public Wi-Fi?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which of the following best describes a botnet's use in a DDoS attack?",
+    "options": [
+      "It coordinates many compromised computers to attack a target",
+      "It encrypts files for ransom",
+      "It sniffs packets on a network",
+      "It spoofs ARP tables"
+    ],
+    "answer": "It coordinates many compromised computers to attack a target"
+  },
+  {
+    "question": "What is the main purpose of packet sniffing?",
+    "options": [
+      "To capture and analyze network data packets",
+      "To block network traffic",
+      "To encrypt network traffic",
+      "To overload a server"
+    ],
+    "answer": "To capture and analyze network data packets"
+  },
+  {
+    "question": "Which protocol can help prevent Man-in-the-Middle attacks?",
+    "options": [
+      "SSL/TLS",
+      "HTTP",
+      "FTP",
+      "Telnet"
+    ],
+    "answer": "SSL/TLS"
+  },
+  {
+    "question": "Which attack can be performed using a rogue DHCP server?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "Packet sniffing",
+      "ARP spoofing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which tool can be used to perform ARP spoofing?",
+    "options": [
+      "arpspoof",
+      "netstat",
+      "ping",
+      "traceroute"
+    ],
+    "answer": "arpspoof"
+  },
+  {
+    "question": "Which network attack can result in session hijacking?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "Packet sniffing",
+      "ARP spoofing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which of the following can be used to detect packet sniffing?",
+    "options": [
+      "Network monitoring tools",
+      "Antivirus software",
+      "Firewalls",
+      "Password managers"
+    ],
+    "answer": "Network monitoring tools"
+  },
+  {
+    "question": "Which protocol is used to resolve IP addresses to MAC addresses?",
+    "options": [
+      "ARP",
+      "DNS",
+      "DHCP",
+      "ICMP"
+    ],
+    "answer": "ARP"
+  },
+  {
+    "question": "Which of the following is a symptom of a DDoS attack?",
+    "options": [
+      "Slow or unavailable network services",
+      "Encrypted files",
+      "Redirected web traffic",
+      "Fake ARP entries"
+    ],
+    "answer": "Slow or unavailable network services"
+  },
+  {
+    "question": "Which type of attack is most likely to be used for industrial espionage?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which of the following is NOT a type of packet sniffing?",
+    "options": [
+      "Active sniffing",
+      "Passive sniffing",
+      "Reactive sniffing",
+      "Promiscuous sniffing"
+    ],
+    "answer": "Reactive sniffing"
+  },
+  {
+    "question": "Which attack can be mitigated by using strong network segmentation?",
+    "options": [
+      "DDoS",
+      "Man-in-the-Middle",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which protocol is most secure against packet sniffing?",
+    "options": [
+      "HTTPS",
+      "HTTP",
+      "FTP",
+      "Telnet"
+    ],
+    "answer": "HTTPS"
+  },
+  {
+    "question": "Which attack can be detected by monitoring for duplicate IP addresses?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which of the following is a defense against packet sniffing?",
+    "options": [
+      "Use encryption (SSL/TLS, SSH, VPN)",
+      "Disable firewalls",
+      "Use weak passwords",
+      "Disable HTTPS"
+    ],
+    "answer": "Use encryption (SSL/TLS, SSH, VPN)"
+  },
+  {
+    "question": "Which attack can be used to redirect network traffic to a malicious server?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which of the following is a common tool for launching DDoS attacks?",
+    "options": [
+      "LOIC (Low Orbit Ion Cannon)",
+      "Wireshark",
+      "Netcat",
+      "Nmap"
+    ],
+    "answer": "LOIC (Low Orbit Ion Cannon)"
+  },
+  {
+    "question": "Which attack can be prevented by using static ARP entries?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which attack can be detected by analyzing traffic patterns and spikes?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to intercept and alter messages in transit?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "Packet sniffing",
+      "ARP spoofing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be performed using a compromised router?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which of the following is a symptom of ARP spoofing?",
+    "options": [
+      "Unexpected loss of network connectivity",
+      "Slow website loading",
+      "Encrypted files",
+      "High CPU usage"
+    ],
+    "answer": "Unexpected loss of network connectivity"
+  },
+  {
+    "question": "Which attack can be prevented by using VPNs?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be used to steal cookies and session tokens?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be detected by monitoring ARP cache tables?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which attack can be used to perform DNS poisoning?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "Packet sniffing",
+      "ARP spoofing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which of the following is NOT a typical result of a DDoS attack?",
+    "options": [
+      "Increased website speed",
+      "Service unavailability",
+      "Financial loss",
+      "Reputation damage"
+    ],
+    "answer": "Increased website speed"
+  },
+  {
+    "question": "Which attack can be used to collect sensitive data such as usernames and passwords?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be prevented by using strong authentication and encryption?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be performed by exploiting open Wi-Fi networks?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be detected by monitoring for duplicate MAC addresses?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which attack can be prevented by using network segmentation and firewalls?",
+    "options": [
+      "DDoS",
+      "Man-in-the-Middle",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to inject malicious data into a communication stream?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be prevented by using ARP inspection on switches?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which attack can be performed by flooding a target with ICMP packets?",
+    "options": [
+      "DDoS (Ping flood)",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS (Ping flood)"
+  },
+  {
+    "question": "Which attack can be used to intercept VoIP calls?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be detected by monitoring for unusual traffic patterns?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to disrupt online gaming services?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to capture unencrypted email traffic?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be used to impersonate a legitimate user on a network?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which attack can be used to manipulate financial transactions?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be prevented by using network encryption?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be used to disrupt access to cloud services?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be detected by monitoring for abnormal ARP requests?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which attack can be used to steal sensitive information from a VPN connection if not properly encrypted?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be used to disrupt DNS services?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to alter communication between a client and a server?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be detected by monitoring for multiple MAC addresses on a single port?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which attack can be used to disrupt VoIP services?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to collect data from IoT devices?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be used to inject malicious code into a communication stream?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be used to overload a web server?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be detected by monitoring for excessive SYN packets?",
+    "options": [
+      "DDoS (SYN flood)",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS (SYN flood)"
+  },
+  {
+    "question": "Which attack can be used to disrupt access to online banking services?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be prevented by using strong authentication and encrypted communication?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be used to collect data from wireless networks?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be used to disrupt access to government websites?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be detected by monitoring for abnormal network latency?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to collect data from cloud storage services?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be used to disrupt access to social media platforms?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to intercept and modify data sent between a user and a website?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be prevented by using secure switches with dynamic ARP inspection?",
+    "options": [
+      "ARP spoofing",
+      "DDoS",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "ARP spoofing"
+  },
+  {
+    "question": "Which attack can be detected by monitoring for excessive traffic from a single IP address?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to collect unencrypted chat messages?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be used to disrupt access to online shopping websites?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  },
+  {
+    "question": "Which attack can be used to alter data sent between two parties without their knowledge?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing"
+    ],
+    "answer": "Man-in-the-Middle"
+  },
+  {
+    "question": "Which attack can be used to collect login credentials from a public Wi-Fi network?",
+    "options": [
+      "Packet sniffing",
+      "DDoS",
+      "ARP spoofing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "Packet sniffing"
+  },
+  {
+    "question": "Which attack can be prevented by using network monitoring and intrusion detection systems?",
+    "options": [
+      "DDoS",
+      "ARP spoofing",
+      "Packet sniffing",
+      "Man-in-the-Middle"
+    ],
+    "answer": "DDoS"
+  }
+]
+
+      },
+      "threats": {
+        "title": "Social Engineering Attacks",
+        "questions": [
+  {
+    "question": "What is social engineering?",
+    "options": [
+      "A hacking technique exploiting human psychology",
+      "A type of software",
+      "A network protocol",
+      "A programming language"
+    ],
+    "answer": "A hacking technique exploiting human psychology"
+  },
+  {
+    "question": "Which of the following is NOT a social engineering attack?",
+    "options": [
+      "Phishing",
+      "Pretexting",
+      "Spamming",
+      "Tailgating"
+    ],
+    "answer": "Spamming"
+  },
+  {
+    "question": "What is phishing?",
+    "options": [
+      "Fraudulent emails to steal sensitive data",
+      "A type of firewall",
+      "A network protocol",
+      "A programming language"
+    ],
+    "answer": "Fraudulent emails to steal sensitive data"
+  },
+  {
+    "question": "What is spear phishing?",
+    "options": [
+      "Targeted phishing attack on specific individuals",
+      "A type of virus",
+      "A network attack",
+      "A firewall technique"
+    ],
+    "answer": "Targeted phishing attack on specific individuals"
+  },
+  {
+    "question": "What is whaling?",
+    "options": [
+      "Phishing targeting high-level executives",
+      "A type of malware",
+      "A network protocol",
+      "A programming language"
+    ],
+    "answer": "Phishing targeting high-level executives"
+  },
+  {
+    "question": "What is pretexting?",
+    "options": [
+      "Creating a false scenario to obtain information",
+      "A type of virus",
+      "A network attack",
+      "A firewall technique"
+    ],
+    "answer": "Creating a false scenario to obtain information"
+  },
+  {
+    "question": "What is baiting?",
+    "options": [
+      "Luring victims with false promises or physical media",
+      "A type of virus",
+      "A network attack",
+      "A firewall technique"
+    ],
+    "answer": "Luring victims with false promises or physical media"
+  },
+  {
+    "question": "Which attack uses fraudulent voice messages or calls?",
+    "options": [
+      "Vishing",
+      "Phishing",
+      "Baiting",
+      "Whaling"
+    ],
+    "answer": "Vishing"
+  },
+  {
+    "question": "Which attack uses SMS/text messages to lure victims?",
+    "options": [
+      "Smishing",
+      "Phishing",
+      "Baiting",
+      "Whaling"
+    ],
+    "answer": "Smishing"
+  },
+  {
+    "question": "Which social engineering attack targets a specific high-profile individual?",
+    "options": [
+      "Whaling",
+      "Phishing",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Whaling"
+  },
+  {
+    "question": "Which of the following is a common sign of a phishing email?",
+    "options": [
+      "Urgency to act quickly",
+      "No spelling errors",
+      "Personal greeting with your full name",
+      "Encrypted attachment"
+    ],
+    "answer": "Urgency to act quickly"
+  },
+  {
+    "question": "What is the main aim of spear phishing?",
+    "options": [
+      "To trick a specific person or organization",
+      "To infect as many computers as possible",
+      "To steal Wi-Fi passwords",
+      "To spread malware randomly"
+    ],
+    "answer": "To trick a specific person or organization"
+  },
+  {
+    "question": "Which attack involves leaving an infected USB drive in a public place?",
+    "options": [
+      "Baiting",
+      "Phishing",
+      "Whaling",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which social engineering attack involves impersonating someone to get information?",
+    "options": [
+      "Pretexting",
+      "Phishing",
+      "Whaling",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "What is the primary difference between phishing and spear phishing?",
+    "options": [
+      "Phishing is broad, spear phishing is targeted",
+      "Phishing uses phone calls, spear phishing uses emails",
+      "Phishing is legal, spear phishing is not",
+      "There is no difference"
+    ],
+    "answer": "Phishing is broad, spear phishing is targeted"
+  },
+  {
+    "question": "Which attack is most likely to use a fake scenario or story?",
+    "options": [
+      "Pretexting",
+      "Phishing",
+      "Whaling",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is commonly used against CEOs and CFOs?",
+    "options": [
+      "Whaling",
+      "Phishing",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Whaling"
+  },
+  {
+    "question": "Which attack tries to trick users into downloading malware by offering free music or movies?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "What is the best defense against phishing?",
+    "options": [
+      "Awareness and skepticism about unexpected emails",
+      "Disabling antivirus software",
+      "Clicking all links to check their validity",
+      "Ignoring all emails"
+    ],
+    "answer": "Awareness and skepticism about unexpected emails"
+  },
+  {
+    "question": "Which social engineering attack might involve a fake tech support call?",
+    "options": [
+      "Pretexting",
+      "Baiting",
+      "Whaling",
+      "Phishing"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use personalized information about the victim?",
+    "options": [
+      "Spear phishing",
+      "Phishing",
+      "Baiting",
+      "Whaling"
+    ],
+    "answer": "Spear phishing"
+  },
+  {
+    "question": "What is the main goal of whaling?",
+    "options": [
+      "To steal sensitive information from high-profile targets",
+      "To infect as many computers as possible",
+      "To trick users into downloading free software",
+      "To create fake websites"
+    ],
+    "answer": "To steal sensitive information from high-profile targets"
+  },
+  {
+    "question": "Which attack is most likely to ask for login credentials via a fake login page?",
+    "options": [
+      "Phishing",
+      "Baiting",
+      "Whaling",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack can be carried out using SMS messages?",
+    "options": [
+      "Smishing",
+      "Vishing",
+      "Whaling",
+      "Baiting"
+    ],
+    "answer": "Smishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake prize or lottery as bait?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack involves targeting a specific organization or department?",
+    "options": [
+      "Spear phishing",
+      "Phishing",
+      "Whaling",
+      "Baiting"
+    ],
+    "answer": "Spear phishing"
+  },
+  {
+    "question": "Which social engineering technique involves pretending to be an authority figure?",
+    "options": [
+      "Pretexting",
+      "Phishing",
+      "Baiting",
+      "Whaling"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "What is the best way to verify the legitimacy of an email?",
+    "options": [
+      "Contact the sender through a known, official channel",
+      "Reply to the email",
+      "Click the link to check",
+      "Forward to friends"
+    ],
+    "answer": "Contact the sender through a known, official channel"
+  },
+  {
+    "question": "Which attack might use a fake job offer to lure victims?",
+    "options": [
+      "Baiting",
+      "Phishing",
+      "Whaling",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake invoice or payment request?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack involves gathering information about the victim before launching the attack?",
+    "options": [
+      "Spear phishing",
+      "Phishing",
+      "Baiting",
+      "Whaling"
+    ],
+    "answer": "Spear phishing"
+  },
+  {
+    "question": "Which attack might involve a USB drive labeled 'Confidential' left in a public place?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake scenario involving law enforcement?",
+    "options": [
+      "Pretexting",
+      "Phishing",
+      "Whaling",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake email from the CEO?",
+    "options": [
+      "Whaling",
+      "Phishing",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Whaling"
+  },
+  {
+    "question": "Which attack is most likely to use a fake bank alert?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake tech support pop-up?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake charity request?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack can be prevented by not plugging unknown USB drives into your computer?",
+    "options": [
+      "Baiting",
+      "Phishing",
+      "Whaling",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack might use a fake IT department request for your password?",
+    "options": [
+      "Pretexting",
+      "Phishing",
+      "Whaling",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake government notice?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake password reset email?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake social media message?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake shipping notification?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake account suspension warning?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake online survey?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake customer support chat?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake urgent security alert?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for personal information?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake event invitation?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake payment confirmation?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake document download link?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake friend request?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake subscription renewal notice?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake antivirus alert?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake charity donation request?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake online shopping offer?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake government grant offer?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake urgent request from a coworker?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake password expiration notice?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake tax refund notification?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake IT support ticket?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake account verification request?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake invoice for services not rendered?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake email from HR?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request to update payment information?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake online contest win notification?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake legal notice?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for wire transfer?",
+    "options": [
+      "Whaling",
+      "Phishing",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Whaling"
+  },
+  {
+    "question": "Which attack is most likely to use a fake online banking login page?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for confidential documents?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake employee survey?",
+    "options": [
+      "Baiting",
+      "Whaling",
+      "Phishing",
+      "Pretexting"
+    ],
+    "answer": "Baiting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request to install software?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for access to shared drives?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for company financial data?",
+    "options": [
+      "Whaling",
+      "Phishing",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Whaling"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for remote desktop access?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request to update security settings?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for investment information?",
+    "options": [
+      "Whaling",
+      "Phishing",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Whaling"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for tax documents?",
+    "options": [
+      "Whaling",
+      "Phishing",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Whaling"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for medical records?",
+    "options": [
+      "Pretexting",
+      "Whaling",
+      "Phishing",
+      "Baiting"
+    ],
+    "answer": "Pretexting"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request for access to payroll information?",
+    "options": [
+      "Whaling",
+      "Phishing",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Whaling"
+  },
+  {
+    "question": "Which attack is most likely to use a fake IT security update?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  },
+  {
+    "question": "Which attack is most likely to use a fake request to update contact information?",
+    "options": [
+      "Phishing",
+      "Whaling",
+      "Baiting",
+      "Pretexting"
+    ],
+    "answer": "Phishing"
+  }
+]
+
+      },
+      "safety_tips": {
+        "title": "Authentication & Password Security",
+        "questions": [
+  {
+    "question": "What is the main purpose of authentication in computer security?",
+    "options": [
+      "To verify the identity of a user or device",
+      "To encrypt data",
+      "To monitor network traffic",
+      "To backup files"
+    ],
+    "answer": "To verify the identity of a user or device"
+  },
+  {
+    "question": "Which of the following is a characteristic of a strong password?",
+    "options": [
+      "Contains a mix of upper and lower case letters, numbers, and symbols",
+      "Uses only lowercase letters",
+      "Is the same as your username",
+      "Is a dictionary word"
+    ],
+    "answer": "Contains a mix of upper and lower case letters, numbers, and symbols"
+  },
+  {
+    "question": "What does 2FA stand for?",
+    "options": [
+      "Two-Factor Authentication",
+      "Two-Factor Authorization",
+      "Two-Factor Access",
+      "Two-Factor Account"
+    ],
+    "answer": "Two-Factor Authentication"
+  },
+  {
+    "question": "Which is an example of two-factor authentication?",
+    "options": [
+      "Password + OTP sent to your phone",
+      "Password only",
+      "Username only",
+      "PIN only"
+    ],
+    "answer": "Password + OTP sent to your phone"
+  },
+  {
+    "question": "What does OTP stand for?",
+    "options": [
+      "One-Time Password",
+      "Online Transaction Password",
+      "Only Temporary Password",
+      "Online Time Password"
+    ],
+    "answer": "One-Time Password"
+  },
+  {
+    "question": "Which of the following is used to distinguish humans from bots?",
+    "options": [
+      "CAPTCHA",
+      "Firewall",
+      "VPN",
+      "Proxy"
+    ],
+    "answer": "CAPTCHA"
+  },
+  {
+    "question": "Which is a type of biometric authentication?",
+    "options": [
+      "Fingerprint scan",
+      "Password",
+      "PIN",
+      "OTP"
+    ],
+    "answer": "Fingerprint scan"
+  },
+  {
+    "question": "Which password is the strongest?",
+    "options": [
+      "G8!p$2z@Qw",
+      "password123",
+      "123456",
+      "qwerty"
+    ],
+    "answer": "G8!p$2z@Qw"
+  },
+  {
+    "question": "What is the main advantage of using two-factor authentication?",
+    "options": [
+      "It provides an extra layer of security",
+      "It makes logging in faster",
+      "It replaces passwords",
+      "It is less secure"
+    ],
+    "answer": "It provides an extra layer of security"
+  },
+  {
+    "question": "Which is NOT a form of biometric authentication?",
+    "options": [
+      "Password",
+      "Iris scan",
+      "Fingerprint",
+      "Face recognition"
+    ],
+    "answer": "Password"
+  },
+  {
+    "question": "What is a common use of CAPTCHA?",
+    "options": [
+      "To prevent automated bots from submitting forms",
+      "To encrypt data",
+      "To backup files",
+      "To monitor network traffic"
+    ],
+    "answer": "To prevent automated bots from submitting forms"
+  },
+  {
+    "question": "Which of the following is a weak password?",
+    "options": [
+      "123456",
+      "Xy!7pLs9",
+      "gR#8t2!z",
+      "P@ssw0rd!"
+    ],
+    "answer": "123456"
+  },
+  {
+    "question": "Which of the following is NOT recommended for password security?",
+    "options": [
+      "Using the same password for multiple accounts",
+      "Changing passwords regularly",
+      "Using a password manager",
+      "Creating complex passwords"
+    ],
+    "answer": "Using the same password for multiple accounts"
+  },
+  {
+    "question": "What is the main purpose of an OTP?",
+    "options": [
+      "To provide a single-use password for authentication",
+      "To encrypt data",
+      "To store passwords",
+      "To backup files"
+    ],
+    "answer": "To provide a single-use password for authentication"
+  },
+  {
+    "question": "Which is a good practice for creating a strong password?",
+    "options": [
+      "Use a combination of letters, numbers, and symbols",
+      "Use your birthdate",
+      "Use your name",
+      "Use 'password'"
+    ],
+    "answer": "Use a combination of letters, numbers, and symbols"
+  },
+  {
+    "question": "What does biometric authentication use?",
+    "options": [
+      "Unique physical characteristics",
+      "Passwords",
+      "PINs",
+      "Security questions"
+    ],
+    "answer": "Unique physical characteristics"
+  },
+  {
+    "question": "Which is NOT a benefit of two-factor authentication?",
+    "options": [
+      "It makes unauthorized access more difficult",
+      "It requires two types of verification",
+      "It eliminates the need for passwords",
+      "It can alert users to suspicious activity"
+    ],
+    "answer": "It eliminates the need for passwords"
+  },
+  {
+    "question": "Which of the following is an example of a multi-factor authentication method?",
+    "options": [
+      "Password + fingerprint scan",
+      "Password only",
+      "PIN only",
+      "Username only"
+    ],
+    "answer": "Password + fingerprint scan"
+  },
+  {
+    "question": "Which of the following is a risk of using weak passwords?",
+    "options": [
+      "Easier for attackers to guess or crack",
+      "Faster login",
+      "More secure",
+      "Improved privacy"
+    ],
+    "answer": "Easier for attackers to guess or crack"
+  },
+  {
+    "question": "Which of the following is NOT a biometric factor?",
+    "options": [
+      "Password",
+      "Fingerprint",
+      "Face recognition",
+      "Voice recognition"
+    ],
+    "answer": "Password"
+  },
+  {
+    "question": "What is the main function of a password manager?",
+    "options": [
+      "To securely store and manage passwords",
+      "To create viruses",
+      "To block spam",
+      "To monitor network traffic"
+    ],
+    "answer": "To securely store and manage passwords"
+  },
+  {
+    "question": "Which is generally considered the least secure form of authentication?",
+    "options": [
+      "Password only",
+      "Biometric only",
+      "Two-factor authentication",
+      "Multi-factor authentication"
+    ],
+    "answer": "Password only"
+  },
+  {
+    "question": "Which of the following is an example of something you know (knowledge factor)?",
+    "options": [
+      "Password",
+      "Fingerprint",
+      "Smart card",
+      "Face scan"
+    ],
+    "answer": "Password"
+  },
+  {
+    "question": "Which of the following is an example of something you have (possession factor)?",
+    "options": [
+      "OTP token",
+      "Password",
+      "Fingerprint",
+      "Face scan"
+    ],
+    "answer": "OTP token"
+  },
+  {
+    "question": "Which of the following is an example of something you are (inherence factor)?",
+    "options": [
+      "Fingerprint",
+      "Password",
+      "OTP token",
+      "PIN"
+    ],
+    "answer": "Fingerprint"
+  },
+  {
+    "question": "Which is a good practice for password recovery?",
+    "options": [
+      "Use unique security questions and answers",
+      "Use the same password for recovery",
+      "Share recovery answers with friends",
+      "Ignore recovery options"
+    ],
+    "answer": "Use unique security questions and answers"
+  },
+  {
+    "question": "What is the main risk of writing passwords on paper?",
+    "options": [
+      "They can be found and used by others",
+      "They are encrypted",
+      "They are easy to remember",
+      "They are more secure"
+    ],
+    "answer": "They can be found and used by others"
+  },
+  {
+    "question": "Which of the following is NOT a recommended password policy?",
+    "options": [
+      "Change passwords regularly",
+      "Use complex passwords",
+      "Share passwords with coworkers",
+      "Enable two-factor authentication"
+    ],
+    "answer": "Share passwords with coworkers"
+  },
+  {
+    "question": "What is the main purpose of CAPTCHA?",
+    "options": [
+      "To prevent automated bots from abusing online services",
+      "To encrypt passwords",
+      "To backup data",
+      "To monitor user activity"
+    ],
+    "answer": "To prevent automated bots from abusing online services"
+  },
+  {
+    "question": "Which is a physical token used for authentication?",
+    "options": [
+      "Smart card",
+      "Password",
+      "CAPTCHA",
+      "Biometric scan"
+    ],
+    "answer": "Smart card"
+  },
+  {
+    "question": "Which is the safest way to store passwords?",
+    "options": [
+      "In a reputable password manager",
+      "On a sticky note",
+      "In a text file on your desktop",
+      "In your email drafts"
+    ],
+    "answer": "In a reputable password manager"
+  },
+  {
+    "question": "What is a common characteristic of a phishing attack?",
+    "options": [
+      "Tricking users into revealing passwords or OTPs",
+      "Encrypting files for ransom",
+      "Installing antivirus software",
+      "Improving password strength"
+    ],
+    "answer": "Tricking users into revealing passwords or OTPs"
+  },
+  {
+    "question": "Which of the following is a benefit of biometric authentication?",
+    "options": [
+      "Difficult to forge or steal",
+      "Easy to share with others",
+      "Can be guessed easily",
+      "Never fails"
+    ],
+    "answer": "Difficult to forge or steal"
+  },
+  {
+    "question": "What is a disadvantage of biometric authentication?",
+    "options": [
+      "May not work if the sensor is dirty or damaged",
+      "Easy to remember",
+      "Can be shared with friends",
+      "Always works perfectly"
+    ],
+    "answer": "May not work if the sensor is dirty or damaged"
+  },
+  {
+    "question": "Which is a good practice for OTP security?",
+    "options": [
+      "Never share OTPs with anyone",
+      "Write OTPs on paper",
+      "Reuse OTPs",
+      "Store OTPs in your email"
+    ],
+    "answer": "Never share OTPs with anyone"
+  },
+  {
+    "question": "Which of the following is a common use of biometric authentication?",
+    "options": [
+      "Unlocking smartphones",
+      "Sending emails",
+      "Browsing the web",
+      "Printing documents"
+    ],
+    "answer": "Unlocking smartphones"
+  },
+  {
+    "question": "Which of the following is NOT a recommended action if you suspect your password is compromised?",
+    "options": [
+      "Change your password immediately",
+      "Enable two-factor authentication",
+      "Ignore the issue",
+      "Check for unauthorized account activity"
+    ],
+    "answer": "Ignore the issue"
+  },
+  {
+    "question": "Which of the following is a benefit of using a password manager?",
+    "options": [
+      "It can generate and store strong passwords for you",
+      "It makes passwords weaker",
+      "It shares passwords automatically",
+      "It disables two-factor authentication"
+    ],
+    "answer": "It can generate and store strong passwords for you"
+  },
+  {
+    "question": "Which is NOT a type of biometric authentication?",
+    "options": [
+      "Password",
+      "Fingerprint",
+      "Iris scan",
+      "Face recognition"
+    ],
+    "answer": "Password"
+  },
+  {
+    "question": "What is the main purpose of a security question?",
+    "options": [
+      "To provide an additional layer of authentication",
+      "To replace passwords",
+      "To store OTPs",
+      "To backup files"
+    ],
+    "answer": "To provide an additional layer of authentication"
+  },
+  {
+    "question": "Which of the following is NOT a good password?",
+    "options": [
+      "password123",
+      "h7!Kp@4z",
+      "L$8t!2wQ",
+      "Xy!7pLs9"
+    ],
+    "answer": "password123"
+  },
+  {
+    "question": "Which of the following is a risk of using biometric authentication?",
+    "options": [
+      "Biometric data can be stolen if not protected",
+      "Passwords can be guessed",
+      "OTPs can be reused",
+      "CAPTCHA can be bypassed"
+    ],
+    "answer": "Biometric data can be stolen if not protected"
+  },
+  {
+    "question": "Which of the following is an example of a CAPTCHA?",
+    "options": [
+      "Typing distorted letters from an image",
+      "Entering your password",
+      "Scanning your fingerprint",
+      "Using an OTP"
+    ],
+    "answer": "Typing distorted letters from an image"
+  },
+  {
+    "question": "Which is a recommended way to create a memorable but strong password?",
+    "options": [
+      "Use a passphrase with random words and symbols",
+      "Use your birthdate",
+      "Use '123456'",
+      "Use your pet's name"
+    ],
+    "answer": "Use a passphrase with random words and symbols"
+  },
+  {
+    "question": "Which of the following is NOT a type of two-factor authentication?",
+    "options": [
+      "Password only",
+      "Password + OTP",
+      "Password + fingerprint",
+      "Password + smart card"
+    ],
+    "answer": "Password only"
+  },
+  {
+    "question": "Which of the following is a good practice for password management?",
+    "options": [
+      "Use a unique password for each account",
+      "Use the same password everywhere",
+      "Share passwords with coworkers",
+      "Write passwords on your desk"
+    ],
+    "answer": "Use a unique password for each account"
+  },
+  {
+    "question": "What is the main risk of using simple passwords?",
+    "options": [
+      "They are easy to guess or crack",
+      "They are easy to remember",
+      "They are easy to type",
+      "They are easy to write"
+    ],
+    "answer": "They are easy to guess or crack"
+  },
+  {
+    "question": "Which of the following is a benefit of using OTPs?",
+    "options": [
+      "They expire quickly and can't be reused",
+      "They are easy to remember forever",
+      "They can be shared with friends",
+      "They never expire"
+    ],
+    "answer": "They expire quickly and can't be reused"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of two-factor authentication?",
+    "options": [
+      "It makes unauthorized access more difficult",
+      "It eliminates all risk",
+      "It can alert users to suspicious activity",
+      "It requires two types of verification"
+    ],
+    "answer": "It eliminates all risk"
+  },
+  {
+    "question": "Which of the following is a risk of reusing passwords?",
+    "options": [
+      "A breach on one site can compromise other accounts",
+      "It makes passwords stronger",
+      "It increases security",
+      "It makes passwords easier to remember"
+    ],
+    "answer": "A breach on one site can compromise other accounts"
+  },
+  {
+    "question": "Which of the following is a good use for biometric authentication?",
+    "options": [
+      "Unlocking a smartphone",
+      "Sending an email",
+      "Browsing the web",
+      "Printing documents"
+    ],
+    "answer": "Unlocking a smartphone"
+  },
+  {
+    "question": "Which of the following is NOT a recommended security practice?",
+    "options": [
+      "Change passwords regularly",
+      "Use unique passwords for each account",
+      "Share passwords with friends",
+      "Enable two-factor authentication"
+    ],
+    "answer": "Share passwords with friends"
+  },
+  {
+    "question": "Which of the following is a common sign of a phishing attempt?",
+    "options": [
+      "Unexpected request for your password or OTP",
+      "Encrypted email",
+      "Personal greeting with your full name",
+      "No spelling errors"
+    ],
+    "answer": "Unexpected request for your password or OTP"
+  },
+  {
+    "question": "Which of the following is NOT a good method for password recovery?",
+    "options": [
+      "Use unique security questions",
+      "Share recovery answers with friends",
+      "Set up a backup email",
+      "Use a password manager"
+    ],
+    "answer": "Share recovery answers with friends"
+  },
+  {
+    "question": "Which of the following is a benefit of using CAPTCHA?",
+    "options": [
+      "Prevents automated bots from abusing services",
+      "Encrypts passwords",
+      "Backs up data",
+      "Monitors user activity"
+    ],
+    "answer": "Prevents automated bots from abusing services"
+  },
+  {
+    "question": "Which of the following is a risk of storing passwords in a browser?",
+    "options": [
+      "They can be accessed if the browser is compromised",
+      "They are always secure",
+      "They are encrypted with a master password",
+      "They can't be accessed by malware"
+    ],
+    "answer": "They can be accessed if the browser is compromised"
+  },
+  {
+    "question": "Which of the following is NOT a biometric authentication method?",
+    "options": [
+      "Password",
+      "Fingerprint",
+      "Iris scan",
+      "Voice recognition"
+    ],
+    "answer": "Password"
+  },
+  {
+    "question": "Which of the following is a good practice for password expiration?",
+    "options": [
+      "Change passwords regularly",
+      "Never change passwords",
+      "Use the same password for years",
+      "Share passwords with coworkers"
+    ],
+    "answer": "Change passwords regularly"
+  },
+  {
+    "question": "Which of the following is a risk of using public Wi-Fi for authentication?",
+    "options": [
+      "Credentials can be intercepted by attackers",
+      "It is always secure",
+      "It encrypts passwords automatically",
+      "It uses two-factor authentication by default"
+    ],
+    "answer": "Credentials can be intercepted by attackers"
+  },
+  {
+    "question": "Which of the following is a benefit of using a passphrase?",
+    "options": [
+      "It can be long and easy to remember",
+      "It is always short",
+      "It is easy to guess",
+      "It is a dictionary word"
+    ],
+    "answer": "It can be long and easy to remember"
+  },
+  {
+    "question": "Which of the following is NOT a recommended way to handle OTPs?",
+    "options": [
+      "Share OTPs with trusted friends",
+      "Never share OTPs",
+      "Enter OTPs only on trusted websites",
+      "Use OTPs only once"
+    ],
+    "answer": "Share OTPs with trusted friends"
+  },
+  {
+    "question": "Which of the following is a good practice for biometric data security?",
+    "options": [
+      "Store biometric data securely and encrypted",
+      "Share biometric data with friends",
+      "Store biometric data in plain text",
+      "Never use biometric authentication"
+    ],
+    "answer": "Store biometric data securely and encrypted"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of biometric authentication?",
+    "options": [
+      "Can be changed easily if compromised",
+      "Difficult to forge",
+      "Convenient for users",
+      "Unique to each individual"
+    ],
+    "answer": "Can be changed easily if compromised"
+  },
+  {
+    "question": "Which of the following is a risk of using simple security questions?",
+    "options": [
+      "Answers can be guessed or found online",
+      "They are always secure",
+      "They are encrypted",
+      "They can't be accessed by attackers"
+    ],
+    "answer": "Answers can be guessed or found online"
+  },
+  {
+    "question": "Which of the following is a benefit of using multi-factor authentication?",
+    "options": [
+      "It increases security by requiring multiple forms of verification",
+      "It makes logging in slower",
+      "It replaces passwords",
+      "It is less secure"
+    ],
+    "answer": "It increases security by requiring multiple forms of verification"
+  },
+  {
+    "question": "Which of the following is a good practice for creating security questions?",
+    "options": [
+      "Choose questions with answers that are not easily found online",
+      "Use your pet's name",
+      "Use your birthday",
+      "Use your mother's maiden name"
+    ],
+    "answer": "Choose questions with answers that are not easily found online"
+  },
+  {
+    "question": "Which of the following is a risk of using the same password for multiple accounts?",
+    "options": [
+      "If one account is compromised, others are at risk",
+      "It is more secure",
+      "It is easier to remember",
+      "It is recommended"
+    ],
+    "answer": "If one account is compromised, others are at risk"
+  },
+  {
+    "question": "Which of the following is NOT a good practice for password security?",
+    "options": [
+      "Use your name or birthdate",
+      "Use a password manager",
+      "Create complex passwords",
+      "Enable two-factor authentication"
+    ],
+    "answer": "Use your name or birthdate"
+  },
+  {
+    "question": "Which of the following is a benefit of using a smart card for authentication?",
+    "options": [
+      "It is something you have and can be used with a PIN",
+      "It can be easily guessed",
+      "It replaces all security needs",
+      "It is a biometric factor"
+    ],
+    "answer": "It is something you have and can be used with a PIN"
+  },
+  {
+    "question": "Which of the following is NOT a good way to protect your passwords?",
+    "options": [
+      "Write them on a sticky note",
+      "Use a password manager",
+      "Create strong, unique passwords",
+      "Change passwords regularly"
+    ],
+    "answer": "Write them on a sticky note"
+  },
+  {
+    "question": "What is the main risk of using a weak PIN?",
+    "options": [
+      "It can be easily guessed",
+      "It is easy to remember",
+      "It is strong",
+      "It is encrypted"
+    ],
+    "answer": "It can be easily guessed"
+  },
+  {
+    "question": "Which of the following is a benefit of using face recognition for authentication?",
+    "options": [
+      "It is unique to each individual",
+      "It is easy to share",
+      "It can be guessed",
+      "It is a password"
+    ],
+    "answer": "It is unique to each individual"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using OTPs?",
+    "options": [
+      "OTPs can be reused",
+      "They expire quickly",
+      "They are single-use",
+      "They add an extra layer of security"
+    ],
+    "answer": "OTPs can be reused"
+  },
+  {
+    "question": "Which of the following is a recommended way to remember strong passwords?",
+    "options": [
+      "Use a password manager",
+      "Write them on your desk",
+      "Use your pet's name",
+      "Use your birthdate"
+    ],
+    "answer": "Use a password manager"
+  },
+  {
+    "question": "Which of the following is a risk if your biometric data is stolen?",
+    "options": [
+      "It cannot be changed like a password",
+      "It can be reset easily",
+      "It is always encrypted",
+      "It is not important"
+    ],
+    "answer": "It cannot be changed like a password"
+  },
+  {
+    "question": "Which of the following is NOT a good practice for security questions?",
+    "options": [
+      "Use answers that are easy to guess",
+      "Use unique answers",
+      "Keep answers secret",
+      "Change answers if compromised"
+    ],
+    "answer": "Use answers that are easy to guess"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using two-factor authentication?",
+    "options": [
+      "It eliminates the need for passwords",
+      "It increases security",
+      "It can alert users to suspicious activity",
+      "It requires two types of verification"
+    ],
+    "answer": "It eliminates the need for passwords"
+  },
+  {
+    "question": "Which of the following is a benefit of using voice recognition for authentication?",
+    "options": [
+      "It is unique to each individual",
+      "It can be guessed easily",
+      "It is a password",
+      "It is a PIN"
+    ],
+    "answer": "It is unique to each individual"
+  }
+]
+
+      },
+      "best_practices": {
+        "title": "Firewalls and Antivirus",
+        "questions": [
+  {
+    "question": "What is a hardware firewall?",
+    "options": [
+      "A physical device that filters network traffic at the network border",
+      "A software application installed on a computer",
+      "A type of antivirus",
+      "A VPN server"
+    ],
+    "answer": "A physical device that filters network traffic at the network border"
+  },
+  {
+    "question": "What is a software firewall?",
+    "options": [
+      "A program installed on individual devices to filter traffic",
+      "A physical device that protects an entire network",
+      "A type of router",
+      "A VPN client"
+    ],
+    "answer": "A program installed on individual devices to filter traffic"
+  },
+  {
+    "question": "Which firewall type protects all devices on a network from a single point?",
+    "options": [
+      "Hardware firewall",
+      "Software firewall",
+      "Antivirus",
+      "IDS"
+    ],
+    "answer": "Hardware firewall"
+  },
+  {
+    "question": "Which firewall type must be installed on each individual device?",
+    "options": [
+      "Software firewall",
+      "Hardware firewall",
+      "Network firewall",
+      "Web application firewall"
+    ],
+    "answer": "Software firewall"
+  },
+  {
+    "question": "Which of the following is a key advantage of hardware firewalls?",
+    "options": [
+      "They protect the entire network at once",
+      "They are free and easy to install",
+      "They require no configuration",
+      "They use less physical space"
+    ],
+    "answer": "They protect the entire network at once"
+  },
+  {
+    "question": "Which of the following is a key advantage of software firewalls?",
+    "options": [
+      "They allow per-application control and are easy to configure",
+      "They are physical devices",
+      "They require no updates",
+      "They protect all devices by default"
+    ],
+    "answer": "They allow per-application control and are easy to configure"
+  },
+  {
+    "question": "Where is a hardware firewall typically installed?",
+    "options": [
+      "At the network's main entry point, between the router and the internal network",
+      "On each computer",
+      "Inside the operating system",
+      "On the cloud"
+    ],
+    "answer": "At the network's main entry point, between the router and the internal network"
+  },
+  {
+    "question": "Which firewall type is more suitable for protecting remote workers?",
+    "options": [
+      "Software firewall",
+      "Hardware firewall",
+      "Network firewall",
+      "Physical firewall"
+    ],
+    "answer": "Software firewall"
+  },
+  {
+    "question": "Which firewall type typically requires more IT expertise to configure?",
+    "options": [
+      "Hardware firewall",
+      "Software firewall",
+      "Personal firewall",
+      "Cloud firewall"
+    ],
+    "answer": "Hardware firewall"
+  },
+  {
+    "question": "Which firewall type can slow down the performance of the host device?",
+    "options": [
+      "Software firewall",
+      "Hardware firewall",
+      "IDS",
+      "IPS"
+    ],
+    "answer": "Software firewall"
+  },
+  {
+    "question": "Which firewall type is more cost-effective for a single device?",
+    "options": [
+      "Software firewall",
+      "Hardware firewall",
+      "Network firewall",
+      "Cloud firewall"
+    ],
+    "answer": "Software firewall"
+  },
+  {
+    "question": "Which firewall type is more scalable for large organizations?",
+    "options": [
+      "Hardware firewall",
+      "Software firewall",
+      "Personal firewall",
+      "Host-based firewall"
+    ],
+    "answer": "Hardware firewall"
+  },
+  {
+    "question": "Which firewall type is more flexible for customizing rules per application?",
+    "options": [
+      "Software firewall",
+      "Hardware firewall",
+      "Network firewall",
+      "VPN firewall"
+    ],
+    "answer": "Software firewall"
+  },
+  {
+    "question": "What is a common disadvantage of hardware firewalls?",
+    "options": [
+      "Higher initial cost and need for physical space",
+      "They cannot protect multiple devices",
+      "They are not upgradable",
+      "They are always slower than software firewalls"
+    ],
+    "answer": "Higher initial cost and need for physical space"
+  },
+  {
+    "question": "What is a common disadvantage of software firewalls?",
+    "options": [
+      "They must be installed and updated on every device",
+      "They require dedicated hardware",
+      "They cannot be configured",
+      "They cannot block applications"
+    ],
+    "answer": "They must be installed and updated on every device"
+  },
+  {
+    "question": "Which firewall type is less likely to be attacked by malware?",
+    "options": [
+      "Hardware firewall",
+      "Software firewall",
+      "Personal firewall",
+      "Cloud firewall"
+    ],
+    "answer": "Hardware firewall"
+  },
+  {
+    "question": "Which firewall type is better for protecting IoT devices and smart TVs?",
+    "options": [
+      "Hardware firewall",
+      "Software firewall",
+      "IDS",
+      "IPS"
+    ],
+    "answer": "Hardware firewall"
+  },
+  {
+    "question": "Which firewall type is easier to upgrade for a single device?",
+    "options": [
+      "Software firewall",
+      "Hardware firewall",
+      "Cloud firewall",
+      "Network firewall"
+    ],
+    "answer": "Software firewall"
+  },
+  {
+    "question": "Which firewall type can inspect traffic for malware and block malicious sites?",
+    "options": [
+      "Hardware firewall",
+      "Software firewall",
+      "Both hardware and software firewalls",
+      "None"
+    ],
+    "answer": "Both hardware and software firewalls"
+  },
+  {
+    "question": "What is the main function of antivirus software?",
+    "options": [
+      "To detect, prevent, and remove malware from computers",
+      "To block network traffic",
+      "To manage passwords",
+      "To monitor employee productivity"
+    ],
+    "answer": "To detect, prevent, and remove malware from computers"
+  },
+  {
+    "question": "How does antivirus software typically detect viruses?",
+    "options": [
+      "By scanning files for known virus signatures",
+      "By blocking all incoming traffic",
+      "By encrypting all files",
+      "By deleting all cookies"
+    ],
+    "answer": "By scanning files for known virus signatures"
+  },
+  {
+    "question": "What is heuristic analysis in antivirus software?",
+    "options": [
+      "Detecting unknown malware by analyzing behavior or code patterns",
+      "Updating virus definitions",
+      "Blocking network ports",
+      "Encrypting data"
+    ],
+    "answer": "Detecting unknown malware by analyzing behavior or code patterns"
+  },
+  {
+    "question": "What is a virus signature?",
+    "options": [
+      "A unique pattern used to identify a specific virus",
+      "A firewall rule",
+      "A password",
+      "A network address"
+    ],
+    "answer": "A unique pattern used to identify a specific virus"
+  },
+  {
+    "question": "What is real-time protection in antivirus software?",
+    "options": [
+      "Continuous monitoring of files and processes for threats",
+      "Scheduled scanning only",
+      "Manual updates only",
+      "Firewall configuration"
+    ],
+    "answer": "Continuous monitoring of files and processes for threats"
+  },
+  {
+    "question": "What is a full system scan?",
+    "options": [
+      "Scanning all files and programs on a computer for malware",
+      "Scanning only email attachments",
+      "Scanning only network traffic",
+      "Scanning only system memory"
+    ],
+    "answer": "Scanning all files and programs on a computer for malware"
+  },
+  {
+    "question": "What is a quarantine in antivirus software?",
+    "options": [
+      "A secure location where suspicious files are isolated",
+      "A type of firewall",
+      "A network segment",
+      "A password manager"
+    ],
+    "answer": "A secure location where suspicious files are isolated"
+  },
+  {
+    "question": "What is the main difference between IDS and IPS?",
+    "options": [
+      "IDS detects threats, IPS detects and blocks threats",
+      "IDS is a firewall, IPS is antivirus",
+      "IDS is hardware, IPS is software",
+      "IDS works offline, IPS works online"
+    ],
+    "answer": "IDS detects threats, IPS detects and blocks threats"
+  },
+  {
+    "question": "What does IDS stand for?",
+    "options": [
+      "Intrusion Detection System",
+      "Internet Data Security",
+      "Internal Device Scan",
+      "Information Defense Suite"
+    ],
+    "answer": "Intrusion Detection System"
+  },
+  {
+    "question": "What does IPS stand for?",
+    "options": [
+      "Intrusion Prevention System",
+      "Internet Protocol Security",
+      "Internal Protection Suite",
+      "Information Processing System"
+    ],
+    "answer": "Intrusion Prevention System"
+  },
+  {
+    "question": "Which system only monitors and alerts but does not block traffic?",
+    "options": [
+      "IDS",
+      "IPS",
+      "Firewall",
+      "Antivirus"
+    ],
+    "answer": "IDS"
+  },
+  {
+    "question": "Which system can actively block or prevent malicious network activity?",
+    "options": [
+      "IPS",
+      "IDS",
+      "Firewall",
+      "Antivirus"
+    ],
+    "answer": "IPS"
+  },
+  {
+    "question": "Which of the following is a benefit of using IDS?",
+    "options": [
+      "It provides alerts for suspicious activity",
+      "It blocks all threats automatically",
+      "It encrypts all data",
+      "It manages passwords"
+    ],
+    "answer": "It provides alerts for suspicious activity"
+  },
+  {
+    "question": "Which of the following is a benefit of using IPS?",
+    "options": [
+      "It can block malicious traffic in real time",
+      "It only monitors activity",
+      "It is not configurable",
+      "It cannot detect threats"
+    ],
+    "answer": "It can block malicious traffic in real time"
+  },
+  {
+    "question": "Which is NOT a function of a firewall?",
+    "options": [
+      "Detecting viruses on a hard drive",
+      "Filtering network traffic",
+      "Blocking unauthorized access",
+      "Allowing or denying specific connections"
+    ],
+    "answer": "Detecting viruses on a hard drive"
+  },
+  {
+    "question": "Which is NOT a function of antivirus software?",
+    "options": [
+      "Filtering network traffic",
+      "Detecting malware",
+      "Removing viruses",
+      "Quarantining suspicious files"
+    ],
+    "answer": "Filtering network traffic"
+  },
+  {
+    "question": "Which firewall type is best for protecting a small home network?",
+    "options": [
+      "Software firewall",
+      "Hardware firewall",
+      "IDS",
+      "IPS"
+    ],
+    "answer": "Software firewall"
+  },
+  {
+    "question": "Which firewall type is best for protecting a large organization?",
+    "options": [
+      "Hardware firewall",
+      "Software firewall",
+      "Personal firewall",
+      "Host-based firewall"
+    ],
+    "answer": "Hardware firewall"
+  },
+  {
+    "question": "Which system is most likely to be used in a data center for network-wide protection?",
+    "options": [
+      "Hardware firewall",
+      "Software firewall",
+      "Antivirus",
+      "Personal firewall"
+    ],
+    "answer": "Hardware firewall"
+  },
+  {
+    "question": "Which system is most likely to be used on a single laptop?",
+    "options": [
+      "Software firewall",
+      "Hardware firewall",
+      "IDS",
+      "IPS"
+    ],
+    "answer": "Software firewall"
+  },
+  {
+    "question": "Which of the following is a limitation of software firewalls?",
+    "options": [
+      "They must be installed and managed on every device",
+      "They protect all devices at once",
+      "They require physical space",
+      "They are more expensive than hardware firewalls"
+    ],
+    "answer": "They must be installed and managed on every device"
+  },
+  {
+    "question": "Which of the following is a limitation of hardware firewalls?",
+    "options": [
+      "Higher initial cost and complexity",
+      "They slow down individual computers",
+      "They cannot protect multiple devices",
+      "They must be updated on each device"
+    ],
+    "answer": "Higher initial cost and complexity"
+  },
+  {
+    "question": "Which of the following is a benefit of real-time antivirus protection?",
+    "options": [
+      "Immediate detection and blocking of threats",
+      "Manual scanning only",
+      "No updates required",
+      "Slower computer performance"
+    ],
+    "answer": "Immediate detection and blocking of threats"
+  },
+  {
+    "question": "Which of the following is a potential drawback of hardware firewalls?",
+    "options": [
+      "They require IT expertise for setup and maintenance",
+      "They are easy to install for everyone",
+      "They protect only one device",
+      "They are always free"
+    ],
+    "answer": "They require IT expertise for setup and maintenance"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using antivirus software?",
+    "options": [
+      "It increases the risk of infection",
+      "It can remove malware",
+      "It can quarantine suspicious files",
+      "It can provide real-time protection"
+    ],
+    "answer": "It increases the risk of infection"
+  },
+  {
+    "question": "Which of the following is a key feature of next-generation firewalls (NGFW)?",
+    "options": [
+      "Deep packet inspection and application-level filtering",
+      "Only port blocking",
+      "Only IP filtering",
+      "No logging capabilities"
+    ],
+    "answer": "Deep packet inspection and application-level filtering"
+  },
+  {
+    "question": "Which of the following is a benefit of using both hardware and software firewalls together?",
+    "options": [
+      "Layered security for both network and individual devices",
+      "Increased cost with no benefit",
+      "Slower network performance",
+      "No added protection"
+    ],
+    "answer": "Layered security for both network and individual devices"
+  }
+]
+
+      },
+      "Hacking" : {
+        "title" : "Ethical Hacking & Penetration Testing",
+        "questions" : [
+  {
+    "question": "What is a white hat hacker?",
+    "options": [
+      "A hacker who finds vulnerabilities and reports them legally",
+      "A hacker who breaks into systems for malicious reasons",
+      "A hacker who works only for money",
+      "A hacker who never reports vulnerabilities"
+    ],
+    "answer": "A hacker who finds vulnerabilities and reports them legally"
+  },
+  {
+    "question": "What is the main motivation of a black hat hacker?",
+    "options": [
+      "Personal or financial gain through illegal activities",
+      "Improving security for organizations",
+      "Reporting bugs to vendors",
+      "Learning new programming languages"
+    ],
+    "answer": "Personal or financial gain through illegal activities"
+  },
+  {
+    "question": "Which of the following best describes a grey hat hacker?",
+    "options": [
+      "Someone who finds vulnerabilities without permission and may or may not report them",
+      "Always follows the law",
+      "Never exposes vulnerabilities",
+      "Works only for governments"
+    ],
+    "answer": "Someone who finds vulnerabilities without permission and may or may not report them"
+  },
+  {
+    "question": "Which type of hacker is also known as an 'ethical hacker'?",
+    "options": [
+      "White hat",
+      "Black hat",
+      "Grey hat",
+      "Red hat"
+    ],
+    "answer": "White hat"
+  },
+  {
+    "question": "Which type of hacker works both defensively and aggressively, sometimes without permission?",
+    "options": [
+      "Grey hat",
+      "White hat",
+      "Black hat",
+      "Blue hat"
+    ],
+    "answer": "Grey hat"
+  },
+  {
+    "question": "Which type of hacker is most likely to be hired by organizations to perform penetration testing?",
+    "options": [
+      "White hat",
+      "Black hat",
+      "Grey hat",
+      "Script kiddie"
+    ],
+    "answer": "White hat"
+  },
+  {
+    "question": "Which of the following is a criminal act?",
+    "options": [
+      "Black hat hacking",
+      "White hat hacking",
+      "Reporting vulnerabilities to vendors",
+      "Penetration testing with permission"
+    ],
+    "answer": "Black hat hacking"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a white hat hacker?",
+    "options": [
+      "Breaks into systems without permission",
+      "Works within the law",
+      "Performs vulnerability assessments",
+      "Helps secure networks"
+    ],
+    "answer": "Breaks into systems without permission"
+  },
+  {
+    "question": "Which type of hacker may disclose vulnerabilities to the public if ignored by the vendor?",
+    "options": [
+      "Grey hat",
+      "White hat",
+      "Black hat",
+      "Green hat"
+    ],
+    "answer": "Grey hat"
+  },
+  {
+    "question": "What is a vulnerability assessment?",
+    "options": [
+      "A process of identifying and evaluating security weaknesses in a system",
+      "A type of malware",
+      "A method to create strong passwords",
+      "A way to encrypt files"
+    ],
+    "answer": "A process of identifying and evaluating security weaknesses in a system"
+  },
+  {
+    "question": "Which tool is commonly used for network scanning and vulnerability assessment?",
+    "options": [
+      "Nmap",
+      "MS Word",
+      "Photoshop",
+      "Excel"
+    ],
+    "answer": "Nmap"
+  },
+  {
+    "question": "What is Metasploit primarily used for?",
+    "options": [
+      "Penetration testing and exploiting vulnerabilities",
+      "Writing documents",
+      "Managing databases",
+      "Designing graphics"
+    ],
+    "answer": "Penetration testing and exploiting vulnerabilities"
+  },
+  {
+    "question": "Which tool is mainly used for network traffic analysis and packet sniffing?",
+    "options": [
+      "Wireshark",
+      "Nmap",
+      "Metasploit",
+      "Paint"
+    ],
+    "answer": "Wireshark"
+  },
+  {
+    "question": "Which of the following is NOT a use of Nmap?",
+    "options": [
+      "Creating malware",
+      "Port scanning",
+      "Network discovery",
+      "Service enumeration"
+    ],
+    "answer": "Creating malware"
+  },
+  {
+    "question": "Which of the following is a legal activity for a white hat hacker?",
+    "options": [
+      "Penetration testing with written permission",
+      "Breaking into systems for fun",
+      "Selling stolen data",
+      "Spreading ransomware"
+    ],
+    "answer": "Penetration testing with written permission"
+  },
+  {
+    "question": "Which type of hacker may request payment to fix a vulnerability they found without permission?",
+    "options": [
+      "Grey hat",
+      "White hat",
+      "Black hat",
+      "Red hat"
+    ],
+    "answer": "Grey hat"
+  },
+  {
+    "question": "Which of the following is a key difference between white hat and black hat hackers?",
+    "options": [
+      "White hats act legally, black hats act illegally",
+      "White hats use only Linux",
+      "Black hats never use tools",
+      "White hats never report vulnerabilities"
+    ],
+    "answer": "White hats act legally, black hats act illegally"
+  },
+  {
+    "question": "Which famous hacker later became a white hat security consultant?",
+    "options": [
+      "Kevin Mitnick",
+      "Albert Gonzalez",
+      "Khalil Shreateh",
+      "Tsutomu Shimomura"
+    ],
+    "answer": "Kevin Mitnick"
+  },
+  {
+    "question": "Which tool is best for capturing and analyzing live network traffic?",
+    "options": [
+      "Wireshark",
+      "Metasploit",
+      "Nmap",
+      "Excel"
+    ],
+    "answer": "Wireshark"
+  },
+  {
+    "question": "Which of the following is a feature of Metasploit?",
+    "options": [
+      "Exploit development and execution",
+      "Word processing",
+      "Image editing",
+      "Spreadsheet calculations"
+    ],
+    "answer": "Exploit development and execution"
+  },
+  {
+    "question": "Which hacker type sometimes operates in a legal gray area?",
+    "options": [
+      "Grey hat",
+      "White hat",
+      "Black hat",
+      "Blue hat"
+    ],
+    "answer": "Grey hat"
+  },
+  {
+    "question": "Which type of hacker is most likely to inform the public about a vulnerability if the vendor ignores them?",
+    "options": [
+      "Grey hat",
+      "White hat",
+      "Black hat",
+      "Red hat"
+    ],
+    "answer": "Grey hat"
+  },
+  {
+    "question": "Which tool is best for mapping the open ports of a remote server?",
+    "options": [
+      "Nmap",
+      "Wireshark",
+      "Metasploit",
+      "Notepad"
+    ],
+    "answer": "Nmap"
+  },
+  {
+    "question": "Which of the following describes a black hat hacker?",
+    "options": [
+      "A hacker who breaks into systems illegally for malicious purposes",
+      "A hacker who only reports vulnerabilities",
+      "A hacker who never uses malware",
+      "A hacker who works for the government legally"
+    ],
+    "answer": "A hacker who breaks into systems illegally for malicious purposes"
+  },
+  {
+    "question": "Which of the following is a benefit of vulnerability assessment?",
+    "options": [
+      "Helps organizations fix security weaknesses before they are exploited",
+      "Guarantees no future attacks",
+      "Slows down the network",
+      "Deletes user data"
+    ],
+    "answer": "Helps organizations fix security weaknesses before they are exploited"
+  },
+  {
+    "question": "Which of the following is NOT a step in vulnerability assessment?",
+    "options": [
+      "Installing malware",
+      "Identifying assets",
+      "Scanning for vulnerabilities",
+      "Reporting findings"
+    ],
+    "answer": "Installing malware"
+  },
+  {
+    "question": "Which tool can be used to simulate attacks on a system?",
+    "options": [
+      "Metasploit",
+      "Wireshark",
+      "MS Paint",
+      "Word"
+    ],
+    "answer": "Metasploit"
+  },
+  {
+    "question": "What is the primary use of Wireshark?",
+    "options": [
+      "Packet analysis",
+      "Password storage",
+      "Network blocking",
+      "Data encryption"
+    ],
+    "answer": "Packet analysis"
+  },
+  {
+    "question": "Which tool is best for identifying running services and their versions on a target?",
+    "options": [
+      "Nmap",
+      "Wireshark",
+      "Metasploit",
+      "Calculator"
+    ],
+    "answer": "Nmap"
+  },
+  {
+    "question": "Which of the following is NOT a recommended use of Metasploit?",
+    "options": [
+      "Unauthorized exploitation of systems",
+      "Penetration testing with permission",
+      "Security research",
+      "Training security professionals"
+    ],
+    "answer": "Unauthorized exploitation of systems"
+  },
+  {
+    "question": "Which type of hacker is most likely to be prosecuted for their activities?",
+    "options": [
+      "Black hat",
+      "White hat",
+      "Grey hat",
+      "Blue hat"
+    ],
+    "answer": "Black hat"
+  },
+  {
+    "question": "Which of the following is a legal use of Nmap?",
+    "options": [
+      "Scanning your own network for open ports",
+      "Scanning government servers without permission",
+      "Launching DDoS attacks",
+      "Spreading malware"
+    ],
+    "answer": "Scanning your own network for open ports"
+  },
+  {
+    "question": "Which of the following is NOT a feature of Wireshark?",
+    "options": [
+      "Exploiting vulnerabilities",
+      "Packet capture",
+      "Protocol analysis",
+      "Network troubleshooting"
+    ],
+    "answer": "Exploiting vulnerabilities"
+  },
+  {
+    "question": "Which hacker type is most likely to work with law enforcement?",
+    "options": [
+      "White hat",
+      "Black hat",
+      "Grey hat",
+      "Script kiddie"
+    ],
+    "answer": "White hat"
+  },
+  {
+    "question": "Which of the following is a common goal of vulnerability assessment?",
+    "options": [
+      "To identify and fix security weaknesses",
+      "To create new malware",
+      "To delete user accounts",
+      "To slow down networks"
+    ],
+    "answer": "To identify and fix security weaknesses"
+  },
+  {
+    "question": "Which tool is best for capturing real-time network traffic?",
+    "options": [
+      "Wireshark",
+      "Metasploit",
+      "Nmap",
+      "Photoshop"
+    ],
+    "answer": "Wireshark"
+  },
+  {
+    "question": "Which tool is best for finding vulnerabilities in web applications?",
+    "options": [
+      "Metasploit",
+      "Wireshark",
+      "Nmap",
+      "Excel"
+    ],
+    "answer": "Metasploit"
+  },
+  {
+    "question": "Which of the following is a key difference between vulnerability assessment and penetration testing?",
+    "options": [
+      "Vulnerability assessment identifies weaknesses; penetration testing exploits them",
+      "Both are illegal",
+      "Penetration testing is always automated",
+      "Vulnerability assessment is never used by white hats"
+    ],
+    "answer": "Vulnerability assessment identifies weaknesses; penetration testing exploits them"
+  },
+  {
+    "question": "Which of the following is NOT a legal activity for a white hat hacker?",
+    "options": [
+      "Accessing systems without permission",
+      "Reporting vulnerabilities to vendors",
+      "Conducting penetration tests with consent",
+      "Helping organizations improve security"
+    ],
+    "answer": "Accessing systems without permission"
+  },
+  {
+    "question": "Which of the following is a common use of Nmap?",
+    "options": [
+      "Port scanning",
+      "Writing documents",
+      "Editing images",
+      "Sending spam emails"
+    ],
+    "answer": "Port scanning"
+  },
+  {
+    "question": "Which of the following is a common use of Wireshark?",
+    "options": [
+      "Analyzing network protocols",
+      "Creating malware",
+      "Managing databases",
+      "Designing websites"
+    ],
+    "answer": "Analyzing network protocols"
+  }
+]
+
+      },
+      "ITact" : {
+        "title" : "IT Act 2000",
+        "questions" : [
+  {
+    "question": "What is the full form of IT Act 2000?",
+    "options": [
+      "Information Technology Act 2000",
+      "Internet Technology Act 2000",
+      "Indian Technology Act 2000",
+      "Information Transaction Act 2000"
+    ],
+    "answer": "Information Technology Act 2000"
+  },
+  {
+    "question": "When was the Information Technology Act, 2000 enacted in India?",
+    "options": [
+      "17th October 2000",
+      "26th January 2000",
+      "15th August 2000",
+      "1st July 2001"
+    ],
+    "answer": "17th October 2000"
+  },
+  {
+    "question": "What is the main objective of the IT Act 2000?",
+    "options": [
+      "To provide legal recognition for electronic transactions",
+      "To regulate banking sector",
+      "To control inflation",
+      "To manage foreign exchange"
+    ],
+    "answer": "To provide legal recognition for electronic transactions"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with unauthorized access and data theft?",
+    "options": [
+      "Section 43",
+      "Section 66",
+      "Section 67",
+      "Section 69"
+    ],
+    "answer": "Section 43"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with hacking?",
+    "options": [
+      "Section 66",
+      "Section 43",
+      "Section 67",
+      "Section 79"
+    ],
+    "answer": "Section 66"
+  },
+  {
+    "question": "Section 66A of the IT Act 2000 was related to:",
+    "options": [
+      "Punishment for sending offensive messages through communication service",
+      "Data theft",
+      "Digital signatures",
+      "Cyber terrorism"
+    ],
+    "answer": "Punishment for sending offensive messages through communication service"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with obscene electronic material?",
+    "options": [
+      "Section 67",
+      "Section 66A",
+      "Section 43",
+      "Section 69"
+    ],
+    "answer": "Section 67"
+  },
+  {
+    "question": "Which section of the IT Act 2000 empowers the government to intercept, monitor, and decrypt information for national security?",
+    "options": [
+      "Section 69",
+      "Section 66A",
+      "Section 43",
+      "Section 79"
+    ],
+    "answer": "Section 69"
+  },
+  {
+    "question": "What is the penalty for hacking under Section 66 of the IT Act?",
+    "options": [
+      "Imprisonment up to 3 years or fine up to 5 lakh rupees or both",
+      "Imprisonment up to 1 year",
+      "No penalty",
+      "Imprisonment up to 10 years"
+    ],
+    "answer": "Imprisonment up to 3 years or fine up to 5 lakh rupees or both"
+  },
+  {
+    "question": "What is the main focus of Section 43 of the IT Act 2000?",
+    "options": [
+      "Unauthorized access, computer damage, and data theft",
+      "Cyber terrorism",
+      "Obscene material",
+      "Digital signature"
+    ],
+    "answer": "Unauthorized access, computer damage, and data theft"
+  },
+  {
+    "question": "Which section of the IT Act deals with the protection of critical information infrastructure?",
+    "options": [
+      "Section 70",
+      "Section 66",
+      "Section 43",
+      "Section 67"
+    ],
+    "answer": "Section 70"
+  },
+  {
+    "question": "Which section of the IT Act 2000 was struck down by the Supreme Court in 2015 for being unconstitutional?",
+    "options": [
+      "Section 66A",
+      "Section 43",
+      "Section 67",
+      "Section 69"
+    ],
+    "answer": "Section 66A"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with identity theft?",
+    "options": [
+      "Section 66C",
+      "Section 43",
+      "Section 67",
+      "Section 70"
+    ],
+    "answer": "Section 66C"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with punishment for cyber terrorism?",
+    "options": [
+      "Section 66F",
+      "Section 67",
+      "Section 43",
+      "Section 69"
+    ],
+    "answer": "Section 66F"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with publishing or transmitting sexually explicit material in electronic form?",
+    "options": [
+      "Section 67A",
+      "Section 66A",
+      "Section 43",
+      "Section 69"
+    ],
+    "answer": "Section 67A"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with punishment for violation of privacy?",
+    "options": [
+      "Section 66E",
+      "Section 43",
+      "Section 67",
+      "Section 69"
+    ],
+    "answer": "Section 66E"
+  },
+  {
+    "question": "What is the penalty for identity theft under Section 66C?",
+    "options": [
+      "Imprisonment up to 3 years and fine up to 1 lakh rupees",
+      "Imprisonment up to 1 year",
+      "No penalty",
+      "Imprisonment up to 10 years"
+    ],
+    "answer": "Imprisonment up to 3 years and fine up to 1 lakh rupees"
+  },
+  {
+    "question": "Which of the following is NOT a cybercrime under the IT Act 2000?",
+    "options": [
+      "Physical theft",
+      "Hacking",
+      "Data theft",
+      "Identity theft"
+    ],
+    "answer": "Physical theft"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the legal recognition of electronic records?",
+    "options": [
+      "Section 4",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 4"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the legal recognition of digital signatures?",
+    "options": [
+      "Section 5",
+      "Section 66",
+      "Section 43",
+      "Section 69"
+    ],
+    "answer": "Section 5"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the power to issue directions for interception or monitoring of any information?",
+    "options": [
+      "Section 69",
+      "Section 66A",
+      "Section 43",
+      "Section 67"
+    ],
+    "answer": "Section 69"
+  },
+  {
+    "question": "What does Section 79 of the IT Act 2000 relate to?",
+    "options": [
+      "Exemption from liability of intermediary in certain cases",
+      "Cyber terrorism",
+      "Obscene material",
+      "Digital signature"
+    ],
+    "answer": "Exemption from liability of intermediary in certain cases"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the punishment for publishing child pornography?",
+    "options": [
+      "Section 67B",
+      "Section 66A",
+      "Section 43",
+      "Section 69"
+    ],
+    "answer": "Section 67B"
+  },
+  {
+    "question": "Which of the following is NOT a provision under the IT Act 2000?",
+    "options": [
+      "Regulation of electronic records",
+      "Legal recognition of electronic signatures",
+      "Regulation of foreign exchange",
+      "Punishment for hacking"
+    ],
+    "answer": "Regulation of foreign exchange"
+  },
+  {
+    "question": "What is the main objective of Section 69A of the IT Act?",
+    "options": [
+      "Power to issue directions for blocking public access to any information through any computer resource",
+      "Legal recognition of electronic signatures",
+      "Punishment for hacking",
+      "Protection of critical information infrastructure"
+    ],
+    "answer": "Power to issue directions for blocking public access to any information through any computer resource"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the retention of electronic records?",
+    "options": [
+      "Section 7",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 7"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the validity of contracts formed through electronic means?",
+    "options": [
+      "Section 10A",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 10A"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the appointment of the Controller and other officers?",
+    "options": [
+      "Section 17",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 17"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the functions of the Controller?",
+    "options": [
+      "Section 18",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 18"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the recognition of foreign certifying authorities?",
+    "options": [
+      "Section 19",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 19"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the suspension of license?",
+    "options": [
+      "Section 25",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 25"
+  },
+  {
+    "question": "Which of the following is NOT a cybercrime defined under the IT Act 2000?",
+    "options": [
+      "Hacking",
+      "Data theft",
+      "Identity theft",
+      "Physical robbery"
+    ],
+    "answer": "Physical robbery"
+  },
+  {
+    "question": "What is the main focus of Section 66D of the IT Act 2000?",
+    "options": [
+      "Punishment for cheating by personation by using computer resource",
+      "Data theft",
+      "Digital signature",
+      "Obscene material"
+    ],
+    "answer": "Punishment for cheating by personation by using computer resource"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the audit of documents maintained in electronic form?",
+    "options": [
+      "Section 7A",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 7A"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the publication of rules and regulations in the Electronic Gazette?",
+    "options": [
+      "Section 8",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 8"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the power to make rules by the Central Government in respect of electronic signature?",
+    "options": [
+      "Section 10",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 10"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the security procedures and practices?",
+    "options": [
+      "Section 16",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 16"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the secure electronic record?",
+    "options": [
+      "Section 14",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 14"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the secure electronic signature?",
+    "options": [
+      "Section 15",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 15"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the digital signature?",
+    "options": [
+      "Section 3",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 3"
+  },
+  {
+    "question": "Which section of the IT Act 2000 deals with the electronic signature?",
+    "options": [
+      "Section 3A",
+      "Section 43",
+      "Section 66",
+      "Section 67"
+    ],
+    "answer": "Section 3A"
+  }
+]
+
+      },
+      "Wireless" : {
+        "title" : "Wireless Security",
+        "questions" : [
+  {
+    "question": "What does WEP stand for in wireless security?",
+    "options": [
+      "Wired Equivalent Privacy",
+      "Wireless Encryption Protocol",
+      "Wi-Fi Enhanced Protection",
+      "Wired Encryption Protocol"
+    ],
+    "answer": "Wired Equivalent Privacy"
+  },
+  {
+    "question": "Which protocol replaced WEP due to its security flaws?",
+    "options": [
+      "WPA",
+      "WPA2",
+      "WPA3",
+      "SSL"
+    ],
+    "answer": "WPA"
+  },
+  {
+    "question": "Which wireless security protocol is considered the most secure as of 2025?",
+    "options": [
+      "WEP",
+      "WPA",
+      "WPA2",
+      "WPA3"
+    ],
+    "answer": "WPA3"
+  },
+  {
+    "question": "What encryption method does WEP use?",
+    "options": [
+      "RC4",
+      "AES",
+      "TKIP",
+      "DES"
+    ],
+    "answer": "RC4"
+  },
+  {
+    "question": "What is the main weakness of WEP?",
+    "options": [
+      "Easily cracked due to static keys and small IV",
+      "Too expensive",
+      "Requires new hardware",
+      "Slows down Wi-Fi speed"
+    ],
+    "answer": "Easily cracked due to static keys and small IV"
+  },
+  {
+    "question": "What encryption method does WPA2 primarily use?",
+    "options": [
+      "AES",
+      "RC4",
+      "TKIP",
+      "DES"
+    ],
+    "answer": "AES"
+  },
+  {
+    "question": "Which protocol introduced the use of TKIP for dynamic key management?",
+    "options": [
+      "WPA",
+      "WEP",
+      "WPA2",
+      "WPA3"
+    ],
+    "answer": "WPA"
+  },
+  {
+    "question": "What is the main improvement of WPA3 over WPA2?",
+    "options": [
+      "Individualized data encryption and protection against brute-force attacks",
+      "Uses static keys",
+      "No encryption",
+      "Manual key management"
+    ],
+    "answer": "Individualized data encryption and protection against brute-force attacks"
+  },
+  {
+    "question": "Which protocol uses Simultaneous Authentication of Equals (SAE)?",
+    "options": [
+      "WPA3",
+      "WPA2",
+      "WPA",
+      "WEP"
+    ],
+    "answer": "WPA3"
+  },
+  {
+    "question": "What is a fake Wi-Fi hotspot used for phishing called?",
+    "options": [
+      "Evil Twin",
+      "Ghost AP",
+      "Rogue Router",
+      "Phishing SSID"
+    ],
+    "answer": "Evil Twin"
+  },
+  {
+    "question": "What is the purpose of MAC address filtering on a wireless router?",
+    "options": [
+      "To allow only specific devices to connect based on their MAC addresses",
+      "To encrypt data",
+      "To improve speed",
+      "To assign IP addresses"
+    ],
+    "answer": "To allow only specific devices to connect based on their MAC addresses"
+  },
+  {
+    "question": "Which protocol is considered obsolete and should not be used for Wi-Fi security?",
+    "options": [
+      "WEP",
+      "WPA2",
+      "WPA3",
+      "802.1X"
+    ],
+    "answer": "WEP"
+  },
+  {
+    "question": "What does WPA stand for?",
+    "options": [
+      "Wi-Fi Protected Access",
+      "Wireless Privacy Algorithm",
+      "Wired Protection Access",
+      "Wi-Fi Protocol Authentication"
+    ],
+    "answer": "Wi-Fi Protected Access"
+  },
+  {
+    "question": "Which protocol is most widely deployed in enterprise Wi-Fi networks as of 2025?",
+    "options": [
+      "WPA2",
+      "WEP",
+      "WPA",
+      "WPA3"
+    ],
+    "answer": "WPA2"
+  },
+  {
+    "question": "What is a common attack against WEP-secured networks?",
+    "options": [
+      "IV collision and key recovery attacks",
+      "Brute-force on WPA3",
+      "Dictionary attack on WPA2",
+      "Man-in-the-middle on VPN"
+    ],
+    "answer": "IV collision and key recovery attacks"
+  },
+  {
+    "question": "Which protocol uses a 256-bit encryption key for enhanced security?",
+    "options": [
+      "WPA",
+      "WEP",
+      "WPA2",
+      "WPA3"
+    ],
+    "answer": "WPA"
+  },
+  {
+    "question": "What is the main function of WPA's TKIP?",
+    "options": [
+      "Dynamic key generation for each packet",
+      "Static key management",
+      "No encryption",
+      "Manual key entry"
+    ],
+    "answer": "Dynamic key generation for each packet"
+  },
+  {
+    "question": "Which wireless protocol supports both PSK (pre-shared key) and Enterprise authentication?",
+    "options": [
+      "WPA",
+      "WEP",
+      "WPA2",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the main benefit of using WPA3 over WPA2?",
+    "options": [
+      "Stronger encryption and protection against password guessing",
+      "Lower cost",
+      "No need for passwords",
+      "Faster Wi-Fi speeds"
+    ],
+    "answer": "Stronger encryption and protection against password guessing"
+  },
+  {
+    "question": "What does a Wi-Fi phishing attack typically involve?",
+    "options": [
+      "Setting up a fake hotspot to steal user credentials",
+      "Sending spam emails",
+      "Brute-forcing WPA2 passwords",
+      "Disabling MAC filtering"
+    ],
+    "answer": "Setting up a fake hotspot to steal user credentials"
+  },
+  {
+    "question": "Which of the following is NOT a wireless security protocol?",
+    "options": [
+      "WEP",
+      "WPA",
+      "WPA2",
+      "SSL"
+    ],
+    "answer": "SSL"
+  },
+  {
+    "question": "What is the main weakness of MAC address filtering?",
+    "options": [
+      "MAC addresses can be easily spoofed",
+      "It slows down the network",
+      "It encrypts all data",
+      "It blocks all devices"
+    ],
+    "answer": "MAC addresses can be easily spoofed"
+  },
+  {
+    "question": "Which protocol uses AES-CCMP for encryption?",
+    "options": [
+      "WPA2",
+      "WEP",
+      "WPA",
+      "WPA3"
+    ],
+    "answer": "WPA2"
+  },
+  {
+    "question": "Which protocol introduced forward secrecy and protection against brute-force attacks?",
+    "options": [
+      "WPA3",
+      "WPA2",
+      "WPA",
+      "WEP"
+    ],
+    "answer": "WPA3"
+  },
+  {
+    "question": "What is a 'rogue access point'?",
+    "options": [
+      "An unauthorized Wi-Fi device on a network",
+      "A secure Wi-Fi router",
+      "A firewall device",
+      "A VPN server"
+    ],
+    "answer": "An unauthorized Wi-Fi device on a network"
+  },
+  {
+    "question": "Which protocol was the first to use dynamic keys for each session?",
+    "options": [
+      "WPA",
+      "WEP",
+      "WPA2",
+      "WPA3"
+    ],
+    "answer": "WPA"
+  },
+  {
+    "question": "Which protocol is recommended for new Wi-Fi deployments in 2025?",
+    "options": [
+      "WPA3",
+      "WPA2",
+      "WEP",
+      "WPA"
+    ],
+    "answer": "WPA3"
+  },
+  {
+    "question": "What is the main purpose of wireless encryption?",
+    "options": [
+      "To protect data from unauthorized access over the air",
+      "To increase bandwidth",
+      "To slow down hackers",
+      "To assign IP addresses"
+    ],
+    "answer": "To protect data from unauthorized access over the air"
+  },
+  {
+    "question": "What is the risk of connecting to an open Wi-Fi network?",
+    "options": [
+      "Data can be intercepted by attackers",
+      "Faster connection",
+      "Guaranteed privacy",
+      "Automatic encryption"
+    ],
+    "answer": "Data can be intercepted by attackers"
+  },
+  {
+    "question": "Which protocol is based on the 802.11i standard?",
+    "options": [
+      "WPA2",
+      "WEP",
+      "WPA",
+      "WPA3"
+    ],
+    "answer": "WPA2"
+  },
+  {
+    "question": "Which protocol uses Galois-Counter Mode (GCM) encryption?",
+    "options": [
+      "WPA3",
+      "WPA2",
+      "WEP",
+      "WPA"
+    ],
+    "answer": "WPA3"
+  },
+  {
+    "question": "What is an initialization vector (IV) in WEP?",
+    "options": [
+      "A value used to randomize encryption keys",
+      "A Wi-Fi password",
+      "A MAC address",
+      "A type of firewall"
+    ],
+    "answer": "A value used to randomize encryption keys"
+  },
+  {
+    "question": "Which protocol supports Simultaneous Authentication of Equals (SAE)?",
+    "options": [
+      "WPA3",
+      "WPA2",
+      "WPA",
+      "WEP"
+    ],
+    "answer": "WPA3"
+  },
+  {
+    "question": "Which protocol is the least secure for Wi-Fi?",
+    "options": [
+      "WEP",
+      "WPA",
+      "WPA2",
+      "WPA3"
+    ],
+    "answer": "WEP"
+  },
+  {
+    "question": "What is a common sign of a fake Wi-Fi hotspot?",
+    "options": [
+      "It mimics the name of a legitimate network",
+      "It requires a VPN",
+      "It uses AES encryption",
+      "It blocks all connections"
+    ],
+    "answer": "It mimics the name of a legitimate network"
+  },
+  {
+    "question": "What is the recommended action if you suspect a fake hotspot?",
+    "options": [
+      "Disconnect and avoid entering personal information",
+      "Continue browsing",
+      "Share your password",
+      "Ignore the issue"
+    ],
+    "answer": "Disconnect and avoid entering personal information"
+  },
+  {
+    "question": "Which protocol is most likely to be cracked quickly by attackers?",
+    "options": [
+      "WEP",
+      "WPA3",
+      "WPA2",
+      "WPA"
+    ],
+    "answer": "WEP"
+  },
+  {
+    "question": "What is the main advantage of WPA2 over WPA?",
+    "options": [
+      "Uses AES encryption instead of TKIP/RC4",
+      "Uses static keys",
+      "No encryption",
+      "Manual key management"
+    ],
+    "answer": "Uses AES encryption instead of TKIP/RC4"
+  },
+  {
+    "question": "Which of the following is NOT a recommended Wi-Fi security practice?",
+    "options": [
+      "Using WEP encryption",
+      "Using WPA3 if available",
+      "Disabling WPS",
+      "Changing default passwords"
+    ],
+    "answer": "Using WEP encryption"
+  },
+  {
+    "question": "What is the best way to secure a home Wi-Fi network?",
+    "options": [
+      "Use WPA2 or WPA3 and a strong password",
+      "Use WEP",
+      "Leave it open",
+      "Enable guest network only"
+    ],
+    "answer": "Use WPA2 or WPA3 and a strong password"
+  },
+  {
+    "question": "Which protocol is backward compatible with WEP hardware?",
+    "options": [
+      "WPA",
+      "WPA2",
+      "WPA3",
+      "None"
+    ],
+    "answer": "WPA"
+  },
+  {
+    "question": "What is a limitation of MAC address filtering?",
+    "options": [
+      "Attackers can spoof MAC addresses",
+      "It encrypts all data",
+      "It blocks all devices",
+      "It increases speed"
+    ],
+    "answer": "Attackers can spoof MAC addresses"
+  },
+  {
+    "question": "Which protocol is recommended for enterprise wireless networks in 2025?",
+    "options": [
+      "WPA3-Enterprise",
+      "WEP",
+      "WPA",
+      "WPA2-Personal"
+    ],
+    "answer": "WPA3-Enterprise"
+  },
+  {
+    "question": "What is the main function of a wireless access point (AP)?",
+    "options": [
+      "Connects wireless devices to a wired network",
+      "Encrypts all data",
+      "Assigns IP addresses",
+      "Acts as a firewall"
+    ],
+    "answer": "Connects wireless devices to a wired network"
+  },
+  {
+    "question": "What is a 'handshake' in Wi-Fi security protocols?",
+    "options": [
+      "A process to establish encryption keys between client and AP",
+      "A type of attack",
+      "A MAC address filter",
+      "A VPN tunnel"
+    ],
+    "answer": "A process to establish encryption keys between client and AP"
+  },
+  {
+    "question": "Which protocol introduced message integrity check (MIC)?",
+    "options": [
+      "WPA",
+      "WEP",
+      "WPA2",
+      "WPA3"
+    ],
+    "answer": "WPA"
+  },
+  {
+    "question": "What is the main security risk of open Wi-Fi networks?",
+    "options": [
+      "Data is sent unencrypted and can be intercepted",
+      "Slower speeds",
+      "More devices can connect",
+      "Better range"
+    ],
+    "answer": "Data is sent unencrypted and can be intercepted"
+  },
+  {
+    "question": "Which protocol is required for PCI DSS compliance in retail environments?",
+    "options": [
+      "WPA2 or WPA3",
+      "WEP",
+      "WPA",
+      "Open"
+    ],
+    "answer": "WPA2 or WPA3"
+  },
+  {
+    "question": "What is a pre-shared key (PSK) in Wi-Fi security?",
+    "options": [
+      "A password shared between client and AP for authentication",
+      "A MAC address",
+      "A type of encryption",
+      "A fake hotspot"
+    ],
+    "answer": "A password shared between client and AP for authentication"
+  },
+  {
+    "question": "Which protocol was introduced in 2018 for Wi-Fi security?",
+    "options": [
+      "WPA3",
+      "WPA2",
+      "WPA",
+      "WEP"
+    ],
+    "answer": "WPA3"
+  }
+]
+
+
+      },
+      "Encryption" : {
+        "title" : "Data Privacy and Encryption",
+        "questions" : [
+  {
+    "question": "What does GDPR stand for?",
+    "options": [
+      "General Data Protection Regulation",
+      "Global Data Privacy Regulation",
+      "General Data Privacy Rules",
+      "Global Data Protection Rules"
+    ],
+    "answer": "General Data Protection Regulation"
+  },
+  {
+    "question": "Which region does the GDPR primarily apply to?",
+    "options": [
+      "European Union",
+      "United States",
+      "Asia-Pacific",
+      "Worldwide"
+    ],
+    "answer": "European Union"
+  },
+  {
+    "question": "What is the main goal of the GDPR?",
+    "options": [
+      "Protect personal data and privacy of EU citizens",
+      "Increase internet speed",
+      "Promote e-commerce",
+      "Ban encryption"
+    ],
+    "answer": "Protect personal data and privacy of EU citizens"
+  },
+  {
+    "question": "When did GDPR come into effect?",
+    "options": [
+      "May 25, 2018",
+      "January 1, 2016",
+      "July 4, 2017",
+      "December 31, 2019"
+    ],
+    "answer": "May 25, 2018"
+  },
+  {
+    "question": "Which of the following is a key principle of GDPR?",
+    "options": [
+      "Data minimization",
+      "Data maximization",
+      "Data monetization",
+      "Data duplication"
+    ],
+    "answer": "Data minimization"
+  },
+  {
+    "question": "What is the maximum fine for serious GDPR violations?",
+    "options": [
+      "€20 million or 4% of annual global turnover",
+      "€1 million",
+      "€100,000",
+      "€500,000"
+    ],
+    "answer": "€20 million or 4% of annual global turnover"
+  },
+  {
+    "question": "Which of the following is a data subject right under GDPR?",
+    "options": [
+      "Right to be forgotten",
+      "Right to hack",
+      "Right to sell data",
+      "Right to unlimited storage"
+    ],
+    "answer": "Right to be forgotten"
+  },
+  {
+    "question": "What is the role of a Data Protection Officer (DPO) under GDPR?",
+    "options": [
+      "Oversee data protection strategy and compliance",
+      "Manage network security",
+      "Write software code",
+      "Handle payroll"
+    ],
+    "answer": "Oversee data protection strategy and compliance"
+  },
+  {
+    "question": "Which of the following is NOT considered personal data under GDPR?",
+    "options": [
+      "Company registration number",
+      "Email address",
+      "IP address",
+      "Home address"
+    ],
+    "answer": "Company registration number"
+  },
+  {
+    "question": "What is 'encryption'?",
+    "options": [
+      "The process of converting data into a coded form to prevent unauthorized access",
+      "Deleting data permanently",
+      "Copying data to another location",
+      "Compressing data"
+    ],
+    "answer": "The process of converting data into a coded form to prevent unauthorized access"
+  },
+  {
+    "question": "Which encryption algorithm is symmetric?",
+    "options": [
+      "AES",
+      "RSA",
+      "DSA",
+      "ECC"
+    ],
+    "answer": "AES"
+  },
+  {
+    "question": "Which encryption algorithm is asymmetric?",
+    "options": [
+      "RSA",
+      "AES",
+      "3DES",
+      "Blowfish"
+    ],
+    "answer": "RSA"
+  },
+  {
+    "question": "What does AES stand for?",
+    "options": [
+      "Advanced Encryption Standard",
+      "Automatic Encryption System",
+      "Advanced Email Security",
+      "Asymmetric Encryption Standard"
+    ],
+    "answer": "Advanced Encryption Standard"
+  },
+  {
+    "question": "What does RSA stand for?",
+    "options": [
+      "Rivest-Shamir-Adleman",
+      "Random Secure Algorithm",
+      "Rapid Security Access",
+      "Remote Security Application"
+    ],
+    "answer": "Rivest-Shamir-Adleman"
+  },
+  {
+    "question": "What is the main difference between symmetric and asymmetric encryption?",
+    "options": [
+      "Symmetric uses one key, asymmetric uses two keys",
+      "Symmetric is slower",
+      "Asymmetric uses only numbers",
+      "Symmetric is used only for emails"
+    ],
+    "answer": "Symmetric uses one key, asymmetric uses two keys"
+  },
+  {
+    "question": "What is a 'data breach'?",
+    "options": [
+      "Unauthorized access and disclosure of data",
+      "Encrypting data",
+      "Deleting old data",
+      "Backing up data"
+    ],
+    "answer": "Unauthorized access and disclosure of data"
+  },
+  {
+    "question": "Which of the following is a requirement for data controllers under GDPR?",
+    "options": [
+      "Obtain valid consent before processing personal data",
+      "Sell data to third parties",
+      "Encrypt all emails",
+      "Store data indefinitely"
+    ],
+    "answer": "Obtain valid consent before processing personal data"
+  },
+  {
+    "question": "Which of the following is a benefit of encryption?",
+    "options": [
+      "Protects data confidentiality",
+      "Slows down computers",
+      "Increases data size",
+      "Deletes data automatically"
+    ],
+    "answer": "Protects data confidentiality"
+  },
+  {
+    "question": "Which key is kept secret in asymmetric encryption?",
+    "options": [
+      "Private key",
+      "Public key",
+      "Session key",
+      "Master key"
+    ],
+    "answer": "Private key"
+  },
+  {
+    "question": "Which key is shared in symmetric encryption?",
+    "options": [
+      "The same secret key",
+      "Public key",
+      "Private key",
+      "No key is shared"
+    ],
+    "answer": "The same secret key"
+  },
+  {
+    "question": "What is the minimum key size recommended for AES encryption?",
+    "options": [
+      "128 bits",
+      "64 bits",
+      "32 bits",
+      "256 bits"
+    ],
+    "answer": "128 bits"
+  },
+  {
+    "question": "What is 'pseudonymization' under GDPR?",
+    "options": [
+      "Replacing identifying fields with artificial identifiers",
+      "Deleting data",
+      "Encrypting data",
+      "Backing up data"
+    ],
+    "answer": "Replacing identifying fields with artificial identifiers"
+  },
+  {
+    "question": "Which of the following is a lawful basis for processing personal data under GDPR?",
+    "options": [
+      "Consent",
+      "Profit",
+      "Curiosity",
+      "Advertising"
+    ],
+    "answer": "Consent"
+  },
+  {
+    "question": "Which of the following is NOT a right granted by GDPR?",
+    "options": [
+      "Right to unlimited data storage",
+      "Right to access",
+      "Right to rectification",
+      "Right to erasure"
+    ],
+    "answer": "Right to unlimited data storage"
+  },
+  {
+    "question": "Which cryptographic method is used in HTTPS for secure web communication?",
+    "options": [
+      "RSA",
+      "DES",
+      "MD5",
+      "SHA-1"
+    ],
+    "answer": "RSA"
+  },
+  {
+    "question": "What is the main purpose of data encryption?",
+    "options": [
+      "To protect data from unauthorized access",
+      "To delete data",
+      "To compress data",
+      "To duplicate data"
+    ],
+    "answer": "To protect data from unauthorized access"
+  },
+  {
+    "question": "What is the role of a Data Processor under GDPR?",
+    "options": [
+      "Processes data on behalf of the Data Controller",
+      "Owns all data",
+      "Sells data to third parties",
+      "Monitors internet traffic"
+    ],
+    "answer": "Processes data on behalf of the Data Controller"
+  },
+  {
+    "question": "Which of the following is NOT a symmetric encryption algorithm?",
+    "options": [
+      "RSA",
+      "AES",
+      "3DES",
+      "Blowfish"
+    ],
+    "answer": "RSA"
+  },
+  {
+    "question": "Which of the following is a penalty for non-compliance with GDPR?",
+    "options": [
+      "Fines up to €20 million or 4% of global turnover",
+      "Imprisonment only",
+      "No penalty",
+      "Temporary suspension of internet access"
+    ],
+    "answer": "Fines up to €20 million or 4% of global turnover"
+  },
+  {
+    "question": "Which of the following is a key requirement for encryption under GDPR?",
+    "options": [
+      "Data must be encrypted to ensure security and privacy",
+      "Data must be deleted every week",
+      "Data must be stored in the cloud only",
+      "Data must be printed and archived"
+    ],
+    "answer": "Data must be encrypted to ensure security and privacy"
+  }
+]
+
+      }
+    }
+  }
+}

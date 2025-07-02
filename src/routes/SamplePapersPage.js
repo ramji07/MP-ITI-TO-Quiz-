@@ -34,6 +34,12 @@ export default function SamplePapersPage() {
     <div className="container mt-5">
       <h2 className="mb-4 text-primary text-center">📑 All Sample Paper Tests ({filteredPapers.length} Total)</h2>
 
+            <div className="mb-4 text-start">
+        <button onClick={() => navigate('/')} className="btn btn-outline-secondary">
+          ← Back to Modules
+        </button>
+      </div>
+
       <div className="mb-4">
         <input
           type="text"
