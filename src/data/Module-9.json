@@ -376,7 +376,2860 @@
             "answer": "Font Preferences > Advanced"
           }
         ]
-      }
+      },
+      "collaboration": {
+        "title": "Collaboration Features in MS Word 2010",
+        "questions": [
+          {
+            "question": "What is the primary purpose of the Co-authoring feature in Word 2010?",
+            "options": [
+              "To create new documents",
+              "To allow multiple users to edit a document simultaneously",
+              "To print documents",
+              "To save documents in different formats"
+            ],
+            "answer": "To allow multiple users to edit a document simultaneously"
+          },
+          {
+            "question": "What new collaboration feature was added in Word 2010?",
+            "options": ["Screen Sharing", "Track Changes", "Co-authoring", "Live Chat"],
+            "answer": "Co-authoring"
+          },
+          {
+            "question": "How does Word 2010 display co-authors?",
+            "options": [
+              "In a floating popup",
+              "Through a chat window",
+              "By listing users editing the document",
+              "As a comment on the page"
+            ],
+            "answer": "By listing users editing the document"
+          }
+        ]
+      },
+      "Shortcuts": {
+        "title": "Shortcuts in MS Word 2010",
+        "questions": [
+          {
+            "question": "What shortcut opens the Navigation Pane in Word 2010?",
+            "options": ["Ctrl+N", "Ctrl+F", "Ctrl+H", "Ctrl+P"],
+            "answer": "Ctrl+F"
+          },
+          {
+            "question": "What is the shortcut for saving a document in Word 2010?",
+            "options": ["Ctrl+S", "Ctrl+W", "Ctrl+Q", "Ctrl+E"],
+            "answer": "Ctrl+S"
+          },
+          {
+            "question": "Which shortcut is used to copy selected text?",
+            "options": ["Ctrl+C", "Ctrl+V", "Ctrl+X", "Ctrl+A"],
+            "answer": "Ctrl+C"
+          },
+          {
+            "question": "What does Ctrl+B do in Word 2010?",
+            "options": [
+              "Bold selected text",
+              "Italicize selected text",
+              "Underline selected text",
+              "Open the Backstage view"
+            ],
+            "answer": "Bold selected text"
+          },
+           {
+      "question": "Which of the following key combination collapses the ribbon in MS Word?",
+      "options": [
+        "Ctrl + F1",
+        "Ctrl + F2",
+        "Alt + F1",
+        "Shift + F1"
+      ],
+      "answer": "Ctrl + F1"
+    },
+    {
+      "question": "What is the default file extension for a Word document (2007 and later)?",
+      "options": [
+        ".doc",
+        ".docx",
+        ".txt",
+        ".wrd"
+      ],
+      "answer": ".docx"
+    },
+    {
+      "question": "Which keyboard shortcut is used to center align the selected text?",
+      "options": [
+        "Ctrl + C",
+        "Ctrl + E",
+        "Ctrl + L",
+        "Ctrl + R"
+      ],
+      "answer": "Ctrl + E"
+    },
+    {
+      "question": "The 'Format Painter' tool is found under which tab in MS Word?",
+      "options": [
+        "Home",
+        "Insert",
+        "Page Layout",
+        "View"
+      ],
+      "answer": "Home"
+    },
+    {
+      "question": "Which feature in MS Word allows you to create a personalized letter for multiple recipients?",
+      "options": [
+        "Mail Merge",
+        "Track Changes",
+        "AutoCorrect",
+        "Styles"
+      ],
+      "answer": "Mail Merge"
+    },
+    {
+      "question": "What is the keyboard shortcut to save a document?",
+      "options": [
+        "Ctrl + S",
+        "Ctrl + P",
+        "Ctrl + O",
+        "Ctrl + N"
+      ],
+      "answer": "Ctrl + S"
+    },
+    {
+      "question": "To insert a page break in MS Word, you should press:",
+      "options": [
+        "Ctrl + Enter",
+        "Shift + Enter",
+        "Alt + Enter",
+        "Ctrl + Shift + Enter"
+      ],
+      "answer": "Ctrl + Enter"
+    },
+    {
+      "question": "Which option allows you to change the orientation of the page to portrait or landscape?",
+      "options": [
+        "Margins",
+        "Size",
+        "Orientation",
+        "Columns"
+      ],
+      "answer": "Orientation"
+    },
+    {
+      "question": "The 'Spelling & Grammar' check can be initiated by pressing which function key?",
+      "options": [
+        "F1",
+        "F5",
+        "F7",
+        "F12"
+      ],
+      "answer": "F7"
+    },
+    {
+      "question": "What is the small, blinking vertical line in a document that indicates where text will be inserted?",
+      "options": [
+        "Cursor",
+        "Pointer",
+        "Marker",
+        "Indicator"
+      ],
+      "answer": "Cursor"
+    },
+    {
+      "question": "Which view is best for reading a document on screen without distractions?",
+      "options": [
+        "Print Layout",
+        "Web Layout",
+        "Read Mode",
+        "Draft View"
+      ],
+      "answer": "Read Mode"
+    },
+    {
+      "question": "To increase the font size of selected text, which shortcut key is used?",
+      "options": [
+        "Ctrl + ]",
+        "Ctrl + [",
+        "Ctrl + Shift + +",
+        "Both A and C"
+      ],
+      "answer": "Ctrl + ]"
+    },
+    {
+      "question": "What does 'Gutter Margin' refer to?",
+      "options": [
+        "Margin added to the top of the page",
+        "Margin added to the bottom of the page",
+        "Margin added to the binding side of the page",
+        "Margin added to the outside edge of the page"
+      ],
+      "answer": "Margin added to the binding side of the page"
+    },
+    {
+      "question": "The 'Thesaurus' tool in MS Word is used for:",
+      "options": [
+        "Checking spelling",
+        "Finding synonyms and antonyms",
+        "Translating text",
+        "Checking grammar"
+      ],
+      "answer": "Finding synonyms and antonyms"
+    },
+    {
+      "question": "Which keyboard shortcut opens the 'Find' dialog box?",
+      "options": [
+        "Ctrl + F",
+        "Ctrl + H",
+        "Ctrl + G",
+        "Ctrl + R"
+      ],
+      "answer": "Ctrl + F"
+    },
+    {
+      "question": "In MS Word, what is a 'Header'?",
+      "options": [
+        "Text at the top of every page",
+        "Text at the bottom of every page",
+        "The main title of the document",
+        "Text in the first paragraph"
+      ],
+      "answer": "Text at the top of every page"
+    },
+    {
+      "question": "The 'Track Changes' feature is primarily used for:",
+      "options": [
+        "Formatting the document",
+        "Reviewing and editing a document collaboratively",
+        "Creating a table of contents",
+        "Printing the document"
+      ],
+      "answer": "Reviewing and editing a document collaboratively"
+    },
+    {
+      "question": "Which key combination selects the entire document?",
+      "options": [
+        "Ctrl + A",
+        "Ctrl + E",
+        "Alt + A",
+        "Shift + A"
+      ],
+      "answer": "Ctrl + A"
+    },
+    {
+      "question": "To apply 'Bold' formatting to text, you can press:",
+      "options": [
+        "Ctrl + B",
+        "Ctrl + I",
+        "Ctrl + U",
+        "Alt + B"
+      ],
+      "answer": "Ctrl + B"
+    },
+    {
+      "question": "Which of the following is NOT a type of page margin?",
+      "options": [
+        "Top",
+        "Left",
+        "Center",
+        "Right"
+      ],
+      "answer": "Center"
+    },
+    {
+      "question": "What is the function of 'Ctrl + Z'?",
+      "options": [
+        "Redo the last action",
+        "Undo the last action",
+        "Paste the copied text",
+        "Cut the selected text"
+      ],
+      "answer": "Undo the last action"
+    },
+    {
+      "question": "The 'Word Count' feature can be found in the:",
+      "options": [
+        "Status Bar",
+        "Review Tab",
+        "Home Tab",
+        "Both A and B"
+      ],
+      "answer": "Both A and B"
+    },
+    {
+      "question": "Which tab is used to insert tables, pictures, and shapes?",
+      "options": [
+        "Home",
+        "Insert",
+        "Design",
+        "Layout"
+      ],
+      "answer": "Insert"
+    },
+    {
+      "question": "What does the 'Superscript' option do?",
+      "options": [
+        "Makes text smaller and places it below the baseline",
+        "Makes text smaller and places it above the baseline",
+        "Makes all letters capital",
+        "Makes all letters small"
+      ],
+      "answer": "Makes text smaller and places it above the baseline"
+    },
+    {
+      "question": "The shortcut 'Ctrl + H' is used to open which dialog box?",
+      "options": [
+        "Find",
+        "Replace",
+        "Go To",
+        "Hyperlink"
+      ],
+      "answer": "Replace"
+    },
+    {
+      "question": "Which option is used to apply a consistent look and feel to a document using fonts, colors, and effects?",
+      "options": [
+        "Themes",
+        "Templates",
+        "Styles",
+        "Page Borders"
+      ],
+      "answer": "Themes"
+    },
+    {
+      "question": "To move to the beginning of the document, press:",
+      "options": [
+        "Ctrl + Home",
+        "Ctrl + End",
+        "Home",
+        "Page Up"
+      ],
+      "answer": "Ctrl + Home"
+    },
+    {
+      "question": "What is a watermark?",
+      "options": [
+        "A faded background image or text",
+        "A border around the page",
+        "A special character",
+        "A comment in the margin"
+      ],
+      "answer": "A faded background image or text"
+    },
+    {
+      "question": "Which of the following is a type of list in MS Word?",
+      "options": [
+        "Bulleted List",
+        "Numbered List",
+        "Multilevel List",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of the 'Ruler' in MS Word?",
+      "options": [
+        "To set tabs and indents",
+        "To measure page margins",
+        "To align text and objects",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "The 'Save As' dialog box can be opened by pressing:",
+      "options": [
+        "F1",
+        "F5",
+        "F7",
+        "F12"
+      ],
+      "answer": "F12"
+    },
+    {
+      "question": "What feature automatically creates a 'Table of Contents' based on heading styles?",
+      "options": [
+        "Index",
+        "Table of Contents",
+        "Bibliography",
+        "Cross-reference"
+      ],
+      "answer": "Table of Contents"
+    },
+    {
+      "question": "Which alignment option makes the text flush with both left and right margins?",
+      "options": [
+        "Left Align",
+        "Right Align",
+        "Center",
+        "Justify"
+      ],
+      "answer": "Justify"
+    },
+    {
+      "question": "To repeat the last action performed in MS Word, press:",
+      "options": [
+        "F4",
+        "F5",
+        "Ctrl + R",
+        "Ctrl + Y"
+      ],
+      "answer": "F4"
+    },
+    {
+      "question": "Which option allows you to divide the document into two or more columns?",
+      "options": [
+        "Columns",
+        "Breaks",
+        "Size",
+        "Line Numbers"
+      ],
+      "answer": "Columns"
+    },
+    {
+      "question": "What is the shortcut for 'Italic' formatting?",
+      "options": [
+        "Ctrl + B",
+        "Ctrl + I",
+        "Ctrl + U",
+        "Ctrl + L"
+      ],
+      "answer": "Ctrl + I"
+    },
+    {
+      "question": "Footnotes and Endnotes are used to add:",
+      "options": [
+        "Comments or citations",
+        "Page numbers",
+        "Headers",
+        "Watermarks"
+      ],
+      "answer": "Comments or citations"
+    },
+    {
+      "question": "The default alignment for text in MS Word is:",
+      "options": [
+        "Left",
+        "Right",
+        "Center",
+        "Justify"
+      ],
+      "answer": "Left"
+    },
+    {
+      "question": "Which group on the Home tab contains the commands for changing font type and size?",
+      "options": [
+        "Clipboard",
+        "Font",
+        "Paragraph",
+        "Styles"
+      ],
+      "answer": "Font"
+    },
+    {
+      "question": "The shortcut 'Ctrl + P' is used to:",
+      "options": [
+        "Paste text",
+        "Open the Print dialog box",
+        "Apply paragraph formatting",
+        "Protect the document"
+      ],
+      "answer": "Open the Print dialog box"
+    },
+    {
+      "question": "Which of these is a valid view in MS Word?",
+      "options": [
+        "Slide Sorter",
+        "Normal View",
+        "Print Layout",
+        "Outline View"
+      ],
+      "answer": "Print Layout"
+    },
+    {
+      "question": "What is a 'template' in MS Word?",
+      "options": [
+        "A pre-designed document that you can use as a starting point",
+        "A tool for checking grammar",
+        "A feature for creating mailing labels",
+        "The final version of a document"
+      ],
+      "answer": "A pre-designed document that you can use as a starting point"
+    },
+    {
+      "question": "To insert a hyperlink, you can use the shortcut:",
+      "options": [
+        "Ctrl + K",
+        "Ctrl + H",
+        "Ctrl + L",
+        "Alt + K"
+      ],
+      "answer": "Ctrl + K"
+    },
+    {
+      "question": "Which option do you use to increase the space between lines of text?",
+      "options": [
+        "Line Spacing",
+        "Character Spacing",
+        "Indentation",
+        "Kerning"
+      ],
+      "answer": "Line Spacing"
+    },
+    {
+      "question": "What does 'WYSIWYG' stand for in the context of Word processing?",
+      "options": [
+        "What You See Is What You Get",
+        "When You See It, Will You Go?",
+        "Why You See Is Why You Get",
+        "What You See Is What You Gain"
+      ],
+      "answer": "What You See Is What You Get"
+    },
+    {
+      "question": "The 'Drop Cap' option is used to:",
+      "options": [
+        "Create a large capital letter at the beginning of a paragraph",
+        "Change the case of all letters to uppercase",
+        "Drop a line of text",
+        "Insert a special character"
+      ],
+      "answer": "Create a large capital letter at the beginning of a paragraph"
+    },
+    {
+      "question": "Which feature helps you to jump to a specific page, section, or line in a document?",
+      "options": [
+        "Find (Ctrl+F)",
+        "Replace (Ctrl+H)",
+        "Go To (Ctrl+G)",
+        "Select All (Ctrl+A)"
+      ],
+      "answer": "Go To (Ctrl+G)"
+    },
+    {
+      "question": "The shortcut 'Ctrl + Y' is used to:",
+      "options": [
+        "Undo the last action",
+        "Redo the last action",
+        "Copy the selected text",
+        "Cut the selected text"
+      ],
+      "answer": "Redo the last action"
+    },
+    {
+      "question": "To change the case of selected text (e.g., from lowercase to UPPERCASE), you can use the shortcut:",
+      "options": [
+        "Shift + F3",
+        "Ctrl + F3",
+        "Alt + F3",
+        "Shift + F5"
+      ],
+      "answer": "Shift + F3"
+    },
+    {
+      "question": "Where can you find the option to add a border to a page?",
+      "options": [
+        "Insert Tab -> Page Border",
+        "Home Tab -> Paragraph Group",
+        "Design Tab -> Page Borders",
+        "Layout Tab -> Page Setup"
+      ],
+      "answer": "Design Tab -> Page Borders"
+    },
+    {
+      "question": "What is the function of 'Ctrl + Backspace'?",
+      "options": [
+        "Deletes the character to the right of the cursor",
+        "Deletes the character to the left of the cursor",
+        "Deletes the word to the left of the cursor",
+        "Deletes the word to the right of the cursor"
+      ],
+      "answer": "Deletes the word to the left of the cursor"
+    },
+    {
+      "question": "Which tab contains the 'Symbols' command?",
+      "options": [
+        "Home",
+        "Insert",
+        "Design",
+        "References"
+      ],
+      "answer": "Insert"
+    },
+    {
+      "question": "A red wavy underline in MS Word indicates:",
+      "options": [
+        "A potential spelling error",
+        "A potential grammar error",
+        "A formatting inconsistency",
+        "A hyperlink"
+      ],
+      "answer": "A potential spelling error"
+    },
+    {
+      "question": "What is the purpose of the 'Split' command in the 'View' tab?",
+      "options": [
+        "To split a table into two",
+        "To split the document into two panes to view different parts at once",
+        "To split a page into columns",
+        "To split a cell in a table"
+      ],
+      "answer": "To split the document into two panes to view different parts at once"
+    },
+    {
+      "question": "Which keyboard shortcut is used for double line spacing?",
+      "options": [
+        "Ctrl + 1",
+        "Ctrl + 2",
+        "Ctrl + 5",
+        "Ctrl + D"
+      ],
+      "answer": "Ctrl + 2"
+    },
+    {
+      "question": "To move to the end of the current line, press:",
+      "options": [
+        "End",
+        "Home",
+        "Ctrl + End",
+        "Ctrl + Right Arrow"
+      ],
+      "answer": "End"
+    },
+    {
+      "question": "A blue wavy underline in MS Word indicates:",
+      "options": [
+        "A potential spelling error",
+        "A potential contextual or grammatical error",
+        "A hyperlink",
+        "A comment"
+      ],
+      "answer": "A potential contextual or grammatical error"
+    },
+    {
+      "question": "In Mail Merge, the document that contains the main body of the letter is called:",
+      "options": [
+        "Data Source",
+        "Main Document",
+        "Merged Document",
+        "Recipient List"
+      ],
+      "answer": "Main Document"
+    },
+    {
+      "question": "What does the 'AutoCorrect' feature do?",
+      "options": [
+        "Automatically corrects common spelling errors and typos",
+        "Automatically formats the document",
+        "Automatically saves the document",
+        "Automatically creates a backup"
+      ],
+      "answer": "Automatically corrects common spelling errors and typos"
+    },
+    {
+      "question": "Which key do you press to update a formula in a table (like a sum)?",
+      "options": [
+        "F5",
+        "F7",
+        "F9",
+        "F11"
+      ],
+      "answer": "F9"
+    },
+    {
+      "question": "To open the 'Font' dialog box, you can press:",
+      "options": [
+        "Ctrl + F",
+        "Ctrl + D",
+        "Ctrl + B",
+        "Alt + F"
+      ],
+      "answer": "Ctrl + D"
+    },
+    {
+      "question": "The 'Navigation Pane' allows you to:",
+      "options": [
+        "Browse by headings",
+        "Browse by pages",
+        "Search for text in the document",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which option is used to make the text appear exactly as it was typed, ignoring AutoCorrect rules?",
+      "options": [
+        "Keep Source Formatting",
+        "Merge Formatting",
+        "Keep Text Only",
+        "This cannot be done"
+      ],
+      "answer": "Keep Text Only"
+    },
+    {
+      "question": "What is the shortcut to insert the current date?",
+      "options": [
+        "Alt + Shift + D",
+        "Alt + Shift + T",
+        "Ctrl + Shift + D",
+        "Ctrl + D"
+      ],
+      "answer": "Alt + Shift + D"
+    },
+    {
+      "question": "Portrait and Landscape are examples of:",
+      "options": [
+        "Page Size",
+        "Page Orientation",
+        "Page Margins",
+        "Page Style"
+      ],
+      "answer": "Page Orientation"
+    },
+    {
+      "question": "Which group in the 'Review' tab contains the 'Track Changes' command?",
+      "options": [
+        "Comments",
+        "Tracking",
+        "Changes",
+        "Proofing"
+      ],
+      "answer": "Tracking"
+    },
+    {
+      "question": "To insert a comment in a document, you can use the shortcut:",
+      "options": [
+        "Ctrl + Alt + M",
+        "Ctrl + Alt + C",
+        "Ctrl + Shift + C",
+        "Alt + C"
+      ],
+      "answer": "Ctrl + Alt + M"
+    },
+    {
+      "question": "What is the function of 'Ctrl + Delete'?",
+      "options": [
+        "Deletes the word to the left of the cursor",
+        "Deletes the character to the left of the cursor",
+        "Deletes the word to the right of the cursor",
+        "Deletes the entire line"
+      ],
+      "answer": "Deletes the word to the right of the cursor"
+    },
+    {
+      "question": "Which of the following is NOT found in the 'References' tab?",
+      "options": [
+        "Table of Contents",
+        "Citations & Bibliography",
+        "Mail Merge",
+        "Captions"
+      ],
+      "answer": "Mail Merge"
+    },
+    {
+      "question": "The 'Hanging Indent' is primarily used when creating:",
+      "options": [
+        "A numbered list",
+        "A bibliography or works cited page",
+        "A table of contents",
+        "A title page"
+      ],
+      "answer": "A bibliography or works cited page"
+    },
+    {
+      "question": "What is the shortcut to apply 'Underline' formatting?",
+      "options": [
+        "Ctrl + U",
+        "Ctrl + I",
+        "Ctrl + B",
+        "Ctrl + D"
+      ],
+      "answer": "Ctrl + U"
+    },
+    {
+      "question": "To select a single word, you can:",
+      "options": [
+        "Single-click the word",
+        "Double-click the word",
+        "Triple-click the word",
+        "Right-click the word"
+      ],
+      "answer": "Double-click the word"
+    },
+    {
+      "question": "Which feature would you use to create a document with a pre-formatted layout, such as a resume?",
+      "options": [
+        "Template",
+        "Style",
+        "Theme",
+        "Blank Document"
+      ],
+      "answer": "Template"
+    },
+    {
+      "question": "The 'Zoom' control slider is located in the:",
+      "options": [
+        "Status Bar",
+        "Title Bar",
+        "Ribbon",
+        "Quick Access Toolbar"
+      ],
+      "answer": "Status Bar"
+    },
+    {
+      "question": "Which option helps to protect a document with a password?",
+      "options": [
+        "File -> Info -> Protect Document",
+        "Review -> Protect -> Restrict Editing",
+        "View -> Protect",
+        "Home -> Protect Document"
+      ],
+      "answer": "File -> Info -> Protect Document"
+    },
+    {
+      "question": "To select an entire paragraph, you can:",
+      "options": [
+        "Double-click in the paragraph",
+        "Triple-click in the paragraph",
+        "Single-click in the paragraph",
+        "Right-click in the paragraph"
+      ],
+      "answer": "Triple-click in the paragraph"
+    },
+    {
+      "question": "What is the shortcut for creating a hanging indent?",
+      "options": [
+        "Ctrl + H",
+        "Ctrl + G",
+        "Ctrl + T",
+        "Ctrl + M"
+      ],
+      "answer": "Ctrl + T"
+    },
+    {
+      "question": "Which of these is NOT a valid data source for Mail Merge?",
+      "options": [
+        "Excel spreadsheet",
+        "Outlook contact list",
+        "Word table",
+        "PowerPoint presentation"
+      ],
+      "answer": "PowerPoint presentation"
+    },
+    {
+      "question": "What does 'kerning' refer to?",
+      "options": [
+        "The space between lines",
+        "The space between all characters in a block of text",
+        "The adjustment of space between specific pairs of characters",
+        "The height of the characters"
+      ],
+      "answer": "The adjustment of space between specific pairs of characters"
+    },
+    {
+      "question": "In the 'Paragraph' dialog box, which option controls the amount of space before and after paragraphs?",
+      "options": [
+        "Indentation",
+        "Spacing",
+        "Line spacing",
+        "Alignment"
+      ],
+      "answer": "Spacing"
+    },
+    {
+      "question": "Which shortcut justifies the selected text or paragraph?",
+      "options": [
+        "Ctrl + J",
+        "Ctrl + E",
+        "Ctrl + L",
+        "Ctrl + R"
+      ],
+      "answer": "Ctrl + J"
+    },
+    {
+      "question": "To add a new row to the bottom of a table, you can place the cursor in the last cell and press:",
+      "options": [
+        "Enter",
+        "Tab",
+        "Spacebar",
+        "Ctrl + Enter"
+      ],
+      "answer": "Tab"
+    },
+    {
+      "question": "The 'Quick Access Toolbar' is located:",
+      "options": [
+        "Above the Ribbon",
+        "Below the Ribbon",
+        "In the Status Bar",
+        "Either A or B"
+      ],
+      "answer": "Either A or B"
+    },
+    {
+      "question": "What is the purpose of 'Styles' in MS Word?",
+      "options": [
+        "To apply a set of formatting choices consistently throughout a document",
+        "To check spelling and grammar",
+        "To insert pictures and shapes",
+        "To create a mail merge"
+      ],
+      "answer": "To apply a set of formatting choices consistently throughout a document"
+    },
+    {
+      "question": "Which keyboard shortcut opens the 'Paragraph' dialog box?",
+      "options": [
+        "Ctrl + P",
+        "Alt + O, P",
+        "Ctrl + M",
+        "There is no direct shortcut"
+      ],
+      "answer": "Alt + O, P"
+    },
+    {
+      "question": "What is the shortcut to insert a non-breaking space?",
+      "options": [
+        "Ctrl + Shift + Spacebar",
+        "Ctrl + Spacebar",
+        "Alt + Spacebar",
+        "Shift + Spacebar"
+      ],
+      "answer": "Ctrl + Shift + Spacebar"
+    },
+    {
+      "question": "Which view displays the document as it will appear on a webpage?",
+      "options": [
+        "Print Layout",
+        "Read Mode",
+        "Web Layout",
+        "Outline View"
+      ],
+      "answer": "Web Layout"
+    },
+    {
+      "question": "The 'Compare' function in the 'Review' tab is used to:",
+      "options": [
+        "Compare two versions of a document",
+        "Compare font styles",
+        "Compare page layouts",
+        "Compare document properties"
+      ],
+      "answer": "Compare two versions of a document"
+    },
+    {
+      "question": "To create a bullet point, you can type an asterisk (*) followed by a space at the beginning of a line. This is an example of:",
+      "options": [
+        "AutoFormat",
+        "AutoCorrect",
+        "AutoComplete",
+        "AutoText"
+      ],
+      "answer": "AutoFormat"
+    },
+    {
+      "question": "Which tab would you use to add a caption to a picture?",
+      "options": [
+        "Insert",
+        "Format",
+        "References",
+        "Home"
+      ],
+      "answer": "References"
+    },
+    {
+      "question": "What does the 'Subscript' option do?",
+      "options": [
+        "Makes text smaller and places it below the baseline",
+        "Makes text smaller and places it above the baseline",
+        "Adds a line below the text",
+        "Makes text bold"
+      ],
+      "answer": "Makes text smaller and places it below the baseline"
+    },
+    {
+      "question": "To go to the 'Tell me what you want to do' box, you can press:",
+      "options": [
+        "Alt + Q",
+        "Ctrl + Q",
+        "Alt + T",
+        "Ctrl + T"
+      ],
+      "answer": "Alt + Q"
+    },
+    {
+      "question": "Which feature lets you record a series of commands and play them back later?",
+      "options": [
+        "Macros",
+        "Mail Merge",
+        "Templates",
+        "Styles"
+      ],
+      "answer": "Macros"
+    },
+    {
+      "question": "To clear all formatting from selected text, you can press:",
+      "options": [
+        "Ctrl + Spacebar",
+        "Ctrl + Shift + C",
+        "Alt + C",
+        "Delete"
+      ],
+      "answer": "Ctrl + Spacebar"
+    },
+    {
+      "question": "In a table, what is the intersection of a row and a column called?",
+      "options": [
+        "Cell",
+        "Box",
+        "Field",
+        "Grid"
+      ],
+      "answer": "Cell"
+    },
+    {
+      "question": "Which command is used to merge multiple cells in a table into one?",
+      "options": [
+        "Merge Cells",
+        "Split Cells",
+        "Combine Cells",
+        "Join Cells"
+      ],
+      "answer": "Merge Cells"
+    },
+    {
+      "question": "What is the shortcut to switch to 'Print Layout' view?",
+      "options": [
+        "Ctrl + Alt + P",
+        "Ctrl + Alt + O",
+        "Ctrl + Alt + N",
+        "Ctrl + Alt + L"
+      ],
+      "answer": "Ctrl + Alt + P"
+    },
+    {
+      "question": "The 'Text Wrapping' option for a picture determines:",
+      "options": [
+        "How text flows around the picture",
+        "The brightness and contrast of the picture",
+        "The border style of the picture",
+        "The size of the picture"
+      ],
+      "answer": "How text flows around the picture"
+    },
+    {
+      "question": "Which of the following is an example of a 'Section Break'?",
+      "options": [
+        "Next Page",
+        "Continuous",
+        "Even Page",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "To copy formatting from one place and apply it to another, you should use:",
+      "options": [
+        "Format Painter",
+        "Copy and Paste",
+        "Style Inspector",
+        "Theme Builder"
+      ],
+      "answer": "Format Painter"
+    },
+    {
+      "question": "The keyboard shortcut for 'line spacing of 1.5' is:",
+      "options": [
+        "Ctrl + 1",
+        "Ctrl + 2",
+        "Ctrl + 5",
+        "Ctrl + 1.5"
+      ],
+      "answer": "Ctrl + 5"
+    }
+        ]
+      },
+      "shortcuts2" : {
+        "title": "MS Wor Shortcuts - Set 2 ",
+        "questions": [
+          {
+            "question": "What is the shortcut to open the 'Find' dialog box?",
+            "options": ["Ctrl + F", "Ctrl + H", "Ctrl + G", "Ctrl + R"],
+            "answer": "Ctrl + F"
+          },
+          {
+            "question": "Which shortcut is used to apply 'Italic' formatting?",
+            "options": ["Ctrl + I", "Ctrl + B", "Ctrl + U", "Ctrl + L"],
+            "answer": "Ctrl + I"
+          },
+          {
+            "question": "What does the shortcut 'Ctrl + Z' do?",
+            "options": [
+              "Redo the last action",
+              "Undo the last action",
+              "Cut the selected text",
+              "Copy the selected text"
+            ],
+            "answer": "Undo the last action"
+          },
+          {
+            "question": "To save a document, which shortcut is used?",
+            "options": ["Ctrl + S", "Ctrl + P", "Ctrl + O", "Ctrl + N"],
+            "answer": "Ctrl + S"
+          },
+          {
+    "question": "Q1. What is the shortcut key to copy text in MS Word?",
+    "question_hindi": "Q1. MS Word में copy text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X",
+      "Ctrl + Z"
+    ],
+    "answer": "Ctrl + C"
+  },
+  {
+    "question": "Q2. What is the shortcut key to paste text in MS Word?",
+    "question_hindi": "Q2. MS Word में paste text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + V",
+      "Ctrl + P",
+      "Ctrl + A",
+      "Ctrl + Z"
+    ],
+    "answer": "Ctrl + V"
+  },
+  {
+    "question": "Q3. What is the shortcut key to cut text in MS Word?",
+    "question_hindi": "Q3. MS Word में cut text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + X",
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + B"
+    ],
+    "answer": "Ctrl + X"
+  },
+  {
+    "question": "Q4. What is the shortcut key to undo the last action in MS Word?",
+    "question_hindi": "Q4. MS Word में undo the last action के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Z",
+      "Ctrl + Y",
+      "Ctrl + A",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + Z"
+  },
+  {
+    "question": "Q5. What is the shortcut key to save a document in MS Word?",
+    "question_hindi": "Q5. MS Word में save a document के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + S",
+      "Ctrl + P",
+      "Ctrl + O",
+      "Ctrl + D"
+    ],
+    "answer": "Ctrl + S"
+  },
+  {
+    "question": "Q6. What is the shortcut key to open a document in MS Word?",
+    "question_hindi": "Q6. MS Word में open a document के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + O",
+      "Ctrl + N",
+      "Ctrl + P",
+      "Ctrl + L"
+    ],
+    "answer": "Ctrl + O"
+  },
+  {
+    "question": "Q7. What is the shortcut key to print the document in MS Word?",
+    "question_hindi": "Q7. MS Word में print the document के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + P",
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + Z"
+    ],
+    "answer": "Ctrl + P"
+  },
+  {
+    "question": "Q8. What is the shortcut key to select all text in MS Word?",
+    "question_hindi": "Q8. MS Word में select all text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + A",
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + A"
+  },
+  {
+    "question": "Q9. What is the shortcut key to make text bold in MS Word?",
+    "question_hindi": "Q9. MS Word में make text bold के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + B",
+      "Ctrl + I",
+      "Ctrl + U",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "Q10. What is the shortcut key to italicize text in MS Word?",
+    "question_hindi": "Q10. MS Word में italicize text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Z"
+    ],
+    "answer": "Ctrl + I"
+  },
+  {
+    "question": "Q11. What is the default file extension for Word documents?",
+    "question_hindi": "Q11. Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "options": [
+      ".docx",
+      ".pdf",
+      ".txt",
+      ".html"
+    ],
+    "answer": ".docx"
+  },
+  {
+    "question": "Q12. Which tab contains the Font group?",
+    "question_hindi": "Q12. Font ग्रुप किस टैब में होता है?",
+    "options": [
+      "Home",
+      "Insert",
+      "Layout",
+      "References"
+    ],
+    "answer": "Home"
+  },
+  {
+    "question": "Q13. What is the default font in Word 2016?",
+    "question_hindi": "Q13. Word 2016 में डिफ़ॉल्ट फ़ॉन्ट कौन सा है?",
+    "options": [
+      "Calibri",
+      "Arial",
+      "Verdana",
+      "Times New Roman"
+    ],
+    "answer": "Calibri"
+  },
+  {
+    "question": "Q14. Which menu allows you to insert a table?",
+    "question_hindi": "Q14. आप किस मेनू से टेबल डाल सकते हैं?",
+    "options": [
+      "Insert",
+      "Home",
+      "Design",
+      "Layout"
+    ],
+    "answer": "Insert"
+  },
+  {
+    "question": "Q15. What is the shortcut key to create a new document in MS Word?",
+    "question_hindi": "Q15. MS Word में create a new document के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + A"
+    ],
+    "answer": "Ctrl + N"
+  },
+  {
+    "question": "Q16. What is the shortcut key to align text to left in MS Word?",
+    "question_hindi": "Q16. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": "Q17. What is the shortcut key to align text to center in MS Word?",
+    "question_hindi": "Q17. MS Word में align text to center के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "Q18. What is the shortcut key to align text to right in MS Word?",
+    "question_hindi": "Q18. MS Word में align text to right के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + R",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + R"
+  },
+  {
+    "question": "Q19. What is the shortcut key to increase font size in MS Word?",
+    "question_hindi": "Q19. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": "Q20. What is the shortcut key to create a new document in MS Word?",
+    "question_hindi": "Q20. MS Word में create a new document के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + A"
+    ],
+    "answer": "Ctrl + N"
+  },
+  {
+    "question": "Q21. What is the shortcut key to align text to center in MS Word?",
+    "question_hindi": "Q21. MS Word में align text to center के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "Q22. What is the shortcut key to decrease font size in MS Word?",
+    "question_hindi": "Q22. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + Z",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + ["
+  },
+  {
+    "question": "Q23. What is the shortcut key to align text to left in MS Word?",
+    "question_hindi": "Q23. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": "Q24. What is the shortcut key to insert a page break in MS Word?",
+    "question_hindi": "Q24. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Enter",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Alt + P"
+    ],
+    "answer": "Ctrl + Enter"
+  },
+  {
+    "question": "Q25. What is the shortcut key to align text to right in MS Word?",
+    "question_hindi": "Q25. MS Word में align text to right के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + R",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + R"
+  },
+  {
+    "question": "Q26. What is the shortcut key to increase font size in MS Word?",
+    "question_hindi": "Q26. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": "Q27. What is the shortcut key to align text to left in MS Word?",
+    "question_hindi": "Q27. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": "Q28. What is the shortcut key to increase font size in MS Word?",
+    "question_hindi": "Q28. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": "Q29. What is the shortcut key to justify text in MS Word?",
+    "question_hindi": "Q29. MS Word में justify text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + J",
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + R"
+    ],
+    "answer": "Ctrl + J"
+  },
+  {
+    "question": "Q30. What is the shortcut key to align text to left in MS Word?",
+    "question_hindi": "Q30. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": "Q31. What is the shortcut key to insert a page break in MS Word?",
+    "question_hindi": "Q31. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Enter",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Alt + P"
+    ],
+    "answer": "Ctrl + Enter"
+  },
+  {
+    "question": "Q32. What is the shortcut key to create a new document in MS Word?",
+    "question_hindi": "Q32. MS Word में create a new document के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + A"
+    ],
+    "answer": "Ctrl + N"
+  },
+  {
+    "question": "Q33. What is the shortcut key to create a new document in MS Word?",
+    "question_hindi": "Q33. MS Word में create a new document के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + A"
+    ],
+    "answer": "Ctrl + N"
+  },
+  {
+    "question": "Q34. What is the shortcut key to align text to center in MS Word?",
+    "question_hindi": "Q34. MS Word में align text to center के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "Q35. What is the shortcut key to insert a page break in MS Word?",
+    "question_hindi": "Q35. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Enter",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Alt + P"
+    ],
+    "answer": "Ctrl + Enter"
+  },
+  {
+    "question": "Q36. What is the shortcut key to increase font size in MS Word?",
+    "question_hindi": "Q36. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": "Q37. What is the shortcut key to decrease font size in MS Word?",
+    "question_hindi": "Q37. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + Z",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + ["
+  },
+  {
+    "question": "Q38. What is the shortcut key to align text to right in MS Word?",
+    "question_hindi": "Q38. MS Word में align text to right के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + R",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + R"
+  },
+  {
+    "question": "Q39. What is the shortcut key to decrease font size in MS Word?",
+    "question_hindi": "Q39. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + Z",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + ["
+  },
+  {
+    "question": "Q40. What is the shortcut key to decrease font size in MS Word?",
+    "question_hindi": "Q40. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + Z",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + ["
+  },
+  {
+    "question": "Q41. What is the shortcut key to align text to left in MS Word?",
+    "question_hindi": "Q41. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": "Q42. What is the shortcut key to increase font size in MS Word?",
+    "question_hindi": "Q42. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": "Q43. What is the shortcut key to justify text in MS Word?",
+    "question_hindi": "Q43. MS Word में justify text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + J",
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + R"
+    ],
+    "answer": "Ctrl + J"
+  },
+  {
+    "question": "Q44. What is the shortcut key to insert a page break in MS Word?",
+    "question_hindi": "Q44. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Enter",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Alt + P"
+    ],
+    "answer": "Ctrl + Enter"
+  },
+  {
+    "question": "Q45. What is the shortcut key to insert a page break in MS Word?",
+    "question_hindi": "Q45. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Enter",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Alt + P"
+    ],
+    "answer": "Ctrl + Enter"
+  },
+  {
+    "question": "Q46. What is the shortcut key to justify text in MS Word?",
+    "question_hindi": "Q46. MS Word में justify text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + J",
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + R"
+    ],
+    "answer": "Ctrl + J"
+  },
+  {
+    "question": "Q47. What is the shortcut key to justify text in MS Word?",
+    "question_hindi": "Q47. MS Word में justify text के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + J",
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + R"
+    ],
+    "answer": "Ctrl + J"
+  },
+  {
+    "question": "Q48. What is the shortcut key to insert a page break in MS Word?",
+    "question_hindi": "Q48. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Enter",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Alt + P"
+    ],
+    "answer": "Ctrl + Enter"
+  },
+  {
+    "question": "Q49. What is the shortcut key to insert a page break in MS Word?",
+    "question_hindi": "Q49. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + Enter",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Alt + P"
+    ],
+    "answer": "Ctrl + Enter"
+  },
+  {
+    "question": "Q50. What is the shortcut key to align text to left in MS Word?",
+    "question_hindi": "Q50. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": "Q51. What is the shortcut key to align text to center in MS Word?",
+    "question_hindi": "Q51. MS Word में align text to center के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "Q52. What is the shortcut key to increase font size in MS Word?",
+    "question_hindi": "Q52. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": "Q53. What is the shortcut key to increase font size in MS Word?",
+    "question_hindi": "Q53. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": "Q54. What is the shortcut key to decrease font size in MS Word?",
+    "question_hindi": "Q54. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + Z",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + ["
+  },
+  {
+    "question": "Q55. What is the shortcut key to decrease font size in MS Word?",
+    "question_hindi": "Q55. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + Z",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + ["
+  },
+  {
+    "question": "Q56. What is the shortcut key to decrease font size in MS Word?",
+    "question_hindi": "Q56. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + Z",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + ["
+  },
+  {
+    "question": "Q57. What is the shortcut key to align text to left in MS Word?",
+    "question_hindi": "Q57. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": "What is the shortcut key to align text to center in MS Word?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "What is the shortcut key to align text to center in MS Word?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "What is the shortcut key to align text to center in MS Word?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "What is the shortcut key to create a new document in MS Word?",
+    "options": [
+      "Ctrl + N",
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + A"
+    ],
+    "answer": "Ctrl + N"
+  },
+  {
+    "question": " What is the shortcut key to align text to right in MS Word?",
+    "options": [
+      "Ctrl + R",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + R"
+  },
+  {
+    "question": "What is the shortcut key to increase font size in MS Word?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": " What is the shortcut key to align text to left in MS Word?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": " What is the shortcut key to align text to left in MS Word?",
+    "options": [
+      "Ctrl + L",
+      "Ctrl + E",
+      "Ctrl + R",
+      "Ctrl + J"
+    ],
+    "answer": "Ctrl + L"
+  },
+  {
+    "question": "What is the shortcut key to insert a page break in MS Word?",
+    "options": [
+      "Ctrl + Enter",
+      "Ctrl + B",
+      "Ctrl + P",
+      "Ctrl + Alt + P"
+    ],
+    "answer": "Ctrl + Enter"
+  },
+  {
+    "question": "What is the shortcut key to increase font size in MS Word?",
+    "options": [
+      "Ctrl + [",
+      "Ctrl + ]",
+      "Ctrl + B",
+      "Ctrl + I"
+    ],
+    "answer": "Ctrl + ]"
+  },
+  {
+    "question": "What is the shortcut key to align text to right in MS Word?",
+    "options": [
+      "Ctrl + R",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + U"
+    ],
+    "answer": "Ctrl + R"
+  }
+        ]
+      },
+      "Shortcuts3" : {
+        "title": "MS Word Shortcuts - Set 3 ",
+        "questions": [
+          {
+            "question": "What is the shortcut to open the 'Find and Replace' dialog box?",
+            "options": ["Ctrl + H", "Ctrl + F", "Ctrl + R", "Ctrl + G"],
+            "answer": "Ctrl + H"
+          },
+          {
+            "question": "Which shortcut is used to apply 'Underline' formatting?",
+            "options": ["Ctrl + U", "Ctrl + B", "Ctrl + I", "Ctrl + L"],
+            "answer": "Ctrl + U"
+          },
+          {
+            "question": "What does the shortcut 'Ctrl + Y' do?",
+            "options": [
+              "Redo the last action",
+              "Undo the last action",
+              "Cut the selected text",
+              "Copy the selected text"
+            ],
+            "answer": "Redo the last action"
+          },
+          {
+            "question": "To print a document, which shortcut is used?",
+            "options": ["Ctrl + P", "Ctrl + S", "Ctrl + O", "Ctrl + N"],
+            "answer": "Ctrl + P"
+          },
+          {
+            "question": "What is the shortcut to create a new document in MS Word?",
+            "options": ["Ctrl + N", "Ctrl + S", "Ctrl + O", "Ctrl + A"],
+            "answer": "Ctrl + N"
+          },
+          {
+            "question": "Which shortcut is used to select all text in a document?",
+            "options": ["Ctrl + A", "Ctrl + C", "Ctrl + V", "Ctrl + X"],
+            "answer": "Ctrl + A"
+          },
+          {
+            "question": "What is the shortcut to open the 'Page Setup' dialog box?",
+            "options": ["Alt + P, S, P", "Ctrl + P", "Alt + S, P", "Ctrl + S"],
+            "answer": "Alt + P, S, P"
+          },
+          {
+            "question": "To insert a hyperlink, which shortcut is used?",
+            "options": ["Ctrl + K", "Ctrl + H", "Ctrl + L", "Ctrl + J"],
+            "answer": "Ctrl + K"
+          },
+          {
+            "question": "What is the shortcut to apply 'Strikethrough' formatting?",
+            "options": ["Ctrl + 5", "Ctrl + T", "Ctrl + D", "Ctrl + Shift + X"],
+            "answer": "Ctrl + 5"
+          },
+          {
+            "question": "'Shift + F3' is used to change the case of selected text. What does it do?",
+            "options": [
+              "Toggle between uppercase, lowercase, and title case",
+              "Change text to all uppercase",
+              "Change text to all lowercase",
+              "Change text to title case only"
+            ],
+            "answer": "Toggle between uppercase, lowercase, and title case"
+          },
+          {
+      "question": "Which of the following is the correct cell address in MS Excel?",
+      "options": [
+        "A12",
+        "1A",
+        "A:12",
+        "12A"
+      ],
+      "answer": "A12"
+    },
+    {
+      "question": "A file in MS Excel is called a:",
+      "options": [
+        "Workbook",
+        "Worksheet",
+        "Document",
+        "Ledger"
+      ],
+      "answer": "Workbook"
+    },
+    {
+      "question": "Which symbol must all formulas begin with in MS Excel?",
+      "options": [
+        "=",
+        "+",
+        "@",
+        "#"
+      ],
+      "answer": "="
+    },
+    {
+      "question": "What is the keyboard shortcut to create a new workbook?",
+      "options": [
+        "Ctrl + N",
+        "Ctrl + O",
+        "Ctrl + W",
+        "Ctrl + S"
+      ],
+      "answer": "Ctrl + N"
+    },
+    {
+      "question": "The intersection of a row and a column is called a:",
+      "options": [
+        "Cell",
+        "Grid",
+        "Box",
+        "Pointer"
+      ],
+      "answer": "Cell"
+    },
+    {
+      "question": "Which function is used to add the values in a range of cells?",
+      "options": [
+        "SUM",
+        "ADD",
+        "TOTAL",
+        "PLUS"
+      ],
+      "answer": "SUM"
+    },
+    {
+      "question": "To select an entire column in MS Excel, you should:",
+      "options": [
+        "Click the column heading letter",
+        "Click the row heading number",
+        "Press Ctrl + C",
+        "Press Shift + Spacebar"
+      ],
+      "answer": "Click the column heading letter"
+    },
+    {
+      "question": "What feature allows you to quickly apply a set of formatting options to a cell or range?",
+      "options": [
+        "Cell Styles",
+        "Conditional Formatting",
+        "Format Painter",
+        "Themes"
+      ],
+      "answer": "Cell Styles"
+    },
+    {
+      "question": "Which error value indicates that the formula refers to a cell that is not valid?",
+      "options": [
+        "#REF!",
+        "#VALUE!",
+        "#NAME?",
+        "#DIV/0!"
+      ],
+      "answer": "#REF!"
+    },
+    {
+      "question": "What is the shortcut to edit the content of the active cell?",
+      "options": [
+        "F2",
+        "F4",
+        "F5",
+        "F7"
+      ],
+      "answer": "F2"
+    },
+    {
+      "question": "Which function would you use to find the largest value in a range of cells?",
+      "options": [
+        "MAX",
+        "LARGE",
+        "HIGH",
+        "TOP"
+      ],
+      "answer": "MAX"
+    },
+    {
+      "question": "The 'Freeze Panes' option is found under which tab?",
+      "options": [
+        "View",
+        "Data",
+        "Home",
+        "Insert"
+      ],
+      "answer": "View"
+    },
+    {
+      "question": "What does the '#' symbol prefixed to a cell reference (e.g., $A$1) signify?",
+      "options": [
+        "It is an absolute cell reference",
+        "It is a relative cell reference",
+        "It is a mixed cell reference",
+        "It is an error"
+      ],
+      "answer": "It is an absolute cell reference"
+    },
+    {
+      "question": "Which chart type is best for showing proportions of a whole?",
+      "options": [
+        "Pie Chart",
+        "Line Chart",
+        "Bar Chart",
+        "Scatter Plot"
+      ],
+      "answer": "Pie Chart"
+    },
+    {
+      "question": "The feature that automatically fills in a series of data (e.g., days of the week) is called:",
+      "options": [
+        "AutoFill",
+        "AutoComplete",
+        "AutoSum",
+        "AutoFormat"
+      ],
+      "answer": "AutoFill"
+    },
+    {
+      "question": "Which keyboard shortcut opens the 'Format Cells' dialog box?",
+      "options": [
+        "Ctrl + 1",
+        "Ctrl + F",
+        "Alt + 1",
+        "Shift + F1"
+      ],
+      "answer": "Ctrl + 1"
+    },
+    {
+      "question": "What is the result of the formula =IF(A1>10, \"Pass\", \"Fail\") if cell A1 contains the value 15?",
+      "options": [
+        "Pass",
+        "Fail",
+        "15",
+        "TRUE"
+      ],
+      "answer": "Pass"
+    },
+    {
+      "question": "To combine the text from two or more cells into one cell, you can use the:",
+      "options": [
+        "CONCATENATE function or '&' operator",
+        "MERGE function",
+        "JOIN function",
+        "TEXT function"
+      ],
+      "answer": "CONCATENATE function or '&' operator"
+    },
+    {
+      "question": "Which tool is used to summarize, analyze, explore, and present summary data?",
+      "options": [
+        "PivotTable",
+        "Data Table",
+        "Chart",
+        "Goal Seek"
+      ],
+      "answer": "PivotTable"
+    },
+    {
+      "question": "What is the shortcut to insert the current date in a cell?",
+      "options": [
+        "Ctrl + ;",
+        "Ctrl + :",
+        "Ctrl + D",
+        "TODAY()"
+      ],
+      "answer": "Ctrl + ;"
+    },
+    {
+      "question": "The '#NAME?' error appears when:",
+      "options": [
+        "Excel does not recognize text in a formula",
+        "A number is divided by zero",
+        "The formula refers to a deleted cell",
+        "The wrong type of argument is used"
+      ],
+      "answer": "Excel does not recognize text in a formula"
+    },
+    {
+      "question": "Which option is used to restrict the type of data that can be entered into a cell?",
+      "options": [
+        "Data Validation",
+        "Conditional Formatting",
+        "Protect Sheet",
+        "Filter"
+      ],
+      "answer": "Data Validation"
+    },
+    {
+      "question": "The 'VLOOKUP' function searches for a value in the:",
+      "options": [
+        "First column of a table array",
+        "First row of a table array",
+        "Last column of a table array",
+        "Anywhere in the table array"
+      ],
+      "answer": "First column of a table array"
+    },
+    {
+      "question": "How do you activate the 'Go To' dialog box?",
+      "options": [
+        "Press F5 or Ctrl + G",
+        "Press F2",
+        "Press F7",
+        "Press Ctrl + F"
+      ],
+      "answer": "Press F5 or Ctrl + G"
+    },
+    {
+      "question": "Which function counts the number of cells in a range that are not empty?",
+      "options": [
+        "COUNTA",
+        "COUNT",
+        "COUNTIF",
+        "COUNTBLANK"
+      ],
+      "answer": "COUNTA"
+    },
+    {
+      "question": "To wrap text within a cell, you should use the:",
+      "options": [
+        "Wrap Text command",
+        "Merge & Center command",
+        "Text to Columns command",
+        "Alt + Enter shortcut"
+      ],
+      "answer": "Wrap Text command"
+    },
+    {
+      "question": "What does the 'Sort' feature in the 'Data' tab do?",
+      "options": [
+        "Arranges data in ascending or descending order",
+        "Hides rows that do not meet certain criteria",
+        "Summarizes data",
+        "Validates data"
+      ],
+      "answer": "Arranges data in ascending or descending order"
+    },
+    {
+      "question": "Which function returns the current date and time?",
+      "options": [
+        "NOW()",
+        "TODAY()",
+        "DATE()",
+        "TIME()"
+      ],
+      "answer": "NOW()"
+    },
+    {
+      "question": "A collection of worksheets is called a:",
+      "options": [
+        "Workbook",
+        "Workgroup",
+        "Workset",
+        "Booklet"
+      ],
+      "answer": "Workbook"
+    },
+    {
+      "question": "What is the purpose of the 'Filter' tool?",
+      "options": [
+        "To display only the rows that meet specific criteria",
+        "To sort data alphabetically",
+        "To format cells based on conditions",
+        "To remove duplicate values"
+      ],
+      "answer": "To display only the rows that meet specific criteria"
+    },
+    {
+      "question": "The default extension of an Excel 2016 workbook is:",
+      "options": [
+        ".xlsx",
+        ".xls",
+        ".xlsm",
+        ".xltx"
+      ],
+      "answer": ".xlsx"
+    },
+    {
+      "question": "Which 'What-If Analysis' tool finds the optimal value for a single cell by changing other cells?",
+      "options": [
+        "Solver",
+        "Goal Seek",
+        "Scenario Manager",
+        "Data Table"
+      ],
+      "answer": "Solver"
+    },
+    {
+      "question": "The shortcut 'Ctrl + Page Down' is used to:",
+      "options": [
+        "Move to the next worksheet",
+        "Move to the previous worksheet",
+        "Move to the last cell of the worksheet",
+        "Move one page down in the current worksheet"
+      ],
+      "answer": "Move to the next worksheet"
+    },
+    {
+      "question": "The 'SUMIF' function is used to:",
+      "options": [
+        "Add up cell values based on a certain condition",
+        "Add up all values in a range",
+        "Add values if multiple conditions are met",
+        "Find the sum and provide a logical output"
+      ],
+      "answer": "Add up cell values based on a certain condition"
+    },
+    {
+      "question": "How can you remove duplicate rows from a range of data?",
+      "options": [
+        "Data tab -> Remove Duplicates",
+        "Home tab -> Find & Select -> Duplicates",
+        "Formulas tab -> Remove Duplicates",
+        "Review tab -> Check Duplicates"
+      ],
+      "answer": "Data tab -> Remove Duplicates"
+    },
+    {
+      "question": "What is the function of the 'Format Painter'?",
+      "options": [
+        "To copy formatting from one cell or range and apply it to another",
+        "To paint colors in cells",
+        "To copy the formula of a cell",
+        "To create a new cell style"
+      ],
+      "answer": "To copy formatting from one cell or range and apply it to another"
+    },
+    {
+      "question": "The 'Name Box' in Excel displays the:",
+      "options": [
+        "Address of the active cell",
+        "Content of the active cell",
+        "Formula in the active cell",
+        "Name of the workbook"
+      ],
+      "answer": "Address of the active cell"
+    },
+    {
+      "question": "Which keyboard shortcut is used to select the entire worksheet?",
+      "options": [
+        "Ctrl + A",
+        "Ctrl + E",
+        "Ctrl + Shift + Spacebar",
+        "Both A and C"
+      ],
+      "answer": "Both A and C"
+    },
+    {
+      "question": "The '#DIV/0!' error occurs when:",
+      "options": [
+        "A formula attempts to divide a number by zero",
+        "A formula contains an invalid cell reference",
+        "A formula uses a function name that Excel does not recognize",
+        "A formula has a numeric value that is too large"
+      ],
+      "answer": "A formula attempts to divide a number by zero"
+    },
+    {
+      "question": "Which feature highlights cells that meet certain criteria with a specific color, font, or border?",
+      "options": [
+        "Conditional Formatting",
+        "Data Validation",
+        "Cell Styles",
+        "Themes"
+      ],
+      "answer": "Conditional Formatting"
+    },
+    {
+      "question": "To insert a new worksheet in a workbook, you can press:",
+      "options": [
+        "Shift + F11",
+        "Ctrl + F11",
+        "Alt + F11",
+        "F11"
+      ],
+      "answer": "Shift + F11"
+    },
+    {
+      "question": "What does the 'AVERAGE' function calculate?",
+      "options": [
+        "The arithmetic mean of a range of numbers",
+        "The middle number in a range",
+        "The most frequently occurring number",
+        "The total of a range"
+      ],
+      "answer": "The arithmetic mean of a range of numbers"
+    },
+    {
+      "question": "The 'Formula Bar' shows the:",
+      "options": [
+        "Content of the active cell",
+        "Address of the active cell",
+        "Name of the worksheet",
+        "Status of the workbook"
+      ],
+      "answer": "Content of the active cell"
+    },
+    {
+      "question": "Which of these is a type of cell reference?",
+      "options": [
+        "Relative",
+        "Absolute",
+        "Mixed",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "To create a chart from selected data, you can press the shortcut key:",
+      "options": [
+        "F11",
+        "F8",
+        "F9",
+        "F12"
+      ],
+      "answer": "F11"
+    },
+    {
+      "question": "What is the function of 'Ctrl + R' shortcut in Excel?",
+      "options": [
+        "Fills the content of the leftmost cell to the right in a selected range",
+        "Right aligns the content of the cell",
+        "Opens the Replace dialog box",
+        "Re-opens the last closed workbook"
+      ],
+      "answer": "Fills the content of the leftmost cell to the right in a selected range"
+    },
+    {
+      "question": "The 'Text to Columns' feature is used to:",
+      "options": [
+        "Split the text in one column into multiple columns",
+        "Combine text from multiple columns into one",
+        "Convert text to a number format",
+        "Align text vertically in a column"
+      ],
+      "answer": "Split the text in one column into multiple columns"
+    },
+    {
+      "question": "Which function would you use to find the middle value in a dataset?",
+      "options": [
+        "MEDIAN",
+        "AVERAGE",
+        "MODE",
+        "MIDDLE"
+      ],
+      "answer": "MEDIAN"
+    },
+    {
+      "question": "What is the purpose of 'Protect Sheet'?",
+      "options": [
+        "To prevent users from changing, moving, or deleting data",
+        "To hide the worksheet",
+        "To save the worksheet with a password",
+        "To validate data in the worksheet"
+      ],
+      "answer": "To prevent users from changing, moving, or deleting data"
+    },
+    {
+      "question": "The shortcut 'Ctrl + Shift + L' is used to:",
+      "options": [
+        "Apply or remove a filter",
+        "Create a bulleted list",
+        "Lock the selected cells",
+        "Insert a hyperlink"
+      ],
+      "answer": "Apply or remove a filter"
+    },
+    {
+      "question": "The function 'COUNTIF' is used to:",
+      "options": [
+        "Count the number of cells that meet a specified criterion",
+        "Count numbers in a range",
+        "Count non-empty cells",
+        "Count blank cells"
+      ],
+      "answer": "Count the number of cells that meet a specified criterion"
+    },
+    {
+      "question": "Which of the following is NOT a valid chart type in Excel?",
+      "options": [
+        "Sphere Chart",
+        "Bar Chart",
+        "Line Chart",
+        "Doughnut Chart"
+      ],
+      "answer": "Sphere Chart"
+    },
+    {
+      "question": "To move to the last cell containing data on a worksheet, press:",
+      "options": [
+        "Ctrl + End",
+        "Ctrl + Home",
+        "End + Right Arrow",
+        "Ctrl + Page Down"
+      ],
+      "answer": "Ctrl + End"
+    },
+    {
+      "question": "What does the 'Merge & Center' command do?",
+      "options": [
+        "Combines selected cells into one larger cell and centers the content",
+        "Merges workbooks and centers them on the screen",
+        "Merges worksheets and centers the data",
+        "Combines text from multiple cells and centers it"
+      ],
+      "answer": "Combines selected cells into one larger cell and centers the content"
+    },
+    {
+      "question": "The 'HLOOKUP' function searches for a value in the:",
+      "options": [
+        "Top row of a table",
+        "First column of a table",
+        "Bottom row of a table",
+        "Last column of a table"
+      ],
+      "answer": "Top row of a table"
+    },
+    {
+      "question": "How do you insert a line break within a cell?",
+      "options": [
+        "Alt + Enter",
+        "Ctrl + Enter",
+        "Shift + Enter",
+        "Enter"
+      ],
+      "answer": "Alt + Enter"
+    },
+    {
+      "question": "Which of the following functions converts text to all uppercase letters?",
+      "options": [
+        "UPPER",
+        "PROPER",
+        "LOWER",
+        "TEXT"
+      ],
+      "answer": "UPPER"
+    },
+    {
+      "question": "The 'Print Area' command allows you to:",
+      "options": [
+        "Print a specific range of cells",
+        "Set the area for data entry",
+        "Define the working area of the sheet",
+        "Set the area for charts"
+      ],
+      "answer": "Print a specific range of cells"
+    },
+    {
+      "question": "The shortcut to apply 'Bold' formatting to a cell is:",
+      "options": [
+        "Ctrl + B",
+        "Ctrl + I",
+        "Ctrl + U",
+        "Ctrl + 2"
+      ],
+      "answer": "Ctrl + B"
+    },
+    {
+      "question": "In a formula, which operator has the highest precedence?",
+      "options": [
+        "Exponentiation (^)",
+        "Multiplication (*)",
+        "Addition (+)",
+        "Parentheses (())"
+      ],
+      "answer": "Parentheses (())"
+    },
+    {
+      "question": "Which function rounds a number down to the nearest integer?",
+      "options": [
+        "INT",
+        "ROUNDDOWN",
+        "FLOOR",
+        "TRUNC"
+      ],
+      "answer": "INT"
+    },
+    {
+      "question": "The 'Sparklines' feature in the 'Insert' tab is used to:",
+      "options": [
+        "Create tiny charts inside a single cell",
+        "Add sparkling effects to charts",
+        "Link data from different worksheets",
+        "Highlight lines of text"
+      ],
+      "answer": "Create tiny charts inside a single cell"
+    },
+    {
+      "question": "What is the purpose of the 'IFERROR' function?",
+      "options": [
+        "To return a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula",
+        "To check if a cell contains an error",
+        "To count the number of errors in a range",
+        "To generate a specific error for testing"
+      ],
+      "answer": "To return a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula"
+    },
+    {
+      "question": "The shortcut 'Ctrl + D' is used to:",
+      "options": [
+        "Fill the content of the cell above into the selected cell(s) below",
+        "Delete the selected column",
+        "Open the 'Format Cells' dialog",
+        "Duplicate the worksheet"
+      ],
+      "answer": "Fill the content of the cell above into the selected cell(s) below"
+    },
+    {
+      "question": "Which view is ideal for setting headers and footers?",
+      "options": [
+        "Page Layout View",
+        "Normal View",
+        "Page Break Preview",
+        "Full Screen View"
+      ],
+      "answer": "Page Layout View"
+    },
+    {
+      "question": "The 'Goal Seek' tool is part of which group of tools?",
+      "options": [
+        "What-If Analysis",
+        "Data Validation",
+        "Sort & Filter",
+        "Outlining"
+      ],
+      "answer": "What-If Analysis"
+    },
+    {
+      "question": "What does a green triangle in the top-left corner of a cell indicate?",
+      "options": [
+        "A potential error in the formula",
+        "A comment is attached to the cell",
+        "The cell is locked",
+        "The cell is part of a data validation list"
+      ],
+      "answer": "A potential error in the formula"
+    },
+    {
+      "question": "To rename a worksheet, you can:",
+      "options": [
+        "Double-click the worksheet tab",
+        "Right-click the tab and choose 'Rename'",
+        "Go to Home -> Format -> Rename Sheet",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "The 'Flash Fill' feature in Excel:",
+      "options": [
+        "Automatically fills your data when it senses a pattern",
+        "Fills the background of a cell with a flashing color",
+        "Quickly fills a range with random data",
+        "Is a type of conditional formatting"
+      ],
+      "answer": "Automatically fills your data when it senses a pattern"
+    },
+    {
+      "question": "Which function joins several text strings into one string?",
+      "options": [
+        "CONCAT or CONCATENATE",
+        "MERGE",
+        "TEXTJOIN",
+        "Both A and C"
+      ],
+      "answer": "Both A and C"
+    },
+    {
+      "question": "The 'Watch Window' is useful for:",
+      "options": [
+        "Monitoring the values of certain cells as you make changes to your worksheet",
+        "Watching video tutorials within Excel",
+        "Keeping an eye on stock prices",
+        "Viewing the print preview"
+      ],
+      "answer": "Monitoring the values of certain cells as you make changes to your worksheet"
+    },
+    {
+      "question": "What is the maximum number of worksheets a new workbook can have by default?",
+      "options": [
+        "1",
+        "3",
+        "5",
+        "255"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "Which function returns the remainder after a number is divided by a divisor?",
+      "options": [
+        "MOD",
+        "REMAINDER",
+        "DIV",
+        "QUOTIENT"
+      ],
+      "answer": "MOD"
+    },
+    {
+      "question": "To apply a currency format, you can use the shortcut:",
+      "options": [
+        "Ctrl + Shift + $",
+        "Ctrl + Shift + %",
+        "Ctrl + Shift + #",
+        "Ctrl + $"
+      ],
+      "answer": "Ctrl + Shift + $"
+    },
+    {
+      "question": "How can you select non-adjacent cells or ranges?",
+      "options": [
+        "Hold down the Ctrl key while clicking the cells",
+        "Hold down the Shift key while clicking the cells",
+        "Hold down the Alt key while clicking the cells",
+        "This is not possible"
+      ],
+      "answer": "Hold down the Ctrl key while clicking the cells"
+    },
+    {
+      "question": "What is the main purpose of creating a 'Table' from a range of data (Insert -> Table)?",
+      "options": [
+        "To easily manage and analyze a group of related data",
+        "To apply a border around the data",
+        "To change the font color",
+        "To simply format the data"
+      ],
+      "answer": "To easily manage and analyze a group of related data"
+    },
+    {
+      "question": "The 'Power Query' tool is used for:",
+      "options": [
+        "Getting and transforming data from various sources",
+        "Creating powerful formulas",
+        "Running queries on the current worksheet",
+        "Adding power effects to charts"
+      ],
+      "answer": "Getting and transforming data from various sources"
+    },
+    {
+      "question": "What does the function =TODAY() return?",
+      "options": [
+        "The current date",
+        "The current date and time",
+        "The current day of the week",
+        "The current time"
+      ],
+      "answer": "The current date"
+    },
+    {
+      "question": "Which of these is the 'Group' command used for?",
+      "options": [
+        "To group rows or columns so they can be hidden or displayed with a single click",
+        "To group multiple charts together",
+        "To group worksheets",
+        "To group different text boxes"
+      ],
+      "answer": "To group rows or columns so they can be hidden or displayed with a single click"
+    },
+    {
+      "question": "A cell reference that changes when a formula is copied to another cell is a:",
+      "options": [
+        "Relative reference",
+        "Absolute reference",
+        "Mixed reference",
+        "Dynamic reference"
+      ],
+      "answer": "Relative reference"
+    },
+    {
+      "question": "The keyboard shortcut to hide the selected row(s) is:",
+      "options": [
+        "Ctrl + 9",
+        "Ctrl + 0",
+        "Ctrl + H",
+        "Alt + H"
+      ],
+      "answer": "Ctrl + 9"
+    },
+    {
+      "question": "Which function finds the most frequently occurring value in a range?",
+      "options": [
+        "MODE.SNGL",
+        "MEDIAN",
+        "AVERAGE",
+        "FREQUENCY"
+      ],
+      "answer": "MODE.SNGL"
+    },
+    {
+      "question": "To open the 'Visual Basic for Applications' (VBA) editor, you press:",
+      "options": [
+        "Alt + F11",
+        "Alt + F8",
+        "Ctrl + F11",
+        "Shift + F8"
+      ],
+      "answer": "Alt + F11"
+    },
+    {
+      "question": "What are the small squares at the corners and sides of a selected chart or object called?",
+      "options": [
+        "Sizing handles",
+        "Control points",
+        "Markers",
+        "Anchors"
+      ],
+      "answer": "Sizing handles"
+    },
+    {
+      "question": "The 'Slicer' tool, often used with PivotTables, is used to:",
+      "options": [
+        "Visually filter data",
+        "Slice a chart into pieces",
+        "Cut a part of the worksheet",
+        "Trim data"
+      ],
+      "answer": "Visually filter data"
+    },
+    {
+      "question": "The function 'TRIM' is used to:",
+      "options": [
+        "Remove extra spaces from text, except for single spaces between words",
+        "Trim a number to a specified number of decimals",
+        "Cut out a portion of a text string",
+        "Format a cell to fit the text"
+      ],
+      "answer": "Remove extra spaces from text, except for single spaces between words"
+    },
+    {
+      "question": "Which keyboard shortcut is used to hide the selected column(s)?",
+      "options": [
+        "Ctrl + 0",
+        "Ctrl + 9",
+        "Ctrl + H",
+        "Alt + C"
+      ],
+      "answer": "Ctrl + 0"
+    },
+    {
+      "question": "The 'Page Break Preview' shows:",
+      "options": [
+        "Where the automatic page breaks will occur when you print",
+        "A preview of the final printed page",
+        "A view of the page with headers and footers",
+        "A view with no gridlines or headings"
+      ],
+      "answer": "Where the automatic page breaks will occur when you print"
+    },
+    {
+      "question": "To get the number of characters in a text string, you use which function?",
+      "options": [
+        "LEN",
+        "LENGTH",
+        "COUNTCHAR",
+        "TEXT.LENGTH"
+      ],
+      "answer": "LEN"
+    },
+    {
+      "question": "What is the 'Quick Access Toolbar'?",
+      "options": [
+        "A customizable toolbar for frequently used commands",
+        "A toolbar that appears when you right-click",
+        "The toolbar that contains font formatting options",
+        "A toolbar for quick calculations"
+      ],
+      "answer": "A customizable toolbar for frequently used commands"
+    },
+    {
+      "question": "Which key do you press to make a cell reference absolute while typing a formula?",
+      "options": [
+        "F4",
+        "F2",
+        "F5",
+        "F9"
+      ],
+      "answer": "F4"
+    },
+    {
+      "question": "The file type '.xlsm' indicates that the workbook contains:",
+      "options": [
+        "Macros",
+        "Pictures",
+        "Charts",
+        "External data links"
+      ],
+      "answer": "Macros"
+    },
+    {
+      "question": "The 'AND' function in Excel returns TRUE if:",
+      "options": [
+        "All of its arguments are TRUE",
+        "Any one of its arguments is TRUE",
+        "None of its arguments are TRUE",
+        "Only one of its arguments is TRUE"
+      ],
+      "answer": "All of its arguments are TRUE"
+    },
+    {
+      "question": "Which chart is used to show trends over time?",
+      "options": [
+        "Line Chart",
+        "Pie Chart",
+        "Bar Chart",
+        "Area Chart"
+      ],
+      "answer": "Line Chart"
+    },
+    {
+      "question": "To go to the first cell of the worksheet (A1), you can press:",
+      "options": [
+        "Ctrl + Home",
+        "Home",
+        "Ctrl + G then A1",
+        "Both A and C"
+      ],
+      "answer": "Ctrl + Home"
+    }
+          
+        ]
+        }
     }
   }
 }

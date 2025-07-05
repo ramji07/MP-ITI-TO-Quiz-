@@ -6621,7 +6621,2563 @@
             "answer": "30"
           }
             ]
-        }
+        },
+        "sample-11": {
+            "title": "Sample Paper - Set 11",
+            "questions": [
+  {
+    "question": "Which of the following is an example of a system software?",
+    "options": [
+      "Microsoft Word",
+      "Operating System",
+      "Adobe Photoshop",
+      "A video game"
+    ],
+    "answer": "Operating System"
+  },
+  {
+    "question": "In HTML, which tag is used to define an important text that is typically displayed in bold?",
+    "options": [
+      "<b>",
+      "<bold>",
+      "<i>",
+      "<strong>"
+    ],
+    "answer": "<strong>"
+  },
+  {
+    "question": "In MS Excel, the feature that allows you to restrict the type of data or the values that users enter into a cell is called:",
+    "options": [
+      "Conditional Formatting",
+      "Data Validation",
+      "Filtering",
+      "Goal Seek"
+    ],
+    "answer": "Data Validation"
+  },
+  {
+    "question": "Which of the following best describes 'social engineering' in the context of cybersecurity?",
+    "options": [
+      "A technical method of hacking a server.",
+      "The art of manipulating people to divulge confidential information.",
+      "Designing user-friendly social media platforms.",
+      "A type of network hardware."
+    ],
+    "answer": "The art of manipulating people to divulge confidential information."
+  },
+  {
+    "question": "Which SQL command is used to remove a table from a database?",
+    "options": [
+      "DELETE TABLE",
+      "DROP TABLE",
+      "REMOVE TABLE",
+      "ERASE TABLE"
+    ],
+    "answer": "DROP TABLE"
+  },
+  {
+    "question": "The 'chipset' on a motherboard is responsible for:",
+    "options": [
+      "Cooling the CPU.",
+      "Managing the data flow between the CPU, memory, and peripherals.",
+      "Storing the operating system.",
+      "Providing graphical output."
+    ],
+    "answer": "Managing the data flow between the CPU, memory, and peripherals."
+  },
+  {
+    "question": "In CSS, which of the following is the correct syntax for selecting an element with the class 'header'?",
+    "options": [
+      "#header",
+      "*header",
+      ".header",
+      "header"
+    ],
+    "answer": ".header"
+  },
+  {
+    "question": "The 'Slide Master' in MS PowerPoint is used to:",
+    "options": [
+      "Animate individual objects on a slide.",
+      "Define the default formatting and layout for all slides in a presentation.",
+      "Insert a new slide.",
+      "Run the presentation."
+    ],
+    "answer": "Define the default formatting and layout for all slides in a presentation."
+  },
+  {
+    "question": "Which network protocol is used for sending and receiving files between computers?",
+    "options": [
+      "HTTP",
+      "SMTP",
+      "FTP",
+      "TCP"
+    ],
+    "answer": "FTP"
+  },
+  {
+    "question": "In JavaScript, which function is used to display a pop-up box with a message and an 'OK' button?",
+    "options": [
+      "confirm()",
+      "prompt()",
+      "alert()",
+      "message()"
+    ],
+    "answer": "alert()"
+  },
+  {
+    "question": "Which Linux command is used to move or rename a file?",
+    "options": [
+      "move",
+      "copy",
+      "ren",
+      "mv"
+    ],
+    "answer": "mv"
+  },
+  {
+    "question": "In MS Word, what is the function of the Ctrl + P shortcut?",
+    "options": [
+      "To paste content.",
+      "To print the document.",
+      "To open the paragraph settings.",
+      "To open the print dialog."
+    ],
+    "answer": "To print the document."
+  },
+  {
+    "question": "In a database, what is a 'foreign key'?",
+    "options": [
+      "A key that uniquely identifies a record.",
+      "A key in one table that refers to the primary key in another table.",
+      "A key used for sorting records.",
+      "A key that is hidden from users."
+    ],
+    "answer": "A key in one table that refers to the primary key in another table."
+  },
+  {
+    "question": "Which part of the operating system handles the basic tasks, such as managing memory and processing inputs and outputs?",
+    "options": [
+      "The user interface",
+      "The kernel",
+      "The file system",
+      "The application launcher"
+    ],
+    "answer": "The kernel"
+  },
+  {
+    "question": "Which HTML input type is used for a button that, when clicked, resets all form fields to their initial values?",
+    "options": [
+      "<input type=\"button\">",
+      "<input type=\"submit\">",
+      "<input type=\"reset\">",
+      "<input type=\"clear\">"
+    ],
+    "answer": "<input type=\"reset\">"
+  },
+  {
+    "question": "Which of the following is a good practice for protecting against malware?",
+    "options": [
+      "Disabling your firewall.",
+      "Keeping your operating system and software updated with the latest patches.",
+      "Downloading software from untrusted websites.",
+      "Using the same simple password for all accounts."
+    ],
+    "answer": "Keeping your operating system and software updated with the latest patches."
+  },
+  {
+    "question": "In MS Excel, what is the result of the formula =ROUND(10.789, 1)?",
+    "options": [
+      "10",
+      "11",
+      "10.8",
+      "10.7"
+    ],
+    "answer": "10.8"
+  },
+  {
+    "question": "The decimal equivalent of the hexadecimal number 1F is:",
+    "options": [
+      "16",
+      "30",
+      "31",
+      "20"
+    ],
+    "answer": "31"
+  },
+  {
+    "question": "What is the function of a 'default gateway' in a network?",
+    "options": [
+      "It is the main computer on the network.",
+      "It is the device that provides a connection to the internet.",
+      "It is the device that nodes on a network use to communicate with nodes on a different network.",
+      "It is a security firewall."
+    ],
+    "answer": "It is the device that nodes on a network use to communicate with nodes on a different network."
+  },
+  {
+    "question": "In CSS, the ::before and ::after are examples of:",
+    "options": [
+      "Pseudo-classes",
+      "Pseudo-elements",
+      "Class selectors",
+      "ID selectors"
+    ],
+    "answer": "Pseudo-elements"
+  },
+  {
+    "question": "Which cloud computing model provides virtualized computing resources over the internet, including servers, storage, and networking?",
+    "options": [
+      "SaaS (Software as a Service)",
+      "PaaS (Platform as a Service)",
+      "IaaS (Infrastructure as a Service)",
+      "FaaS (Function as a Service)"
+    ],
+    "answer": "IaaS (Infrastructure as a Service)"
+  },
+  {
+    "question": "In MS Word, the 'Header and Footer' tools are located under which tab?",
+    "options": [
+      "Home",
+      "Insert",
+      "Design",
+      "Layout"
+    ],
+    "answer": "Insert"
+  },
+  {
+    "question": "What is the purpose of the 'CMOS battery' on a computer's motherboard?",
+    "options": [
+      "To power the entire computer.",
+      "To maintain the system's date, time, and BIOS settings when the power is off.",
+      "To provide power to the cooling fans.",
+      "To power the display monitor."
+    ],
+    "answer": "To maintain the system's date, time, and BIOS settings when the power is off."
+  },
+  {
+    "question": "In JavaScript, what is a Promise?",
+    "options": [
+      "An object representing the eventual completion (or failure) of an asynchronous operation.",
+      "A type of variable that cannot be changed.",
+      "A function that calls itself.",
+      "A syntax error."
+    ],
+    "answer": "An object representing the eventual completion (or failure) of an asynchronous operation."
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink that opens in a new browser tab?",
+    "options": [
+      "<a href=\"url\" target=\"_self\">",
+      "<a href=\"url\" target=\"_new\">",
+      "<a href=\"url\" target=\"_parent\">",
+      "<a href=\"url\" target=\"_blank\">"
+    ],
+    "answer": "<a href=\"url\" target=\"_blank\">"
+  },
+  {
+    "question": "What protocol is used for receiving emails and is suitable for users who want to access their mail from multiple devices?",
+    "options": [
+      "SMTP",
+      "POP3",
+      "IMAP",
+      "FTP"
+    ],
+    "answer": "IMAP"
+  },
+  {
+    "question": "A .mp4 file is a common format for:",
+    "options": [
+      "Audio files",
+      "Image files",
+      "Video files",
+      "Text documents"
+    ],
+    "answer": "Video files"
+  },
+  {
+    "question": "In SQL, the UNIQUE constraint ensures that:",
+    "options": [
+      "A column cannot have NULL values.",
+      "All values in a column are different.",
+      "All values are numeric.",
+      "The column is a primary key."
+    ],
+    "answer": "All values in a column are different."
+  },
+  {
+    "question": "Which feature in PowerPoint allows you to apply a consistent design, including colors, fonts, and effects, to your presentation?",
+    "options": [
+      "Animation",
+      "Theme",
+      "Transition",
+      "Layout"
+    ],
+    "answer": "Theme"
+  },
+  {
+    "question": "A logical network topology describes:",
+    "options": [
+      "The physical layout of the cables.",
+      "How data flows between devices on the network.",
+      "The type of computers on the network.",
+      "The speed of the network."
+    ],
+    "answer": "How data flows between devices on the network."
+  },
+  {
+    "question": "What is 'spear phishing'?",
+    "options": [
+      "A general phishing attack sent to many people.",
+      "A highly targeted phishing attack aimed at a specific individual or organization.",
+      "A phishing attack conducted over the phone.",
+      "A phishing attack that uses text messages."
+    ],
+    "answer": "A highly targeted phishing attack aimed at a specific individual or organization."
+  },
+  {
+    "question": "In MS Word, what does the shortcut Ctrl + L do?",
+    "options": [
+      "Center-aligns text.",
+      "Left-aligns text.",
+      "Right-aligns text.",
+      "Justifies text."
+    ],
+    "answer": "Left-aligns text."
+  },
+  {
+    "question": "What is a 'web host'?",
+    "options": [
+      "A company that provides the servers and services needed to make a website accessible on the internet.",
+      "The person who designs a website.",
+      "A software for building websites.",
+      "A type of internet connection."
+    ],
+    "answer": "A company that provides the servers and services needed to make a website accessible on the internet."
+  },
+  {
+    "question": "Which HTML tag represents the largest heading by default?",
+    "options": [
+      "<h6>",
+      "<heading>",
+      "<h1>",
+      "<head>"
+    ],
+    "answer": "<h1>"
+  },
+  {
+    "question": "The octal equivalent of the decimal number 7 is:",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "answer": "7"
+  },
+  {
+    "question": "Which of the following is a function of the Windows 'Taskbar'?",
+    "options": [
+      "To change system settings.",
+      "To store deleted files.",
+      "To display the Start menu and icons of currently running applications.",
+      "To manage files and folders."
+    ],
+    "answer": "To display the Start menu and icons of currently running applications."
+  },
+  {
+    "question": "What is a 'database transaction'?",
+    "options": [
+      "A single query to retrieve data.",
+      "A sequence of operations performed as a single logical unit of work.",
+      "The process of backing up a database.",
+      "The process of creating a new table."
+    ],
+    "answer": "A sequence of operations performed as a single logical unit of work."
+  },
+  {
+    "question": "Which of the following is a key component of 'E-commerce'?",
+    "options": [
+      "A physical storefront",
+      "Printed catalogs",
+      "An online shopping cart",
+      "In-person sales staff"
+    ],
+    "answer": "An online shopping cart"
+  },
+  {
+    "question": "The file format .psd is associated with which software?",
+    "options": [
+      "MS Paint",
+      "GIMP",
+      "Adobe Photoshop",
+      "CorelDRAW"
+    ],
+    "answer": "Adobe Photoshop"
+  },
+  {
+    "question": "In CSS, what is the purpose of 'media queries'?",
+    "options": [
+      "To embed video and audio files.",
+      "To query a database.",
+      "To apply different styles for different devices or screen sizes (e.g., desktop, mobile).",
+      "To add comments to the code."
+    ],
+    "answer": "To apply different styles for different devices or screen sizes (e.g., desktop, mobile)."
+  },
+  {
+    "question": "In Excel, what is the function of the Data Table What-If Analysis tool?",
+    "options": [
+      "To see the results of multiple different inputs in a formula at the same time.",
+      "To find the input needed to achieve a desired result.",
+      "To filter and sort data.",
+      "To create a chart."
+    ],
+    "answer": "To see the results of multiple different inputs in a formula at the same time."
+  },
+  {
+    "question": "What does 'RAM' stand for?",
+    "options": [
+      "Read-Only Memory",
+      "Random Access Memory",
+      "Readily Available Memory",
+      "Run-time Application Memory"
+    ],
+    "answer": "Random Access Memory"
+  },
+  {
+    "question": "In JavaScript, what does the confirm() function do?",
+    "options": [
+      "It displays a simple message with an OK button.",
+      "It displays a dialog box with a message and OK and Cancel buttons.",
+      "It displays a dialog box that prompts the user for input.",
+      "It logs a confirmation message to the console."
+    ],
+    "answer": "It displays a dialog box with a message and OK and Cancel buttons."
+  },
+  {
+    "question": "Which Linux command is used to display the contents of a text file one screen at a time?",
+    "options": [
+      "cat",
+      "less or more",
+      "show",
+      "type"
+    ],
+    "answer": "less or more"
+  },
+  {
+    "question": "What is the primary goal of a 'patch'?",
+    "options": [
+      "To add new features to a software.",
+      "To fix bugs or security vulnerabilities in a software.",
+      "To uninstall a software.",
+      "To change the appearance of a software."
+    ],
+    "answer": "To fix bugs or security vulnerabilities in a software."
+  },
+  {
+    "question": "'System Restore' in Windows is a feature that allows a user to:",
+    "options": [
+      "Delete all personal files.",
+      "Revert their computer's state to that of a previous point in time.",
+      "Install a new operating system.",
+      "Increase the computer's performance."
+    ],
+    "answer": "Revert their computer's state to that of a previous point in time."
+  },
+  {
+    "question": "In MS Word, the 'Page Layout' tab was renamed to what in more recent versions?",
+    "options": [
+      "Design",
+      "Layout",
+      "References",
+      "View"
+    ],
+    "answer": "Layout"
+  },
+  {
+    "question": "An 'HDD' (Hard Disk Drive) is a type of:",
+    "options": [
+      "Volatile memory",
+      "Non-volatile, magnetic storage",
+      "Solid-state storage",
+      "Optical storage"
+    ],
+    "answer": "Non-volatile, magnetic storage"
+  },
+  {
+    "question": "In CSS, which property is used to change the background of an element?",
+    "options": [
+      "background",
+      "color",
+      "fill",
+      "bg-style"
+    ],
+    "answer": "background"
+  },
+  {
+    "question": "What is an 'IDE' (Integrated Development Environment)?",
+    "options": [
+      "A type of operating system.",
+      "A software application that provides comprehensive facilities for software development.",
+      "A computer hardware component.",
+      "A network protocol."
+    ],
+    "answer": "A software application that provides comprehensive facilities for software development."
+  },
+  {
+    "question": "Which of the following is a 'peer-to-peer' payment system?",
+    "options": [
+      "Credit Card",
+      "Bank Transfer",
+      "Bitcoin",
+      "Cheque"
+    ],
+    "answer": "Bitcoin"
+  },
+  {
+    "question": "What does the HTML <em> tag represent?",
+    "options": [
+      "A bold text",
+      "A list item",
+      "An emphasized text (typically italic)",
+      "An important text"
+    ],
+    "answer": "An emphasized text (typically italic)"
+  },
+  {
+    "question": "The concept of running one operating system inside of another is called:",
+    "options": [
+      "Multibooting",
+      "Virtualization",
+      "Emulation",
+      "Simulation"
+    ],
+    "answer": "Virtualization"
+  },
+  {
+    "question": "In Excel, what is the character used for multiplication?",
+    "options": [
+      "x",
+      "#",
+      "*",
+      "&"
+    ],
+    "answer": "*"
+  }
+]
+        },
+        "sample-12": {
+            "title": "Sample Paper - Set 12",
+            "questions": 
+            [
+  {
+    "question": "Which of the following is responsible for managing the computer's memory and processes?",
+    "options": [
+      "Application Software",
+      "Device Driver",
+      "Operating System",
+      "System BIOS"
+    ],
+    "answer": "Operating System"
+  },
+  {
+    "question": "In HTML, the <a> tag is used to create a hyperlink. Which attribute specifies the destination URL?",
+    "options": [
+      "src",
+      "link",
+      "href",
+      "url"
+    ],
+    "answer": "href"
+  },
+  {
+    "question": "What is the function of the 'Format Painter' in MS Word?",
+    "options": [
+      "To paint the background of the page.",
+      "To copy formatting from one place and apply it to another.",
+      "To create custom art and shapes.",
+      "To change the color of the text."
+    ],
+    "answer": "To copy formatting from one place and apply it to another."
+  },
+  {
+    "question": "A cyber attack that redirects a user from a legitimate website to a fraudulent one without their knowledge is known as:",
+    "options": [
+      "Pharming",
+      "Phishing",
+      "Vishing",
+      "Spamming"
+    ],
+    "answer": "Pharming"
+  },
+  {
+    "question": "In SQL, which command is used to retrieve data from a database?",
+    "options": [
+      "GET",
+      "FETCH",
+      "SELECT",
+      "OPEN"
+    ],
+    "answer": "SELECT"
+  },
+  {
+    "question": "Which type of computer memory can be read from and written to, but loses its content when the power is off?",
+    "options": [
+      "ROM",
+      "RAM",
+      "PROM",
+      "EPROM"
+    ],
+    "answer": "RAM"
+  },
+  {
+    "question": "In CSS, which property is used to change the color of text?",
+    "options": [
+      "text-color",
+      "font-color",
+      "color",
+      "foreground-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "question": "Which Excel feature allows you to filter data in a range or table?",
+    "options": [
+      "Data Validation",
+      "AutoFilter",
+      "Conditional Formatting",
+      "Slicer"
+    ],
+    "answer": "AutoFilter"
+  },
+  {
+    "question": "What does the acronym 'Wi-Fi' stand for?",
+    "options": [
+      "Wireless Functionality",
+      "Web Fidelity",
+      "Wireless Fidelity",
+      "Wide Fidelity"
+    ],
+    "answer": "Wireless Fidelity"
+  },
+  {
+    "question": "In JavaScript, which symbol is used for single-line comments?",
+    "options": [
+      "``",
+      "/* */",
+      "//",
+      "##"
+    ],
+    "answer": "//"
+  },
+  {
+    "question": "Which of the following is a text-based user interface where the user types commands?",
+    "options": [
+      "GUI (Graphical User Interface)",
+      "CLI (Command-Line Interface)",
+      "API (Application Programming Interface)",
+      "VUI (Voice User Interface)"
+    ],
+    "answer": "CLI (Command-Line Interface)"
+  },
+  {
+    "question": "In MS PowerPoint, what is the shortcut to create a new, blank presentation?",
+    "options": [
+      "Ctrl + P",
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + N"
+    ],
+    "answer": "Ctrl + N"
+  },
+  {
+    "question": "In a relational database, what is a 'row' also known as?",
+    "options": [
+      "An attribute",
+      "A tuple or record",
+      "A field",
+      "A relation"
+    ],
+    "answer": "A tuple or record"
+  },
+  {
+    "question": "The binary number system uses which digits?",
+    "options": [
+      "0 and 1",
+      "0 through 9",
+      "1 and 2",
+      "0 through 7"
+    ],
+    "answer": "0 and 1"
+  },
+  {
+    "question": "What is the purpose of the <img> tag in HTML?",
+    "options": [
+      "To create a table",
+      "To insert an image",
+      "To make text italic",
+      "To create a link"
+    ],
+    "answer": "To insert an image"
+  },
+  {
+    "question": "A 'botnet' is a network of:",
+    "options": [
+      "Secure servers used for backups",
+      "Computers infected with malware and controlled as a group",
+      "Network administrators",
+      "Wireless routers"
+    ],
+    "answer": "Computers infected with malware and controlled as a group"
+  },
+  {
+    "question": "Which shortcut key in MS Word is used to center-align text?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + L",
+      "Ctrl + J",
+      "Ctrl + E"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "The standard protocol suite for the internet is:",
+    "options": [
+      "OSI",
+      "TCP/IP",
+      "NetBEUI",
+      "IPX/SPX"
+    ],
+    "answer": "TCP/IP"
+  },
+  {
+    "question": "What does the acronym 'URL' mean?",
+    "options": [
+      "Uniform Resource Link",
+      "Universal Resource Locator",
+      "Uniform Resource Locator",
+      "Universal Reference Link"
+    ],
+    "answer": "Uniform Resource Locator"
+  },
+  {
+    "question": "In CSS, which selector is used to specify a style for a unique element?",
+    "options": [
+      "class selector",
+      "tag selector",
+      "id selector",
+      "universal selector"
+    ],
+    "answer": "id selector"
+  },
+  {
+    "question": "A program that appears to be useful but also has a malicious function is a:",
+    "options": [
+      "Worm",
+      "Spyware",
+      "Trojan Horse",
+      "Virus"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "In Excel, which function is used to add up a range of numbers?",
+    "options": [
+      "TOTAL()",
+      "SUM()",
+      "ADD()",
+      "CALCULATE()"
+    ],
+    "answer": "SUM()"
+  },
+  {
+    "question": "Which part of the computer is often called its 'brain'?",
+    "options": [
+      "Monitor",
+      "Keyboard",
+      "Central Processing Unit (CPU)",
+      "Motherboard"
+    ],
+    "answer": "Central Processing Unit (CPU)"
+  },
+  {
+    "question": "In JavaScript, what is the result of 5 == '5'?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "error"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "Which HTML tag is used to create a table heading?",
+    "options": [
+      "<thead>",
+      "<td>",
+      "<th>",
+      "<t-head>"
+    ],
+    "answer": "<th>"
+  },
+  {
+    "question": "What is the function of the telnet protocol?",
+    "options": [
+      "To transfer files",
+      "To send emails",
+      "To provide a command-line interface to a remote computer",
+      "To browse websites securely"
+    ],
+    "answer": "To provide a command-line interface to a remote computer"
+  },
+  {
+    "question": "What does the .xlsx file extension indicate?",
+    "options": [
+      "An MS Word document",
+      "An MS PowerPoint presentation",
+      "An MS Excel workbook",
+      "An MS Access database"
+    ],
+    "answer": "An MS Excel workbook"
+  },
+  {
+    "question": "In database design, the process of organizing columns and tables to minimize data redundancy is called:",
+    "options": [
+      "Indexing",
+      "Normalization",
+      "Querying",
+      "Sorting"
+    ],
+    "answer": "Normalization"
+  },
+  {
+    "question": "Which 'view' in PowerPoint allows you to see thumbnail versions of all your slides in one screen?",
+    "options": [
+      "Normal View",
+      "Slide Sorter View",
+      "Notes Page View",
+      "Reading View"
+    ],
+    "answer": "Slide Sorter View"
+  },
+  {
+    "question": "Which device connects multiple computers in a LAN and intelligently forwards data to its intended destination?",
+    "options": [
+      "Hub",
+      "Repeater",
+      "Modem",
+      "Switch"
+    ],
+    "answer": "Switch"
+  },
+  {
+    "question": "In a database, a 'column' is also referred to as a(n):",
+    "options": [
+      "Record",
+      "Table",
+      "Attribute or Field",
+      "Tuple"
+    ],
+    "answer": "Attribute or Field"
+  },
+  {
+    "question": "What does the 'S' in HTTPS stand for?",
+    "options": [
+      "Standard",
+      "System",
+      "Secure",
+      "Server"
+    ],
+    "answer": "Secure"
+  },
+  {
+    "question": "The .gif file format is ideal for:",
+    "options": [
+      "High-resolution photos",
+      "Vector graphics",
+      "Audio files",
+      "Simple animations and graphics with few colors"
+    ],
+    "answer": "Simple animations and graphics with few colors"
+  },
+  {
+    "question": "Which of these is NOT a web browser?",
+    "options": [
+      "Google Chrome",
+      "Mozilla Firefox",
+      "Adobe Photoshop",
+      "Microsoft Edge"
+    ],
+    "answer": "Adobe Photoshop"
+  },
+  {
+    "question": "The hexadecimal equivalent of the decimal number 15 is:",
+    "options": [
+      "E",
+      "F",
+      "15",
+      "A"
+    ],
+    "answer": "F"
+  },
+  {
+    "question": "In Word, 'Portrait' and 'Landscape' are types of:",
+    "options": [
+      "Page Size",
+      "Page Orientation",
+      "Page Margin",
+      "Font Style"
+    ],
+    "answer": "Page Orientation"
+  },
+  {
+    "question": "What is the primary purpose of a 'cookie' in web browsing?",
+    "options": [
+      "To store viruses",
+      "To store information on a user's computer to track preferences and session data",
+      "To block advertisements",
+      "To increase browsing speed"
+    ],
+    "answer": "To store information on a user's computer to track preferences and session data"
+  },
+  {
+    "question": "Which SQL clause is used to filter results of an aggregate function?",
+    "options": [
+      "WHERE",
+      "GROUP BY",
+      "HAVING",
+      "FILTER"
+    ],
+    "answer": "HAVING"
+  },
+  {
+    "question": "The physical layout of computers and devices in a network is known as:",
+    "options": [
+      "Protocol",
+      "Circuit",
+      "Pathway",
+      "Topology"
+    ],
+    "answer": "Topology"
+  },
+  {
+    "question": "Which of the following is an example of 'Utility Software'?",
+    "options": [
+      "MS Excel",
+      "A video game",
+      "Disk Defragmenter",
+      "A web browser"
+    ],
+    "answer": "Disk Defragmenter"
+  },
+  {
+    "question": "In HTML, what is the correct tag for inserting a line break?",
+    "options": [
+      "<break>",
+      "<lb>",
+      "<br>",
+      "<newline>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "question": "'Spam' is another term for:",
+    "options": [
+      "A computer virus",
+      "Unsolicited junk email",
+      "A security patch",
+      "A hardware failure"
+    ],
+    "answer": "Unsolicited junk email"
+  },
+  {
+    "question": "Which MS Excel chart type is best for showing the relationship between two sets of values?",
+    "options": [
+      "Pie Chart",
+      "Bar Chart",
+      "Scatter (XY) Chart",
+      "Line Chart"
+    ],
+    "answer": "Scatter (XY) Chart"
+  },
+  {
+    "question": "Which part of the operating system is the core, central component that manages everything?",
+    "options": [
+      "The Shell",
+      "The Kernel",
+      "The User Interface",
+      "The API"
+    ],
+    "answer": "The Kernel"
+  },
+  {
+    "question": "What is the result of the JavaScript expression 2 + '2'?",
+    "options": [
+      "4",
+      "22",
+      "error",
+      "undefined"
+    ],
+    "answer": "22"
+  },
+  {
+    "question": "What is the main function of the 'motherboard'?",
+    "options": [
+      "To perform calculations",
+      "To provide the main circuit board that connects all other components",
+      "To store the operating system",
+      "To display output"
+    ],
+    "answer": "To provide the main circuit board that connects all other components"
+  },
+  {
+    "question": "The TRUNCATE TABLE command in SQL:",
+    "options": [
+      "Deletes all data from a table quickly, but does not delete the table itself",
+      "Deletes the table structure and data",
+      "Deletes only specific rows based on a condition",
+      "Renames a table"
+    ],
+    "answer": "Deletes all data from a table quickly, but does not delete the table itself"
+  },
+  {
+    "question": "In a URL like http://www.example.com, what is .com?",
+    "options": [
+      "The domain name",
+      "The protocol",
+      "The Top-Level Domain (TLD)",
+      "The sub-domain"
+    ],
+    "answer": "The Top-Level Domain (TLD)"
+  },
+  {
+    "question": "Which of the following is a 'client-side' scripting language?",
+    "options": [
+      "PHP",
+      "Python",
+      "JavaScript",
+      "Java"
+    ],
+    "answer": "JavaScript"
+  },
+  {
+    "question": "What is a 'firewall' designed to do?",
+    "options": [
+      "Speed up your computer",
+      "Prevent unauthorized access to or from a private network",
+      "Clean your hard drive of unnecessary files",
+      "Organize your files and folders"
+    ],
+    "answer": "Prevent unauthorized access to or from a private network"
+  },
+  {
+    "question": "The 'ribbon' in MS Office applications is:",
+    "options": [
+      "The scroll bar on the side",
+      "The status bar at the bottom",
+      "The user interface element that groups commands into tabs",
+      "The title bar at the top"
+    ],
+    "answer": "The user interface element that groups commands into tabs"
+  },
+  {
+    "question": "What does the acronym 'LAN' stand for?",
+    "options": [
+      "Large Area Network",
+      "Local Area Network",
+      "Logical Access Network",
+      "Limited Area Network"
+    ],
+    "answer": "Local Area Network"
+  },
+  {
+    "question": "Which of the following describes a 'strong password'?",
+    "options": [
+      "Your name followed by your birth year",
+      "A common dictionary word",
+      "A mix of uppercase letters, lowercase letters, numbers, and symbols",
+      "The word 'password'"
+    ],
+    "answer": "A mix of uppercase letters, lowercase letters, numbers, and symbols"
+  },
+  {
+    "question": "In CSS, what does the * selector do?",
+    "options": [
+      "Selects the first element",
+      "Selects elements with a specific class",
+      "Selects all elements on the page",
+      "Selects the element with a specific ID"
+    ],
+    "answer": "Selects all elements on the page"
+  },
+  {
+    "question": "Which protocol is responsible for assigning IP addresses automatically in a network?",
+    "options": [
+      "DNS",
+      "HTTP",
+      "FTP",
+      "DHCP"
+    ],
+    "answer": "DHCP"
+  },
+  {
+    "question": "What is the DELETE statement in SQL used for?",
+    "options": [
+      "To delete an entire table",
+      "To delete an entire database",
+      "To delete one or more rows from a table",
+      "To delete a column"
+    ],
+    "answer": "To delete one or more rows from a table"
+  },
+  {
+    "question": "Which view in MS Word is helpful for seeing the structure of a document based on headings?",
+    "options": [
+      "Print Layout",
+      "Web Layout",
+      "Read Mode",
+      "Outline View"
+    ],
+    "answer": "Outline View"
+  },
+  {
+    "question": "The term 'Cloud Computing' means:",
+    "options": [
+      "Storing data on your personal computer",
+      "Storing and accessing data and programs over the internet",
+      "Using a wireless network",
+      "A new type of weather forecasting"
+    ],
+    "answer": "Storing and accessing data and programs over the internet"
+  },
+  {
+    "question": "Which of the following is a type of non-volatile memory?",
+    "options": [
+      "RAM",
+      "Cache",
+      "Registers",
+      "SSD (Solid-State Drive)"
+    ],
+    "answer": "SSD (Solid-State Drive)"
+  },
+  {
+    "question": "What is the purpose of the 'BCC' field in an email?",
+    "options": [
+      "To send a 'Blind Carbon Copy,' hiding the recipient's address from others",
+      "To attach a file",
+      "To mark an email as important",
+      "To forward an email"
+    ],
+    "answer": "To send a 'Blind Carbon Copy,' hiding the recipient's address from others"
+  },
+  {
+    "question": "In Excel, the AVERAGEIF function:",
+    "options": [
+      "Finds the average of all numbers in a range",
+      "Finds the average of cells that meet a single criterion",
+      "Finds the average of cells that meet multiple criteria",
+      "Averages two different ranges"
+    ],
+    "answer": "Finds the average of cells that meet a single criterion"
+  },
+  {
+    "question": "The ping command is used to:",
+    "options": [
+      "Transfer files",
+      "Check network connectivity",
+      "Browse websites",
+      "Send emails"
+    ],
+    "answer": "Check network connectivity"
+  },
+  {
+    "question": "Which of the following is NOT an operating system?",
+    "options": [
+      "Android",
+      "iOS",
+      "Linux",
+      "Microsoft Office"
+    ],
+    "answer": "Microsoft Office"
+  },
+  {
+    "question": "The <table> tag in HTML is used to create a:",
+    "options": [
+      "List",
+      "Paragraph",
+      "Table for displaying data",
+      "Link"
+    ],
+    "answer": "Table for displaying data"
+  },
+  {
+    "question": "'Phishing' is a cyber attack that attempts to:",
+    "options": [
+      "Slow down a network",
+      "Shut down a website",
+      "Acquire sensitive information like usernames and passwords by masquerading as a trustworthy entity",
+      "Encrypt a user's files"
+    ],
+    "answer": "Acquire sensitive information like usernames and passwords by masquerading as a trustworthy entity"
+  },
+  {
+    "question": "What is the function of an 'interpreter'?",
+    "options": [
+      "To convert a whole program into machine code at once",
+      "To translate and execute a program line by line",
+      "To link object code into an executable file",
+      "To check for syntax errors after compilation"
+    ],
+    "answer": "To translate and execute a program line by line"
+  },
+  {
+    "question": "Which MS Word shortcut makes the selected text bold?",
+    "options": [
+      "Ctrl + I",
+      "Ctrl + U",
+      "Ctrl + B",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + B"
+  },
+  {
+    "question": "A 'web browser cache' is used to:",
+    "options": [
+      "Store passwords securely",
+      "Store temporary data from websites to speed up page loading",
+      "Block unwanted advertisements",
+      "Scan for computer viruses"
+    ],
+    "answer": "Store temporary data from websites to speed up page loading"
+  },
+  {
+    "question": "In a database, what is the purpose of an 'index'?",
+    "options": [
+      "To summarize the data in a table",
+      "To secure the database",
+      "To speed up the retrieval of rows from a table",
+      "To store data in a different format"
+    ],
+    "answer": "To speed up the retrieval of rows from a table"
+  },
+  {
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": [
+      "class",
+      "font",
+      "styles",
+      "style"
+    ],
+    "answer": "style"
+  },
+  {
+    "question": "The physical components of a computer system are known as:",
+    "options": [
+      "Software",
+      "Firmware",
+      "Hardware",
+      "Malware"
+    ],
+    "answer": "Hardware"
+  },
+  {
+    "question": "What does the acronym 'RAM' stand for?",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Run-time Access Memory",
+      "Real-time Access Memory"
+    ],
+    "answer": "Random Access Memory"
+  },
+  {
+    "question": "In PowerPoint, which tab contains the options for inserting pictures, shapes, and charts?",
+    "options": [
+      "Home",
+      "Design",
+      "Transitions",
+      "Insert"
+    ],
+    "answer": "Insert"
+  },
+  {
+    "question": "Which Linux command is used to change directory?",
+    "options": [
+      "chdir",
+      "chd",
+      "cd",
+      "cldir"
+    ],
+    "answer": "cd"
+  },
+  {
+    "question": "A 'repeater' is a network device used to:",
+    "options": [
+      "Connect two different types of networks",
+      "Filter network traffic",
+      "Regenerate and retransmit a signal to extend its range",
+      "Assign IP addresses"
+    ],
+    "answer": "Regenerate and retransmit a signal to extend its range"
+  },
+  {
+    "question": "In which city of Madhya Pradesh is the 'Jai Vilas Palace' located?",
+    "options": [
+      "Bhopal",
+      "Indore",
+      "Gwalior",
+      "Jabalpur"
+    ],
+    "answer": "Gwalior"
+  },
+  {
+    "question": "Who is the current President of India? (as of mid-2024)",
+    "options": [
+      "Ram Nath Kovind",
+      "Pranab Mukherjee",
+      "Droupadi Murmu",
+      "Pratibha Patil"
+    ],
+    "answer": "Droupadi Murmu"
+  },
+  {
+    "question": "The headquarters of the World Health Organization (WHO) is located in:",
+    "options": [
+      "New York, USA",
+      "London, UK",
+      "Paris, France",
+      "Geneva, Switzerland"
+    ],
+    "answer": "Geneva, Switzerland"
+  },
+  {
+    "question": "The Narmada River originates from which place in Madhya Pradesh?",
+    "options": [
+      "Amarkantak",
+      "Pachmarhi",
+      "Mhow",
+      "Betul"
+    ],
+    "answer": "Amarkantak"
+  },
+  {
+    "question": "Who wrote the Indian National Anthem, 'Jana Gana Mana'?",
+    "options": [
+      "Bankim Chandra Chatterjee",
+      "Rabindranath Tagore",
+      "Muhammad Iqbal",
+      "Sarojini Naidu"
+    ],
+    "answer": "Rabindranath Tagore"
+  },
+  {
+    "question": "Which of the following launched the 'RESET' Programme for Retired Sportspersons in August 2024?",
+    "options": [
+      "Dharmendra Pradhan",
+      "Revanth Reddy",
+      "Nayab Singh Saini",
+      "Dr. Mansukh Mandaviya"
+    ],
+    "answer": "Dr. Mansukh Mandaviya"
+  },
+  {
+    "question": "The deficiency of Vitamin D causes which disease?",
+    "options": [
+      "Scurvy",
+      "Beriberi",
+      "Rickets",
+      "Night blindness"
+    ],
+    "answer": "Rickets"
+  },
+  {
+    "question": "What is the common name for the chemical compound CaCO₃?",
+    "options": [
+      "Common Salt",
+      "Baking Soda",
+      "Limestone",
+      "Vinegar"
+    ],
+    "answer": "Limestone"
+  },
+  {
+    "question": "What is the unit of electric potential difference?",
+    "options": [
+      "Ampere",
+      "Ohm",
+      "Volt",
+      "Watt"
+    ],
+    "answer": "Volt"
+  },
+  {
+    "question": "What is the function of the RAM in a computer?",
+    "options": [
+      "Long-term storage",
+      "Temporary storage for data and programs currently in use",
+      "Processing instructions",
+      "Displaying output"
+    ],
+    "answer": "Temporary storage for data and programs currently in use"
+  },
+  {
+    "question": "Who is credited with inventing the World Wide Web?",
+    "options": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Tim Berners-Lee",
+      "Linus Torvalds"
+    ],
+    "answer": "Tim Berners-Lee"
+  },
+  {
+    "question": "The file extension .jpg is used for what type of file?",
+    "options": [
+      "Text",
+      "Audio",
+      "Video",
+      "Image"
+    ],
+    "answer": "Image"
+  },
+  {
+    "question": "A set of rules for communication between devices is called a:",
+    "options": [
+      "Network",
+      "Topology",
+      "Protocol",
+      "Host"
+    ],
+    "answer": "Protocol"
+  },
+  {
+    "question": "Which of the following is NOT an input device?",
+    "options": [
+      "Keyboard",
+      "Mouse",
+      "Printer",
+      "Scanner"
+    ],
+    "answer": "Printer"
+  },
+  {
+    "question": "A 'folder' on a computer is used to:",
+    "options": [
+      "Run programs",
+      "Connect to the internet",
+      "Organize files",
+      "Change system settings"
+    ],
+    "answer": "Organize files"
+  },
+  {
+    "question": "Find the next number in the series: 4, 7, 11, 16, 22, ?",
+    "options": [
+      "27",
+      "29",
+      "31",
+      "33"
+    ],
+    "answer": "29"
+  },
+  {
+    "question": "'India' is to 'New Delhi' as 'France' is to:",
+    "options": [
+      "Berlin",
+      "Rome",
+      "Paris",
+      "Madrid"
+    ],
+    "answer": "Paris"
+  },
+  {
+    "question": "If PEN is coded as 16514, what is the code for DOG?",
+    "options": [
+      "4157",
+      "4158",
+      "5168",
+      "4147"
+    ],
+    "answer": "4157"
+  },
+  {
+    "question": "If you rearrange the letters 'RAPIS', you would get the name of a:",
+    "options": [
+      "Country",
+      "City",
+      "Animal",
+      "River"
+    ],
+    "answer": "City"
+  },
+  {
+    "question": "Find the odd one out: January, February, March, April.",
+    "options": [
+      "January",
+      "February",
+      "March",
+      "April"
+    ],
+    "answer": "February"
+  },
+  {
+    "question": "A man walks 3 km east and then turns south and walks 4 km. How far is he from the starting point?",
+    "options": [
+      "5 km",
+      "7 km",
+      "1 km",
+      "12 km"
+    ],
+    "answer": "5 km"
+  },
+  {
+    "question": "The average of 10, 20, and 30 is:",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "60"
+    ],
+    "answer": "20"
+  },
+  {
+    "question": "If x + 10 = 15, what is the value of x?",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "25"
+    ],
+    "answer": "5"
+  },
+  {
+    "question": "A product costing Rs. 150 is sold at a 20% profit. What is the selling price?",
+    "options": [
+      "Rs. 170",
+      "Rs. 180",
+      "Rs. 190",
+      "Rs. 200"
+    ],
+    "answer": "Rs. 180"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with a length of 10 cm and a width of 5 cm?",
+    "options": [
+      "15 cm",
+      "25 cm",
+      "30 cm",
+      "50 cm"
+    ],
+    "answer": "30 cm"
+  }
+]
+            },
+            "sample-13": {
+                "title": "Sample Paper - Set 13",
+                "questions": [
+  {
+    "question": "Which of the following is an example of an application software?",
+    "options": [
+      "Windows 10",
+      "Linux",
+      "Microsoft Excel",
+      "BIOS"
+    ],
+    "answer": "Microsoft Excel"
+  },
+  {
+    "question": "In HTML, which tag is used to create a line break, forcing subsequent text or elements to the next line?",
+    "options": [
+      "<lb>",
+      "<newline>",
+      "<br>",
+      "<break>"
+    ],
+    "answer": "<br>"
+  },
+  {
+    "question": "In MS Word, the 'Gutter Margin' is used for what purpose?",
+    "options": [
+      "To set the top margin.",
+      "To set the bottom margin.",
+      "To add extra space to the margin for binding.",
+      "To set the space between columns."
+    ],
+    "answer": "To add extra space to the margin for binding."
+  },
+  {
+    "question": "A Denial-of-Service (DoS) attack is designed to:",
+    "options": [
+      "Steal sensitive data.",
+      "Make a network resource or service unavailable to its intended users.",
+      "Install a virus on a computer.",
+      "Modify website content."
+    ],
+    "answer": "Make a network resource or service unavailable to its intended users."
+  },
+  {
+    "question": "Which SQL command is used to retrieve data from one or more tables based on a related column?",
+    "options": [
+      "MERGE",
+      "COMBINE",
+      "JOIN",
+      "UNION"
+    ],
+    "answer": "JOIN"
+  },
+  {
+    "question": "What does SSD stand for in computer storage?",
+    "options": [
+      "Solid-State Drive",
+      "Software Storage Device",
+      "System Storage Drive",
+      "Secure Storage Disk"
+    ],
+    "answer": "Solid-State Drive"
+  },
+  {
+    "question": "In CSS, which property is used to change the font of an element?",
+    "options": [
+      "font-style",
+      "font-family",
+      "text-family",
+      "typeface"
+    ],
+    "answer": "font-family"
+  },
+  {
+    "question": "In MS PowerPoint, what is the primary function of the 'Animation Pane'?",
+    "options": [
+      "To change the slide's background.",
+      "To view, reorder, and modify the animation effects on a slide.",
+      "To insert a new slide.",
+      "To add speaker notes."
+    ],
+    "answer": "To view, reorder, and modify the animation effects on a slide."
+  },
+  {
+    "question": "Which network topology involves connecting all devices in a circle, with data passing from one device to the next?",
+    "options": [
+      "Star",
+      "Bus",
+      "Mesh",
+      "Ring"
+    ],
+    "answer": "Ring"
+  },
+  {
+    "question": "In JavaScript, what is the purpose of an 'arrow function' =>?",
+    "options": [
+      "It provides a shorter syntax for writing function expressions.",
+      "It is used for mathematical division.",
+      "It points to a specific HTML element.",
+      "It is used to create comments."
+    ],
+    "answer": "It provides a shorter syntax for writing function expressions."
+  },
+  {
+    "question": "Which Linux command is used to search for files in a directory hierarchy?",
+    "options": [
+      "grep",
+      "find",
+      "search",
+      "locate"
+    ],
+    "answer": "find"
+  },
+  {
+    "question": "In MS Word, what is the purpose of a 'Watermark'?",
+    "options": [
+      "To insert page numbers.",
+      "To add a border to the page.",
+      "To insert a faint, ghosted text or image behind the main content.",
+      "To check for spelling mistakes."
+    ],
+    "answer": "To insert a faint, ghosted text or image behind the main content."
+  },
+  {
+    "question": "In a database, 'data integrity' refers to:",
+    "options": [
+      "The speed of data access.",
+      "The security of the data.",
+      "The overall accuracy, completeness, and consistency of data.",
+      "The physical size of the database."
+    ],
+    "answer": "The overall accuracy, completeness, and consistency of data."
+  },
+  {
+    "question": "In an operating system, a 'deadlock' is a situation where:",
+    "options": [
+      "The system crashes due to a hardware failure.",
+      "Two or more processes are blocked forever, waiting for each other.",
+      "The system runs out of memory.",
+      "A virus has infected the system."
+    ],
+    "answer": "Two or more processes are blocked forever, waiting for each other."
+  },
+  {
+    "question": "Which HTML tag is used to embed a video file in a webpage?",
+    "options": [
+      "<media>",
+      "<video>",
+      "<movie>",
+      "<img>"
+    ],
+    "answer": "<video>"
+  },
+  {
+    "question": "What is 'Two-Factor Authentication' (2FA)?",
+    "options": [
+      "Using two different antivirus programs.",
+      "A security method that requires two forms of identification to grant access.",
+      "Encrypting your data twice.",
+      "Having two passwords for the same account."
+    ],
+    "answer": "A security method that requires two forms of identification to grant access."
+  },
+  {
+    "question": "In MS Excel, what is the purpose of the VLOOKUP function?",
+    "options": [
+      "To look up a value in a column and return its average.",
+      "To look for a value in the leftmost column of a table, and then return a value in the same row from a column you specify.",
+      "To look up a value horizontally.",
+      "To validate data in a cell."
+    ],
+    "answer": "To look for a value in the leftmost column of a table, and then return a value in the same row from a column you specify."
+  },
+  {
+    "question": "The octal number system has a base of:",
+    "options": [
+      "2",
+      "16",
+      "10",
+      "8"
+    ],
+    "answer": "8"
+  },
+  {
+    "question": "What is the function of the ICMP (Internet Control Message Protocol)?",
+    "options": [
+      "To transfer files.",
+      "To send error messages and operational information indicating success or failure when communicating with another IP address.",
+      "To browse websites.",
+      "To send emails."
+    ],
+    "answer": "To send error messages and operational information indicating success or failure when communicating with another IP address."
+  },
+  {
+    "question": "In CSS, display: grid; is used to:",
+    "options": [
+      "Create a single-line flexible layout.",
+      "Hide an element.",
+      "Create a two-dimensional grid-based layout.",
+      "Make an element inline."
+    ],
+    "answer": "Create a two-dimensional grid-based layout."
+  },
+  {
+    "question": "Which of the following is an example of an 'e-wallet'?",
+    "options": [
+      "A physical credit card",
+      "Google Pay or Paytm",
+      "A bank's website",
+      "An ATM"
+    ],
+    "answer": "Google Pay or Paytm"
+  },
+  {
+    "question": "In MS Word, the 'Mailings' tab is used to:",
+    "options": [
+      "Send the document as an email attachment.",
+      "Create envelopes, labels, and personalized mass mailings (Mail Merge).",
+      "Check the word count.",
+      "Change the page layout."
+    ],
+    "answer": "Create envelopes, labels, and personalized mass mailings (Mail Merge)."
+  },
+  {
+    "question": "Which of the following is a type of computer port used for connecting displays?",
+    "options": [
+      "Ethernet",
+      "USB",
+      "VGA",
+      "PS/2"
+    ],
+    "answer": "VGA"
+  },
+  {
+    "question": "In JavaScript, what does the const keyword do?",
+    "options": [
+      "Declares a variable that can be changed.",
+      "Declares a block-scoped constant that cannot be reassigned.",
+      "Declares a function.",
+      "Creates a comment."
+    ],
+    "answer": "Declares a block-scoped constant that cannot be reassigned."
+  },
+  {
+    "question": "Which HTML tag defines a thematic break in a page, often displayed as a horizontal line?",
+    "options": [
+      "<break>",
+      "<line>",
+      "<hr>",
+      "<div>"
+    ],
+    "answer": "<hr>"
+  },
+  {
+    "question": "What is the primary function of a DNS server?",
+    "options": [
+      "To host websites.",
+      "To secure network traffic.",
+      "To translate domain names into IP addresses.",
+      "To manage email accounts."
+    ],
+    "answer": "To translate domain names into IP addresses."
+  },
+  {
+    "question": "A .pptx file is created by which application?",
+    "options": [
+      "MS Word",
+      "MS Excel",
+      "MS PowerPoint",
+      "MS Access"
+    ],
+    "answer": "MS PowerPoint"
+  },
+  {
+    "question": "In SQL, what is the difference between DDL (Data Definition Language) and DML (Data Manipulation Language)?",
+    "options": [
+      "DDL is used for querying data, while DML is for defining table structures.",
+      "DDL is used to define and manage the database structure (e.g., CREATE, ALTER), while DML is used to manage the data within it (e.g., INSERT, UPDATE).",
+      "DDL is for managing users, while DML is for managing data.",
+      "There is no difference."
+    ],
+    "answer": "DDL is used to define and manage the database structure (e.g., CREATE, ALTER), while DML is used to manage the data within it (e.g., INSERT, UPDATE)."
+  },
+  {
+    "question": "Which feature in PowerPoint helps you align objects on a slide?",
+    "options": [
+      "Animations",
+      "Transitions",
+      "Grids and Guides",
+      "Themes"
+    ],
+    "answer": "Grids and Guides"
+  },
+  {
+    "question": "Which network device is necessary to connect your home network to the internet?",
+    "options": [
+      "Hub",
+      "Switch",
+      "Modem",
+      "Repeater"
+    ],
+    "answer": "Modem"
+  },
+  {
+    "question": "In a database, a 'candidate key' is:",
+    "options": [
+      "A key that references another table.",
+      "An attribute or set of attributes that could potentially be a primary key.",
+      "A key used only for sorting.",
+      "A temporary key."
+    ],
+    "answer": "An attribute or set of attributes that could potentially be a primary key."
+  },
+  {
+    "question": "A 'phishing' email is designed to:",
+    "options": [
+      "Trick you into revealing personal or financial information.",
+      "Deliver a software update.",
+      "Inform you about a new product.",
+      "Clean your computer of viruses."
+    ],
+    "answer": "Trick you into revealing personal or financial information."
+  },
+  {
+    "question": "The .exe file extension indicates a(n):",
+    "options": [
+      "Image file",
+      "Text document",
+      "Executable file",
+      "Audio file"
+    ],
+    "answer": "Executable file"
+  },
+  {
+    "question": "What does 'open source' software mean?",
+    "options": [
+      "The software is free to use.",
+      "The software can only be used on an open network.",
+      "The software's source code is freely available for anyone to modify and share.",
+      "The software does not have a graphical user interface."
+    ],
+    "answer": "The software's source code is freely available for anyone to modify and share."
+  },
+  {
+    "question": "The binary number 1101 is equivalent to which decimal number?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "answer": "13"
+  },
+  {
+    "question": "In Windows, what is the 'Control Panel' used for?",
+    "options": [
+      "Browse the internet.",
+      "Viewing and changing system settings.",
+      "Storing personal files.",
+      "Writing code."
+    ],
+    "answer": "Viewing and changing system settings."
+  },
+  {
+    "question": "What is the function of a 'heat sink' in a computer?",
+    "options": [
+      "To store data.",
+      "To provide power.",
+      "To dissipate heat generated by a component like the CPU.",
+      "To process instructions."
+    ],
+    "answer": "To dissipate heat generated by a component like the CPU."
+  },
+  {
+    "question": "Which HTML tag is used to create a form for user input?",
+    "options": [
+      "<input>",
+      "<form>",
+      "<5f81719c-dc7a-4bae-a384-326dbbf84392",
+      "<field>"
+    ],
+    "answer": "<form>"
+  },
+  {
+    "question": "In SQL, what is an INNER JOIN?",
+    "options": [
+      "It returns all rows from the left table.",
+      "It returns all rows from the right table.",
+      "It returns rows when there is at least one match in both tables.",
+      "It returns all rows when there is a match in either table."
+    ],
+    "answer": "It returns rows when there is at least one match in both tables."
+  },
+  {
+    "question": "What is 'spyware'?",
+    "options": [
+      "Software that protects your computer.",
+      "Software that speeds up your computer.",
+      "Software that secretly gathers information about a user and their activities.",
+      "Software for creating spreadsheets."
+    ],
+    "answer": "Software that secretly gathers information about a user and their activities."
+  },
+  {
+    "question": "In MS Excel, what is the shortcut to select an entire row?",
+    "options": [
+      "Ctrl + Space",
+      "Shift + Space",
+      "Alt + Space",
+      "Ctrl + R"
+    ],
+    "answer": "Shift + Space"
+  },
+  {
+    "question": "The physical parts of a computer are known as:",
+    "options": [
+      "Software",
+      "Hardware",
+      "Firmware",
+      "Freeware"
+    ],
+    "answer": "Hardware"
+  },
+  {
+    "question": "In JavaScript, what does getElementById() do?",
+    "options": [
+      "It returns the element that has the ID attribute with the specified value.",
+      "It creates a new element.",
+      "It returns all elements of a specific class.",
+      "It changes an element's style."
+    ],
+    "answer": "It returns the element that has the ID attribute with the specified value."
+  },
+  {
+    "questionGrammarly": "Which Linux command is used to display the manual pages for other commands?",
+    "options": [
+      "man",
+      "help",
+      "info",
+      "guide"
+    ],
+    "answer": "man"
+  },
+  {
+    "question": "A 'firewall' can be implemented as:",
+    "options": [
+      "Only hardware",
+      "Only software",
+      "Both hardware and software",
+      "Only a network protocol"
+    ],
+    "answer": "Both hardware and software"
+  },
+  {
+    "question": "'Agile' is a methodology used in:",
+    "options": [
+      "Hardware manufacturing",
+      "Software development",
+      "Network security",
+      "Database administration"
+    ],
+    "answer": "Software development"
+  },
+  {
+    "question": "In MS Word, the F12 key is a shortcut to:",
+    "options": [
+      "Open a document",
+      "Open the 'Save As' dialog box",
+      "Print a document",
+      "Close the document"
+    ],
+    "answer": "Open the 'Save As' dialog box"
+  },
+  {
+    "question": "Which of the following is an example of an 'optical' storage medium?",
+    "options": [
+      "USB flash drive",
+      "SSD",
+      "HDD",
+      "CD-ROM"
+    ],
+    "answer": "CD-ROM"
+  },
+  {
+    "question": "In CSS, text-align: justify; does what?",
+    "options": [
+      "Aligns text to the left.",
+      "Aligns text to the right.",
+      "Centers the text.",
+      "Stretches the lines so that each line has equal width."
+    ],
+    "answer": "Stretches the lines so that each line has equal width."
+  },
+  {
+    "question": "What is a 'programming language'?",
+    "options": [
+      "A set of rules for network communication.",
+      "A formal language comprising a set of instructions that produce various kinds of output.",
+      "A hardware component.",
+      "A type of operating system."
+    ],
+    "answer": "A formal language comprising a set of instructions that produce various kinds of output."
+  },
+  {
+    "question": "Which of the following is a key characteristic of a 'trojan horse'?",
+    "options": [
+      "It replicates itself across networks.",
+      "It disguises itself as a legitimate or useful program.",
+      "It encrypts files and demands a ransom.",
+      "It only infects boot sectors."
+    ],
+    "answer": "It disguises itself as a legitimate or useful program."
+  },
+  {
+    "question": "The HTML tag <footer> is used to define:",
+    "options": [
+      "The main content of a page.",
+      "A set of navigation links.",
+      "A footer for a document or section, typically containing authorship or copyright information.",
+      "A header for a document."
+    ],
+    "answer": "A footer for a document or section, typically containing authorship or copyright information."
+  },
+  {
+    "question": "In a client-server architecture, the 'client' is typically the:",
+    "options": [
+      "Machine that stores the data and provides services.",
+      "Machine that requests services or resources from a server.",
+      "Network cable.",
+      "Mainframe computer."
+    ],
+    "answer": "Machine that requests services or resources from a server."
+  },
+  {
+    "question": "In Excel, what does the SUM function do?",
+    "options": [
+      "Counts the number of cells in a range.",
+      "Finds the average of a range.",
+      "Adds all the numbers in a range of cells.",
+      "Finds the smallest number in a range."
+    ],
+    "answer": "Adds all the numbers in a range of cells."
+  },
+  {
+    "question": "The TCP/IP model consists of how many layers?",
+    "options": [
+      "7",
+      "5",
+      "4",
+      "3"
+    ],
+    "answer": "4"
+  },
+  {
+    "question": "In a database, what is the purpose of 'normalization'?",
+    "options": [
+      "To reduce data redundancy and improve data integrity.",
+      "To increase data redundancy for backup purposes.",
+      "To encrypt the data.",
+      "To speed up data entry."
+    ],
+    "answer": "To reduce data redundancy and improve data integrity."
+  },
+  {
+    "question": "Which part of the CPU is responsible for coordinating the activities of all other components?",
+    "options": [
+      "ALU",
+      "Control Unit",
+      "Registers",
+      "Cache"
+    ],
+    "answer": "Control Unit"
+  },
+  {
+    "question": "A 'URL' (Uniform Resource Locator) is also known as a:",
+    "options": [
+      "Web address",
+      "IP address",
+      "MAC address",
+      "File path"
+    ],
+    "answer": "Web address"
+  },
+  {
+    "question": "Which of the following is a type of 'malware'?",
+    "options": [
+      "Spyware",
+      "Firmware",
+      "Freeware",
+      "Shareware"
+    ],
+    "answer": "Spyware"
+  },
+  {
+    "question": "What is the purpose of the <head> section in an HTML document?",
+    "options": [
+      "To contain metadata, links to stylesheets, and the document title.",
+      "To contain the main visible content of the page.",
+      "To define the header of the page with the logo.",
+      "To list all the headings used on the page."
+    ],
+    "answer": "To contain metadata, links to stylesheets, and the document title."
+  },
+  {
+    "question": "In JavaScript, var, let, and const are used for:",
+    "options": [
+      "Creating functions",
+      "Declaring variables",
+      "Handling events",
+      "Styling elements"
+    ],
+    "answer": "Declaring variables"
+  },
+  {
+    "question": "What is the function of the 'operating system'?",
+    "options": [
+      "To browse the internet.",
+      "To perform word processing.",
+      "To act as an intermediary between the user and the computer hardware.",
+      "To create presentations."
+    ],
+    "answer": "To act as an intermediary between the user and the computer hardware."
+  },
+  {
+    "question": "'Cloud storage' refers to:",
+    "options": [
+      "Storing data on a personal USB drive.",
+      "Storing data on your computer's hard drive.",
+      "Storing data on remote servers accessed via the internet.",
+      "A type of weather satellite."
+    ],
+    "answer": "Storing data on remote servers accessed via the internet."
+  },
+  {
+    "question": "The ls -a command in Linux will:",
+    "options": [
+      "List files in long format.",
+      "List files in reverse order.",
+      "List all files, including hidden files that start with a dot (.).",
+      "List only directories."
+    ],
+    "answer": "List all files, including hidden files that start with a dot (.)."
+  },
+  {
+    "question": "Which of the following is an example of an e-commerce platform?",
+    "options": [
+      "Google Search",
+      "Amazon",
+      "Facebook",
+      "Microsoft Word"
+    ],
+    "answer": "Amazon"
+  },
+  {
+    "question": "What is 'data validation' in MS Excel?",
+    "options": [
+      "A tool for sorting data.",
+      "A feature to restrict data entry in a cell to a certain type or value.",
+      "A function for performing calculations.",
+      "A way to create charts."
+    ],
+    "answer": "A feature to restrict data entry in a cell to a certain type or value."
+  },
+  {
+    "question": "Which component holds the computer's main components, such as the CPU, memory, and expansion slots?",
+    "options": [
+      "Power supply",
+      "Hard drive",
+      "Motherboard",
+      "Case"
+    ],
+    "answer": "Motherboard"
+  },
+  {
+    "question": "The .css file extension stands for:",
+    "options": [
+      "Computer Style Sheet",
+      "Custom Style Sheet",
+      "Cascading Style Sheet",
+      "Colorful Style Sheet"
+    ],
+    "answer": "Cascading Style Sheet"
+  },
+  {
+    "question": "In SQL, the SELECT statement is used to:",
+    "options": [
+      "Update data.",
+      "Insert data.",
+      "Delete data.",
+      "Query or retrieve data."
+    ],
+    "answer": "Query or retrieve data."
+  },
+  {
+    "question": "Which of the following is a key characteristic of a virus?",
+    "options": [
+      "It can spread without any human action.",
+      "It requires a host program or file to which it attaches itself.",
+      "It is not harmful to computers.",
+      "It is a type of hardware."
+    ],
+    "answer": "It requires a host program or file to which it attaches itself."
+  },
+  {
+    "question": "Which keyboard shortcut is used to select all text in a document?",
+    "options": [
+      "Ctrl + C",
+      "Ctrl + A",
+      "Ctrl + X",
+      "Ctrl + S"
+    ],
+    "answer": "Ctrl + A"
+  },
+  {
+    "question": "What does API stand for?",
+    "options": [
+      "Application Processing Interface",
+      "Advanced Program Integration",
+      "Application Programming Interface",
+      "Automated Protocol Interaction"
+    ],
+    "answer": "Application Programming Interface"
+  },
+  {
+    "question": "In Object-Oriented Programming, the ability of a class to derive properties from another class is called:",
+    "options": [
+      "Encapsulation",
+      "Polymorphism",
+      "Inheritance",
+      "Abstraction"
+    ],
+    "answer": "Inheritance"
+  },
+  {
+    "question": "What is a 'cookie' in the context of the web?",
+    "options": [
+      "A type of pop-up ad.",
+      "A small text file stored on a user's computer by their web browser.",
+      "A security protocol.",
+      "A virus."
+    ],
+    "answer": "A small text file stored on a user's computer by their web browser."
+  },
+  {
+    "question": "What is the primary function of a 'web browser'?",
+    "options": [
+      "To host websites.",
+      "To send emails.",
+      "To retrieve, present, and traverse information resources on the World Wide Web.",
+      "To edit photos."
+    ],
+    "answer": "To retrieve, present, and traverse information resources on the World Wide Web."
+  },
+  {
+    "question": "The city of Ujjain in Madhya Pradesh is famous for which major Hindu festival, held once every 12 years?",
+    "options": [
+      "Diwali",
+      "Holi",
+      "Kumbh Mela (Simhastha)",
+      "Dussehra"
+    ],
+    "answer": "Kumbh Mela (Simhastha)"
+  },
+  {
+    "question": "Who is known as the 'Father of the Nation' in India?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Subhas Chandra Bose"
+    ],
+    "answer": "Mahatma Gandhi"
+  },
+  {
+    "question": "The G20 Summit in 2023 was hosted by which country?",
+    "options": [
+      "Brazil",
+      "South Africa",
+      "India",
+      "Indonesia"
+    ],
+    "answer": "India"
+  },
+  {
+    "question": "Which of the following is the largest district of Madhya Pradesh by area?",
+    "options": [
+      "Indore",
+      "Sagar",
+      "Jabalpur",
+      "Chhindwara"
+    ],
+    "answer": "Chhindwara"
+  },
+  {
+    "question": "Who was the first Indian to travel to space?",
+    "options": [
+      "Kalpana Chawla",
+      "Sunita Williams",
+      "Rakesh Sharma",
+      "Ravish Malhotra"
+    ],
+    "answer": "Rakesh Sharma"
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    "answer": "Ottawa"
+  },
+  {
+    "question": "The green pigment found in plants that is essential for photosynthesis is called:",
+    "options": [
+      "Hemoglobin",
+      "Chlorophyll",
+      "Melanin",
+      "Carotene"
+    ],
+    "answer": "Chlorophyll"
+  },
+  {
+    "question": "What is the SI unit of force?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "answer": "Newton"
+  },
+  {
+    "question": "A pH value of less than 7 indicates that a substance is:",
+    "options": [
+      "Neutral",
+      "Acidic",
+      "Alkaline (Basic)",
+      "Salty"
+    ],
+    "answer": "Acidic"
+  },
+  {
+    "question": "What is a 'browser'?",
+    "options": [
+      "A hardware device for connecting to the internet.",
+      "A software application used to access and view websites.",
+      "A type of computer virus.",
+      "The main memory of a computer."
+    ],
+    "answer": "A software application used to access and view websites."
+  },
+  {
+    "question": "The physical parts of a computer system are called:",
+    "options": [
+      "Software",
+      "Hardware",
+      "Firmware",
+      "Peopleware"
+    ],
+    "answer": "Hardware"
+  },
+  {
+    "question": "What is the primary function of system software?",
+    "options": [
+      "To perform a specific task for the user, like writing a letter.",
+      "To manage and operate the computer hardware and provide a platform for application software.",
+      "To create and edit images.",
+      "To play games."
+    ],
+    "answer": "To manage and operate the computer hardware and provide a platform for application software."
+  },
+  {
+    "question": "What does the acronym 'RAM' stand for?",
+    "options": [
+      "Read-Only Memory",
+      "Random Access Memory",
+      "Read-Access Memory",
+      "Run-time Application Memory"
+    ],
+    "answer": "Random Access Memory"
+  },
+  {
+    "question": "Which of these is an example of an output device?",
+    "options": [
+      "Keyboard",
+      "Mouse",
+      "Printer",
+      "Scanner"
+    ],
+    "answer": "Printer"
+  },
+  {
+    "question": "Who invented the first mechanical computer, the Difference Engine?",
+    "options": [
+      "Alan Turing",
+      "Charles Babbage",
+      "Tim Berners-Lee",
+      "Bill Gates"
+    ],
+    "answer": "Charles Babbage"
+  },
+  {
+    "question": "Find the next number in the series: 1, 2, 4, 7, 11, ?",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": "16"
+  },
+  {
+    "question": "'Eye' is to 'See' as 'Ear' is to:",
+    "options": [
+      "Smell",
+      "Taste",
+      "Hear",
+      "Touch"
+    ],
+    "answer": "Hear"
+  },
+  {
+    "question": "If HAND is coded as 81144, what is LEG coded as?",
+    "options": [
+      "1257",
+      "1237",
+      "1357",
+      "1267"
+    ],
+    "answer": "1257"
+  },
+  {
+    "question": "Anil and Sunil are brothers. Rashmi is Sunil's sister. How is Rashmi related to Anil?",
+    "options": [
+      "Cousin",
+      "Niece",
+      "Sister",
+      "Aunt"
+    ],
+    "answer": "Sister"
+  },
+  {
+    "question": "Find the odd one out: Square, Rectangle, Circle, Triangle.",
+    "options": [
+      "Square",
+      "Rectangle",
+      "Circle",
+      "Triangle"
+    ],
+    "answer": "Circle"
+  },
+  {
+    "question": "A man walks 5 km North, then turns right and walks 5 km. In which direction is he now from his starting point?",
+    "options": [
+      "North",
+      "East",
+      "North-East",
+      "South-West"
+    ],
+    "answer": "North-East"
+  },
+  {
+    "question": "A shopkeeper sells an item for Rs. 150 at a profit of 25%. What is the cost price of the item?",
+    "options": [
+      "Rs. 100",
+      "Rs. 120",
+      "Rs. 125",
+      "Rs. 130"
+    ],
+    "answer": "Rs. 120"
+  },
+  {
+    "question": "If 3x + 7 = 19, find the value of x.",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4"
+  },
+  {
+    "question": "What is the simple interest on Rs. 2000 for 2 years at 10% per annum?",
+    "options": [
+      "Rs. 200",
+      "Rs. 300",
+      "Rs. 400",
+      "Rs. 420"
+    ],
+    "answer": "Rs. 400"
+  },
+  {
+    "question": "The average of four numbers is 20. If three of the numbers are 15, 20, and 25, what is the fourth number?",
+    "options": [
+      "10",
+      "20",
+      "25",
+      "30"
+    ],
+    "answer": "20"
+  }
+]
+            }
     }
   }
 }
