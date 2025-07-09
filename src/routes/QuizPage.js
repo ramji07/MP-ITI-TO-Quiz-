@@ -4,6 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 export default function QuizPage() {
   const { moduleId, subId } = useParams();
   const navigate = useNavigate();
+  const [showCorrectAnswers, setShowCorrectAnswers] = useState({});
 
   const [quiz, setQuiz] = useState(null);
   const [current, setCurrent] = useState(0);
@@ -267,12 +268,31 @@ localStorage.setItem("marked_preview", JSON.stringify(markedReviewData));
           ))}
         </ul>
 
-        {/* ✅ Show Result after Check */}
-        {isChecked !== undefined && (
-          <div className={`mt-3 alert ${isChecked ? 'alert-success' : 'alert-danger'}`}>
-            {isChecked ? '✅ Correct Answer!' : '❌ Wrong Answer'}
-          </div>
-        )}
+       {isChecked !== undefined && (
+  <>
+    <div className={`mt-3 alert ${isChecked ? 'alert-success' : 'alert-danger'}`}>
+      {isChecked ? '✅ Correct Answer!' : '❌ Wrong Answer'}
+    </div>
+
+    {!isChecked && !showCorrectAnswers[current] && (
+      <button
+        className="btn btn-outline-primary mt-2"
+        onClick={() =>
+          setShowCorrectAnswers((prev) => ({ ...prev, [current]: true }))
+        }
+      >
+        See 👁️ Answer
+      </button>
+    )}
+
+    {showCorrectAnswers[current] && (
+      <div className="mt-2 alert alert-secondary">
+        Correct Answer: <strong>{question.answer}</strong>
+      </div>
+    )}
+  </>
+)}
+
 
         {/* ✅ Check Answer Button */}
         {userAnswer && isChecked === undefined && (

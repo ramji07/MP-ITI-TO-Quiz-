@@ -3862,9 +3862,2129 @@
       },
       "Data" : {
         "title": "Data Entry and Editing",
-        "questions": []
+        "questions": [
+  {
+    "question": "How do you enter text into a cell in Excel?",
+    "options": [
+      "Click the cell and start typing",
+      "Right-click and select 'Insert Text'",
+      "Press Ctrl + T",
+      "Double-click the column header"
+    ],
+    "answer": "Click the cell and start typing"
+  },
+  {
+    "question": "Which of the following can be entered into an Excel cell?",
+    "options": [
+      "Text",
+      "Numbers",
+      "Dates",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How do you edit the content of a cell?",
+    "options": [
+      "Double-click the cell",
+      "Select the cell and press F2",
+      "Click the cell and start typing (to overwrite)",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What happens if you select a cell and start typing?",
+    "options": [
+      "The existing content is overwritten",
+      "The content is appended",
+      "A new cell is created",
+      "Nothing happens"
+    ],
+    "answer": "The existing content is overwritten"
+  },
+  {
+    "question": "Which keyboard shortcut allows you to edit a cell in place?",
+    "options": [
+      "F2",
+      "F1",
+      "Ctrl + E",
+      "Alt + Enter"
+    ],
+    "answer": "F2"
+  },
+  {
+    "question": "How do you enter today's date in a cell using a shortcut?",
+    "options": [
+      "Ctrl + ;",
+      "Ctrl + :",
+      "Ctrl + D",
+      "Ctrl + Shift + D"
+    ],
+    "answer": "Ctrl + ;"
+  },
+  {
+    "question": "How do you enter the current time in a cell using a shortcut?",
+    "options": [
+      "Ctrl + Shift + ;",
+      "Ctrl + T",
+      "Ctrl + Shift + T",
+      "Ctrl + Alt + ;"
+    ],
+    "answer": "Ctrl + Shift + ;"
+  },
+  {
+    "question": "Which feature can be used to quickly fill a series of numbers?",
+    "options": [
+      "AutoFill",
+      "Flash Fill",
+      "Data Validation",
+      "Find and Replace"
+    ],
+    "answer": "AutoFill"
+  },
+  {
+    "question": "How do you use AutoFill to fill a series?",
+    "options": [
+      "Drag the fill handle (small square at cell corner)",
+      "Double-click the cell",
+      "Press Ctrl + F",
+      "Use the Insert tab"
+    ],
+    "answer": "Drag the fill handle (small square at cell corner)"
+  },
+  {
+    "question": "What does Flash Fill do in Excel?",
+    "options": [
+      "Automatically fills values based on a detected pattern",
+      "Fills cells with color",
+      "Deletes duplicate values",
+      "Sorts data"
+    ],
+    "answer": "Automatically fills values based on a detected pattern"
+  },
+  {
+    "question": "Which shortcut activates Flash Fill?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + F",
+      "Ctrl + Shift + E",
+      "F2"
+    ],
+    "answer": "Ctrl + E"
+  },
+  {
+    "question": "What is the fill handle in Excel?",
+    "options": [
+      "A small square at the bottom-right of the selected cell",
+      "A button on the ribbon",
+      "A menu option",
+      "A keyboard shortcut"
+    ],
+    "answer": "A small square at the bottom-right of the selected cell"
+  },
+  {
+    "question": "How do you enter a date in Excel?",
+    "options": [
+      "Type the date in a recognized format (e.g., 7/10/2025)",
+      "Type 'Date:' before the value",
+      "Use the Insert tab",
+      "Press F2"
+    ],
+    "answer": "Type the date in a recognized format (e.g., 7/10/2025)"
+  },
+  {
+    "question": "Which of the following is a valid date format in Excel?",
+    "options": [
+      "10/07/2025",
+      "July 10, 2025",
+      "2025-07-10",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How can you quickly copy the content of a cell to adjacent cells?",
+    "options": [
+      "Use AutoFill by dragging the fill handle",
+      "Copy and paste each cell manually",
+      "Use the Format Painter",
+      "Press Ctrl + Shift + C"
+    ],
+    "answer": "Use AutoFill by dragging the fill handle"
+  },
+  {
+    "question": "What is data validation in Excel?",
+    "options": [
+      "A feature to restrict the type of data entered in a cell",
+      "A way to check spelling",
+      "A method to format cells",
+      "A way to hide data"
+    ],
+    "answer": "A feature to restrict the type of data entered in a cell"
+  },
+  {
+    "question": "How do you create a drop-down list in a cell?",
+    "options": [
+      "Use Data Validation > Allow: List",
+      "Use the Insert tab",
+      "Right-click and select 'Drop-down'",
+      "Press Ctrl + D"
+    ],
+    "answer": "Use Data Validation > Allow: List"
+  },
+  {
+    "question": "Where can you find the Data Validation option?",
+    "options": [
+      "Data tab",
+      "Home tab",
+      "Insert tab",
+      "Review tab"
+    ],
+    "answer": "Data tab"
+  },
+  {
+    "question": "Which of the following can be restricted using data validation?",
+    "options": [
+      "Numbers within a range",
+      "Dates within a range",
+      "Values from a list",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How can you clear the contents of a cell without deleting formatting?",
+    "options": [
+      "Select the cell and press Delete",
+      "Right-click and select 'Clear All'",
+      "Use Home > Clear > Clear Formats",
+      "Press Ctrl + Shift + Delete"
+    ],
+    "answer": "Select the cell and press Delete"
+  },
+  {
+    "question": "How do you overwrite the content of a cell?",
+    "options": [
+      "Click the cell and start typing",
+      "Double-click and edit",
+      "Press F2 and edit",
+      "All of the above"
+    ],
+    "answer": "Click the cell and start typing"
+  },
+  {
+    "question": "How do you use AutoFill to fill weekdays only?",
+    "options": [
+      "Drag the fill handle while holding the right mouse button and select 'Fill Weekdays'",
+      "Drag the fill handle normally",
+      "Use Flash Fill",
+      "Use Data Validation"
+    ],
+    "answer": "Drag the fill handle while holding the right mouse button and select 'Fill Weekdays'"
+  },
+  {
+    "question": "Which of the following is NOT a valid way to edit cell content?",
+    "options": [
+      "Pressing F2",
+      "Double-clicking the cell",
+      "Typing in the formula bar",
+      "Pressing Ctrl + Z"
+    ],
+    "answer": "Pressing Ctrl + Z"
+  },
+  {
+    "question": "How can you enter the same value in multiple selected cells?",
+    "options": [
+      "Select the range, type the value, and press Ctrl + Enter",
+      "Type in the first cell and drag the fill handle",
+      "Copy and paste",
+      "Press F2"
+    ],
+    "answer": "Select the range, type the value, and press Ctrl + Enter"
+  },
+  {
+    "question": "What does the Flash Fill feature require to work?",
+    "options": [
+      "A pattern in adjacent cells",
+      "A formula",
+      "A named range",
+      "A table"
+    ],
+    "answer": "A pattern in adjacent cells"
+  },
+  {
+    "question": "How do you remove a drop-down list from a cell?",
+    "options": [
+      "Clear Data Validation from the cell",
+      "Press Delete",
+      "Right-click and select 'Remove Drop-down'",
+      "Use the Home tab"
+    ],
+    "answer": "Clear Data Validation from the cell"
+  },
+  {
+    "question": "Which error appears if you enter invalid data in a cell with data validation?",
+    "options": [
+      "A warning or error message",
+      "#VALUE!",
+      "#NAME?",
+      "No error appears"
+    ],
+    "answer": "A warning or error message"
+  },
+  {
+    "question": "How do you edit a drop-down list in Excel?",
+    "options": [
+      "Go to Data Validation settings and modify the source list",
+      "Press F2",
+      "Right-click and select 'Edit Drop-down'",
+      "Use the Home tab"
+    ],
+    "answer": "Go to Data Validation settings and modify the source list"
+  },
+  {
+    "question": "Which of the following can you NOT enter directly into a cell?",
+    "options": [
+      "A chart",
+      "Text",
+      "Number",
+      "Date"
+    ],
+    "answer": "A chart"
+  },
+  {
+    "question": "How do you quickly fill a column with sequential numbers?",
+    "options": [
+      "Enter the first two numbers, select both, and drag the fill handle",
+      "Type the number and press Enter repeatedly",
+      "Use Flash Fill",
+      "Use Data Validation"
+    ],
+    "answer": "Enter the first two numbers, select both, and drag the fill handle"
+  },
+  {
+    "question": "How do you repeat a value across multiple cells horizontally?",
+    "options": [
+      "Select the range and use AutoFill",
+      "Use Flash Fill",
+      "Use Data Validation",
+      "Press Ctrl + Shift + H"
+    ],
+    "answer": "Select the range and use AutoFill"
+  },
+  {
+    "question": "Which option allows you to restrict data entry to whole numbers only?",
+    "options": [
+      "Data Validation > Allow: Whole number",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: Whole number"
+  },
+  {
+    "question": "How do you enter a formula in a cell?",
+    "options": [
+      "Type '=' followed by the formula",
+      "Press Alt + F4",
+      "Right-click and select 'Insert Formula'",
+      "Use the Data tab"
+    ],
+    "answer": "Type '=' followed by the formula"
+  },
+  {
+    "question": "How do you cancel cell editing without saving changes?",
+    "options": [
+      "Press Esc",
+      "Press Enter",
+      "Press Tab",
+      "Press Ctrl + S"
+    ],
+    "answer": "Press Esc"
+  },
+  {
+    "question": "What does the Fill Series option do?",
+    "options": [
+      "Fills cells with a sequence based on a pattern",
+      "Fills cells with the same value",
+      "Deletes cell contents",
+      "Formats cells"
+    ],
+    "answer": "Fills cells with a sequence based on a pattern"
+  },
+  {
+    "question": "Which feature can automatically split first and last names into separate columns?",
+    "options": [
+      "Flash Fill",
+      "AutoFill",
+      "Data Validation",
+      "Find and Replace"
+    ],
+    "answer": "Flash Fill"
+  },
+  {
+    "question": "How do you restrict a cell to accept dates only after a specific date?",
+    "options": [
+      "Data Validation > Allow: Date > Start Date",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: Date > Start Date"
+  },
+  {
+    "question": "How do you use AutoFill to copy a formula down a column?",
+    "options": [
+      "Drag the fill handle from the formula cell down",
+      "Copy and paste the formula",
+      "Press Ctrl + D",
+      "Use Flash Fill"
+    ],
+    "answer": "Drag the fill handle from the formula cell down"
+  },
+  {
+    "question": "How do you enter a line break within a cell?",
+    "options": [
+      "Alt + Enter",
+      "Ctrl + Enter",
+      "Shift + Enter",
+      "Ctrl + Shift + Enter"
+    ],
+    "answer": "Alt + Enter"
+  },
+  {
+    "question": "What is the result of pressing Enter after typing in a cell?",
+    "options": [
+      "The value is entered and the selection moves down",
+      "The value is deleted",
+      "The cell is formatted",
+      "A new worksheet is created"
+    ],
+    "answer": "The value is entered and the selection moves down"
+  },
+  {
+    "question": "How do you fill a series of months (Jan, Feb, Mar, etc.)?",
+    "options": [
+      "Type 'Jan' in a cell, drag the fill handle down",
+      "Use Flash Fill",
+      "Use Data Validation",
+      "Type all months manually"
+    ],
+    "answer": "Type 'Jan' in a cell, drag the fill handle down"
+  },
+  {
+    "question": "Which feature can automatically fill in email addresses based on a pattern?",
+    "options": [
+      "Flash Fill",
+      "AutoFill",
+      "Data Validation",
+      "Find and Replace"
+    ],
+    "answer": "Flash Fill"
+  },
+  {
+    "question": "How do you restrict a cell to accept only values from a specific list?",
+    "options": [
+      "Data Validation > Allow: List",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: List"
+  },
+  {
+    "question": "How do you quickly clear the contents of multiple cells?",
+    "options": [
+      "Select the cells and press Delete",
+      "Right-click and select 'Clear All'",
+      "Use Home > Clear > Clear Contents",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What does the 'Input Message' in Data Validation do?",
+    "options": [
+      "Displays a message when the cell is selected",
+      "Shows an error if invalid data is entered",
+      "Formats the cell",
+      "Deletes the cell"
+    ],
+    "answer": "Displays a message when the cell is selected"
+  },
+  {
+    "question": "What does the 'Error Alert' in Data Validation do?",
+    "options": [
+      "Shows an error message if invalid data is entered",
+      "Displays a message when the cell is selected",
+      "Formats the cell",
+      "Deletes the cell"
+    ],
+    "answer": "Shows an error message if invalid data is entered"
+  },
+  {
+    "question": "How do you enter a time value in Excel?",
+    "options": [
+      "Type in a format like 10:30 AM",
+      "Type 'Time:' before the value",
+      "Use the Insert tab",
+      "Press F2"
+    ],
+    "answer": "Type in a format like 10:30 AM"
+  },
+  {
+    "question": "How do you quickly enter the same data in several cells at once?",
+    "options": [
+      "Select the range, type the data, and press Ctrl + Enter",
+      "Type and press Enter repeatedly",
+      "Use Flash Fill",
+      "Use Data Validation"
+    ],
+    "answer": "Select the range, type the data, and press Ctrl + Enter"
+  },
+  {
+    "question": "How do you fill a series of numbers with a step value (e.g., 2, 4, 6, 8)?",
+    "options": [
+      "Enter the first two values, select both, and drag the fill handle",
+      "Type the first value and drag the fill handle",
+      "Use Data Validation",
+      "Use Flash Fill"
+    ],
+    "answer": "Enter the first two values, select both, and drag the fill handle"
+  },
+  {
+    "question": "Which feature can you use to restrict entry to decimal numbers only?",
+    "options": [
+      "Data Validation > Allow: Decimal",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: Decimal"
+  },
+  {
+    "question": "How do you remove all data validation rules from a cell?",
+    "options": [
+      "Go to Data Validation and click 'Clear All'",
+      "Press Delete",
+      "Use Home > Clear > Clear Formats",
+      "Right-click and select 'Remove Validation'"
+    ],
+    "answer": "Go to Data Validation and click 'Clear All'"
+  },
+  {
+    "question": "How do you restrict a cell to accept only text values?",
+    "options": [
+      "Use Data Validation with a custom formula",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Use Data Validation with a custom formula"
+  },
+  {
+    "question": "Which of the following is NOT a valid use of AutoFill?",
+    "options": [
+      "Filling a series of numbers",
+      "Copying a formula",
+      "Filling a drop-down list",
+      "Filling days of the week"
+    ],
+    "answer": "Filling a drop-down list"
+  },
+  {
+    "question": "How do you restrict a cell to accept only values greater than 100?",
+    "options": [
+      "Data Validation > Allow: Whole number > Minimum: 101",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: Whole number > Minimum: 101"
+  },
+  {
+    "question": "How do you enter a negative number in a cell?",
+    "options": [
+      "Type '-' before the number",
+      "Type the number and press Shift",
+      "Right-click and select 'Negative'",
+      "Use Data Validation"
+    ],
+    "answer": "Type '-' before the number"
+  },
+  {
+    "question": "How do you quickly enter a series of dates (e.g., 10/07/2025, 11/07/2025, etc.)?",
+    "options": [
+      "Enter the first date, drag the fill handle down",
+      "Type each date manually",
+      "Use Flash Fill",
+      "Use Data Validation"
+    ],
+    "answer": "Enter the first date, drag the fill handle down"
+  },
+  {
+    "question": "How do you restrict a cell to accept only values from a named range?",
+    "options": [
+      "Data Validation > Allow: List > Source: Named Range",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: List > Source: Named Range"
+  },
+  {
+    "question": "What happens if you try to enter text in a cell restricted to numbers only?",
+    "options": [
+      "An error message appears",
+      "Text is accepted",
+      "Cell is cleared",
+      "Cell is formatted"
+    ],
+    "answer": "An error message appears"
+  },
+  {
+    "question": "How do you restrict a cell to accept only values less than 50?",
+    "options": [
+      "Data Validation > Allow: Whole number > Maximum: 49",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: Whole number > Maximum: 49"
+  },
+  {
+    "question": "How do you restrict a cell to accept only dates between two dates?",
+    "options": [
+      "Data Validation > Allow: Date > Between: Start and End Date",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: Date > Between: Start and End Date"
+  },
+  {
+    "question": "Which feature can automatically fill in phone numbers based on a pattern?",
+    "options": [
+      "Flash Fill",
+      "AutoFill",
+      "Data Validation",
+      "Find and Replace"
+    ],
+    "answer": "Flash Fill"
+  },
+  {
+    "question": "How do you restrict a cell to accept only unique values?",
+    "options": [
+      "Data Validation with a custom formula",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation with a custom formula"
+  },
+  {
+    "question": "How do you restrict a cell to accept only uppercase letters?",
+    "options": [
+      "Data Validation with a custom formula",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation with a custom formula"
+  },
+  {
+    "question": "How do you restrict a cell to accept only entries that are exactly 5 characters long?",
+    "options": [
+      "Data Validation > Allow: Text Length > Equal to: 5",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: Text Length > Equal to: 5"
+  },
+  {
+    "question": "How do you restrict a cell to accept only values that are multiples of 10?",
+    "options": [
+      "Data Validation with a custom formula",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation with a custom formula"
+  },
+  {
+    "question": "How do you restrict a cell to accept only values ending with '0'?",
+    "options": [
+      "Data Validation with a custom formula",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation with a custom formula"
+  },
+  {
+    "question": "How do you restrict a cell to accept only values from a dynamic list?",
+    "options": [
+      "Data Validation > Allow: List > Source: Dynamic Range",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: List > Source: Dynamic Range"
+  },
+  {
+    "question": "How do you restrict a cell to accept only values not equal to a specific value?",
+    "options": [
+      "Data Validation > Allow: Custom > Formula: <> value",
+      "AutoFill",
+      "Flash Fill",
+      "Format Cells"
+    ],
+    "answer": "Data Validation > Allow: Custom > Formula: <> value"
+  }
+]
+
       
-      }
+      },
+      "replace" : {
+        "title": "Find and Replace",
+        "questions": [
+  {
+    "question": "Which shortcut key opens the Find dialog box in Excel?",
+    "options": [
+      "Ctrl + F",
+      "Ctrl + H",
+      "Ctrl + G",
+      "Ctrl + S"
+    ],
+    "answer": "Ctrl + F"
+  },
+  {
+    "question": "Which shortcut key opens the Replace dialog box in Excel?",
+    "options": [
+      "Ctrl + H",
+      "Ctrl + F",
+      "Ctrl + G",
+      "Ctrl + R"
+    ],
+    "answer": "Ctrl + H"
+  },
+  {
+    "question": "Which shortcut key opens the Go To dialog box in Excel?",
+    "options": [
+      "Ctrl + G",
+      "Ctrl + F",
+      "Ctrl + H",
+      "Ctrl + O"
+    ],
+    "answer": "Ctrl + G"
+  },
+  {
+    "question": "What does the Find feature in Excel allow you to do?",
+    "options": [
+      "Locate specific text, numbers, or values in a worksheet",
+      "Sort data",
+      "Insert charts",
+      "Format cells"
+    ],
+    "answer": "Locate specific text, numbers, or values in a worksheet"
+  },
+  {
+    "question": "What does the Replace feature in Excel allow you to do?",
+    "options": [
+      "Find and substitute text or values with new ones",
+      "Delete rows",
+      "Insert columns",
+      "Change font color"
+    ],
+    "answer": "Find and substitute text or values with new ones"
+  },
+  {
+    "question": "What is the main purpose of the Go To feature in Excel?",
+    "options": [
+      "Quickly jump to a specific cell or range",
+      "Find and replace text",
+      "Sort data",
+      "Insert formulas"
+    ],
+    "answer": "Quickly jump to a specific cell or range"
+  },
+  {
+    "question": "Which option in the Find dialog allows you to search within formulas?",
+    "options": [
+      "Look in: Formulas",
+      "Match case",
+      "Match entire cell contents",
+      "Options > Values"
+    ],
+    "answer": "Look in: Formulas"
+  },
+  {
+    "question": "Which option in the Find dialog restricts the search to match the exact cell content?",
+    "options": [
+      "Match entire cell contents",
+      "Match case",
+      "Look in: Values",
+      "Search by Rows"
+    ],
+    "answer": "Match entire cell contents"
+  },
+  {
+    "question": "How can you search for values in the entire workbook?",
+    "options": [
+      "In the Find dialog, set 'Within' to 'Workbook'",
+      "Use Ctrl + A",
+      "Use the Go To dialog",
+      "Right-click and select Find"
+    ],
+    "answer": "In the Find dialog, set 'Within' to 'Workbook'"
+  },
+  {
+    "question": "What does the 'Match case' option do in the Find dialog?",
+    "options": [
+      "Finds only text with the exact same capitalization",
+      "Finds partial matches",
+      "Finds numbers only",
+      "Finds formulas only"
+    ],
+    "answer": "Finds only text with the exact same capitalization"
+  },
+  {
+    "question": "How do you find the next occurrence of a value after the first result?",
+    "options": [
+      "Click 'Find Next' in the Find dialog",
+      "Press Enter",
+      "Click 'Replace'",
+      "Click 'Close'"
+    ],
+    "answer": "Click 'Find Next' in the Find dialog"
+  },
+  {
+    "question": "How do you replace all occurrences of a value at once?",
+    "options": [
+      "Click 'Replace All' in the Replace dialog",
+      "Click 'Replace'",
+      "Click 'Find All'",
+      "Press Ctrl + A"
+    ],
+    "answer": "Click 'Replace All' in the Replace dialog"
+  },
+  {
+    "question": "Which button in the Replace dialog replaces only the currently selected occurrence?",
+    "options": [
+      "Replace",
+      "Replace All",
+      "Find Next",
+      "Close"
+    ],
+    "answer": "Replace"
+  },
+  {
+    "question": "How can you use wildcards in Find and Replace?",
+    "options": [
+      "By entering * or ? in the Find what box",
+      "By pressing Ctrl + W",
+      "By using the Go To dialog",
+      "By using the Options menu"
+    ],
+    "answer": "By entering * or ? in the Find what box"
+  },
+  {
+    "question": "What does the asterisk (*) wildcard match in Find?",
+    "options": [
+      "Any number of characters",
+      "A single character",
+      "Only numbers",
+      "Only letters"
+    ],
+    "answer": "Any number of characters"
+  },
+  {
+    "question": "What does the question mark (?) wildcard match in Find?",
+    "options": [
+      "A single character",
+      "Any number of characters",
+      "Only numbers",
+      "Only letters"
+    ],
+    "answer": "A single character"
+  },
+  {
+    "question": "How can you use Go To to select a named range?",
+    "options": [
+      "Type the range name in the Go To dialog and press Enter",
+      "Use the Find dialog",
+      "Use the Replace dialog",
+      "Right-click the worksheet"
+    ],
+    "answer": "Type the range name in the Go To dialog and press Enter"
+  },
+  {
+    "question": "What happens if you use Go To with a cell address that doesn't exist?",
+    "options": [
+      "Excel shows an error message",
+      "Excel creates a new cell",
+      "Excel closes",
+      "Nothing happens"
+    ],
+    "answer": "Excel shows an error message"
+  },
+  {
+    "question": "Which dialog allows you to jump directly to a specific cell like B15?",
+    "options": [
+      "Go To (Ctrl + G)",
+      "Find (Ctrl + F)",
+      "Replace (Ctrl + H)",
+      "Sort"
+    ],
+    "answer": "Go To (Ctrl + G)"
+  },
+  {
+    "question": "Can you use Find and Replace to search for formatting?",
+    "options": [
+      "Yes, by clicking 'Options' and setting the format",
+      "No, only values can be found",
+      "Only in Go To",
+      "Only in the Home tab"
+    ],
+    "answer": "Yes, by clicking 'Options' and setting the format"
+  },
+  {
+    "question": "What does 'Find All' do in the Find dialog?",
+    "options": [
+      "Displays a list of all cells matching the search criteria",
+      "Finds the first occurrence only",
+      "Replaces all values",
+      "Deletes all matches"
+    ],
+    "answer": "Displays a list of all cells matching the search criteria"
+  },
+  {
+    "question": "How do you close the Find or Replace dialog?",
+    "options": [
+      "Click the 'Close' button",
+      "Press Esc",
+      "Both A and B",
+      "Press Ctrl + W"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "Which feature is best for finding and correcting typos in a large worksheet?",
+    "options": [
+      "Find and Replace",
+      "Go To",
+      "Sort",
+      "Filter"
+    ],
+    "answer": "Find and Replace"
+  },
+  {
+    "question": "How do you search for a value only within a selected range?",
+    "options": [
+      "Select the range first, then use Find or Replace",
+      "Use Go To",
+      "Use the Data tab",
+      "Use the View tab"
+    ],
+    "answer": "Select the range first, then use Find or Replace"
+  },
+  {
+    "question": "Which Find option allows you to search by rows or by columns?",
+    "options": [
+      "Search: By Rows / By Columns in Options",
+      "Match case",
+      "Look in: Values",
+      "Find All"
+    ],
+    "answer": "Search: By Rows / By Columns in Options"
+  },
+  {
+    "question": "Which of the following is NOT a function of the Find dialog?",
+    "options": [
+      "Insert a new worksheet",
+      "Find specific values",
+      "Find formatting",
+      "Find formulas"
+    ],
+    "answer": "Insert a new worksheet"
+  },
+  {
+    "question": "How can you use Go To Special to select all cells with formulas?",
+    "options": [
+      "Go To > Special > Formulas",
+      "Find > Options > Formulas",
+      "Replace > Options > Formulas",
+      "Home > Formulas"
+    ],
+    "answer": "Go To > Special > Formulas"
+  },
+  {
+    "question": "What does the 'Within' option in Find and Replace allow you to select?",
+    "options": [
+      "Search within Sheet or Workbook",
+      "Search within Row or Column",
+      "Search within Cell or Range",
+      "Search within Table"
+    ],
+    "answer": "Search within Sheet or Workbook"
+  },
+  {
+    "question": "Which feature would you use to jump to cell A1 from anywhere in the sheet?",
+    "options": [
+      "Go To (Ctrl + G), type A1, and press Enter",
+      "Find (Ctrl + F), type A1",
+      "Replace (Ctrl + H), type A1",
+      "Home tab"
+    ],
+    "answer": "Go To (Ctrl + G), type A1, and press Enter"
+  }
+]
+         
+        },
+        "Formatting" : {
+          "title": "Formatting Worksheets",
+          "questions": [
+  {
+    "question": "Which tab in Excel contains the 'Cell Styles' option?",
+    "options": [
+      "Home",
+      "Insert",
+      "Data",
+      "View"
+    ],
+    "answer": "Home"
+  },
+  {
+    "question": "What does the 'Cell Styles' feature do?",
+    "options": [
+      "Applies predefined formatting to cells",
+      "Sorts data",
+      "Deletes cells",
+      "Inserts charts"
+    ],
+    "answer": "Applies predefined formatting to cells"
+  },
+  {
+    "question": "Which of the following is NOT a built-in cell style in Excel?",
+    "options": [
+      "Currency",
+      "Good",
+      "Bad",
+      "Neutral"
+    ],
+    "answer": "Currency"
+  },
+  {
+    "question": "How can you remove a cell style from a cell?",
+    "options": [
+      "Select the cell and choose 'Normal' from Cell Styles",
+      "Delete the cell",
+      "Format as Table",
+      "Freeze Panes"
+    ],
+    "answer": "Select the cell and choose 'Normal' from Cell Styles"
+  },
+  {
+    "question": "Which feature allows you to highlight cells based on their values?",
+    "options": [
+      "Conditional formatting",
+      "Cell Styles",
+      "Format Painter",
+      "Wrap Text"
+    ],
+    "answer": "Conditional formatting"
+  },
+  {
+    "question": "Where is the 'Conditional Formatting' option located?",
+    "options": [
+      "Home tab",
+      "Insert tab",
+      "Data tab",
+      "Review tab"
+    ],
+    "answer": "Home tab"
+  },
+  {
+    "question": "Which of the following is NOT a conditional formatting rule?",
+    "options": [
+      "Bold text",
+      "Highlight Cell Rules",
+      "Data Bars",
+      "Color Scales"
+    ],
+    "answer": "Bold text"
+  },
+  {
+    "question": "What does the 'Format as Table' feature do?",
+    "options": [
+      "Applies a table style and enables table tools",
+      "Deletes data",
+      "Sorts data automatically",
+      "Freezes panes"
+    ],
+    "answer": "Applies a table style and enables table tools"
+  },
+  {
+    "question": "How do you apply 'Format as Table' to a range?",
+    "options": [
+      "Select the range, then click 'Format as Table' on the Home tab",
+      "Right-click and select Format as Table",
+      "Use the Insert tab",
+      "Press Ctrl + T"
+    ],
+    "answer": "Select the range, then click 'Format as Table' on the Home tab"
+  },
+  {
+    "question": "What is the shortcut key to format a range as a table?",
+    "options": [
+      "Ctrl + T",
+      "Ctrl + F",
+      "Ctrl + H",
+      "Ctrl + Shift + T"
+    ],
+    "answer": "Ctrl + T"
+  },
+  {
+    "question": "Which feature allows you to keep the top row visible while scrolling?",
+    "options": [
+      "Freeze Panes",
+      "Wrap Text",
+      "Conditional Formatting",
+      "Format as Table"
+    ],
+    "answer": "Freeze Panes"
+  },
+  {
+    "question": "Where is the 'Freeze Panes' option found?",
+    "options": [
+      "View tab",
+      "Home tab",
+      "Insert tab",
+      "Data tab"
+    ],
+    "answer": "View tab"
+  },
+  {
+    "question": "Which option freezes only the first column?",
+    "options": [
+      "Freeze First Column",
+      "Freeze Top Row",
+      "Freeze Panes",
+      "Split"
+    ],
+    "answer": "Freeze First Column"
+  },
+  {
+    "question": "What does the 'Wrap Text' feature do?",
+    "options": [
+      "Displays cell content on multiple lines within the cell",
+      "Merges cells",
+      "Formats the cell as a table",
+      "Freezes the cell"
+    ],
+    "answer": "Displays cell content on multiple lines within the cell"
+  },
+  {
+    "question": "How do you enable 'Wrap Text'?",
+    "options": [
+      "Select the cell and click 'Wrap Text' on the Home tab",
+      "Right-click and select Wrap Text",
+      "Use the Data tab",
+      "Press Ctrl + W"
+    ],
+    "answer": "Select the cell and click 'Wrap Text' on the Home tab"
+  },
+  {
+    "question": "What happens when you merge cells?",
+    "options": [
+      "Selected cells become one larger cell",
+      "Cells are deleted",
+      "Text is wrapped",
+      "Conditional formatting is applied"
+    ],
+    "answer": "Selected cells become one larger cell"
+  },
+  {
+    "question": "Which button merges selected cells and centers the text?",
+    "options": [
+      "Merge & Center",
+      "Merge Across",
+      "Merge Cells",
+      "Center Text"
+    ],
+    "answer": "Merge & Center"
+  },
+  {
+    "question": "What is lost when you merge cells containing data?",
+    "options": [
+      "Only the upper-left cell's data is kept",
+      "All data is combined",
+      "All data is deleted",
+      "Data is duplicated"
+    ],
+    "answer": "Only the upper-left cell's data is kept"
+  },
+  {
+    "question": "Which option allows you to unmerge merged cells?",
+    "options": [
+      "Unmerge Cells",
+      "Split Cells",
+      "Wrap Text",
+      "Delete"
+    ],
+    "answer": "Unmerge Cells"
+  },
+  {
+    "question": "Which of these is NOT a type of conditional formatting?",
+    "options": [
+      "Insert Table",
+      "Data Bars",
+      "Icon Sets",
+      "Color Scales"
+    ],
+    "answer": "Insert Table"
+  },
+  {
+    "question": "Which feature can highlight duplicate values in a range?",
+    "options": [
+      "Conditional Formatting",
+      "Cell Styles",
+      "Freeze Panes",
+      "Format as Table"
+    ],
+    "answer": "Conditional Formatting"
+  },
+  {
+    "question": "How do you remove conditional formatting from a range?",
+    "options": [
+      "Home > Conditional Formatting > Clear Rules",
+      "Delete the cells",
+      "Unmerge cells",
+      "Freeze panes"
+    ],
+    "answer": "Home > Conditional Formatting > Clear Rules"
+  },
+  {
+    "question": "Which feature allows you to apply a consistent look to a data range?",
+    "options": [
+      "Format as Table",
+      "Conditional Formatting",
+      "Freeze Panes",
+      "Wrap Text"
+    ],
+    "answer": "Format as Table"
+  },
+  {
+    "question": "What does the 'Header Row' option do in Format as Table?",
+    "options": [
+      "Adds a header row with filter drop-downs",
+      "Freezes the top row",
+      "Wraps text",
+      "Merges cells"
+    ],
+    "answer": "Adds a header row with filter drop-downs"
+  },
+  {
+    "question": "How can you freeze both rows and columns at the same time?",
+    "options": [
+      "Select a cell below the rows and to the right of the columns, then use Freeze Panes",
+      "Use Freeze Top Row and Freeze First Column together",
+      "Merge cells",
+      "Format as Table"
+    ],
+    "answer": "Select a cell below the rows and to the right of the columns, then use Freeze Panes"
+  },
+  {
+    "question": "What is the effect of 'AutoFormat as Table'?",
+    "options": [
+      "Applies a table style and enables table features",
+      "Deletes formatting",
+      "Freezes panes",
+      "Wraps text"
+    ],
+    "answer": "Applies a table style and enables table features"
+  },
+  {
+    "question": "Which option allows you to change the color scheme of a table?",
+    "options": [
+      "Table Design tab",
+      "Home tab",
+      "View tab",
+      "Data tab"
+    ],
+    "answer": "Table Design tab"
+  },
+  {
+    "question": "What happens if you apply 'Wrap Text' to a merged cell?",
+    "options": [
+      "Text wraps within the merged cell",
+      "Text is deleted",
+      "Cell is unmerged",
+      "Conditional formatting is removed"
+    ],
+    "answer": "Text wraps within the merged cell"
+  },
+  {
+    "question": "Which feature allows you to apply banded rows to a table?",
+    "options": [
+      "Format as Table",
+      "Conditional Formatting",
+      "Freeze Panes",
+      "Merge Cells"
+    ],
+    "answer": "Format as Table"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using Format as Table?",
+    "options": [
+      "Inserts charts automatically",
+      "Applies filters",
+      "Applies styles",
+      "Enables structured references"
+    ],
+    "answer": "Inserts charts automatically"
+  },
+  {
+    "question": "How do you access the 'Conditional Formatting Rules Manager'?",
+    "options": [
+      "Home > Conditional Formatting > Manage Rules",
+      "Insert > Conditional Formatting",
+      "View > Conditional Formatting",
+      "Data > Conditional Formatting"
+    ],
+    "answer": "Home > Conditional Formatting > Manage Rules"
+  },
+  {
+    "question": "Which option in Conditional Formatting allows you to create your own rule?",
+    "options": [
+      "New Rule",
+      "Data Bars",
+      "Color Scales",
+      "Icon Sets"
+    ],
+    "answer": "New Rule"
+  },
+  {
+    "question": "What does the 'Freeze Top Row' option do?",
+    "options": [
+      "Keeps the first row visible while scrolling",
+      "Freezes the first column",
+      "Merges the top row",
+      "Wraps text in the top row"
+    ],
+    "answer": "Keeps the first row visible while scrolling"
+  },
+  {
+    "question": "What does the 'Freeze First Column' option do?",
+    "options": [
+      "Keeps the first column visible while scrolling",
+      "Freezes the top row",
+      "Merges the first column",
+      "Wraps text in the first column"
+    ],
+    "answer": "Keeps the first column visible while scrolling"
+  },
+  {
+    "question": "Which of the following is NOT affected by freezing panes?",
+    "options": [
+      "Cell formatting",
+      "Scrolling behavior",
+      "Visibility of rows/columns",
+      "Header row visibility"
+    ],
+    "answer": "Cell formatting"
+  },
+  {
+    "question": "How do you unfreeze all panes?",
+    "options": [
+      "View > Freeze Panes > Unfreeze Panes",
+      "Home > Unfreeze Panes",
+      "Insert > Unfreeze Panes",
+      "Data > Unfreeze Panes"
+    ],
+    "answer": "View > Freeze Panes > Unfreeze Panes"
+  },
+  {
+    "question": "Which feature can be used to highlight cells greater than a certain value?",
+    "options": [
+      "Conditional Formatting > Highlight Cell Rules",
+      "Format as Table",
+      "Freeze Panes",
+      "Wrap Text"
+    ],
+    "answer": "Conditional Formatting > Highlight Cell Rules"
+  },
+  {
+    "question": "What does 'Merge Across' do?",
+    "options": [
+      "Merges cells in each selected row across columns",
+      "Merges all selected cells into one",
+      "Centers text across selection",
+      "Wraps text"
+    ],
+    "answer": "Merges cells in each selected row across columns"
+  },
+  {
+    "question": "Which feature can be used to format a range as a table with alternating row colors?",
+    "options": [
+      "Format as Table",
+      "Conditional Formatting",
+      "Cell Styles",
+      "Freeze Panes"
+    ],
+    "answer": "Format as Table"
+  },
+  {
+    "question": "Which of the following is NOT a type of icon set in conditional formatting?",
+    "options": [
+      "Stars",
+      "Arrows",
+      "Traffic lights",
+      "Flags"
+    ],
+    "answer": "Stars"
+  },
+  {
+    "question": "How do you wrap text in multiple selected cells?",
+    "options": [
+      "Select the cells and click 'Wrap Text'",
+      "Format as Table",
+      "Merge cells",
+      "Freeze Panes"
+    ],
+    "answer": "Select the cells and click 'Wrap Text'"
+  },
+  {
+    "question": "Which of these is a benefit of using cell styles?",
+    "options": [
+      "Consistent formatting across the worksheet",
+      "Automatic chart creation",
+      "Data sorting",
+      "Row freezing"
+    ],
+    "answer": "Consistent formatting across the worksheet"
+  },
+  {
+    "question": "Which feature allows you to apply a border to all cells in a table?",
+    "options": [
+      "Format as Table",
+      "Conditional Formatting",
+      "Freeze Panes",
+      "Wrap Text"
+    ],
+    "answer": "Format as Table"
+  },
+  {
+    "question": "What does the 'Clear Formats' option do?",
+    "options": [
+      "Removes all formatting from selected cells",
+      "Deletes the cells",
+      "Unmerges cells",
+      "Removes data"
+    ],
+    "answer": "Removes all formatting from selected cells"
+  },
+  {
+    "question": "Which feature allows you to quickly apply a theme to your worksheet?",
+    "options": [
+      "Cell Styles",
+      "Conditional Formatting",
+      "Freeze Panes",
+      "Wrap Text"
+    ],
+    "answer": "Cell Styles"
+  },
+  {
+    "question": "Which of the following is NOT a valid way to merge cells?",
+    "options": [
+      "Merge & Center",
+      "Merge Across",
+      "Merge Cells",
+      "Merge Vertically"
+    ],
+    "answer": "Merge Vertically"
+  },
+  {
+    "question": "Which feature can be used to create a drop-down filter in a table?",
+    "options": [
+      "Format as Table",
+      "Conditional Formatting",
+      "Freeze Panes",
+      "Wrap Text"
+    ],
+    "answer": "Format as Table"
+  },
+  {
+    "question": "What happens if you apply conditional formatting to a table?",
+    "options": [
+      "Formatting rules are applied to the table data",
+      "The table is deleted",
+      "Data is merged",
+      "Rows are frozen"
+    ],
+    "answer": "Formatting rules are applied to the table data"
+  },
+  {
+    "question": "Which feature allows you to automatically highlight top 10 values in a range?",
+    "options": [
+      "Conditional Formatting > Top/Bottom Rules",
+      "Cell Styles",
+      "Format as Table",
+      "Freeze Panes"
+    ],
+    "answer": "Conditional Formatting > Top/Bottom Rules"
+  },
+  {
+    "question": "Which of the following is NOT a valid conditional formatting option?",
+    "options": [
+      "Insert Table",
+      "Data Bars",
+      "Icon Sets",
+      "Color Scales"
+    ],
+    "answer": "Insert Table"
+  },
+  {
+    "question": "How do you remove all conditional formatting from a worksheet?",
+    "options": [
+      "Home > Conditional Formatting > Clear Rules > Clear Rules from Entire Sheet",
+      "Delete all data",
+      "Unmerge all cells",
+      "Freeze all panes"
+    ],
+    "answer": "Home > Conditional Formatting > Clear Rules > Clear Rules from Entire Sheet"
+  },
+  {
+    "question": "Which feature allows you to keep row and column labels visible at all times?",
+    "options": [
+      "Freeze Panes",
+      "Format as Table",
+      "Conditional Formatting",
+      "Wrap Text"
+    ],
+    "answer": "Freeze Panes"
+  },
+  {
+    "question": "What does the 'Format Painter' tool do?",
+    "options": [
+      "Copies formatting from one cell to another",
+      "Formats as table",
+      "Wraps text",
+      "Freezes panes"
+    ],
+    "answer": "Copies formatting from one cell to another"
+  },
+  {
+    "question": "Which of the following is NOT a cell alignment option?",
+    "options": [
+      "Diagonal Align",
+      "Left Align",
+      "Center Align",
+      "Right Align"
+    ],
+    "answer": "Diagonal Align"
+  },
+  {
+    "question": "Which feature can be used to alternate row colors automatically?",
+    "options": [
+      "Format as Table",
+      "Conditional Formatting",
+      "Cell Styles",
+      "Freeze Panes"
+    ],
+    "answer": "Format as Table"
+  },
+  {
+    "question": "Which option in the Table Design tab toggles the appearance of banded columns?",
+    "options": [
+      "Banded Columns",
+      "Header Row",
+      "Total Row",
+      "First Column"
+    ],
+    "answer": "Banded Columns"
+  },
+  {
+    "question": "Which option in the Table Design tab toggles the appearance of banded rows?",
+    "options": [
+      "Banded Rows",
+      "Header Row",
+      "Total Row",
+      "First Column"
+    ],
+    "answer": "Banded Rows"
+  },
+  {
+    "question": "What is the effect of using 'Center Across Selection' alignment?",
+    "options": [
+      "Centers text across selected cells without merging",
+      "Merges cells and centers text",
+      "Left aligns text",
+      "Right aligns text"
+    ],
+    "answer": "Centers text across selected cells without merging"
+  },
+  {
+    "question": "Which of the following is NOT a benefit of using Wrap Text?",
+    "options": [
+      "Keeps all content visible within cell boundaries",
+      "Allows text to overflow into adjacent cells",
+      "Improves readability",
+      "Displays long text on multiple lines"
+    ],
+    "answer": "Allows text to overflow into adjacent cells"
+  },
+  {
+    "question": "Which feature can be used to apply a specific number format to all cells in a table?",
+    "options": [
+      "Format as Table",
+      "Conditional Formatting",
+      "Freeze Panes",
+      "Wrap Text"
+    ],
+    "answer": "Format as Table"
+  },
+  {
+    "question": "Which of the following is NOT a valid Freeze Panes option?",
+    "options": [
+      "Freeze Last Row",
+      "Freeze Top Row",
+      "Freeze First Column",
+      "Freeze Panes"
+    ],
+    "answer": "Freeze Last Row"
+  },
+  {
+    "question": "Which feature allows you to quickly clear all formatting from a table?",
+    "options": [
+      "Table Design > Clear",
+      "Conditional Formatting > Clear Rules",
+      "Freeze Panes > Unfreeze Panes",
+      "Wrap Text"
+    ],
+    "answer": "Table Design > Clear"
+  },
+  {
+    "question": "Which option in Format as Table enables a summary at the bottom?",
+    "options": [
+      "Total Row",
+      "Header Row",
+      "Banded Rows",
+      "First Column"
+    ],
+    "answer": "Total Row"
+  },
+  {
+    "question": "Which feature can be used to merge each row of a selection across columns?",
+    "options": [
+      "Merge Across",
+      "Merge & Center",
+      "Wrap Text",
+      "Conditional Formatting"
+    ],
+    "answer": "Merge Across"
+  },
+  {
+    "question": "Which tab contains the 'Merge & Center' button?",
+    "options": [
+      "Home",
+      "Insert",
+      "View",
+      "Data"
+    ],
+    "answer": "Home"
+  },
+  {
+    "question": "Which of the following is NOT a valid table style option?",
+    "options": [
+      "Diagonal Borders",
+      "Banded Rows",
+      "Banded Columns",
+      "Header Row"
+    ],
+    "answer": "Diagonal Borders"
+  },
+  {
+    "question": "Which feature allows you to apply a style to selected cells only?",
+    "options": [
+      "Cell Styles",
+      "Format as Table",
+      "Freeze Panes",
+      "Wrap Text"
+    ],
+    "answer": "Cell Styles"
+  }
+]
+
+        }, 
+        "Printing" : {
+          "title": " Preview and  Printing",
+          "questions": [
+  {
+    "question": "Which view in Excel shows how your worksheet will look when printed, including margins, headers, and footers?",
+    "options": [
+      "Page Layout View",
+      "Normal View",
+      "Page Break Preview",
+      "Full Screen View"
+    ],
+    "answer": "Page Layout View"
+  },
+  {
+    "question": "Which tab contains most of the print and page setup options in Excel?",
+    "options": [
+      "Page Layout",
+      "Home",
+      "Insert",
+      "Data"
+    ],
+    "answer": "Page Layout"
+  },
+  {
+    "question": "Which Excel feature allows you to set a specific area of your worksheet to print?",
+    "options": [
+      "Print Area",
+      "Print Preview",
+      "Page Break Preview",
+      "Freeze Panes"
+    ],
+    "answer": "Print Area"
+  },
+  {
+    "question": "How can you access the Print Preview in Excel?",
+    "options": [
+      "File > Print",
+      "Home > Print Preview",
+      "View > Print Preview",
+      "Insert > Print"
+    ],
+    "answer": "File > Print"
+  },
+  {
+    "question": "What does the Page Layout View display that Normal View does not?",
+    "options": [
+      "Margins, headers, and footers",
+      "Formulas",
+      "Cell references",
+      "Conditional formatting"
+    ],
+    "answer": "Margins, headers, and footers"
+  },
+  {
+    "question": "Which option lets you adjust the space between your content and the edge of the page?",
+    "options": [
+      "Margins",
+      "Orientation",
+      "Scaling",
+      "Headers"
+    ],
+    "answer": "Margins"
+  },
+  {
+    "question": "Which two page orientation options are available in Excel?",
+    "options": [
+      "Portrait and Landscape",
+      "Horizontal and Vertical",
+      "Normal and Wide",
+      "A4 and Letter"
+    ],
+    "answer": "Portrait and Landscape"
+  },
+  {
+    "question": "How do you set a print area in Excel?",
+    "options": [
+      "Select the range, then Page Layout > Print Area > Set Print Area",
+      "Select the range and press Ctrl + P",
+      "File > Print > Set Print Area",
+      "Home > Print > Set Print Area"
+    ],
+    "answer": "Select the range, then Page Layout > Print Area > Set Print Area"
+  },
+  {
+    "question": "What does the 'Print Titles' feature allow you to do?",
+    "options": [
+      "Repeat specific rows or columns on every printed page",
+      "Set a print area",
+      "Change page orientation",
+      "Add headers and footers"
+    ],
+    "answer": "Repeat specific rows or columns on every printed page"
+  },
+  {
+    "question": "Where can you change the page orientation in Excel?",
+    "options": [
+      "Page Layout tab",
+      "Insert tab",
+      "Data tab",
+      "Review tab"
+    ],
+    "answer": "Page Layout tab"
+  },
+  {
+    "question": "What is the default margin setting in Excel?",
+    "options": [
+      "Normal",
+      "Wide",
+      "Narrow",
+      "Custom"
+    ],
+    "answer": "Normal"
+  },
+  {
+    "question": "How can you customize margins in Excel?",
+    "options": [
+      "Page Layout > Margins > Custom Margins",
+      "File > Print > Margins",
+      "Home > Margins > Custom Margins",
+      "Insert > Margins"
+    ],
+    "answer": "Page Layout > Margins > Custom Margins"
+  },
+  {
+    "question": "Which dialog box allows you to set margins, orientation, and scaling all in one place?",
+    "options": [
+      "Page Setup",
+      "Print Preview",
+      "Format Cells",
+      "Data Validation"
+    ],
+    "answer": "Page Setup"
+  },
+  {
+    "question": "Which feature allows you to fit your worksheet to a specific number of pages when printing?",
+    "options": [
+      "Scaling",
+      "Margins",
+      "Orientation",
+      "Headers"
+    ],
+    "answer": "Scaling"
+  },
+  {
+    "question": "How do you access the Page Setup dialog box in Excel?",
+    "options": [
+      "Page Layout tab > small arrow in the Page Setup group",
+      "File > Print",
+      "Home tab > Format",
+      "Insert tab > Page Setup"
+    ],
+    "answer": "Page Layout tab > small arrow in the Page Setup group"
+  },
+  {
+    "question": "What does Print Preview allow you to do?",
+    "options": [
+      "See how the worksheet will look when printed",
+      "Edit cell contents",
+      "Insert new rows",
+      "Change formulas"
+    ],
+    "answer": "See how the worksheet will look when printed"
+  },
+  {
+    "question": "Which feature allows you to add text at the top or bottom of every printed page?",
+    "options": [
+      "Headers and Footers",
+      "Print Titles",
+      "Page Breaks",
+      "Scaling"
+    ],
+    "answer": "Headers and Footers"
+  },
+  {
+    "question": "How do you add a header or footer in Excel?",
+    "options": [
+      "Insert tab > Header & Footer",
+      "Page Layout tab > Header & Footer",
+      "File > Print > Header & Footer",
+      "View > Header & Footer"
+    ],
+    "answer": "Insert tab > Header & Footer"
+  },
+  {
+    "question": "Which section in Page Layout View allows you to edit headers and footers directly?",
+    "options": [
+      "Top and bottom margin areas",
+      "Left and right margin areas",
+      "Cell area",
+      "Formula bar"
+    ],
+    "answer": "Top and bottom margin areas"
+  },
+  {
+    "question": "What is the effect of setting a print area?",
+    "options": [
+      "Only the selected range will be printed",
+      "All sheets will be printed",
+      "All data is deleted",
+      "Gridlines are removed"
+    ],
+    "answer": "Only the selected range will be printed"
+  },
+  {
+    "question": "How do you clear a set print area?",
+    "options": [
+      "Page Layout > Print Area > Clear Print Area",
+      "File > Print > Clear Print Area",
+      "Home > Clear > Print Area",
+      "Insert > Print Area > Clear"
+    ],
+    "answer": "Page Layout > Print Area > Clear Print Area"
+  },
+  {
+    "question": "Which option lets you print gridlines on your worksheet?",
+    "options": [
+      "Page Layout > Sheet Options > Print > Gridlines",
+      "Home > Gridlines",
+      "Insert > Gridlines",
+      "File > Print > Gridlines"
+    ],
+    "answer": "Page Layout > Sheet Options > Print > Gridlines"
+  },
+  {
+    "question": "How do you print row and column headings (A, B, C, 1, 2, 3) in Excel?",
+    "options": [
+      "Page Layout > Sheet Options > Print > Headings",
+      "File > Print > Headings",
+      "Home > Headings",
+      "Insert > Print Headings"
+    ],
+    "answer": "Page Layout > Sheet Options > Print > Headings"
+  },
+  {
+    "question": "What is the use of Page Break Preview?",
+    "options": [
+      "To see and adjust where pages will break when printing",
+      "To edit cell contents",
+      "To insert headers",
+      "To format cells"
+    ],
+    "answer": "To see and adjust where pages will break when printing"
+  },
+  {
+    "question": "How can you add a page break manually?",
+    "options": [
+      "Select a row or column, then Page Layout > Breaks > Insert Page Break",
+      "File > Print > Insert Page Break",
+      "Home > Insert > Page Break",
+      "Insert > Page Break"
+    ],
+    "answer": "Select a row or column, then Page Layout > Breaks > Insert Page Break"
+  },
+  {
+    "question": "How do you remove a manual page break?",
+    "options": [
+      "Page Layout > Breaks > Remove Page Break",
+      "File > Print > Remove Page Break",
+      "Insert > Remove Page Break",
+      "Data > Remove Page Break"
+    ],
+    "answer": "Page Layout > Breaks > Remove Page Break"
+  },
+  {
+    "question": "Which option in Page Setup lets you center your worksheet horizontally or vertically on the page?",
+    "options": [
+      "Margins > Custom Margins > Center on page",
+      "Orientation",
+      "Scaling",
+      "Headers"
+    ],
+    "answer": "Margins > Custom Margins > Center on page"
+  },
+  {
+    "question": "What does scaling do in the Page Setup dialog?",
+    "options": [
+      "Adjusts the worksheet to fit a certain number of pages",
+      "Changes cell size",
+      "Adds headers",
+      "Removes gridlines"
+    ],
+    "answer": "Adjusts the worksheet to fit a certain number of pages"
+  },
+  {
+    "question": "How do you change the paper size for printing?",
+    "options": [
+      "Page Layout > Size",
+      "Insert > Page Size",
+      "File > Print > Size",
+      "Home > Page Size"
+    ],
+    "answer": "Page Layout > Size"
+  },
+  {
+    "question": "Which of the following is NOT a valid page orientation?",
+    "options": [
+      "Diagonal",
+      "Portrait",
+      "Landscape",
+      "Both B and C"
+    ],
+    "answer": "Diagonal"
+  },
+  {
+    "question": "Where can you preview how your worksheet will look before printing?",
+    "options": [
+      "File > Print",
+      "Home > Print Preview",
+      "Insert > Print Preview",
+      "Page Layout > Print Preview"
+    ],
+    "answer": "File > Print"
+  },
+  {
+    "question": "Which feature allows you to add page numbers to printed pages?",
+    "options": [
+      "Header & Footer",
+      "Print Titles",
+      "Page Break Preview",
+      "Scaling"
+    ],
+    "answer": "Header & Footer"
+  },
+  {
+    "question": "How do you access the Header & Footer Tools Design tab?",
+    "options": [
+      "Click inside a header or footer area",
+      "Page Layout > Header & Footer",
+      "File > Print > Header & Footer",
+      "Insert > Header & Footer"
+    ],
+    "answer": "Click inside a header or footer area"
+  },
+  {
+    "question": "Which option allows you to add the file name to the footer?",
+    "options": [
+      "Header & Footer Tools > Design > File Name",
+      "Page Layout > File Name",
+      "Insert > File Name",
+      "File > Print > File Name"
+    ],
+    "answer": "Header & Footer Tools > Design > File Name"
+  },
+  {
+    "question": "What does the 'Rows to repeat at top' option do?",
+    "options": [
+      "Prints the specified rows at the top of each printed page",
+      "Adds a header row",
+      "Freezes the top row",
+      "Wraps text"
+    ],
+    "answer": "Prints the specified rows at the top of each printed page"
+  },
+  {
+    "question": "How do you print only selected cells?",
+    "options": [
+      "Select the cells, then File > Print > Print Selection",
+      "Set Print Area",
+      "Select the cells and press Ctrl + P",
+      "Insert > Print"
+    ],
+    "answer": "Select the cells, then File > Print > Print Selection"
+  },
+  {
+    "question": "Which of the following is NOT a section of a header or footer?",
+    "options": [
+      "Middle",
+      "Left",
+      "Right",
+      "Top"
+    ],
+    "answer": "Top"
+  },
+  {
+    "question": "What is the effect of using 'Fit Sheet on One Page' in Print Preview?",
+    "options": [
+      "Scales the worksheet to fit on one printed page",
+      "Prints only the first page",
+      "Deletes extra data",
+      "Adds a header"
+    ],
+    "answer": "Scales the worksheet to fit on one printed page"
+  },
+  {
+    "question": "How do you exit Page Layout View?",
+    "options": [
+      "Click 'Normal' view button at the bottom or in the View tab",
+      "File > Close",
+      "Insert > Exit",
+      "Page Layout > Exit"
+    ],
+    "answer": "Click 'Normal' view button at the bottom or in the View tab"
+  },
+  {
+    "question": "Which feature lets you preview page breaks before printing?",
+    "options": [
+      "Page Break Preview",
+      "Page Layout View",
+      "Normal View",
+      "Header & Footer"
+    ],
+    "answer": "Page Break Preview"
+  },
+  {
+    "question": "How do you access Page Break Preview?",
+    "options": [
+      "View tab > Page Break Preview",
+      "File > Print > Page Break Preview",
+      "Insert > Page Break Preview",
+      "Home > Page Break Preview"
+    ],
+    "answer": "View tab > Page Break Preview"
+  },
+  {
+    "question": "Which of the following can be added to a header or footer?",
+    "options": [
+      "Page numbers, date, file name",
+      "Cell values",
+      "Formulas",
+      "Conditional formatting"
+    ],
+    "answer": "Page numbers, date, file name"
+  },
+  {
+    "question": "How do you remove a header or footer?",
+    "options": [
+      "Header & Footer Tools > Design > Remove Header/Footer",
+      "Delete the first row",
+      "File > Print > Remove Header/Footer",
+      "Insert > Remove Header/Footer"
+    ],
+    "answer": "Header & Footer Tools > Design > Remove Header/Footer"
+  },
+  {
+    "question": "What does the 'Print Preview' screen show?",
+    "options": [
+      "An image of how the printed worksheet will look",
+      "A list of print jobs",
+      "A summary of formulas",
+      "The file properties"
+    ],
+    "answer": "An image of how the printed worksheet will look"
+  },
+  {
+    "question": "Which of the following is NOT a margin preset in Excel?",
+    "options": [
+      "Extra Wide",
+      "Normal",
+      "Wide",
+      "Narrow"
+    ],
+    "answer": "Extra Wide"
+  },
+  {
+    "question": "What is the effect of printing in landscape orientation?",
+    "options": [
+      "The page is wider than it is tall",
+      "The page is taller than it is wide",
+      "The page is square",
+      "The page is double-sided"
+    ],
+    "answer": "The page is wider than it is tall"
+  }
+]
+
+        }
     }
   }
 }
