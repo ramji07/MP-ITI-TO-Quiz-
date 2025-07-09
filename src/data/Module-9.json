@@ -378,2858 +378,3493 @@
         ]
       },
       "collaboration": {
-        "title": "Collaboration Features in MS Word 2010",
+        "title": "Spreadsheets",
         "questions": [
-          {
-            "question": "What is the primary purpose of the Co-authoring feature in Word 2010?",
-            "options": [
-              "To create new documents",
-              "To allow multiple users to edit a document simultaneously",
-              "To print documents",
-              "To save documents in different formats"
-            ],
-            "answer": "To allow multiple users to edit a document simultaneously"
-          },
-          {
-            "question": "What new collaboration feature was added in Word 2010?",
-            "options": ["Screen Sharing", "Track Changes", "Co-authoring", "Live Chat"],
-            "answer": "Co-authoring"
-          },
-          {
-            "question": "How does Word 2010 display co-authors?",
-            "options": [
-              "In a floating popup",
-              "Through a chat window",
-              "By listing users editing the document",
-              "As a comment on the page"
-            ],
-            "answer": "By listing users editing the document"
-          }
+  {
+    "question": "In a spreadsheet, letters are used to represent _____________",
+    "options": ["Columns", "Blocks", "Rows", "Cells"],
+    "answer": "Columns"
+  },
+  {
+    "question": "A numeric data analysis tool that allows us to create a computerized ledger.",
+    "options": ["Mathematical Package", "Graphics package", "Spreadsheet package", "Word processing package"],
+    "answer": "Spreadsheet package"
+  },
+  {
+    "question": "______________ help us to see patterns.",
+    "options": ["Charts", "Graphs", "Spreadsheets", "Calculations"],
+    "answer": "Charts"
+  },
+  {
+    "question": "In a computer spreadsheet, to choose built in function we used is",
+    "options": ["defined function", "function finder", "built in function", "paste function"],
+    "answer": "paste function"
+  },
+  {
+    "question": "In a computer spreadsheet, tool used to construct formulas is called",
+    "options": ["formula bar", "filter", "auditing toolbar", "format printer"],
+    "answer": "formula bar"
+  },
+  {
+    "question": "By default, worksheets that are present in a computer excel workbook are",
+    "options": ["10", "4", "3", "None"],
+    "answer": "3"
+  },
+  {
+    "question": "In a computer spreadsheet, absolute cell reference can be represented as",
+    "options": ["B3", "$B$3", "B$3", "$B3"],
+    "answer": "$B$3"
+  },
+  {
+    "question": "Computer spreadsheet cell that is highlighted with a heavy border is a",
+    "options": ["active cell", "cell containing a formula", "locked cell", "cell"],
+    "answer": "active cell"
+  },
+  {
+    "question": "Vertical dimension of a computer spreadsheet is called",
+    "options": ["row", "column", "record", "field"],
+    "answer": "column"
+  },
+  {
+    "question": "In a computer spreadsheet, block of cells is called",
+    "options": ["range", "column", "workbook", "function"],
+    "answer": "range"
+  },
+  {
+    "question": "Which is true if current or active cell is B4 and you pressed Enter key?",
+    "options": ["you will be in the cell A1", "you will be in the cell B5", "you will be in the cell B3", "you will be in the cell B6"],
+    "answer": "you will be in the cell B5"
+  },
+  {
+    "question": "In computer spreadsheet, a workbook is a group of",
+    "options": ["many rows", "many columns", "worksheet", "least number of column"],
+    "answer": "worksheet"
+  },
+  {
+    "question": "Faster way to change horizontal alignment in a computer document is",
+    "options": ["align left", "center", "align right", "all of these"],
+    "answer": "all of these"
+  },
+  {
+    "question": "Title bar in MS-Excel displays name of the",
+    "options": ["worksheet", "workbook", "formula", "location"],
+    "answer": "workbook"
+  },
+  {
+    "question": "In a computer, cell's address that is included in range C5:E7 is",
+    "options": ["C8", "D6", "E4", "D9"],
+    "answer": "D6"
+  },
+  {
+    "question": "In a computer, correct row address is",
+    "options": ["AA", "25", "3B", "C5"],
+    "answer": "25"
+  },
+  {
+    "question": "In a computer, if custom format is #,### then 1500 will be displayed as",
+    "options": ["150,00", "15,00", "1,500", "15,000"],
+    "answer": "1,500"
+  },
+  {
+    "question": "In a computer spreadsheet, a preprogrammed Formula is basically a",
+    "options": ["function", "cell", "graph", "range"],
+    "answer": "function"
+  },
+  {
+    "question": "In a computer, page orientation is changed through",
+    "options": ["page setup dialog box", "setup dialog box", "paper dialog box", "print dialog box"],
+    "answer": "page setup dialog box"
+  },
+  {
+    "question": "In a computer, graphics representation of data is named as",
+    "options": ["chart", "graphics", "picture", "figure"],
+    "answer": "chart"
+  },
+  {
+    "question": "Which of the following isn’t a part of a spreadsheet?",
+    "options": ["row number", "column number", "column letter", "cell address"],
+    "answer": "column number"
+  },
+  {
+    "question": "Spreadsheets cannot:",
+    "options": ["do calculations", "create graphics", "plot graphs", "plot charts"],
+    "answer": "create graphics"
+  },
+  {
+    "question": "An easier way to set up complicated calculations.",
+    "options": ["Decimals", "Fractions", "Booleans", "Functions"],
+    "answer": "Functions"
+  },
+  {
+    "question": "The cell that is in use.",
+    "options": ["Active cell", "Highlighted cell", "Main cell", "Formula cell"],
+    "answer": "Active cell"
+  },
+  {
+    "question": "The placement of information within a cell at the left edge, right edge, or centered is :",
+    "options": ["Alignment", "Identification", "Indentation", "Placement"],
+    "answer": "Alignment"
+  },
+   {
+    "question": "______________ allows you to combine data from multiple worksheets into a single master worksheet.",
+    "options": ["Data Consolidation", "Multiple Data", "Scenarios", "Goal Seek"],
+    "answer": "Data Consolidation"
+  },
+  {
+    "question": "_______________ series of worksheets or workbooks summarizes it into a single worksheet.",
+    "options": ["Multiple Data", "Data Consolidation", "Scenarios", "Goal Seek"],
+    "answer": "Data Consolidation"
+  },
+  {
+    "question": "Which function cannot be performed through Subtotal in a Spreadsheet?",
+    "options": ["Sum", "Product", "Average", "Percentage"],
+    "answer": "Percentage"
+  },
+  {
+    "question": "Scenarios are a tool to test questions.",
+    "options": ["Auto", "Goal Seek", "What-if", "Drop Down"],
+    "answer": "What-if"
+  },
+  {
+    "question": "When making a watermark or putting an image in the backdrop of a document, __________ comes in useful.",
+    "options": ["Transparency", "Fill", "Filters", "Crop"],
+    "answer": "Transparency"
+  },
+  {
+    "question": "It refers to a cell or a range of cells on a worksheet and can be used to find the values or data that you want a formula to calculate.",
+    "options": ["Row", "Column", "Autosum", "Cell Reference"],
+    "answer": "Cell Reference"
+  },
+  {
+    "question": "__________, totals/adds data arranged in an array—that is, a group of cells with labels for columns and/or rows. Which step one must follow before using the Subtotal option?",
+    "options": ["Consolidate", "Rename Data", "Filter Data", "Subtotal"],
+    "answer": "Subtotal"
+  },
+  {
+    "question": "A ______ hyperlink contains the full address of the destination file or web page.",
+    "options": ["Relative", "Absolute", "Mixed", "Address"],
+    "answer": "Absolute"
+  },
+  {
+    "question": "Which of the following reflects the importance of Goal Seek?",
+    "options": ["Subtotal", "Scenario", "Solver", "Consolidate"],
+    "answer": "Solver"
+  },
+  {
+    "question": "_________ means combining data in a spreadsheet from different worksheets into master worksheet.",
+    "options": ["Hyperlinks", "Consolidating", "Linking", "Filter"],
+    "answer": "Consolidating"
+  },
+  {
+    "question": "An __________ link will stop working only if the target is moved while a __________ link will stop working only if the start and target locations change relative to each other.",
+    "options": ["absolute, fixed", "Relative, Absolute", "absolute, relative", "permanent, absolute"],
+    "answer": "absolute, relative"
+  },
+  {
+    "question": "Which spreadsheet feature allows completing repeated tasks quickly?",
+    "options": ["Record Changes", "Track Changes", "Goal Seek", "Using Macros"],
+    "answer": "Using Macros"
+  },
+  {
+    "question": "Which feature helps to track modifications made by employees?",
+    "options": ["Macro", "Link Workbook", "Change Worksheet", "Track Changes"],
+    "answer": "Track Changes"
+  },
+  {
+    "question": "A worksheet in spreadsheets can be renamed in ________ different ways.",
+    "options": ["2", "3", "4", "1"],
+    "answer": "3"
+  },
+  {
+    "question": "_________ is a spreadsheet function designed to minimize or maximize a result based on rules.",
+    "options": ["Goal Seek", "Scenario", "Solver", "Subtotal"],
+    "answer": "Solver"
+  },
+  {
+    "question": "The intersection point between a row and column is called _______.",
+    "options": ["Row", "Column", "Table", "Cell"],
+    "answer": "Cell"
+  },
+  {
+    "question": "Formulas in a Spreadsheet must begin with a __________ sign.",
+    "options": ["$", "@", "#", "="],
+    "answer": "="
+  },
+  {
+    "question": "___________ is a tool to test “what-if” questions.",
+    "options": ["Scenario", "Solver", "Macro", "Average"],
+    "answer": "Scenario"
+  },
+  {
+    "question": "Which tool helps Rohit reach a target percentage?",
+    "options": ["Macro", "Solver", "Goal Seek", "Sub Total"],
+    "answer": "Goal Seek"
+  },
+  {
+    "question": "Which option should Krish and Kritika use to work on the same spreadsheet together?",
+    "options": ["Consolidate Worksheet", "Shared Worksheet", "Link Worksheet", "Lock Worksheet"],
+    "answer": "Shared Worksheet"
+  },
+  {
+    "question": "You can use ________ to combine data from multiple worksheets into a master worksheet.",
+    "options": ["Data Consolidation", "Goal Seek", "Solver", "Total data"],
+    "answer": "Data Consolidation"
+  },
+  {
+    "question": "The Consolidated option is available under _________ menu.",
+    "options": ["View", "Tool", "Insert", "Data"],
+    "answer": "Data"
+  },
+  {
+    "question": "We can consolidate data by ________",
+    "options": ["Row Label", "Column Label", "Both of the above", "None of the above"],
+    "answer": "Both of the above"
+  },
+  {
+    "question": "In the consolidate window, which of the following functions are available?",
+    "options": ["Max", "Min", "Count", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which option should we use to define the target range?",
+    "options": ["Source data range", "Copy results to", "Need result at", "target range"],
+    "answer": "Copy results to"
+  },
+  {
+    "question": "Which option is used to name a range of cells?",
+    "options": ["Range name", "Cell Range", "Define Range", "Select Range"],
+    "answer": "Define Range"
+  },
+  {
+    "question": "Define range option is available under the ________ menu.",
+    "options": ["Insert", "View", "Developer", "Data"],
+    "answer": "Data"
+  },
+  {
+    "question": "SUBTOTALS _________ data arranged in an array (group of cells).",
+    "options": ["Add", "Average", "Find", "Clear"],
+    "answer": "Add"
+  },
+  {
+    "question": "Subtotals are available in __________ menu.",
+    "options": ["Tools", "Format", "Insert", "Data"],
+    "answer": "Data"
+  },
+  {
+    "question": "In Subtotals we can select up to _______ groups of arrays.",
+    "options": ["3", "2", "4", "Infinite"],
+    "answer": "3"
+  },
+  {
+    "question": "Scenario option is available in ___________________ menu.",
+    "options": ["Data", "Tools", "Insert", "Windows"],
+    "answer": "Tools"
+  },
+  {
+    "question": "We can shift from one scenario to another by _____________",
+    "options": ["Navigator", "Find and Replace", "Data Source", "None of the above"],
+    "answer": "Navigator"
+  },
+  {
+    "question": "Which option is suitable to calculate the effect of different interest rates on an investment?",
+    "options": ["Scenario", "Subtotal", "Consolidate", "None of the above"],
+    "answer": "Scenario"
+  },
+  {
+    "question": "Default name of first scenario created in Sheet1 of Calc is ________",
+    "options": ["Sheet1_Scenario1", "Sheet1_Scenario_1", "Sheet_1_Scenario1", "Sheet_1_Scenario_1"],
+    "answer": "Sheet1_Scenario_1"
+  },
+  {
+    "question": "To select a random multiple cell hold down ________ key as you click on each cell.",
+    "options": ["Alt", "Shift", "Ctrl", "All of the above"],
+    "answer": "Ctrl"
+  },
+  {
+    "question": "Goal Seek Option available in __ menu.",
+    "options": ["Tools", "Format", "Data", "Insert"],
+    "answer": "Tools"
+  },
+  {
+    "question": "____________ is a more elaborate form of Goal Seek.",
+    "options": ["Scenario", "Subtotal", "Solver", "All of the above"],
+    "answer": "Solver"
+  },
+  {
+    "question": "Solver option is available under _________ menu",
+    "options": ["Tools", "Format", "Edit", "Insert"],
+    "answer": "Tools"
+  },
+  {
+    "question": "Which feature of Calc helps to see the changes made in the shared worksheet?",
+    "options": ["Record Changes", "Solver", "Subtotal", "None of the above"],
+    "answer": "Record Changes"
+  },
+  {
+    "question": "Record Changes feature of Calc help",
+    "options": [
+      "Authors and other reviewers to know which cells were edited.",
+      "to record the screen",
+      "to make changes permanent",
+      "None of the above"
+    ],
+    "answer": "Authors and other reviewers to know which cells were edited."
+  },
+  {
+    "question": "How can you consolidate data in SpreadSheet?",
+    "options": ["By Column Label", "By Row Label", "Both a) and b)", "None of the above"],
+    "answer": "Both a) and b)"
+  },
+  {
+    "question": "Subtotals refer to the process of _________ data arranged in an array (a group of cells).",
+    "options": ["finding", "adding", "clearing", "averaging"],
+    "answer": "adding"
+  },
+  {
+    "question": "Is it true or false that when you print a spreadsheet, only the content of the active scenario is printed?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "To select multiple random cells, what key should you hold down as you click on each cell?",
+    "options": ["Alt", "Ctrl", "Shift", "All of the above"],
+    "answer": "Ctrl"
+  },
+  {
+    "question": "Can we link one worksheet to another worksheet?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Where are the sheet tabs located by default in a spreadsheet?",
+    "options": ["Top", "Bottom", "Middle", "None of the above"],
+    "answer": "Bottom"
+  },
+  {
+    "question": "What is the formula to refer to cell A3 in sheet named S1?",
+    "options": ["=S1.A3", "=\"S1\".A3", "=S1A3", "None of the above"],
+    "answer": "=S1.A3"
+  },
+  {
+    "question": "If you have two spreadsheets in the same folder linked to each other and you move the entire folder to a new location, a relative hyperlink will:",
+    "options": ["may work", "not work", "work", "None of the above"],
+    "answer": "work"
+  },
+  {
+    "question": "How many options are shown on the left-hand side of the Hyperlink dialog box in Calc?",
+    "options": ["New Document", "Internet", "Document", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How can Suman and her friends work together in a spreadsheet?",
+    "options": ["By linking workbooks", "By sharing a workbook", "Both a) and b)", "None of the above"],
+    "answer": "By sharing a workbook"
+  },
+  {
+    "question": "What color border appears around a cell where changes were made in a shared worksheet?",
+    "options": ["Green", "Red", "Blue", "Yellow"],
+    "answer": "Red"
+  },
+  {
+    "question": "What kind of colored bar marks a deleted column or row in a shared worksheet?",
+    "options": ["Line", "Solid", "Light", "Heavy"],
+    "answer": "Heavy"
+  },
+  {
+    "question": "How can Calc find the changes made to a shared worksheet?",
+    "options": ["Comparing worksheets", "Duplicating worksheets", "Checking worksheets", "None of the above"],
+    "answer": "Comparing worksheets"
+  },
+  {
+    "question": "Where should one go to edit a macro in Calc?",
+    "options": ["View > Macros > Edit Macros", "Format > Macros > Edit Macros", "Tools > Macros > Edit Macros", "None of the above"],
+    "answer": "Tools > Macros > Edit Macros"
+  },
+  {
+    "question": "Which of the following modifications is not recorded in a shared worksheet?",
+    "options": ["Changes to any text", "Cell formatting", "Changes to any number", "None of the above"],
+    "answer": "Cell formatting"
+  },
+  {
+    "question": "In which menu is the “Share Document” option available?",
+    "options": ["Edit", "File", "Tools", "View"],
+    "answer": "Tools"
+  },
+  {
+    "question": "How can we register a data source in OpenOffice.org?",
+    "options": [
+      "Choose View > Options > OpenOffice.org Base > Databases",
+      "Choose Format > Databases > Options > OpenOffice.org Base",
+      "Choose Tools > Options > OpenOffice.org Base > Databases",
+      "None of the above"
+    ],
+    "answer": "Choose Tools > Options > OpenOffice.org Base > Databases"
+  },
+  {
+    "question": "Hyperlink option is available in which menu in Calc?",
+    "options": ["Insert", "Edit", "File", "Format"],
+    "answer": "Insert"
+  },
+  {
+    "question": "When a new spreadsheet is opened, what is the default name of the first sheet?",
+    "options": ["Sheet1", "Sheet 1", "Sheet_1", "None of the above"],
+    "answer": "Sheet1"
+  },
+  {
+    "question": "Is the Comment in the Create Scenario dialog box optional?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "Do each scenario in SpreadSheet have a name?",
+    "options": ["True", "False"],
+    "answer": "True"
+  },
+  {
+    "question": "What option is used to give a name to a range of cells in SpreadSheet?",
+    "options": ["Define Range", "Target name", "Select Range", "Cell Range"],
+    "answer": "Define Range"
+  },
+  {
+    "question": "Where can you find the Consolidate option in SpreadSheet?",
+    "options": ["Insert", "View", "Data", "Tool"],
+    "answer": "Data"
+  },
+  {
+    "question": "What is the correct sequence to apply Subtotals?",
+    "options": [
+      "Choose the data first, then launch the Subtotals window.",
+      "Open the Subtotals window first, and then choose the data to which subtotals should be applied.",
+      "Both a) and b)",
+      "None of the above."
+    ],
+    "answer": "Choose the data first, then launch the Subtotals window."
+  },
+  {
+    "question": "Which option is appropriate to determine how different interest rates will affect an investment?",
+    "options": ["Scenario", "Consolidate", "Subtotal", "None of the above"],
+    "answer": "Scenario"
+  },
+  {
+    "question": "In which menu is the Solver option available?",
+    "options": ["Edit", "Format", "Insert", "Tools"],
+    "answer": "Tools"
+  },
+  {
+    "question": "What elements are present in the “Insert Sheet” dialog box?",
+    "options": ["After Current Sheet", "No. of Sheets", "Before Current Sheet", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How can hyperlinks in Calc be used?",
+    "options": [
+      "to jump from one sheet to a website",
+      "to jump from one section to another section of the same sheet",
+      "to jump from one sheet to another sheet",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Where is the Hyperlink icon present in Calc?",
+    "options": ["Standard Toolbar", "Format Toolbar", "Menu Bar", "None of the above"],
+    "answer": "Standard Toolbar"
+  },
+  {
+    "question": "Can spreadsheet software allow users to share a workbook?",
+    "options": ["True", "False"],
+    "answer": "True"
+  }
         ]
       },
-      "Shortcuts": {
-        "title": "Shortcuts in MS Word 2010",
+      "Spreadsheet" : {
+        "title": "Basic of Spreadsheet Feature",
         "questions": [
           {
-            "question": "What shortcut opens the Navigation Pane in Word 2010?",
-            "options": ["Ctrl+N", "Ctrl+F", "Ctrl+H", "Ctrl+P"],
-            "answer": "Ctrl+F"
-          },
-          {
-            "question": "What is the shortcut for saving a document in Word 2010?",
-            "options": ["Ctrl+S", "Ctrl+W", "Ctrl+Q", "Ctrl+E"],
-            "answer": "Ctrl+S"
-          },
-          {
-            "question": "Which shortcut is used to copy selected text?",
-            "options": ["Ctrl+C", "Ctrl+V", "Ctrl+X", "Ctrl+A"],
-            "answer": "Ctrl+C"
-          },
-          {
-            "question": "What does Ctrl+B do in Word 2010?",
+            "question": "What is the primary function of a spreadsheet?",
             "options": [
-              "Bold selected text",
-              "Italicize selected text",
-              "Underline selected text",
-              "Open the Backstage view"
+              "To create text documents",
+              "To perform calculations and data analysis",
+              "To design graphics",
+              "To manage emails"
             ],
-            "answer": "Bold selected text"
+            "answer": "To perform calculations and data analysis"
           },
-           {
-      "question": "Which of the following key combination collapses the ribbon in MS Word?",
-      "options": [
-        "Ctrl + F1",
-        "Ctrl + F2",
-        "Alt + F1",
-        "Shift + F1"
-      ],
-      "answer": "Ctrl + F1"
-    },
-    {
-      "question": "What is the default file extension for a Word document (2007 and later)?",
-      "options": [
-        ".doc",
-        ".docx",
-        ".txt",
-        ".wrd"
-      ],
-      "answer": ".docx"
-    },
-    {
-      "question": "Which keyboard shortcut is used to center align the selected text?",
-      "options": [
-        "Ctrl + C",
-        "Ctrl + E",
-        "Ctrl + L",
-        "Ctrl + R"
-      ],
-      "answer": "Ctrl + E"
-    },
-    {
-      "question": "The 'Format Painter' tool is found under which tab in MS Word?",
-      "options": [
-        "Home",
-        "Insert",
-        "Page Layout",
-        "View"
-      ],
-      "answer": "Home"
-    },
-    {
-      "question": "Which feature in MS Word allows you to create a personalized letter for multiple recipients?",
-      "options": [
-        "Mail Merge",
-        "Track Changes",
-        "AutoCorrect",
-        "Styles"
-      ],
-      "answer": "Mail Merge"
-    },
-    {
-      "question": "What is the keyboard shortcut to save a document?",
-      "options": [
-        "Ctrl + S",
-        "Ctrl + P",
-        "Ctrl + O",
-        "Ctrl + N"
-      ],
-      "answer": "Ctrl + S"
-    },
-    {
-      "question": "To insert a page break in MS Word, you should press:",
-      "options": [
-        "Ctrl + Enter",
-        "Shift + Enter",
-        "Alt + Enter",
-        "Ctrl + Shift + Enter"
-      ],
-      "answer": "Ctrl + Enter"
-    },
-    {
-      "question": "Which option allows you to change the orientation of the page to portrait or landscape?",
-      "options": [
-        "Margins",
-        "Size",
-        "Orientation",
-        "Columns"
-      ],
-      "answer": "Orientation"
-    },
-    {
-      "question": "The 'Spelling & Grammar' check can be initiated by pressing which function key?",
-      "options": [
-        "F1",
-        "F5",
-        "F7",
-        "F12"
-      ],
-      "answer": "F7"
-    },
-    {
-      "question": "What is the small, blinking vertical line in a document that indicates where text will be inserted?",
-      "options": [
-        "Cursor",
-        "Pointer",
-        "Marker",
-        "Indicator"
-      ],
-      "answer": "Cursor"
-    },
-    {
-      "question": "Which view is best for reading a document on screen without distractions?",
-      "options": [
-        "Print Layout",
-        "Web Layout",
-        "Read Mode",
-        "Draft View"
-      ],
-      "answer": "Read Mode"
-    },
-    {
-      "question": "To increase the font size of selected text, which shortcut key is used?",
-      "options": [
-        "Ctrl + ]",
-        "Ctrl + [",
-        "Ctrl + Shift + +",
-        "Both A and C"
-      ],
-      "answer": "Ctrl + ]"
-    },
-    {
-      "question": "What does 'Gutter Margin' refer to?",
-      "options": [
-        "Margin added to the top of the page",
-        "Margin added to the bottom of the page",
-        "Margin added to the binding side of the page",
-        "Margin added to the outside edge of the page"
-      ],
-      "answer": "Margin added to the binding side of the page"
-    },
-    {
-      "question": "The 'Thesaurus' tool in MS Word is used for:",
-      "options": [
-        "Checking spelling",
-        "Finding synonyms and antonyms",
-        "Translating text",
-        "Checking grammar"
-      ],
-      "answer": "Finding synonyms and antonyms"
-    },
-    {
-      "question": "Which keyboard shortcut opens the 'Find' dialog box?",
-      "options": [
-        "Ctrl + F",
-        "Ctrl + H",
-        "Ctrl + G",
-        "Ctrl + R"
-      ],
-      "answer": "Ctrl + F"
-    },
-    {
-      "question": "In MS Word, what is a 'Header'?",
-      "options": [
-        "Text at the top of every page",
-        "Text at the bottom of every page",
-        "The main title of the document",
-        "Text in the first paragraph"
-      ],
-      "answer": "Text at the top of every page"
-    },
-    {
-      "question": "The 'Track Changes' feature is primarily used for:",
-      "options": [
-        "Formatting the document",
-        "Reviewing and editing a document collaboratively",
-        "Creating a table of contents",
-        "Printing the document"
-      ],
-      "answer": "Reviewing and editing a document collaboratively"
-    },
-    {
-      "question": "Which key combination selects the entire document?",
-      "options": [
-        "Ctrl + A",
-        "Ctrl + E",
-        "Alt + A",
-        "Shift + A"
-      ],
-      "answer": "Ctrl + A"
-    },
-    {
-      "question": "To apply 'Bold' formatting to text, you can press:",
-      "options": [
-        "Ctrl + B",
-        "Ctrl + I",
-        "Ctrl + U",
-        "Alt + B"
-      ],
-      "answer": "Ctrl + B"
-    },
-    {
-      "question": "Which of the following is NOT a type of page margin?",
-      "options": [
-        "Top",
-        "Left",
-        "Center",
-        "Right"
-      ],
-      "answer": "Center"
-    },
-    {
-      "question": "What is the function of 'Ctrl + Z'?",
-      "options": [
-        "Redo the last action",
-        "Undo the last action",
-        "Paste the copied text",
-        "Cut the selected text"
-      ],
-      "answer": "Undo the last action"
-    },
-    {
-      "question": "The 'Word Count' feature can be found in the:",
-      "options": [
-        "Status Bar",
-        "Review Tab",
-        "Home Tab",
-        "Both A and B"
-      ],
-      "answer": "Both A and B"
-    },
-    {
-      "question": "Which tab is used to insert tables, pictures, and shapes?",
-      "options": [
-        "Home",
-        "Insert",
-        "Design",
-        "Layout"
-      ],
-      "answer": "Insert"
-    },
-    {
-      "question": "What does the 'Superscript' option do?",
-      "options": [
-        "Makes text smaller and places it below the baseline",
-        "Makes text smaller and places it above the baseline",
-        "Makes all letters capital",
-        "Makes all letters small"
-      ],
-      "answer": "Makes text smaller and places it above the baseline"
-    },
-    {
-      "question": "The shortcut 'Ctrl + H' is used to open which dialog box?",
-      "options": [
-        "Find",
-        "Replace",
-        "Go To",
-        "Hyperlink"
-      ],
-      "answer": "Replace"
-    },
-    {
-      "question": "Which option is used to apply a consistent look and feel to a document using fonts, colors, and effects?",
-      "options": [
-        "Themes",
-        "Templates",
-        "Styles",
-        "Page Borders"
-      ],
-      "answer": "Themes"
-    },
-    {
-      "question": "To move to the beginning of the document, press:",
-      "options": [
-        "Ctrl + Home",
-        "Ctrl + End",
-        "Home",
-        "Page Up"
-      ],
-      "answer": "Ctrl + Home"
-    },
-    {
-      "question": "What is a watermark?",
-      "options": [
-        "A faded background image or text",
-        "A border around the page",
-        "A special character",
-        "A comment in the margin"
-      ],
-      "answer": "A faded background image or text"
-    },
-    {
-      "question": "Which of the following is a type of list in MS Word?",
-      "options": [
-        "Bulleted List",
-        "Numbered List",
-        "Multilevel List",
-        "All of the above"
-      ],
-      "answer": "All of the above"
-    },
-    {
-      "question": "What is the purpose of the 'Ruler' in MS Word?",
-      "options": [
-        "To set tabs and indents",
-        "To measure page margins",
-        "To align text and objects",
-        "All of the above"
-      ],
-      "answer": "All of the above"
-    },
-    {
-      "question": "The 'Save As' dialog box can be opened by pressing:",
-      "options": [
-        "F1",
-        "F5",
-        "F7",
-        "F12"
-      ],
-      "answer": "F12"
-    },
-    {
-      "question": "What feature automatically creates a 'Table of Contents' based on heading styles?",
-      "options": [
-        "Index",
-        "Table of Contents",
-        "Bibliography",
-        "Cross-reference"
-      ],
-      "answer": "Table of Contents"
-    },
-    {
-      "question": "Which alignment option makes the text flush with both left and right margins?",
-      "options": [
-        "Left Align",
-        "Right Align",
-        "Center",
-        "Justify"
-      ],
-      "answer": "Justify"
-    },
-    {
-      "question": "To repeat the last action performed in MS Word, press:",
-      "options": [
-        "F4",
-        "F5",
-        "Ctrl + R",
-        "Ctrl + Y"
-      ],
-      "answer": "F4"
-    },
-    {
-      "question": "Which option allows you to divide the document into two or more columns?",
-      "options": [
-        "Columns",
-        "Breaks",
-        "Size",
-        "Line Numbers"
-      ],
-      "answer": "Columns"
-    },
-    {
-      "question": "What is the shortcut for 'Italic' formatting?",
-      "options": [
-        "Ctrl + B",
-        "Ctrl + I",
-        "Ctrl + U",
-        "Ctrl + L"
-      ],
-      "answer": "Ctrl + I"
-    },
-    {
-      "question": "Footnotes and Endnotes are used to add:",
-      "options": [
-        "Comments or citations",
-        "Page numbers",
-        "Headers",
-        "Watermarks"
-      ],
-      "answer": "Comments or citations"
-    },
-    {
-      "question": "The default alignment for text in MS Word is:",
-      "options": [
-        "Left",
-        "Right",
-        "Center",
-        "Justify"
-      ],
-      "answer": "Left"
-    },
-    {
-      "question": "Which group on the Home tab contains the commands for changing font type and size?",
-      "options": [
-        "Clipboard",
-        "Font",
-        "Paragraph",
-        "Styles"
-      ],
-      "answer": "Font"
-    },
-    {
-      "question": "The shortcut 'Ctrl + P' is used to:",
-      "options": [
-        "Paste text",
-        "Open the Print dialog box",
-        "Apply paragraph formatting",
-        "Protect the document"
-      ],
-      "answer": "Open the Print dialog box"
-    },
-    {
-      "question": "Which of these is a valid view in MS Word?",
-      "options": [
-        "Slide Sorter",
-        "Normal View",
-        "Print Layout",
-        "Outline View"
-      ],
-      "answer": "Print Layout"
-    },
-    {
-      "question": "What is a 'template' in MS Word?",
-      "options": [
-        "A pre-designed document that you can use as a starting point",
-        "A tool for checking grammar",
-        "A feature for creating mailing labels",
-        "The final version of a document"
-      ],
-      "answer": "A pre-designed document that you can use as a starting point"
-    },
-    {
-      "question": "To insert a hyperlink, you can use the shortcut:",
-      "options": [
-        "Ctrl + K",
-        "Ctrl + H",
-        "Ctrl + L",
-        "Alt + K"
-      ],
-      "answer": "Ctrl + K"
-    },
-    {
-      "question": "Which option do you use to increase the space between lines of text?",
-      "options": [
-        "Line Spacing",
-        "Character Spacing",
-        "Indentation",
-        "Kerning"
-      ],
-      "answer": "Line Spacing"
-    },
-    {
-      "question": "What does 'WYSIWYG' stand for in the context of Word processing?",
-      "options": [
-        "What You See Is What You Get",
-        "When You See It, Will You Go?",
-        "Why You See Is Why You Get",
-        "What You See Is What You Gain"
-      ],
-      "answer": "What You See Is What You Get"
-    },
-    {
-      "question": "The 'Drop Cap' option is used to:",
-      "options": [
-        "Create a large capital letter at the beginning of a paragraph",
-        "Change the case of all letters to uppercase",
-        "Drop a line of text",
-        "Insert a special character"
-      ],
-      "answer": "Create a large capital letter at the beginning of a paragraph"
-    },
-    {
-      "question": "Which feature helps you to jump to a specific page, section, or line in a document?",
-      "options": [
-        "Find (Ctrl+F)",
-        "Replace (Ctrl+H)",
-        "Go To (Ctrl+G)",
-        "Select All (Ctrl+A)"
-      ],
-      "answer": "Go To (Ctrl+G)"
-    },
-    {
-      "question": "The shortcut 'Ctrl + Y' is used to:",
-      "options": [
-        "Undo the last action",
-        "Redo the last action",
-        "Copy the selected text",
-        "Cut the selected text"
-      ],
-      "answer": "Redo the last action"
-    },
-    {
-      "question": "To change the case of selected text (e.g., from lowercase to UPPERCASE), you can use the shortcut:",
-      "options": [
-        "Shift + F3",
-        "Ctrl + F3",
-        "Alt + F3",
-        "Shift + F5"
-      ],
-      "answer": "Shift + F3"
-    },
-    {
-      "question": "Where can you find the option to add a border to a page?",
-      "options": [
-        "Insert Tab -> Page Border",
-        "Home Tab -> Paragraph Group",
-        "Design Tab -> Page Borders",
-        "Layout Tab -> Page Setup"
-      ],
-      "answer": "Design Tab -> Page Borders"
-    },
-    {
-      "question": "What is the function of 'Ctrl + Backspace'?",
-      "options": [
-        "Deletes the character to the right of the cursor",
-        "Deletes the character to the left of the cursor",
-        "Deletes the word to the left of the cursor",
-        "Deletes the word to the right of the cursor"
-      ],
-      "answer": "Deletes the word to the left of the cursor"
-    },
-    {
-      "question": "Which tab contains the 'Symbols' command?",
-      "options": [
-        "Home",
-        "Insert",
-        "Design",
-        "References"
-      ],
-      "answer": "Insert"
-    },
-    {
-      "question": "A red wavy underline in MS Word indicates:",
-      "options": [
-        "A potential spelling error",
-        "A potential grammar error",
-        "A formatting inconsistency",
-        "A hyperlink"
-      ],
-      "answer": "A potential spelling error"
-    },
-    {
-      "question": "What is the purpose of the 'Split' command in the 'View' tab?",
-      "options": [
-        "To split a table into two",
-        "To split the document into two panes to view different parts at once",
-        "To split a page into columns",
-        "To split a cell in a table"
-      ],
-      "answer": "To split the document into two panes to view different parts at once"
-    },
-    {
-      "question": "Which keyboard shortcut is used for double line spacing?",
-      "options": [
-        "Ctrl + 1",
-        "Ctrl + 2",
-        "Ctrl + 5",
-        "Ctrl + D"
-      ],
-      "answer": "Ctrl + 2"
-    },
-    {
-      "question": "To move to the end of the current line, press:",
-      "options": [
-        "End",
-        "Home",
-        "Ctrl + End",
-        "Ctrl + Right Arrow"
-      ],
-      "answer": "End"
-    },
-    {
-      "question": "A blue wavy underline in MS Word indicates:",
-      "options": [
-        "A potential spelling error",
-        "A potential contextual or grammatical error",
-        "A hyperlink",
-        "A comment"
-      ],
-      "answer": "A potential contextual or grammatical error"
-    },
-    {
-      "question": "In Mail Merge, the document that contains the main body of the letter is called:",
-      "options": [
-        "Data Source",
-        "Main Document",
-        "Merged Document",
-        "Recipient List"
-      ],
-      "answer": "Main Document"
-    },
-    {
-      "question": "What does the 'AutoCorrect' feature do?",
-      "options": [
-        "Automatically corrects common spelling errors and typos",
-        "Automatically formats the document",
-        "Automatically saves the document",
-        "Automatically creates a backup"
-      ],
-      "answer": "Automatically corrects common spelling errors and typos"
-    },
-    {
-      "question": "Which key do you press to update a formula in a table (like a sum)?",
-      "options": [
-        "F5",
-        "F7",
-        "F9",
-        "F11"
-      ],
-      "answer": "F9"
-    },
-    {
-      "question": "To open the 'Font' dialog box, you can press:",
-      "options": [
-        "Ctrl + F",
-        "Ctrl + D",
-        "Ctrl + B",
-        "Alt + F"
-      ],
-      "answer": "Ctrl + D"
-    },
-    {
-      "question": "The 'Navigation Pane' allows you to:",
-      "options": [
-        "Browse by headings",
-        "Browse by pages",
-        "Search for text in the document",
-        "All of the above"
-      ],
-      "answer": "All of the above"
-    },
-    {
-      "question": "Which option is used to make the text appear exactly as it was typed, ignoring AutoCorrect rules?",
-      "options": [
-        "Keep Source Formatting",
-        "Merge Formatting",
-        "Keep Text Only",
-        "This cannot be done"
-      ],
-      "answer": "Keep Text Only"
-    },
-    {
-      "question": "What is the shortcut to insert the current date?",
-      "options": [
-        "Alt + Shift + D",
-        "Alt + Shift + T",
-        "Ctrl + Shift + D",
-        "Ctrl + D"
-      ],
-      "answer": "Alt + Shift + D"
-    },
-    {
-      "question": "Portrait and Landscape are examples of:",
-      "options": [
-        "Page Size",
-        "Page Orientation",
-        "Page Margins",
-        "Page Style"
-      ],
-      "answer": "Page Orientation"
-    },
-    {
-      "question": "Which group in the 'Review' tab contains the 'Track Changes' command?",
-      "options": [
-        "Comments",
-        "Tracking",
-        "Changes",
-        "Proofing"
-      ],
-      "answer": "Tracking"
-    },
-    {
-      "question": "To insert a comment in a document, you can use the shortcut:",
-      "options": [
-        "Ctrl + Alt + M",
-        "Ctrl + Alt + C",
-        "Ctrl + Shift + C",
-        "Alt + C"
-      ],
-      "answer": "Ctrl + Alt + M"
-    },
-    {
-      "question": "What is the function of 'Ctrl + Delete'?",
-      "options": [
-        "Deletes the word to the left of the cursor",
-        "Deletes the character to the left of the cursor",
-        "Deletes the word to the right of the cursor",
-        "Deletes the entire line"
-      ],
-      "answer": "Deletes the word to the right of the cursor"
-    },
-    {
-      "question": "Which of the following is NOT found in the 'References' tab?",
-      "options": [
-        "Table of Contents",
-        "Citations & Bibliography",
-        "Mail Merge",
-        "Captions"
-      ],
-      "answer": "Mail Merge"
-    },
-    {
-      "question": "The 'Hanging Indent' is primarily used when creating:",
-      "options": [
-        "A numbered list",
-        "A bibliography or works cited page",
-        "A table of contents",
-        "A title page"
-      ],
-      "answer": "A bibliography or works cited page"
-    },
-    {
-      "question": "What is the shortcut to apply 'Underline' formatting?",
-      "options": [
-        "Ctrl + U",
-        "Ctrl + I",
-        "Ctrl + B",
-        "Ctrl + D"
-      ],
-      "answer": "Ctrl + U"
-    },
-    {
-      "question": "To select a single word, you can:",
-      "options": [
-        "Single-click the word",
-        "Double-click the word",
-        "Triple-click the word",
-        "Right-click the word"
-      ],
-      "answer": "Double-click the word"
-    },
-    {
-      "question": "Which feature would you use to create a document with a pre-formatted layout, such as a resume?",
-      "options": [
-        "Template",
-        "Style",
-        "Theme",
-        "Blank Document"
-      ],
-      "answer": "Template"
-    },
-    {
-      "question": "The 'Zoom' control slider is located in the:",
-      "options": [
-        "Status Bar",
-        "Title Bar",
-        "Ribbon",
-        "Quick Access Toolbar"
-      ],
-      "answer": "Status Bar"
-    },
-    {
-      "question": "Which option helps to protect a document with a password?",
-      "options": [
-        "File -> Info -> Protect Document",
-        "Review -> Protect -> Restrict Editing",
-        "View -> Protect",
-        "Home -> Protect Document"
-      ],
-      "answer": "File -> Info -> Protect Document"
-    },
-    {
-      "question": "To select an entire paragraph, you can:",
-      "options": [
-        "Double-click in the paragraph",
-        "Triple-click in the paragraph",
-        "Single-click in the paragraph",
-        "Right-click in the paragraph"
-      ],
-      "answer": "Triple-click in the paragraph"
-    },
-    {
-      "question": "What is the shortcut for creating a hanging indent?",
-      "options": [
-        "Ctrl + H",
-        "Ctrl + G",
-        "Ctrl + T",
-        "Ctrl + M"
-      ],
-      "answer": "Ctrl + T"
-    },
-    {
-      "question": "Which of these is NOT a valid data source for Mail Merge?",
-      "options": [
-        "Excel spreadsheet",
-        "Outlook contact list",
-        "Word table",
-        "PowerPoint presentation"
-      ],
-      "answer": "PowerPoint presentation"
-    },
-    {
-      "question": "What does 'kerning' refer to?",
-      "options": [
-        "The space between lines",
-        "The space between all characters in a block of text",
-        "The adjustment of space between specific pairs of characters",
-        "The height of the characters"
-      ],
-      "answer": "The adjustment of space between specific pairs of characters"
-    },
-    {
-      "question": "In the 'Paragraph' dialog box, which option controls the amount of space before and after paragraphs?",
-      "options": [
-        "Indentation",
-        "Spacing",
-        "Line spacing",
-        "Alignment"
-      ],
-      "answer": "Spacing"
-    },
-    {
-      "question": "Which shortcut justifies the selected text or paragraph?",
-      "options": [
-        "Ctrl + J",
-        "Ctrl + E",
-        "Ctrl + L",
-        "Ctrl + R"
-      ],
-      "answer": "Ctrl + J"
-    },
-    {
-      "question": "To add a new row to the bottom of a table, you can place the cursor in the last cell and press:",
-      "options": [
-        "Enter",
-        "Tab",
-        "Spacebar",
-        "Ctrl + Enter"
-      ],
-      "answer": "Tab"
-    },
-    {
-      "question": "The 'Quick Access Toolbar' is located:",
-      "options": [
-        "Above the Ribbon",
-        "Below the Ribbon",
-        "In the Status Bar",
-        "Either A or B"
-      ],
-      "answer": "Either A or B"
-    },
-    {
-      "question": "What is the purpose of 'Styles' in MS Word?",
-      "options": [
-        "To apply a set of formatting choices consistently throughout a document",
-        "To check spelling and grammar",
-        "To insert pictures and shapes",
-        "To create a mail merge"
-      ],
-      "answer": "To apply a set of formatting choices consistently throughout a document"
-    },
-    {
-      "question": "Which keyboard shortcut opens the 'Paragraph' dialog box?",
-      "options": [
-        "Ctrl + P",
-        "Alt + O, P",
-        "Ctrl + M",
-        "There is no direct shortcut"
-      ],
-      "answer": "Alt + O, P"
-    },
-    {
-      "question": "What is the shortcut to insert a non-breaking space?",
-      "options": [
-        "Ctrl + Shift + Spacebar",
-        "Ctrl + Spacebar",
-        "Alt + Spacebar",
-        "Shift + Spacebar"
-      ],
-      "answer": "Ctrl + Shift + Spacebar"
-    },
-    {
-      "question": "Which view displays the document as it will appear on a webpage?",
-      "options": [
-        "Print Layout",
-        "Read Mode",
-        "Web Layout",
-        "Outline View"
-      ],
-      "answer": "Web Layout"
-    },
-    {
-      "question": "The 'Compare' function in the 'Review' tab is used to:",
-      "options": [
-        "Compare two versions of a document",
-        "Compare font styles",
-        "Compare page layouts",
-        "Compare document properties"
-      ],
-      "answer": "Compare two versions of a document"
-    },
-    {
-      "question": "To create a bullet point, you can type an asterisk (*) followed by a space at the beginning of a line. This is an example of:",
-      "options": [
-        "AutoFormat",
-        "AutoCorrect",
-        "AutoComplete",
-        "AutoText"
-      ],
-      "answer": "AutoFormat"
-    },
-    {
-      "question": "Which tab would you use to add a caption to a picture?",
-      "options": [
-        "Insert",
-        "Format",
-        "References",
-        "Home"
-      ],
-      "answer": "References"
-    },
-    {
-      "question": "What does the 'Subscript' option do?",
-      "options": [
-        "Makes text smaller and places it below the baseline",
-        "Makes text smaller and places it above the baseline",
-        "Adds a line below the text",
-        "Makes text bold"
-      ],
-      "answer": "Makes text smaller and places it below the baseline"
-    },
-    {
-      "question": "To go to the 'Tell me what you want to do' box, you can press:",
-      "options": [
-        "Alt + Q",
-        "Ctrl + Q",
-        "Alt + T",
-        "Ctrl + T"
-      ],
-      "answer": "Alt + Q"
-    },
-    {
-      "question": "Which feature lets you record a series of commands and play them back later?",
-      "options": [
-        "Macros",
-        "Mail Merge",
-        "Templates",
-        "Styles"
-      ],
-      "answer": "Macros"
-    },
-    {
-      "question": "To clear all formatting from selected text, you can press:",
-      "options": [
-        "Ctrl + Spacebar",
-        "Ctrl + Shift + C",
-        "Alt + C",
-        "Delete"
-      ],
-      "answer": "Ctrl + Spacebar"
-    },
-    {
-      "question": "In a table, what is the intersection of a row and a column called?",
-      "options": [
-        "Cell",
-        "Box",
-        "Field",
-        "Grid"
-      ],
-      "answer": "Cell"
-    },
-    {
-      "question": "Which command is used to merge multiple cells in a table into one?",
-      "options": [
-        "Merge Cells",
-        "Split Cells",
-        "Combine Cells",
-        "Join Cells"
-      ],
-      "answer": "Merge Cells"
-    },
-    {
-      "question": "What is the shortcut to switch to 'Print Layout' view?",
-      "options": [
-        "Ctrl + Alt + P",
-        "Ctrl + Alt + O",
-        "Ctrl + Alt + N",
-        "Ctrl + Alt + L"
-      ],
-      "answer": "Ctrl + Alt + P"
-    },
-    {
-      "question": "The 'Text Wrapping' option for a picture determines:",
-      "options": [
-        "How text flows around the picture",
-        "The brightness and contrast of the picture",
-        "The border style of the picture",
-        "The size of the picture"
-      ],
-      "answer": "How text flows around the picture"
-    },
-    {
-      "question": "Which of the following is an example of a 'Section Break'?",
-      "options": [
-        "Next Page",
-        "Continuous",
-        "Even Page",
-        "All of the above"
-      ],
-      "answer": "All of the above"
-    },
-    {
-      "question": "To copy formatting from one place and apply it to another, you should use:",
-      "options": [
-        "Format Painter",
-        "Copy and Paste",
-        "Style Inspector",
-        "Theme Builder"
-      ],
-      "answer": "Format Painter"
-    },
-    {
-      "question": "The keyboard shortcut for 'line spacing of 1.5' is:",
-      "options": [
-        "Ctrl + 1",
-        "Ctrl + 2",
-        "Ctrl + 5",
-        "Ctrl + 1.5"
-      ],
-      "answer": "Ctrl + 5"
-    }
+          {
+            "question": "Which of the following is a common feature of spreadsheets?",
+            "options": [
+              "Text formatting",
+              "Data sorting and filtering",
+              "Image editing",
+              "Video playback"
+            ],
+            "answer": "Data sorting and filtering"
+          },
+          {
+            "question": "What is a cell in a spreadsheet?",
+            "options": [
+              "A single unit of data in a table",
+              "A type of formula",
+              "A graphic element",
+              "A text box"
+            ],
+            "answer": "A single unit of data in a table"
+          },
+          {
+            "question": "How can you perform calculations in a spreadsheet?",
+            "options": [
+              "By using formulas and functions",
+              "By manually entering results",
+              "By using text formatting tools",
+              "By inserting images"
+            ],
+            "answer": "By using formulas and functions"
+          },
+          {
+            "question": "What is the purpose of a formula in a spreadsheet?",
+            "options": [
+              "To format text",
+              "To perform calculations",
+              "To insert images",
+              "To create charts"
+            ],
+            "answer": "To perform calculations"
+          },
+          {
+            "question": "Which of the following is an example of a spreadsheet application?",
+            "options": [
+              "Microsoft Word",
+              "Adobe Photoshop",
+              "Microsoft Excel",
+              "Google Chrome"
+            ],
+            "answer": "Microsoft Excel"
+          },
+          {
+            "question": "What is a common use case for spreadsheets in business?",
+            "options": [
+              "Creating presentations",
+              "Managing email campaigns",
+              "Budgeting and financial analysis",
+              "Designing websites"
+            ],
+            "answer": "Budgeting and financial analysis"
+          },
+          {
+            "question": "How can you visualize data in a spreadsheet?",
+            "options": [
+              "By using charts and graphs",
+              "By changing font colors",
+              "By inserting hyperlinks",
+              "By adding comments"
+            ],
+            "answer": "By using charts and graphs"
+          },
+          {
+            "question": "What is the purpose of sorting data in a spreadsheet?",
+            "options": [
+              "To change the font style",
+              "To organize data for better analysis",
+              "To insert images",
+              "To create hyperlinks"
+            ],
+            "answer": "To organize data for better analysis"
+          },
+          {
+            "question": "Which function is commonly used to calculate the sum of a range of cells in a spreadsheet?",
+            "options": [
+              "=AVERAGE()",
+              "=SUM()",
+              "=COUNT()",
+              "=MAX()"
+            ],
+            "answer": "=SUM()"
+          },
+          {
+            "question": "What is the purpose of filtering data in a spreadsheet?",
+            "options": [
+              "To change cell colors",
+              "To hide irrelevant data and display specific information",
+              "To insert images",
+              "To create hyperlinks"
+            ],
+            "answer": "To hide irrelevant data and display specific information"
+          },
+          {
+            "question": "How can you protect sensitive data in a spreadsheet?",
+            "options": [
+              "By using bold text",
+              "By applying password protection",
+              "By changing font size",
+              "By inserting images"
+            ],
+            "answer": "By applying password protection"
+          },
+          {
+            "question": "What is the purpose of conditional formatting in a spreadsheet?",
+            "options": [
+              "To change cell colors based on specific criteria",
+              "To insert images",
+              "To create hyperlinks",
+              "To perform calculations"
+            ],
+            "answer": "To change cell colors based on specific criteria"
+          },
+          {
+            "question": "Which of the following is a common file format for spreadsheets?",
+            "options": [
+              ".docx",
+              ".xlsx",
+              ".jpg",
+              ".pdf"
+            ],
+            "answer": ".xlsx"
+          },
+          {
+            "question": "How can you share a spreadsheet with others?",
+            "options": [
+              "By printing it",
+              "By saving it as a PDF",
+              "By using cloud storage or email",
+              "By inserting images"
+            ],
+            "answer": "By using cloud storage or email"
+          },
+          {
+            "question": "What is the purpose of data validation in a spreadsheet?",
+            "options": [
+              "To format text",
+              "To ensure data entered meets specific criteria",
+              "To insert images",
+              "To create hyperlinks"
+            ],
+            "answer": "To ensure data entered meets specific criteria"
+          },
+          {
+            "question": "How can you quickly navigate to a specific cell in a large spreadsheet?",
+            "options": [
+              "By scrolling manually",
+              "By using the Find feature",
+              "By changing font size",
+              "By inserting hyperlinks"
+            ],
+            "answer": "By using the Find feature"
+          },
+          {
+            "question": "What is the purpose of a pivot table in a spreadsheet?",
+            "options": [
+              "To format text",
+              "To summarize and analyze large datasets",
+              "To insert images",
+              "To create hyperlinks"
+            ],
+            "answer": "To summarize and analyze large datasets"
+          },
+          {
+            "question": "How can you apply a filter to a column in a spreadsheet?",
+            "options": [
+              "By changing font size",
+              "By using the Filter option in the Data tab",
+              "By inserting images",
+              "By creating hyperlinks"
+            ],
+            "answer": "By using the Filter option in the Data tab"
+          },
+          {
+    "question": "What is the primary purpose of a spreadsheet application?",
+    "options": [
+      "To create presentations.",
+      "To manage and analyze data in rows and columns.",
+      "To write letters and documents.",
+      "To browse the internet."
+    ],
+    "answer": "To manage and analyze data in rows and columns."
+  },
+  {
+    "question": "A spreadsheet is often compared to a large, digital:",
+    "options": [
+      "Book",
+      "Table or ledger",
+      "Picture frame",
+      "Calculator"
+    ],
+    "answer": "Table or ledger"
+  },
+  {
+    "question": "Which of the following is a common use of spreadsheets?",
+    "options": [
+      "Playing video games",
+      "Drawing complex diagrams",
+      "Performing calculations",
+      "Editing videos"
+    ],
+    "answer": "Performing calculations"
+  },
+  {
+    "question": "Which of these is NOT a typical use of spreadsheet applications?",
+    "options": [
+      "Budgeting",
+      "Creating movies",
+      "Tracking inventory",
+      "Analyzing sales data"
+    ],
+    "answer": "Creating movies"
+  },
+  {
+    "question": "Microsoft Excel is an example of spreadsheet software. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Google Sheets is a free online spreadsheet application. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "LibreOffice Calc is an example of an open-source spreadsheet software. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Spreadsheets are ideal for organizing numerical data.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "In a spreadsheet, data is organized into:",
+    "options": [
+      "Pages and chapters",
+      "Slides and animations",
+      "Rows and columns",
+      "Layers and frames"
+    ],
+    "answer": "Rows and columns"
+  },
+  {
+    "question": "Budgeting for a household or a business is a practical application of spreadsheets. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which of these is NOT a characteristic of a spreadsheet?",
+    "options": [
+      "Ability to perform calculations automatically.",
+      "Ability to create graphs and charts.",
+      "Ability to edit video clips.",
+      "Ability to sort and filter data."
+    ],
+    "answer": "Ability to edit video clips."
+  },
+  {
+    "question": "What is 'data entry' in the context of spreadsheets?",
+    "options": [
+      "Typing numbers and text into cells.",
+      "Printing the document.",
+      "Deleting the spreadsheet.",
+      "Creating a new file."
+    ],
+    "answer": "Typing numbers and text into cells."
+  },
+  {
+    "question": "Can spreadsheets be used to manage lists of names and addresses?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which software is widely recognized as the industry standard for spreadsheets?",
+    "options": [
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft PowerPoint",
+      "Adobe Photoshop"
+    ],
+    "answer": "Microsoft Excel"
+  },
+  {
+    "question": "Spreadsheet software can help you visualize data through charts. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "A cell in a spreadsheet is the intersection of a row and a column. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which function would you typically use in a spreadsheet for addition?",
+    "options": [
+      "ADD()",
+      "SUM()",
+      "PLUS()",
+      "TOTAL()"
+    ],
+    "answer": "SUM()"
+  },
+  {
+    "question": "Spreadsheets are primarily designed for text-based documents. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "Which of these spreadsheet applications is part of the Google Workspace suite?",
+    "options": [
+      "Excel",
+      "Calc",
+      "Sheets",
+      "Numbers"
+    ],
+    "answer": "Sheets"
+  },
+  {
+    "question": "Can spreadsheets be used to track expenses?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "The ability to automatically update calculations when data changes is a key feature of spreadsheets. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which term refers to a single page within a spreadsheet file?",
+    "options": [
+      "Workbook",
+      "Worksheet",
+      "Document",
+      "Slide"
+    ],
+    "answer": "Worksheet"
+  },
+  {
+    "question": "A collection of worksheets is called a:",
+    "options": [
+      "Booklet",
+      "Workbook",
+      "Folder",
+      "Database"
+    ],
+    "answer": "Workbook"
+  },
+  {
+    "question": "Spreadsheets are commonly used for financial analysis. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which of the following is a benefit of using spreadsheets for data entry?",
+    "options": [
+      "It makes the data disappear.",
+      "It allows for structured and organized input of data.",
+      "It can only store numbers.",
+      "It requires manual calculations."
+    ],
+    "answer": "It allows for structured and organized input of data."
+  },
+  {
+    "question": "Spreadsheet software is only available for Windows operating systems. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "Can you create invoices using spreadsheet applications?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "What is a 'formula' in a spreadsheet?",
+    "options": [
+      "A type of chart.",
+      "A mathematical expression that performs calculations on values in cells.",
+      "A way to highlight text.",
+      "A predefined style."
+    ],
+    "answer": "A mathematical expression that performs calculations on values in cells."
+  },
+  {
+    "question": "Formulas in spreadsheets always begin with which symbol?",
+    "options": [
+      "#",
+      "$",
+      "=",
+      "@"
+    ],
+    "answer": "="
+  },
+  {
+    "question": "Spreadsheets can be used for forecasting and projections. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which term describes the horizontal arrangement of cells in a spreadsheet?",
+    "options": [
+      "Column",
+      "Row",
+      "Cell",
+      "Range"
+    ],
+    "answer": "Row"
+  },
+  {
+    "question": "Which term describes the vertical arrangement of cells in a spreadsheet?",
+    "options": [
+      "Column",
+      "Row",
+      "Cell",
+      "Range"
+    ],
+    "answer": "Column"
+  },
+  {
+    "question": "Each cell in a spreadsheet has a unique address, like 'A1' or 'B5'. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Spreadsheets are good for creating presentations with animated slides. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "Which application is a free and open-source alternative to Microsoft Excel?",
+    "options": [
+      "Google Docs",
+      "LibreOffice Calc",
+      "Microsoft Word",
+      "Adobe Acrobat"
+    ],
+    "answer": "LibreOffice Calc"
+  },
+  {
+    "question": "Can spreadsheets be used to create simple databases?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "The primary component of a spreadsheet interface where you input data is called the:",
+    "options": [
+      "Ribbon",
+      "Formula Bar",
+      "Cell",
+      "Status Bar"
+    ],
+    "answer": "Cell"
+  },
+  {
+    "question": "Spreadsheets can help in managing personal finances. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "What is the common file extension for a Microsoft Excel workbook?",
+    "options": [
+      ".doc",
+      ".ppt",
+      ".xlsx",
+      ".pdf"
+    ],
+    "answer": ".xlsx"
+  },
+  {
+    "question": "Which of these tasks is NOT typically performed using a spreadsheet?",
+    "options": [
+      "Graphing data",
+      "Creating a website",
+      "Sorting a list of numbers",
+      "Calculating averages"
+    ],
+    "answer": "Creating a website"
+  },
+  {
+    "question": "Spreadsheets can perform simple arithmetic operations like addition, subtraction, multiplication, and division. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "What is the main advantage of using a spreadsheet over a traditional calculator for large calculations?",
+    "options": [
+      "It is smaller in size.",
+      "It can store and re-use data and formulas, and update results automatically.",
+      "It makes sounds.",
+      "It is always online."
+    ],
+    "answer": "It can store and re-use data and formulas, and update results automatically."
+  },
+  {
+    "question": "In a spreadsheet, you can use built-in functions for complex calculations. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Spreadsheets are only useful for scientific data. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "Which spreadsheet software is developed by Apple Inc.?",
+    "options": [
+      "Excel",
+      "Google Sheets",
+      "Numbers",
+      "Calc"
+    ],
+    "answer": "Numbers"
+  },
+  {
+    "question": "The main grid area of a spreadsheet, where rows and columns intersect, is called the:",
+    "options": [
+      "Menu Bar",
+      "Toolbar",
+      "Work area/Grid",
+      "Status Bar"
+    ],
+    "answer": "Work area/Grid"
+  },
+  {
+    "question": "A spreadsheet can store both text and numerical data. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The ability to sort data in ascending or descending order is a feature of spreadsheets. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which type of software is best suited for creating presentations with slides?",
+    "options": [
+      "Spreadsheet",
+      "Word Processor",
+      "Presentation Software",
+      "Database Software"
+    ],
+    "answer": "Presentation Software"
+  }
+
         ]
       },
-      "shortcuts2" : {
-        "title": "MS Wor Shortcuts - Set 2 ",
+      "Workbook" : {
+        "title": "Workbook and Worksheet",
         "questions": [
-          {
-            "question": "What is the shortcut to open the 'Find' dialog box?",
-            "options": ["Ctrl + F", "Ctrl + H", "Ctrl + G", "Ctrl + R"],
-            "answer": "Ctrl + F"
-          },
-          {
-            "question": "Which shortcut is used to apply 'Italic' formatting?",
-            "options": ["Ctrl + I", "Ctrl + B", "Ctrl + U", "Ctrl + L"],
-            "answer": "Ctrl + I"
-          },
-          {
-            "question": "What does the shortcut 'Ctrl + Z' do?",
-            "options": [
-              "Redo the last action",
-              "Undo the last action",
-              "Cut the selected text",
-              "Copy the selected text"
-            ],
-            "answer": "Undo the last action"
-          },
-          {
-            "question": "To save a document, which shortcut is used?",
-            "options": ["Ctrl + S", "Ctrl + P", "Ctrl + O", "Ctrl + N"],
-            "answer": "Ctrl + S"
-          },
-          {
-    "question": "Q1. What is the shortcut key to copy text in MS Word?",
-    "question_hindi": "Q1. MS Word में copy text के लिए शॉर्टकट कुंजी क्या है?",
+            {
+    "question": "What is a 'Workbook' in a spreadsheet application?",
     "options": [
-      "Ctrl + C",
-      "Ctrl + V",
-      "Ctrl + X",
-      "Ctrl + Z"
+      "A single page where you enter data.",
+      "A collection of one or more worksheets.",
+      "A predefined template for calculations.",
+      "A file that can only store text."
     ],
-    "answer": "Ctrl + C"
+    "answer": "A collection of one or more worksheets."
   },
   {
-    "question": "Q2. What is the shortcut key to paste text in MS Word?",
-    "question_hindi": "Q2. MS Word में paste text के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which of these is the term for the entire file that you save in a spreadsheet application (e.g., Excel)?",
     "options": [
-      "Ctrl + V",
-      "Ctrl + P",
-      "Ctrl + A",
-      "Ctrl + Z"
+      "Worksheet",
+      "Cell",
+      "Workbook",
+      "Formula"
     ],
-    "answer": "Ctrl + V"
+    "answer": "Workbook"
   },
   {
-    "question": "Q3. What is the shortcut key to cut text in MS Word?",
-    "question_hindi": "Q3. MS Word में cut text के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "A workbook is essentially the main document file in spreadsheet software. True or False?",
     "options": [
-      "Ctrl + X",
-      "Ctrl + C",
-      "Ctrl + V",
-      "Ctrl + B"
+      "True",
+      "False"
     ],
-    "answer": "Ctrl + X"
+    "answer": "True"
   },
   {
-    "question": "Q4. What is the shortcut key to undo the last action in MS Word?",
-    "question_hindi": "Q4. MS Word में undo the last action के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "What is a 'Worksheet' in a spreadsheet application?",
     "options": [
-      "Ctrl + Z",
-      "Ctrl + Y",
-      "Ctrl + A",
-      "Ctrl + U"
+      "The entire spreadsheet file.",
+      "A single grid or page within a workbook where data is entered and organized.",
+      "A collection of charts.",
+      "A tool for creating presentations."
     ],
-    "answer": "Ctrl + Z"
+    "answer": "A single grid or page within a workbook where data is entered and organized."
   },
   {
-    "question": "Q5. What is the shortcut key to save a document in MS Word?",
-    "question_hindi": "Q5. MS Word में save a document के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Each worksheet in a workbook has its own unique name. True or False?",
     "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The rows and columns where you input data are found on a:",
+    "options": [
+      "Workbook",
+      "Worksheet",
+      "Table",
+      "Document"
+    ],
+    "answer": "Worksheet"
+  },
+  {
+    "question": "Which one is the container for all your data and calculations?",
+    "options": [
+      "Worksheet",
+      "Cell",
+      "Workbook",
+      "Range"
+    ],
+    "answer": "Workbook"
+  },
+  {
+    "question": "A workbook can contain only one worksheet. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "If you open a new, blank spreadsheet file, what is it initially called?",
+    "options": [
+      "Workbook1 (or similar)",
+      "Worksheet1 (or similar)",
+      "Document1",
+      "Untitled"
+    ],
+    "answer": "Workbook1 (or similar)"
+  },
+  {
+    "question": "What is the relationship between a workbook and a worksheet?",
+    "options": [
+      "A worksheet contains workbooks.",
+      "A workbook is a part of a worksheet.",
+      "A workbook contains one or more worksheets.",
+      "They are two names for the same thing."
+    ],
+    "answer": "A workbook contains one or more worksheets."
+  },
+  {
+    "question": "When you want to organize related data but keep it separate, you would use different:",
+    "options": [
+      "Workbooks",
+      "Worksheets",
+      "Files",
+      "Cells"
+    ],
+    "answer": "Worksheets"
+  },
+  {
+    "question": "Which of these is a larger organizational unit?",
+    "options": [
+      "Worksheet",
+      "Workbook"
+    ],
+    "answer": "Workbook"
+  },
+  {
+    "question": "By default, a new workbook in Excel typically starts with how many worksheets?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Zero"
+    ],
+    "answer": "One"
+  },
+  {
+    "question": "You can add new worksheets to an existing workbook. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "To rename a worksheet, you typically:",
+    "options": [
+      "Go to the File menu.",
+      "Double-click on the sheet tab at the bottom.",
+      "Press Ctrl + R.",
+      "Type a new name in any cell."
+    ],
+    "answer": "Double-click on the sheet tab at the bottom."
+  },
+  {
+    "question": "To move from one worksheet to another within the same workbook, you would click on the:",
+    "options": [
+      "Scroll bars",
+      "Sheet tabs at the bottom",
+      "Menu bar",
+      "Formula bar"
+    ],
+    "answer": "Sheet tabs at the bottom"
+  },
+  {
+    "question": "The 'Sheet Tabs' are usually located:",
+    "options": [
+      "At the top of the window.",
+      "On the right side of the window.",
+      "At the bottom of the worksheet window.",
+      "In the middle of the screen."
+    ],
+    "answer": "At the bottom of the worksheet window."
+  },
+  {
+    "question": "Can you delete a worksheet from a workbook?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which key combination allows you to quickly switch to the next worksheet?",
+    "options": [
+      "Ctrl + Page Up",
+      "Ctrl + Page Down",
+      "Alt + Tab",
+      "Shift + Tab"
+    ],
+    "answer": "Ctrl + Page Down"
+  },
+  {
+    "question": "Which key combination allows you to quickly switch to the previous worksheet?",
+    "options": [
+      "Ctrl + Page Up",
+      "Ctrl + Page Down",
+      "Alt + Tab",
+      "Shift + Tab"
+    ],
+    "answer": "Ctrl + Page Up"
+  },
+  {
+    "question": "A workbook is a single document, while a worksheet is a component of that document. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "You can change the color of worksheet tabs. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "What is the purpose of having multiple worksheets in a single workbook?",
+    "options": [
+      "To make the file size larger.",
+      "To organize different sets of data or analyses within one file.",
+      "To hide data from other users.",
+      "To prevent calculations from working."
+    ],
+    "answer": "To organize different sets of data or analyses within one file."
+  },
+  {
+    "question": "Data on one worksheet can reference data from another worksheet in the same workbook. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When you save a file in Excel, you are saving a:",
+    "options": [
+      "Worksheet",
+      "Workbook",
+      "Cell",
+      "Row"
+    ],
+    "answer": "Workbook"
+  },
+  {
+    "question": "Which of these is NOT a way to add a new worksheet?",
+    "options": [
+      "Clicking the '+' button next to the sheet tabs.",
+      "Right-clicking a sheet tab and choosing 'Insert'.",
+      "Using the 'New Sheet' option on the Home tab (in some versions).",
+      "Typing 'New Worksheet' into a cell."
+    ],
+    "answer": "Typing 'New Worksheet' into a cell."
+  },
+  {
+    "question": "The scroll bars help you navigate within a single worksheet. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Can you hide a worksheet from view without deleting it?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "If you open multiple Excel files, each file typically opens as a separate:",
+    "options": [
+      "Worksheet",
+      "Workbook",
+      "Cell",
+      "Tab"
+    ],
+    "answer": "Workbook"
+  },
+  {
+    "question": "A workbook file can contain charts, but charts are typically displayed on a worksheet or a dedicated chart sheet. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which is the smallest organizational unit in a spreadsheet?",
+    "options": [
+      "Workbook",
+      "Worksheet",
+      "Cell",
+      "Row"
+    ],
+    "answer": "Cell"
+  },
+  {
+    "question": "Can you protect a worksheet with a password to prevent unauthorized changes?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "The active worksheet is the one currently visible and where you are entering data. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "To quickly go to the first worksheet in a long list of sheets, you can right-click on the navigation arrows next to the sheet tabs. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The term 'spreadsheet' can refer to both the application software and the individual worksheet. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "You can group multiple worksheets together to perform operations (like formatting) on them simultaneously. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "If you want to create a brand new file, you open a new:",
+    "options": [
+      "Worksheet",
+      "Workbook",
+      "Cell",
+      "Sheet Tab"
+    ],
+    "answer": "Workbook"
+  },
+  {
+    "question": "A worksheet is also commonly known as a sheet. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When you press Enter after typing data in a cell, the active cell usually moves:",
+    "options": [
+      "Up",
+      "Down",
+      "Right",
+      "Left"
+    ],
+    "answer": "Down"
+  },
+  {
+    "question": "The 'Formula Bar' shows the content of the active cell, whether it's data or a formula. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Can you move or copy a worksheet from one workbook to another?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "The term 'workbook' in Excel is analogous to a 'document' in Word or a 'presentation' in PowerPoint. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which part of the Excel interface helps you quickly identify which sheet you are currently on?",
+    "options": [
+      "Ribbon",
+      "Status Bar",
+      "Sheet Tabs",
+      "Title Bar"
+    ],
+    "answer": "Sheet Tabs"
+  },
+  {
+    "question": "Worksheets are arranged sequentially from left to right at the bottom of the workbook window. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Each worksheet has an independent set of rows and columns. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "If you want to view two different worksheets from the same workbook at the same time, you can use the 'New Window' feature. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The 'Name Box' in Excel typically displays the address of the active cell. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "A workbook can link to external files, but a worksheet cannot. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "The 'Insert Worksheet' button (the plus sign) is located near the existing sheet tabs. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When you print a workbook, you can choose to print only the active worksheet, selected worksheets, or the entire workbook. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  }
+        ]
+      },
+      "create" : {
+        "title": "Creating and Managing Workbooks",
+        "questions" : [
+  {
+    "question": "Which option allows you to start a brand new, empty spreadsheet file?",
+    "options": [
+      "Open",
+      "Save As",
+      "New workbook",
+      "Close"
+    ],
+    "answer": "New workbook"
+  },
+  {
+    "question": "What is the keyboard shortcut to create a new workbook in most spreadsheet applications (like Excel)?",
+    "options": [
+      "Ctrl + O",
       "Ctrl + S",
-      "Ctrl + P",
-      "Ctrl + O",
-      "Ctrl + D"
+      "Ctrl + N",
+      "Ctrl + P"
     ],
-    "answer": "Ctrl + S"
+    "answer": "Ctrl + N"
   },
   {
-    "question": "Q6. What is the shortcut key to open a document in MS Word?",
-    "question_hindi": "Q6. MS Word में open a document के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "When creating a new workbook, you can choose to start from a blank workbook or a template. True or False?",
     "options": [
-      "Ctrl + O",
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which operation is used to load an existing spreadsheet file from your computer or cloud storage?",
+    "options": [
+      "New",
+      "Save",
+      "Open",
+      "Export"
+    ],
+    "answer": "Open"
+  },
+  {
+    "question": "What is the keyboard shortcut to open an existing workbook?",
+    "options": [
       "Ctrl + N",
-      "Ctrl + P",
-      "Ctrl + L"
+      "Ctrl + S",
+      "Ctrl + O",
+      "Ctrl + P"
     ],
     "answer": "Ctrl + O"
   },
   {
-    "question": "Q7. What is the shortcut key to print the document in MS Word?",
-    "question_hindi": "Q7. MS Word में print the document के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "The 'Open' dialog box allows you to browse for files in different locations on your computer. True or False?",
     "options": [
-      "Ctrl + P",
-      "Ctrl + S",
-      "Ctrl + O",
-      "Ctrl + Z"
+      "True",
+      "False"
     ],
-    "answer": "Ctrl + P"
+    "answer": "True"
   },
   {
-    "question": "Q8. What is the shortcut key to select all text in MS Word?",
-    "question_hindi": "Q8. MS Word में select all text के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which operation updates the active workbook file with any changes you've made since the last save?",
+    "options": [
+      "Save",
+      "Save As",
+      "Open",
+      "Close"
+    ],
+    "answer": "Save"
+  },
+  {
+    "question": "What is the keyboard shortcut to save a workbook?",
+    "options": [
+      "Ctrl + O",
+      "Ctrl + N",
+      "Ctrl + S",
+      "Ctrl + P"
+    ],
+    "answer": "Ctrl + S"
+  },
+  {
+    "question": "The 'Save' command is generally used for the first time you save a new workbook. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "Which operation allows you to save a copy of the current workbook with a different name, in a new location, or in a different file format?",
+    "options": [
+      "Save",
+      "Save As",
+      "Open",
+      "New"
+    ],
+    "answer": "Save As"
+  },
+  {
+    "question": "When you use 'Save As', the original workbook file is overwritten. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "What is the purpose of 'Save As' if a workbook has already been saved?",
+    "options": [
+      "To quickly update the file.",
+      "To close the file.",
+      "To create a new, independent copy of the workbook.",
+      "To open another workbook."
+    ],
+    "answer": "To create a new, independent copy of the workbook."
+  },
+  {
+    "question": "To change the name of an already saved workbook file, you would typically use which command?",
+    "options": [
+      "Save",
+      "Open",
+      "Rename workbook (through 'Save As')",
+      "New"
+    ],
+    "answer": "Rename workbook (through 'Save As')"
+  },
+  {
+    "question": "You can rename a workbook directly from its tab within the spreadsheet application. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "Which file format is ideal for sharing your spreadsheet data in a fixed layout that preserves formatting and can be viewed on most devices?",
+    "options": [
+      ".xlsx",
+      ".csv",
+      ".pdf",
+      ".txt"
+    ],
+    "answer": ".pdf"
+  },
+  {
+    "question": "To save a workbook as a PDF, you typically go to 'File' and then which option?",
+    "options": [
+      "Save",
+      "Open",
+      "Export (or Save As, then select PDF)",
+      "Print"
+    ],
+    "answer": "Export (or Save As, then select PDF)"
+  },
+  {
+    "question": "CSV stands for:",
+    "options": [
+      "Cell Separated Values",
+      "Comma Standard Values",
+      "Comma Separated Values",
+      "Common Spreadsheet View"
+    ],
+    "answer": "Comma Separated Values"
+  },
+  {
+    "question": "When you 'Save as CSV', what happens to the formatting (like cell colors, bold text, etc.) in your original workbook?",
+    "options": [
+      "All formatting is preserved.",
+      "Most formatting is preserved.",
+      "All formatting is lost, only raw data is saved.",
+      "Only text formatting is preserved."
+    ],
+    "answer": "All formatting is lost, only raw data is saved."
+  },
+  {
+    "question": "Saving a workbook as a CSV file is best for:",
+    "options": [
+      "Keeping complex formulas.",
+      "Sharing data in a universal, plain text format that can be easily imported into other applications.",
+      "Preserving charts and graphs.",
+      "Protecting sensitive information."
+    ],
+    "answer": "Sharing data in a universal, plain text format that can be easily imported into other applications."
+  },
+  {
+    "question": "Which action closes the active workbook but keeps the spreadsheet application open?",
+    "options": [
+      "Exit",
+      "Close workbook",
+      "Minimize",
+      "Hide"
+    ],
+    "answer": "Close workbook"
+  },
+  {
+    "question": "If you try to close a workbook with unsaved changes, what will the application usually do?",
+    "options": [
+      "Automatically save the changes.",
+      "Close without saving.",
+      "Ask if you want to save the changes.",
+      "Open a new blank workbook."
+    ],
+    "answer": "Ask if you want to save the changes."
+  },
+  {
+    "question": "The 'File' tab (often called the 'Backstage View') is where you find most workbook management options. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When creating a new workbook, you can search for online templates. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which of these is a common reason to 'Open' an existing workbook?",
+    "options": [
+      "To start a new project from scratch.",
+      "To modify previously entered data.",
+      "To create a copy of the workbook with a new name.",
+      "To print the current date."
+    ],
+    "answer": "To modify previously entered data."
+  },
+  {
+    "question": "When you 'Save As' a workbook, you can also change the destination folder. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The default file extension for a Microsoft Excel workbook is:",
+    "options": [
+      ".csv",
+      ".pdf",
+      ".xlsx",
+      ".txt"
+    ],
+    "answer": ".xlsx"
+  },
+  {
+    "question": "To ensure your workbook can be opened by older versions of Excel (e.g., Excel 2003), you might 'Save As' which file type?",
+    "options": [
+      ".xlsx",
+      ".xls",
+      ".pdf",
+      ".csv"
+    ],
+    "answer": ".xls"
+  },
+  {
+    "question": "When saving a workbook as a PDF, it typically becomes non-editable. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "If you have multiple worksheets in a workbook, saving it as a CSV will typically only save the active worksheet. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "After closing a workbook, the spreadsheet application (e.g., Excel) automatically closes as well. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "Which command allows you to view recently opened workbooks?",
+    "options": [
+      "New",
+      "Recent",
+      "Browse",
+      "History"
+    ],
+    "answer": "Recent"
+  },
+  {
+    "question": "If you want to save a workbook template, you would use 'Save As' and select the file type as:",
+    "options": [
+      ".xlsx",
+      ".pdf",
+      ".xltx",
+      ".csv"
+    ],
+    "answer": ".xltx"
+  },
+  {
+    "question": "The 'Save As' dialog box always appears the first time you save a new workbook. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When you 'Open' a workbook, it loads its content into the computer's memory for you to work on. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Using the 'Save' command repeatedly during your work session is a good practice to prevent data loss. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which option is typically found under the 'File' tab for managing workbooks?",
+    "options": [
+      "Cut",
+      "Copy",
+      "Paste",
+      "Info"
+    ],
+    "answer": "Info"
+  },
+  {
+    "question": "The 'Save as PDF' feature can be useful for sending financial reports that should not be easily modified. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "CSV files are often used for data exchange between different software applications. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When you 'Close' a workbook, all its associated worksheets are also closed. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The 'Create a new workbook' option usually presents templates organized by category (e.g., Business, Personal). True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "If you open a corrupted workbook, Excel might prompt you to 'Repair' it. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The 'AutoSave' feature (if enabled and saving to cloud) automatically saves your changes as you work. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When 'Renaming' a workbook, it's generally done through the operating system's file explorer or the 'Save As' dialog, not a direct 'Rename' command within the open workbook. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Saving a workbook as an XPS document provides similar benefits to PDF in terms of fixed layout. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "If your CSV file contains commas within a data field, that field must be enclosed in double-quotes to be correctly parsed. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "To exit the entire spreadsheet application (e.g., close Excel completely), you would use which command?",
+    "options": [
+      "Close workbook",
+      "Exit (or File > Exit)",
+      "Minimize",
+      "Save All"
+    ],
+    "answer": "Exit (or File > Exit)"
+  },
+  {
+    "question": "Which of these is NOT a typical option when 'Saving As' a workbook?",
+    "options": [
+      "Saving to your desktop.",
+      "Saving to a network drive.",
+      "Saving to a printer.",
+      "Saving to cloud storage (e.g., OneDrive)."
+    ],
+    "answer": "Saving to a printer."
+  },
+  {
+    "question": "The 'Open' command can also be used to open non-Excel files like text files or CSV files. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When you 'Save' a workbook, you are essentially writing the current state of the workbook from memory to permanent storage. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which dialog box appears if you click 'Save As' after a workbook has already been saved with a name?",
+    "options": [
+      "Save Dialog Box",
+      "Open Dialog Box",
+      "Save As Dialog Box",
+      "Print Dialog Box"
+    ],
+    "answer": "Save As Dialog Box"
+  },
+  {
+    "question": "The 'Export as PDF' option allows you to set a password for the exported PDF file. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When saving as CSV, if your worksheet has multiple sheets, Word automatically prompts you which sheet to save. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "The 'Close workbook' command saves the workbook automatically before closing. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "You can use keyboard shortcuts for 'New', 'Open', and 'Save' operations without using the 'File' tab. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "If you open an existing workbook, make changes, and then use 'Save As' with the exact same filename and location, what happens?",
+    "options": [
+      "It creates a duplicate file.",
+      "It overwrites the original file.",
+      "It creates an error.",
+      "It prompts you to rename it."
+    ],
+    "answer": "It overwrites the original file."
+  },
+  {
+    "question": "Which of these is a valid file extension for a workbook created in LibreOffice Calc?",
+    "options": [
+      ".xlsx",
+      ".ods",
+      ".csv",
+      ".pdf"
+    ],
+    "answer": ".ods"
+  },
+  {
+    "question": "Saving as PDF is ideal if you want to ensure that others can view your data exactly as you formatted it, even if they don't have the same spreadsheet software. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "A CSV file does not store formulas, only the resulting values. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "To start a new workbook based on a template, you usually select 'File > New' and then choose a template. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The 'Open' command also allows you to recover unsaved workbooks (if AutoRecover is enabled). True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When you 'Save As' a workbook, you are always creating a new file on your computer. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The 'Save As' dialog box appears when you save a new workbook for the first time. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which option is typically found in the 'Save As' dialog box to change the file type?",
+    "options": [
+      "File name",
+      "Save as type",
+      "Author",
+      "Password"
+    ],
+    "answer": "Save as type"
+  },
+  {
+    "question": "To convert your spreadsheet data into a format easily readable by other database programs, 'Save as CSV' is a good choice. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The 'Close workbook' command will always prompt you to save if there are unsaved changes. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "If you mistakenly close a workbook without saving, the 'AutoRecover' feature might help you restore an unsaved version. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "When you 'Create a new workbook' from a blank template, it typically has no data or custom formatting. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "The 'Open' command also allows you to open workbooks directly from cloud storage services like Google Drive or OneDrive. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  },
+  {
+    "question": "Which action might be performed to rename a saved workbook file?",
+    "options": [
+      "Double-click on the workbook's title bar.",
+      "Right-click on the file in File Explorer and choose 'Rename'.",
+      "Use the 'Save' command repeatedly.",
+      "Press Ctrl + R within the workbook."
+    ],
+    "answer": "Right-click on the file in File Explorer and choose 'Rename'."
+  },
+  {
+    "question": "Saving a workbook as PDF ensures that formulas remain editable in the PDF. True or False?",
+    "options": [
+      "False",
+      "True"
+    ],
+    "answer": "False"
+  },
+  {
+    "question": "CSV files are primarily used for structured data, where each line is a record and fields are separated by a delimiter. True or False?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True"
+  }
+]
+      },
+      "ManagingWorksheet" : {
+        "title": "Spreadsheets and Their Uses",
+        "questions": [
+  {
+    "question": "How do you insert a new worksheet in MS Excel?",
+    "options": [
+      "Click the '+' icon next to existing worksheet tabs",
+      "Right-click a cell and select 'Insert Worksheet'",
+      "Use the 'Insert' tab on the Ribbon",
+      "Press Ctrl + N"
+    ],
+    "answer": "Click the '+' icon next to existing worksheet tabs"
+  },
+  {
+    "question": "Which shortcut key inserts a new worksheet in Excel?",
+    "options": [
+      "Shift + F11",
+      "Ctrl + N",
+      "Alt + N",
+      "Ctrl + Shift + N"
+    ],
+    "answer": "Shift + F11"
+  },
+  {
+    "question": "How can you rename a worksheet in Excel?",
+    "options": [
+      "Double-click the worksheet tab and type the new name",
+      "Right-click the worksheet tab and select 'Rename'",
+      "Select the worksheet and press F2",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What is the maximum length of a worksheet name in Excel?",
+    "options": [
+      "31 characters",
+      "50 characters",
+      "255 characters",
+      "100 characters"
+    ],
+    "answer": "31 characters"
+  },
+  {
+    "question": "How do you delete a worksheet in Excel?",
+    "options": [
+      "Right-click the worksheet tab and select 'Delete'",
+      "Press the Delete key when the worksheet is active",
+      "Use the 'Delete' button on the Home tab",
+      "Select the worksheet and press Ctrl + D"
+    ],
+    "answer": "Right-click the worksheet tab and select 'Delete'"
+  },
+  {
+    "question": "What happens when you delete a worksheet?",
+    "options": [
+      "All data in the worksheet is permanently removed",
+      "The worksheet is hidden",
+      "The worksheet is renamed",
+      "The worksheet is copied"
+    ],
+    "answer": "All data in the worksheet is permanently removed"
+  },
+  {
+    "question": "How can you move a worksheet to a different position in the workbook?",
+    "options": [
+      "Click and drag the worksheet tab to the desired position",
+      "Use the 'Move or Copy' option from the right-click menu",
+      "Use the 'Format' option in the Home tab",
+      "Both A and B"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "How do you copy a worksheet within the same workbook?",
+    "options": [
+      "Right-click the worksheet tab, select 'Move or Copy', check 'Create a copy', and choose location",
+      "Press Ctrl + C on the worksheet tab",
+      "Drag the worksheet tab while holding Ctrl key",
+      "Both A and C"
+    ],
+    "answer": "Both A and C"
+  },
+  {
+    "question": "How do you hide a worksheet in Excel?",
+    "options": [
+      "Right-click the worksheet tab and select 'Hide'",
+      "Use the 'Hide' option in the View tab",
+      "Press Ctrl + H",
+      "Delete the worksheet"
+    ],
+    "answer": "Right-click the worksheet tab and select 'Hide'"
+  },
+  {
+    "question": "How can you unhide a hidden worksheet?",
+    "options": [
+      "Right-click any worksheet tab and select 'Unhide', then choose the worksheet",
+      "Use the 'Unhide' button in the View tab",
+      "Press Ctrl + U",
+      "Both A and B"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "What is the shortcut to unhide worksheets in Excel?",
+    "options": [
+      "No direct shortcut; use right-click menu or View tab",
+      "Ctrl + Shift + U",
+      "Alt + H + U",
+      "Ctrl + Alt + U"
+    ],
+    "answer": "No direct shortcut; use right-click menu or View tab"
+  },
+  {
+    "question": "How do you change the color of a worksheet tab?",
+    "options": [
+      "Right-click the worksheet tab, select 'Tab Color', and choose a color",
+      "Use the 'Format' option in the Home tab",
+      "Double-click the tab and select color",
+      "Use the Page Layout tab"
+    ],
+    "answer": "Right-click the worksheet tab, select 'Tab Color', and choose a color"
+  },
+  {
+    "question": "Can you assign different colors to different worksheet tabs in the same workbook?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in Excel 365",
+      "Only in Excel 2010 and later"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "What is the default color of worksheet tabs in Excel?",
+    "options": [
+      "No color (default gray)",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "answer": "No color (default gray)"
+  },
+  {
+    "question": "Which of the following is NOT a way to insert a new worksheet?",
+    "options": [
+      "Clicking the '+' icon next to worksheet tabs",
+      "Using Shift + F11",
+      "Right-clicking a worksheet tab and selecting 'Insert'",
+      "Pressing Ctrl + N"
+    ],
+    "answer": "Pressing Ctrl + N"
+  },
+  {
+    "question": "How can you select multiple adjacent worksheets?",
+    "options": [
+      "Click the first tab, hold Shift, and click the last tab",
+      "Hold Ctrl and click each tab",
+      "Right-click and select 'Select All'",
+      "Press Ctrl + A"
+    ],
+    "answer": "Click the first tab, hold Shift, and click the last tab"
+  },
+  {
+    "question": "How can you select multiple non-adjacent worksheets?",
+    "options": [
+      "Hold Ctrl and click each worksheet tab",
+      "Hold Shift and click the tabs",
+      "Right-click and select 'Select All'",
+      "Press Ctrl + A"
+    ],
+    "answer": "Hold Ctrl and click each worksheet tab"
+  },
+  {
+    "question": "What happens when you select multiple worksheets and enter data?",
+    "options": [
+      "Data is entered into all selected worksheets simultaneously",
+      "Data is entered only into the active worksheet",
+      "Data is deleted",
+      "Data is copied to clipboard"
+    ],
+    "answer": "Data is entered into all selected worksheets simultaneously"
+  },
+  {
+    "question": "How do you rename a worksheet to 'Sales2025'?",
+    "options": [
+      "Double-click the tab, type 'Sales2025', and press Enter",
+      "Right-click tab, select 'Rename', type 'Sales2025', press Enter",
+      "Select tab and press F2, type 'Sales2025', press Enter",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which option is used to move a worksheet to another workbook?",
+    "options": [
+      "Right-click tab, select 'Move or Copy', choose destination workbook",
+      "Drag and drop tab to another workbook",
+      "Copy and paste worksheet",
+      "Use Cut and Paste"
+    ],
+    "answer": "Right-click tab, select 'Move or Copy', choose destination workbook"
+  },
+  {
+    "question": "How do you delete multiple worksheets at once?",
+    "options": [
+      "Select multiple worksheets, right-click one tab, and choose 'Delete'",
+      "Delete one worksheet at a time",
+      "Use the Delete key",
+      "Use the Home tab"
+    ],
+    "answer": "Select multiple worksheets, right-click one tab, and choose 'Delete'"
+  },
+  {
+    "question": "Which of the following is true about hiding worksheets?",
+    "options": [
+      "Hidden worksheets are not visible but still exist in the workbook",
+      "Hidden worksheets are deleted",
+      "Hidden worksheets cannot be unhidden",
+      "Hidden worksheets are copied automatically"
+    ],
+    "answer": "Hidden worksheets are not visible but still exist in the workbook"
+  },
+  {
+    "question": "How can you unhide multiple worksheets at once?",
+    "options": [
+      "Right-click any tab, select 'Unhide', and select worksheets one by one",
+      "Select all worksheets and click unhide",
+      "Use the View tab",
+      "Press Ctrl + U"
+    ],
+    "answer": "Right-click any tab, select 'Unhide', and select worksheets one by one"
+  },
+  {
+    "question": "What is the shortcut to move to the next worksheet?",
+    "options": [
+      "Ctrl + Page Down",
+      "Ctrl + Page Up",
+      "Alt + Tab",
+      "Ctrl + Tab"
+    ],
+    "answer": "Ctrl + Page Down"
+  },
+  {
+    "question": "What is the shortcut to move to the previous worksheet?",
+    "options": [
+      "Ctrl + Page Up",
+      "Ctrl + Page Down",
+      "Alt + Tab",
+      "Ctrl + Tab"
+    ],
+    "answer": "Ctrl + Page Up"
+  },
+  {
+    "question": "Can you change the worksheet tab color to help organize worksheets?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which menu contains the 'Tab Color' option?",
+    "options": [
+      "Right-click context menu on the worksheet tab",
+      "Home tab",
+      "Insert tab",
+      "View tab"
+    ],
+    "answer": "Right-click context menu on the worksheet tab"
+  },
+  {
+    "question": "What happens when you copy a worksheet to a new location?",
+    "options": [
+      "A duplicate worksheet is created at the new location",
+      "The original worksheet is deleted",
+      "Only data is copied, not formatting",
+      "Only formatting is copied, not data"
+    ],
+    "answer": "A duplicate worksheet is created at the new location"
+  },
+  {
+    "question": "Which option allows you to protect a worksheet from editing?",
+    "options": [
+      "Protect Sheet",
+      "Hide Sheet",
+      "Delete Sheet",
+      "Rename Sheet"
+    ],
+    "answer": "Protect Sheet"
+  },
+  {
+    "question": "How do you access the 'Protect Sheet' option?",
+    "options": [
+      "Review tab > Protect Sheet",
+      "Home tab > Format",
+      "Insert tab > Table",
+      "View tab > Freeze Panes"
+    ],
+    "answer": "Review tab > Protect Sheet"
+  },
+  {
+    "question": "Which of the following can be done to multiple worksheets simultaneously?",
+    "options": [
+      "Enter data",
+      "Format cells",
+      "Delete",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "How do you select all worksheets in a workbook?",
+    "options": [
+      "Right-click any worksheet tab and select 'Select All Sheets'",
+      "Press Ctrl + A",
+      "Click the first and last worksheet tabs while holding Shift",
+      "Double-click any worksheet tab"
+    ],
+    "answer": "Right-click any worksheet tab and select 'Select All Sheets'"
+  },
+  {
+    "question": "What happens if you delete the only worksheet in a workbook?",
+    "options": [
+      "Excel will not allow deleting the last worksheet",
+      "Workbook is deleted",
+      "Workbook becomes empty",
+      "Excel crashes"
+    ],
+    "answer": "Excel will not allow deleting the last worksheet"
+  },
+  {
+    "question": "Which of the following is NOT a way to insert a new worksheet?",
+    "options": [
+      "Right-click a worksheet tab and select 'Insert'",
+      "Click the '+' icon next to worksheet tabs",
+      "Press Shift + F11",
+      "Press Ctrl + N"
+    ],
+    "answer": "Press Ctrl + N"
+  },
+  {
+    "question": "What is the default name given to a new worksheet in Excel?",
+    "options": [
+      "Sheet1",
+      "Worksheet1",
+      "Page1",
+      "Tab1"
+    ],
+    "answer": "Sheet1"
+  },
+  {
+    "question": "Which of the following is true about worksheet tabs?",
+    "options": [
+      "You can rename, move, copy, hide, unhide, and color them",
+      "You cannot rename them",
+      "You cannot move them",
+      "You cannot hide them"
+    ],
+    "answer": "You can rename, move, copy, hide, unhide, and color them"
+  },
+  {
+    "question": "Which key do you hold to select multiple non-adjacent worksheets?",
+    "options": [
+      "Ctrl",
+      "Shift",
+      "Alt",
+      "Tab"
+    ],
+    "answer": "Ctrl"
+  },
+  {
+    "question": "Which key do you hold to select multiple adjacent worksheets?",
+    "options": [
+      "Shift",
+      "Ctrl",
+      "Alt",
+      "Tab"
+    ],
+    "answer": "Shift"
+  },
+  {
+    "question": "Which of the following is NOT a valid worksheet tab color?",
+    "options": [
+      "Transparent",
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "answer": "Transparent"
+  },
+  {
+    "question": "How can you quickly navigate to a specific worksheet?",
+    "options": [
+      "Right-click the navigation arrows and select the sheet",
+      "Press Ctrl + N",
+      "Use the File menu",
+      "Use the Home tab"
+    ],
+    "answer": "Right-click the navigation arrows and select the sheet"
+  },
+  {
+    "question": "Which of the following is a reason to hide a worksheet?",
+    "options": [
+      "To prevent accidental editing",
+      "To delete data",
+      "To rename the workbook",
+      "To change the file format"
+    ],
+    "answer": "To prevent accidental editing"
+  },
+  {
+    "question": "How can you unhide a worksheet that has been hidden?",
+    "options": [
+      "Right-click any tab and select 'Unhide', then choose the worksheet",
+      "Press Ctrl + U",
+      "Use the Insert tab",
+      "Use the Home tab"
+    ],
+    "answer": "Right-click any tab and select 'Unhide', then choose the worksheet"
+  },
+  {
+    "question": "Which of the following is NOT affected when you hide a worksheet?",
+    "options": [
+      "Data in the worksheet",
+      "Visibility of the worksheet tab",
+      "Ability to reference data in formulas",
+      "Ability to print the worksheet"
+    ],
+    "answer": "Data in the worksheet"
+  }
+]
+
+      },
+      "Working" : {
+        "title": "Working with Row And Column",
+        "questions": [
+  {
+    "question": "How do you insert a single row in an Excel worksheet?",
+    "options": [
+      "Right-click the whole row *above* which you want to insert the new row, and then select Insert Rows.",
+      "Right-click the whole row *below* which you want to insert the new row, and then select Insert Rows.",
+      "Select a cell and press Ctrl + R.",
+      "Select a cell and go to Insert > Insert Cell."
+    ],
+    "answer": "Right-click the whole row *above* which you want to insert the new row, and then select Insert Rows."
+  },
+  {
+    "question": "How do you insert multiple rows in Excel?",
+    "options": [
+      "Select the same number of rows *above* which you want to add new ones, right-click the selection, and then select Insert Rows.",
+      "Select a single row and click Insert Rows multiple times.",
+      "Select a range of cells and press Shift + Insert.",
+      "Go to Insert tab and choose 'Insert multiple rows'."
+    ],
+    "answer": "Select the same number of rows *above* which you want to add new ones, right-click the selection, and then select Insert Rows."
+  },
+  {
+    "question": "How do you insert a single column in an Excel worksheet?",
+    "options": [
+      "Right-click the whole column to the *right* of where you want to add the new column, and then select Insert Columns.",
+      "Right-click the whole column to the *left* of where you want to add the new column, and then select Insert Columns.",
+      "Select a cell and press Ctrl + C.",
+      "Select a cell and go to Insert > Insert Cell."
+    ],
+    "answer": "Right-click the whole column to the *right* of where you want to add the new column, and then select Insert Columns."
+  },
+  {
+    "question": "How do you insert multiple columns in Excel?",
+    "options": [
+      "Select the same number of columns to the *right* of where you want to add new ones, right-click the selection, and then select Insert Columns.",
+      "Select a single column and click Insert Columns multiple times.",
+      "Select a range of cells and press Shift + C.",
+      "Go to Insert tab and choose 'Insert multiple columns'."
+    ],
+    "answer": "Select the same number of columns to the *right* of where you want to add new ones, right-click the selection, and then select Insert Columns."
+  },
+  {
+    "question": "Where can you find the 'Insert Sheet Rows' and 'Insert Sheet Columns' options on the Ribbon?",
+    "options": [
+      "Home tab > Insert group",
+      "Layout tab > Insert group",
+      "Data tab > Insert group",
+      "View tab > Insert group"
+    ],
+    "answer": "Home tab > Insert group"
+  },
+  {
+    "question": "How do you delete a row in Excel?",
+    "options": [
+      "Select the row, right-click, and then select Delete Rows.",
+      "Select the row and press the Delete key.",
+      "Go to Home tab > Delete > Delete Cells.",
+      "Drag the row out of the worksheet."
+    ],
+    "answer": "Select the row, right-click, and then select Delete Rows."
+  },
+  {
+    "question": "How do you delete a column in Excel?",
+    "options": [
+      "Select the column, right-click, and then select Delete Columns.",
+      "Select the column and press the Delete key.",
+      "Go to Home tab > Delete > Delete Cells.",
+      "Drag the column out of the worksheet."
+    ],
+    "answer": "Select the column, right-click, and then select Delete Columns."
+  },
+  {
+    "question": "Where can you find the 'Delete Sheet Rows' and 'Delete Sheet Columns' options on the Ribbon?",
+    "options": [
+      "Home tab > Delete group",
+      "Layout tab > Delete group",
+      "Data tab > Delete group",
+      "View tab > Delete group"
+    ],
+    "answer": "Home tab > Delete group"
+  },
+  {
+    "question": "What happens to other rows or columns when you delete rows or columns in Excel?",
+    "options": [
+      "Other rows or columns automatically shift up or to the left.",
+      "Other rows or columns automatically shift down or to the right.",
+      "Other rows or columns remain unchanged.",
+      "Excel crashes."
+    ],
+    "answer": "Other rows or columns automatically shift up or to the left."
+  },
+  {
+    "question": "Which keyboard shortcut can be used to undo a deletion in Excel?",
+    "options": [
+      "Ctrl + Z",
+      "Ctrl + Y",
+      "Ctrl + X",
+      "Ctrl + C"
+    ],
+    "answer": "Ctrl + Z"
+  },
+  {
+    "question": "How do you resize a column manually in Excel?",
+    "options": [
+      "Drag the boundary between two column headings.",
+      "Right-click a cell and select 'Resize Column'.",
+      "Go to Home tab > Format > Row Height.",
+      "Use the scroll bar."
+    ],
+    "answer": "Drag the boundary between two column headings."
+  },
+  {
+    "question": "How do you resize a row manually in Excel?",
+    "options": [
+      "Drag the boundary between two row headings.",
+      "Right-click a cell and select 'Resize Row'.",
+      "Go to Home tab > Format > Column Width.",
+      "Use the scroll bar."
+    ],
+    "answer": "Drag the boundary between two row headings."
+  },
+  {
+    "question": "Which option automatically adjusts the column width to fit the longest entry in a cell?",
+    "options": [
+      "AutoFit Column Width",
+      "AutoFit Row Height",
+      "Wrap Text",
+      "Merge Cells"
+    ],
+    "answer": "AutoFit Column Width"
+  },
+  {
+    "question": "Where can you find the 'AutoFit Column Width' and 'AutoFit Row Height' options?",
+    "options": [
+      "Home tab > Cells group > Format",
+      "Data tab > Format group",
+      "Review tab > Format group",
+      "View tab > Format group"
+    ],
+    "answer": "Home tab > Cells group > Format"
+  },
+  {
+    "question": "How do you hide a row in Excel?",
+    "options": [
+      "Right-click the row heading and select 'Hide'.",
+      "Select the row and press Ctrl + H.",
+      "Go to Home tab > Delete > Hide Row.",
+      "Drag the row boundary to zero."
+    ],
+    "answer": "Right-click the row heading and select 'Hide'."
+  },
+  {
+    "question": "How do you hide a column in Excel?",
+    "options": [
+      "Right-click the column heading and select 'Hide'.",
+      "Select the column and press Ctrl + H.",
+      "Go to Home tab > Delete > Hide Column.",
+      "Drag the column boundary to zero."
+    ],
+    "answer": "Right-click the column heading and select 'Hide'."
+  },
+  {
+    "question": "How do you unhide a hidden row in Excel?",
+    "options": [
+      "Select the rows above and below the hidden row, right-click, and select 'Unhide'.",
+      "Right-click anywhere in the sheet and select 'Unhide Row'.",
+      "Go to Home tab > Format > Hide & Unhide > Unhide Rows.",
+      "Both A and C."
+    ],
+    "answer": "Both A and C."
+  },
+  {
+    "question": "How do you unhide a hidden column in Excel?",
+    "options": [
+      "Select the columns to the left and right of the hidden column, right-click, and select 'Unhide'.",
+      "Right-click anywhere in the sheet and select 'Unhide Column'.",
+      "Go to Home tab > Format > Hide & Unhide > Unhide Columns.",
+      "Both A and C."
+    ],
+    "answer": "Both A and C."
+  },
+  {
+    "question": "Which of the following is true when you insert a row or column that has formatting applied?",
+    "options": [
+      "The formatting will be transferred to the new row or column.",
+      "The new row or column will have no formatting.",
+      "The existing formatting will be deleted.",
+      "Excel will ask you to choose a new format."
+    ],
+    "answer": "The formatting will be transferred to the new row or column."
+  },
+  {
+    "question": "If you want to insert a row above row 5, which row should you select before clicking 'Insert Rows'?",
+    "options": [
+      "Row 5",
+      "Row 4",
+      "Any cell in row 5",
+      "Any cell in row 4"
+    ],
+    "answer": "Row 5"
+  },
+  {
+    "question": "If you want to insert a column to the left of column C, which column should you select before clicking 'Insert Columns'?",
+    "options": [
+      "Column C",
+      "Column B",
+      "Any cell in column C",
+      "Any cell in column B"
+    ],
+    "answer": "Column C"
+  },
+  {
+    "question": "Which of the following can be used to insert rows or columns without affecting existing cells in other columns/rows?",
+    "options": [
+      "Inserting entire rows/columns",
+      "Inserting cells and shifting them",
+      "Deleting cells",
+      "Resizing cells"
+    ],
+    "answer": "Inserting entire rows/columns"
+  },
+  {
+    "question": "What is the Excel column limit?",
+    "options": [
+      "16,384 columns",
+      "1,048,576 columns",
+      "256 columns",
+      "1024 columns"
+    ],
+    "answer": "16,384 columns"
+  },
+  {
+    "question": "What is the Excel row limit?",
+    "options": [
+      "1,048,576 rows",
+      "16,384 rows",
+      "65,536 rows",
+      "10,000 rows"
+    ],
+    "answer": "1,048,576 rows"
+  },
+  {
+    "question": "If you insert cells and choose 'Shift cells right', what happens to the existing cells?",
+    "options": [
+      "Existing cells move to the right.",
+      "Existing cells move down.",
+      "Existing cells are deleted.",
+      "Existing cells move up."
+    ],
+    "answer": "Existing cells move to the right."
+  },
+  {
+    "question": "If you insert cells and choose 'Shift cells down', what happens to the existing cells?",
+    "options": [
+      "Existing cells move down.",
+      "Existing cells move right.",
+      "Existing cells are deleted.",
+      "Existing cells move up."
+    ],
+    "answer": "Existing cells move down."
+  },
+  {
+    "question": "Which option is available after inserting rows/columns to control formatting?",
+    "options": [
+      "Insert Options button",
+      "Format Painter",
+      "Conditional Formatting",
+      "Styles"
+    ],
+    "answer": "Insert Options button"
+  },
+  {
+    "question": "When deleting cells, which option would move cells from below up into the deleted cell's space?",
+    "options": [
+      "Delete Cells & Shift Up",
+      "Delete Cells & Shift Left",
+      "Delete Entire Row",
+      "Delete Entire Column"
+    ],
+    "answer": "Delete Cells & Shift Up"
+  },
+  {
+    "question": "When deleting cells, which option would move cells from the right left into the deleted cell's space?",
+    "options": [
+      "Delete Cells & Shift Left",
+      "Delete Cells & Shift Up",
+      "Delete Entire Row",
+      "Delete Entire Column"
+    ],
+    "answer": "Delete Cells & Shift Left"
+  },
+  {
+    "question": "Which of the following describes the process of inserting a row in Excel?",
+    "options": [
+      "New row appears above the selected row.",
+      "New row appears below the selected row.",
+      "New row replaces the selected row.",
+      "New row appears to the right of the selected row."
+    ],
+    "answer": "New row appears above the selected row."
+  },
+  {
+    "question": "Which of the following describes the process of inserting a column in Excel?",
+    "options": [
+      "New column appears to the left of the selected column.",
+      "New column appears to the right of the selected column.",
+      "New column replaces the selected column.",
+      "New column appears below the selected column."
+    ],
+    "answer": "New column appears to the left of the selected column."
+  },
+  {
+    "question": "If you have a row selected and you go to the Home tab and choose 'Insert', what will be the primary option for inserting rows?",
+    "options": [
+      "Insert Sheet Rows",
+      "Insert Cells",
+      "Insert Sheet Columns",
+      "Insert Table"
+    ],
+    "answer": "Insert Sheet Rows"
+  },
+  {
+    "question": "If you have a column selected and you go to the Home tab and choose 'Insert', what will be the primary option for inserting columns?",
+    "options": [
+      "Insert Sheet Columns",
+      "Insert Cells",
+      "Insert Sheet Rows",
+      "Insert Table"
+    ],
+    "answer": "Insert Sheet Columns"
+  },
+  {
+    "question": "Which tab on the Ribbon contains the 'Format' options for Row Height and Column Width?",
+    "options": [
+      "Home tab",
+      "Layout tab",
+      "Data tab",
+      "View tab"
+    ],
+    "answer": "Home tab"
+  },
+  {
+    "question": "Which option can be used to set a precise height for a row?",
+    "options": [
+      "Row Height",
+      "AutoFit Row Height",
+      "Column Width",
+      "AutoFit Column Width"
+    ],
+    "answer": "Row Height"
+  },
+  {
+    "question": "Which option can be used to set a precise width for a column?",
+    "options": [
+      "Column Width",
+      "AutoFit Column Width",
+      "Row Height",
+      "AutoFit Row Height"
+    ],
+    "answer": "Column Width"
+  },
+  {
+    "question": "When a row is hidden, what happens to its row number?",
+    "options": [
+      "The row number is skipped in the sequence.",
+      "The row number is deleted.",
+      "The row number changes color.",
+      "The row number becomes a letter."
+    ],
+    "answer": "The row number is skipped in the sequence."
+  },
+  {
+    "question": "When a column is hidden, what happens to its column letter?",
+    "options": [
+      "The column letter is skipped in the sequence.",
+      "The column letter is deleted.",
+      "The column letter changes color.",
+      "The column letter becomes a number."
+    ],
+    "answer": "The column letter is skipped in the sequence."
+  }
+]
+
+      },
+      "cell" : {
+        "title": "Working with Cells",
+        "questions": [
+  {
+    "question": "How do you select a single cell in Excel?",
+    "options": [
+      "Click on the cell",
+      "Double-click the cell",
+      "Right-click the cell",
+      "Press Ctrl + A"
+    ],
+    "answer": "Click on the cell"
+  },
+  {
+    "question": "How can you select a range of adjacent cells?",
+    "options": [
+      "Click and drag over the cells",
+      "Click each cell while holding Ctrl",
+      "Double-click the first cell",
+      "Press Shift + Enter"
+    ],
+    "answer": "Click and drag over the cells"
+  },
+  {
+    "question": "How do you select multiple non-adjacent cells or ranges?",
+    "options": [
+      "Hold Ctrl and click the cells or drag ranges",
+      "Click and drag over the cells",
+      "Press Shift + click",
+      "Double-click the cells"
+    ],
+    "answer": "Hold Ctrl and click the cells or drag ranges"
+  },
+  {
+    "question": "Which keyboard shortcut selects the entire worksheet?",
     "options": [
       "Ctrl + A",
+      "Ctrl + S",
       "Ctrl + C",
-      "Ctrl + V",
-      "Ctrl + U"
+      "Ctrl + Z"
     ],
     "answer": "Ctrl + A"
   },
   {
-    "question": "Q9. What is the shortcut key to make text bold in MS Word?",
-    "question_hindi": "Q9. MS Word में make text bold के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you insert a cell in Excel?",
     "options": [
-      "Ctrl + B",
-      "Ctrl + I",
-      "Ctrl + U",
-      "Ctrl + C"
+      "Right-click the cell and select 'Insert...'",
+      "Press Delete",
+      "Press Ctrl + I",
+      "Drag the cell"
     ],
-    "answer": "Ctrl + B"
+    "answer": "Right-click the cell and select 'Insert...'"
   },
   {
-    "question": "Q10. What is the shortcut key to italicize text in MS Word?",
-    "question_hindi": "Q10. MS Word में italicize text के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "When inserting a cell, which option shifts existing cells to the right?",
     "options": [
-      "Ctrl + I",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Z"
+      "Shift cells right",
+      "Shift cells down",
+      "Insert entire row",
+      "Insert entire column"
     ],
-    "answer": "Ctrl + I"
+    "answer": "Shift cells right"
   },
   {
-    "question": "Q11. What is the default file extension for Word documents?",
-    "question_hindi": "Q11. Word डॉक्यूमेंट के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है?",
+    "question": "When inserting a cell, which option shifts existing cells down?",
     "options": [
-      ".docx",
-      ".pdf",
-      ".txt",
-      ".html"
+      "Shift cells down",
+      "Shift cells right",
+      "Insert entire row",
+      "Insert entire column"
     ],
-    "answer": ".docx"
+    "answer": "Shift cells down"
   },
   {
-    "question": "Q12. Which tab contains the Font group?",
-    "question_hindi": "Q12. Font ग्रुप किस टैब में होता है?",
+    "question": "How do you delete a cell in Excel?",
+    "options": [
+      "Right-click the cell and select 'Delete...'",
+      "Press Backspace",
+      "Press Ctrl + D",
+      "Press Delete"
+    ],
+    "answer": "Right-click the cell and select 'Delete...'"
+  },
+  {
+    "question": "When deleting a cell, which option shifts cells left?",
+    "options": [
+      "Shift cells left",
+      "Shift cells up",
+      "Delete entire row",
+      "Delete entire column"
+    ],
+    "answer": "Shift cells left"
+  },
+  {
+    "question": "When deleting a cell, which option shifts cells up?",
+    "options": [
+      "Shift cells up",
+      "Shift cells left",
+      "Delete entire row",
+      "Delete entire column"
+    ],
+    "answer": "Shift cells up"
+  },
+  {
+    "question": "How do you merge cells in Excel?",
+    "options": [
+      "Select cells and click 'Merge & Center' on the Home tab",
+      "Right-click and select 'Merge Cells'",
+      "Press Ctrl + M",
+      "Drag cells together"
+    ],
+    "answer": "Select cells and click 'Merge & Center' on the Home tab"
+  },
+  {
+    "question": "What happens to the data in merged cells?",
+    "options": [
+      "Only the upper-left cell data is retained",
+      "All data is combined",
+      "Data is deleted",
+      "Data is duplicated"
+    ],
+    "answer": "Only the upper-left cell data is retained"
+  },
+  {
+    "question": "How do you unmerge merged cells?",
+    "options": [
+      "Select merged cells and click 'Merge & Center' again",
+      "Right-click and select 'Unmerge Cells'",
+      "Press Ctrl + U",
+      "Delete the cells"
+    ],
+    "answer": "Select merged cells and click 'Merge & Center' again"
+  },
+  {
+    "question": "Which tab contains the 'Merge & Center' button?",
     "options": [
       "Home",
       "Insert",
-      "Layout",
-      "References"
+      "Page Layout",
+      "Data"
     ],
     "answer": "Home"
   },
   {
-    "question": "Q13. What is the default font in Word 2016?",
-    "question_hindi": "Q13. Word 2016 में डिफ़ॉल्ट फ़ॉन्ट कौन सा है?",
+    "question": "How do you change the font of selected cells?",
     "options": [
-      "Calibri",
-      "Arial",
-      "Verdana",
-      "Times New Roman"
+      "Use the Font group on the Home tab",
+      "Right-click and select 'Change Font'",
+      "Use the Insert tab",
+      "Use the Page Layout tab"
     ],
-    "answer": "Calibri"
+    "answer": "Use the Font group on the Home tab"
   },
   {
-    "question": "Q14. Which menu allows you to insert a table?",
-    "question_hindi": "Q14. आप किस मेनू से टेबल डाल सकते हैं?",
+    "question": "Which option aligns text to the center of a cell horizontally?",
     "options": [
-      "Insert",
-      "Home",
-      "Design",
-      "Layout"
+      "Center align",
+      "Left align",
+      "Right align",
+      "Justify"
     ],
-    "answer": "Insert"
+    "answer": "Center align"
   },
   {
-    "question": "Q15. What is the shortcut key to create a new document in MS Word?",
-    "question_hindi": "Q15. MS Word में create a new document के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which option aligns text to the top of a cell vertically?",
     "options": [
-      "Ctrl + N",
-      "Ctrl + S",
-      "Ctrl + O",
-      "Ctrl + A"
+      "Top align",
+      "Middle align",
+      "Bottom align",
+      "Justify"
     ],
-    "answer": "Ctrl + N"
+    "answer": "Top align"
   },
   {
-    "question": "Q16. What is the shortcut key to align text to left in MS Word?",
-    "question_hindi": "Q16. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you add borders to selected cells?",
     "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
+      "Use the Borders button in the Font group on the Home tab",
+      "Right-click and select 'Add Border'",
+      "Use the Insert tab",
+      "Use the Page Layout tab"
     ],
-    "answer": "Ctrl + L"
+    "answer": "Use the Borders button in the Font group on the Home tab"
   },
   {
-    "question": "Q17. What is the shortcut key to align text to center in MS Word?",
-    "question_hindi": "Q17. MS Word में align text to center के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which option removes all borders from selected cells?",
     "options": [
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + C"
+      "No Border",
+      "Clear Borders",
+      "Delete Borders",
+      "Remove Borders"
     ],
-    "answer": "Ctrl + E"
+    "answer": "No Border"
   },
   {
-    "question": "Q18. What is the shortcut key to align text to right in MS Word?",
-    "question_hindi": "Q18. MS Word में align text to right के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you change the background color of selected cells?",
     "options": [
-      "Ctrl + R",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + U"
+      "Use the Fill Color button in the Font group on the Home tab",
+      "Right-click and select 'Change Background Color'",
+      "Use the Insert tab",
+      "Use the Page Layout tab"
     ],
-    "answer": "Ctrl + R"
+    "answer": "Use the Fill Color button in the Font group on the Home tab"
   },
   {
-    "question": "Q19. What is the shortcut key to increase font size in MS Word?",
-    "question_hindi": "Q19. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which option clears all formatting from selected cells?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
+      "Clear Formats",
+      "Delete",
+      "Clear Contents",
+      "Clear All"
     ],
-    "answer": "Ctrl + ]"
+    "answer": "Clear Formats"
   },
   {
-    "question": "Q20. What is the shortcut key to create a new document in MS Word?",
-    "question_hindi": "Q20. MS Word में create a new document के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you select an entire column?",
     "options": [
-      "Ctrl + N",
-      "Ctrl + S",
-      "Ctrl + O",
-      "Ctrl + A"
+      "Click the column letter at the top",
+      "Click any cell in the column",
+      "Right-click a cell and select 'Select Column'",
+      "Press Ctrl + C"
     ],
-    "answer": "Ctrl + N"
+    "answer": "Click the column letter at the top"
   },
   {
-    "question": "Q21. What is the shortcut key to align text to center in MS Word?",
-    "question_hindi": "Q21. MS Word में align text to center के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you select an entire row?",
     "options": [
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + C"
+      "Click the row number on the left",
+      "Click any cell in the row",
+      "Right-click a cell and select 'Select Row'",
+      "Press Ctrl + R"
     ],
-    "answer": "Ctrl + E"
+    "answer": "Click the row number on the left"
   },
   {
-    "question": "Q22. What is the shortcut key to decrease font size in MS Word?",
-    "question_hindi": "Q22. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which keyboard shortcut selects the current region around the active cell?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + Z",
-      "Ctrl + U"
+      "Ctrl + Shift + *",
+      "Ctrl + A",
+      "Ctrl + C",
+      "Ctrl + V"
     ],
-    "answer": "Ctrl + ["
+    "answer": "Ctrl + Shift + *"
   },
   {
-    "question": "Q23. What is the shortcut key to align text to left in MS Word?",
-    "question_hindi": "Q23. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you select the entire worksheet?",
     "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
+      "Click the Select All button at the intersection of row and column headers",
+      "Press Ctrl + A twice",
+      "Right-click any cell and select 'Select All'",
+      "All of the above"
     ],
-    "answer": "Ctrl + L"
+    "answer": "All of the above"
   },
   {
-    "question": "Q24. What is the shortcut key to insert a page break in MS Word?",
-    "question_hindi": "Q24. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which option allows you to wrap text within a cell?",
     "options": [
-      "Ctrl + Enter",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Alt + P"
+      "Wrap Text",
+      "Shrink to Fit",
+      "Merge Cells",
+      "Center Align"
     ],
-    "answer": "Ctrl + Enter"
+    "answer": "Wrap Text"
   },
   {
-    "question": "Q25. What is the shortcut key to align text to right in MS Word?",
-    "question_hindi": "Q25. MS Word में align text to right के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you adjust the width of a column to fit its content automatically?",
     "options": [
-      "Ctrl + R",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + U"
+      "Double-click the right boundary of the column header",
+      "Drag the column boundary manually",
+      "Right-click and select 'AutoFit Column Width'",
+      "Use the Format menu"
     ],
-    "answer": "Ctrl + R"
+    "answer": "Double-click the right boundary of the column header"
   },
   {
-    "question": "Q26. What is the shortcut key to increase font size in MS Word?",
-    "question_hindi": "Q26. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you adjust the height of a row to fit its content automatically?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
+      "Double-click the bottom boundary of the row header",
+      "Drag the row boundary manually",
+      "Right-click and select 'AutoFit Row Height'",
+      "Use the Format menu"
     ],
-    "answer": "Ctrl + ]"
+    "answer": "Double-click the bottom boundary of the row header"
   },
   {
-    "question": "Q27. What is the shortcut key to align text to left in MS Word?",
-    "question_hindi": "Q27. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "What happens if you merge cells containing data in Excel?",
     "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
+      "Only the upper-left cell's data remains",
+      "All data is combined",
+      "Data is deleted",
+      "Data is duplicated"
     ],
-    "answer": "Ctrl + L"
+    "answer": "Only the upper-left cell's data remains"
   },
   {
-    "question": "Q28. What is the shortcut key to increase font size in MS Word?",
-    "question_hindi": "Q28. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which of the following is NOT a valid cell alignment option?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
+      "Diagonal align",
+      "Top align",
+      "Center align",
+      "Bottom align"
     ],
-    "answer": "Ctrl + ]"
+    "answer": "Diagonal align"
   },
   {
-    "question": "Q29. What is the shortcut key to justify text in MS Word?",
-    "question_hindi": "Q29. MS Word में justify text के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you access the Format Cells dialog box?",
     "options": [
-      "Ctrl + J",
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + R"
+      "Right-click a cell and select 'Format Cells'",
+      "Press Ctrl + 1",
+      "Use the Home tab > Format dropdown",
+      "All of the above"
     ],
-    "answer": "Ctrl + J"
+    "answer": "All of the above"
   },
   {
-    "question": "Q30. What is the shortcut key to align text to left in MS Word?",
-    "question_hindi": "Q30. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which tab in the Format Cells dialog box allows you to change font style and size?",
     "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
+      "Font",
+      "Alignment",
+      "Border",
+      "Fill"
     ],
-    "answer": "Ctrl + L"
+    "answer": "Font"
   },
   {
-    "question": "Q31. What is the shortcut key to insert a page break in MS Word?",
-    "question_hindi": "Q31. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which tab in the Format Cells dialog box allows you to add borders to cells?",
     "options": [
-      "Ctrl + Enter",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Alt + P"
+      "Border",
+      "Font",
+      "Fill",
+      "Number"
     ],
-    "answer": "Ctrl + Enter"
+    "answer": "Border"
   },
   {
-    "question": "Q32. What is the shortcut key to create a new document in MS Word?",
-    "question_hindi": "Q32. MS Word में create a new document के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which tab in the Format Cells dialog box allows you to change the background color of cells?",
     "options": [
-      "Ctrl + N",
-      "Ctrl + S",
-      "Ctrl + O",
-      "Ctrl + A"
+      "Fill",
+      "Font",
+      "Border",
+      "Protection"
     ],
-    "answer": "Ctrl + N"
+    "answer": "Fill"
   },
   {
-    "question": "Q33. What is the shortcut key to create a new document in MS Word?",
-    "question_hindi": "Q33. MS Word में create a new document के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you center text horizontally and vertically in a cell?",
     "options": [
-      "Ctrl + N",
-      "Ctrl + S",
-      "Ctrl + O",
-      "Ctrl + A"
+      "Use the Alignment tab in Format Cells dialog box",
+      "Use the Home tab alignment buttons",
+      "Both A and B",
+      "None of the above"
     ],
-    "answer": "Ctrl + N"
+    "answer": "Both A and B"
   },
   {
-    "question": "Q34. What is the shortcut key to align text to center in MS Word?",
-    "question_hindi": "Q34. MS Word में align text to center के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you unmerge merged cells?",
     "options": [
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + C"
+      "Select merged cells and click 'Merge & Center' again",
+      "Right-click and select 'Unmerge Cells'",
+      "Press Ctrl + U",
+      "Delete the cells"
     ],
-    "answer": "Ctrl + E"
+    "answer": "Select merged cells and click 'Merge & Center' again"
   },
   {
-    "question": "Q35. What is the shortcut key to insert a page break in MS Word?",
-    "question_hindi": "Q35. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "What is the effect of 'Center Across Selection' alignment?",
     "options": [
-      "Ctrl + Enter",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Alt + P"
+      "Centers text across selected cells without merging",
+      "Merges cells and centers text",
+      "Left aligns text",
+      "Right aligns text"
     ],
-    "answer": "Ctrl + Enter"
+    "answer": "Centers text across selected cells without merging"
   },
   {
-    "question": "Q36. What is the shortcut key to increase font size in MS Word?",
-    "question_hindi": "Q36. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which of the following is a reason to use cell merging?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
+      "To create a title spanning multiple columns",
+      "To delete data",
+      "To split cells",
+      "To format text"
     ],
-    "answer": "Ctrl + ]"
+    "answer": "To create a title spanning multiple columns"
   },
   {
-    "question": "Q37. What is the shortcut key to decrease font size in MS Word?",
-    "question_hindi": "Q37. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which of the following is NOT a valid way to select cells?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + Z",
-      "Ctrl + U"
+      "Click and drag",
+      "Shift + arrow keys",
+      "Ctrl + click",
+      "Alt + drag"
     ],
-    "answer": "Ctrl + ["
+    "answer": "Alt + drag"
   },
   {
-    "question": "Q38. What is the shortcut key to align text to right in MS Word?",
-    "question_hindi": "Q38. MS Word में align text to right के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you clear all formatting from selected cells?",
     "options": [
-      "Ctrl + R",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + U"
+      "Home tab > Clear > Clear Formats",
+      "Delete key",
+      "Right-click > Delete",
+      "Home tab > Font group > Clear"
     ],
-    "answer": "Ctrl + R"
+    "answer": "Home tab > Clear > Clear Formats"
   },
   {
-    "question": "Q39. What is the shortcut key to decrease font size in MS Word?",
-    "question_hindi": "Q39. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which option allows you to wrap text within a cell?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + Z",
-      "Ctrl + U"
+      "Wrap Text",
+      "Shrink to Fit",
+      "Merge Cells",
+      "Center Align"
     ],
-    "answer": "Ctrl + ["
+    "answer": "Wrap Text"
   },
   {
-    "question": "Q40. What is the shortcut key to decrease font size in MS Word?",
-    "question_hindi": "Q40. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "Which of the following is true about inserting cells?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + Z",
-      "Ctrl + U"
+      "You can insert cells and shift existing cells right or down",
+      "You can only insert entire rows or columns",
+      "You cannot insert cells in Excel",
+      "Inserting cells deletes data"
     ],
-    "answer": "Ctrl + ["
+    "answer": "You can insert cells and shift existing cells right or down"
   },
   {
-    "question": "Q41. What is the shortcut key to align text to left in MS Word?",
-    "question_hindi": "Q41. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you select an entire row?",
     "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
+      "Click the row number on the left",
+      "Click any cell in the row",
+      "Press Ctrl + R",
+      "Press Shift + R"
     ],
-    "answer": "Ctrl + L"
+    "answer": "Click the row number on the left"
   },
   {
-    "question": "Q42. What is the shortcut key to increase font size in MS Word?",
-    "question_hindi": "Q42. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
+    "question": "How do you select an entire column?",
     "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
+      "Click the column letter at the top",
+      "Click any cell in the column",
+      "Press Ctrl + C",
+      "Press Shift + C"
     ],
-    "answer": "Ctrl + ]"
-  },
-  {
-    "question": "Q43. What is the shortcut key to justify text in MS Word?",
-    "question_hindi": "Q43. MS Word में justify text के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + J",
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + R"
-    ],
-    "answer": "Ctrl + J"
-  },
-  {
-    "question": "Q44. What is the shortcut key to insert a page break in MS Word?",
-    "question_hindi": "Q44. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + Enter",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Alt + P"
-    ],
-    "answer": "Ctrl + Enter"
-  },
-  {
-    "question": "Q45. What is the shortcut key to insert a page break in MS Word?",
-    "question_hindi": "Q45. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + Enter",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Alt + P"
-    ],
-    "answer": "Ctrl + Enter"
-  },
-  {
-    "question": "Q46. What is the shortcut key to justify text in MS Word?",
-    "question_hindi": "Q46. MS Word में justify text के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + J",
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + R"
-    ],
-    "answer": "Ctrl + J"
-  },
-  {
-    "question": "Q47. What is the shortcut key to justify text in MS Word?",
-    "question_hindi": "Q47. MS Word में justify text के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + J",
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + R"
-    ],
-    "answer": "Ctrl + J"
-  },
-  {
-    "question": "Q48. What is the shortcut key to insert a page break in MS Word?",
-    "question_hindi": "Q48. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + Enter",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Alt + P"
-    ],
-    "answer": "Ctrl + Enter"
-  },
-  {
-    "question": "Q49. What is the shortcut key to insert a page break in MS Word?",
-    "question_hindi": "Q49. MS Word में insert a page break के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + Enter",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Alt + P"
-    ],
-    "answer": "Ctrl + Enter"
-  },
-  {
-    "question": "Q50. What is the shortcut key to align text to left in MS Word?",
-    "question_hindi": "Q50. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
-    ],
-    "answer": "Ctrl + L"
-  },
-  {
-    "question": "Q51. What is the shortcut key to align text to center in MS Word?",
-    "question_hindi": "Q51. MS Word में align text to center के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + C"
-    ],
-    "answer": "Ctrl + E"
-  },
-  {
-    "question": "Q52. What is the shortcut key to increase font size in MS Word?",
-    "question_hindi": "Q52. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
-    ],
-    "answer": "Ctrl + ]"
-  },
-  {
-    "question": "Q53. What is the shortcut key to increase font size in MS Word?",
-    "question_hindi": "Q53. MS Word में increase font size के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
-    ],
-    "answer": "Ctrl + ]"
-  },
-  {
-    "question": "Q54. What is the shortcut key to decrease font size in MS Word?",
-    "question_hindi": "Q54. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + Z",
-      "Ctrl + U"
-    ],
-    "answer": "Ctrl + ["
-  },
-  {
-    "question": "Q55. What is the shortcut key to decrease font size in MS Word?",
-    "question_hindi": "Q55. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + Z",
-      "Ctrl + U"
-    ],
-    "answer": "Ctrl + ["
-  },
-  {
-    "question": "Q56. What is the shortcut key to decrease font size in MS Word?",
-    "question_hindi": "Q56. MS Word में decrease font size के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + Z",
-      "Ctrl + U"
-    ],
-    "answer": "Ctrl + ["
-  },
-  {
-    "question": "Q57. What is the shortcut key to align text to left in MS Word?",
-    "question_hindi": "Q57. MS Word में align text to left के लिए शॉर्टकट कुंजी क्या है?",
-    "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
-    ],
-    "answer": "Ctrl + L"
-  },
-  {
-    "question": "What is the shortcut key to align text to center in MS Word?",
-    "options": [
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + C"
-    ],
-    "answer": "Ctrl + E"
-  },
-  {
-    "question": "What is the shortcut key to align text to center in MS Word?",
-    "options": [
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + C"
-    ],
-    "answer": "Ctrl + E"
-  },
-  {
-    "question": "What is the shortcut key to align text to center in MS Word?",
-    "options": [
-      "Ctrl + E",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + C"
-    ],
-    "answer": "Ctrl + E"
-  },
-  {
-    "question": "What is the shortcut key to create a new document in MS Word?",
-    "options": [
-      "Ctrl + N",
-      "Ctrl + S",
-      "Ctrl + O",
-      "Ctrl + A"
-    ],
-    "answer": "Ctrl + N"
-  },
-  {
-    "question": " What is the shortcut key to align text to right in MS Word?",
-    "options": [
-      "Ctrl + R",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + U"
-    ],
-    "answer": "Ctrl + R"
-  },
-  {
-    "question": "What is the shortcut key to increase font size in MS Word?",
-    "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
-    ],
-    "answer": "Ctrl + ]"
-  },
-  {
-    "question": " What is the shortcut key to align text to left in MS Word?",
-    "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
-    ],
-    "answer": "Ctrl + L"
-  },
-  {
-    "question": " What is the shortcut key to align text to left in MS Word?",
-    "options": [
-      "Ctrl + L",
-      "Ctrl + E",
-      "Ctrl + R",
-      "Ctrl + J"
-    ],
-    "answer": "Ctrl + L"
-  },
-  {
-    "question": "What is the shortcut key to insert a page break in MS Word?",
-    "options": [
-      "Ctrl + Enter",
-      "Ctrl + B",
-      "Ctrl + P",
-      "Ctrl + Alt + P"
-    ],
-    "answer": "Ctrl + Enter"
-  },
-  {
-    "question": "What is the shortcut key to increase font size in MS Word?",
-    "options": [
-      "Ctrl + [",
-      "Ctrl + ]",
-      "Ctrl + B",
-      "Ctrl + I"
-    ],
-    "answer": "Ctrl + ]"
-  },
-  {
-    "question": "What is the shortcut key to align text to right in MS Word?",
-    "options": [
-      "Ctrl + R",
-      "Ctrl + L",
-      "Ctrl + J",
-      "Ctrl + U"
-    ],
-    "answer": "Ctrl + R"
+    "answer": "Click the column letter at the top"
   }
-        ]
+]
       },
-      "Shortcuts3" : {
-        "title": "MS Word Shortcuts - Set 3 ",
-        "questions": [
-          {
-            "question": "What is the shortcut to open the 'Find and Replace' dialog box?",
-            "options": ["Ctrl + H", "Ctrl + F", "Ctrl + R", "Ctrl + G"],
-            "answer": "Ctrl + H"
-          },
-          {
-            "question": "Which shortcut is used to apply 'Underline' formatting?",
-            "options": ["Ctrl + U", "Ctrl + B", "Ctrl + I", "Ctrl + L"],
-            "answer": "Ctrl + U"
-          },
-          {
-            "question": "What does the shortcut 'Ctrl + Y' do?",
-            "options": [
-              "Redo the last action",
-              "Undo the last action",
-              "Cut the selected text",
-              "Copy the selected text"
-            ],
-            "answer": "Redo the last action"
-          },
-          {
-            "question": "To print a document, which shortcut is used?",
-            "options": ["Ctrl + P", "Ctrl + S", "Ctrl + O", "Ctrl + N"],
-            "answer": "Ctrl + P"
-          },
-          {
-            "question": "What is the shortcut to create a new document in MS Word?",
-            "options": ["Ctrl + N", "Ctrl + S", "Ctrl + O", "Ctrl + A"],
-            "answer": "Ctrl + N"
-          },
-          {
-            "question": "Which shortcut is used to select all text in a document?",
-            "options": ["Ctrl + A", "Ctrl + C", "Ctrl + V", "Ctrl + X"],
-            "answer": "Ctrl + A"
-          },
-          {
-            "question": "What is the shortcut to open the 'Page Setup' dialog box?",
-            "options": ["Alt + P, S, P", "Ctrl + P", "Alt + S, P", "Ctrl + S"],
-            "answer": "Alt + P, S, P"
-          },
-          {
-            "question": "To insert a hyperlink, which shortcut is used?",
-            "options": ["Ctrl + K", "Ctrl + H", "Ctrl + L", "Ctrl + J"],
-            "answer": "Ctrl + K"
-          },
-          {
-            "question": "What is the shortcut to apply 'Strikethrough' formatting?",
-            "options": ["Ctrl + 5", "Ctrl + T", "Ctrl + D", "Ctrl + Shift + X"],
-            "answer": "Ctrl + 5"
-          },
-          {
-            "question": "'Shift + F3' is used to change the case of selected text. What does it do?",
-            "options": [
-              "Toggle between uppercase, lowercase, and title case",
-              "Change text to all uppercase",
-              "Change text to all lowercase",
-              "Change text to title case only"
-            ],
-            "answer": "Toggle between uppercase, lowercase, and title case"
-          },
-          {
-      "question": "Which of the following is the correct cell address in MS Excel?",
-      "options": [
-        "A12",
-        "1A",
-        "A:12",
-        "12A"
-      ],
-      "answer": "A12"
-    },
-    {
-      "question": "A file in MS Excel is called a:",
-      "options": [
-        "Workbook",
-        "Worksheet",
-        "Document",
-        "Ledger"
-      ],
-      "answer": "Workbook"
-    },
-    {
-      "question": "Which symbol must all formulas begin with in MS Excel?",
-      "options": [
-        "=",
-        "+",
-        "@",
-        "#"
-      ],
-      "answer": "="
-    },
-    {
-      "question": "What is the keyboard shortcut to create a new workbook?",
-      "options": [
-        "Ctrl + N",
-        "Ctrl + O",
-        "Ctrl + W",
-        "Ctrl + S"
-      ],
-      "answer": "Ctrl + N"
-    },
-    {
-      "question": "The intersection of a row and a column is called a:",
-      "options": [
-        "Cell",
-        "Grid",
-        "Box",
-        "Pointer"
-      ],
-      "answer": "Cell"
-    },
-    {
-      "question": "Which function is used to add the values in a range of cells?",
-      "options": [
-        "SUM",
-        "ADD",
-        "TOTAL",
-        "PLUS"
-      ],
-      "answer": "SUM"
-    },
-    {
-      "question": "To select an entire column in MS Excel, you should:",
-      "options": [
-        "Click the column heading letter",
-        "Click the row heading number",
-        "Press Ctrl + C",
-        "Press Shift + Spacebar"
-      ],
-      "answer": "Click the column heading letter"
-    },
-    {
-      "question": "What feature allows you to quickly apply a set of formatting options to a cell or range?",
-      "options": [
-        "Cell Styles",
-        "Conditional Formatting",
-        "Format Painter",
-        "Themes"
-      ],
-      "answer": "Cell Styles"
-    },
-    {
-      "question": "Which error value indicates that the formula refers to a cell that is not valid?",
-      "options": [
-        "#REF!",
-        "#VALUE!",
-        "#NAME?",
-        "#DIV/0!"
-      ],
-      "answer": "#REF!"
-    },
-    {
-      "question": "What is the shortcut to edit the content of the active cell?",
-      "options": [
-        "F2",
-        "F4",
-        "F5",
-        "F7"
-      ],
-      "answer": "F2"
-    },
-    {
-      "question": "Which function would you use to find the largest value in a range of cells?",
-      "options": [
-        "MAX",
-        "LARGE",
-        "HIGH",
-        "TOP"
-      ],
-      "answer": "MAX"
-    },
-    {
-      "question": "The 'Freeze Panes' option is found under which tab?",
-      "options": [
-        "View",
-        "Data",
-        "Home",
-        "Insert"
-      ],
-      "answer": "View"
-    },
-    {
-      "question": "What does the '#' symbol prefixed to a cell reference (e.g., $A$1) signify?",
-      "options": [
-        "It is an absolute cell reference",
-        "It is a relative cell reference",
-        "It is a mixed cell reference",
-        "It is an error"
-      ],
-      "answer": "It is an absolute cell reference"
-    },
-    {
-      "question": "Which chart type is best for showing proportions of a whole?",
-      "options": [
-        "Pie Chart",
-        "Line Chart",
-        "Bar Chart",
-        "Scatter Plot"
-      ],
-      "answer": "Pie Chart"
-    },
-    {
-      "question": "The feature that automatically fills in a series of data (e.g., days of the week) is called:",
-      "options": [
-        "AutoFill",
-        "AutoComplete",
-        "AutoSum",
-        "AutoFormat"
-      ],
-      "answer": "AutoFill"
-    },
-    {
-      "question": "Which keyboard shortcut opens the 'Format Cells' dialog box?",
-      "options": [
-        "Ctrl + 1",
-        "Ctrl + F",
-        "Alt + 1",
-        "Shift + F1"
-      ],
-      "answer": "Ctrl + 1"
-    },
-    {
-      "question": "What is the result of the formula =IF(A1>10, \"Pass\", \"Fail\") if cell A1 contains the value 15?",
-      "options": [
-        "Pass",
-        "Fail",
-        "15",
-        "TRUE"
-      ],
-      "answer": "Pass"
-    },
-    {
-      "question": "To combine the text from two or more cells into one cell, you can use the:",
-      "options": [
-        "CONCATENATE function or '&' operator",
-        "MERGE function",
-        "JOIN function",
-        "TEXT function"
-      ],
-      "answer": "CONCATENATE function or '&' operator"
-    },
-    {
-      "question": "Which tool is used to summarize, analyze, explore, and present summary data?",
-      "options": [
-        "PivotTable",
-        "Data Table",
-        "Chart",
-        "Goal Seek"
-      ],
-      "answer": "PivotTable"
-    },
-    {
-      "question": "What is the shortcut to insert the current date in a cell?",
-      "options": [
-        "Ctrl + ;",
-        "Ctrl + :",
-        "Ctrl + D",
-        "TODAY()"
-      ],
-      "answer": "Ctrl + ;"
-    },
-    {
-      "question": "The '#NAME?' error appears when:",
-      "options": [
-        "Excel does not recognize text in a formula",
-        "A number is divided by zero",
-        "The formula refers to a deleted cell",
-        "The wrong type of argument is used"
-      ],
-      "answer": "Excel does not recognize text in a formula"
-    },
-    {
-      "question": "Which option is used to restrict the type of data that can be entered into a cell?",
-      "options": [
-        "Data Validation",
-        "Conditional Formatting",
-        "Protect Sheet",
-        "Filter"
-      ],
-      "answer": "Data Validation"
-    },
-    {
-      "question": "The 'VLOOKUP' function searches for a value in the:",
-      "options": [
-        "First column of a table array",
-        "First row of a table array",
-        "Last column of a table array",
-        "Anywhere in the table array"
-      ],
-      "answer": "First column of a table array"
-    },
-    {
-      "question": "How do you activate the 'Go To' dialog box?",
-      "options": [
-        "Press F5 or Ctrl + G",
-        "Press F2",
-        "Press F7",
-        "Press Ctrl + F"
-      ],
-      "answer": "Press F5 or Ctrl + G"
-    },
-    {
-      "question": "Which function counts the number of cells in a range that are not empty?",
-      "options": [
-        "COUNTA",
-        "COUNT",
-        "COUNTIF",
-        "COUNTBLANK"
-      ],
-      "answer": "COUNTA"
-    },
-    {
-      "question": "To wrap text within a cell, you should use the:",
-      "options": [
-        "Wrap Text command",
-        "Merge & Center command",
-        "Text to Columns command",
-        "Alt + Enter shortcut"
-      ],
-      "answer": "Wrap Text command"
-    },
-    {
-      "question": "What does the 'Sort' feature in the 'Data' tab do?",
-      "options": [
-        "Arranges data in ascending or descending order",
-        "Hides rows that do not meet certain criteria",
-        "Summarizes data",
-        "Validates data"
-      ],
-      "answer": "Arranges data in ascending or descending order"
-    },
-    {
-      "question": "Which function returns the current date and time?",
-      "options": [
-        "NOW()",
-        "TODAY()",
-        "DATE()",
-        "TIME()"
-      ],
-      "answer": "NOW()"
-    },
-    {
-      "question": "A collection of worksheets is called a:",
-      "options": [
-        "Workbook",
-        "Workgroup",
-        "Workset",
-        "Booklet"
-      ],
-      "answer": "Workbook"
-    },
-    {
-      "question": "What is the purpose of the 'Filter' tool?",
-      "options": [
-        "To display only the rows that meet specific criteria",
-        "To sort data alphabetically",
-        "To format cells based on conditions",
-        "To remove duplicate values"
-      ],
-      "answer": "To display only the rows that meet specific criteria"
-    },
-    {
-      "question": "The default extension of an Excel 2016 workbook is:",
-      "options": [
-        ".xlsx",
-        ".xls",
-        ".xlsm",
-        ".xltx"
-      ],
-      "answer": ".xlsx"
-    },
-    {
-      "question": "Which 'What-If Analysis' tool finds the optimal value for a single cell by changing other cells?",
-      "options": [
-        "Solver",
-        "Goal Seek",
-        "Scenario Manager",
-        "Data Table"
-      ],
-      "answer": "Solver"
-    },
-    {
-      "question": "The shortcut 'Ctrl + Page Down' is used to:",
-      "options": [
-        "Move to the next worksheet",
-        "Move to the previous worksheet",
-        "Move to the last cell of the worksheet",
-        "Move one page down in the current worksheet"
-      ],
-      "answer": "Move to the next worksheet"
-    },
-    {
-      "question": "The 'SUMIF' function is used to:",
-      "options": [
-        "Add up cell values based on a certain condition",
-        "Add up all values in a range",
-        "Add values if multiple conditions are met",
-        "Find the sum and provide a logical output"
-      ],
-      "answer": "Add up cell values based on a certain condition"
-    },
-    {
-      "question": "How can you remove duplicate rows from a range of data?",
-      "options": [
-        "Data tab -> Remove Duplicates",
-        "Home tab -> Find & Select -> Duplicates",
-        "Formulas tab -> Remove Duplicates",
-        "Review tab -> Check Duplicates"
-      ],
-      "answer": "Data tab -> Remove Duplicates"
-    },
-    {
-      "question": "What is the function of the 'Format Painter'?",
-      "options": [
-        "To copy formatting from one cell or range and apply it to another",
-        "To paint colors in cells",
-        "To copy the formula of a cell",
-        "To create a new cell style"
-      ],
-      "answer": "To copy formatting from one cell or range and apply it to another"
-    },
-    {
-      "question": "The 'Name Box' in Excel displays the:",
-      "options": [
-        "Address of the active cell",
-        "Content of the active cell",
-        "Formula in the active cell",
-        "Name of the workbook"
-      ],
-      "answer": "Address of the active cell"
-    },
-    {
-      "question": "Which keyboard shortcut is used to select the entire worksheet?",
-      "options": [
-        "Ctrl + A",
-        "Ctrl + E",
-        "Ctrl + Shift + Spacebar",
-        "Both A and C"
-      ],
-      "answer": "Both A and C"
-    },
-    {
-      "question": "The '#DIV/0!' error occurs when:",
-      "options": [
-        "A formula attempts to divide a number by zero",
-        "A formula contains an invalid cell reference",
-        "A formula uses a function name that Excel does not recognize",
-        "A formula has a numeric value that is too large"
-      ],
-      "answer": "A formula attempts to divide a number by zero"
-    },
-    {
-      "question": "Which feature highlights cells that meet certain criteria with a specific color, font, or border?",
-      "options": [
-        "Conditional Formatting",
-        "Data Validation",
-        "Cell Styles",
-        "Themes"
-      ],
-      "answer": "Conditional Formatting"
-    },
-    {
-      "question": "To insert a new worksheet in a workbook, you can press:",
-      "options": [
-        "Shift + F11",
-        "Ctrl + F11",
-        "Alt + F11",
-        "F11"
-      ],
-      "answer": "Shift + F11"
-    },
-    {
-      "question": "What does the 'AVERAGE' function calculate?",
-      "options": [
-        "The arithmetic mean of a range of numbers",
-        "The middle number in a range",
-        "The most frequently occurring number",
-        "The total of a range"
-      ],
-      "answer": "The arithmetic mean of a range of numbers"
-    },
-    {
-      "question": "The 'Formula Bar' shows the:",
-      "options": [
-        "Content of the active cell",
-        "Address of the active cell",
-        "Name of the worksheet",
-        "Status of the workbook"
-      ],
-      "answer": "Content of the active cell"
-    },
-    {
-      "question": "Which of these is a type of cell reference?",
-      "options": [
-        "Relative",
-        "Absolute",
-        "Mixed",
-        "All of the above"
-      ],
-      "answer": "All of the above"
-    },
-    {
-      "question": "To create a chart from selected data, you can press the shortcut key:",
-      "options": [
-        "F11",
-        "F8",
-        "F9",
-        "F12"
-      ],
-      "answer": "F11"
-    },
-    {
-      "question": "What is the function of 'Ctrl + R' shortcut in Excel?",
-      "options": [
-        "Fills the content of the leftmost cell to the right in a selected range",
-        "Right aligns the content of the cell",
-        "Opens the Replace dialog box",
-        "Re-opens the last closed workbook"
-      ],
-      "answer": "Fills the content of the leftmost cell to the right in a selected range"
-    },
-    {
-      "question": "The 'Text to Columns' feature is used to:",
-      "options": [
-        "Split the text in one column into multiple columns",
-        "Combine text from multiple columns into one",
-        "Convert text to a number format",
-        "Align text vertically in a column"
-      ],
-      "answer": "Split the text in one column into multiple columns"
-    },
-    {
-      "question": "Which function would you use to find the middle value in a dataset?",
-      "options": [
-        "MEDIAN",
-        "AVERAGE",
-        "MODE",
-        "MIDDLE"
-      ],
-      "answer": "MEDIAN"
-    },
-    {
-      "question": "What is the purpose of 'Protect Sheet'?",
-      "options": [
-        "To prevent users from changing, moving, or deleting data",
-        "To hide the worksheet",
-        "To save the worksheet with a password",
-        "To validate data in the worksheet"
-      ],
-      "answer": "To prevent users from changing, moving, or deleting data"
-    },
-    {
-      "question": "The shortcut 'Ctrl + Shift + L' is used to:",
-      "options": [
-        "Apply or remove a filter",
-        "Create a bulleted list",
-        "Lock the selected cells",
-        "Insert a hyperlink"
-      ],
-      "answer": "Apply or remove a filter"
-    },
-    {
-      "question": "The function 'COUNTIF' is used to:",
-      "options": [
-        "Count the number of cells that meet a specified criterion",
-        "Count numbers in a range",
-        "Count non-empty cells",
-        "Count blank cells"
-      ],
-      "answer": "Count the number of cells that meet a specified criterion"
-    },
-    {
-      "question": "Which of the following is NOT a valid chart type in Excel?",
-      "options": [
-        "Sphere Chart",
-        "Bar Chart",
-        "Line Chart",
-        "Doughnut Chart"
-      ],
-      "answer": "Sphere Chart"
-    },
-    {
-      "question": "To move to the last cell containing data on a worksheet, press:",
-      "options": [
-        "Ctrl + End",
-        "Ctrl + Home",
-        "End + Right Arrow",
-        "Ctrl + Page Down"
-      ],
-      "answer": "Ctrl + End"
-    },
-    {
-      "question": "What does the 'Merge & Center' command do?",
-      "options": [
-        "Combines selected cells into one larger cell and centers the content",
-        "Merges workbooks and centers them on the screen",
-        "Merges worksheets and centers the data",
-        "Combines text from multiple cells and centers it"
-      ],
-      "answer": "Combines selected cells into one larger cell and centers the content"
-    },
-    {
-      "question": "The 'HLOOKUP' function searches for a value in the:",
-      "options": [
-        "Top row of a table",
-        "First column of a table",
-        "Bottom row of a table",
-        "Last column of a table"
-      ],
-      "answer": "Top row of a table"
-    },
-    {
-      "question": "How do you insert a line break within a cell?",
-      "options": [
-        "Alt + Enter",
-        "Ctrl + Enter",
-        "Shift + Enter",
-        "Enter"
-      ],
-      "answer": "Alt + Enter"
-    },
-    {
-      "question": "Which of the following functions converts text to all uppercase letters?",
-      "options": [
-        "UPPER",
-        "PROPER",
-        "LOWER",
-        "TEXT"
-      ],
-      "answer": "UPPER"
-    },
-    {
-      "question": "The 'Print Area' command allows you to:",
-      "options": [
-        "Print a specific range of cells",
-        "Set the area for data entry",
-        "Define the working area of the sheet",
-        "Set the area for charts"
-      ],
-      "answer": "Print a specific range of cells"
-    },
-    {
-      "question": "The shortcut to apply 'Bold' formatting to a cell is:",
-      "options": [
-        "Ctrl + B",
-        "Ctrl + I",
-        "Ctrl + U",
-        "Ctrl + 2"
-      ],
-      "answer": "Ctrl + B"
-    },
-    {
-      "question": "In a formula, which operator has the highest precedence?",
-      "options": [
-        "Exponentiation (^)",
-        "Multiplication (*)",
-        "Addition (+)",
-        "Parentheses (())"
-      ],
-      "answer": "Parentheses (())"
-    },
-    {
-      "question": "Which function rounds a number down to the nearest integer?",
-      "options": [
-        "INT",
-        "ROUNDDOWN",
-        "FLOOR",
-        "TRUNC"
-      ],
-      "answer": "INT"
-    },
-    {
-      "question": "The 'Sparklines' feature in the 'Insert' tab is used to:",
-      "options": [
-        "Create tiny charts inside a single cell",
-        "Add sparkling effects to charts",
-        "Link data from different worksheets",
-        "Highlight lines of text"
-      ],
-      "answer": "Create tiny charts inside a single cell"
-    },
-    {
-      "question": "What is the purpose of the 'IFERROR' function?",
-      "options": [
-        "To return a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula",
-        "To check if a cell contains an error",
-        "To count the number of errors in a range",
-        "To generate a specific error for testing"
-      ],
-      "answer": "To return a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula"
-    },
-    {
-      "question": "The shortcut 'Ctrl + D' is used to:",
-      "options": [
-        "Fill the content of the cell above into the selected cell(s) below",
-        "Delete the selected column",
-        "Open the 'Format Cells' dialog",
-        "Duplicate the worksheet"
-      ],
-      "answer": "Fill the content of the cell above into the selected cell(s) below"
-    },
-    {
-      "question": "Which view is ideal for setting headers and footers?",
-      "options": [
-        "Page Layout View",
-        "Normal View",
-        "Page Break Preview",
-        "Full Screen View"
-      ],
-      "answer": "Page Layout View"
-    },
-    {
-      "question": "The 'Goal Seek' tool is part of which group of tools?",
-      "options": [
-        "What-If Analysis",
-        "Data Validation",
-        "Sort & Filter",
-        "Outlining"
-      ],
-      "answer": "What-If Analysis"
-    },
-    {
-      "question": "What does a green triangle in the top-left corner of a cell indicate?",
-      "options": [
-        "A potential error in the formula",
-        "A comment is attached to the cell",
-        "The cell is locked",
-        "The cell is part of a data validation list"
-      ],
-      "answer": "A potential error in the formula"
-    },
-    {
-      "question": "To rename a worksheet, you can:",
-      "options": [
-        "Double-click the worksheet tab",
-        "Right-click the tab and choose 'Rename'",
-        "Go to Home -> Format -> Rename Sheet",
-        "All of the above"
-      ],
-      "answer": "All of the above"
-    },
-    {
-      "question": "The 'Flash Fill' feature in Excel:",
-      "options": [
-        "Automatically fills your data when it senses a pattern",
-        "Fills the background of a cell with a flashing color",
-        "Quickly fills a range with random data",
-        "Is a type of conditional formatting"
-      ],
-      "answer": "Automatically fills your data when it senses a pattern"
-    },
-    {
-      "question": "Which function joins several text strings into one string?",
-      "options": [
-        "CONCAT or CONCATENATE",
-        "MERGE",
-        "TEXTJOIN",
-        "Both A and C"
-      ],
-      "answer": "Both A and C"
-    },
-    {
-      "question": "The 'Watch Window' is useful for:",
-      "options": [
-        "Monitoring the values of certain cells as you make changes to your worksheet",
-        "Watching video tutorials within Excel",
-        "Keeping an eye on stock prices",
-        "Viewing the print preview"
-      ],
-      "answer": "Monitoring the values of certain cells as you make changes to your worksheet"
-    },
-    {
-      "question": "What is the maximum number of worksheets a new workbook can have by default?",
-      "options": [
-        "1",
-        "3",
-        "5",
-        "255"
-      ],
-      "answer": "1"
-    },
-    {
-      "question": "Which function returns the remainder after a number is divided by a divisor?",
-      "options": [
-        "MOD",
-        "REMAINDER",
-        "DIV",
-        "QUOTIENT"
-      ],
-      "answer": "MOD"
-    },
-    {
-      "question": "To apply a currency format, you can use the shortcut:",
-      "options": [
-        "Ctrl + Shift + $",
-        "Ctrl + Shift + %",
-        "Ctrl + Shift + #",
-        "Ctrl + $"
-      ],
-      "answer": "Ctrl + Shift + $"
-    },
-    {
-      "question": "How can you select non-adjacent cells or ranges?",
-      "options": [
-        "Hold down the Ctrl key while clicking the cells",
-        "Hold down the Shift key while clicking the cells",
-        "Hold down the Alt key while clicking the cells",
-        "This is not possible"
-      ],
-      "answer": "Hold down the Ctrl key while clicking the cells"
-    },
-    {
-      "question": "What is the main purpose of creating a 'Table' from a range of data (Insert -> Table)?",
-      "options": [
-        "To easily manage and analyze a group of related data",
-        "To apply a border around the data",
-        "To change the font color",
-        "To simply format the data"
-      ],
-      "answer": "To easily manage and analyze a group of related data"
-    },
-    {
-      "question": "The 'Power Query' tool is used for:",
-      "options": [
-        "Getting and transforming data from various sources",
-        "Creating powerful formulas",
-        "Running queries on the current worksheet",
-        "Adding power effects to charts"
-      ],
-      "answer": "Getting and transforming data from various sources"
-    },
-    {
-      "question": "What does the function =TODAY() return?",
-      "options": [
-        "The current date",
-        "The current date and time",
-        "The current day of the week",
-        "The current time"
-      ],
-      "answer": "The current date"
-    },
-    {
-      "question": "Which of these is the 'Group' command used for?",
-      "options": [
-        "To group rows or columns so they can be hidden or displayed with a single click",
-        "To group multiple charts together",
-        "To group worksheets",
-        "To group different text boxes"
-      ],
-      "answer": "To group rows or columns so they can be hidden or displayed with a single click"
-    },
-    {
-      "question": "A cell reference that changes when a formula is copied to another cell is a:",
-      "options": [
-        "Relative reference",
-        "Absolute reference",
-        "Mixed reference",
-        "Dynamic reference"
-      ],
-      "answer": "Relative reference"
-    },
-    {
-      "question": "The keyboard shortcut to hide the selected row(s) is:",
-      "options": [
-        "Ctrl + 9",
-        "Ctrl + 0",
-        "Ctrl + H",
-        "Alt + H"
-      ],
-      "answer": "Ctrl + 9"
-    },
-    {
-      "question": "Which function finds the most frequently occurring value in a range?",
-      "options": [
-        "MODE.SNGL",
-        "MEDIAN",
-        "AVERAGE",
-        "FREQUENCY"
-      ],
-      "answer": "MODE.SNGL"
-    },
-    {
-      "question": "To open the 'Visual Basic for Applications' (VBA) editor, you press:",
-      "options": [
-        "Alt + F11",
-        "Alt + F8",
-        "Ctrl + F11",
-        "Shift + F8"
-      ],
-      "answer": "Alt + F11"
-    },
-    {
-      "question": "What are the small squares at the corners and sides of a selected chart or object called?",
-      "options": [
-        "Sizing handles",
-        "Control points",
-        "Markers",
-        "Anchors"
-      ],
-      "answer": "Sizing handles"
-    },
-    {
-      "question": "The 'Slicer' tool, often used with PivotTables, is used to:",
-      "options": [
-        "Visually filter data",
-        "Slice a chart into pieces",
-        "Cut a part of the worksheet",
-        "Trim data"
-      ],
-      "answer": "Visually filter data"
-    },
-    {
-      "question": "The function 'TRIM' is used to:",
-      "options": [
-        "Remove extra spaces from text, except for single spaces between words",
-        "Trim a number to a specified number of decimals",
-        "Cut out a portion of a text string",
-        "Format a cell to fit the text"
-      ],
-      "answer": "Remove extra spaces from text, except for single spaces between words"
-    },
-    {
-      "question": "Which keyboard shortcut is used to hide the selected column(s)?",
-      "options": [
-        "Ctrl + 0",
-        "Ctrl + 9",
-        "Ctrl + H",
-        "Alt + C"
-      ],
-      "answer": "Ctrl + 0"
-    },
-    {
-      "question": "The 'Page Break Preview' shows:",
-      "options": [
-        "Where the automatic page breaks will occur when you print",
-        "A preview of the final printed page",
-        "A view of the page with headers and footers",
-        "A view with no gridlines or headings"
-      ],
-      "answer": "Where the automatic page breaks will occur when you print"
-    },
-    {
-      "question": "To get the number of characters in a text string, you use which function?",
-      "options": [
-        "LEN",
-        "LENGTH",
-        "COUNTCHAR",
-        "TEXT.LENGTH"
-      ],
-      "answer": "LEN"
-    },
-    {
-      "question": "What is the 'Quick Access Toolbar'?",
-      "options": [
-        "A customizable toolbar for frequently used commands",
-        "A toolbar that appears when you right-click",
-        "The toolbar that contains font formatting options",
-        "A toolbar for quick calculations"
-      ],
-      "answer": "A customizable toolbar for frequently used commands"
-    },
-    {
-      "question": "Which key do you press to make a cell reference absolute while typing a formula?",
-      "options": [
-        "F4",
-        "F2",
-        "F5",
-        "F9"
-      ],
-      "answer": "F4"
-    },
-    {
-      "question": "The file type '.xlsm' indicates that the workbook contains:",
-      "options": [
-        "Macros",
-        "Pictures",
-        "Charts",
-        "External data links"
-      ],
-      "answer": "Macros"
-    },
-    {
-      "question": "The 'AND' function in Excel returns TRUE if:",
-      "options": [
-        "All of its arguments are TRUE",
-        "Any one of its arguments is TRUE",
-        "None of its arguments are TRUE",
-        "Only one of its arguments is TRUE"
-      ],
-      "answer": "All of its arguments are TRUE"
-    },
-    {
-      "question": "Which chart is used to show trends over time?",
-      "options": [
-        "Line Chart",
-        "Pie Chart",
-        "Bar Chart",
-        "Area Chart"
-      ],
-      "answer": "Line Chart"
-    },
-    {
-      "question": "To go to the first cell of the worksheet (A1), you can press:",
-      "options": [
-        "Ctrl + Home",
-        "Home",
-        "Ctrl + G then A1",
-        "Both A and C"
-      ],
-      "answer": "Ctrl + Home"
-    }
-          
-        ]
-        }
+      "Data" : {
+        "title": "Data Entry and Editing",
+        "questions": []
+      
+      }
     }
   }
 }

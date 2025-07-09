@@ -3,7 +3,7 @@
     "title": "Install Windows Operating System",
     "submodules": [
       {
-        "submodule_title": "BIOS Fundamentals",
+        "title": "BIOS Fundamentals",
         "questions": [
           {
             "question": "What is BIOS often referred to as?",
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "submodule_title": "BIOS Storage and Firmware",
+        "title": "BIOS Storage and Firmware",
         "questions": [
           {
             "question": "Where is the BIOS software typically stored?",
@@ -163,7 +163,7 @@
         ]
       },
       {
-        "submodule_title": "CMOS and BIOS Settings",
+        "title": "CMOS and BIOS Settings",
         "questions": [
           {
             "question": "What does CMOS stand for in relation to the BIOS?",
@@ -268,7 +268,7 @@
         ]
       },
       {
-        "submodule_title": "BIOS Setup and Configuration",
+        "title": "BIOS Setup and Configuration",
         "questions": [
           {
             "question": "What is the purpose of the CMOS Setup program?",
@@ -433,7 +433,7 @@
         ]
       },
       {
-        "submodule_title": "BIOS Operations and Hardware Interaction",
+        "title": "BIOS Operations and Hardware Interaction",
         "questions": [
           {
             "question": "What is 'Power-on self-test (POST)'?",
@@ -558,7 +558,7 @@
         ]
       },
       {
-        "submodule_title": "Disk Partitioning and Formatting",
+        "title": "Disk Partitioning and Formatting",
         "questions": [
           {
             "question": "What is the purpose of multi-boot setups?",
@@ -733,7 +733,7 @@
         ]
       },
        {
-        "submodule_title": "BIOS Operations and Hardware Interaction",
+        "title": "BIOS Operations and Hardware Interaction",
         "questions": [
           {
             "question": "What is 'Power-on self-test (POST)'?",
@@ -858,7 +858,7 @@
         ]
       },
          {
-        "submodule_title": "BIOS Setup and Configuration",
+        "title": "BIOS Setup and Configuration",
         "questions": [
           {
             "question": "What is the purpose of the CMOS Setup program?",
@@ -1063,7 +1063,7 @@
         ]
       },
          {
-        "submodule_title": "CMOS and BIOS Settings",
+        "title": "CMOS and BIOS Settings",
         "questions": [
           {
             "question": "What does CMOS stand for in relation to the BIOS?",
@@ -1178,7 +1178,7 @@
         ]
       },
          {
-        "submodule_title": "BIOS Storage and Firmware",
+        "title": "BIOS Storage and Firmware",
         "questions": [
           {
             "question": "Where is the BIOS software typically stored?",
@@ -1263,7 +1263,7 @@
         ]
       },
         {
-        "submodule_title": "BIOS Fundamentals",
+        "title": "BIOS Fundamentals",
         "questions": [
           {
             "question": "What is BIOS often referred to as?",
@@ -1358,7 +1358,7 @@
         ]
       },
             {
-        "submodule_title": "Disk Partitioning and Formatting",
+        "title": "Disk Partitioning and Formatting",
         "questions": [
           {
             "question": "What is the purpose of multi-boot setups?",
@@ -1913,7 +1913,7 @@
         ]
       },
       {
-  "submodule_title": "BIOS Fundamentals",
+  "title": "BIOS Fundamentals",
   "questions": [
     {
       "question": "What is BIOS often referred to as?",
@@ -1990,7 +1990,7 @@
 
       
       {
-        "submodule_title": "Windows Installation Process",
+        "title": "Windows Installation Process",
         "questions": [
           {
             "question": "What is the first basic step for installing a Windows operating system?",

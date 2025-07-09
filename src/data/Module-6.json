@@ -3,7 +3,7 @@
     "title": "Install Ubuntu Linux Operating System",
     "submodules": [
       {
-        "submodule_title": "Introduction to Linux",
+        "title": "Introduction to Linux",
         "questions": [
           {
             "question": "What is the primary purpose of Linux according to the document?",
@@ -108,7 +108,7 @@
         ]
       },
       {
-        "submodule_title": "Linux Applications and Benefits",
+        "title": "Linux Applications and Benefits",
         "questions": [
           {
             "question": "What is one reason Linux is popular with individual users?",
@@ -273,7 +273,7 @@
         ]
       },
       {
-        "submodule_title": "File Recovery in Linux",
+        "title": "File Recovery in Linux",
         "questions": [
           {
             "question": "What is a potential limitation of the UNDELETE command as noted?",
@@ -348,7 +348,7 @@
         ]
       },
       {
-        "submodule_title": "Linux Kernel and Modularity",
+        "title": "Linux Kernel and Modularity",
         "questions": [
           {
             "question": "What makes Linux unique compared to other operating systems?",
@@ -483,7 +483,7 @@
         ]
       },
       {
-        "submodule_title": "Linux Environments and Applications",
+        "title": "Linux Environments and Applications",
         "questions": [
           {
             "question": "What is a key feature of Linux environments and dialogs?",
@@ -688,7 +688,7 @@
         ]
       },
       {
-        "submodule_title": "Linux Distributions and Open Source Software",
+        "title": "Linux Distributions and Open Source Software",
         "questions": [
           {
             "question": "What is Red Hat known for in the Linux community?",

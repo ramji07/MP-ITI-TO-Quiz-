@@ -3,7 +3,7 @@
     "title": "Introduction to Linux Operating System",
     "submodules": [
       {
-        "subtitle": "Terminal Emulators",
+        "title": "Terminal Emulators",
         "questions": [
           {
             "question": "What is a terminal emulator in Linux OS?",
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "subtitle": "Shells in Linux",
+        "title": "Shells in Linux",
         "questions": [
           {
             "question": "What does the prompt 'user@host' indicate?",
@@ -308,7 +308,7 @@
         ]
       },
       {
-        "subtitle": "File System and Navigation",
+        "title": "File System and Navigation",
         "questions": [
           {
             "question": "What is the root directory in Linux represented by?",
@@ -618,7 +618,7 @@
         ]
       },
       {
-        "subtitle": "Basic Linux Commands",
+        "title": "Basic Linux Commands",
         "questions": [
           {
             "question": "Where are the results of commands typically displayed?",
@@ -1134,7 +1134,7 @@
         ]
       },
       {
-        "subtitle": "Vi Editor",
+        "title": "Vi Editor",
         "questions": [
           {
             "question": "What does the 'vi' command do?",
@@ -1329,7 +1329,7 @@
         ]
       },
       {
-        "subtitle": "Movement Commands",
+        "title": "Movement Commands",
         "questions": [
           {
             "question": "Which key combination is used to hold and press for the backspace function?",
